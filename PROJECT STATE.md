@@ -1,0 +1,240 @@
+# QWAV — PROJECT STATE
+
+**For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
+
+**Last updated:** 2026-05-11 | **Session:** Strategy Recalibration | **Changelog:** `CHANGELOG.md`
+
+---
+
+## 1. PROJECT IDENTITY
+
+**QWAV — Ultrametric Quantum Computing & AI.** Replace Archimedean (continuous) geometry with $p$-adic ultrametric (tree-based) geometry to achieve:
+- **Passive fault tolerance** in quantum computing (geometric error suppression, no active QEC, 4 K operation)
+- **Glass-box AI** (traceable geometric decision paths through Bruhat–Tits trees)
+
+**Founder:** Rowan Brad Quni-Gudzinas — solo, independent, no PhD, no institutional affiliation. 300+ open-access publications. Patent portfolio. 20+ years of cross-domain execution (AARP, Empowering Change, FHWA, Deloitte).
+
+**Core thesis (one sentence):** Quantum computing is stalled not because of bad engineering but because of a bad mathematical assumption — that space is continuous; ultrametric geometry corrects that assumption.
+
+---
+
+## 2. CURRENT STATUS SNAPSHOT
+
+| Dimension | Status |
+|:----------|:-------|
+| **Applications submitted** | 3 (VSD, FRO, EWOR — all May 2026, all pending) |
+| **Revenue** | $0 |
+| **Team** | Solo founder |
+| **Experimental validation** | None (no lab access, no collaborator) |
+| **Computational validation** | Not yet built (Tier 0 simulation planned) |
+| **Patent portfolio** | Provisional patents exist; timeline unspecified; conversion to PCT not yet done |
+| **Publications** | 300+ open-access on Zenodo, ResearchGate, SSRN |
+| **Funding raised** | $0 |
+| **Active documents** | 13 files in `QWAV/` directory |
+
+---
+
+## 3. KEY CONSTRAINTS (Non-Negotiable Design Decisions)
+
+These are NOT gaps to be closed — they are the path. Do not suggest pivoting away from them.
+
+| Constraint | Rationale |
+|:-----------|:----------|
+| **No lab experiments** | No lab access. All "experiments" must be computational/simulation-based (Tier 0) or synthesized from known parameters and theory. This is legitimate — computational physics is a real field. |
+| **No peer review** | Academic gatekeeping has repeatedly rejected this work. Peer review is considered broken and dying. The publishing strategy is open-access only (Zenodo, ResearchGate, SSRN, arXiv). Credibility comes from substance and falsifiable predictions, not journal acceptance. |
+| **Substance-first evaluation** | Target ONLY individuals and programs that evaluate on content, not credentials. Do not waste time on audiences that require institutional affiliation, PhDs, or peer-reviewed publications. |
+| **Written-only path** | The "Introvert's Path" is the path. No networking, no live pitching, no conference schmoozing. All communication is written. Applications are assembled from the modular library (M1–M12). |
+| **Solo founder** | No team-building aspirations at this stage. If collaborators emerge organically through the work, that's fine — but team-building is not a goal. |
+
+---
+
+## 4. WHAT'S BEEN TRIED
+
+### 4.1 Applications Submitted (May 2026)
+
+| Application | Organization | Type | Status |
+|:------------|:-------------|:-----|:-------|
+| Venture Science Doctorate (VSD) | Deep Science Ventures College | Venture-creation PhD (computation) | Pending |
+| FRO Abstract | Convergent Research | Focused Research Organization ($20–50M) | Pending |
+| EWOR Fellowship | EWOR | Fellowship for outlier founders | Pending |
+
+### 4.2 What's Been Rejected / Abandoned
+
+| Path | Why Abandoned |
+|:-----|:--------------|
+| **Traditional academic publishing (peer-reviewed journals)** | Repeated rejection by gatekeepers. System considered broken. |
+| **University PhD programs** | Requires institutional conformity. Work doesn't fit within any single discipline. |
+| **VC / accelerator path** | Requires live pitching, networking, team-building. Misaligned with introvert path. |
+| **Experimental validation via lab collaboration** | No lab access. No experimental collaborator. Not currently pursuable. |
+
+---
+
+## 5. WHAT'S WORKED
+
+| Approach | Evidence |
+|:---------|:---------|
+| **Written applications** | Three submitted in May 2026. All felt easy. The process is sustainable. |
+| **Library-based assembly** | M1–M12 narrative modules enable rapid application construction. Reuse over rewrite. |
+| **Open-access publishing** | 300+ documents on Zenodo, ResearchGate, SSRN. No paywalls. Anyone can verify. |
+| **The introvert rhythm** | Write → Submit → Wait → Repeat. Energizing, not draining. |
+| **Honest self-assessment** | The Honest Investment Assessment (5.4/10) builds trust by acknowledging gaps upfront. |
+
+---
+
+## 6. WHAT HASN'T WORKED
+
+| Approach | Why It Failed |
+|:---------|:--------------|
+| **Passive "publish and hope"** | 300 papers haven't organically attracted experimental collaborators. Active outreach needed (but only via written channels). |
+| **Credential-based credibility** | No PhD, no institution — traditional gatekeepers reject on this basis. |
+| **Peer-reviewed publishing** | Gatekeepers rejected. The 300+ open-access corpus exists BECAUSE traditional publishing was blocked. |
+| **Volume alone as credibility** | 300 papers is impressive but hasn't converted to funding or collaborators. The 301st paper won't do what the first 300 didn't without a different approach. |
+
+---
+
+## 7. IMMEDIATE NEXT STEPS (Prioritized)
+
+### Priority 1: Build Tier 0 Computational Validation
+**What:** Python simulation demonstrating ultrametric error confinement in Bruhat–Tits tree circuits vs. standard (Archimedean/flat) circuits.
+**Why:** Closes the gap between "theory" and "evidence" without requiring a lab. Produces shareable, reproducible data.
+**Deliverable:** Runnable Python script(s) + output data + plots + writeup.
+**Status:** NOT STARTED.
+**Blocked by:** Nothing. Can be built entirely in code.
+
+### Priority 2: Submit Emergent Ventures Application
+**What:** 1-page proposal for Tyler Cowen's moonshot grant program.
+**Why:** EV rewards originality over credentials. Written application. Rolling deadline. Aligned with the path.
+**Status:** NOT STARTED. Listed as Priority 1 in NEXT STEPS.
+**Blocked by:** Nothing. Library has all needed modules.
+
+### Priority 3: Submit Foresight Institute Application
+**What:** Fellowship or grant application for frontier technology.
+**Why:** Foresight evaluates ideas, not pedigrees. Long-term impact focus. Written application.
+**Status:** NOT STARTED. Listed as Priority 2 in NEXT STEPS.
+**Blocked by:** Nothing. Library has all needed modules.
+
+### Priority 4: IP Portfolio — Maintained, Not Expanded
+
+**Status (2026-05-11):** COMPLETE AUDIT + REORGANIZATION. See `strategy/ip-strategic-plan.md` for full plan and `strategy/0.1.md` for the ultrametric encoding provisional outline.
+
+**What was done:**
+- Full inventory of 1,194 files across 25 draft patent packages at `G:\My Drive\Patents\`
+- 25 packages classified by QWAV relevance (cross-referenced against Technical Deep-Dive)
+- 770 dead/off-path files archived to `G:\My Drive\Archive\Patents\` with searchable INDEX.md
+- Patents directory reorganized into 6 clean categories (01_FILING_READY through 06_TBD)
+- 55 previously deleted files recovered via git (Bruhat-Tits Processor, Invariant Geometric Structure, Morita Gamma)
+- Ultrametric Bruhat-Tits encoding provisional outline drafted (`strategy/0.1.md` — 17 claims)
+
+**Current portfolio:**
+
+| Category | Count | Key Assets |
+|:---------|:------|:-----------|
+| **FILING-READY** | 1 package / 20 files | High-Temperature Topological Chiral — $45^\circ$ twisted Bi-2212 bilayer, chiral $d+id'$ phase, $\Delta \approx 25$ meV gap, 4K operation. 12 claims drafted. Exact match to QWAV predictions. |
+| **DEVELOP** | 3 packages / 348 files | Topological Computing Systems (chiral subset), 63940352 (twistronic), 2025-12-02 QIP |
+| **FOUNDATIONS** | 1 package / 24 files | Number-Theoretic Pattern Operations |
+| **TBD** | 1 package / 31 files | Twisted Bi-2212 HTS materials |
+| **ARCHIVED** | 770 files | 11 searchable categories at `G:\My Drive\Archive\Patents\` |
+| **UNPROTECTED** | 0 | The ultrametric encoding mechanism itself has ZERO patent protection — outline exists but not filed |
+
+**Filing recommendation (brutally honest):**
+
+| Option | Cost | Expected Net Value | Verdict |
+|:-------|:-----|:-------------------|:--------|
+| File High-Temp ONLY | $325 | **-$453** (low scenario), +$59 (med scenario) | File IF $325 is disposable AND you need priority-date hedge for VSD/FRO/EWOR |
+| File BOTH | $650 | **-$868** | DO NOT — doubles certain loss |
+| File NOTHING | $0 | $0 | Reasonable — wait for application outcomes |
+
+**The $6,000 lesson:** Estimated 18 previous provisionals were filed at ~$325 each. All expired. None converted. Root cause: no 12-month conversion plan existed for any of them. **The rule going forward: DO NOT FILE unless you can answer "How will I fund non-provisional conversion within 12 months?" with a specific dollar amount and source.**
+
+**Realistic conversion probability (quantitative):** 5.1% (depends entirely on VSD/FRO/EWOR acceptance). Probability of eventual licensing: 0.26%. At these odds, filing is a lottery ticket, not an investment. File ONE provisional ($325) as a priority-date hedge only if the money is genuinely disposable.
+
+**Next IP actions:**
+1. [ ] Decide: file High-Temp provisional ($325) or wait for VSD/FRO/EWOR outcomes?
+2. [ ] Draft the ultrametric encoding provisional (outline exists at `strategy/0.1.md`) but DO NOT FILE until conversion path exists
+3. [ ] If VSD/FRO/EWOR accepts: immediately file High-Temp to establish pre-acceptance priority date
+4. [ ] Quarterly IP review: add to SPRINT.md calendar
+
+### Priority 5: Active Written Outreach
+**What:** Send written proposals to 20+ individuals/programs that evaluate on substance.
+**Why:** The "publish and hope" strategy hasn't converted. Direct written outreach to specific targets may.
+**Status:** NOT STARTED.
+**Blocked by:** Need to build target list. Computational validation data would strengthen outreach.
+
+---
+
+## 8. LONGER-TERM PATH
+
+```
+NOW ──────► Tier 0 Simulation ──────► Emergent Ventures ──────► More applications
+               (3–6 weeks)              (rolling submission)        (Foresight, SBIR, etc.)
+                                             │
+                                             ▼
+                                      If funded: PCT patents +
+                                      more computational validation
+                                             │
+                                             ▼
+                                      Written outreach to licensees
+                                      (Strategy B: IP-Only)
+```
+
+**If nothing gets funded:** Continue the Write → Submit → Wait → Repeat cycle. The library sharpens with each iteration. Computational validation data compounds. The path is persistence, not pivot.
+
+---
+
+## 9. KNOWN GAPS (Acknowledged, Not Being Fixed)
+
+| Gap | Why Not Being Fixed |
+|:----|:--------------------|
+| No experimental validation | No lab access. Computational validation is the substitute. |
+| No team | Solo by design. Team-building would require networking, which is rejected. |
+| No revenue | Pre-validation. Revenue requires either funding or licensing. |
+| No peer-reviewed publications | Peer review rejected on principle. Open-access is the publishing model. |
+| Patent timeline unspecified | Unknown when provisionals were filed. Needs investigation. |
+
+---
+
+## 10. DOCUMENTATION MAP
+
+### Active Files (QWAV directory — 13 files, soon 15)
+
+| File | Purpose | Status |
+|:-----|:--------|:-------|
+| `README.md` | Quick reference index | Updated 2026-05-11 |
+| `PROJECT STATE.md` | **THIS FILE** — state for future LLM sessions | Created 2026-05-11 |
+| `CHANGELOG.md` | Track all changes to the library | Created 2026-05-11 |
+| `QA - Narrative Modules and Intellectual Defense.md` | Core assertions, M1–M12 modules, Q1–Q7, one-page case | Updated 2026-05-11 |
+| `Pitch Deck - QWAV Ultrametric Computing.md` | 12-slide overview | Updated 2026-05-11 |
+| `NEXT STEPS - From Library to Reality.md` | Application pipeline and targets | Updated 2026-05-11 |
+| `An Introvert's Deep-Tech Startup Path.md` | Philosophy essay — the written-first strategy | Updated 2026-05-11 |
+| `strategy/Technical Deep-Dive - Ultrametric Quantum Computing and AI.md` | Full technical case | Unchanged (already strong) |
+| `strategy/Experimental Validation Roadmap.md` | Validation plan — now centers Tier 0 | **REWRITTEN** 2026-05-11 |
+| `strategy/Honest Investment Assessment.md` | Self-assessment scorecard | Updated 2026-05-11 |
+| `strategy/IP-Only Licensing Strategy.md` | Strategy B: CERN model | Updated 2026-05-11 |
+| `strategy/External Sources and Citation Map.md` | Evidence and source tracing | Updated 2026-05-11 |
+| `people/ROWAN BRAD QUNI RESUME.md` | Founder resume (markdown) | Unchanged |
+| `people/Rowan Brad Quni-Gudzinas Resume.pdf` | Founder resume (PDF) | Unchanged |
+| `.gitignore` | Git ignore rules | Unchanged |
+
+### Reference Files (Outside QWAV)
+
+| Location | Content |
+|:---------|:--------|
+| `Obsidian/releases/2026/05/` (external research releases) | Release documents — primary technical references |
+| local archive (not in public repo) | Archived prior versions of QWAV documents |
+
+---
+
+## 11. HOW TO USE THIS DOCUMENT (For Future LLM Sessions)
+
+1. **Read this file first** — it contains the full project state
+2. **Read `CHANGELOG.md`** for the history of changes
+3. **Read `README.md`** for the quick reference
+4. **Check the "Immediate Next Steps" section** for what to work on
+5. **Do NOT suggest:** lab experiments, peer review, networking, team-building, VC path, PhD programs, or pivoting away from the written-first strategy
+6. **DO suggest:** computational validation, mathematical deepening, written applications to substance-first programs, document improvements, open-access publishing
+7. **Update this file** at the end of every session — especially the Current Status, Next Steps, and What's Been Tried sections
+8. **Add entries to `CHANGELOG.md`** for every file changed
+
+---
+
+*PROJECT STATE v1.0 — Created 2026-05-11 during Strategy Recalibration session.*

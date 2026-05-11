@@ -1,0 +1,16 @@
+# Generated outputs
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+simulations/__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+_file_listing.txt
+*.tmp
