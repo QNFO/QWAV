@@ -80,7 +80,7 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 - [Foresight Institute](applications/foresight-institute.md) — AI for Science & Safety (P3)
 
 ### Briefings
-- [Richard Goodman / apoth3osis Meet-and-Greet](briefings/Richard%20Goodman%20-%20apoth3osis%20Meet-and-Greet.md) — Formal verification collaboration
+- [Richard Goodman / apoth3osis Agenda](briefings/Richard%20Goodman%20-%20apoth3osis%20Agenda%20(Shareable).md) — Formal verification collaboration
 
 ### People
 - [Resume (Markdown)](people/ROWAN%20BRAD%20QUNI%20RESUME.md)
@@ -96,28 +96,28 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 |:---------|:------|
 | "What's the project state & next steps?" | [SPRINT.md](SPRINT.md) (read this first in any new session) |
 | "What's changed?" | [CHANGELOG.md](CHANGELOG.md) |
-| "What's the core assertion?" | [QA.md §1](QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) |
-| "What are the narrative modules?" | [QA.md §3](QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — M1–M12 reusable blocks |
-| "How do I answer common questions?" | [QA.md §4](QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — Q1–Q8 |
+| "What's the core assertion?" | [QA.md §1](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) |
+| "What are the narrative modules?" | [QA.md §3](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — M1–M12 reusable blocks |
+| "How do I answer common questions?" | [QA.md §4](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — Q1–Q8 |
 | "What's the full technical argument?" | [Technical Deep-Dive](strategy/Technical%20Deep-Dive%20-%20Ultrametric%20Quantum%20Computing%20and%20AI.md) |
 | "How would computational validation work?" | [Experimental Validation Roadmap](strategy/Experimental%20Validation%20Roadmap%20-%20Ultrametric%20Quantum%20Computing.md) |
 | "What are the honest gaps?" | [Honest Investment Assessment](strategy/Honest%20Investment%20Assessment%20-%20The%20100K%20Question.md) |
 | "What's the non-VC path?" | [IP-Only Licensing Strategy](strategy/IP-Only%20Licensing%20Strategy%20-%20Strategy%20B%20CERN%20Model.md) |
 | "Where's the evidence?" | [External Sources & Citation Map](strategy/External%20Sources%20and%20Citation%20Map.md) |
-| "What's the path forward?" | [NEXT STEPS](NEXT%20STEPS%20-%20From%20Library%20to%20Reality.md) |
+| "What's the path forward?" | [NEXT STEPS](strategy/NEXT%20STEPS%20-%20From%20Library%20to%20Reality.md) |
 | "What's been submitted? What's next?" | [SPRINT.md](SPRINT.md) → Current State / Backlog |
-| "I need a deck to share" | [Pitch Deck](Pitch%20Deck%20-%20QWAV%20Ultrametric%20Computing.md) |
+| "I need a deck to share" | [Pitch Deck](strategy/Pitch%20Deck%20-%20QWAV%20Ultrametric%20Computing.md) |
 | "Who is Rowan Brad Quni-Gudzinas?" | [Resume](people/ROWAN%20BRAD%20QUNI%20RESUME.md) |
-| "What's the full philosophy?" | [An Introvert's Path](An%20Introvert's%20Deep-Tech%20Startup%20Path.md) |
+| "What's the full philosophy?" | [An Introvert's Path](strategy/An%20Introvert's%20Deep-Tech%20Startup%20Path.md) |
 | "How do I run the simulations?" | [Simulations README](simulations/README.md) |
-| "What's the formal verification opportunity?" | [Richard Goodman Briefing](briefings/Richard%20Goodman%20-%20apoth3osis%20Meet-and-Greet.md) |
+| "What's the formal verification opportunity?" | [Richard Goodman Briefing](briefings/Richard%20Goodman%20-%20apoth3osis%20Agenda%20(Shareable).md) |
 | "How do I cite / reference this?" | [External Sources](strategy/External%20Sources%20and%20Citation%20Map.md) |
 
 ---
 
 ## FAQ QUICK-INDEX
 
-Full responses in [QA — Narrative Modules & Intellectual Defense §4](QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md).
+Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md).
 
 | Code | Question | Short Answer |
 |:-----|:---------|:-------------|
@@ -132,4 +132,4 @@ Full responses in [QA — Narrative Modules & Intellectual Defense §4](QA%20-%2
 
 ---
 
-*README v7.0 — [View on GitHub Pages](https://qnfo.github.io/QWAV/). 29 files. Three applications submitted. The introvert path works.*
+*README v7.1 — [View on GitHub Pages](https://qnfo.github.io/QWAV/). Root cleaned. 31 tracked files. Three applications submitted. The introvert path works.*

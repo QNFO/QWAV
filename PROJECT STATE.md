@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-11 | **Session:** Strategy Recalibration | **Changelog:** `CHANGELOG.md`
+**Last updated:** 2026-05-12 | **Session:** Root Cleanup & Agenda Review | **Changelog:** `CHANGELOG.md`
 
 ---
 
@@ -30,7 +30,7 @@
 | **Patent portfolio** | Provisional patents exist; timeline unspecified; conversion to PCT not yet done |
 | **Publications** | 300+ open-access on Zenodo, ResearchGate, SSRN |
 | **Funding raised** | $0 |
-| **Active documents** | 13 files in `QWAV/` directory |
+| **Active documents** | 31 files in `QWAV/` directory (root cleaned: 8 docs + 6 subdirectories) |
 
 ---
 
@@ -195,25 +195,49 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 
 ## 10. DOCUMENTATION MAP
 
-### Active Files (QWAV directory — 13 files, soon 15)
+### Active Files (QWAV directory — 31 files across root + 6 subdirectories)
+
+**Root (8 docs):**
 
 | File | Purpose | Status |
 |:-----|:--------|:-------|
-| `README.md` | Quick reference index | Updated 2026-05-11 |
-| `PROJECT STATE.md` | **THIS FILE** — state for future LLM sessions | Created 2026-05-11 |
-| `CHANGELOG.md` | Track all changes to the library | Created 2026-05-11 |
-| `QA - Narrative Modules and Intellectual Defense.md` | Core assertions, M1–M12 modules, Q1–Q7, one-page case | Updated 2026-05-11 |
-| `Pitch Deck - QWAV Ultrametric Computing.md` | 12-slide overview | Updated 2026-05-11 |
-| `NEXT STEPS - From Library to Reality.md` | Application pipeline and targets | Updated 2026-05-11 |
-| `An Introvert's Deep-Tech Startup Path.md` | Philosophy essay — the written-first strategy | Updated 2026-05-11 |
-| `strategy/Technical Deep-Dive - Ultrametric Quantum Computing and AI.md` | Full technical case | Unchanged (already strong) |
-| `strategy/Experimental Validation Roadmap.md` | Validation plan — now centers Tier 0 | **REWRITTEN** 2026-05-11 |
-| `strategy/Honest Investment Assessment.md` | Self-assessment scorecard | Updated 2026-05-11 |
-| `strategy/IP-Only Licensing Strategy.md` | Strategy B: CERN model | Updated 2026-05-11 |
+| `README.md` | Quick reference index | Updated 2026-05-12 |
+| `PROJECT STATE.md` | **THIS FILE** — state for future LLM sessions | Updated 2026-05-12 |
+| `SPRINT.md` | Sprint tracker and handoff document | Updated 2026-05-12 |
+| `CHANGELOG.md` | Track all changes to the library | Updated 2026-05-12 |
+| `BACKLOG.md` | Prioritized future work queue | Created 2026-05-12 |
+| `LEARNINGS.md` | Project-specific lessons (kaizen) | Created 2026-05-12 |
+| `DECISIONS.md` | Architecture/design decisions with rationale | Created 2026-05-12 |
+| `index.md` | Jekyll website landing page | Unchanged |
+
+**strategy/ (13 files):**
+
+| File | Purpose | Status |
+|:-----|:--------|:-------|
+| `strategy/QA - Narrative Modules and Intellectual Defense.md` | Core assertions, M1–M12 modules, Q1–Q7, one-page case | Updated 2026-05-11 |
+| `strategy/Pitch Deck - QWAV Ultrametric Computing.md` | 12-slide overview | Updated 2026-05-11 |
+| `strategy/NEXT STEPS - From Library to Reality.md` | Application pipeline and targets | Updated 2026-05-11 |
+| `strategy/An Introvert's Deep-Tech Startup Path.md` | Philosophy essay — the written-first strategy | Updated 2026-05-11 |
+| `strategy/Technical Deep-Dive - Ultrametric Quantum Computing and AI.md` | Full technical case | Unchanged |
+| `strategy/Experimental Validation Roadmap - Ultrametric Quantum Computing.md` | Validation plan — centers Tier 0 | Updated 2026-05-11 |
+| `strategy/Honest Investment Assessment - The 100K Question.md` | Self-assessment scorecard | Updated 2026-05-11 |
+| `strategy/IP-Only Licensing Strategy - Strategy B CERN Model.md` | Strategy B: CERN model | Updated 2026-05-11 |
 | `strategy/External Sources and Citation Map.md` | Evidence and source tracing | Updated 2026-05-11 |
-| `people/ROWAN BRAD QUNI RESUME.md` | Founder resume (markdown) | Unchanged |
-| `people/Rowan Brad Quni-Gudzinas Resume.pdf` | Founder resume (PDF) | Unchanged |
-| `.gitignore` | Git ignore rules | Unchanged |
+| `strategy/mathematical-foundations.md` | Formal definitions, 4 theorems, Lean priority table | Created 2026-05-11 |
+| `strategy/ip-strategic-plan.md` | Full 8-step IP strategic plan | Created 2026-05-11 |
+| `strategy/0.1.md` | Ultrametric encoding provisional outline (17 claims) | Created 2026-05-11 |
+| `strategy/_cleanup.py` | Cleanup utility | Created 2026-05-11 |
+
+**briefings/ (4 files):**
+
+| File | Purpose | Status |
+|:-----|:--------|:-------|
+| `briefings/Richard Goodman - apoth3osis Agenda (Shareable).md` | Formal verification meet-and-greet agenda | Created 2026-05-12 |
+| `briefings/Richard Goodman - apoth3osis Agenda (Shareable).docx` | Same, Word format | Created 2026-05-12 |
+| `briefings/Richard Goodman - apoth3osis Agenda (Shareable).pdf` | Same, PDF format | Created 2026-05-12 |
+| `briefings/business-docs-template.tex` | LaTeX template for business documents | Created 2026-05-12 |
+
+**Other subdirectories:** `applications/` (2), `papers/` (1), `people/` (2), `simulations/` (10+) — unchanged.
 
 ### Reference Files (Outside QWAV)
 

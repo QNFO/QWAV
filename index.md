@@ -109,7 +109,7 @@ This project is fully open-source. Every document, simulation, strategy paper, a
 - [Resume](people/ROWAN%20BRAD%20QUNI%20RESUME.md) — Rowan Brad Quni-Gudzinas
 
 ### Briefings
-- [Richard Goodman / apoth3osis](briefings/Richard%20Goodman%20-%20apoth3osis%20Meet-and-Greet.md) — Formal verification collaboration opportunity
+- [Richard Goodman / apoth3osis](briefings/Richard%20Goodman%20-%20apoth3osis%20Agenda%20(Shareable).md) — Formal verification collaboration opportunity
 
 ---
 

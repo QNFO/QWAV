@@ -4,6 +4,40 @@
 
 ---
 
+## [v2.10] — 2026-05-12 — Root Cleanup & Agenda Review
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **Briefings cleanup** | Deleted 17 obsolete files: old Richard Goodman meeting docs (10 files) and helper/conversion scripts (7 files). Added final `apoth3osis Agenda (Shareable)` in 3 formats (`.md`, `.docx`, `.pdf`) + `business-docs-template.tex`. |
+| **Root directory decluttered** | Moved 4 standalone docs to `strategy/`: `An Introvert's Deep-Tech Startup Path.md`, `NEXT STEPS - From Library to Reality.md`, `Pitch Deck - QWAV Ultrametric Computing.md`, `QA - Narrative Modules and Intellectual Defense.md`. Root now contains only 7 project docs + `index.md` (Jekyll). |
+| **Project documentation completed** | Created BACKLOG.md, LEARNINGS.md, DECISIONS.md. All 7 required docs per Section 0.7 now present. |
+| **Cross-reference audit** | Updated all broken/moved links in README.md, SPRINT.md, PROJECT STATE.md, index.md. All `Meet-and-Greet` references updated to `Agenda (Shareable)`. All root-level file links updated to `strategy/` prefix. |
+| **Git hygiene** | Created `feature/root-cleanup-and-agenda-review` branch. 4 clean commits with descriptive messages. |
+
+### Files Changed
+| File | Change |
+|:-----|:-------|
+| `briefings/` (21 files) | 17 deletions (old agenda + helpers), 4 additions (final agenda + template) |
+| `strategy/` (4 files) | Moved from root: Introvert's Path, NEXT STEPS, Pitch Deck, QA |
+| `BACKLOG.md` | CREATE |
+| `LEARNINGS.md` | CREATE |
+| `DECISIONS.md` | CREATE |
+| `README.md` | EDIT — updated links, file count, version to v7.1 |
+| `SPRINT.md` | EDIT — updated reference, added completed items 18-21 |
+| `PROJECT STATE.md` | EDIT — updated file count, documentation map, session header |
+| `index.md` | EDIT — updated Meet-and-Greet link |
+| `CHANGELOG.md` | EDIT — this entry |
+| `.gitignore` | Unchanged |
+
+### Key Decisions
+- D1–D8 documented in `DECISIONS.md` (all pre-existing, now formally recorded)
+- D7: No patent filings without funded conversion plan
+- D8: Richard Goodman Shape #1 — Lean 4 formalization transport
+
+---
+
 ## [v2.9] — 2026-05-11 — IP Portfolio Audit & Reorganization
 
 ### Completed
