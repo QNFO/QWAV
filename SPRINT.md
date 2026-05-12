@@ -45,6 +45,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 19 | Richard Goodman agenda reviewed & briefings cleaned | Old agenda versions (10 files) + helper scripts (7 files) deleted. Final `apoth3osis Agenda (Shareable)` in 3 formats + `business-docs-template.tex` committed. | 2026-05-12 |
 | 20 | Project documentation complete | BACKLOG.md, LEARNINGS.md, DECISIONS.md created. All 7 required docs now present (Section 0.7). | 2026-05-12 |
 | 21 | Cross-reference audit | All references to moved/deleted files updated in README.md, SPRINT.md, PROJECT STATE.md. No broken links remain. | 2026-05-12 |
+| 22 | Paper & simulations moved to standalone project | `papers/` and `simulations/` extracted to `G:\My Drive\projects\Validation of Ultrametric Error Confinement\`. 29 files remaining in QWAV. | 2026-05-12 |
 
 ---
 

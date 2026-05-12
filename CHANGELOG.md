@@ -4,6 +4,32 @@
 
 ---
 
+## [v2.11] — 2026-05-12 — Paper & Simulations Moved to Standalone Project
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **Paper extracted** | `papers/ultrametric-error-confinement.md` moved to `G:\My Drive\projects\Validation of Ultrametric Error Confinement\` |
+| **Simulations extracted** | Full Tier 0 simulation suite (12 files) moved to same project |
+| **QWAV cleaned** | `papers/` and `simulations/` directories removed from QWAV. 29 tracked files remaining. |
+
+### Files Changed
+| File | Change |
+|:-----|:-------|
+| `papers/ultrametric-error-confinement.md` | DELETE — moved to standalone project |
+| `simulations/` (12 files) | DELETE — moved to standalone project |
+| `README.md` | EDIT — removed Simulations and Papers sections, updated QUICK LOOKUP, footer to v7.3 |
+| `PROJECT STATE.md` | EDIT — updated file counts, subdirectory count |
+| `CHANGELOG.md` | EDIT — this entry |
+| `SPRINT.md` | EDIT — added completed item 22 |
+| `strategy/mathematical-foundations.md` | EDIT — updated citation reference |
+
+### New Project
+`G:\My Drive\projects\Validation of Ultrametric Error Confinement\` — standalone repo with paper, simulations, 7 project docs, .gitignore. Initial commit: c4b98ef.
+
+---
+
 ## [v2.10] — 2026-05-12 — Root Cleanup & Agenda Review
 
 ### Completed

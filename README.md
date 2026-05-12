@@ -60,20 +60,6 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 - [IP-Only Licensing Strategy](strategy/IP-Only%20Licensing%20Strategy%20-%20Strategy%20B%20CERN%20Model.md) — Strategy B: non-VC path
 - [External Sources & Citation Map](strategy/External%20Sources%20and%20Citation%20Map.md) — Evidence and source tracking
 
-### Simulations
-- [Tier 0 Simulation Suite](simulations/README.md) — Error confinement (0A), barrier scaling (0B)
-- [btree.py](simulations/btree.py) — Bruhat-Tits tree construction
-- [encoding.py](simulations/encoding.py) — State encoding
-- [noise.py](simulations/noise.py) — Error models
-- [metrics.py](simulations/metrics.py) — Measurement utilities
-- [experiment_0a.py](simulations/experiment_0a.py) — Error confinement experiment
-- [experiment_0b.py](simulations/experiment_0b.py) — Energy barrier experiment
-- [plots.py](simulations/plots.py) — Visualization
-- [Error Confinement Plot](simulations/plots/exp0a_error_confinement.png)
-
-### Papers
-- [Ultrametric Error Confinement](papers/ultrametric-error-confinement.md) — arXiv-ready paper: Tier 0 results, threshold theorem conjecture
-
 ### Applications
 - [Emergent Ventures](applications/emergent-ventures.md) — 1-page proposal (P2)
 - [Foresight Institute](applications/foresight-institute.md) — AI for Science & Safety (P3)
@@ -108,7 +94,6 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 | "I need a deck to share" | [Pitch Deck](strategy/Pitch%20Deck%20-%20QWAV%20Ultrametric%20Computing.md) |
 | "Who is Rowan Brad Quni-Gudzinas?" | [Resume](people/ROWAN%20BRAD%20QUNI%20RESUME.md) |
 | "What's the full philosophy?" | [An Introvert's Path](strategy/An%20Introvert's%20Deep-Tech%20Startup%20Path.md) |
-| "How do I run the simulations?" | [Simulations README](simulations/README.md) |
 | "What's the formal verification opportunity?" | [Richard Goodman Briefing](briefings/Richard%20Goodman%20-%20apoth3osis%20Agenda%20(Shareable).md) |
 | "How do I cite / reference this?" | [External Sources](strategy/External%20Sources%20and%20Citation%20Map.md) |
 
@@ -131,4 +116,4 @@ Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy
 
 ---
 
-*README v7.2 — Root: 7 project docs + 6 subdirectories. 30 tracked files. Three applications submitted. The introvert path works.*
+*README v7.3 — Root: 7 project docs + 4 subdirectories. 18 tracked files. Three applications submitted. The introvert path works.*

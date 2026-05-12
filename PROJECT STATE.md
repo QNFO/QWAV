@@ -30,7 +30,7 @@
 | **Patent portfolio** | Provisional patents exist; timeline unspecified; conversion to PCT not yet done |
 | **Publications** | 300+ open-access on Zenodo, ResearchGate, SSRN |
 | **Funding raised** | $0 |
-| **Active documents** | 30 files in `QWAV/` directory (root cleaned: 7 docs + 6 subdirectories) |
+| **Active documents** | 29 files in `QWAV/` directory (root: 7 docs + 4 subdirectories) |
 
 ---
 
@@ -195,7 +195,7 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 
 ## 10. DOCUMENTATION MAP
 
-### Active Files (QWAV directory — 30 files across root + 6 subdirectories)
+### Active Files (QWAV directory — 29 files across root + 4 subdirectories)
 
 **Root (7 docs):**
 
@@ -236,7 +236,7 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 | `briefings/Richard Goodman - apoth3osis Agenda (Shareable).pdf` | Same, PDF format | Created 2026-05-12 |
 | `briefings/business-docs-template.tex` | LaTeX template for business documents | Created 2026-05-12 |
 
-**Other subdirectories:** `applications/` (2), `papers/` (1), `people/` (2), `simulations/` (10+) — unchanged.
+**Other subdirectories:** `applications/` (2), `people/` (2) — unchanged.
 
 ### Reference Files (Outside QWAV)
 

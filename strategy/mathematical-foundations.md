@@ -272,7 +272,7 @@ Bosonic codes (cat codes, Gottesman-Kitaev-Preskill codes) encode information in
 7. Koblitz, N. (1984). *$p$-adic Numbers, $p$-adic Analysis, and Zeta-Functions*. Springer.
 8. Schikhof, W. H. (1984). *Ultrametric Calculus*. Cambridge University Press.
 9. Quni-Gudzinas, R. B. (2025). *Ultrametric Quantum Computation: An MVP Program for Passive Geometric Fault Tolerance*. Self-published.
-10. Quni-Gudzinas, R. B. (2026). Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits. `papers/ultrametric-error-confinement.md`, QWAV repository.
+10. Quni-Gudzinas, R. B. (2026). Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits. QWAV repository — paper moved to `G:\My Drive\projects\Validation of Ultrametric Error Confinement\` for independent refinement.
 
 ---
 
