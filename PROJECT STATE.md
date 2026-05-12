@@ -22,7 +22,7 @@
 
 | Dimension | Status |
 |:----------|:-------|
-| **Applications submitted** | 5 (VSD, FRO, EWOR, Emergent Ventures, Foresight Institute — all May 2026, all pending) |
+| **Applications submitted** | 6 (VSD, FRO, EWOR, Emergent Ventures, Foresight Institute, Harmonic.ai — all May 2026, all pending) |
 | **Revenue** | $0 |
 | **Team** | Solo founder |
 | **Experimental validation** | None (no lab access, no collaborator) |

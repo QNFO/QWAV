@@ -37,6 +37,7 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 | EWOR Fellowship | EWOR | May 2026 | Pending |
 | Emergent Ventures | Mercatus Center | May 2026 | Pending |
 | Foresight Institute | Foresight Institute | May 2026 | Pending |
+| Harmonic.ai | Harmonic | May 2026 | Pending |
 
 **Next targets:** SBIR Phase I, additional fellowship programs, Lean 4 formal verification collaboration.
 
@@ -126,4 +127,4 @@ Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy
 
 ---
 
-*README v7.4 — Root: 8 files (7 docs + .gitignore) + 4 subdirectories. 29 tracked files. Five applications submitted. Tier 0 paper published on Zenodo.*
+*README v7.4 — Root: 8 files (7 docs + .gitignore) + 4 subdirectories. 29 tracked files. Six applications submitted. Tier 0 paper published on Zenodo.*

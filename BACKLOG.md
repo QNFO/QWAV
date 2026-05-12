@@ -31,6 +31,7 @@
 | 2 | FRO Abstract | Convergent Research | Focused Research Org ($20–50M) | ⏳ Pending | May 2026 | Unknown | Abstract stage only |
 | 3 | EWOR Fellowship | EWOR | Fellowship for outlier founders | ⏳ Pending | May 2026 | Unknown | Written application |
 | 4 | Emergent Ventures | Mercatus Center | Moonshot grant | ⏳ Pending | May 2026 | Unknown | Tyler Cowen's program |
+| 5 | Harmonic.ai | Harmonic | Startup database | ⏳ Pending | May 2026 | Rolling | VC discovery platform |
 
 ---
 

@@ -87,7 +87,8 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 3 | EWOR Fellowship | EWOR | Fellowship for outlier founders | ⏳ Pending | May 2026 | Unknown | Written application |
 | 4 | Emergent Ventures | Mercatus Center | Moonshot grant | ✅ Submitted | May 2026 | Rolling | P2 — COMPLETE |
 | 5 | Foresight Institute | Foresight Institute | Fellowship / grant | ✅ Submitted | May 2026 | Varies | P3 — COMPLETE |
-| 6 | SBIR Phase I | US Government | Federal R&D grant | ❌ Not submitted | — | Varies | P9 in backlog |
+| 6 | Harmonic.ai | Harmonic | Startup database / VC discovery | ✅ Submitted | May 2026 | Rolling | Written submission — founder/startup profile for VC discovery |
+| 7 | SBIR Phase I | US Government | Federal R&D grant | ❌ Not submitted | — | Varies | P9 in backlog |
 
 ---
 
