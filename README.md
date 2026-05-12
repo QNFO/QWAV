@@ -38,6 +38,7 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 | Emergent Ventures | Mercatus Center | May 2026 | Pending |
 | Foresight Institute | Foresight Institute | May 2026 | Pending |
 | Harmonic.ai | Harmonic | May 2026 | Pending |
+| LinkedIn Co-Founder & Head of AI | Stealth Startup (LinkedIn Jobs) | May 2026 | Pending |
 
 **Next targets:** SBIR Phase I, additional fellowship programs, Lean 4 formal verification collaboration.
 

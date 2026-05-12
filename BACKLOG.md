@@ -32,6 +32,7 @@
 | 3 | EWOR Fellowship | EWOR | Fellowship for outlier founders | ⏳ Pending | May 2026 | Unknown | Written application |
 | 4 | Emergent Ventures | Mercatus Center | Moonshot grant | ⏳ Pending | May 2026 | Unknown | Tyler Cowen's program |
 | 5 | Harmonic.ai | Harmonic | Startup database | ⏳ Pending | May 2026 | Rolling | VC discovery platform |
+| 6 | LinkedIn Co-Founder & Head of AI | Stealth Startup (LinkedIn Jobs) | Co-founder position | ⏳ Pending | May 2026 | Rolling | Physics-informed AI SaaS for semiconductors. On-site San Jose. Equity-only until funding. ⚠️ Conflicts with D4 (solo founder) + D6 (written-only) if accepted. |
 
 ---
 
