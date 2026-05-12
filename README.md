@@ -131,4 +131,4 @@ Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy
 
 ---
 
-*README v7.2 — [View on GitHub Pages](https://qnfo.github.io/QWAV/). Root cleaned. 30 tracked files. Three applications submitted. The introvert path works.*
+*README v7.2 — Root: 7 project docs + 6 subdirectories. 30 tracked files. Three applications submitted. The introvert path works.*

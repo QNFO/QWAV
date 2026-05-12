@@ -260,4 +260,4 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 
 ---
 
-*PROJECT STATE v1.0 — Created 2026-05-11 during Strategy Recalibration session.*
+*PROJECT STATE v2.1 — Updated 2026-05-12: Root cleanup, agenda review, documentation completion (7/7 docs), index.md deleted.*
