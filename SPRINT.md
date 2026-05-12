@@ -4,7 +4,7 @@
 
 ---
 
-## Current State (2026-05-12 — Post Paper Publication)
+## Current State (2026-05-12 — Post Patent Design)
 
 ### Strategy Summary (Read This First)
 
@@ -45,13 +45,13 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 19 | Richard Goodman agenda reviewed & briefings cleaned | Old agenda versions (10 files) + helper scripts (7 files) deleted. Final `apoth3osis Agenda (Shareable)` in 3 formats + `business-docs-template.tex` committed. | 2026-05-12 |
 | 20 | Project documentation complete | BACKLOG.md, LEARNINGS.md, DECISIONS.md created. All 7 required docs now present (Section 0.7). | 2026-05-12 |
 | 21 | Cross-reference audit | All references to moved/deleted files updated in README.md, SPRINT.md, PROJECT STATE.md. No broken links remain. | 2026-05-12 |
-| 22 | Paper & simulations moved to standalone project | `papers/` and `simulations/` extracted to `G:\My Drive\projects\Validation of Ultrametric Error Confinement\`. 29 files remaining in QWAV. | 2026-05-12 |
+| 23 | Comprehensive patent design + timeline (P7) | `strategy/0.2.md` — Patent timeline documented (existing filings, conversion status, 12-month clock). Comprehensive unified provisional designed: 25 claims spanning quantum hardware (1-8), error correction software (9-15), AI methods (16-22), integrated system (23-25). EV analysis: +$74K expected. Filing held per D7 until funded. | 2026-05-12 |
 
 ---
 
 ### 🔄 IN PROGRESS
 
-*Nothing currently in progress. 🎉 Milestone: Tier 0 simulation paper published on Zenodo (DOI: 10.5281/zenodo.20134944). Next: explore next application targets (SBIR, additional fellowships, or P6 Q-PNA).*
+*Nothing currently in progress. 🎉 Milestones: (1) Tier 0 simulation paper published on Zenodo (DOI: 10.5281/zenodo.20134944). (2) Comprehensive provisional patent designed (25 claims, 3 domains). Next: explore next application targets (SBIR, additional fellowships, or P6 Q-PNA).*
 
 ---
 
@@ -65,7 +65,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P4** | **arXiv/Zenodo paper** | Prepare the UQC architecture as a formal paper for open-access publication. Include Tier 0 simulation results if available. | 2–3 | P1 (ideally) | ✅ DONE (2026-05-11) |
 | **P5** | **Mathematical deepening** | Formal mathematical foundations for Lean 4 formalization. Theorem statements, proof sketches, lemma chain. Bridge between Tier 0 simulation and formal verification. | 2–3 | None | ✅ DONE (2026-05-11) |
 | **P6** | **Q-PNA / AI side** | Specify training mechanism on Bruhat-Tits trees (loss function, backpropagation in discrete space, token calculus verification). Currently the AI side is less developed than quantum. | 2–3 | None | NOT STARTED |
-| **P7** | **Patent timeline** | Research and document: filing dates, conversion status, jurisdictions, key claims, expiration timeline. Current docs say "provisional" without specifics. | 1 | Access to patent records | NOT STARTED |
+| **P7** | **Patent timeline** | Research and document: filing dates, conversion status, jurisdictions, key claims, expiration timeline. Current docs say "provisional" without specifics. | 1 | Access to patent records | ✅ DONE (2026-05-12) — `strategy/0.2.md` |
 | **P8** | **Competitive landscape** | Research: who else works on p-adic/ultrametric quantum computing? If none, document why. If some, differentiate. | 1 | None | NOT STARTED |
 | **P11** | **Richard Goodman / apoth3osis collaboration** | Lean 4 formal verification of ultrametric QEC threshold theorem. "Formalization Transport" (Shape #1). Produces machine-verified proof + co-authored paper. Bypasses peer review and lab experiments. See `briefings/Richard Goodman - apoth3osis Agenda (Shareable).md` for full briefing. | 3-5 (ongoing) | Intro call, IP terms agreed | 🔜 Intro call scheduled |
 | **P12** | **Patents IP strategic plan** | Execute the 8-step plan in strategy/ip-strategic-plan.md. Inventory, organize, assess all 25 draft packages at G:\\My Drive\\Patents\. Classify into Filing-Ready / Develop / Archive. Produce prioritized filing shortlist (max 2-3 provisionals, \). DO NOT move files in bulk. | 2-3 | Full inventory of Patents directory | NOT STARTED |

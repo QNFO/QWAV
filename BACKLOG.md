@@ -11,7 +11,7 @@
 | Priority | Item | Description | Estimated Sessions | Dependencies | Status |
 |:---------|:-----|:------------|:-------------------|:-------------|:-------|
 | **P6** | **Q-PNA / AI side** | Specify training mechanism on Bruhat-Tits trees (loss function, backpropagation in discrete space, token calculus verification). Currently the AI side is less developed than quantum. | 2–3 | None | NOT STARTED |
-| **P7** | **Patent timeline** | Research and document: filing dates, conversion status, jurisdictions, key claims, expiration timeline. Current docs say "provisional" without specifics. | 1 | Access to patent records | NOT STARTED |
+| **P7** | **Patent timeline** | Research and document: filing dates, conversion status, jurisdictions, key claims, expiration timeline. Current docs say "provisional" without specifics. | 1 | Access to patent records | ✅ DONE (2026-05-12) — `strategy/0.2.md` |
 | **P8** | **Competitive landscape** | Research: who else works on $p$-adic/ultrametric quantum computing? If none, document why. If some, differentiate. | 1 | None | NOT STARTED |
 | **P9** | **SBIR Phase I** | Federal small business grant. May require US entity formation. | 2–3 | US entity (possibly) | NOT STARTED |
 | **P10** | **Cold outreach to labs** | Send 10 emails to NV center labs using template from Validation Roadmap. Track responses. This is optional — computational validation may be sufficient. | 1–2 | Email access | NOT STARTED |
@@ -45,3 +45,4 @@
 | P3 | Foresight Institute application | Submitted | 2026-05-11 |
 | P4 | arXiv/Zenodo paper | Published on Zenodo — "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits." DOI: 10.5281/zenodo.20134944. Repo: github.com/QNFO/ultrametric-error-confinement. | 2026-05-12 |
 | P5 | Mathematical foundations | Formal definitions, 4 theorems, lemma chain, Lean formalization priority table | 2026-05-11 |
+| P7 | Patent timeline | `strategy/0.2.md` — Full timeline + comprehensive provisional design (25 claims, 3 domains). Filing held per D7. | 2026-05-12 |

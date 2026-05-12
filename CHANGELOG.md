@@ -4,6 +4,35 @@
 
 ---
 
+## [v2.13] — 2026-05-12 — Comprehensive Patent Design & Timeline (P7)
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **P7: Patent timeline** | Documented existing filings, conversion status, jurisdictions, 12-month clock across ~18 provisionals and 25-package portfolio. |
+| **Comprehensive provisional designed** | `strategy/0.2.md` — Unified patent covering all three QWAV domains: quantum hardware (claims 1-8), error correction software method (claims 9-15), AI methods on ultrametric structures (claims 16-22), integrated system (claims 23-25). Total: 25 claims. |
+| **EV analysis** | Expected net value: +$74K (vs. -$453 to +$59 for quantum-only per D7). Filing held per D7 until at least one application funded or conversion partner secured. |
+| **Pre-filing checklist** | 14 items prepared: figures, ADS, cover sheet, micro-entity verification, 12-month clock tracking, High-Temp Chiral cross-reference. |
+
+### Files Changed
+| File | Change |
+|:-----|:-------|
+| `strategy/0.2.md` | CREATE — Comprehensive patent timeline + 25-claim provisional design (430 lines, 33K chars) |
+| `SPRINT.md` | EDIT — Added completed item 23, updated P7 backlog status, state header |
+| `PROJECT STATE.md` | EDIT — Session header updated |
+| `CHANGELOG.md` | EDIT — This entry |
+| `BACKLOG.md` | EDIT — P7 status updated |
+
+### Key Metrics
+- **Patent claims designed:** 25 (up from 17 in 0.1.md)
+- **Domains covered:** 3 (quantum hardware + error correction software + AI)
+- **Filing cost if triggered:** $325 (micro-entity provisional)
+- **Filing trigger:** At least one application funded $\to$ file within 24 hours
+- **Patentability clock:** Paper published ~2026-05-12 $\to$ 12-month grace period expires ~2027-05-12
+
+---
+
 ## [v2.12] — 2026-05-12 — Paper Published on Zenodo
 
 ### Completed

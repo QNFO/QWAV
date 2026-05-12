@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-12 | **Session:** Paper release update | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md`
+**Last updated:** 2026-05-12 | **Session:** Patent design (P7) | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md`
 
 ---
 

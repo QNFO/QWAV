@@ -71,6 +71,9 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 - [Honest Investment Assessment](strategy/Honest%20Investment%20Assessment%20-%20The%20100K%20Question.md) — Self-assessment and gaps
 - [IP-Only Licensing Strategy](strategy/IP-Only%20Licensing%20Strategy%20-%20Strategy%20B%20CERN%20Model.md) — Strategy B: non-VC path
 - [External Sources & Citation Map](strategy/External%20Sources%20and%20Citation%20Map.md) — Evidence and source tracking
+- [IP Strategic Plan](strategy/ip-strategic-plan.md) — Full IP portfolio strategy
+- [0.1.md — Patent Outline (Quantum)](strategy/0.1.md) — Ultrametric encoding provisional (17 claims)
+- [0.2.md — Patent Timeline & Design](strategy/0.2.md) — Timeline + comprehensive provisional (25 claims, 3 domains)
 
 ### Applications
 - [Emergent Ventures](applications/emergent-ventures.md) — 1-page proposal (P2)
