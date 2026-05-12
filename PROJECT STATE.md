@@ -30,7 +30,7 @@
 | **Patent portfolio** | Provisional patents exist; timeline unspecified; conversion to PCT not yet done |
 | **Publications** | 300+ open-access on Zenodo, ResearchGate, SSRN |
 | **Funding raised** | $0 |
-| **Active documents** | 31 files in `QWAV/` directory (root cleaned: 8 docs + 6 subdirectories) |
+| **Active documents** | 30 files in `QWAV/` directory (root cleaned: 7 docs + 6 subdirectories) |
 
 ---
 
@@ -195,9 +195,9 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 
 ## 10. DOCUMENTATION MAP
 
-### Active Files (QWAV directory — 31 files across root + 6 subdirectories)
+### Active Files (QWAV directory — 30 files across root + 6 subdirectories)
 
-**Root (8 docs):**
+**Root (7 docs):**
 
 | File | Purpose | Status |
 |:-----|:--------|:-------|
@@ -208,7 +208,6 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 | `BACKLOG.md` | Prioritized future work queue | Created 2026-05-12 |
 | `LEARNINGS.md` | Project-specific lessons (kaizen) | Created 2026-05-12 |
 | `DECISIONS.md` | Architecture/design decisions with rationale | Created 2026-05-12 |
-| `index.md` | Jekyll website landing page | Unchanged |
 
 **strategy/ (13 files):**
 

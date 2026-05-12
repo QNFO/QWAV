@@ -41,10 +41,10 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 15 | IP relevance analysis vs. QWAV thesis | 25 packages cross-referenced against ultrametric/p-adic framework. 1 exact match (High-Temp Chiral), 2 partial, 22 dead. | 2026-05-11 |
 | 16 | Cost-benefit analysis for new filings | Quantitative EV model. Expected net value negative in all scenarios. Recommendation: file ONE or ZERO. | 2026-05-11 |
 | 17 | Ultrametric encoding provisional outline | `strategy/0.1.md` — 17 claims drafted (apparatus, method, system). Covers Bruhat-Tits tree encoding, perfect-tensor codes, tree-automorphism gates, fractal-multiplexed readout. NOT FILED — held pending conversion plan. | 2026-05-11 |
-| 18 | Root directory cleanup | 4 standalone docs moved to `strategy/`. Root now contains only 7 project docs + `index.md`. | 2026-05-12 |
+| 18 | Root directory cleanup | 4 standalone docs moved to `strategy/`. `index.md` deleted (not using GitHub Pages). Root now contains only 7 project docs. | 2026-05-12 |
 | 19 | Richard Goodman agenda reviewed & briefings cleaned | Old agenda versions (10 files) + helper scripts (7 files) deleted. Final `apoth3osis Agenda (Shareable)` in 3 formats + `business-docs-template.tex` committed. | 2026-05-12 |
 | 20 | Project documentation complete | BACKLOG.md, LEARNINGS.md, DECISIONS.md created. All 7 required docs now present (Section 0.7). | 2026-05-12 |
-| 21 | Cross-reference audit | All references to moved/deleted files updated in README.md, SPRINT.md, PROJECT STATE.md, index.md. No broken links remain. | 2026-05-12 |
+| 21 | Cross-reference audit | All references to moved/deleted files updated in README.md, SPRINT.md, PROJECT STATE.md. No broken links remain. | 2026-05-12 |
 
 ---
 

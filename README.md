@@ -44,14 +44,13 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 - [README.md](README.md) — Quick reference index
 - [SPRINT.md](SPRINT.md) — Project state, backlog, learnings, thread handoff
 - [CHANGELOG.md](CHANGELOG.md) — Versioned change log
-- [index.md](index.md) — GitHub Pages landing page
 - [.gitignore](.gitignore)
 
 ### Narrative & Strategy
-- [QA — Narrative Modules & Intellectual Defense](QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — 12 modules (M1–M12), 8 FAQ (Q1–Q8)
-- [Pitch Deck](Pitch%20Deck%20-%20QWAV%20Ultrametric%20Computing.md) — 12-slide overview
-- [NEXT STEPS — From Library to Reality](NEXT%20STEPS%20-%20From%20Library%20to%20Reality.md) — Application pipeline
-- [An Introvert's Deep-Tech Startup Path](An%20Introvert's%20Deep-Tech%20Startup%20Path.md) — Philosophy essay
+- [QA — Narrative Modules & Intellectual Defense](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — 12 modules (M1–M12), 8 FAQ (Q1–Q8)
+- [Pitch Deck](strategy/Pitch%20Deck%20-%20QWAV%20Ultrametric%20Computing.md) — 12-slide overview
+- [NEXT STEPS — From Library to Reality](strategy/NEXT%20STEPS%20-%20From%20Library%20to%20Reality.md) — Application pipeline
+- [An Introvert's Deep-Tech Startup Path](strategy/An%20Introvert's%20Deep-Tech%20Startup%20Path.md) — Philosophy essay
 - [PROJECT STATE.md](PROJECT%20STATE.md) — Detailed project snapshot
 
 ### Technical & Strategy (`strategy/`)
@@ -132,4 +131,4 @@ Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy
 
 ---
 
-*README v7.1 — [View on GitHub Pages](https://qnfo.github.io/QWAV/). Root cleaned. 31 tracked files. Three applications submitted. The introvert path works.*
+*README v7.2 — [View on GitHub Pages](https://qnfo.github.io/QWAV/). Root cleaned. 30 tracked files. Three applications submitted. The introvert path works.*
