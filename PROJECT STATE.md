@@ -76,7 +76,7 @@ These are NOT gaps to be closed — they are the path. Do not suggest pivoting a
 | **Written applications** | Three submitted in May 2026. All felt easy. The process is sustainable. |
 | **Library-based assembly** | M1–M12 narrative modules enable rapid application construction. Reuse over rewrite. |
 | **Open-access publishing** | 300+ documents on Zenodo, ResearchGate, SSRN. No paywalls. Anyone can verify. |
-| **The introvert rhythm** | Write → Submit → Wait → Repeat. Energizing, not draining. |
+| **The introvert rhythm** | Write $\to$ Submit $\to$ Wait $\to$ Repeat. Energizing, not draining. |
 | **Honest self-assessment** | The Honest Investment Assessment (5.4/10) builds trust by acknowledging gaps upfront. |
 
 ---
@@ -177,7 +177,7 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
                                       (Strategy B: IP-Only)
 ```
 
-**If nothing gets funded:** Continue the Write → Submit → Wait → Repeat cycle. The library sharpens with each iteration. Computational validation data compounds. The path is persistence, not pivot.
+**If nothing gets funded:** Continue the Write $\to$ Submit $\to$ Wait $\to$ Repeat cycle. The library sharpens with each iteration. Computational validation data compounds. The path is persistence, not pivot.
 
 ---
 

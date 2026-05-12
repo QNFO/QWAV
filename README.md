@@ -100,7 +100,7 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 | "What's the non-VC path?" | [IP-Only Licensing Strategy](strategy/IP-Only%20Licensing%20Strategy%20-%20Strategy%20B%20CERN%20Model.md) |
 | "Where's the evidence?" | [External Sources & Citation Map](strategy/External%20Sources%20and%20Citation%20Map.md) |
 | "What's the path forward?" | [NEXT STEPS](strategy/NEXT%20STEPS%20-%20From%20Library%20to%20Reality.md) |
-| "What's been submitted? What's next?" | [SPRINT.md](SPRINT.md) → Current State / Backlog |
+| "What's been submitted? What's next?" | [SPRINT.md](SPRINT.md) $\to$ Current State / Backlog |
 | "I need a deck to share" | [Pitch Deck](strategy/Pitch%20Deck%20-%20QWAV%20Ultrametric%20Computing.md) |
 | "Who is Rowan Brad Quni-Gudzinas?" | [Resume](people/ROWAN%20BRAD%20QUNI%20RESUME.md) |
 | "What's the full philosophy?" | [An Introvert's Path](strategy/An%20Introvert's%20Deep-Tech%20Startup%20Path.md) |

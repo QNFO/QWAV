@@ -221,7 +221,7 @@ QWAV previously existed as a directory within the DeepChat workspace, where mult
 ### What Changed
 - **QWAV extracted** from DeepChat workspace git tracking
 - **Independent git repo** initialized at this repository on `main` branch
-- **Path fix:** `simulations/simulations/plots/` → `simulations/plots/` (nested directory from wrong relative path — fixed in experiment code)
+- **Path fix:** `simulations/simulations/plots/` $\to$ `simulations/plots/` (nested directory from wrong relative path — fixed in experiment code)
 - **.gitignore updated:** Added `simulations/__pycache__/`, OS files, temp files
 - **`__pycache__/` removed** from simulations directory
 - **Experiment code fixed:** `save_path` now uses `os.path.dirname(__file__)` for reliable plot paths
@@ -288,9 +288,9 @@ git push -u origin main
 
 This changelog is initiated after a comprehensive strategy review (2026-05-11) that identified and corrected misalignment between the project's actual constraints and implicit assumptions in some documentation. Two critical recalibrations drive all changes:
 
-1. **No physical lab experiments** → all "experiments" are computational simulations synthesized from known parameters and theory. This is legitimate computational physics — cheaper, faster, and fully compatible with the written-first strategy.
+1. **No physical lab experiments** $\to$ all "experiments" are computational simulations synthesized from known parameters and theory. This is legitimate computational physics — cheaper, faster, and fully compatible with the written-first strategy.
 
-2. **No peer review** → the peer-review system is rejected as institutional gatekeeping. Paradigm-challenging work has historically been suppressed by peer review. Open-access publication with direct reader evaluation — where individuals judge substance for themselves — is the only credible channel for genuinely novel ideas.
+2. **No peer review** $\to$ the peer-review system is rejected as institutional gatekeeping. Paradigm-challenging work has historically been suppressed by peer review. Open-access publication with direct reader evaluation — where individuals judge substance for themselves — is the only credible channel for genuinely novel ideas.
 
 **Session work (2026-05-11):** Full document consistency audit. Fixed broken file references (QA.md referenced nonexistent "Computational Validation Roadmap.md" — corrected to actual filename), fixed duplicate Q8 in README, fixed mangled version line, fixed broken table row in External Sources, added Q8 to QA.md, created SPRINT.md and CHANGELOG.md for thread continuity, updated all version numbers. Many files already contained partial recalibration language — this session completed and verified the transition.
 
@@ -302,10 +302,10 @@ This changelog is initiated after a comprehensive strategy review (2026-05-11) t
 | Strategy recalibrated | Aligned all docs with actual constraints (computational-only, no peer review) |
 | CHANGELOG.md created | Versioned change tracking |
 | SPRINT.md created | State tracker and handoff document |
-| QA.md → v3.0 | Fixed broken file references (3×), added Q8, updated evidence table |
-| README.md → v6.0 | Fixed references, updated directory (15 files), added Q8, updated version |
+| QA.md $\to$ v3.0 | Fixed broken file references (3×), added Q8, updated evidence table |
+| README.md $\to$ v6.0 | Fixed references, updated directory (15 files), added Q8, updated version |
 | NEXT STEPS.md | Fixed file reference to Experimental Validation Roadmap |
-| External Sources & Citation Map → v2.0 | Fixed broken table row, added computational simulation category, updated version |
+| External Sources & Citation Map $\to$ v2.0 | Fixed broken table row, added computational simulation category, updated version |
 | Cross-document audit | Fixed all broken internal file references; verified consistency |
 
 ### Rationale
