@@ -128,4 +128,4 @@ Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy
 
 ---
 
-*README v7.4 — Root: 8 files (7 docs + .gitignore) + 4 subdirectories. 29 tracked files. Six applications submitted. Tier 0 paper published on Zenodo.*
+*README v7.4 — Root: 8 files (7 docs + .gitignore) + 4 subdirectories. 29 tracked files. Seven applications submitted. Tier 0 paper published on Zenodo.*

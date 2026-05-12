@@ -89,6 +89,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 5 | Foresight Institute | Foresight Institute | Fellowship / grant | ✅ Submitted | May 2026 | Varies | P3 — COMPLETE |
 | 6 | Harmonic.ai | Harmonic | Startup database / VC discovery | ✅ Submitted | May 2026 | Rolling | Written submission — founder/startup profile for VC discovery |
 | 7 | SBIR Phase I | US Government | Federal R&D grant | ❌ Not submitted | — | Varies | P9 in backlog |
+| 8 | LinkedIn Co-Founder & Head of AI | Stealth Startup (LinkedIn Jobs) | Co-founder position / job application | ✅ Submitted | May 2026 | Rolling | Physics-informed AI SaaS for semiconductors. On-site San Jose. Equity-only. ⚠️ Conflicts with D4 (solo founder) + D6 (written-only) + on-site constraint. |
 
 ---
 
