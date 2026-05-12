@@ -4,6 +4,31 @@
 
 ---
 
+## [v2.12] — 2026-05-12 — Paper Published on Zenodo
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **Paper published** | "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits" published on Zenodo. DOI: 10.5281/zenodo.20134944. Repo: github.com/QNFO/ultrametric-error-confinement (commit a902ddf). |
+| **Project docs updated** | SPRINT.md, PROJECT STATE.md, BACKLOG.md updated to reflect publication status. Primary bottleneck shifted from "computational validation" to "adoption." |
+
+### Files Changed
+| File | Change |
+|:-----|:-------|
+| `SPRINT.md` | EDIT — item 12 updated to PUBLISHED, bottleneck recalculated, state date updated |
+| `PROJECT STATE.md` | EDIT — computational validation status updated, application count corrected, session header updated |
+| `CHANGELOG.md` | EDIT — this entry |
+| `BACKLOG.md` | EDIT — P4 status updated from DONE to PUBLISHED with DOI |
+
+### Key Metrics
+- **DOI:** 10.5281/zenodo.20134944
+- **Commit:** a902ddf
+- **Experiment 0A:** LER=0 at depth 3+ for physical error rates up to 40%
+- **Experiment 0B:** Energy barrier exponential in tree depth, consistent with $\Gamma \sim 80$ at 4K
+
+---
+
 ## [v2.11] — 2026-05-12 — Paper & Simulations Moved to Standalone Project
 
 ### Completed

@@ -2,7 +2,7 @@
 
 > **Purpose:** Prioritized queue of future work. Updated whenever new ideas emerge or priorities shift. Items are ordered by priority — work top to bottom.
 
-**Last updated:** 2026-05-12
+**Last updated:** 2026-05-12 | **Status:** Paper published (P4 complete)
 
 ---
 
@@ -41,5 +41,5 @@
 | P1 | Tier 0 Simulation | btree.py, encoding.py, noise.py, metrics.py, experiments 0A+0B, plots | 2026-05-11 |
 | P2 | Emergent Ventures application | Submitted | 2026-05-11 |
 | P3 | Foresight Institute application | Submitted | 2026-05-11 |
-| P4 | arXiv/Zenodo paper | Drafted — "Computational Validation of Ultrametric Error Confinement" (6 sections, 19 refs) | 2026-05-11 |
+| P4 | arXiv/Zenodo paper | Published on Zenodo — "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits." DOI: 10.5281/zenodo.20134944. Repo: github.com/QNFO/ultrametric-error-confinement. | 2026-05-12 |
 | P5 | Mathematical foundations | Formal definitions, 4 theorems, lemma chain, Lean formalization priority table | 2026-05-11 |

@@ -2,7 +2,7 @@
 
 > **Purpose:** Project-specific lessons discovered during execution. Machine-readable format for kaizen (continuous improvement). Read this before starting new work to avoid repeating mistakes.
 
-**Last updated:** 2026-05-12
+**Last updated:** 2026-05-12 | **Status:** Paper published — L8 added
 
 ---
 
@@ -56,6 +56,15 @@
 - **Solution:** Tier 0 simulation + Lean 4 formal verification (via Richard Goodman collaboration) provide the evidence layer. Open-access ensures the evidence is accessible; the evidence itself must exist first.
 - **Prevention:** Publishing strategy and evidence strategy are separate concerns. Open-access solves distribution, not credibility. Credibility comes from falsifiable, reproducible results.
 - **Cross-Project:** YES
+
+---
+
+### L8: Computational validation produced first published evidence for the thesis
+- **Category:** METHODOLOGY
+- **Issue:** The QWAV thesis lacked any published, reproducible, citable evidence. Without a lab or collaborator, the evidence gap seemed insurmountable.
+- **Solution:** The Tier 0 Python simulation produced quantitative, reproducible results (LER=0 at depth 3+ for error rates up to 40%; energy barrier exponential in tree depth) that were packaged into a formal paper and published on Zenodo (DOI: 10.5281/zenodo.20134944). The entire pipeline — code, experiments, paper — was executed solo with zero external dependencies. The publication now serves as citable, verifiable evidence for applications.
+- **Prevention:** When blocked on physical experiments, computational validation is not a "consolation prize" — it is a legitimate, publication-worthy path in its own right. The paper is the evidence.
+- **Cross-Project:** YES — any deep-tech venture facing experimental bottlenecks should treat computational validation as a primary publication strategy.
 
 ---
 

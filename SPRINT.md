@@ -4,7 +4,7 @@
 
 ---
 
-## Current State (2026-05-11 — Post Strategy Recalibration)
+## Current State (2026-05-12 — Post Paper Publication)
 
 ### Strategy Summary (Read This First)
 
@@ -16,7 +16,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 - **Written-first strategy** — no live pitches, no networking, no "business development"
 - **Substance over credentials** — target audiences that evaluate ideas on merit, not institutional affiliation
 
-**Primary Bottleneck:** Evidence. The thesis is mathematically sound but computationally unvalidated. The Tier 0 simulation is the highest-leverage next move.
+**Primary Bottleneck:** Evidence. The thesis is mathematically sound and computationally validated (Tier 0 paper published, Zenodo DOI: 10.5281/zenodo.20134944, 2026-05-12). Next bottleneck: adoption — getting the right people to read and evaluate the work.
 
 ---
 
@@ -35,7 +35,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 9 | Tier 0 Simulation built | btree.py, encoding.py, noise.py, metrics.py, experiments 0A+0B, plots | 2026-05-11 |
 | 10 | QWAV independent repo initialized | Extracted from DeepChat workspace. `main` branch, 27 files, clean commit. Ready for GitHub. | 2026-05-11 |
 | 11 | Richard Goodman briefing prepared | Comprehensive meet-and-greet doc. Covers formal verification strategy, threshold theorem target, Veselov precedent, IP terms, talking points. | 2026-05-11 |
-| 12 | arXiv/Zenodo paper drafted (P4) | "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits." 6 sections, 19 refs. | 2026-05-11 |
+| 12 | arXiv/Zenodo paper PUBLISHED (P4) | "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits." Published on Zenodo (DOI: 10.5281/zenodo.20134944). Repo: github.com/QNFO/ultrametric-error-confinement. Commit: a902ddf. | 2026-05-12 |
 | 13 | Mathematical foundations written (P5) | Formal definitions, 4 theorems, lemma chain, Lean formalization priority table. Bridge between Tier 0 and formal verification (P11). | 2026-05-11 |
 | 14 | IP portfolio audit + reorganization | Full inventory (1,194 files, 25 packages). 770 dead files archived to `G:\My Drive\Archive\Patents\`. Patents directory cleaned (6 categories). 55 deleted files recovered via git. | 2026-05-11 |
 | 15 | IP relevance analysis vs. QWAV thesis | 25 packages cross-referenced against ultrametric/p-adic framework. 1 exact match (High-Temp Chiral), 2 partial, 22 dead. | 2026-05-11 |
@@ -51,7 +51,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 ### 🔄 IN PROGRESS
 
-*Nothing currently in progress. Next: Emergent Ventures application (P2).*
+*Nothing currently in progress. 🎉 Milestone: Tier 0 simulation paper published on Zenodo (DOI: 10.5281/zenodo.20134944). Next: explore next application targets (SBIR, additional fellowships, or P6 Q-PNA).*
 
 ---
 

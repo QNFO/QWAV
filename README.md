@@ -28,13 +28,23 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 
 ## PROGRESS
 
+### Applications
+
 | Application | Organization | Submitted | Status |
 |:------------|:-------------|:----------|:-------|
 | Venture Science Doctorate (VSD) | Deep Science Ventures College | May 2026 | Pending |
 | FRO Abstract | Convergent Research | May 2026 | Pending |
 | EWOR Fellowship | EWOR | May 2026 | Pending |
+| Emergent Ventures | Mercatus Center | May 2026 | Pending |
+| Foresight Institute | Foresight Institute | May 2026 | Pending |
 
-**Next targets:** Emergent Ventures, Foresight Institute, SBIR Phase I, journal submission.
+**Next targets:** SBIR Phase I, additional fellowship programs, Lean 4 formal verification collaboration.
+
+### Publications
+
+| Title | Venue | Date | DOI / Link |
+|:------|:------|:-----|:-----------|
+| Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits | Zenodo | 2026-05-12 | [10.5281/zenodo.20134944](https://doi.org/10.5281/zenodo.20134944) |
 
 ---
 
@@ -106,7 +116,7 @@ Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy
 | Code | Question | Short Answer |
 |:-----|:---------|:-------------|
 | **Q1** | "No PhD? No institution?" | 300+ open-access publications. Judge the substance. Open-access is the model — by design. |
-| **Q2** | "No experimental validation?" | Six falsifiable predictions. Computational validation (Tier 0) is the current path — zero external dependencies. |
+| **Q2** | "No experimental validation?" | Six falsifiable predictions. Computational validation published (DOI: 10.5281/zenodo.20134944) — LER=0 at depth 3+ for error rates up to 40%. |
 | **Q3** | "Google/IBM competition?" | They optimize within the paradigm we're replacing. Innovator's dilemma. |
 | **Q4** | "How do you make money?" | IP licensing, consulting, R&D grants. |
 | **Q5** | "No team?" | Solo by design. Team-building experience exists but isn't the current focus. |
@@ -116,4 +126,4 @@ Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy
 
 ---
 
-*README v7.3 — Root: 7 project docs + 4 subdirectories. 18 tracked files. Three applications submitted. The introvert path works.*
+*README v7.4 — Root: 8 files (7 docs + .gitignore) + 4 subdirectories. 29 tracked files. Five applications submitted. Tier 0 paper published on Zenodo.*
