@@ -84,6 +84,8 @@
 - **Prevention:** Before sharing detailed technical information with a potential collaborator, audit their commercial positioning. If it conflicts with yours, treat every "technical question" as also a competitive move. Share only what you'd be comfortable publishing. Get competing-work disclosure upfront.
 - **Cross-Project:** YES — any deep-tech venture seeking collaborators must recognize that "collaboration scoping" and "competitive intelligence gathering" look identical in early email exchanges.
 
+**Technical reference — the QEC decoder rebuttal:** *A QEC decoder is a classical algorithm processing classical syndrome bits. The quantum hardware first extracts the syndrome, then the decoder runs, then the hardware applies the correction. Attempting to distinguish a "classical" decoder points out nothing unusual — they all are. Every surface code decoder, every color code decoder, every tree code decoder is classical by architecture. The quantum operations are syndrome extraction and correction application; the decoder sits between them and is classical by design. Anyone who uses "classical" as an objection to a decoder either does not understand the standard QEC architecture or is using it as a rhetorical gatekeeping word.*
+
 ---
 
 ## Archived Learnings
