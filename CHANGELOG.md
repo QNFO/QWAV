@@ -12,7 +12,7 @@
 |:-----|:------------|
 | **L10 captured** | Technical objections can be competitive positioning disguised as rigor. A potential collaborator's four paper objections each protected his own commercial positioning (software QEC verification vs. QWAV hardware passive fault tolerance). Framework: (1) audit collaborator's business model before sharing technical detail, (2) apply symmetry test ("does the objection also apply to their work?"), (3) demand competing-work disclosure upfront, not after. |
 | **L9 + L10 in SPRINT learnings table** | Both now documented in the main learnings tracker alongside L1-L8 |
-| **P11 status updated** | Goodman collaboration marked ⚠️ Under review — likely walk. Competitive dynamic incompatible with genuine collaboration. |
+| **P11 status updated** | P11 collaboration marked ⚠️ Under review — likely walk. Competitive dynamic incompatible with genuine collaboration. |
 | **VSD rejection + L9 documented** | LLM-hostile programs structurally incompatible with QWAV workflow. |
 
 ### Files Changed
@@ -247,20 +247,20 @@
 ## [v2.3] — 2026-05-11 — P11 collaborator Collaboration Prep
 
 ### What Happened
-Identified a formal verification collaboration opportunity with P11 collaborator (Apoth3osis Labs). Richard runs HeytingLean — a Lean 4 formal verification stack with 4,649 files, 876,000+ lines, zero `sorry` in core. He has offered "formalization transport" — taking specific QWAV claims and proving them as theorems in Lean 4 using his existing infrastructure.
+Identified a formal verification collaboration opportunity with P11 collaborator. P11 runs HeytingLean — a Lean 4 formal verification stack with 4,649 files, 876,000+ lines, zero `sorry` in core. They have offered "formalization transport" — taking specific QWAV claims and proving them as theorems in Lean 4 using their existing infrastructure.
 
 ### Why This Matters
 Formal verification in Lean 4 is the ultimate realization of the substance-first strategy:
 - **Bypasses peer review:** A proof that type-checks is unassailable — no reviewer, no gatekeeper
 - **Bypasses lab experiments:** Proofs can be parameterized with published experimental data
 - **Produces unassailable evidence:** Machine-verified theorems are stronger than either peer review or experimental data
-- **Aligned with Richard's precedent:** He previously formalized 6 papers for Vladimir Veselov (student of Kolmogorov) on ultrametric structures — directly adjacent to QWAV's ultrametric work
+- **Aligned with P11's precedent:** They previously formalized 6 papers for Vladimir Veselov (student of Kolmogorov) on ultrametric structures — directly adjacent to QWAV's ultrametric work
 
 ### Key Insight
 The core QWAV theorem to formalize: a threshold theorem for ultrametric QEC, analogous to the surface code threshold theorem from the 1990s. Statement: in a Bruhat-Tits tree encoding, $p_{\text{logical}} \leq C \cdot p_{\text{err}}^{k \cdot d}$, giving a geometric threshold for fault tolerance. This uses well-defined mathematical objects (trees, probability bounds) and can be parameterized with published experimental data from Google/IBM/Rigetti.
 
 ### Deliverable
-`briefings/P11 collaborator - [redacted] Meet-and-Greet.md` — comprehensive briefing covering: who Richard is, the Veselov precedent, three collaboration shapes, IP terms, talking points, questions to ask, risks, and follow-up plan.
+`briefings/P11 collaborator - [redacted] Meet-and-Greet.md` — comprehensive briefing covering: who P11 is, the Veselov precedent, three collaboration shapes, IP terms, talking points, questions to ask, risks, and follow-up plan.
 
 ### Files Changed
 - `briefings/P11 collaborator - [redacted] Meet-and-Greet.md` — Full briefing document (CREATE)

@@ -1,7 +1,7 @@
 # P11 collaborator — Meet-and-Greet Agenda
 
 **Date:** May 2026
-**Primary Contact:** P11 collaborator, Apoth3osis Labs — [redacted]
+**Primary Contact:** P11 collaborator — [redacted]
 **Website:** https://www.[redacted].io — “Paper → Proof → Code”
 
 ---
@@ -74,7 +74,7 @@ This is formally verifiable (trees and probability bounds are definable in Lean)
 
 **Roles:**
 - **Rowan:** Provide mathematical claims, tree structure definitions, error model specifications, experimental parameter references
-- **Richard:** Translate claims into Lean 4, build verified repository
+- **P11:** Translate claims into Lean 4, build verified repository
 - **Joint:** Write the paper, agree on scope
 
 ---
@@ -97,7 +97,7 @@ Present the threshold theorem concept. Discuss formalizability, parameterizabili
 1. Interest in formalizing this as Shape #1?
 2. Scope: start with strong triangle inequality → error confinement proof
 3. Timeline: Lean module would be “Generative/QuniAxiomatic.lean”
-4. What Richard needs from us: formal theorem statements, tree definitions, error models, experimental parameters
+4. What P11 needs from us: formal theorem statements, tree definitions, error models, experimental parameters
 
 ---
 
