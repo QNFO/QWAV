@@ -80,6 +80,16 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P18** | **Outreach — Conference abstract prep** | IF response positive: prepare one-page abstract on ultrametricity-quantum connection. | 1–2 | P17 positive | Contingent |
 | **P19** | **Outreach — Dragovich email** | Branko Dragovich (Steklov). Same low-friction format. | 0.5 | P17 sent | Contingent |
 | **P20** | **Outreach — Khrennikov email** | Andrei Khrennikov (Linnaeus). Same format. | 0.5 | P17 sent | Contingent |
+| **P21** | **Outreach — David Wales email** | David Wales (Cambridge): energy landscape theory, ultrametric protein folding. Draft in `outreach-email-david-wales.md`. | 0.5 | P17 sent | NOT STARTED |
+| **P22** | **Outreach — Michel Planat email** | Michel Planat (FEMTO-ST): ultrametricity + Riemann zeta. | 0.5 | P17 sent | NOT STARTED |
+| **P23** | **ArXiv submission** | Submit Tier 0 paper to arXiv (quant-ph + math-ph). Guide in `arxiv-submission-guide.md`. Needs endorser or moderator approval. | 1 | Endorser or moderator | NOT STARTED |
+| **P24** | **"Why Ultrametricity" explainer** | 2,000-word accessible doc. No equations. Calling card. | 1–2 | None | NOT STARTED |
+| **P25** | **Pre-register falsifiable prediction** | Public specific testable prediction. Nuclear credibility option. | 1 | Define prediction | NOT STARTED |
+| **P26** | **Tier 1 computational paper** | Larger trees, realistic noise models, surface code comparison. | 2–3 | Tier 0 codebase | NOT STARTED |
+| **P27** | **Cross-domain synthesis paper** | Ultrametricity across spin glasses, proteins, strings, cognition, QC. | 2–3 | Outreach complete | NOT STARTED |
+| **P28** | **Open-source simulation code** | Polish repo: README, reproduction instructions, license. | 1 | Tier 0 code | NOT STARTED |
+| **P29** | **FQXi Essay Contest** | Check for open contest. "Continuous manifold = wrong assumption." | 0.5+writing | Contest open | NOT STARTED |
+| **P30** | **Entity formation assessment** | US entity needed for SBIR/ARPA-E? Cost-benefit. | 0.5 | None | NOT STARTED |
 
 ---
 
