@@ -117,7 +117,7 @@
 
 | Item | Description |
 |:-----|:------------|
-| **Briefings cleanup** | Deleted 17 obsolete files: old Richard Goodman meeting docs (10 files) and helper/conversion scripts (7 files). Added final `apoth3osis Agenda (Shareable)` in 3 formats (`.md`, `.docx`, `.pdf`) + `business-docs-template.tex`. |
+| **Briefings cleanup** | Deleted 17 obsolete files: old P11 collaborator meeting docs (10 files) and helper/conversion scripts (7 files). Added final `[redacted] Agenda (Shareable)` in 3 formats (`.md`, `.docx`, `.pdf`) + `business-docs-template.tex`. |
 | **Root directory decluttered** | Moved 4 standalone docs to `strategy/`. Deleted `index.md` (not using GitHub Pages). Root now contains only 7 project docs. |
 | **Project documentation completed** | Created BACKLOG.md, LEARNINGS.md, DECISIONS.md. All 7 required docs per Section 0.7 now present. |
 | **Cross-reference audit** | Updated all broken/moved links in README.md, SPRINT.md, PROJECT STATE.md, index.md. All `Meet-and-Greet` references updated to `Agenda (Shareable)`. All root-level file links updated to `strategy/` prefix. |
@@ -141,7 +141,7 @@
 ### Key Decisions
 - D1–D8 documented in `DECISIONS.md` (all pre-existing, now formally recorded)
 - D7: No patent filings without funded conversion plan
-- D8: Richard Goodman Shape #1 — Lean 4 formalization transport
+- D8: P11 collaborator Shape #1 — Lean 4 formalization transport
 
 ---
 
@@ -244,10 +244,10 @@
 
 ---
 
-## [v2.3] — 2026-05-11 — Richard Goodman / apoth3osis Collaboration Prep
+## [v2.3] — 2026-05-11 — P11 collaborator Collaboration Prep
 
 ### What Happened
-Identified a formal verification collaboration opportunity with Richard Goodman (Apoth3osis Labs). Richard runs HeytingLean — a Lean 4 formal verification stack with 4,649 files, 876,000+ lines, zero `sorry` in core. He has offered "formalization transport" — taking specific QWAV claims and proving them as theorems in Lean 4 using his existing infrastructure.
+Identified a formal verification collaboration opportunity with P11 collaborator (Apoth3osis Labs). Richard runs HeytingLean — a Lean 4 formal verification stack with 4,649 files, 876,000+ lines, zero `sorry` in core. He has offered "formalization transport" — taking specific QWAV claims and proving them as theorems in Lean 4 using his existing infrastructure.
 
 ### Why This Matters
 Formal verification in Lean 4 is the ultimate realization of the substance-first strategy:
@@ -260,10 +260,10 @@ Formal verification in Lean 4 is the ultimate realization of the substance-first
 The core QWAV theorem to formalize: a threshold theorem for ultrametric QEC, analogous to the surface code threshold theorem from the 1990s. Statement: in a Bruhat-Tits tree encoding, $p_{\text{logical}} \leq C \cdot p_{\text{err}}^{k \cdot d}$, giving a geometric threshold for fault tolerance. This uses well-defined mathematical objects (trees, probability bounds) and can be parameterized with published experimental data from Google/IBM/Rigetti.
 
 ### Deliverable
-`briefings/Richard Goodman - apoth3osis Meet-and-Greet.md` — comprehensive briefing covering: who Richard is, the Veselov precedent, three collaboration shapes, IP terms, talking points, questions to ask, risks, and follow-up plan.
+`briefings/P11 collaborator - [redacted] Meet-and-Greet.md` — comprehensive briefing covering: who Richard is, the Veselov precedent, three collaboration shapes, IP terms, talking points, questions to ask, risks, and follow-up plan.
 
 ### Files Changed
-- `briefings/Richard Goodman - apoth3osis Meet-and-Greet.md` — Full briefing document (CREATE)
+- `briefings/P11 collaborator - [redacted] Meet-and-Greet.md` — Full briefing document (CREATE)
 - `SPRINT.md` — Added P11 (collaboration), item 11 to COMPLETED (EDIT)
 - `CHANGELOG.md` — This entry (EDIT)
 

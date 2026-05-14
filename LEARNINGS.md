@@ -25,7 +25,7 @@
 ### L3: Volume alone doesn't convert — evidence does
 - **Category:** METHODOLOGY
 - **Issue:** 300+ open-access publications over years did not organically attract experimental collaborators, funding, or institutional support. "Publish and hope" failed.
-- **Solution:** Active outreach (written applications to specific programs) + computational evidence (Tier 0 simulation) + targeted collaboration (Richard Goodman for Lean formalization) replaced passive publishing. The 301st paper won't do what the first 300 didn't — a different approach is needed.
+- **Solution:** Active outreach (written applications to specific programs) + computational evidence (Tier 0 simulation) + targeted collaboration (P11 collaborator for Lean formalization) replaced passive publishing. The 301st paper won't do what the first 300 didn't — a different approach is needed.
 - **Prevention:** If a strategy hasn't produced results after significant investment (300 papers), don't double down — change the strategy.
 - **Cross-Project:** YES
 
@@ -53,7 +53,7 @@
 ### L7: Open-access publishing bypasses gatekeepers but doesn't bypass the evidence gap
 - **Category:** METHODOLOGY
 - **Issue:** The founder correctly identified peer review as a gatekeeping mechanism and built a 300+ publication corpus through open-access channels (Zenodo, ResearchGate, SSRN). However, open-access alone didn't close the credibility gap — readers still needed computational or experimental evidence.
-- **Solution:** Tier 0 simulation + Lean 4 formal verification (via Richard Goodman collaboration) provide the evidence layer. Open-access ensures the evidence is accessible; the evidence itself must exist first.
+- **Solution:** Tier 0 simulation + Lean 4 formal verification (via P11 formal verification collaboration) provide the evidence layer. Open-access ensures the evidence is accessible; the evidence itself must exist first.
 - **Prevention:** Publishing strategy and evidence strategy are separate concerns. Open-access solves distribution, not credibility. Credibility comes from falsifiable, reproducible results.
 - **Cross-Project:** YES
 

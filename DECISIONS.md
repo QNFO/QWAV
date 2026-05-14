@@ -24,14 +24,14 @@
 
 ### D3: Written-only communication — no live pitches
 - **Date:** 2026-05 (codified during strategy recalibration)
-- **Decision:** All external communication is written. No live pitching, no networking events, no conference presentations, no video calls for fundraising. (Exception: scheduled collaboration calls like Richard Goodman are substantive working sessions, not pitches.)
+- **Decision:** All external communication is written. No live pitching, no networking events, no conference presentations, no video calls for fundraising. (Exception: scheduled collaboration calls like P11 collaborator are substantive working sessions, not pitches.)
 - **Rationale:** Aligned with founder's introvert energy patterns. Written communication selects for audiences that evaluate substance over presentation. The library-based assembly strategy makes written applications efficient and sustainable.
 - **Alternatives considered:** Traditional startup networking (rejected: draining, misaligned with founder strengths). Hybrid approach (rejected: written-only is a strategic filter, not a limitation).
 - **Reversible?** Yes — but only if a specific opportunity requires a live component AND the expected value justifies the energy cost.
 
 ### D4: Solo founder — no team-building as a goal
 - **Date:** 2026-05
-- **Decision:** QWAV operates as a solo venture. Team-building is not an active goal. Collaborators may emerge organically (e.g., Richard Goodman for Lean formalization) but recruitment is not pursued.
+- **Decision:** QWAV operates as a solo venture. Team-building is not an active goal. Collaborators may emerge organically (e.g., P11 collaborator for Lean formalization) but recruitment is not pursued.
 - **Rationale:** The work is highly specialized and doesn't fit within any single discipline. Finding aligned collaborators through traditional channels is inefficient. Organic collaboration (people finding the work and reaching out) is preferred.
 - **Alternatives considered:** Active recruiting (rejected: misaligned with introvert path, dilutes focus). Co-founder search (rejected: adds complexity without clear benefit at this stage).
 - **Reversible?** Yes — if funding is secured and specific expertise gaps must be filled, team-building can be revisited.
@@ -57,9 +57,9 @@
 - **Alternatives considered:** File proactively to secure priority dates (rejected: negative EV, no conversion plan). File nothing ever (rejected: may file if funded conversion plan emerges).
 - **Reversible?** Yes — if VSD/FRO/EWOR funding is secured and a 12-month conversion plan exists, filing becomes viable.
 
-### D8: Richard Goodman collaboration — Shape #1 formalization transport
+### D8: P11 formal verification collaboration — Shape #1 formalization transport
 - **Date:** 2026-05 (intro call scheduled)
-- **Decision:** Pursue Shape #1 collaboration with Richard Goodman / apoth3osis Labs: formal verification of ultrametric QEC threshold theorem in Lean 4. Co-authored paper + machine-verified repository.
+- **Decision:** Pursue Shape #1 collaboration with P11 collaborator Labs: formal verification of ultrametric QEC threshold theorem in Lean 4. Co-authored paper + machine-verified repository.
 - **Rationale:** A Lean proof that type-checks is unassailable — no reviewer, no gatekeeper. This bypasses both the peer-review barrier and the lab-experiment barrier. Produces a verifiable artifact that can be cited, shared, and built upon.
 - **Alternatives considered:** Shape #2 (three-way program with Veselov + HeytingLean — deferred as more complex). Shape #3 (position paper on substrate computation — deferred as less concrete).
 - **Reversible?** Yes — scope and timeline are adjustable. The intro call determines mutual interest and feasibility.

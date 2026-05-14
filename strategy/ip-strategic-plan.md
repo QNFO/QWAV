@@ -78,7 +78,7 @@ During the 2026-05-11 reorganization attempt, the following concept directories 
 | AQF (All Qubit Framework) | ⭐⭐ | Search _ARCHIVE |
 | Hypergraph Sequential Function | ⭐⭐ | Search |
 | Prime Attention Mechanism | ⭐⭐ | Search |
-| Verified Compilation (Lean) | ⭐⭐⭐ | Overlaps with Richard Goodman collaboration |
+| Verified Compilation (Lean) | ⭐⭐⭐ | Overlaps with P11 formal verification collaboration |
 | ~10 other concept directories | ⭐ | Low priority |
 
 **Recovery priority order:**

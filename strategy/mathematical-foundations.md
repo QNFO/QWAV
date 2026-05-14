@@ -2,7 +2,7 @@
 
 **Purpose:** Formal mathematical definitions, theorem statements, and proof sketches for the core claims of ultrametric quantum error correction. Designed as a bridge between the Tier 0 computational validation (simulations) and Tier 1+ formal verification (Lean 4). Every theorem is stated precisely enough to serve as a formalization target.
 
-**Status:** Working document. Theorems 1–4 are computationally validated (Tier 0). Formal proofs in Lean 4 are the next step (Richard Goodman collaboration, P11).
+**Status:** Working document. Theorems 1–4 are computationally validated (Tier 0). Formal proofs in Lean 4 are the next step (P11 formal verification collaboration, P11).
 
 ---
 
@@ -226,7 +226,7 @@ The classical repetition encoding described above is the simplest case. The full
 | 6 | Theorem 3: Threshold theorem | High | (4) |
 | 7 | Generalization to quantum CSS codes | High | (6) |
 
-**Recommended first formalization target:** Theorem 1 (strong triangle inequality). It is the mathematical foundation of everything else, it uses only the tree structure (no probability), and it is directly verifiable — the proof type-checks or it doesn't. This aligns with Richard Goodman's preference for starting with "formalization transport" — taking specific claims and proving them as theorems.
+**Recommended first formalization target:** Theorem 1 (strong triangle inequality). It is the mathematical foundation of everything else, it uses only the tree structure (no probability), and it is directly verifiable — the proof type-checks or it doesn't. This aligns with P11 collaborator's preference for starting with "formalization transport" — taking specific claims and proving them as theorems.
 
 ---
 

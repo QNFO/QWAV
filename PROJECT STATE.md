@@ -232,9 +232,9 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 
 | File | Purpose | Status |
 |:-----|:--------|:-------|
-| `briefings/Richard Goodman - apoth3osis Agenda (Shareable).md` | Formal verification meet-and-greet agenda | Created 2026-05-12 |
-| `briefings/Richard Goodman - apoth3osis Agenda (Shareable).docx` | Same, Word format | Created 2026-05-12 |
-| `briefings/Richard Goodman - apoth3osis Agenda (Shareable).pdf` | Same, PDF format | Created 2026-05-12 |
+| `briefings/P11 collaborator - [redacted] Agenda (Shareable).md` | Formal verification meet-and-greet agenda | Created 2026-05-12 |
+| `briefings/P11 collaborator - [redacted] Agenda (Shareable).docx` | Same, Word format | Created 2026-05-12 |
+| `briefings/P11 collaborator - [redacted] Agenda (Shareable).pdf` | Same, PDF format | Created 2026-05-12 |
 | `briefings/business-docs-template.tex` | LaTeX template for business documents | Created 2026-05-12 |
 
 **Other subdirectories:** `applications/` (2), `people/` (2) — unchanged.

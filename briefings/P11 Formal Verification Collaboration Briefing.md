@@ -1,8 +1,8 @@
-# Richard Goodman / apoth3osis — Meet-and-Greet Agenda
+# P11 collaborator — Meet-and-Greet Agenda
 
 **Date:** May 2026
-**Primary Contact:** Richard Goodman, Apoth3osis Labs — rgoodman@apoth3osis.io
-**Website:** https://www.apoth3osis.io — “Paper → Proof → Code”
+**Primary Contact:** P11 collaborator, Apoth3osis Labs — [redacted]
+**Website:** https://www.[redacted].io — “Paper → Proof → Code”
 
 ---
 

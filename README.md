@@ -80,7 +80,7 @@ Six applications submitted (VSD rejected, FRO, EWOR, Emergent Ventures, Foresigh
 - [Foresight Institute](applications/foresight-institute.md) — AI for Science & Safety (P3)
 
 ### Briefings
-- [Richard Goodman / apoth3osis Agenda](briefings/Richard%20Goodman%20-%20apoth3osis%20Agenda%20(Shareable).md) — Formal verification collaboration
+- [P11 collaborator Agenda](briefings/Richard%20Goodman%20-%20[redacted]%20Agenda%20(Shareable).md) — Formal verification collaboration
 
 ### People
 - [Resume (Markdown)](people/ROWAN%20BRAD%20QUNI%20RESUME.md)
@@ -109,7 +109,7 @@ Six applications submitted (VSD rejected, FRO, EWOR, Emergent Ventures, Foresigh
 | "I need a deck to share" | [Pitch Deck](strategy/Pitch%20Deck%20-%20QWAV%20Ultrametric%20Computing.md) |
 | "Who is Rowan Brad Quni-Gudzinas?" | [Resume](people/ROWAN%20BRAD%20QUNI%20RESUME.md) |
 | "What's the full philosophy?" | [An Introvert's Path](strategy/An%20Introvert's%20Deep-Tech%20Startup%20Path.md) |
-| "What's the formal verification opportunity?" | [Richard Goodman Briefing](briefings/Richard%20Goodman%20-%20apoth3osis%20Agenda%20(Shareable).md) |
+| "What's the formal verification opportunity?" | [P11 collaborator Briefing](briefings/Richard%20Goodman%20-%20[redacted]%20Agenda%20(Shareable).md) |
 | "How do I cite / reference this?" | [External Sources](strategy/External%20Sources%20and%20Citation%20Map.md) |
 
 ---
