@@ -86,6 +86,13 @@
 
 **Technical reference — the QEC decoder rebuttal:** *A QEC decoder is a classical algorithm processing classical syndrome bits. The quantum hardware first extracts the syndrome, then the decoder runs, then the hardware applies the correction. Attempting to distinguish a "classical" decoder points out nothing unusual — they all are. Every surface code decoder, every color code decoder, every tree code decoder is classical by architecture. The quantum operations are syndrome extraction and correction application; the decoder sits between them and is classical by design. Anyone who uses "classical" as an objection to a decoder either does not understand the standard QEC architecture or is using it as a rhetorical gatekeeping word.*
 
+### L11: Low-friction email outreach is the highest-leverage written-first networking tool
+- **Category:** METHODOLOGY
+- **Issue:** The founder had zero active connections to key researchers in ultrametric/p-adic fields despite 300+ publications and a validated computational thesis. "Publish and hope" (L3) didn't build relationships. Traditional networking (conferences, live pitches) violates the Introvert's Path constraint.
+- **Solution:** A targeted, low-friction email to a single gatekeeper (W.A. Zuniga-Galindo, organizer of the First International Conference on Models of Complex Hierarchic Systems) opens a door without requiring live interaction. The email asks only binary questions (conference date? unaffiliated researchers welcome?) — answerable in 30 seconds. It references a Zenodo DOI as tangible evidence of substance. It positions the founder as a peer, not a supplicant. Email IS written communication — fully consistent with the Introvert's Path.
+- **Prevention:** When blocked on connections, identify the single most relevant gatekeeper in the field. Draft a 5-sentence email that (a) shows you know their work, (b) references your own tangible output, (c) asks one or two binary questions. Do not pitch. Do not overclaim. Do not ask for favors. Low friction wins.
+- **Cross-Project:** YES — any solo founder or independent researcher facing the "credential gap" can use this pattern. The key insight: email outreach IS written-first when done right. Conference abstract submission is a viable "back door" (peer-reviewed but not a full paper).
+
 ---
 
 ## Archived Learnings

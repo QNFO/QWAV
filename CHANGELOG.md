@@ -387,3 +387,25 @@ None of these assumptions hold. The recalibration centers on:
 | EWOR Fellowship | Pending |
 | Patent timeline | Not yet documented (P7 in SPRINT.md) |
 | Competitive landscape | Not yet researched (P8 in SPRINT.md) |
+
+---
+
+## 2026-05-14 — Outreach Pipeline Integration
+
+### What Changed
+
+- **NEW FILE:** `outreach-email-zuniga-galindo.md` — Two-version email draft (A: confident with Zenodo DOI, B: softer deferential) targeting W.A. Zuniga-Galindo for the First International Conference on Models of Complex Hierarchic Systems and non-Archimedean Analysis (Mexico City, 2026). Includes rationale, follow-up protocol, and alignment with Introvert's Path.
+- **SPRINT.md:** Added P17 to IN PROGRESS (active task: send the email). Added P17-P20 to BACKLOG section (outreach pipeline: Zuniga-Galindo, Dragovich, Khrennikov emails + abstract prep).
+- **BACKLOG.md:** Added P16 (MIT implosion carving), P17-P20 (outreach pipeline) to priority queue.
+
+### Rationale
+
+The founder identified a strategic gap: despite 300+ open-access publications, no active connections to the researchers building bridges across ultrametric/p-adic fields. The "First International Conference" organized by Zuniga-Galindo represents a rare opportunity for a "back door" into the community — submit an abstract (peer-reviewed but not a full paper) and present written work. Email outreach is entirely consistent with the Introvert's Path (written-only communication; no live pitching required).
+
+### Files Changed
+
+- `outreach-email-zuniga-galindo.md` (NEW)
+- `SPRINT.md` (IN PROGRESS + BACKLOG sections updated)
+- `BACKLOG.md` (P16-P20 added)
+- `PROJECT STATE.md` (upcoming)
+- `LEARNINGS.md` (upcoming)
