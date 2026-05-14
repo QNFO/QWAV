@@ -4,6 +4,33 @@
 
 ---
 
+## [v2.14] — 2026-05-14 — Collaboration Vetting & Competitive Dynamics (L10)
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **L10 captured** | Technical objections can be competitive positioning disguised as rigor. A potential collaborator's four paper objections each protected his own commercial positioning (software QEC verification vs. QWAV hardware passive fault tolerance). Framework: (1) audit collaborator's business model before sharing technical detail, (2) apply symmetry test ("does the objection also apply to their work?"), (3) demand competing-work disclosure upfront, not after. |
+| **L9 + L10 in SPRINT learnings table** | Both now documented in the main learnings tracker alongside L1-L8 |
+| **P11 status updated** | Goodman collaboration marked ⚠️ Under review — likely walk. Competitive dynamic incompatible with genuine collaboration. |
+| **VSD rejection + L9 documented** | LLM-hostile programs structurally incompatible with QWAV workflow. |
+
+### Files Changed
+| File | Change |
+|:-----|:-------|
+| `LEARNINGS.md` | EDIT — L10 added, last-updated date |
+| `SPRINT.md` | EDIT — L9 + L10 in learnings table, P11 status updated |
+| `BACKLOG.md` | EDIT — P11 status updated |
+| `CHANGELOG.md` | EDIT — This entry |
+| `PROJECT STATE.md` | EDIT — Session header |
+
+### Key Insights
+- **L10 pattern:** Collaboration scoping and competitive intelligence gathering look identical in early email exchanges. The differentiator: does the "collaborator" disclose competing work BEFORE or AFTER extracting technical detail?
+- **Symmetry test:** "Classical decoder therefore not quantum" is structurally invalid — every QEC decoder is classical by architecture (syndrome extraction → classical decoder → correction). The objection, if valid, would invalidate the objector's own QEC verification business.
+- **Filter confirmed:** The collaborator self-filtered. His commercial interests (software QEC) and QWAV's thesis (hardware passive fault tolerance) are in direct competition. Better to identify this now than after formalization investment.
+
+---
+
 ## [v2.13] — 2026-05-12 — Comprehensive Patent Design & Timeline (P7)
 
 ### Completed

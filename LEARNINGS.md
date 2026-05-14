@@ -2,7 +2,7 @@
 
 > **Purpose:** Project-specific lessons discovered during execution. Machine-readable format for kaizen (continuous improvement). Read this before starting new work to avoid repeating mistakes.
 
-**Last updated:** 2026-05-12 | **Status:** Paper published — L8 added
+**Last updated:** 2026-05-14 | **Status:** L10 added — competitive positioning disguised as collaboration
 
 ---
 
@@ -74,6 +74,15 @@
 - **Solution:** Before applying to any program, audit for LLM policies and "existing IP" clauses. Programs that ban AI tools are incompatible with the QWAV workflow regardless of how strong the application is. The rejection confirms a known filter: some programs want blank-slate students, not founders with existing research programs. That's fine — it's a mismatch, not a failure.
 - **Prevention:** Add "LLM policy audit" and "existing IP clause check" to the pre-application checklist. Any program with explicit LLM bans or "no existing IP" clauses should be skipped. The filter works in both directions.
 - **Cross-Project:** YES — any venture that relies on AI-augmented workflows must screen for these policies before investing application effort.
+
+---
+
+### L10: Technical objections can be competitive positioning disguised as rigor
+- **Category:** METHODOLOGY
+- **Issue:** A potential collaborator raised detailed technical objections to the Tier 0 paper. On inspection, every objection — if sustained — would protect the objector's own commercial positioning (software-based QEC verification) while undermining the paper's thesis (hardware-based passive fault tolerance). The objections were real enough to require answers, but their function was competitive defense, not collaborative rigor. Additionally, the objector disclosed their own competing work ("I have been and am actively working in similar directions") only AFTER extracting detailed technical information about the paper's decoder design, error model, and formalization goals — reversing the proper order of disclosure.
+- **Solution:** (1) Identify the objector's commercial positioning. If their business model conflicts with your thesis, treat their "technical feedback" as competitive intelligence, not collaboration scoping. (2) Apply the symmetry test: does the objection apply equally to the objector's own work? ("Classical decoder therefore not quantum" applies to ALL decoder verification, including theirs.) If it does and they didn't mention it, the objection is selective — a gatekeeping word, not a technical standard. (3) Disclose competing work BEFORE asking for technical detail, not after. If someone reverses that order, they're extracting information, not building trust. (4) The "classical vs. quantum" decoder objection is structurally invalid: every QEC decoder is classical by architecture — syndrome extraction (quantum) → classical decoder → correction (quantum). Calling a decoder "classical" is describing what a decoder IS, not identifying a flaw.
+- **Prevention:** Before sharing detailed technical information with a potential collaborator, audit their commercial positioning. If it conflicts with yours, treat every "technical question" as also a competitive move. Share only what you'd be comfortable publishing. Get competing-work disclosure upfront.
+- **Cross-Project:** YES — any deep-tech venture seeking collaborators must recognize that "collaboration scoping" and "competitive intelligence gathering" look identical in early email exchanges.
 
 ---
 
