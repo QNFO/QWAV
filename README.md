@@ -8,7 +8,7 @@
 
 > **An Introvert's Deep-Tech Startup Path:** Introversion is not a deficit. It is the cognitive mode that produced 300+ papers, a patent portfolio, and the ultrametric computing framework. The path forward amplifies these strengths: write, submit, wait, repeat. All communication is written. No networking. No live pitching. No peer review. Open-access only. Substance over credentials.
 
-Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
+Six applications submitted (VSD rejected, FRO, EWOR, Emergent Ventures, Foresight Institute, Harmonic.ai, LinkedIn Co-Founder). Six pending. The path works. One rejection for the right reasons — LLM ban and existing-IP prohibition filter FOR programs that want blank-slate applicants. QWAV is not a blank slate.
 
 ---
 
@@ -32,7 +32,7 @@ Three applications submitted (VSD, FRO, EWOR). All felt easy. The path works.
 
 | Application | Organization | Submitted | Status |
 |:------------|:-------------|:----------|:-------|
-| Venture Science Doctorate (VSD) | Deep Science Ventures College | May 2026 | Pending |
+| Venture Science Doctorate (VSD) | Deep Science Ventures College | May 2026 | ❌ REJECTED — Bans LLM use, prohibits existing IP |
 | FRO Abstract | Convergent Research | May 2026 | Pending |
 | EWOR Fellowship | EWOR | May 2026 | Pending |
 | Emergent Ventures | Mercatus Center | May 2026 | Pending |
@@ -131,4 +131,4 @@ Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy
 
 ---
 
-*README v7.4 — Root: 8 files (7 docs + .gitignore) + 4 subdirectories. 29 tracked files. Seven applications submitted. Tier 0 paper published on Zenodo.*
+*README v7.4 — Root: 8 files (7 docs + .gitignore) + 4 subdirectories. 29 tracked files. Six applications pending, one rejected (VSD). Tier 0 paper published on Zenodo.*

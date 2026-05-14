@@ -25,7 +25,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | # | Item | Outcome | Date |
 |:--|:-----|:--------|:-----|
 | 1 | 13-file QWAV library created | Core documentation complete | May 2026 |
-| 2 | VSD application submitted | Pending | May 2026 |
+| 2 | VSD application submitted | ❌ REJECTED — Structural mismatch: bans LLM use, prohibits existing IP | May 2026 |
 | 3 | FRO Abstract submitted | Convergent Research. 1–2 page abstract. Pending. | May 2026 |
 | 4 | EWOR Fellowship submitted | Pending | May 2026 |
 | 5 | Strategy review + recalibration | Full critique delivered; strategy aligned with constraints | 2026-05-11 |
@@ -82,7 +82,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 | # | Application | Organization | Type | Status | Submitted | Decision Expected | Notes |
 |:--|:------------|:-------------|:-----|:-------|:----------|:------------------|:------|
-| 1 | VSD | Deep Science Ventures College | Venture-creation PhD | ⏳ Pending | May 2026 | Unknown | Computation track |
+| 1 | VSD | Deep Science Ventures College | Venture-creation PhD | ❌ REJECTED | May 2026 | — | Impersonal process. Bans LLM use (red flag). Explicitly prohibits existing IP — structural mismatch with QWAV. |
 | 2 | FRO Abstract | Convergent Research | Focused Research Org ($20–50M) | ⏳ Pending | May 2026 | Unknown | Abstract stage only |
 | 3 | EWOR Fellowship | EWOR | Fellowship for outlier founders | ⏳ Pending | May 2026 | Unknown | Written application |
 | 4 | Emergent Ventures | Mercatus Center | Moonshot grant | ✅ Submitted | May 2026 | Rolling | P2 — COMPLETE |

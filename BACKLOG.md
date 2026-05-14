@@ -27,7 +27,7 @@
 
 | # | Application | Organization | Type | Status | Submitted | Decision Expected | Notes |
 |:--|:------------|:-------------|:-----|:-------|:----------|:------------------|:------|
-| 1 | VSD | Deep Science Ventures College | Venture-creation PhD | ⏳ Pending | May 2026 | Unknown | Computation track |
+| 1 | VSD | Deep Science Ventures College | Venture-creation PhD | ❌ REJECTED | May 2026 | — | Bans LLM use, prohibits existing IP. |
 | 2 | FRO Abstract | Convergent Research | Focused Research Org ($20–50M) | ⏳ Pending | May 2026 | Unknown | Abstract stage only |
 | 3 | EWOR Fellowship | EWOR | Fellowship for outlier founders | ⏳ Pending | May 2026 | Unknown | Written application |
 | 4 | Emergent Ventures | Mercatus Center | Moonshot grant | ⏳ Pending | May 2026 | Unknown | Tyler Cowen's program |

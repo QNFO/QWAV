@@ -68,6 +68,15 @@
 
 ---
 
+### L9: LLM-hostile programs are structurally incompatible with QWAV's workflow
+- **Category:** METHODOLOGY
+- **Issue:** VSD explicitly prohibits LLM-generated submissions and disqualifies applicants who use them. It also prohibits applicants from developing existing ideas/IP — a direct conflict with QWAV, which IS an existing body of work refined through iterative LLM-augmented sessions. These policies are not quirks — they are structural hostility to the solo-founder-with-AI-tools methodology that makes QWAV possible.
+- **Solution:** Before applying to any program, audit for LLM policies and "existing IP" clauses. Programs that ban AI tools are incompatible with the QWAV workflow regardless of how strong the application is. The rejection confirms a known filter: some programs want blank-slate students, not founders with existing research programs. That's fine — it's a mismatch, not a failure.
+- **Prevention:** Add "LLM policy audit" and "existing IP clause check" to the pre-application checklist. Any program with explicit LLM bans or "no existing IP" clauses should be skipped. The filter works in both directions.
+- **Cross-Project:** YES — any venture that relies on AI-augmented workflows must screen for these policies before investing application effort.
+
+---
+
 ## Archived Learnings
 
 *None yet — all learnings above are still active and applicable.*

@@ -22,7 +22,7 @@
 
 | Dimension | Status |
 |:----------|:-------|
-| **Applications submitted** | 7 (VSD, FRO, EWOR, Emergent Ventures, Foresight Institute, Harmonic.ai, LinkedIn Co-Founder — all May 2026, all pending) |
+| **Applications submitted** | 7 (1 rejected: VSD; 6 pending: FRO, EWOR, Emergent Ventures, Foresight Institute, Harmonic.ai, LinkedIn Co-Founder — all May 2026) |
 | **Revenue** | $0 |
 | **Team** | Solo founder |
 | **Experimental validation** | None (no lab access, no collaborator) |
@@ -66,6 +66,7 @@ These are NOT gaps to be closed — they are the path. Do not suggest pivoting a
 | **University PhD programs** | Requires institutional conformity. Work doesn't fit within any single discipline. |
 | **VC / accelerator path** | Requires live pitching, networking, team-building. Misaligned with introvert path. |
 | **Experimental validation via lab collaboration** | No lab access. No experimental collaborator. Not currently pursuable. |
+| **Venture-creation PhD (VSD)** | Rejected by program: bans LLM use, prohibits development of existing IP. Structural mismatch with QWAV's AI-augmented solo-founder workflow. Filters for blank-slate students, not founders with existing research programs. |
 
 ---
 
