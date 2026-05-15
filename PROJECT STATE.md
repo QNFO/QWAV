@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-15 | **Session:** P17 sent — first outreach executed | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md`
+**Last updated:** 2026-05-15 | **Session:** Credential document published (DOI: 10.5281/zenodo.20154557) | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md`
 
 ---
 
@@ -27,6 +27,7 @@
 | **Team** | Solo founder |
 | **Experimental validation** | None (no lab access, no collaborator) |
 | **Computational validation** | Published — "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits" on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). Repo: github.com/QNFO/ultrametric-error-confinement. |
+| **Credential document** | Published — "Ultrametric Quantum Computing Foundations" on Zenodo (DOI: 10.5281/zenodo.20154557, 2026-05-15). 3,700 words, 12 references, 5 pre-registered falsifiable predictions. |
 | **Patent portfolio** | Provisional patents exist; timeline unspecified; conversion to PCT not yet done |
 | **Publications** | 300+ open-access on Zenodo, ResearchGate, SSRN |
 | **Funding raised** | $0 |

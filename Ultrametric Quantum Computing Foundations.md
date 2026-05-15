@@ -4,7 +4,7 @@
 **ORCID:** 0009-0002-4317-5604
 **Date:** 15 May 2026
 **Status:** Preprint — published on Zenodo, ResearchGate, and qnfo.org/releases
-**DOI:** [to be assigned by Zenodo]
+**DOI:** 10.5281/zenodo.20154557
 
 ---
 
@@ -316,7 +316,7 @@ This document is not submitted for peer review. It is published for reader evalu
 ---
 
 **Publication Venues:**
-- Zenodo (DOI): [to be assigned]
+- Zenodo (DOI): 10.5281/zenodo.20154557
 - ResearchGate
 - qnfo.org/releases
 

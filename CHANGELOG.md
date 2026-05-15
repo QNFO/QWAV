@@ -390,6 +390,22 @@ None of these assumptions hold. The recalibration centers on:
 
 ---
 
+## 2026-05-15 — Credential Document Published (DOI: 10.5281/zenodo.20154557)
+
+### What Changed
+
+- **PUBLISHED:** `Ultrametric Quantum Computing Foundations.md` on Zenodo with DOI: 10.5281/zenodo.20154557.
+- **Renamed:** `0.3.md` → `Ultrametric Quantum Computing Foundations.md` (titled filename).
+- **Copied:** To `G:\My Drive\Obsidian\releases\2026\05\` for archival cross-reference.
+- **SPRINT.md:** P24+P25 marked PUBLISHED with DOI.
+- **BACKLOG.md:** P24+P25 marked PUBLISHED with DOI.
+
+### Rationale
+
+Credential document now has a permanent, citable DOI. Combined with the Tier 0 paper (DOI: 10.5281/zenodo.20134944), QWAV now has two citable works on Zenodo — an evidence trajectory independent of any gatekeeper.
+
+---
+
 ## 2026-05-15 — Explainable Credential Document (P24+P25)
 
 ### What Changed
