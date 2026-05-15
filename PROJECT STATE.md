@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-15 | **Session:** Full distribution — Buffer, Substack, LinkedIn | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md`
+**Last updated:** 2026-05-16 | **Session:** Cross-project sync — integrated ultrametric_v2 completion, synced credential doc with release, cleaned stale artifacts | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md`
 
 ---
 
@@ -26,7 +26,7 @@
 | **Revenue** | $0 |
 | **Team** | Solo founder |
 | **Experimental validation** | None (no lab access, no collaborator) |
-| **Computational validation** | Published — "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits" on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). Repo: github.com/QNFO/ultrametric-error-confinement. |
+| **Computational validation** | **Tier 0 paper:** Published — "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits" on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). Repo: github.com/QNFO/ultrametric-error-confinement. **Tier 0.5 (ultrametric_v2):** COMPLETE — 7 sprints of expanded validation. Key results: ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate), 48× LER reduction via scatter with zero extra qubits, concatenation proven redundant, hardware design spec (40-atom neutral atom, $d=3$). Companion paper finalized. |
 | **Credential document** | Published — "Ultrametric Quantum Computing Foundations" on Zenodo (DOI: 10.5281/zenodo.20154557, 2026-05-15). 3,700 words, 12 references, 5 pre-registered falsifiable predictions. |
 | **Patent portfolio** | Provisional patents exist; timeline unspecified; conversion to PCT not yet done |
 | **Publications** | 300+ open-access on Zenodo, ResearchGate, SSRN |
@@ -103,26 +103,18 @@ These are NOT gaps to be closed — they are the path. Do not suggest pivoting a
 
 ---
 
-## 7. IMMEDIATE NEXT STEPS (Prioritized)
+## 7. CURRENT PRIORITIES (Prioritized)
 
-### Priority 1: Build Tier 0 Computational Validation
-**What:** Python simulation demonstrating ultrametric error confinement in Bruhat–Tits tree circuits vs. standard (Archimedean/flat) circuits.
-**Why:** Closes the gap between "theory" and "evidence" without requiring a lab. Produces shareable, reproducible data.
-**Deliverable:** Runnable Python script(s) + output data + plots + writeup.
-**Status:** NOT STARTED.
-**Blocked by:** Nothing. Can be built entirely in code.
+### Priority 1: ✅ COMPLETE — Tier 0 + Tier 0.5 Computational Validation
+**What:** Python simulation demonstrating ultrametric error confinement in Bruhat–Tits tree circuits.
+**Status:** **PUBLISHED + EXPANDED.** Tier 0 paper on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). Ultrametric_v2 project COMPLETE (7 sprints, 2026-05-16): ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate), 48× LER reduction via scatter, concatenation proven redundant, hardware spec (40-atom neutral atom, $d=3$). Companion paper finalized. Repo: `G:\My Drive\projects\ultrametric_v2\`.
+**Next:** Publish ultrametric_v2 companion paper. Open-source repo (P28).
 
-### Priority 2: Submit Emergent Ventures Application
-**What:** 1-page proposal for Tyler Cowen's moonshot grant program.
-**Why:** EV rewards originality over credentials. Written application. Rolling deadline. Aligned with the path.
-**Status:** NOT STARTED. Listed as Priority 1 in NEXT STEPS.
-**Blocked by:** Nothing. Library has all needed modules.
+### Priority 2: ✅ COMPLETE — Emergent Ventures Application
+**Status:** Submitted May 2026. Pending.
 
-### Priority 3: Submit Foresight Institute Application
-**What:** Fellowship or grant application for frontier technology.
-**Why:** Foresight evaluates ideas, not pedigrees. Long-term impact focus. Written application.
-**Status:** NOT STARTED. Listed as Priority 2 in NEXT STEPS.
-**Blocked by:** Nothing. Library has all needed modules.
+### Priority 3: ✅ COMPLETE — Foresight Institute Application
+**Status:** Submitted May 2026. Pending.
 
 ### Priority 4: IP Portfolio — Maintained, Not Expanded
 
@@ -171,11 +163,10 @@ These are NOT gaps to be closed — they are the path. Do not suggest pivoting a
 3. [ ] If VSD/FRO/EWOR accepts: immediately file High-Temp to establish pre-acceptance priority date
 4. [ ] Quarterly IP review: add to SPRINT.md calendar
 
-### Priority 5: Active Written Outreach
-**What:** Send written proposals to 20+ individuals/programs that evaluate on substance.
-**Why:** The "publish and hope" strategy hasn't converted. Direct written outreach to specific targets may.
-**Status:** NOT STARTED.
-**Blocked by:** Need to build target list. Computational validation data would strengthen outreach.
+### Priority 5: Active Written Outreach — IN PROGRESS
+**What:** Send written proposals to individuals/programs that evaluate on substance.
+**Status:** **STARTED.** P17 (Zúñiga-Galindo) sent 2026-05-15 — awaiting response. P18-P22 queued (Dragovich, Khrennikov, Wales, Planat). Credential document published as calling card.
+**Next:** Await P17 response (window closes May 29). If positive → P18 (conference abstract). If no response → P19 (Dragovich).
 
 ---
 
@@ -260,11 +251,28 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 | Location | Content |
 |:---------|:--------|
 | `Obsidian/releases/2026/05/` (external research releases) | Release documents — primary technical references |
+| `projects/ultrametric_v2/` | **QWAV computational validation engine** — 7 sprints complete. Ternary ($p=3$) symmetric architecture. Key files: `0.8.md` (companion paper), `0.17_hardware_specs.md` (40-atom design), `0.18_progress_report.md` (narrative). |
+| `projects/Fractal Harmonic Trees/` | Quantum foundations from geometric structure analysis. Langlands program connections. |
+| `projects/Tree Distance Cophenetic/` | Tree-based geometry and distance metric analysis. |
+| `projects/Can Math Prove Physics/` | Philosophical foundations — can mathematics prove physical theories? |
 | local archive (not in public repo) | Archived prior versions of QWAV documents |
 
 ---
 
-## 11. HOW TO USE THIS DOCUMENT (For Future LLM Sessions)
+## 11. CROSS-PROJECT ECOSYSTEM (2026-05-16)
+
+QWAV does not exist in isolation. Four sibling projects under `G:\My Drive\projects\` provide computational, theoretical, and philosophical depth. Future QWAV agents should be aware of these resources.
+
+| Project | Relationship to QWAV | Status | Key Deliverable |
+|:--------|:---------------------|:-------|:----------------|
+| **ultrametric_v2** | **Direct computational validation engine.** 7 sprints of expanded Tier 0 simulation. Ternary ($p=3$) symmetric Bruhat-Tits trees. ZERO logical errors at depth 7. 48× LER reduction. Hardware specs complete. | ✅ COMPLETE | Companion paper (0.8.md), hardware design (0.17.md) |
+| **Fractal Harmonic Trees** | Quantum foundations — QM as invariant geometric structure analysis. Langlands program as bridge between discrete and continuous. | Active | 0.1.4.md (QM foundations), 0.1.5.md (Langlands bridge) |
+| **Tree Distance Cophenetic** | Tree-based geometry metrics — distance, cophenetic correlation, hierarchical clustering. Relevant to QWAV's Bruhat-Tits tree architecture validation. | Active (Sprint 3) | 0.15.md (final synthesis) |
+| **Can Math Prove Physics** | Philosophical foundations — can mathematical structure alone prove physical theories? Supports QWAV's thesis that the geometry assumption is the root problem. | Active | 0.7.md |
+
+**Integration guidance:** When QWAV needs deeper computational validation → consult `ultrametric_v2/`. When QWAV needs mathematical/philosophical foundation → consult `Fractal Harmonic Trees/` and `Can Math Prove Physics/`. When QWAV needs tree-geometry analysis → consult `Tree Distance Cophenetic/`.
+
+## 12. HOW TO USE THIS DOCUMENT (For Future LLM Sessions)
 
 1. **Read this file first** — it contains the full project state
 2. **Read `CHANGELOG.md`** for the history of changes
