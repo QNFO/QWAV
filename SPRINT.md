@@ -46,16 +46,15 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 20 | Project documentation complete | BACKLOG.md, LEARNINGS.md, DECISIONS.md created. All 7 required docs now present (Section 0.7). | 2026-05-12 |
 | 21 | Cross-reference audit | All references to moved/deleted files updated in README.md, SPRINT.md, PROJECT STATE.md. No broken links remain. | 2026-05-12 |
 | 23 | Comprehensive patent design + timeline (P7) | `strategy/0.2.md` — Patent timeline documented (existing filings, conversion status, 12-month clock). Comprehensive unified provisional designed: 25 claims spanning quantum hardware (1-8), error correction software (9-15), AI methods (16-22), integrated system (23-25). EV analysis: +$74K expected. Filing held per D7 until funded. | 2026-05-12 |
+| 24 | P17 — Zúñiga-Galindo email SENT | Version A emailed to wazuniga@math.cinvestav.edu.mx — two binary questions (conference date? unaffiliated researchers welcome?). Written-only, zero downside. First targeted outreach. | 2026-05-15 |
 
 ---
 
 ### 🔄 IN PROGRESS
 
-| # | Item | Description | Started | Status |
-|:--|:-----|:------------|:--------|:-------|
-| **P17** | **Outreach — Zúñiga-Galindo email** | Send email to W.A. Zúñiga-Galindo (CINVESTAV) asking about the First International Conference on Models of Complex Hierarchic Systems and non-Archimedean Analysis: (a) 2026 date? (b) unaffiliated researchers welcome? Draft saved in `outreach-email-zuniga-galindo.md` — two versions (A: confident, B: deferential). Recommendation: send Version A. This is a door-opener, not a pitch. Consistent with Introvert's Path — email is written communication, no live interaction required. | 2026-05-14 | Draft complete. Awaiting Rowan decision: send Version A or B? |
+*P17 sent. Now in 2-week response window. In the meantime, work on unblocked items: P23 (arXiv), P24 (explainer), P26 (Tier 1 paper). See BACKLOG for full list.*
 
-*🎉 Milestones: (1) Tier 0 simulation paper published on Zenodo (DOI: 10.5281/zenodo.20134944). (2) Comprehensive provisional patent designed (25 claims, 3 domains). Next: explore next application targets (SBIR, additional fellowships, or P6 Q-PNA).*
+*🎉 Milestones: (1) Tier 0 simulation paper published on Zenodo (DOI: 10.5281/zenodo.20134944). (2) Comprehensive provisional patent designed (25 claims, 3 domains). (3) First targeted outreach sent — Zúñiga-Galindo email, 15 May 2026.*
 
 ---
 
@@ -76,7 +75,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P9** | **SBIR Phase I** | Federal small business grant. May require US entity formation. | 2–3 | US entity (possibly) | NOT STARTED |
 | **P10** | **Cold outreach to labs** | Send 10 emails to NV center labs using template from Validation Roadmap. Track responses. This is optional — computational validation may be sufficient. | 1–2 | Email access | NOT STARTED |
 | **P16** | **MIT implosion carving — nanoscale 3D fabrication** | Investigate: Nature Photonics 2026. 3D nanostructures via photopatterning + 2,000× isotropic shrinkage. Potential fabrication pathway for Bruhat-Tits tree hierarchical lattice (patent Claim 4). | 1 | Read paper + assess | NOT STARTED |
-| **P17** | **Outreach — Zúñiga-Galindo email (SEND)** | Send the email in `outreach-email-zuniga-galindo.md` (Version A). Door-opener. Binary questions. Written-only. | 0.25 | Draft complete | **DRAFT COMPLETE** |
+| **P17** | **Outreach — Zúñiga-Galindo email (SENT)** | Sent Version A 2026-05-15. Awaiting response (2-week window). | ✅ SENT 2026-05-15 |
 | **P18** | **Outreach — Conference abstract prep** | IF response positive: prepare one-page abstract on ultrametricity-quantum connection. | 1–2 | P17 positive | Contingent |
 | **P19** | **Outreach — Dragovich email** | Branko Dragovich (Steklov). Same low-friction format. | 0.5 | P17 sent | Contingent |
 | **P20** | **Outreach — Khrennikov email** | Andrei Khrennikov (Linnaeus). Same format. | 0.5 | P17 sent | Contingent |

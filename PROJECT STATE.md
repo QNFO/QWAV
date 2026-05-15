@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-14 | **Session:** Outreach pipeline integration — P17 active | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md`
+**Last updated:** 2026-05-15 | **Session:** P17 sent — first outreach executed | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md`
 
 ---
 
@@ -72,7 +72,7 @@ These are NOT gaps to be closed — they are the path. Do not suggest pivoting a
 
 | Target | Role | Status | Notes |
 |:-------|:-----|:-------|:------|
-| **W.A. Zuniga-Galindo** (CINVESTAV) | Conference organizer; bridges p-adic math with physics, biology, ML | Email draft complete (`outreach-email-zuniga-galindo.md`). Two versions (A: confident with Zenodo DOI, B: deferential). Awaiting Rowan send decision. | Door-opener: ask about conference date + unaffiliated researcher policy. Consistent with Introvert's Path (written-only). |
+| **W.A. Zuniga-Galindo** (CINVESTAV) | Conference organizer; bridges p-adic math with physics, biology, ML | ✅ SENT 2026-05-15 — Version A. Awaiting response. | Door-opener: conference date + unaffiliated researcher policy. |
 | **Branko Dragovich** (Steklov Institute) | p-adic quantum cosmology, genetics | Queued (P19). Send after P17 response. | Same low-friction format. |
 | **Andrei Khrennikov** (Linnaeus University) | p-adic probability, cognitive modeling | Queued (P20). Send after P17 response. | Same format. |
 | **First Int'l Conf. on Models of Complex Hierarchic Systems** | Mexico City, 2026 (date TBD) | Monitoring. Target for abstract submission as "back door" into community. | Zuniga-Galindo chairs LOC. |
@@ -130,8 +130,8 @@ These are NOT gaps to be closed — they are the path. Do not suggest pivoting a
 ### Priority 5: Outreach — Send Zuniga-Galindo Email
 **What:** Send the email in `outreach-email-zuniga-galindo.md` (Version A recommended). Binary questions: conference date? unaffiliated researchers welcome?
 **Why:** Opens a door to the First International Conference on Models of Complex Hierarchic Systems — a rare venue for ultrametric/p-adic work. Conference abstract submission is a "back door" (peer-reviewed but not a full paper). Entirely consistent with Introvert's Path (email is written, no live interaction).
-**Status:** DRAFT COMPLETE — awaiting Rowan decision to send.
-**Blocked by:** Rowan's decision on which version to send (A: confident, B: deferential).
+**Status:** DRAFT COMPLETE — SENT 2026-05-15. Awaiting response.
+**Blocked by:** Response window (2 weeks).
 
 **What was done:**
 - Full inventory of 1,194 files across 25 draft patent packages at `G:\My Drive\Patents\`

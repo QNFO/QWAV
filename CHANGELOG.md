@@ -390,6 +390,21 @@ None of these assumptions hold. The recalibration centers on:
 
 ---
 
+## 2026-05-15 — P17 Sent: First Outreach Executed
+
+### What Changed
+
+- **P17 SENT:** Zúñiga-Galindo email (Version A) sent to wazuniga@math.cinvestav.edu.mx. Two binary questions. 2-week response window.
+- **SPRINT.md:** P17 added to COMPLETED (item 24). BACKLOG table: P17 marked SENT. IN PROGRESS: updated with 2-week wait + unblocked next actions.
+- **BACKLOG.md:** P17 marked SENT.
+- **PROJECT STATE.md:** Session header updated, Section 4.3 outreach table updated, Priority 5 status updated.
+
+### Rationale
+
+First targeted outreach executed. This is the door-opener — not a pitch, not a favor request. Two binary questions (conference date? unaffiliated researchers welcome?) answerable in 30 seconds. Consistent with Introvert's Path (written-only, no live interaction). If response is positive, next step is P18 (abstract prep). If no response after 2 weeks, send one brief follow-up, then proceed to P19-P22 (Dragovich, Khrennikov, Wales, Planat).
+
+---
+
 ## 2026-05-14 — Outreach Pipeline Integration
 
 ### What Changed
