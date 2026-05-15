@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-16 | **Session:** Cross-project sync — integrated ultrametric_v2 completion, synced credential doc with release, cleaned stale artifacts | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md`
+**Last updated:** 2026-05-17 | **Session:** Cross-project sync review — Tree Distance Cophenetic + ultrametric_v2 gap analysis; 10 new backlog items (P31-P40); P26 reclassified; P10 superseded; D8-D10 added | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.16
 
 ---
 
@@ -170,6 +170,11 @@ These are NOT gaps to be closed — they are the path. Do not suggest pivoting a
 
 ---
 
+### Priority 6: 🔴 CRITICAL — Companion Paper Publication + Lab Outreach (Added 2026-05-17)
+**Status:** NOT STARTED — companion paper written, needs Zenodo upload
+**Details:** Cross-project sync review identified the highest-leverage gaps: (1) Publish ultrametric_v2 companion paper to Zenodo (P31 — 0.5 session, unblocks everything). (2) Refresh credential doc + narrative library with v2 findings (P33 — 1-2 sessions). (3) Neutral atom lab outreach to 4 specific labs (P32 — 1 session). Full details in BACKLOG.md P31-P40.
+**Next action:** P31 — Zenodo upload of companion paper (highest-leverage single action in QWAV backlog).
+
 ## 8. LONGER-TERM PATH
 
 ```
@@ -259,18 +264,22 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 
 ---
 
-## 11. CROSS-PROJECT ECOSYSTEM (2026-05-16)
+## 11. CROSS-PROJECT ECOSYSTEM (2026-05-17)
 
-QWAV does not exist in isolation. Four sibling projects under `G:\My Drive\projects\` provide computational, theoretical, and philosophical depth. Future QWAV agents should be aware of these resources.
+QWAV does not exist in isolation. Four sibling projects under `G:\My Drive\projects\` provide computational, theoretical, and philosophical depth. Future QWAV agents: consult these projects when deeper domain expertise is needed.
 
 | Project | Relationship to QWAV | Status | Key Deliverable |
 |:--------|:---------------------|:-------|:----------------|
-| **ultrametric_v2** | **Direct computational validation engine.** 7 sprints of expanded Tier 0 simulation. Ternary ($p=3$) symmetric Bruhat-Tits trees. ZERO logical errors at depth 7. 48× LER reduction. Hardware specs complete. | ✅ COMPLETE | Companion paper (0.8.md), hardware design (0.17.md) |
-| **Fractal Harmonic Trees** | Quantum foundations — QM as invariant geometric structure analysis. Langlands program as bridge between discrete and continuous. | Active | 0.1.4.md (QM foundations), 0.1.5.md (Langlands bridge) |
-| **Tree Distance Cophenetic** | Tree-based geometry metrics — distance, cophenetic correlation, hierarchical clustering. Relevant to QWAV's Bruhat-Tits tree architecture validation. | Active (Sprint 3) | 0.15.md (final synthesis) |
-| **Can Math Prove Physics** | Philosophical foundations — can mathematical structure alone prove physical theories? Supports QWAV's thesis that the geometry assumption is the root problem. | Active | 0.7.md |
+| **ultrametric_v2** | **Direct computational validation engine.** 7 sprints of expanded Tier 0 simulation. Ternary (p=3) symmetric Bruhat-Tits trees. ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate). 48x LER reduction via scatter with zero extra qubits. Correlated noise advantage. Concatenation proven redundant. **Companion paper written (36K chars) -- needs Zenodo upload (QWAV P31).** Four specific lab outreach templates ready (QWAV P32). | COMPLETE | companion-paper.md, outreach-whitepaper.md, hardware-specs.md |
+| **Fractal Harmonic Trees** | Quantum foundations -- QM as invariant geometric structure analysis. Langlands program as bridge between discrete and continuous. | Active | 0.1.4.md (QM foundations), 0.2.3.md (Langlands bridge) |
+| **Tree Distance Cophenetic** | Tree-based geometry metrics and unified hierarchical ontology -- cophenetic distance, ultrametric inequality, triadic rigidity theorem. **Publication-ready (0.8.md, DOI: 10.5281/zenodo.20213043). Provides philosophical bridge for QWAV P27 (cross-domain synthesis paper) via P36.** Resolution-dependence bridge connects to QWAV geometry-choice thesis. | Sprint 3 (blocked: Zenodo upload) | 0.8.md (publication draft, 35K chars, all citations verified) |
+| **Can Math Prove Physics** | Philosophical foundations -- can mathematical structure alone prove physical theories? Supports QWAV thesis that the geometry assumption is the root problem in quantum foundations. | Active | -- |
 
-**Integration guidance:** When QWAV needs deeper computational validation → consult `ultrametric_v2/`. When QWAV needs mathematical/philosophical foundation → consult `Fractal Harmonic Trees/` and `Can Math Prove Physics/`. When QWAV needs tree-geometry analysis → consult `Tree Distance Cophenetic/`.
+**Integration guidance from cross-project sync review (2026-05-17):**
+- When QWAV needs computational validation depth: consult ultrametric_v2/ -- companion paper, outreach whitepaper, hardware spec, FAQ
+- When QWAV needs mathematical/philosophical depth for cross-domain synthesis (P27): consult Tree Distance Cophenetic/0.8.md -- triadic rigidity, resolution-dependence bridge
+- When QWAV needs quantum foundations depth: consult Fractal Harmonic Trees/ and Can Math Prove Physics/
+- **Highest leverage gap:** ultrametric_v2 companion paper exists but is not on Zenodo (QWAV P31)
 
 ## 12. HOW TO USE THIS DOCUMENT (For Future LLM Sessions)
 

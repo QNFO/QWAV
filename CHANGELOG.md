@@ -4,6 +4,56 @@
 
 ---
 
+## [v2.16] — 2026-05-17 — Cross-Project Sync Review: Tree Distance Cophenetic & Ultrametric_v2
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **Cross-project gap analysis** | Reviewed `Tree Distance Cophenetic` (Sprint 3, 0.8.md publication-ready, DOI 10.5281/zenodo.20213043) and `ultrametric_v2` (7 sprints, 28 tasks, 26 files) for actionable gaps against QWAV strategy. |
+| **Backlog expansion** | Added 10 new items (P31–P40) with priority tiers: 🔴 CRITICAL (P31-P33), 🟠 HIGH (P34-P35), 🟡 MEDIUM (P36-P38), 🟢 LOW (P39-P40). |
+| **Status corrections** | P26 reclassified from "NOT STARTED" to "ESSENTIALLY COMPLETE" (companion paper written, only Zenodo upload needed). P10 marked SUPERSEDED by P32 (neutral atoms not NV centers). P28 scope updated to leverage ultrametric_v2 codebase. |
+| **New decisions** | D8: Outreach targets shifted from NV centers to neutral atoms. D9: Companion paper IS Tier 1 — no separate writing needed. D10: $q$-ary scatter is primary differentiation narrative. |
+| **IN PROGRESS updated** | Cross-project sync review findings integrated into sprint tracker. |
+
+### Key Findings Absorbed from Ultrametric_v2
+
+| Finding | QWAV Action |
+|:--------|:------------|
+| $q$-ary 48× LER reduction at zero qubit cost | Designated primary talking point (D10). Standalone piece: P34. Narrative library update: P33. |
+| Correlated noise advantage (tree beats classical) | First practical advantage claim. Add to credential doc + narrative (P33). |
+| 40-atom hardware spec, $d=3$, neutral atoms | Outreach campaign with 4 specific labs (P32). Supersedes vague NV center plan (P10). |
+| Concatenation proven redundant | Elegant negative result — tree IS already optimal. Narrative library (P33). |
+| Companion paper written (36K chars, 8 sections) | Only needs Zenodo upload (P31). Unblocks P32+P33. |
+
+### Key Findings Absorbed from Tree Distance Cophenetic
+
+| Finding | QWAV Action |
+|:--------|:------------|
+| Cophenetic distance as unified hierarchical ontology | Philosophical bridge for cross-domain synthesis paper (P36 → P27). |
+| Triadic rigidity theorem | Lemma for "why trees not manifolds" argument in cross-domain paper. |
+| Resolution-dependence bridge (height function = $\varepsilon$) | Connects to QWAV's "geometry choice determines physics" thesis. |
+| 0.8.md publication-ready (DOI: 10.5281/zenodo.20213043) | Cross-reference in QWAV materials once published (P39). |
+
+### Files Changed
+
+| File | Action | Summary |
+|:-----|:-------|:--------|
+| `BACKLOG.md` | Major edit | P26 reclassified, P10 superseded, P28 scope updated, P31-P40 added with priority tiers |
+| `SPRINT.md` | Major edit | Backlog table updated with P31-P40, IN PROGRESS refreshed, completed item #27 added |
+| `DECISIONS.md` | Append | D8, D9, D10 added |
+| `CHANGELOG.md` | Append | This entry |
+
+### Next Session Start Here
+
+1. **P31** — Upload companion paper to Zenodo (0.5 session, highest-leverage single action)
+2. **P33** — Refresh credential doc + narrative library with v2 findings (1-2 sessions)
+3. **P32** — Neutral atom lab outreach campaign (1 session, after P31)
+
+Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P35 → P39 → P40
+
+---
+
 ## [v2.15] — 2026-05-16 — Cross-Project Sync & Ultrametric_v2 Integration
 
 ### Completed

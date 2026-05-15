@@ -49,12 +49,13 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 24 | P17 — Zúñiga-Galindo email SENT | Version A emailed to wazuniga@math.cinvestav.edu.mx — two binary questions (conference date? unaffiliated researchers welcome?). Written-only, zero downside. First targeted outreach. | 2026-05-15 |
 | 25 | P24+P25 — Explainer published | Credential document: `Ultrametric Quantum Computing Foundations.md` — 3,700 words, 12 references, 5 pre-registered falsifiable predictions. Published on Zenodo (DOI: 10.5281/zenodo.20154557). | 2026-05-15 |
 | 26 | Distribution — Buffer, Substack, LinkedIn | Buffer posts scheduled (Bluesky, Mastodon, Twitter/X thread). Substack article posted. LinkedIn article posted. Full multi-platform distribution of credential document. | 2026-05-15 |
+| 27 | Cross-project sync review | Tree Distance Cophenetic + ultrametric_v2 reviewed for QWAV gaps. BACKLOG.md + SPRINT.md updated: 10 new items (P31–P40), P26 reclassified, P10 superseded, D8-D10 added. | 2026-05-17 |
 
 ---
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). Distribution complete: Buffer (Bluesky, Mastodon, Twitter/X), Substack article, LinkedIn article. **Ultrametric_v2 (Tier 0.5) COMPLETE (2026-05-16):** 7 sprints of expanded computational validation. Ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate), 48× LER reduction via scatter, concatenation proven redundant, hardware design spec (40-atom neutral atom, $d=3$). Companion paper finalized. Repo: `G:\My Drive\projects\ultrametric_v2\`. Next unblocked: P26 (Tier 1 paper — ultrametric_v2 companion), P28 (open-source repo), P30 (entity assessment).*
+*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). Distribution complete: Buffer (Bluesky, Mastodon, Twitter/X), Substack article, LinkedIn article. **Ultrametric_v2 (Tier 0.5) COMPLETE (2026-05-16):** 7 sprints of expanded computational validation. Ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate), 48× LER reduction via scatter, concatenation proven redundant, hardware design spec (40-atom neutral atom, $d=3$). Companion paper finalized. **Cross-project sync review COMPLETE (2026-05-17):** Tree Distance Cophenetic + ultrametric_v2 reviewed against QWAV gaps. 10 new backlog items (P31–P40) added. P26 reclassified as ESSENTIALLY COMPLETE. P10 SUPERSEDED by P32. Next: P31 (Zenodo upload of companion paper) — highest-leverage single action.*
 
 *🎉 Milestones: (1) Tier 0 simulation paper on Zenodo. (2) Tier 0.5 (ultrametric_v2) — 7 sprints complete. (3) Patent designed. (4) First outreach sent. (5) Credential document with 5 pre-registered predictions published.*
 
@@ -75,7 +76,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P11** | **P11 formal verification collaboration** | Lean 4 formal verification of ultrametric QEC threshold theorem. ⚠️ Competitive dynamic identified: collaborator's commercial positioning (software QEC verification) conflicts with QWAV thesis (hardware passive fault tolerance). Four technical objections each protect his business model. Collaboration unlikely unless next reply demonstrates genuine good-faith engagement. See L10. | 3-5 (ongoing) | Resolution of competitive dynamic | ⚠️ Under review — likely walk |
 | **P12** | **Patents IP strategic plan** | Execute the 8-step plan in strategy/ip-strategic-plan.md. Inventory, organize, assess all 25 draft packages at G:\\My Drive\\Patents\. Classify into Filing-Ready / Develop / Archive. Produce prioritized filing shortlist (max 2-3 provisionals, \). DO NOT move files in bulk. | 2-3 | Full inventory of Patents directory | NOT STARTED |
 | **P9** | **SBIR Phase I** | Federal small business grant. May require US entity formation. | 2–3 | US entity (possibly) | NOT STARTED |
-| **P10** | **Cold outreach to labs** | Send 10 emails to NV center labs using template from Validation Roadmap. Track responses. This is optional — computational validation may be sufficient. | 1–2 | Email access | NOT STARTED |
+| **P10** | **Cold outreach to labs** | ~~Send 10 emails to NV center labs.~~ **SUPERSEDED by P32.** Ultrametric_v2 platform scoping identified NEUTRAL ATOM labs as primary target. See P32. | — | — | SUPERSEDED by P32 |
 | **P16** | **MIT implosion carving — nanoscale 3D fabrication** | Investigate: Nature Photonics 2026. 3D nanostructures via photopatterning + 2,000× isotropic shrinkage. Potential fabrication pathway for Bruhat-Tits tree hierarchical lattice (patent Claim 4). | 1 | Read paper + assess | NOT STARTED |
 | **P17** | **Outreach — Zúñiga-Galindo email (SENT)** | Sent Version A 2026-05-15. Awaiting response (2-week window). | ✅ SENT 2026-05-15 |
 | **P18** | **Outreach — Conference abstract prep** | IF response positive: prepare one-page abstract on ultrametricity-quantum connection. | 1–2 | P17 positive | Contingent |
@@ -86,11 +87,23 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P23** | **ArXiv submission** | Submit Tier 0 paper to arXiv (quant-ph + math-ph). Guide in `arxiv-submission-guide.md`. Needs endorser or moderator approval. | 1 | Endorser or moderator | NOT STARTED |
 | **P24** | **"Why Ultrametricity" explainer** | 2,000-word accessible doc. No equations. Calling card. | ✅ PUBLISHED — DOI: 10.5281/zenodo.20154557 |
 | **P25** | **Pre-register falsifiable prediction** | Public specific testable prediction. Nuclear credibility option. | ✅ PUBLISHED — in `Ultrametric Quantum Computing Foundations.md` |
-| **P26** | **Tier 1 computational paper** | Publish ultrametric_v2 companion paper (0.8.md). Larger trees, realistic noise models, surface code comparison. ⚡ MUCH OF THIS IS DONE — ultrametric_v2 project completed 7 sprints covering general-p, correlated noise, multi-bit, q-ary generalization, dynamic restructuring, QEC concatenation, hardware specs. | 1–2 | ultrametric_v2 codebase | ⚡ V2 code exists |
+| **P26** | **Tier 1 computational paper** | ~~Extend Tier 0.~~ **ESSENTIALLY COMPLETE — ultrametric_v2 companion paper written. Only Zenodo upload remains. See P31.** | 0.5 (upload only) | P31 | ✅ ESSENTIALLY COMPLETE |
 | **P27** | **Cross-domain synthesis paper** | Ultrametricity across spin glasses, proteins, strings, cognition, QC. | 2–3 | Outreach complete | NOT STARTED |
 | **P28** | **Open-source simulation code** | Polish repo: README, reproduction instructions, license. | 1 | Tier 0 code | NOT STARTED |
 | **P29** | **FQXi Essay Contest** | Check for open contest. "Continuous manifold = wrong assumption." | 0.5+writing | Contest open | NOT STARTED |
 | **P30** | **Entity formation assessment** | US entity needed for SBIR/ARPA-E? Cost-benefit. | 0.5 | None | NOT STARTED |
+| **P31** 🔴 | **Publish v2 companion paper to Zenodo** | Upload `companion-paper.md`, get DOI, cross-reference original. Unblocks P32+P33. | 0.5 | Web access | NOT STARTED |
+| **P32** 🔴 | **Neutral atom lab outreach** | Email 4 labs (Harvard, Caltech, PASQAL, Innsbruck) with whitepaper + hardware spec. Supersedes P10. | 1 | P31, email | NOT STARTED |
+| **P33** 🔴 | **Refresh credential doc + narrative library** | Add v2 findings ($q$-ary 48×, correlated noise, hardware spec) to materials. | 1-2 | P31 | NOT STARTED |
+| **P34** 🟠 | **$q$-ary scatter talking point** | 500-word standalone piece on 48× LER at zero cost. | 0.5 | None | NOT STARTED |
+| **P35** 🟠 | **arXiv submission (strengthened)** | Same as P23 — companion paper strengthens case. | 1 | Endorser | NOT STARTED |
+| **P36** 🟡 | **Cophenetic distance → cross-domain bridge** | Integrate Tree Distance Cophenetic framework into P27. | 1 | TDC Zenodo upload | NOT STARTED |
+| **P37** 🟡 | **Competitive landscape with benchmarking** | Use v2 honest baseline methodology for P8. | 0.5 | None | NOT STARTED |
+| **P38** 🟡 | **Open-source v2 codebase** | Same as P28 — 26-file validated codebase. | 1 | None | NOT STARTED |
+| **P39** 🟢 | **Cross-reference TDC publication** | Add bidirectional refs once both have DOIs. | 0.25 | Both published | NOT STARTED |
+| **P40** 🟢 | **P27 updated scope** | Cross-domain paper now enriched by TDC + v2 results. | 2-3 | P36, outreach | NOT STARTED |
+
+**🔴 CRITICAL → 🟠 HIGH → 🟡 MEDIUM → 🟢 LOW. Execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P35 → P39 → P40.**
 
 ---
 

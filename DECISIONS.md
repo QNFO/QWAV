@@ -84,3 +84,24 @@
 - **Rationale:** Sprint 6 simulated concatenation of standard QEC codes (surface code, Steane code) on top of the ternary tree. Result: LER with concatenation = LER without concatenation at all tested depths and error rates. Adding active QEC adds overhead (qubits, gates, latency) with zero benefit. The strong triangle inequality ($d(x,z) \leq \max(d(x,y), d(y,z))$) provides geometric error suppression that active QEC cannot improve upon.
 - **Alternatives considered:** Surface code concatenation (rejected: identical LER with 2-4× qubit overhead). Steane code concatenation (rejected: identical LER with 7× qubit overhead).
 - **Reversible?** Yes — if a future QEC code is discovered that provides multiplicative (not additive) benefit on trees, the decision can be revisited. Currently, all tested codes show zero marginal benefit.
+
+### D8: Outreach targets shifted from NV centers to neutral atoms
+- **Date:** 2026-05-17 (cross-project sync review)
+- **Decision:** Primary outreach target changed from NV center labs (original P10) to neutral atom tweezer arrays. Ultrametric_v2 platform scoping identified neutral atom labs as the optimal platform: arbitrary 2D/3D geometry, demonstrated 256+ atom arrays, no hardware modifications required for tree protocol, strong track record of experimental-theoretical collaboration.
+- **Rationale:** The tree protocol requires only arbitrary atom positioning, single-qubit rotations, and fluorescence readout — all standard on existing neutral atom platforms. NV centers have constrained geometry (fixed lattice) that does not naturally map to tree structures. The outreach whitepaper and hardware spec in ultrametric_v2 target four specific labs: Harvard/Lukin, Caltech/Endres, PASQAL, Innsbruck.
+- **Alternatives considered:** NV centers (rejected: geometry mismatch). Superconducting (rejected: limited to 2D Manhattan, no tree-native architecture). Trapped ions (viable secondary — Innsbruck targeted for this platform).
+- **Reversible?** Yes — if neutral atom outreach fails, trapped ions remain a viable secondary. The outreach templates can be adapted to any platform that supports arbitrary qubit positioning.
+
+### D9: Companion paper IS Tier 1 — no separate Tier 1 writing needed
+- **Date:** 2026-05-17 (cross-project sync review)
+- **Decision:** The ultrametric_v2 companion paper (`companion-paper.md`, 36K chars, 8 sections, 11 refs) fulfills the original P26 scope: larger depths (d=2-8), realistic noise models (correlated), comparison to classical baselines, and q-ary generalization. P26 is reclassified from "NOT STARTED (2-3 sessions)" to "ESSENTIALLY COMPLETE (0.5 sessions — Zenodo upload only)."
+- **Rationale:** The companion paper already covers all P26-specified extensions. Writing a separate Tier 1 paper would be redundant. The only remaining action is Zenodo publication (P31).
+- **Alternatives considered:** Write a new Tier 1 paper from scratch (rejected: redundant — companion paper covers the scope). Merge companion into a larger document (rejected: companion's symmetric extension narrative is self-contained and has a clear through-line).
+- **Reversible?** Yes — if new computational findings emerge (e.g., noise models not yet tested), a separate Tier 1 extension paper may be warranted. But the core P26 scope is complete.
+
+### D10: $q$-ary scatter is the primary differentiation narrative
+- **Date:** 2026-05-17 (cross-project sync review)
+- **Decision:** The $q$-ary alphabet generalization result (48× LER reduction using existing atomic hyperfine levels at zero additional qubit cost) is designated as QWAV's primary accessible talking point for non-specialist audiences. It should be featured prominently in all outward-facing materials.
+- **Rationale:** Among the 8 novel findings from ultrametric_v2, the $q$-ary result is: (a) the most accessible to non-quantum audiences ("using atoms you already have"), (b) the hardest to dismiss (uses existing hardware capability), (c) the largest single numerical improvement (48×), and (d) directly implementable on current neutral atom platforms. The correlated noise advantage (tree beats classical) is more academically compelling; the $q$-ary result is more accessible.
+- **Alternatives considered:** Lead with correlated noise advantage (more academically rigorous but harder to explain briefly). Lead with barrier formula (too mathematical). Lead with ZERO errors at d=7 (strong but less differentiated from original paper claims).
+- **Reversible?** Yes — the narrative emphasis can shift based on audience (investor vs. physicist vs. fellowship committee). The $q$-ary result is the default talking point, not the only one.
