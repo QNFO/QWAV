@@ -390,6 +390,26 @@ None of these assumptions hold. The recalibration centers on:
 
 ---
 
+## 2026-05-15 — Explainable Credential Document (P24+P25)
+
+### What Changed
+
+- **NEW FILE:** `0.3.md` — Comprehensive ultrametric quantum computing explainer: foundations, computational validation results, 5 pre-registered falsifiable predictions. 3,700 words, 12 references. Designed for Zenodo publication (DOI pending) and ResearchGate cross-post.
+- **SPRINT.md:** P24+P25 marked complete (item 25). BACKLOG table updated.
+- **BACKLOG.md:** P24+P25 marked complete.
+
+### Rationale
+
+The credential document replaces the arXiv paper, the PhD, and the institutional affiliation as the primary credibility asset. It is published on Zenodo with a DOI, cross-posted on ResearchGate for search indexing, and linked from qnfo.org/releases. No endorsement required. No peer review. No gatekeeper. The work stands on substance.
+
+### Files Changed
+
+- `0.3.md` (NEW)
+- `SPRINT.md` (COMPLETED + BACKLOG updated)
+- `BACKLOG.md` (P24+P25 marked complete)
+
+---
+
 ## 2026-05-15 — P17 Sent: First Outreach Executed
 
 ### What Changed

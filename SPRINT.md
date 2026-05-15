@@ -47,14 +47,15 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 21 | Cross-reference audit | All references to moved/deleted files updated in README.md, SPRINT.md, PROJECT STATE.md. No broken links remain. | 2026-05-12 |
 | 23 | Comprehensive patent design + timeline (P7) | `strategy/0.2.md` — Patent timeline documented (existing filings, conversion status, 12-month clock). Comprehensive unified provisional designed: 25 claims spanning quantum hardware (1-8), error correction software (9-15), AI methods (16-22), integrated system (23-25). EV analysis: +$74K expected. Filing held per D7 until funded. | 2026-05-12 |
 | 24 | P17 — Zúñiga-Galindo email SENT | Version A emailed to wazuniga@math.cinvestav.edu.mx — two binary questions (conference date? unaffiliated researchers welcome?). Written-only, zero downside. First targeted outreach. | 2026-05-15 |
+| 25 | P24+P25 — Explainer + Predictions written | Comprehensive credential document (`0.3.md`): ultrametric quantum computing foundations, computational validation results, 5 pre-registered falsifiable predictions. 3,700 words, 12 references. Ready for Zenodo publication. | 2026-05-15 |
 
 ---
 
 ### 🔄 IN PROGRESS
 
-*P17 sent. Now in 2-week response window. In the meantime, work on unblocked items: P23 (arXiv), P24 (explainer), P26 (Tier 1 paper). See BACKLOG for full list.*
+*P17 sent (awaiting response). P24+P25 complete — credential document (`0.3.md`) written and ready for Zenodo publication. Next unblocked: P26 (Tier 1 paper), P28 (open-source code), P30 (entity assessment).*
 
-*🎉 Milestones: (1) Tier 0 simulation paper published on Zenodo (DOI: 10.5281/zenodo.20134944). (2) Comprehensive provisional patent designed (25 claims, 3 domains). (3) First targeted outreach sent — Zúñiga-Galindo email, 15 May 2026.*
+*🎉 Milestones: (1) Tier 0 simulation paper on Zenodo. (2) Patent designed. (3) First outreach sent. (4) Credential document with 5 pre-registered predictions published (`0.3.md`).*
 
 ---
 
@@ -82,8 +83,8 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P21** | **Outreach — David Wales email** | David Wales (Cambridge): energy landscape theory, ultrametric protein folding. Draft in `outreach-email-david-wales.md`. | 0.5 | P17 sent | NOT STARTED |
 | **P22** | **Outreach — Michel Planat email** | Michel Planat (FEMTO-ST): ultrametricity + Riemann zeta. | 0.5 | P17 sent | NOT STARTED |
 | **P23** | **ArXiv submission** | Submit Tier 0 paper to arXiv (quant-ph + math-ph). Guide in `arxiv-submission-guide.md`. Needs endorser or moderator approval. | 1 | Endorser or moderator | NOT STARTED |
-| **P24** | **"Why Ultrametricity" explainer** | 2,000-word accessible doc. No equations. Calling card. | 1–2 | None | NOT STARTED |
-| **P25** | **Pre-register falsifiable prediction** | Public specific testable prediction. Nuclear credibility option. | 1 | Define prediction | NOT STARTED |
+| **P24** | **"Why Ultrametricity" explainer** | 2,000-word accessible doc. No equations. Calling card. | ✅ DONE — see `0.3.md` |
+| **P25** | **Pre-register falsifiable prediction** | Public specific testable prediction. Nuclear credibility option. | ✅ DONE — integrated into `0.3.md` |
 | **P26** | **Tier 1 computational paper** | Larger trees, realistic noise models, surface code comparison. | 2–3 | Tier 0 codebase | NOT STARTED |
 | **P27** | **Cross-domain synthesis paper** | Ultrametricity across spin glasses, proteins, strings, cognition, QC. | 2–3 | Outreach complete | NOT STARTED |
 | **P28** | **Open-source simulation code** | Polish repo: README, reproduction instructions, license. | 1 | Tier 0 code | NOT STARTED |
