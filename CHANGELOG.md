@@ -390,6 +390,20 @@ None of these assumptions hold. The recalibration centers on:
 
 ---
 
+## 2026-05-15 — Multi-Platform Distribution
+
+### What Changed
+
+- **Buffer posts scheduled:** Bluesky, Mastodon, Twitter/X (with reply thread) — all automated, addToQueue.
+- **Substack article posted:** Full article with subject, title, subtitle, read-more break, 2 notes, 6 tags.
+- **LinkedIn article posted:** Full article with headline, subtitle, body, key takeaways, DOI reference, teaser.
+
+### Rationale
+
+Credential document (DOI: 10.5281/zenodo.20154557) distributed across all available platforms. Buffer handles short-form (Bluesky, Mastodon, Twitter). Substack and LinkedIn carry the long-form narrative. This is the "Introvert's Path" distribution strategy — written-only, automated scheduling, no live engagement required.
+
+---
+
 ## 2026-05-15 — Credential Document Published (DOI: 10.5281/zenodo.20154557)
 
 ### What Changed

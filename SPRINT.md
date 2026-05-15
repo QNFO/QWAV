@@ -48,12 +48,13 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 23 | Comprehensive patent design + timeline (P7) | `strategy/0.2.md` — Patent timeline documented (existing filings, conversion status, 12-month clock). Comprehensive unified provisional designed: 25 claims spanning quantum hardware (1-8), error correction software (9-15), AI methods (16-22), integrated system (23-25). EV analysis: +$74K expected. Filing held per D7 until funded. | 2026-05-12 |
 | 24 | P17 — Zúñiga-Galindo email SENT | Version A emailed to wazuniga@math.cinvestav.edu.mx — two binary questions (conference date? unaffiliated researchers welcome?). Written-only, zero downside. First targeted outreach. | 2026-05-15 |
 | 25 | P24+P25 — Explainer published | Credential document: `Ultrametric Quantum Computing Foundations.md` — 3,700 words, 12 references, 5 pre-registered falsifiable predictions. Published on Zenodo (DOI: 10.5281/zenodo.20154557). | 2026-05-15 |
+| 26 | Distribution — Buffer, Substack, LinkedIn | Buffer posts scheduled (Bluesky, Mastodon, Twitter/X thread). Substack article posted. LinkedIn article posted. Full multi-platform distribution of credential document. | 2026-05-15 |
 
 ---
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response). P24+P25 published — credential document on Zenodo (DOI: 10.5281/zenodo.20154557). Next unblocked: P26 (Tier 1 paper), P28 (open-source code), P30 (entity assessment).*
+*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). Distribution complete: Buffer (Bluesky, Mastodon, Twitter/X), Substack article, LinkedIn article. Next unblocked: P26 (Tier 1 paper), P28 (open-source repo), P30 (entity assessment).*
 
 *🎉 Milestones: (1) Tier 0 simulation paper on Zenodo. (2) Patent designed. (3) First outreach sent. (4) Credential document with 5 pre-registered predictions published (`0.3.md`).*
 
