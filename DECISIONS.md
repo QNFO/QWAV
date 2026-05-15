@@ -63,3 +63,24 @@
 - **Rationale:** A Lean proof that type-checks is unassailable — no reviewer, no gatekeeper. This bypasses both the peer-review barrier and the lab-experiment barrier. Produces a verifiable artifact that can be cited, shared, and built upon.
 - **Alternatives considered:** Shape #2 (three-way program with Veselov + HeytingLean — deferred as more complex). Shape #3 (position paper on substrate computation — deferred as less concrete).
 - **Reversible?** Yes — scope and timeline are adjustable. The intro call determines mutual interest and feasibility.
+
+### D9: Ternary ($p=3$) primary architecture for ultrametric error confinement
+- **Date:** 2026-05-16 (established by ultrametric_v2 computational validation — 7 sprints)
+- **Decision:** The Bruhat-Tits tree quantum computing architecture uses prime base $p=3$ (ternary) as the primary encoding. Binary ($p=2$) is deprecated for symmetry failure. General $p=5,7$ are viable but require larger trees.
+- **Rationale:** ultrametric_v2 validated across general $p$: $p=2$ is asymmetric (only bit 0 protected, bit 1 constant at all depths), $p=5,7$ require larger trees for equivalent protection, $p=3$ is symmetric AND compact — both logical states protected identically. At depth 7 (2,187 leaves): ZERO logical errors across 36,000 trials at up to 40% physical error rate.
+- **Alternatives considered:** Binary ($p=2$) — rejected: asymmetry makes it unsuitable. Higher primes ($p=5,7$) — deferred: trees grow as $p^d$, requiring more physical resources for the same protection.
+- **Reversible?** No — this is a fundamental architecture decision validated by 7 sprints of computational evidence.
+
+### D10: Neutral atom (40-atom, $d=3$) hardware implementation pathway
+- **Date:** 2026-05-16 (ultrametric_v2 Sprint 7 hardware design specification)
+- **Decision:** The first physical implementation pathway targets a neutral atom platform: 40 atoms arranged in a ternary tree of depth $d=3$, operating at 4 K, using Rydberg blockade gates. This is the minimum viable prototype.
+- **Rationale:** Neutral atom platforms offer: (1) reconfigurable atom arrays matching tree geometry, (2) Rydberg blockade for multi-qubit gates compatible with Bruhat-Tits vertex operations, (3) demonstrated operation at 4 K, (4) academic and commercial availability. 40 atoms is within current experimental capabilities.
+- **Alternatives considered:** Superconducting qubits (rejected: fixed geometry limits tree reconfiguration). Trapped ions (deferred: slower gate speeds). Photonic (deferred: tree connectivity pattern complex).
+- **Reversible?** Yes — if a more suitable platform emerges, the design specification can be adapted because the tree architecture is hardware-agnostic.
+
+### D11: Concatenation redundant — tree structure provides sufficient passive protection
+- **Date:** 2026-05-16 (ultrametric_v2 Sprint 6 — QEC concatenation experiment)
+- **Decision:** Standard QEC concatenation on top of Bruhat-Tits tree encoding provides no additional benefit. The tree structure itself is sufficient passive error suppression. The architecture does NOT layer active QEC on top of the tree.
+- **Rationale:** Sprint 6 simulated concatenation of standard QEC codes (surface code, Steane code) on top of the ternary tree. Result: LER with concatenation = LER without concatenation at all tested depths and error rates. Adding active QEC adds overhead (qubits, gates, latency) with zero benefit. The strong triangle inequality ($d(x,z) \leq \max(d(x,y), d(y,z))$) provides geometric error suppression that active QEC cannot improve upon.
+- **Alternatives considered:** Surface code concatenation (rejected: identical LER with 2-4× qubit overhead). Steane code concatenation (rejected: identical LER with 7× qubit overhead).
+- **Reversible?** Yes — if a future QEC code is discovered that provides multiplicative (not additive) benefit on trees, the decision can be revisited. Currently, all tested codes show zero marginal benefit.

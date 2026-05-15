@@ -4,6 +4,38 @@
 
 ---
 
+## [v2.15] — 2026-05-16 — Cross-Project Sync & Ultrametric_v2 Integration
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **Ultrametric_v2 integration** | Ultrametric_v2 project (7 sprints, `G:\My Drive\projects\ultrametric_v2\`) COMPLETE. Key results synced into QWAV docs: ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7, 48× LER reduction via scatter, concatenation proven redundant, 40-atom neutral atom hardware design. |
+| **Credential doc synced** | `Ultrametric Quantum Computing Foundations.md` updated to match published release version — added YAML frontmatter (author, ORCID, ISNI, title, aliases, modified). |
+| **PROJECT STATE.md refreshed** | Section 7 (Priorities) updated — all "NOT STARTED" corrected to reflect actual completion. Section 11 (Cross-Project Ecosystem) added with links to all 4 sibling projects. Priority 5 (Outreach) updated to IN PROGRESS. |
+| **SPRINT.md updated** | IN PROGRESS section reflects ultrametric_v2 completion. P26 backlog note updated. 4 new learnings (L7-L10) from ultrametric_v2 sprints. |
+| **Stale files cleaned** | 11 stale ultrametric_v2 development files (`_barrier_*`, `_verify_*`, `_constructive*`, `_run_d7.py`, `_minimal.py`) removed from QWAV repo. |
+
+### Files Changed
+
+| File | Action |
+|:-----|:-------|
+| `Ultrametric Quantum Computing Foundations.md` | Synced with release version (+YAML frontmatter) |
+| `PROJECT STATE.md` | Major refresh — corrected outdated priorities, added cross-project ecosystem |
+| `SPRINT.md` | Added ultrametric_v2 completion + new learnings |
+| 11 stale files deleted | `_barrier_out.txt`, `_barrier_v2.py`, `_barrier_verify.py`, `_constructive.py`, `_constructive2.py`, `_minimal.py`, `_quick_verify.py`, `_run_d7.py`, `_standalone_verify.py`, `_verify_file.py`, `_verify_v3.py` |
+
+### New Cross-Project References
+
+| Project | Path | Relationship |
+|:--------|:-----|:-------------|
+| ultrametric_v2 | `projects/ultrametric_v2/` | Direct computational validation engine — 7 sprints complete |
+| Fractal Harmonic Trees | `projects/Fractal Harmonic Trees/` | Quantum foundations, Langlands program |
+| Tree Distance Cophenetic | `projects/Tree Distance Cophenetic/` | Tree geometry metrics |
+| Can Math Prove Physics | `projects/Can Math Prove Physics/` | Philosophical foundations |
+
+---
+
 ## [v2.14] — 2026-05-14 — Collaboration Vetting & Competitive Dynamics (L10)
 
 ### Completed

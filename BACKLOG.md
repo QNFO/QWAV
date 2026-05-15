@@ -2,7 +2,9 @@
 
 > **Purpose:** Prioritized queue of future work. Updated whenever new ideas emerge or priorities shift. Items are ordered by priority — work top to bottom.
 
-**Last updated:** 2026-05-12 | **Status:** Paper published (P4 complete)
+**Last updated:** 2026-05-16 | **Status:** Ultrametric_v2 (Tier 0.5) complete — 7 sprints. P17 outreach sent. Credential doc published.
+
+**Key Reprioritization (2026-05-16):** Ultrametric_v2 completion moves P6 (Q-PNA/AI side) to TOP priority — the quantum hardware side is now well-validated. P26 (Tier 1 paper) reduced from 2-3 sessions to 1-2 since much content exists in ultrametric_v2. P28 (open-source repo) should leverage ultrametric_v2 codebase.
 
 ---
 
