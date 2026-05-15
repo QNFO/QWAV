@@ -1,30 +1,38 @@
+---
+author: Rowan Brad Quni-Gudzinas
+ORCID: 0009-0002-4317-5604
+ISNI: 0000000526456062
+title: "Ultrametric Quantum Computing: Foundations, Evidence, and Falsifiable Predictions"
+aliases:
+  - "Ultrametric Quantum Computing: Foundations, Evidence, and Falsifiable Predictions"
+modified: 2026-05-15T07:29:48Z
+---
+
 # Ultrametric Quantum Computing: Foundations, Evidence, and Falsifiable Predictions
 
 **Author:** Rowan Brad Quni-Gudzinas
 **ORCID:** 0009-0002-4317-5604
 **Date:** 15 May 2026
-**Status:** Preprint — published on Zenodo, ResearchGate, and qnfo.org/releases
+**Status:** Preprint—published on Zenodo, ResearchGate, and qnfo.org/releases
 **DOI:** 10.5281/zenodo.20154557
-
----
 
 ## Abstract
 
-Quantum computing is stalled. Despite decades of investment, no quantum computer has solved a problem that a classical computer cannot. The standard explanation — that we need better error correction — assumes the mathematical framework itself is correct. This document argues that the framework is not correct. The assumption that quantum state space is a continuous manifold — inherited from classical physics without scrutiny — may be the root cause of the field's stagnation. Replacing the continuous manifold with an ultrametric (tree-based) geometry provides passive fault tolerance: errors are geometrically confined rather than actively corrected. This document presents the mathematical foundations, computational validation results, and a set of pre-registered falsifiable predictions. If ultrametric encoding produces the predicted error suppression, it offers a path to fault-tolerant quantum computing at 4 K with dramatically reduced qubit overhead. If it does not, the hypothesis is falsified. Either outcome advances the field.
+Quantum computing is stalled. Despite decades of investment, no quantum computer has solved a problem that a classical computer cannot. The standard explanation—that we need better error correction—assumes the mathematical framework itself is correct. This document argues that the framework is not correct. The assumption that quantum state space is a continuous manifold—inherited from classical physics without scrutiny—may be the root cause of the field’s stagnation. Replacing the continuous manifold with an ultrametric (tree-based) geometry provides passive fault tolerance: errors are geometrically confined rather than actively corrected. This document presents the mathematical foundations, computational validation results, and a set of pre-registered falsifiable predictions. If ultrametric encoding produces the predicted error suppression, it offers a path to fault-tolerant quantum computing at 4 K with dramatically reduced qubit overhead. If it does not, the hypothesis is falsified. Either outcome advances the field.
 
 ---
 
 ## 1. The Assumption Nobody Questions
 
-Every quantum computing platform — superconducting circuits, trapped ions, neutral atoms, photonics — builds on the same unstated assumption: that the space of quantum states is continuous. Qubits are represented as points on the Bloch sphere, a smooth 2-dimensional manifold. Gates are continuous rotations. Error correction treats errors as small deviations from a desired continuous trajectory.
+Every quantum computing platform—superconducting circuits, trapped ions, neutral atoms, photonics—builds on the same unstated assumption: that the space of quantum states is continuous. Qubits are represented as points on the Bloch sphere, a smooth 2-dimensional manifold. Gates are continuous rotations. Error correction treats errors as small deviations from a desired continuous trajectory.
 
 This assumption was not chosen after careful consideration. It was inherited. Classical physics described the world using real numbers and continuous manifolds. Quantum mechanics adopted the same mathematical toolkit. When quantum computing emerged in the 1980s and 1990s, nobody asked whether continuity was the right geometry for computation. It was simply the geometry everyone knew.
 
-But there is a problem. Continuous manifolds have no natural notion of hierarchy. Every point is equally distant from every other point in the sense that small perturbations can take you anywhere. This means errors — small random deviations — can accumulate and propagate without bound. The entire field of quantum error correction (QEC) exists to solve this problem: actively detect errors and correct them before they destroy the computation.
+But there is a problem. Continuous manifolds have no natural notion of hierarchy. Every point is equally distant from every other point in the sense that small perturbations can take you anywhere. This means errors—small random deviations—can accumulate and propagate without bound. The entire field of quantum error correction (QEC) exists to solve this problem: actively detect errors and correct them before they destroy the computation.
 
-The surface code, the leading QEC architecture, requires approximately 1,000 physical qubits to protect one logical qubit. To run a useful quantum algorithm — say, breaking RSA-2048 — estimates range from 20 million to 1 billion physical qubits. Current state-of-the-art systems have approximately 1,000 physical qubits with error rates too high for fault tolerance.
+The surface code, the leading QEC architecture, requires approximately 1,000 physical qubits to protect one logical qubit. To run a useful quantum algorithm—say, breaking RSA-2048—estimates range from 20 million to 1 billion physical qubits. Current state-of-the-art systems have approximately 1,000 physical qubits with error rates too high for fault tolerance.
 
-The field's response has been: build more qubits, improve gate fidelities, develop better decoders. But nobody has asked: what if the geometry itself is wrong?
+The field’s response has been: build more qubits, improve gate fidelities, develop better decoders. But nobody has asked: what if the geometry itself is wrong?
 
 ---
 
@@ -40,18 +48,18 @@ $$d(x, z) \leq \max\{d(x, y), d(y, z)\}$$
 
 In an ultrametric space, the distance between any two points is bounded by the *maximum* of their distances to any third point, not the sum. This has a profound geometric consequence: **all triangles are isosceles with the two equal sides at least as long as the third.** In an ultrametric space, you cannot have three points where all pairwise distances are different.
 
-The natural geometry of an ultrametric space is not a smooth surface but a **tree**. Each point lives at a leaf of a hierarchical tree, and the distance between two points is determined by the depth of their deepest common ancestor — the point where their branches meet.
+The natural geometry of an ultrametric space is not a smooth surface but a **tree**. Each point lives at a leaf of a hierarchical tree, and the distance between two points is determined by the depth of their deepest common ancestor—the point where their branches meet.
 
 This is not an exotic abstraction. Ultrametric spaces appear naturally in:
 
 - **Evolutionary biology:** Phylogenetic trees. The distance between two species is determined by their most recent common ancestor.
 - **Linguistics:** Language family trees. French and Spanish are closer to each other than either is to German because they share a more recent common ancestor (Latin).
 - **Computer science:** Trie data structures, hierarchical clustering, decision trees.
-- **Spin glasses:** Giorgio Parisi's 2021 Nobel Prize work proved that the equilibrium states of spin glasses are organized ultrametrically.
-- **Protein folding:** The energy landscapes of proteins — the possible shapes a protein can take as it folds — form ultrametric trees. Each "basin" of similar shapes contains sub-basins, which contain sub-sub-basins.
+- **Spin glasses:** Giorgio Parisi’s 2021 Nobel Prize work proved that the equilibrium states of spin glasses are organized ultrametrically.
+- **Protein folding:** The energy landscapes of proteins—the possible shapes a protein can take as it folds—form ultrametric trees. Each “basin” of similar shapes contains sub-basins, which contain sub-sub-basins.
 - **$p$-adic physics:** In the 1980s, Volovich and Vladimirov proposed that spacetime at the Planck scale might be $p$-adic (ultrametric) rather than real (Archimedean). This led to $p$-adic string theory, $p$-adic quantum mechanics, and, recently, $p$-adic machine learning.
 
-The common thread: **wherever there is hierarchy, there is ultrametricity.** And computation — especially quantum computation — is fundamentally hierarchical. A quantum algorithm is a tree of operations. Error correction is a hierarchy of encodings. The structure of computation itself suggests that the underlying geometry should be ultrametric.
+The common thread: **wherever there is hierarchy, there is ultrametricity.** And computation—especially quantum computation—is fundamentally hierarchical. A quantum algorithm is a tree of operations. Error correction is a hierarchy of encodings. The structure of computation itself suggests that the underlying geometry should be ultrametric.
 
 ---
 
@@ -61,13 +69,13 @@ Ultrametricity is not a speculative idea waiting for evidence. It has been disco
 
 ### 3.1 Spin Glasses (Physics)
 
-A spin glass is a disordered magnetic system where the interactions between spins are random — some favor alignment, others anti-alignment. This frustration leads to a vast number of metastable states. In the 1980s, Giorgio Parisi developed the replica symmetry breaking solution, which revealed that the equilibrium states of a spin glass are organized in a hierarchical, ultrametric tree. This discovery earned him the 2021 Nobel Prize in Physics. The citation reads: "for the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales."
+A spin glass is a disordered magnetic system where the interactions between spins are random—some favor alignment, others anti-alignment. This frustration leads to a vast number of metastable states. In the 1980s, Giorgio Parisi developed the replica symmetry breaking solution, which revealed that the equilibrium states of a spin glass are organized in a hierarchical, ultrametric tree. This discovery earned him the 2021 Nobel Prize in Physics. The citation reads: “for the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales.”
 
-The significance: **ultrametricity is not a mathematical curiosity — it is the organizing principle of one of the most complex physical systems known.**
+The significance: **ultrametricity is not a mathematical curiosity—it is the organizing principle of one of the most complex physical systems known.**
 
 ### 3.2 Protein Folding (Biophysics)
 
-Proteins fold from random chains into specific three-dimensional structures. The number of possible conformations is astronomical (Levinthal's paradox), yet proteins fold reliably in milliseconds. David Wales and collaborators showed that the energy landscape of protein folding is organized ultrametrically: the space of possible shapes forms a tree of basins, each containing sub-basins, funneling the protein toward its native state. The disconnectivity graph — Wales's visualization tool — is literally a tree diagram of ultrametric relationships.
+Proteins fold from random chains into specific three-dimensional structures. The number of possible conformations is astronomical (Levinthal’s paradox), yet proteins fold reliably in milliseconds. David Wales and collaborators showed that the energy landscape of protein folding is organized ultrametrically: the space of possible shapes forms a tree of basins, each containing sub-basins, funneling the protein toward its native state. The disconnectivity graph—Wales’s visualization tool—is literally a tree diagram of ultrametric relationships.
 
 ### 3.3 $p$-adic Mathematical Physics
 
@@ -79,7 +87,7 @@ Andrei Khrennikov and collaborators have applied ultrametric and $p$-adic models
 
 ### 3.5 The Pattern
 
-In every domain where complex, hierarchical structure emerges — disordered magnets, folding proteins, quantum gravity, human cognition — the underlying geometry is ultrametric. The continuous manifold is the exception, not the rule. Yet quantum computing — arguably the most complex computational system ever attempted — continues to use continuous geometry exclusively.
+In every domain where complex, hierarchical structure emerges—disordered magnets, folding proteins, quantum gravity, human cognition—the underlying geometry is ultrametric. The continuous manifold is the exception, not the rule. Yet quantum computing—arguably the most complex computational system ever attempted—continues to use continuous geometry exclusively.
 
 ---
 
@@ -93,9 +101,9 @@ The key properties for quantum computing:
 
 1. **Hierarchical encoding:** Qubits are encoded at leaves of the tree, not at points on a sphere. The logical state of a qubit is distributed across its subtree.
 
-2. **Geometric error confinement:** An error at one node of the tree can only affect nodes in the same subtree. Errors cannot propagate across the entire state space — they are geometrically confined by the tree structure. This is passive fault tolerance: the geometry itself suppresses errors, without active QEC cycles.
+2. **Geometric error confinement:** An error at one node of the tree can only affect nodes in the same subtree. Errors cannot propagate across the entire state space—they are geometrically confined by the tree structure. This is passive fault tolerance: the geometry itself suppresses errors, without active QEC cycles.
 
-3. **Tree-automorphism gates:** Quantum operations correspond to automorphisms of the tree — transformations that preserve the tree structure. These gates are inherently fault-tolerant because they respect the hierarchical encoding.
+3. **Tree-automorphism gates:** Quantum operations correspond to automorphisms of the tree—transformations that preserve the tree structure. These gates are inherently fault-tolerant because they respect the hierarchical encoding.
 
 4. **Perfect tensor codes:** The Bruhat–Tits tree supports perfect tensor network codes, where each node enforces a local isometry condition. This provides a natural embedding of logical qubits in a larger physical space with built-in error detection.
 
@@ -112,7 +120,7 @@ A computational validation of ultrametric error confinement was performed and pu
 - **Tree geometry:** Bruhat–Tits tree with branching factor $q = 2$, depths 1 through 5.
 - **Encoding:** Logical qubits encoded as subtree states. Each leaf represents a physical qubit candidate.
 - **Noise model:** Depolarizing noise applied independently at each node with physical error rate $p \in \{0.01, 0.05, 0.10, 0.20, 0.30, 0.40\}$.
-- **Metrics:** Logical Error Rate (LER) — the probability that the decoded logical state differs from the encoded state. Error Confinement Ratio (ECR) — the ratio of LER to physical error rate $p$.
+- **Metrics:** Logical Error Rate (LER)—the probability that the decoded logical state differs from the encoded state. Error Confinement Ratio (ECR)—the ratio of LER to physical error rate $p$.
 - **Comparison:** Flat (non-hierarchical) encoding with identical noise applied.
 
 ### 5.2 Results (Experiment 0A)
@@ -134,11 +142,11 @@ A computational validation of ultrametric error confinement was performed and pu
 
 1. **LER = 0 at depth $\geq$ 3** for all tested physical error rates up to $p = 0.40$ (40%). This is the geometric error confinement effect: at sufficient tree depth, errors are confined to small subtrees and do not affect the logical state.
 
-2. **Flat encoding shows no confinement:** LER tracks the physical error rate regardless of system size. This is the expected behavior for unencoded qubits on a continuous manifold — errors propagate freely.
+2. **Flat encoding shows no confinement:** LER tracks the physical error rate regardless of system size. This is the expected behavior for unencoded qubits on a continuous manifold—errors propagate freely.
 
 3. **The threshold is geometric, not dynamic:** Unlike surface codes, which achieve fault tolerance through repeated syndrome measurements and active correction, ultrametric encoding achieves it through geometry alone. Once the tree is deep enough, errors are suppressed without any active intervention.
 
-4. **40% physical error tolerance is unprecedented:** Surface codes typically require physical error rates below approximately $1\%$ to achieve fault tolerance. The Tier 0 simulation suggests ultrametric encoding tolerates error rates 40 times higher — at least in this simplified model.
+4. **40% physical error tolerance is unprecedented:** Surface codes typically require physical error rates below approximately $1\%$ to achieve fault tolerance. The Tier 0 simulation suggests ultrametric encoding tolerates error rates 40 times higher—at least in this simplified model.
 
 ### 5.4 Limitations (Acknowledged)
 
@@ -187,7 +195,7 @@ $$\text{LER}(d) \leq p^d \quad \text{for all } d \geq 1$$
 
 ### Prediction 4: Gate Fidelity Threshold
 
-**Statement:** Under ultrametric encoding, the threshold for fault-tolerant quantum computation — the physical gate error rate below which arbitrarily long computations are possible — is higher than for surface codes.
+**Statement:** Under ultrametric encoding, the threshold for fault-tolerant quantum computation—the physical gate error rate below which arbitrarily long computations are possible—is higher than for surface codes.
 
 **Specifically:** The fault-tolerance threshold for ultrametric tree-automorphism gates is estimated at $p_{\text{th}} \geq 0.05$ (5%), compared to approximately $p_{\text{th}} \approx 0.01$ (1%) for surface codes. This is because geometry provides passive error suppression, reducing the burden on active correction.
 
@@ -197,7 +205,7 @@ $$\text{LER}(d) \leq p^d \quad \text{for all } d \geq 1$$
 
 ### Prediction 5: AI Interpretability
 
-**Statement:** Training a neural network on a Bruhat–Tits tree geometry (where each node corresponds to a feature or decision boundary) produces a model whose decision paths are traceable through the tree structure — providing "glass-box" interpretability without sacrificing accuracy.
+**Statement:** Training a neural network on a Bruhat–Tits tree geometry (where each node corresponds to a feature or decision boundary) produces a model whose decision paths are traceable through the tree structure—providing “glass-box” interpretability without sacrificing accuracy.
 
 **Specifically:** On a standard image classification benchmark (e.g., MNIST or CIFAR-10), a Bruhat–Tits tree classifier achieves accuracy within 5% of an equivalent convolutional neural network while providing complete decision-path traceability for every classification.
 
@@ -227,17 +235,17 @@ The output will reproduce the table in Section 5.2.
 ### 7.2 Extension
 
 The codebase is designed for extension:
-- `btree.py` — Bruhat–Tits tree construction and traversal
-- `encoding.py` — Logical qubit encoding on trees
-- `noise.py` — Noise model application
-- `metrics.py` — LER, ECR, and other diagnostics
-- `experiments/` — Pre-configured experiment scripts
+- `btree.py`—Bruhat–Tits tree construction and traversal
+- `encoding.py`—Logical qubit encoding on trees
+- `noise.py`—Noise model application
+- `metrics.py`—LER, ECR, and other diagnostics
+- `experiments/`—Pre-configured experiment scripts
 
 To test Prediction 1 (depth scaling), modify the tree depth parameter and re-run. To test Prediction 2 (surface code comparison), implement a surface code simulator and compare metrics.
 
 ### 7.3 Physical Validation
 
-Researchers with access to quantum computing hardware are invited to test Predictions 3 and 4. The encoding scheme is platform-agnostic: any system capable of implementing the tree's entanglement structure can host the encoding. Contact the author for collaboration.
+Researchers with access to quantum computing hardware are invited to test Predictions 3 and 4. The encoding scheme is platform-agnostic: any system capable of implementing the tree’s entanglement structure can host the encoding. Contact the author for collaboration.
 
 ---
 
@@ -253,17 +261,17 @@ If the ultrametric encoding hypothesis is correct, the implications extend beyon
 
 ### 8.2 Artificial Intelligence
 
-- **Glass-box AI:** Decision paths traceable through the Bruhat–Tits tree. Every classification comes with an explanation — the path from root to leaf.
+- **Glass-box AI:** Decision paths traceable through the Bruhat–Tits tree. Every classification comes with an explanation—the path from root to leaf.
 - **Geometric regularization:** The tree structure provides natural regularization, potentially reducing overfitting without explicit penalty terms.
 
 ### 8.3 Foundations of Physics
 
 - **Continuity is not fundamental:** If ultrametric geometry produces better computational results than continuous geometry, it suggests that continuity may be an emergent approximation, not a fundamental feature of physical reality.
-- **$p$-adic spacetime:** The Bruhat–Tits tree's connection to $p$-adic string theory and the AdS/CFT correspondence suggests a deeper link between quantum computation and quantum gravity.
+- **$p$-adic spacetime:** The Bruhat–Tits tree’s connection to $p$-adic string theory and the AdS/CFT correspondence suggests a deeper link between quantum computation and quantum gravity.
 
 ### 8.4 Philosophy of Science
 
-- **The wrong assumption:** For 40 years, quantum computing has been built on an unexamined assumption — that state space is continuous. If that assumption is wrong, the entire field has been optimizing the wrong thing. This is a cautionary tale for any field: question your axioms, especially the ones nobody questions.
+- **The wrong assumption:** For 40 years, quantum computing has been built on an unexamined assumption—that state space is continuous. If that assumption is wrong, the entire field has been optimizing the wrong thing. This is a cautionary tale for any field: question your axioms, especially the ones nobody questions.
 
 ---
 
@@ -275,13 +283,13 @@ This document has presented:
 
 2. **Mathematical foundations:** The Bruhat–Tits tree provides a rigorous alternative to the Bloch sphere, with natural error confinement, hierarchical encoding, and tree-automorphism gates.
 
-3. **Computational evidence:** Tier 0 simulation demonstrates LER = 0 at depth 3+ for physical error rates up to 40%. The effect is geometric, not dynamic — errors are confined by the tree structure itself.
+3. **Computational evidence:** Tier 0 simulation demonstrates LER = 0 at depth 3+ for physical error rates up to 40%. The effect is geometric, not dynamic—errors are confined by the tree structure itself.
 
 4. **Falsifiable predictions:** Five specific, testable predictions are registered. Anyone can test them. If they fail, the hypothesis is weakened or refuted. If they hold, the evidence mountain grows.
 
 5. **Open verification:** All code and data are open-source. Reproduction requires only a standard computer.
 
-The work is not complete. The Tier 0 simulation is a first step. The falsifiable predictions await testing. The gate model and AI applications are under development. But the direction is clear: replacing the continuous manifold with an ultrametric tree is not a minor adjustment — it is a paradigm shift. And paradigm shifts, by their nature, are initially rejected by the institutions built on the old paradigm.
+The work is not complete. The Tier 0 simulation is a first step. The falsifiable predictions await testing. The gate model and AI applications are under development. But the direction is clear: replacing the continuous manifold with an ultrametric tree is not a minor adjustment—it is a paradigm shift. And paradigm shifts, by their nature, are initially rejected by the institutions built on the old paradigm.
 
 This document is not submitted for peer review. It is published for reader evaluation. Verify the claims. Test the predictions. The work stands or falls on its substance, not on the credentials of its author or the venue of its publication.
 
