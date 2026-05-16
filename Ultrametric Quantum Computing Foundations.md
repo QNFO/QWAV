@@ -5,7 +5,7 @@ ISNI: 0000000526456062
 title: "Ultrametric Quantum Computing: Foundations, Evidence, and Falsifiable Predictions"
 aliases:
   - "Ultrametric Quantum Computing: Foundations, Evidence, and Falsifiable Predictions"
-modified: 2026-05-15T07:29:48Z
+modified: 2026-05-16T18:00:00Z
 ---
 
 # Ultrametric Quantum Computing: Foundations, Evidence, and Falsifiable Predictions
@@ -347,10 +347,13 @@ This document is not submitted for peer review. It is published for reader evalu
 
 12. Quni-Gudzinas, R. B. (2026). Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits. Zenodo. DOI: 10.5281/zenodo.20134944.
 
+13. Quni-Gudzinas, R. B. (2026). Symmetric Extension of Ultrametric Error Confinement — Ternary Tree Architecture with Bidirectional Validation. Zenodo. DOI: 10.5281/zenodo.20208437.
+
 ---
 
 **Publication Venues:**
 - Zenodo (DOI): 10.5281/zenodo.20154557
+- Companion paper (DOI): 10.5281/zenodo.20208437
 - ResearchGate
 - qnfo.org/releases
 
