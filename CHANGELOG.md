@@ -86,6 +86,32 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
+## [v2.17] — 2026-05-16 — P33a+P33b — Strategy Docs Refreshed with v2 Findings
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **P33a — Credential doc refreshed** | `Ultrametric Quantum Computing Foundations.md` updated: new §5.5 (Tier 1 — Symmetric Ternary Extension) covering ternary ($p=3$) architecture, ZERO LER at $d=7$, 48× scatter, concatenation redundancy, 40-atom hardware pathway. Reference [13] added (companion paper, DOI: 10.5281/zenodo.20208437). Frontmatter updated. Companion DOI added to publication venues. |
+| **P33b — Narrative modules extended** | `QA - Narrative Modules and Intellectual Defense.md` extended with M13-M16: M13 (Ternary Architecture), M14 (48× Error Reduction at Zero Qubit Cost), M15 (Concatenation Is Redundant), M16 (40-Atom Hardware Pathway). Total modules: M1-M16. |
+
+### Files Changed
+
+| File | Action |
+|:-----|:-------|
+| `Ultrametric Quantum Computing Foundations.md` | +§5.5, +ref [13], updated frontmatter + venues |
+| `strategy/QA - Narrative Modules and Intellectual Defense.md` | +M13-M16 (~800 words of reusable narrative content) |
+| `SPRINT.md` | P33 marked ✅ P33a+P33b done. IN PROGRESS updated. |
+| `BACKLOG.md` | P33 marked ✅ P33a+P33b done. P41 (remaining strategy docs) deferred. |
+
+### Status After This Update
+
+- Credential doc now reflects full v2 computational validation (not just Tier 0)
+- Narrative library has 16 modules (was 12) — ternary, scatter, concatenation, hardware now reusable
+- 3 Zenodo papers, 16 modules, 3 DOIs — the outward-facing documentation now matches the actual research progress
+
+---
+
 ## [v2.16] — 2026-05-16 — P26+P31 Complete — Tier 1 Companion Paper Published
 
 ### Completed

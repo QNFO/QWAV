@@ -93,7 +93,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P30** | **Entity formation assessment** | US entity needed for SBIR/ARPA-E? Cost-benefit. | 0.5 | None | NOT STARTED |
 | **P31** | **Publish v2 companion paper to Zenodo** | Published — DOI: [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437). Unblocks P32+P33. | — | — | DONE (2026-05-16) |
 | **P32** 🔴 | **Neutral atom lab outreach** | Email 4 labs (Harvard, Caltech, PASQAL, Innsbruck) with whitepaper + hardware spec. Supersedes P10. | 1 | P31, email | NOT STARTED |
-| **P33** 🔴 | **Refresh credential doc + narrative library** | Add v2 findings ($q$-ary 48×, correlated noise, hardware spec) to materials. | 1-2 | P31 | NOT STARTED |
+| **P33** 🔴 | **Refresh credential doc + narrative library** | ~~Add v2 findings ($q$-ary 48×, correlated noise, hardware spec) to materials.~~ **P33a+P33b DONE (2026-05-16):** `Ultrametric Quantum Computing Foundations.md` updated with Tier 1 companion paper (DOI: 10.5281/zenodo.20208437), ternary ($p=3$) architecture, 48× scatter, concatenation redundancy, hardware pathway. `QA - Narrative Modules` extended with M13-M16 (ternary, scatter, concatenation, hardware). **P33c (remaining strategy docs) deferred to P41.** | 1-2 (remaining) | P31 ✓ | ✅ P33a+P33b done |
 | **P34** 🟠 | **$q$-ary scatter talking point** | 500-word standalone piece on 48× LER at zero cost. | 0.5 | None | NOT STARTED |
 | **P35** 🟠 | **arXiv submission (strengthened)** | Same as P23 — companion paper strengthens case. | 1 | Endorser | NOT STARTED |
 | **P36** 🟡 | **Cophenetic distance → cross-domain bridge** | Integrate Tree Distance Cophenetic framework into P27. | 1 | TDC Zenodo upload | NOT STARTED |
