@@ -55,9 +55,9 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). Distribution complete: Buffer (Bluesky, Mastodon, Twitter/X), Substack article, LinkedIn article. **Ultrametric_v2 (Tier 0.5) COMPLETE (2026-05-16):** 7 sprints of expanded computational validation. Ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate), 48× LER reduction via scatter, concatenation proven redundant, hardware design spec (40-atom neutral atom, $d=3$). Companion paper finalized. **Cross-project sync review COMPLETE (2026-05-17):** Tree Distance Cophenetic + ultrametric_v2 reviewed against QWAV gaps. 10 new backlog items (P31–P40) added. P26 reclassified as ESSENTIALLY COMPLETE. P10 SUPERSEDED by P32. Next: P31 (Zenodo upload of companion paper) — highest-leverage single action.*
+*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). Distribution complete: Buffer (Bluesky, Mastodon, Twitter/X), Substack article, LinkedIn article. **Ultrametric_v2 (Tier 0.5) COMPLETE (2026-05-16):** 7 sprints of expanded computational validation. Ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate), 48× LER reduction via scatter, concatenation proven redundant, hardware design spec (40-atom neutral atom, $d=3$). **P26+P31 COMPLETE (2026-05-16):** Companion paper published on Zenodo — "Symmetric Extension of Ultrametric Error Confinement" (DOI: 10.5281/zenodo.20208437). Cross-project sync review COMPLETE (2026-05-17): Tree Distance Cophenetic + ultrametric_v2 reviewed against QWAV gaps. 10 new backlog items (P31–P40) added. P10 SUPERSEDED by P32. **Next: P32 (neutral atom lab outreach — 🔴 highest leverage, now unblocked) or P28 (open-source repo — lighter, 1 session).***
 
-*🎉 Milestones: (1) Tier 0 simulation paper on Zenodo. (2) Tier 0.5 (ultrametric_v2) — 7 sprints complete. (3) Patent designed. (4) First outreach sent. (5) Credential document with 5 pre-registered predictions published.*
+*🎉 Milestones: (1) Tier 0 simulation paper on Zenodo. (2) Tier 0.5 (ultrametric_v2) — 7 sprints complete. (3) Tier 1 companion paper on Zenodo (DOI: 10.5281/zenodo.20208437). (4) Patent designed. (5) First outreach sent. (6) Credential document with 5 pre-registered predictions published.*
 
 ---
 
@@ -87,12 +87,12 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P23** | **ArXiv submission** | Submit Tier 0 paper to arXiv (quant-ph + math-ph). Guide in `arxiv-submission-guide.md`. Needs endorser or moderator approval. | 1 | Endorser or moderator | NOT STARTED |
 | **P24** | **"Why Ultrametricity" explainer** | 2,000-word accessible doc. No equations. Calling card. | ✅ PUBLISHED — DOI: 10.5281/zenodo.20154557 |
 | **P25** | **Pre-register falsifiable prediction** | Public specific testable prediction. Nuclear credibility option. | ✅ PUBLISHED — in `Ultrametric Quantum Computing Foundations.md` |
-| **P26** | **Tier 1 computational paper** | ~~Extend Tier 0.~~ **ESSENTIALLY COMPLETE — ultrametric_v2 companion paper written. Only Zenodo upload remains. See P31.** | 0.5 (upload only) | P31 | ✅ ESSENTIALLY COMPLETE |
+| **P26** | **Tier 1 computational paper** | Published — "Symmetric Extension of Ultrametric Error Confinement" on Zenodo. DOI: 10.5281/zenodo.20208437. 36K words. Ternary tree architecture with bidirectional validation. | — | — | ✅ DONE (2026-05-16) |
 | **P27** | **Cross-domain synthesis paper** | Ultrametricity across spin glasses, proteins, strings, cognition, QC. | 2–3 | Outreach complete | NOT STARTED |
 | **P28** | **Open-source simulation code** | Polish repo: README, reproduction instructions, license. | 1 | Tier 0 code | NOT STARTED |
 | **P29** | **FQXi Essay Contest** | Check for open contest. "Continuous manifold = wrong assumption." | 0.5+writing | Contest open | NOT STARTED |
 | **P30** | **Entity formation assessment** | US entity needed for SBIR/ARPA-E? Cost-benefit. | 0.5 | None | NOT STARTED |
-| **P31** 🔴 | **Publish v2 companion paper to Zenodo** | Upload `companion-paper.md`, get DOI, cross-reference original. Unblocks P32+P33. | 0.5 | Web access | NOT STARTED |
+| **P31** 🔴 | **Publish v2 companion paper to Zenodo** | ✅ DONE — Uploaded to Zenodo. DOI: 10.5281/zenodo.20208437. Cross-references original (DOI: 10.5281/zenodo.20134944). Unblocks P32+P33. | — | — | ✅ DONE (2026-05-16) |
 | **P32** 🔴 | **Neutral atom lab outreach** | Email 4 labs (Harvard, Caltech, PASQAL, Innsbruck) with whitepaper + hardware spec. Supersedes P10. | 1 | P31, email | NOT STARTED |
 | **P33** 🔴 | **Refresh credential doc + narrative library** | Add v2 findings ($q$-ary 48×, correlated noise, hardware spec) to materials. | 1-2 | P31 | NOT STARTED |
 | **P34** 🟠 | **$q$-ary scatter talking point** | 500-word standalone piece on 48× LER at zero cost. | 0.5 | None | NOT STARTED |

@@ -26,7 +26,7 @@
 | **Revenue** | $0 |
 | **Team** | Solo founder |
 | **Experimental validation** | None (no lab access, no collaborator) |
-| **Computational validation** | **Tier 0 paper:** Published — "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits" on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). Repo: github.com/QNFO/ultrametric-error-confinement. **Tier 0.5 (ultrametric_v2):** COMPLETE — 7 sprints of expanded validation. Key results: ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate), 48× LER reduction via scatter with zero extra qubits, concatenation proven redundant, hardware design spec (40-atom neutral atom, $d=3$). Companion paper finalized. |
+| **Computational validation** | **Tier 0 paper:** Published — "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits" on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). **Tier 1 paper:** Published — "Symmetric Extension of Ultrametric Error Confinement" on Zenodo (DOI: 10.5281/zenodo.20208437, 2026-05-16). Ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7, 48× LER reduction via scatter, concatenation redundancy, 40-atom neutral atom hardware design. 7 sprints of expanded validation (ultrametric_v2). |
 | **Credential document** | Published — "Ultrametric Quantum Computing Foundations" on Zenodo (DOI: 10.5281/zenodo.20154557, 2026-05-15). 3,700 words, 12 references, 5 pre-registered falsifiable predictions. |
 | **Patent portfolio** | Provisional patents exist; timeline unspecified; conversion to PCT not yet done |
 | **Publications** | 300+ open-access on Zenodo, ResearchGate, SSRN |

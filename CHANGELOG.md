@@ -54,6 +54,31 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
+## [v2.16] — 2026-05-16 — P26+P31 Complete — Tier 1 Companion Paper Published
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **P26 — Tier 1 paper** | Published "Symmetric Extension of Ultrametric Error Confinement" on Zenodo (DOI: 10.5281/zenodo.20208437). 36K words covering ternary ($p=3$) architecture, depths d=2-8, correlated noise, classical baseline, $q$-ary generalization, concatenation redundancy, hardware specs. |
+| **P31 — Zenodo upload** | Companion paper uploaded with bidirectional cross-reference to original Tier 0 paper (DOI: 10.5281/zenodo.20134944). |
+
+### Files Changed
+
+| File | Action |
+|:-----|:-------|
+| `SPRINT.md` | P26 + P31 marked ✅ DONE. IN PROGRESS updated — next: P32 or P28. Milestone (3) added for companion paper. |
+| `BACKLOG.md` | P26 + P31 marked ✅ DONE with DOI. |
+
+### Status After This Update
+
+3 Zenodo papers published:
+1. Tier 0: "Computational Validation of Ultrametric Error Confinement" — DOI: 10.5281/zenodo.20134944
+2. Credential: "Ultrametric Quantum Computing Foundations" — DOI: 10.5281/zenodo.20154557
+3. Tier 1: "Symmetric Extension of Ultrametric Error Confinement" — DOI: 10.5281/zenodo.20208437
+
+---
+
 ## [v2.15] — 2026-05-16 — Cross-Project Sync & Ultrametric_v2 Integration
 
 ### Completed
