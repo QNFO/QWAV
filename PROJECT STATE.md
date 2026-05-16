@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-17 | **Session:** Cross-project sync review — Tree Distance Cophenetic + ultrametric_v2 gap analysis; 10 new backlog items (P31-P40); P26 reclassified; P10 superseded; D8-D10 added | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.16
+**Last updated:** 2026-05-17 | **Session:** P31 Zenodo preparation — companion paper PDF generated, upload instructions written | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.17
 
 ---
 
