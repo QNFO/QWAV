@@ -56,7 +56,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). Distribution complete. **P31 DONE — companion paper on Zenodo (DOI: 10.5281/zenodo.20208437).** **Ultrametric_v2 (Tier 0.5) COMPLETE — 7 sprints.** Cross-project sync review COMPLETE (10 backlog items P31-P40). **P33a+P33b DONE — credential doc + narrative modules refreshed with v2 findings (M13-M16).** Next unblocked: P32 (neutral atom lab outreach — 🔴 highest leverage) or P28 (open-source repo — lighter, 1 session).*
+*P17 sent (awaiting response — window closes May 29). P24+P25 published. Distribution complete. **P31 DONE — companion paper on Zenodo.** **Ultrametric_v2 COMPLETE — 7 sprints.** Cross-project sync review COMPLETE. **P33a+P33b DONE — credential doc + narrative modules refreshed.** **P28 DONE — GitHub repo enhanced (README, LICENSE, CITATION.cff, Pages config, v2 guide).** Next: P32 (neutral atom lab outreach — 🔴 highest leverage) or P30 (entity assessment — 0.5 session).*
 
 ---
 
@@ -88,7 +88,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P25** | **Pre-register falsifiable prediction** | Public specific testable prediction. Nuclear credibility option. | ✅ PUBLISHED — in `Ultrametric Quantum Computing Foundations.md` |
 | **P26** | **Tier 1 computational paper** | Published — "Symmetric Extension of Ultrametric Error Confinement" on Zenodo. DOI: 10.5281/zenodo.20208437. 36K words. Ternary tree architecture with bidirectional validation. | — | — | ✅ DONE (2026-05-16) |
 | **P27** | **Cross-domain synthesis paper** | Ultrametricity across spin glasses, proteins, strings, cognition, QC. | 2–3 | Outreach complete | NOT STARTED |
-| **P28** | **Open-source simulation code** | Polish repo: README, reproduction instructions, license. | 1 | Tier 0 code | NOT STARTED |
+| **P28** | **Open-source simulation code** | ✅ DONE (2026-05-16) — GitHub repo `QNFO/ultrametric-error-confinement` enhanced: comprehensive README (badges, DOIs, results tables, bibtex), MIT LICENSE, CITATION.cff (machine-readable), GitHub Pages `_config.yml`, `simulations_v2/README.md` (v2 architecture guide with file inventory + sprints summary). Removed internal QWAV docs from public repo. Ready for v2 code drop + `git push`. | — | — | ✅ DONE |
 | **P29** | **FQXi Essay Contest** | Check for open contest. "Continuous manifold = wrong assumption." | 0.5+writing | Contest open | NOT STARTED |
 | **P30** | **Entity formation assessment** | US entity needed for SBIR/ARPA-E? Cost-benefit. | 0.5 | None | NOT STARTED |
 | **P31** | **Publish v2 companion paper to Zenodo** | Published — DOI: [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437). Unblocks P32+P33. | — | — | DONE (2026-05-16) |
