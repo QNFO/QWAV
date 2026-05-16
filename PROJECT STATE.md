@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-17 | **Session:** P31 Zenodo preparation — companion paper PDF generated, upload instructions written | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.17
+**Last updated:** 2026-05-17 | **Session:** P31 DONE — companion paper on Zenodo (DOI: 10.5281/zenodo.20208437). Unblocks P32, P33. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.17
 
 ---
 

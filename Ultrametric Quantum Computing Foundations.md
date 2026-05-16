@@ -157,6 +157,32 @@ A computational validation of ultrametric error confinement was performed and pu
 
 ---
 
+### 5.5 Tier 1 — Symmetric Ternary Extension (ultrametric_v2)
+
+The Tier 0 validation used binary ($p=2$) Bruhat–Tits trees. While effective, a hidden asymmetry was discovered: only one logical bit was protected. A follow-up study — "Symmetric Extension of Ultrametric Error Confinement" (DOI: 10.5281/zenodo.20208437) — completed 7 sprints of expanded computational validation using ternary ($p=3$) trees.
+
+**Key results:**
+
+1. **Ternary ($p=3$) is symmetric and compact.** Both logical states receive identical protection. Binary ($p=2$) is deprecated for asymmetry; higher primes ($p=5,7$) are viable but require larger trees.
+
+2. **Zero logical errors at depth 7.** With 2,187 leaves and 36,000 total trials, LER = 0 was maintained at all physical error rates up to 40% for both logical states independently — 63 data points, perfect symmetry confirmed.
+
+3. **$48\times$ LER reduction via scatter with zero extra qubits.** Generalizing from binary to $q$-ary leaf states spreads logical information across more structural positions. At $q=128$, LER drops by approximately $48\times$ compared to $q=2$ at the same depth and physical error rate — no additional physical qubits required.
+
+4. **Concatenation of active QEC is redundant.** Standard QEC codes (surface code, Steane code) layered on top of the ternary tree provide ZERO additional benefit — the tree structure itself provides sufficient passive error suppression. The strong triangle inequality ($d(x,z) \leq \max(d(x,y), d(y,z))$) accomplishes geometrically what active QEC aims to do dynamically.
+
+5. **Hardware implementation pathway specified.** A 40-atom neutral atom platform (depth $d=3$, 4 K operation, Rydberg blockade gates) is the minimum viable prototype — within demonstrated experimental capabilities.
+
+**Limitations acknowledged (and addressed by v2):**
+- Depth scaling: v2 tested depths 2-8 (original: 1-5). The barrier formula $B(d) = \lceil p/2\rceil^d$ is confirmed.
+- Noise model: v2 added correlated noise (geometrically correlated bit-flips), where trees outperform classical repetition.
+- Gate operations: Deferred to quantum regime simulation (next step).
+- Classical simulation: v2 remains classical; quantum simulation is the natural next tier (see §7).
+
+The companion paper is published on Zenodo (DOI: 10.5281/zenodo.20208437) with full code at `github.com/QNFO/ultrametric-error-confinement`.
+
+---
+
 ## 6. Falsifiable Predictions (Pre-Registered)
 
 A theory that cannot be falsified is not science. The following predictions are registered as of 15 May 2026. Each can be tested by anyone with access to a classical computer (for simulations) or a quantum computer (for physical validation). If any prediction is falsified, the ultrametric quantum computing hypothesis is weakened or refuted.

@@ -4,6 +4,38 @@
 
 ---
 
+## [v2.17] — 2026-05-17 — P31 Complete: Companion Paper on Zenodo
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **P31 DONE** | Companion paper published on Zenodo. DOI: [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437). Unblocks P32 (lab outreach) and P33 (credential doc refresh). |
+| **Obsidian release verified** | Release at `G:\\My Drive\\Obsidian\\releases\\2026\\05\\Symmetric Extension of Ultrametric Error Confinement.md` confirms DOI. |
+| **Redundant files removed** | `p31-companion-paper.pdf` and `p31-zenodo-upload-instructions.md` deleted (paper was already published). |
+
+### Files Changed
+
+| File | Action |
+|:-----|:-------|
+| `BACKLOG.md` | P31 marked DONE with DOI |
+| `SPRINT.md` | P31 marked DONE, IN PROGRESS updated |
+| `PROJECT STATE.md` | Header updated |
+| `CHANGELOG.md` | This entry |
+| `p31-companion-paper.pdf` | DELETED (redundant) |
+| `p31-zenodo-upload-instructions.md` | DELETED (redundant) |
+
+### Verification Needed (Manual)
+
+- Original paper [1] Zenodo record (10.5281/zenodo.20134944): was companion cross-reference added?
+  If not, add note: "Companion: Quni-Gudzinas, DOI: 10.5281/zenodo.20208437."
+
+### Next Unblocked
+
+- **P33** — Refresh credential doc + narrative library (now has DOI to cite)
+- **P32** — Neutral atom lab outreach (now has DOI for email)
+
+---
 ## [v2.16] — 2026-05-17 — Cross-Project Sync Review: Tree Distance Cophenetic & Ultrametric_v2
 
 ### Completed

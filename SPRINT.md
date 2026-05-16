@@ -56,7 +56,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). **P31 IN PROGRESS: PDF generated (p31-companion-paper.pdf, 94.4 KB). Upload instructions at p31-zenodo-upload-instructions.md. Awaiting human Zenodo login.** P33+P32 blocked on P31 DOI. Ultrametric_v2 (Tier 0.5) COMPLETE. Cross-project sync review COMPLETE (10 new backlog items P31–P40).*
+*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). **P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). **P31 DONE — companion paper on Zenodo (DOI: 10.5281/zenodo.20208437).** Ultrametric_v2 (Tier 0.5) COMPLETE. Cross-project sync review COMPLETE (10 backlog items P31-P40). Next unblocked: P33 (refresh credential doc) and P32 (lab outreach).** P33+P32 blocked on P31 DOI. Ultrametric_v2 (Tier 0.5) COMPLETE. Cross-project sync review COMPLETE (10 new backlog items P31–P40).*
 
 ---
 
@@ -91,7 +91,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P28** | **Open-source simulation code** | Polish repo: README, reproduction instructions, license. | 1 | Tier 0 code | NOT STARTED |
 | **P29** | **FQXi Essay Contest** | Check for open contest. "Continuous manifold = wrong assumption." | 0.5+writing | Contest open | NOT STARTED |
 | **P30** | **Entity formation assessment** | US entity needed for SBIR/ARPA-E? Cost-benefit. | 0.5 | None | NOT STARTED |
-| **P31** 🔴 | **Publish v2 companion paper to Zenodo** | Upload companion-paper.md, get DOI, cross-reference original. Unblocks P32+P33. **PDF GENERATED (p31-companion-paper.pdf, 94.4 KB). Upload instructions at p31-zenodo-upload-instructions.md. Awaiting human Zenodo login.** | 0.5 (0.25 done) | Web access (Zenodo login) | [~] PREPARED — PDF ready, awaiting upload |
+| **P31** | **Publish v2 companion paper to Zenodo** | Published — DOI: [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437). Unblocks P32+P33. | — | — | DONE (2026-05-16) |
 | **P32** 🔴 | **Neutral atom lab outreach** | Email 4 labs (Harvard, Caltech, PASQAL, Innsbruck) with whitepaper + hardware spec. Supersedes P10. | 1 | P31, email | NOT STARTED |
 | **P33** 🔴 | **Refresh credential doc + narrative library** | Add v2 findings ($q$-ary 48×, correlated noise, hardware spec) to materials. | 1-2 | P31 | NOT STARTED |
 | **P34** 🟠 | **$q$-ary scatter talking point** | 500-word standalone piece on 48× LER at zero cost. | 0.5 | None | NOT STARTED |
