@@ -56,7 +56,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). **P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). **P31 DONE — companion paper on Zenodo (DOI: 10.5281/zenodo.20208437).** Ultrametric_v2 (Tier 0.5) COMPLETE. Cross-project sync review COMPLETE (10 backlog items P31-P40). Next unblocked: P33 (refresh credential doc) and P32 (lab outreach).** P33+P32 blocked on P31 DOI. Ultrametric_v2 (Tier 0.5) COMPLETE. Cross-project sync review COMPLETE (10 new backlog items P31–P40).*
+*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). Distribution complete. **P31 DONE — companion paper on Zenodo (DOI: 10.5281/zenodo.20208437).** **Ultrametric_v2 (Tier 0.5) COMPLETE — 7 sprints.** Cross-project sync review COMPLETE (10 backlog items P31-P40). **P33a+P33b DONE — credential doc + narrative modules refreshed with v2 findings (M13-M16).** Next unblocked: P32 (neutral atom lab outreach — 🔴 highest leverage) or P28 (open-source repo — lighter, 1 session).*
 
 ---
 
