@@ -4,6 +4,18 @@
 
 ---
 
+## [v2.18] — 2026-05-16 — P32 Neutral Atom Lab Outreach Drafted
+
+**What Changed:** Created comprehensive outreach package for neutral atom quantum computing labs.
+**Files Changed:**
+- `outreach-email-neutral-atom-labs.md` (NEW) — 4 targeted emails: Harvard/Lukin, Caltech/Endres, PASQAL, Innsbruck/IQOQI
+- `SPRINT.md` (EDIT) — P32 marked as DRAFTED, IN PROGRESS section updated
+- `PROJECT STATE.md` (EDIT) — session header updated
+
+**Git:** Commit `12eb7e9` on `feature/strategy-refresh-v2`
+
+---
+
 ## [v2.17] — 2026-05-17 — P31 Complete: Companion Paper on Zenodo
 
 ### Completed
@@ -86,36 +98,6 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.18] — 2026-05-16 — P28 Complete — Open-Source Repo Enhanced
-
-### Completed
-
-| Item | Description |
-|:-----|:------------|
-| **P28 — Open-source repo** | GitHub repo `QNFO/ultrametric-error-confinement` enhanced for audit/reproducibility. Comprehensive README (badges, DOIs, results tables, bibtex). MIT LICENSE. CITATION.cff (machine-readable). GitHub Pages `_config.yml`. `simulations_v2/README.md` (v2 architecture guide, file inventory, sprints summary). Removed 6 internal QWAV project management docs from public repo. |
-
-### Files Changed (Repo)
-
-| File | Action |
-|:-----|:-------|
-| `README.md` | Replaced with comprehensive version (badges, DOIs, results, bibtex, structure) |
-| `LICENSE` | Created (MIT) |
-| `CITATION.cff` | Created (machine-readable citation metadata) |
-| `_config.yml` | Created (GitHub Pages — Jekyll minimal theme) |
-| `simulations_v2/README.md` | Created (v2 architecture guide, 26-file inventory, 7-sprint summary) |
-| `.gitignore` | Updated |
-| `BACKLOG.md`, `CHANGELOG.md`, `DECISIONS.md`, `LEARNINGS.md`, `PROJECT STATE.md`, `SPRINT.md` | Removed (internal QWAV docs) |
-
-### Action Required
-
-```bash
-cd G:\My Drive\projects\_QWAV_repo_clone
-git push origin master
-```
-
-Then: enable GitHub Pages in repo Settings → Pages → Source: `master` branch, `/ (root)`.
-
----
 
 ## [v2.17] — 2026-05-16 — P33a+P33b — Strategy Docs Refreshed with v2 Findings
 

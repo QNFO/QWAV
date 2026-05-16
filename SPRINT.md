@@ -56,7 +56,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response — window closes May 29). P24+P25 published. Distribution complete. **P31 DONE — companion paper on Zenodo.** **Ultrametric_v2 COMPLETE — 7 sprints.** Cross-project sync review COMPLETE. **P33a+P33b DONE — credential doc + narrative modules refreshed.** **P28 DONE — GitHub repo enhanced (README, LICENSE, CITATION.cff, Pages config, v2 guide).** Next: P32 (neutral atom lab outreach — 🔴 highest leverage) or P30 (entity assessment — 0.5 session).*
+*P17 sent (awaiting response — window closes May 29). P24+P25 published. Distribution complete. **P31 DONE — companion paper on Zenodo.** **Ultrametric_v2 COMPLETE — 7 sprints.** Cross-project sync review COMPLETE. **P33a+P33b DONE — credential doc + narrative modules refreshed.** **P28 DONE — GitHub repo enhanced (README, LICENSE, CITATION.cff, Pages config, v2 guide).** **P32 IN PROGRESS — outreach emails drafted for 4 neutral atom labs (Harvard, Caltech, PASQAL, Innsbruck).** Next: P32 send (after review) or P30 (entity assessment — 0.5 session).*
 
 ---
 
@@ -92,7 +92,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P29** | **FQXi Essay Contest** | Check for open contest. "Continuous manifold = wrong assumption." | 0.5+writing | Contest open | NOT STARTED |
 | **P30** | **Entity formation assessment** | US entity needed for SBIR/ARPA-E? Cost-benefit. | 0.5 | None | NOT STARTED |
 | **P31** | **Publish v2 companion paper to Zenodo** | Published — DOI: [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437). Unblocks P32+P33. | — | — | DONE (2026-05-16) |
-| **P32** 🔴 | **Neutral atom lab outreach** | Email 4 labs (Harvard, Caltech, PASQAL, Innsbruck) with whitepaper + hardware spec. Supersedes P10. | 1 | P31, email | NOT STARTED |
+| **P32** 🔴 | **Neutral atom lab outreach** | Email 4 labs (Harvard, Caltech, PASQAL, Innsbruck) with whitepaper + hardware spec. Supersedes P10. | 1 | P31, email | 📝 DRAFTED 2026-05-16 — `outreach-email-neutral-atom-labs.md`. Ready for review and send. |
 | **P33** 🔴 | **Refresh credential doc + narrative library** | ~~Add v2 findings ($q$-ary 48×, correlated noise, hardware spec) to materials.~~ **P33a+P33b DONE (2026-05-16):** `Ultrametric Quantum Computing Foundations.md` updated with Tier 1 companion paper (DOI: 10.5281/zenodo.20208437), ternary ($p=3$) architecture, 48× scatter, concatenation redundancy, hardware pathway. `QA - Narrative Modules` extended with M13-M16 (ternary, scatter, concatenation, hardware). **P33c (remaining strategy docs) deferred to P41.** | 1-2 (remaining) | P31 ✓ | ✅ P33a+P33b done |
 | **P34** 🟠 | **$q$-ary scatter talking point** | 500-word standalone piece on 48× LER at zero cost. | 0.5 | None | NOT STARTED |
 | **P35** 🟠 | **arXiv submission (strengthened)** | Same as P23 — companion paper strengthens case. | 1 | Endorser | NOT STARTED |
