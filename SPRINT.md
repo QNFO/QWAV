@@ -96,7 +96,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P33** 🔴 | **Refresh credential doc + narrative library** | ~~Add v2 findings ($q$-ary 48×, correlated noise, hardware spec) to materials.~~ **P33a+P33b DONE (2026-05-16):** `Ultrametric Quantum Computing Foundations.md` updated with Tier 1 companion paper (DOI: 10.5281/zenodo.20208437), ternary ($p=3$) architecture, 48× scatter, concatenation redundancy, hardware pathway. `QA - Narrative Modules` extended with M13-M16 (ternary, scatter, concatenation, hardware). **P33c (remaining strategy docs) deferred to P41.** | 1-2 (remaining) | P31 ✓ | ✅ P33a+P33b done |
 | **P34** 🟠 | **$q$-ary scatter talking point** | 500-word standalone piece on 48× LER at zero cost. | 0.5 | None | NOT STARTED |
 | **P35** 🟠 | **arXiv submission (strengthened)** | Same as P23 — companion paper strengthens case. | 1 | Endorser | NOT STARTED |
-| **P36** 🟡 | **Cophenetic distance → cross-domain bridge** | Integrate Tree Distance Cophenetic framework into P27. | 1 | TDC Zenodo upload | ✅ DONE (2026-05-17) — Bridge doc at `P36-cophenetic-cross-domain-bridge.md` |
+| **P36** 🟡 | **Cophenetic distance → cross-domain bridge** | Integrate Tree Distance Cophenetic framework into P27. | 1 | TDC Zenodo upload | ✅ DONE (2026-05-17) — Moved to `G:\My Drive\projects\Cophenetic Distance to Cross-Domain Bridge\` |
 | **P37** 🟡 | **Competitive landscape with benchmarking** | Use v2 honest baseline methodology for P8. | 0.5 | None | NOT STARTED |
 | **P38** 🟡 | **Open-source v2 codebase** | Same as P28 — 26-file validated codebase. | 1 | None | NOT STARTED |
 | **P39** 🟢 | **Cross-reference TDC publication** | Add bidirectional refs once both have DOIs. | 0.25 | Both published | NOT STARTED |
