@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-16 | **Session:** P32 IN PROGRESS — drafted 4 neutral atom lab outreach emails (Harvard/Lukin, Caltech/Endres, PASQAL, Innsbruck/IQOQI) in `outreach-email-neutral-atom-labs.md`. Ready for review and send. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.18
+**Last updated:** 2026-05-17 | **Session:** P36 DONE — bridge document complete, extracted to independent project `G:\My Drive\projects\Cophenetic Distance to Cross-Domain Bridge\`. Richard Goodman replied and archived. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.19
 
 ---
 
@@ -274,6 +274,7 @@ QWAV does not exist in isolation. Four sibling projects under `G:\My Drive\proje
 | **Fractal Harmonic Trees** | Quantum foundations -- QM as invariant geometric structure analysis. Langlands program as bridge between discrete and continuous. | Active | 0.1.4.md (QM foundations), 0.2.3.md (Langlands bridge) |
 | **Tree Distance Cophenetic** | Tree-based geometry metrics and unified hierarchical ontology -- cophenetic distance, ultrametric inequality, triadic rigidity theorem. **Publication-ready (0.8.md, DOI: 10.5281/zenodo.20213043). Provides philosophical bridge for QWAV P27 (cross-domain synthesis paper) via P36.** Resolution-dependence bridge connects to QWAV geometry-choice thesis. | Sprint 3 (blocked: Zenodo upload) | 0.8.md (publication draft, 35K chars, all citations verified) |
 | **Can Math Prove Physics** | Philosophical foundations -- can mathematical structure alone prove physical theories? Supports QWAV thesis that the geometry assumption is the root problem in quantum foundations. | Active | -- |
+| **Cophenetic Distance to Cross-Domain Bridge** | Cross-domain synthesis bridge — integrates Tree Distance Cophenetic framework (triadic rigidity, resolution-dependence, bounded consilience) into cross-domain paper spanning quantum error correction, spin glasses, protein folding, cosmology, cognition. **Seeded 2026-05-17 from QWAV P36.** | Active | P36-cophenetic-cross-domain-bridge.md, README.md, PROJECT STATE.md, 11 source materials |
 
 **Integration guidance from cross-project sync review (2026-05-17):**
 - When QWAV needs computational validation depth: consult ultrametric_v2/ -- companion paper, outreach whitepaper, hardware spec, FAQ

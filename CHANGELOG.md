@@ -4,6 +4,24 @@
 
 ---
 
+## [v2.19] — 2026-05-17 — P36 Complete + Cophenetic Project Seeded
+
+**What Changed:** P36 bridge document completed, then extracted to independent project. Richard Goodman thread archived.
+
+**Completed:**
+- **P36 DONE** — Cophenetic distance → cross-domain bridge doc created (5 integration points, domain maps, P27 outline)
+- **Cophenetic project seeded** — `G:\My Drive\projects\Cophenetic Distance to Cross-Domain Bridge\` initialized with 14 files (11 source materials, README, PROJECT STATE, bridge doc). Git repo: `421c7d1`.
+- **Richard Goodman** — reply sent, thread archived to Archive folder
+
+**Files Changed:**
+- `P36-cophenetic-cross-domain-bridge.md` (CREATE, then MOVE to independent project)
+- `SPRINT.md` (EDIT) — P36 marked DONE, file path updated
+- `PROJECT STATE.md` (EDIT) — updated
+
+**Git:** Commits `423c235`, `8d86233`, `e1c35de` on `feature/strategy-refresh-v2`
+
+---
+
 ## [v2.18] — 2026-05-16 — P32 Neutral Atom Lab Outreach Drafted
 
 **What Changed:** Created comprehensive outreach package for neutral atom quantum computing labs.
