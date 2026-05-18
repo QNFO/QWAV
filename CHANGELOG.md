@@ -659,7 +659,7 @@ The credential document replaces the arXiv paper, the PhD, and the institutional
 
 ### What Changed
 
-- **P17 SENT:** Zúñiga-Galindo email (Version A) sent to wazuniga@math.cinvestav.edu.mx. Two binary questions. 2-week response window.
+- **P17 SENT:** Zúñiga-Galindo email sent. Two binary questions. 2-week response window.
 - **SPRINT.md:** P17 added to COMPLETED (item 24). BACKLOG table: P17 marked SENT. IN PROGRESS: updated with 2-week wait + unblocked next actions.
 - **BACKLOG.md:** P17 marked SENT.
 - **PROJECT STATE.md:** Session header updated, Section 4.3 outreach table updated, Priority 5 status updated.
