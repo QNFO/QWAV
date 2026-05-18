@@ -57,7 +57,11 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response — window closes May 29). P24+P25 published. Distribution complete. **P31 DONE — companion paper on Zenodo.** **Ultrametric_v2 COMPLETE — 7 sprints.** Cross-project sync review COMPLETE. **P33a+P33b DONE — credential doc + narrative modules refreshed.** **P28 DONE — GitHub repo enhanced (README, LICENSE, CITATION.cff, Pages config, v2 guide).** **P34 DONE — $q$-ary scatter talking point (`strategy/0.4.md`): 48× LER reduction at zero qubit cost.** **P35 CANCELLED — arXiv endorsement gatekeeping.** **P8 DONE — competitive landscape (`strategy/0.5.md`): zero direct competitors, mapped adjacent communities.** **P32 IN PROGRESS — outreach emails drafted for 4 neutral atom labs.** Next: P32 send (after review) or P37 (update competitive landscape).*
+*P17: Zúñiga-Galindo — awaiting response (window closes May 29). P32: 4 outreach emails drafted (Harvard, Caltech, PASQAL, Innsbruck) — human review required, PII-protected.*
+
+**Recently completed (2026-05-18 session):** P34 (q-ary scatter distribution), P35 (arXiv — cancelled), P8 (competitive landscape), P27 (cross-domain synthesis — now tracked). PII audit + repo cleanup. L19 captured (legal/financial tasks need exogenous verification).
+
+**Next:** P37 (benchmarking methodology, 0.5 session) or P32 send (human).
 
 ---
 

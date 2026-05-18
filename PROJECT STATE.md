@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-18 | **Session:** P8 DONE — Competitive landscape (`strategy/0.5.md`). Zero direct competitors. P35 cancelled (arXiv endorsement). P34 distribution complete (Buffer + LinkedIn + Substack). PII audit + repo cleanup complete. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.24
+**Last updated:** 2026-05-18 | **Session:** Audit & Reorganization — releases reviewed, P27 cross-domain synthesis tracked (DOI: 10.5281/zenodo.20265907), P36 integrated, P40 superseded, IN PROGRESS consolidated. PII audit + repo cleanup complete. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.25
 
 ---
 
