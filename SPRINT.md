@@ -51,12 +51,13 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 26 | Distribution — Buffer, Substack, LinkedIn | Buffer posts scheduled (Bluesky, Mastodon, Twitter/X thread). Substack article posted. LinkedIn article posted. Full multi-platform distribution of credential document. | 2026-05-15 |
 | 27 | Cross-project sync review | Tree Distance Cophenetic + ultrametric_v2 reviewed for QWAV gaps. BACKLOG.md + SPRINT.md updated: 10 new items (P31–P40), P26 reclassified, P10 superseded, D8-D10 added. | 2026-05-17 |
 | 28 | P31 PDF generated | Companion paper PDF generated (pandoc+xelatex, 94.4 KB). Zenodo upload instructions written. Awaiting human login. | 2026-05-17 |
+| 29 | P37 — Public Disclosure & Patent Strategy (0.3.md) | `strategy/0.3.md` — Analysis of public GitHub/Zenodo disclosure implications: defensive publishing aligned with QWAV open-access strategy, US 12-month grace period limitations (no international backdoor), country-by-country breakdown (grace period vs absolute novelty), recommendation to file ONE US provisional as low-cost hedge ($75-$325). | 2026-05-18 |
 
 ---
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response — window closes May 29). P24+P25 published (Zenodo DOI: 10.5281/zenodo.20154557). **P31 IN PROGRESS: PDF generated (p31-companion-paper.pdf, 94.4 KB). Upload instructions at p31-zenodo-upload-instructions.md. Awaiting human Zenodo login.** P33+P32 blocked on P31 DOI. Ultrametric_v2 (Tier 0.5) COMPLETE. Cross-project sync review COMPLETE (10 new backlog items P31–P40).*
+*P17 sent (awaiting response — window closes May 29). P24+P25 published. Distribution complete. **P31 DONE — companion paper on Zenodo.** **Ultrametric_v2 COMPLETE — 7 sprints.** Cross-project sync review COMPLETE. **P33a+P33b DONE — credential doc + narrative modules refreshed.** **P28 DONE — GitHub repo enhanced (README, LICENSE, CITATION.cff, Pages config, v2 guide).** **P32 IN PROGRESS — outreach emails drafted for 4 neutral atom labs (Harvard, Caltech, PASQAL, Innsbruck).** Next: P32 send (after review) or P30 (entity assessment — 0.5 session).*
 
 ---
 
@@ -88,15 +89,15 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P25** | **Pre-register falsifiable prediction** | Public specific testable prediction. Nuclear credibility option. | ✅ PUBLISHED — in `Ultrametric Quantum Computing Foundations.md` |
 | **P26** | **Tier 1 computational paper** | Published — "Symmetric Extension of Ultrametric Error Confinement" on Zenodo. DOI: 10.5281/zenodo.20208437. 36K words. Ternary tree architecture with bidirectional validation. | — | — | ✅ DONE (2026-05-16) |
 | **P27** | **Cross-domain synthesis paper** | Ultrametricity across spin glasses, proteins, strings, cognition, QC. | 2–3 | Outreach complete | NOT STARTED |
-| **P28** | **Open-source simulation code** | Polish repo: README, reproduction instructions, license. | 1 | Tier 0 code | NOT STARTED |
+| **P28** | **Open-source simulation code** | ✅ DONE (2026-05-16) — GitHub repo `QNFO/ultrametric-error-confinement` enhanced: comprehensive README (badges, DOIs, results tables, bibtex), MIT LICENSE, CITATION.cff (machine-readable), GitHub Pages `_config.yml`, `simulations_v2/README.md` (v2 architecture guide with file inventory + sprints summary). Removed internal QWAV docs from public repo. Ready for v2 code drop + `git push`. | — | — | ✅ DONE |
 | **P29** | **FQXi Essay Contest** | Check for open contest. "Continuous manifold = wrong assumption." | 0.5+writing | Contest open | NOT STARTED |
 | **P30** | **Entity formation assessment** | US entity needed for SBIR/ARPA-E? Cost-benefit. | 0.5 | None | NOT STARTED |
-| **P31** 🔴 | **Publish v2 companion paper to Zenodo** | Upload companion-paper.md, get DOI, cross-reference original. Unblocks P32+P33. **PDF GENERATED (p31-companion-paper.pdf, 94.4 KB). Upload instructions at p31-zenodo-upload-instructions.md. Awaiting human Zenodo login.** | 0.5 (0.25 done) | Web access (Zenodo login) | [~] PREPARED — PDF ready, awaiting upload |
-| **P32** 🔴 | **Neutral atom lab outreach** | Email 4 labs (Harvard, Caltech, PASQAL, Innsbruck) with whitepaper + hardware spec. Supersedes P10. | 1 | P31, email | NOT STARTED |
-| **P33** 🔴 | **Refresh credential doc + narrative library** | Add v2 findings ($q$-ary 48×, correlated noise, hardware spec) to materials. | 1-2 | P31 | NOT STARTED |
+| **P31** | **Publish v2 companion paper to Zenodo** | Published — DOI: [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437). Unblocks P32+P33. | — | — | DONE (2026-05-16) |
+| **P32** 🔴 | **Neutral atom lab outreach** | Email 4 labs (Harvard, Caltech, PASQAL, Innsbruck) with whitepaper + hardware spec. Supersedes P10. | 1 | P31, email | 📝 DRAFTED 2026-05-16 — `outreach-email-neutral-atom-labs.md`. Ready for review and send. |
+| **P33** 🔴 | **Refresh credential doc + narrative library** | ~~Add v2 findings ($q$-ary 48×, correlated noise, hardware spec) to materials.~~ **P33a+P33b DONE (2026-05-16):** `Ultrametric Quantum Computing Foundations.md` updated with Tier 1 companion paper (DOI: 10.5281/zenodo.20208437), ternary ($p=3$) architecture, 48× scatter, concatenation redundancy, hardware pathway. `QA - Narrative Modules` extended with M13-M16 (ternary, scatter, concatenation, hardware). **P33c (remaining strategy docs) deferred to P41.** | 1-2 (remaining) | P31 ✓ | ✅ P33a+P33b done |
 | **P34** 🟠 | **$q$-ary scatter talking point** | 500-word standalone piece on 48× LER at zero cost. | 0.5 | None | NOT STARTED |
 | **P35** 🟠 | **arXiv submission (strengthened)** | Same as P23 — companion paper strengthens case. | 1 | Endorser | NOT STARTED |
-| **P36** 🟡 | **Cophenetic distance → cross-domain bridge** | Integrate Tree Distance Cophenetic framework into P27. | 1 | TDC Zenodo upload | NOT STARTED |
+| **P36** 🟡 | **Cophenetic distance → cross-domain bridge** | Integrate Tree Distance Cophenetic framework into P27. | 1 | TDC Zenodo upload | ✅ DONE (2026-05-17) — Moved to `G:\My Drive\projects\Cophenetic Distance to Cross-Domain Bridge\` |
 | **P37** 🟡 | **Competitive landscape with benchmarking** | Use v2 honest baseline methodology for P8. | 0.5 | None | NOT STARTED |
 | **P38** 🟡 | **Open-source v2 codebase** | Same as P28 — 26-file validated codebase. | 1 | None | NOT STARTED |
 | **P39** 🟢 | **Cross-reference TDC publication** | Add bidirectional refs once both have DOIs. | 0.25 | Both published | NOT STARTED |

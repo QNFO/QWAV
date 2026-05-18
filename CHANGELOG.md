@@ -4,6 +4,87 @@
 
 ---
 
+## [v2.20] — 2026-05-18 — Public Disclosure & Patent Strategy (0.3.md)
+
+**What Changed:** Strategic analysis of public GitHub/Zenodo disclosure implications for patent strategy. Created `strategy/0.3.md`.
+
+**Completed:**
+- **P37 DONE** — Public Disclosure & International Patent Strategy analysis (`strategy/0.3.md`, 24.7 KB)
+- Defensive publishing reframed as strategically coherent with QWAV open-access thesis (not a mistake — aligned with all core constraints)
+- US 12-month grace period analyzed: no "backdoor" for international filings (EPC/China/India absolute novelty means rights already lost there — but these were never accessible under $0 constraint)
+- Country-by-country breakdown: which jurisdictions retain patentability (US, Canada, Australia, Korea, Brazil with grace periods) vs which do not (Europe, China, India — absolute novelty)
+- Recommendation: Path B — file ONE US provisional ($75-$325) as low-cost hedge, preserving optionality without compromising defensive publishing
+- Timeline: 12-month window to file (~2027-05-12 deadline), recommend filing by 2026-12-31 for margin
+
+**Files Changed:**
+- `strategy/0.3.md` — NEW: 345 lines, 24,702 bytes
+
+**Git:** `87583c0` — `feature/strategy-refresh-v2`
+
+---
+
+## [v2.19] — 2026-05-17 — P36 Complete + Cophenetic Project Seeded
+
+**What Changed:** P36 bridge document completed, then extracted to independent project. Richard Goodman thread archived.
+
+**Completed:**
+- **P36 DONE** — Cophenetic distance → cross-domain bridge doc created (5 integration points, domain maps, P27 outline)
+- **Cophenetic project seeded** — `G:\My Drive\projects\Cophenetic Distance to Cross-Domain Bridge\` initialized with 14 files (11 source materials, README, PROJECT STATE, bridge doc). Git repo: `421c7d1`.
+- **Richard Goodman** — reply sent, thread archived to Archive folder
+
+**Files Changed:**
+- `P36-cophenetic-cross-domain-bridge.md` (CREATE, then MOVE to independent project)
+- `SPRINT.md` (EDIT) — P36 marked DONE, file path updated
+- `PROJECT STATE.md` (EDIT) — updated
+
+**Git:** Commits `423c235`, `8d86233`, `e1c35de` on `feature/strategy-refresh-v2`
+
+---
+
+## [v2.18] — 2026-05-16 — P32 Neutral Atom Lab Outreach Drafted
+
+**What Changed:** Created comprehensive outreach package for neutral atom quantum computing labs.
+**Files Changed:**
+- `outreach-email-neutral-atom-labs.md` (NEW) — 4 targeted emails: Harvard/Lukin, Caltech/Endres, PASQAL, Innsbruck/IQOQI
+- `SPRINT.md` (EDIT) — P32 marked as DRAFTED, IN PROGRESS section updated
+- `PROJECT STATE.md` (EDIT) — session header updated
+
+**Git:** Commit `12eb7e9` on `feature/strategy-refresh-v2`
+
+---
+
+## [v2.17] — 2026-05-17 — P31 Complete: Companion Paper on Zenodo
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **P31 DONE** | Companion paper published on Zenodo. DOI: [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437). Unblocks P32 (lab outreach) and P33 (credential doc refresh). |
+| **Obsidian release verified** | Release at `G:\\My Drive\\Obsidian\\releases\\2026\\05\\Symmetric Extension of Ultrametric Error Confinement.md` confirms DOI. |
+| **Redundant files removed** | `p31-companion-paper.pdf` and `p31-zenodo-upload-instructions.md` deleted (paper was already published). |
+
+### Files Changed
+
+| File | Action |
+|:-----|:-------|
+| `BACKLOG.md` | P31 marked DONE with DOI |
+| `SPRINT.md` | P31 marked DONE, IN PROGRESS updated |
+| `PROJECT STATE.md` | Header updated |
+| `CHANGELOG.md` | This entry |
+| `p31-companion-paper.pdf` | DELETED (redundant) |
+| `p31-zenodo-upload-instructions.md` | DELETED (redundant) |
+
+### Verification Needed (Manual)
+
+- Original paper [1] Zenodo record (10.5281/zenodo.20134944): was companion cross-reference added?
+  If not, add note: "Companion: Quni-Gudzinas, DOI: 10.5281/zenodo.20208437."
+
+### Next Unblocked
+
+- **P33** — Refresh credential doc + narrative library (now has DOI to cite)
+- **P32** — Neutral atom lab outreach (now has DOI for email)
+
+---
 ## [v2.16] — 2026-05-17 — Cross-Project Sync Review: Tree Distance Cophenetic & Ultrametric_v2
 
 ### Completed
@@ -51,6 +132,33 @@
 3. **P32** — Neutral atom lab outreach campaign (1 session, after P31)
 
 Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P35 → P39 → P40
+
+---
+
+
+## [v2.17] — 2026-05-16 — P33a+P33b — Strategy Docs Refreshed with v2 Findings
+
+### Completed
+
+| Item | Description |
+|:-----|:------------|
+| **P33a — Credential doc refreshed** | `Ultrametric Quantum Computing Foundations.md` updated: new §5.5 (Tier 1 — Symmetric Ternary Extension) covering ternary ($p=3$) architecture, ZERO LER at $d=7$, 48× scatter, concatenation redundancy, 40-atom hardware pathway. Reference [13] added (companion paper, DOI: 10.5281/zenodo.20208437). Frontmatter updated. Companion DOI added to publication venues. |
+| **P33b — Narrative modules extended** | `QA - Narrative Modules and Intellectual Defense.md` extended with M13-M16: M13 (Ternary Architecture), M14 (48× Error Reduction at Zero Qubit Cost), M15 (Concatenation Is Redundant), M16 (40-Atom Hardware Pathway). Total modules: M1-M16. |
+
+### Files Changed
+
+| File | Action |
+|:-----|:-------|
+| `Ultrametric Quantum Computing Foundations.md` | +§5.5, +ref [13], updated frontmatter + venues |
+| `strategy/QA - Narrative Modules and Intellectual Defense.md` | +M13-M16 (~800 words of reusable narrative content) |
+| `SPRINT.md` | P33 marked ✅ P33a+P33b done. IN PROGRESS updated. |
+| `BACKLOG.md` | P33 marked ✅ P33a+P33b done. P41 (remaining strategy docs) deferred. |
+
+### Status After This Update
+
+- Credential doc now reflects full v2 computational validation (not just Tier 0)
+- Narrative library has 16 modules (was 12) — ternary, scatter, concatenation, hardware now reusable
+- 3 Zenodo papers, 16 modules, 3 DOIs — the outward-facing documentation now matches the actual research progress
 
 ---
 

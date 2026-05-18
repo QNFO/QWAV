@@ -5,7 +5,7 @@ ISNI: 0000000526456062
 title: "Ultrametric Quantum Computing: Foundations, Evidence, and Falsifiable Predictions"
 aliases:
   - "Ultrametric Quantum Computing: Foundations, Evidence, and Falsifiable Predictions"
-modified: 2026-05-15T07:29:48Z
+modified: 2026-05-16T18:00:00Z
 ---
 
 # Ultrametric Quantum Computing: Foundations, Evidence, and Falsifiable Predictions
@@ -154,6 +154,32 @@ A computational validation of ultrametric error confinement was performed and pu
 - **Simplified noise model:** Depolarizing noise is a useful starting point but does not capture all physical noise sources ($T_1$ relaxation, $T_2$ dephasing, crosstalk).
 - **No gate operations modeled:** The simulation encoded and decoded states but did not simulate quantum gates operating on encoded states. Gate fidelity under ultrametric encoding remains to be validated.
 - **Classical simulation:** The simulation was classical (Python). A full quantum simulation would require a quantum computer or a more sophisticated classical simulator.
+
+---
+
+### 5.5 Tier 1 — Symmetric Ternary Extension (ultrametric_v2)
+
+The Tier 0 validation used binary ($p=2$) Bruhat–Tits trees. While effective, a hidden asymmetry was discovered: only one logical bit was protected. A follow-up study — "Symmetric Extension of Ultrametric Error Confinement" (DOI: 10.5281/zenodo.20208437) — completed 7 sprints of expanded computational validation using ternary ($p=3$) trees.
+
+**Key results:**
+
+1. **Ternary ($p=3$) is symmetric and compact.** Both logical states receive identical protection. Binary ($p=2$) is deprecated for asymmetry; higher primes ($p=5,7$) are viable but require larger trees.
+
+2. **Zero logical errors at depth 7.** With 2,187 leaves and 36,000 total trials, LER = 0 was maintained at all physical error rates up to 40% for both logical states independently — 63 data points, perfect symmetry confirmed.
+
+3. **$48\times$ LER reduction via scatter with zero extra qubits.** Generalizing from binary to $q$-ary leaf states spreads logical information across more structural positions. At $q=128$, LER drops by approximately $48\times$ compared to $q=2$ at the same depth and physical error rate — no additional physical qubits required.
+
+4. **Concatenation of active QEC is redundant.** Standard QEC codes (surface code, Steane code) layered on top of the ternary tree provide ZERO additional benefit — the tree structure itself provides sufficient passive error suppression. The strong triangle inequality ($d(x,z) \leq \max(d(x,y), d(y,z))$) accomplishes geometrically what active QEC aims to do dynamically.
+
+5. **Hardware implementation pathway specified.** A 40-atom neutral atom platform (depth $d=3$, 4 K operation, Rydberg blockade gates) is the minimum viable prototype — within demonstrated experimental capabilities.
+
+**Limitations acknowledged (and addressed by v2):**
+- Depth scaling: v2 tested depths 2-8 (original: 1-5). The barrier formula $B(d) = \lceil p/2\rceil^d$ is confirmed.
+- Noise model: v2 added correlated noise (geometrically correlated bit-flips), where trees outperform classical repetition.
+- Gate operations: Deferred to quantum regime simulation (next step).
+- Classical simulation: v2 remains classical; quantum simulation is the natural next tier (see §7).
+
+The companion paper is published on Zenodo (DOI: 10.5281/zenodo.20208437) with full code at `github.com/QNFO/ultrametric-error-confinement`.
 
 ---
 
@@ -321,10 +347,13 @@ This document is not submitted for peer review. It is published for reader evalu
 
 12. Quni-Gudzinas, R. B. (2026). Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits. Zenodo. DOI: 10.5281/zenodo.20134944.
 
+13. Quni-Gudzinas, R. B. (2026). Symmetric Extension of Ultrametric Error Confinement — Ternary Tree Architecture with Bidirectional Validation. Zenodo. DOI: 10.5281/zenodo.20208437.
+
 ---
 
 **Publication Venues:**
 - Zenodo (DOI): 10.5281/zenodo.20154557
+- Companion paper (DOI): 10.5281/zenodo.20208437
 - ResearchGate
 - qnfo.org/releases
 

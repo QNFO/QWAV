@@ -238,6 +238,40 @@ The goal is to establish ultrametric architectures as the new standard for fault
 
 ---
 
+#### M13: The Ternary Architecture ($p=3$)
+
+**Word count:** ~150 | **Use when writing to:** Technical audiences, collaborators, grant reviewers
+
+The original Tier 0 simulation used binary ($p=2$) trees. Follow-up validation (7 sprints, published as "Symmetric Extension of Ultrametric Error Confinement," DOI: 10.5281/zenodo.20208437) revealed that binary encoding has a hidden asymmetry — only one logical bit is protected. Ternary ($p=3$) Bruhat–Tits trees solve this: both logical states receive identical protection, and the tree is the most compact symmetric option. At depth 7 (2,187 leaves), ZERO logical errors were recorded across 36,000 trials at up to 40% physical error rate — 63 data points, perfect symmetry confirmed.
+
+The architecture is simple: 3 children per node, logical states encoded as subtree patterns, majority-vote decoding at the root. No active error correction. No repeated measurements. The geometry does the work.
+
+#### M14: 48× Error Reduction at Zero Qubit Cost
+
+**Word count:** ~120 | **Use when writing to:** Non-specialists, investors, anyone who asks "what's the headline?"
+
+Spread your logical states across more leaves and the error rate collapses — without adding a single physical qubit. That's the $q$-ary scatter result: encoding one logical bit across $q$ leaves instead of 2, in the same ternary tree. At $q=128$, the logical error rate drops by approximately $48\times$ compared to the binary encoding, at the same tree depth, at the same physical error rate. Zero extra qubits. The strong triangle inequality amplifies protection as information spreads across more structural positions.
+
+This is not "more qubits → more protection." This is "better geometry → more protection." Scatter is a free lunch provided by the ultrametric structure.
+
+#### M15: Concatenation Is Redundant
+
+**Word count:** ~130 | **Use when writing to:** Quantum computing specialists, QEC researchers, skeptics
+
+Standard quantum error correction (surface codes, Steane codes) layers active syndrome measurement and correction on top of physical qubits. The natural question: should we add QEC on top of the tree? Answer: NO. Sprint 6 of ultrametric_v2 tested concatenation of surface codes and Steane codes on ternary trees of depths 2-5. Result: logical error rate with concatenation = logical error rate without concatenation — at every depth, at every error rate. Adding active QEC adds 2-7× qubit overhead with zero benefit.
+
+Why? The strong triangle inequality — $d(x,z) \leq \max(d(x,y), d(y,z))$ — already provides geometric error suppression. Active QEC cannot improve on a property that is structural, not dynamic. The tree doesn't need error correction because it IS error correction.
+
+#### M16: 40-Atom Hardware Pathway
+
+**Word count:** ~100 | **Use when writing to:** Experimental collaborators, lab outreach, funding applications
+
+The architecture is not just mathematics — it has a concrete implementation pathway. A ternary tree of depth $d=3$ requires only 40 atoms, arranged in a reconfigurable neutral atom array. Rydberg blockade gates execute Bruhat–Tits vertex operations. Operating temperature: 4 K. This is within demonstrated experimental capabilities at groups including Harvard (Lukin-Greiner), Caltech (Endres), PASQAL (Browaeys), and Innsbruck (Zoller-Blatt).
+
+The minimum viable demonstration: 40 atoms, depth 3, 27 leaves, majority-vote readout. Success criterion: LER = 0 for both logical bits at 40% physical error rate over 1,000+ trials. No new physics required — just atoms in a tree.
+
+---
+
 ## PART 4: WRITTEN RESPONSES TO COMMON QUESTIONS
 
 **Usage:** These are for written communication — emails, proposals, grant applications. Adapt length and technical depth to the audience. The content is substantive; the framing is for the page, not the podium.
