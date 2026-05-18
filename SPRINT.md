@@ -57,7 +57,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 ### 🔄 IN PROGRESS
 
-*P17 sent (awaiting response — window closes May 29). P24+P25 published. Distribution complete. **P31 DONE — companion paper on Zenodo.** **Ultrametric_v2 COMPLETE — 7 sprints.** Cross-project sync review COMPLETE. **P33a+P33b DONE — credential doc + narrative modules refreshed.** **P28 DONE — GitHub repo enhanced (README, LICENSE, CITATION.cff, Pages config, v2 guide).** **P30 DONE — entity formation assessment (`strategy/0.4.md`): recommendation = stay sole proprietorship, form PA LLC only on SBIR award.** **P32 IN PROGRESS — outreach emails drafted for 4 neutral atom labs (Harvard, Caltech, PASQAL, Innsbruck).** Next: P32 send (after review) or P34 ($q$-ary scatter talking point — 0.5 session).*
+*P17 sent (awaiting response — window closes May 29). P24+P25 published. Distribution complete. **P31 DONE — companion paper on Zenodo.** **Ultrametric_v2 COMPLETE — 7 sprints.** Cross-project sync review COMPLETE. **P33a+P33b DONE — credential doc + narrative modules refreshed.** **P28 DONE — GitHub repo enhanced (README, LICENSE, CITATION.cff, Pages config, v2 guide).** **P32 IN PROGRESS — outreach emails drafted for 4 neutral atom labs (Harvard, Caltech, PASQAL, Innsbruck).** Next: P32 send (after review) or P34 ($q$-ary scatter talking point — 0.5 session).*
 
 ---
 

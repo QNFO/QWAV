@@ -4,6 +4,21 @@
 
 ---
 
+## [v2.22] — 2026-05-18 — P30 Rolled Back (L19) + P34 Started
+
+**What Changed:** Rolled back P30 entity assessment — `strategy/0.4.md` deleted, P30 marked DEFERRED in BACKLOG (requires exogenous entity information). L19 captured: legal/financial/jurisdictional tasks must verify assumptions with founder before autonomous execution. P34 ($q$-ary scatter talking point) now active.
+
+**Files Changed:**
+- `strategy/0.4.md` — DELETED (based on wrong assumptions — no entities exist, US/PA jurisdiction, SBIR requires new entity)
+- `LEARNINGS.md` — EDIT: added L19
+- `BACKLOG.md` — EDIT: P30 reverted to DEFERRED
+- `SPRINT.md` — EDIT: P30 removed from IN PROGRESS
+- `PROJECT STATE.md` — EDIT: session header updated
+
+**Git:** `feature/post-audit-cleanup`
+
+---
+
 ## [v2.21] — 2026-05-18 — Entity Formation Assessment (P30) + PII Audit & Repo Cleanup
 
 **What Changed:** Completed P30 entity formation assessment. Also completed full PII audit and repo reorganization (unscheduled but critical).
