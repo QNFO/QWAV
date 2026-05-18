@@ -17,3 +17,4 @@ outreach-email-*
 # Temp files
 _file_listing.txt
 *.tmp
+_temp_*.txt
