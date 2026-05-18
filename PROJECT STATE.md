@@ -2,7 +2,37 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-18 | **Session:** Top-to-bottom refactor. All email outreach cancelled — strategy is inbound-only (Zenodo → ResearchGate → QNFO.org → social). Repo cleaned: social drafts moved to strategy/, stale files deleted, SPRINT consolidated, BACKLOG pruned. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.28
+**Last updated:** 2026-05-18 | **Session:** Action plan created. All email outreach cancelled — strategy is inbound-only. Reference library: strategy/0.1 — 0.7. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.29
+
+---
+
+## ACTION PLAN — What To Do Next
+
+| # | Action | Deadline | Time | Status |
+|:--|:-------|:---------|:-----|:-------|
+| 1 | **VSD case study** — Submit to Deep Science Ventures. Santa sent reminder May 18. Rolling review. | Jul 31, 2026 | 2-3 days | 🔴 **DUE** |
+| 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | This week | 30 min | 🟡 Ready |
+| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. Check engagement, reply if anyone asks substantive questions. | This week | 15 min/day | 🔄 Live |
+| 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 exists. Add bidirectional references from QWAV cred doc and P27. | 2 weeks | 30 min | 🟡 |
+| 5 | **Q-PNA / AI specification** (P6) — Specify training on ultrametric trees: loss function, backprop in discrete space, token calc. Least developed side. | Ongoing | 2-3 sessions | 🟢 |
+| 6 | **SBIR Phase I** (P9) — Federal grant. Requires entity info (Empowering Change, Data For Good LLC, Netherlands plans). Blocked until you provide. | Rolling | 2-3 sessions | ⚠️ Blocked |
+| 7 | **FQXi Essay Contest** (P29) — Check if 2026 contest is open. "Continuous manifold is wrong assumption" is their kind of thesis. | When open | 0.5 + writing | ⚠️ Needs check |
+
+### Reference Library (Not Action Items)
+
+These are for reference when needed — not to-do items:
+
+| File | Use When |
+|:-----|:---------|
+| `strategy/0.1.md` | Filing a provisional |
+| `strategy/0.2.md` | Patent timeline + unified design (25 claims) |
+| `strategy/0.3.md` | Questions about public disclosure / grace periods |
+| `strategy/0.4.md` + social | $q$-ary scatter talking point (already distributed) |
+| `strategy/0.5.md` | Grant apps or "who else does this?" |
+| `strategy/0.5.1.md` | Credibility / benchmarking talking point |
+| `strategy/0.5.2.md` | Must cite Heydeman/Boettcher in next paper revision |
+| `strategy/0.6.md` | Canonical statement of generalized thesis |
+| `strategy/0.7.md` | If anyone asks about physical fabrication |
 
 ---
 
