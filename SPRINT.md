@@ -61,7 +61,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 **Recently completed (2026-05-18 session):** P34 (q-ary scatter distribution), P35 (arXiv — cancelled), P8 (competitive landscape), P27 (cross-domain synthesis — now tracked). PII audit + repo cleanup. L19 captured (legal/financial tasks need exogenous verification).
 
-**Next:** P37 (benchmarking methodology, 0.5 session) or P32 send (human).
+**Next:** P42/P43 (Bruhat-Tits tree papers — Heydeman 2018, Boettcher 2020) or P16 (MIT implosion carving).
 
 ---
 

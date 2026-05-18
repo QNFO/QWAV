@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-18 | **Session:** Audit & Reorganization — releases reviewed, P27 cross-domain synthesis tracked (DOI: 10.5281/zenodo.20265907), P36 integrated, P40 superseded, IN PROGRESS consolidated. PII audit + repo cleanup complete. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.25
+**Last updated:** 2026-05-18 | **Session:** P37 DONE — benchmarking methodology (`strategy/0.5.1.md`). P27 tracked. IN PROGRESS consolidated. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.26
 
 ---
 
