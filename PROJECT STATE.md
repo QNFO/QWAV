@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-17 | **Session:** P36 DONE — bridge document complete, extracted to independent project `G:\My Drive\projects\Cophenetic Distance to Cross-Domain Bridge\`. Richard Goodman replied and archived. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.19
+**Last updated:** 2026-05-18 | **Session:** P37 DONE — Public Disclosure & International Patent Strategy (`strategy/0.3.md`, 24.7 KB). Defensive publishing alignment confirmed. US 12-month grace period analyzed. Recommendation: file ONE US provisional ($75-$325) as low-cost hedge. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.20
 
 ---
 

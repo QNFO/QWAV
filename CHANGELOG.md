@@ -4,6 +4,25 @@
 
 ---
 
+## [v2.20] — 2026-05-18 — Public Disclosure & Patent Strategy (0.3.md)
+
+**What Changed:** Strategic analysis of public GitHub/Zenodo disclosure implications for patent strategy. Created `strategy/0.3.md`.
+
+**Completed:**
+- **P37 DONE** — Public Disclosure & International Patent Strategy analysis (`strategy/0.3.md`, 24.7 KB)
+- Defensive publishing reframed as strategically coherent with QWAV open-access thesis (not a mistake — aligned with all core constraints)
+- US 12-month grace period analyzed: no "backdoor" for international filings (EPC/China/India absolute novelty means rights already lost there — but these were never accessible under $0 constraint)
+- Country-by-country breakdown: which jurisdictions retain patentability (US, Canada, Australia, Korea, Brazil with grace periods) vs which do not (Europe, China, India — absolute novelty)
+- Recommendation: Path B — file ONE US provisional ($75-$325) as low-cost hedge, preserving optionality without compromising defensive publishing
+- Timeline: 12-month window to file (~2027-05-12 deadline), recommend filing by 2026-12-31 for margin
+
+**Files Changed:**
+- `strategy/0.3.md` — NEW: 345 lines, 24,702 bytes
+
+**Git:** `87583c0` — `feature/strategy-refresh-v2`
+
+---
+
 ## [v2.19] — 2026-05-17 — P36 Complete + Cophenetic Project Seeded
 
 **What Changed:** P36 bridge document completed, then extracted to independent project. Richard Goodman thread archived.

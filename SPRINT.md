@@ -51,6 +51,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 26 | Distribution — Buffer, Substack, LinkedIn | Buffer posts scheduled (Bluesky, Mastodon, Twitter/X thread). Substack article posted. LinkedIn article posted. Full multi-platform distribution of credential document. | 2026-05-15 |
 | 27 | Cross-project sync review | Tree Distance Cophenetic + ultrametric_v2 reviewed for QWAV gaps. BACKLOG.md + SPRINT.md updated: 10 new items (P31–P40), P26 reclassified, P10 superseded, D8-D10 added. | 2026-05-17 |
 | 28 | P31 PDF generated | Companion paper PDF generated (pandoc+xelatex, 94.4 KB). Zenodo upload instructions written. Awaiting human login. | 2026-05-17 |
+| 29 | P37 — Public Disclosure & Patent Strategy (0.3.md) | `strategy/0.3.md` — Analysis of public GitHub/Zenodo disclosure implications: defensive publishing aligned with QWAV open-access strategy, US 12-month grace period limitations (no international backdoor), country-by-country breakdown (grace period vs absolute novelty), recommendation to file ONE US provisional as low-cost hedge ($75-$325). | 2026-05-18 |
 
 ---
 
