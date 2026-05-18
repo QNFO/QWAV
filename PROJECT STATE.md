@@ -10,7 +10,7 @@
 
 | # | Action | Deadline | Time | Status |
 |:--|:-------|:---------|:-----|:-------|
-| 1 | **VSD case study** — Submit to Deep Science Ventures. Santa sent reminder May 18. Rolling review. | Jul 31, 2026 | 2-3 days | 🔴 **DUE** |
+| 1 | ~~VSD case study~~ — ❌ CANCELLED. | — | — | ❌ |
 | 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | This week | 30 min | 🟡 Ready |
 | 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. Check engagement, reply if anyone asks substantive questions. | This week | 15 min/day | 🔄 Live |
 | 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
