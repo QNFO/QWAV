@@ -21,7 +21,7 @@ No cold outreach. No groveling. Publish. Let the work speak.
 | **Zenodo** | Primary — all papers published with DOIs |
 | **ResearchGate + QNFO.org** | Cross-posted from Zenodo |
 | **Buffer (social)** | Mastodon, Twitter/X, Bluesky — posts queued |
-| **LinkedIn + Substack** | Drafts ready in `strategy/` |
+| **LinkedIn + Substack** | ✅ POSTED in `strategy/` |
 | **Email** | ❌ CANCELLED — inbound-only. If someone reads the work and reaches out, evaluate case-by-case. |
 
 ---
@@ -35,7 +35,7 @@ No cold outreach. No groveling. Publish. Let the work speak.
 | 1 | Post LinkedIn + Substack | 🟡 Ready |
 | 2 | Monitor Buffer (3 posts queued) | 🔄 Live |
 | 3 | Cophenetic DOI cross-ref | ✅ DONE |
-| 4 | Q-PNA / AI specification | 🟢 Next |
+| 4 | Q-PNA / AI specification | 🔄 In Progress |
 | 5 | SBIR Phase I | ⚠️ Blocked |
 | 6 | FQXi Essay Contest | ⚠️ Needs check |
 
