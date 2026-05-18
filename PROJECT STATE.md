@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-18 | **Session:** Action plan created. All email outreach cancelled — strategy is inbound-only. Reference library: strategy/0.1 — 0.7. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.29
+**Last updated:** 2026-05-18 | **Session:** Close-out — 30+ commits across 6 feature branches. QWAV repo fully refactored: all email outreach cancelled (inbound-only strategy), reference library clean (strategy/0.1-0.7), ACTION PLAN active (6 remaining items), PII audit complete, GitHub synced. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.30
 
 ---
 
