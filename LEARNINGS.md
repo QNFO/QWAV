@@ -144,6 +144,14 @@
 - **Cross-Project:** YES — transfer to CROSS-PROJECT-LEARNINGS.md candidate.
 
 
+### L19: Legal/financial/jurisdictional tasks require user verification before execution — exogenous information exists outside project files
+
+- **Category:** METHODOLOGY
+- **Issue:** P30 (entity formation assessment) was executed autonomously as a WHAT'S NEXT? PROCEED task. The resulting `strategy/0.4.md` assumed (a) no corporate entities exist, (b) any new entity would be US-based (Pennsylvania), and (c) SBIR eligibility requires forming a new entity. All three assumptions were wrong: Empowering Change (IL 501c3) and Data For Good LLC (IL corporation) already exist, and future incorporation is planned in the Netherlands, not the US. The LLM didn't ask because the task was framed as "research and draft" — a technical pattern — when it was actually a legal/financial/jurisdictional decision requiring exogenous information.
+- **Solution:** Before executing ANY backlog task, classify it as: (a) **Technical** (simulation, writing, analysis, code) — safe for autonomous execution, or (b) **Legal/financial/jurisdictional** (entity formation, grant eligibility, tax, contracts, incorporation) — MUST ask the user to verify assumptions before proceeding. Ask: "What entities already exist? What jurisdictions are relevant? What constraints do you already know about that aren't in the project files?"
+- **Prevention:** Add a pre-execution gate to the WHAT'S NEXT? PROCEED protocol: if the next task touches legal, financial, or jurisdictional decisions, PAUSE and query the user. Do not assume the project files contain complete information about externally-registered entities, tax status, or jurisdiction plans.
+- **Cross-Project:** YES — transfer to CROSS-PROJECT-LEARNINGS.md candidate.
+
 ## Archived Learnings
 
 *None yet — all learnings above are still active and applicable.*
