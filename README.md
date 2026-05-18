@@ -1,134 +1,135 @@
-# QWAV — QUICK REFERENCE
+# QWAV — Ultrametric Quantum Computing & AI
 
-**Ultrametric Quantum Computing & AI.** Passive fault tolerance. Glass-box AI. One mathematical correction. Two multi-billion-dollar problems.
-
----
-
-## PHILOSOPHY
-
-> **An Introvert's Deep-Tech Startup Path:** Introversion is not a deficit. It is the cognitive mode that produced 300+ papers, a patent portfolio, and the ultrametric computing framework. The path forward amplifies these strengths: write, submit, wait, repeat. All communication is written. No networking. No live pitching. No peer review. Open-access only. Substance over credentials.
-
-Six applications submitted (VSD rejected, FRO, EWOR, Emergent Ventures, Foresight Institute, Harmonic.ai, LinkedIn Co-Founder). Six pending. The path works. One rejection for the right reasons — LLM ban and existing-IP prohibition filter FOR programs that want blank-slate applicants. QWAV is not a blank slate.
+Passive fault tolerance. Glass-box AI. One mathematical correction. Two multi-billion-dollar problems.
 
 ---
 
-## STRATEGY (Recalibrated May 2026)
+## What QWAV Is
 
-| Constraint | Approach |
-|:-----------|:---------|
-| No lab access | Computational validation (Tier 0 simulations) — the primary path |
-| No peer review | Open-access publishing only (Zenodo, ResearchGate, SSRN, arXiv) |
-| Solo founder | Written-first, substance-first — collaborators emerge through the work |
-| No institutional backing | Target programs and individuals who evaluate on content, not credentials |
+Replace Archimedean (continuous) geometry with ultrametric (tree-based) geometry for quantum computing and AI. The Bruhat-Tits tree — a structure from $p$-adic number theory — provides passive error suppression through the strong triangle inequality, operating at 4 K with no active error correction. The same tree geometry enables glass-box AI: traceable decision paths through the tree structure, explainable by design.
 
-**See [SPRINT.md](SPRINT.md) for full current status, next steps, backlog, and how to continue.**
-**See [CHANGELOG.md](CHANGELOG.md) for all changes to the library.**
+**Thesis (generalized, May 2026):** Ultrametric tree geometry is the common mathematical structure underlying quantum error correction, spin glasses (Parisi), protein folding (Wales), $p$-adic cosmology (Dragovich), cognitive state spaces (Khrennikov), and hierarchical ontology (Tree Distance Cophenetic). Bruhat-Tits trees are the quantum computing instantiation.
 
 ---
 
-## PROGRESS
+## Pipeline (Inbound-Only)
 
-### Applications
+No cold outreach. No groveling. Publish. Let the work speak.
 
-| Application | Organization | Submitted | Status |
-|:------------|:-------------|:----------|:-------|
-| Venture Science Doctorate (VSD) | Deep Science Ventures College | May 2026 | ❌ REJECTED — Bans LLM use, prohibits existing IP |
-| FRO Abstract | Convergent Research | May 2026 | Pending |
-| EWOR Fellowship | EWOR | May 2026 | Pending |
-| Emergent Ventures | Mercatus Center | May 2026 | Pending |
-| Foresight Institute | Foresight Institute | May 2026 | Pending |
-| Harmonic.ai | Harmonic | May 2026 | Pending |
-| LinkedIn Co-Founder & Head of AI | Stealth Startup (LinkedIn Jobs) | May 2026 | Pending |
-
-**Next targets:** SBIR Phase I, additional fellowship programs, Lean 4 formal verification collaboration.
-
-### Publications
-
-| Title | Venue | Date | DOI / Link |
-|:------|:------|:-----|:-----------|
-| Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits | Zenodo | 2026-05-12 | [10.5281/zenodo.20134944](https://doi.org/10.5281/zenodo.20134944) |
+| Channel | Status |
+|:--------|:-------|
+| **Zenodo** | Primary — all papers published with DOIs |
+| **ResearchGate + QNFO.org** | Cross-posted from Zenodo |
+| **Buffer (social)** | Mastodon, Twitter/X, Bluesky — posts queued |
+| **LinkedIn + Substack** | Drafts ready in `strategy/` |
+| **Email** | ❌ CANCELLED — inbound-only. If someone reads the work and reaches out, evaluate case-by-case. |
 
 ---
 
-## DIRECTORY
+## ACTION PLAN
 
-### Core
-- [README.md](README.md) — Quick reference index
-- [SPRINT.md](SPRINT.md) — Project state, backlog, learnings, thread handoff
-- [CHANGELOG.md](CHANGELOG.md) — Versioned change log
-- [.gitignore](.gitignore)
+**See top of [PROJECT STATE.md](PROJECT%20STATE.md) for the full ACTION PLAN with deadlines.**
 
-### Narrative & Strategy
-- [QA — Narrative Modules & Intellectual Defense](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — 12 modules (M1–M12), 8 FAQ (Q1–Q8)
-- [Pitch Deck](strategy/Pitch%20Deck%20-%20QWAV%20Ultrametric%20Computing.md) — 12-slide overview
-- [NEXT STEPS — From Library to Reality](strategy/NEXT%20STEPS%20-%20From%20Library%20to%20Reality.md) — Application pipeline
-- [An Introvert's Deep-Tech Startup Path](strategy/An%20Introvert's%20Deep-Tech%20Startup%20Path.md) — Philosophy essay
-- [PROJECT STATE.md](PROJECT%20STATE.md) — Detailed project snapshot
-
-### Technical & Strategy (`strategy/`)
-- [Technical Deep-Dive](strategy/Technical%20Deep-Dive%20-%20Ultrametric%20Quantum%20Computing%20and%20AI.md) — Full mathematical/physical case
-- [Experimental Validation Roadmap](strategy/Experimental%20Validation%20Roadmap%20-%20Ultrametric%20Quantum%20Computing.md) — Computational validation plan
-- [Honest Investment Assessment](strategy/Honest%20Investment%20Assessment%20-%20The%20100K%20Question.md) — Self-assessment and gaps
-- [IP-Only Licensing Strategy](strategy/IP-Only%20Licensing%20Strategy%20-%20Strategy%20B%20CERN%20Model.md) — Strategy B: non-VC path
-- [External Sources & Citation Map](strategy/External%20Sources%20and%20Citation%20Map.md) — Evidence and source tracking
-- [IP Strategic Plan](strategy/ip-strategic-plan.md) — Full IP portfolio strategy
-- [0.1.md — Patent Outline (Quantum)](strategy/0.1.md) — Ultrametric encoding provisional (17 claims)
-- [0.2.md — Patent Timeline & Design](strategy/0.2.md) — Timeline + comprehensive provisional (25 claims, 3 domains)
-
-### Applications
-- [Emergent Ventures](applications/emergent-ventures.md) — 1-page proposal (P2)
-- [Foresight Institute](applications/foresight-institute.md) — AI for Science & Safety (P3)
-
-### Briefings
-- [P11 collaborator Agenda](briefings/P11%20collaborator%20-%20Formal%20Verification%20Agenda%20(Shareable).md) — Formal verification collaboration
-
-### People
-- [Resume (Markdown)](people/ROWAN%20BRAD%20QUNI%20RESUME.md)
-- [Resume (PDF)](people/Rowan%20Brad%20Quni-Gudzinas%20Resume.pdf)
-
-**29 tracked files.** All extrovert content expunged. Archived files at (local archive, not in public repo).
+| # | Action | Status |
+|:--|:-------|:-------|
+| 1 | Post LinkedIn + Substack | 🟡 Ready |
+| 2 | Monitor Buffer (3 posts queued) | 🔄 Live |
+| 3 | Cophenetic DOI cross-ref | ✅ DONE |
+| 4 | Q-PNA / AI specification | 🟢 Next |
+| 5 | SBIR Phase I | ⚠️ Blocked |
+| 6 | FQXi Essay Contest | ⚠️ Needs check |
 
 ---
 
-## QUICK LOOKUP
+## Strategy Documents (`strategy/`)
 
-| Question | Go to |
-|:---------|:------|
-| "What's the project state & next steps?" | [SPRINT.md](SPRINT.md) (read this first in any new session) |
-| "What's changed?" | [CHANGELOG.md](CHANGELOG.md) |
-| "What's the core assertion?" | [QA.md §1](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) |
-| "What are the narrative modules?" | [QA.md §3](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — M1–M12 reusable blocks |
-| "How do I answer common questions?" | [QA.md §4](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — Q1–Q8 |
-| "What's the full technical argument?" | [Technical Deep-Dive](strategy/Technical%20Deep-Dive%20-%20Ultrametric%20Quantum%20Computing%20and%20AI.md) |
-| "How would computational validation work?" | [Experimental Validation Roadmap](strategy/Experimental%20Validation%20Roadmap%20-%20Ultrametric%20Quantum%20Computing.md) |
-| "What are the honest gaps?" | [Honest Investment Assessment](strategy/Honest%20Investment%20Assessment%20-%20The%20100K%20Question.md) |
-| "What's the non-VC path?" | [IP-Only Licensing Strategy](strategy/IP-Only%20Licensing%20Strategy%20-%20Strategy%20B%20CERN%20Model.md) |
-| "Where's the evidence?" | [External Sources & Citation Map](strategy/External%20Sources%20and%20Citation%20Map.md) |
-| "What's the path forward?" | [NEXT STEPS](strategy/NEXT%20STEPS%20-%20From%20Library%20to%20Reality.md) |
-| "What's been submitted? What's next?" | [SPRINT.md](SPRINT.md) $\to$ Current State / Backlog |
-| "I need a deck to share" | [Pitch Deck](strategy/Pitch%20Deck%20-%20QWAV%20Ultrametric%20Computing.md) |
-| "Who is Rowan Brad Quni-Gudzinas?" | [Resume](people/ROWAN%20BRAD%20QUNI%20RESUME.md) |
-| "What's the full philosophy?" | [An Introvert's Path](strategy/An%20Introvert's%20Deep-Tech%20Startup%20Path.md) |
-| "What's the formal verification opportunity?" | [P11 collaborator Briefing](briefings/P11%20collaborator%20-%20Formal%20Verification%20Agenda%20(Shareable).md) |
-| "How do I cite / reference this?" | [External Sources](strategy/External%20Sources%20and%20Citation%20Map.md) |
+### Versioned (Sequential)
+
+| v | File | Topic |
+|:--|:-----|:------|
+| 0.1 | `0.1.md` | Patent outline — 17 claims, quantum hardware |
+| 0.2 | `0.2.md` | Patent timeline + unified provisional — 25 claims, 4 domains |
+| 0.3 | `0.3.md` | Public disclosure & international patent strategy |
+| 0.4 | `0.4.md` | $q$-ary scatter talking point — 48× LER at zero qubit cost |
+| 0.5 | `0.5.md` | Competitive landscape — zero direct competitors |
+| 0.5.1 | `0.5.1.md` | Benchmarking methodology — honest classical baseline |
+| 0.5.2 | `0.5.2.md` | Bruhat-Tits prior art — Heydeman (2018), Boettcher (2020), AGP (2006) |
+| 0.6 | `0.6.md` | Cophenetic generalization — thesis reframed as ultrametric geometry as common structure |
+| 0.7 | `0.7.md` | MIT implosion carving — nanofabrication pathway for patent Claim 4 |
+
+### Social Distribution
+
+| File | Platform | Status |
+|:-----|:---------|:-------|
+| `0.4_linkedin.md` | LinkedIn | Plain text, copy-paste ready |
+| `0.4_substack.md` | Substack | Plain text, copy-paste ready |
+
+### Reference
+
+| File | Topic |
+|:-----|:------|
+| `QA - Narrative Modules and Intellectual Defense.md` | Narrative modules M1–M16, FAQ Q1–Q8 |
+| `Pitch Deck - QWAV Ultrametric Computing.md` | 12-slide overview |
+| `Technical Deep-Dive - Ultrametric Quantum Computing and AI.md` | Full mathematical/physical case |
+| `Experimental Validation Roadmap - Ultrametric Quantum Computing.md` | Computational validation plan |
+| `Honest Investment Assessment - The 100K Question.md` | Self-assessment and gaps |
+| `IP-Only Licensing Strategy - Strategy B CERN Model.md` | Non-VC path |
+| `ip-strategic-plan.md` | Full IP portfolio strategy |
+| `mathematical-foundations.md` | Formal definitions, theorems |
+| `External Sources and Citation Map.md` | Evidence and source tracking |
+| `An Introvert's Deep-Tech Startup Path.md` | Philosophy essay |
+| `NEXT STEPS - From Library to Reality.md` | Application pipeline |
 
 ---
 
-## FAQ QUICK-INDEX
+## Publications
 
-Full responses in [QA — Narrative Modules & Intellectual Defense §4](strategy/QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md).
-
-| Code | Question | Short Answer |
-|:-----|:---------|:-------------|
-| **Q1** | "No PhD? No institution?" | 300+ open-access publications. Judge the substance. Open-access is the model — by design. |
-| **Q2** | "No experimental validation?" | Six falsifiable predictions. Computational validation published (DOI: 10.5281/zenodo.20134944) — LER=0 at depth 3+ for error rates up to 40%. |
-| **Q3** | "Google/IBM competition?" | They optimize within the paradigm we're replacing. Innovator's dilemma. |
-| **Q4** | "How do you make money?" | IP licensing, consulting, R&D grants. |
-| **Q5** | "No team?" | Solo by design. Team-building experience exists but isn't the current focus. |
-| **Q6** | "Why now?" | Thermodynamic wall acknowledged. AI regulation arriving. Math ready. |
-| **Q7** | "Transmons good enough?" | Lab experiments, not products. $20{,}000\times$ cooling gap says they can't scale. |
-| **Q8** | "Why no peer review?" | Peer review is gatekeeping. Open-access, reader-evaluated. Substance over credentials. |
+| Title | Type | Date | DOI |
+|:------|:-----|:-----|:----|
+| Computational Validation of Ultrametric Error Confinement | Tier 0 paper | 2026-05-12 | [10.5281/zenodo.20134944](https://doi.org/10.5281/zenodo.20134944) |
+| Symmetric Extension of Ultrametric Error Confinement | Tier 1 companion | 2026-05-16 | [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437) |
+| Ultrametric Quantum Computing Foundations | Credential doc | 2026-05-15 | [10.5281/zenodo.20154557](https://doi.org/10.5281/zenodo.20154557) |
+| Cross-Domain Synthesis: Ultrametric Geometry as Common Structure | P27 synthesis | 2026-05-17 | [10.5281/zenodo.20265907](https://doi.org/10.5281/zenodo.20265907) |
+| When Proofs Deceive | Math/physics taxonomy | 2026-05-18 | [10.5281/zenodo.20266032](https://doi.org/10.5281/zenodo.20266032) |
+| The Tree Distance Cophenetic | Ultrametric ontology | 2026-05-15 | [10.5281/zenodo.20213043](https://doi.org/10.5281/zenodo.20213043) |
+| Tree at the Bottom of Everything | p-adic cosmology | 2026-05-15 | [10.5281/zenodo.20200828](https://doi.org/10.5281/zenodo.20200828) |
 
 ---
 
-*README v7.4 — Root: 8 files (7 docs + .gitignore) + 4 subdirectories. 29 tracked files. Six applications pending, one rejected (VSD). Tier 0 paper published on Zenodo.*
+## Applications
+
+7 submitted (1 rejected, 6 pending as of May 2026).
+
+| Application | Organization | Status |
+|:------------|:-------------|:-------|
+| Venture Science Doctorate (VSD) | Deep Science Ventures | ❌ REJECTED |
+| FRO Abstract | Convergent Research | Pending |
+| EWOR Fellowship | EWOR | Pending |
+| Emergent Ventures | Mercatus Center | Pending |
+| Foresight Institute | Foresight Institute | Pending |
+| Harmonic.ai | Harmonic | Pending |
+| LinkedIn Co-Founder & Head of AI | Stealth Startup | Pending |
+
+---
+
+## Philosophy
+
+> **An Introvert's Deep-Tech Startup Path:** Introversion is not a deficit. It is the cognitive mode that produced 300+ papers, a patent portfolio, and the ultrametric computing framework. Write, submit, wait, repeat. All communication is written. No networking. No live pitching. No peer review. Open-access only. Substance over credentials.
+
+**Constraints (non-negotiable):** No lab access (computational only). No peer review (open-access). Solo founder (written-first). No institutional backing.
+
+---
+
+## Core Files
+
+| File | Purpose |
+|:-----|:--------|
+| [PROJECT STATE.md](PROJECT%20STATE.md) | **Start here.** Action plan, project identity, constraints, full status. |
+| [SPRINT.md](SPRINT.md) | Sprint tracker and handoff for LLM agents |
+| [BACKLOG.md](BACKLOG.md) | Prioritized task queue |
+| [CHANGELOG.md](CHANGELOG.md) | Versioned change log |
+| [LEARNINGS.md](LEARNINGS.md) | Project-specific lessons (L1–L19) |
+| [DECISIONS.md](DECISIONS.md) | Architecture and design decisions (D1–D11) |
+| [Ultrametric Quantum Computing Foundations.md](Ultrametric%20Quantum%20Computing%20Foundations.md) | Credential document — 14 references, 5 pre-registered predictions |
+
+**Last updated:** 2026-05-18 | **GitHub:** [QNFO/QWAV](https://github.com/QNFO/QWAV)
