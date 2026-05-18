@@ -4,6 +4,20 @@
 
 ---
 
+## [v2.23] — 2026-05-18 — P34 Complete ($q$-Ary Scatter Talking Point)
+
+**What Changed:** P34 complete — $q$-ary scatter talking point written as `strategy/0.4.md` (5.5 KB, ~500 words). Accessible "wow" result for non-specialists: 48× LER reduction at zero qubit cost using existing hyperfine levels.
+
+**Completed:**
+- **P34 DONE** — `strategy/0.4.md`: explains $q$-ary scatter concept (encoding logical bit across up to 128 hyperfine states instead of 2), 48× error reduction with zero additional qubits, accessible framing for funders/journalists/collaborators. Structured as: one-paragraph summary, problem statement, mechanism, results table, bigger picture (ternary + scatter + concatenation redundant + 40-atom hardware).
+
+**Files Changed:**
+- `strategy/0.4.md` — NEW: 69 lines, 5,531 bytes (P34 $q$-ary scatter talking point)
+
+**Git:** `be753bd` — `feature/post-audit-cleanup`
+
+---
+
 ## [v2.22] — 2026-05-18 — P30 Rolled Back (L19) + P34 Started
 
 **What Changed:** Rolled back P30 entity assessment — `strategy/0.4.md` deleted, P30 marked DEFERRED in BACKLOG (requires exogenous entity information). L19 captured: legal/financial/jurisdictional tasks must verify assumptions with founder before autonomous execution. P34 ($q$-ary scatter talking point) now active.
