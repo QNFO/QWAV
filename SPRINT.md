@@ -57,11 +57,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 
 ### 🔄 IN PROGRESS
 
-*P17: Zúñiga-Galindo — awaiting response (window closes May 29). P32: 4 outreach emails drafted (Harvard, Caltech, PASQAL, Innsbruck) — human review required, PII-protected.*
-
-**Recently completed (2026-05-18 session):** P34 (q-ary scatter distribution), P35 (arXiv — cancelled), P8 (competitive landscape), P27 (cross-domain synthesis — tracked), P37 (benchmarking), P42+P43 (Bruhat-Tits prior art), P41 (assumptions audit), P44 (AGP attribution). **Cophenetic generalization: `strategy/0.6.md`** — thesis broadened from "Bruhat-Tits trees" to "ultrametric tree geometry as common structure across six domains." PII audit + repo cleanup. L19 captured.
-
-**Next:** P32 send (human, PII-protected) or new work from remaining backlog.
+**Pipeline active:** Zenodo (DOI) → ResearchGate + QNFO.org → Buffer social distribution. Inbound-only engagement: if someone reads the work and reaches out, evaluate case-by-case. No cold outreach. No groveling. Publish, let the work speak.
 
 ---
 

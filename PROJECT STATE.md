@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-18 | **Session:** Holistic refactor — cophenetic generalization (`strategy/0.6.md`), P41 assumptions audit, P44 AGP attribution. Thesis broadened: Bruhat-Tits is QC instantiation of ultrametric tree geometry as common structure. All strategy docs cross-referenced. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.27
+**Last updated:** 2026-05-18 | **Session:** Top-to-bottom refactor. All email outreach cancelled — strategy is inbound-only (Zenodo → ResearchGate → QNFO.org → social). Repo cleaned: social drafts moved to strategy/, stale files deleted, SPRINT consolidated, BACKLOG pruned. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.28
 
 ---
 
