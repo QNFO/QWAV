@@ -122,6 +122,27 @@
 - **Cross-Project:** YES — every theoretical computing architecture should include a minimum viable hardware spec.
 
 ---
+### L16: Formal verification collaborations need explicit scope/value-exchange before commitment
+- **Category:** METHODOLOGY
+- **Issue:** The Richard Goodman collaboration on Lean formalization of ultrametric error confinement was approached without first establishing: (a) what exactly would be formalized (AGP specialization or stronger claim?), (b) what value each party would derive, and (c) whether the artifact would be a classical or quantum theorem. These ambiguities surfaced as "objections" mid-exchange, making it impossible to proceed. The collaboration was terminated ("not a fit," 2026-05-17).
+- **Solution:** Before approaching any formal verification collaborator, produce a one-page spec: exact statement to be proved, assumptions inventory with physical correspondence, what the artifact means for QWAV, and what the collaborator receives (co-authorship, citation, payment, etc.).
+- **Prevention:** Treat formal verification collaboration like any other external dependency — spec first, approach second.
+- **Cross-Project:** YES — transfer to CROSS-PROJECT-LEARNINGS.md candidate.
+
+### L17: Mathematical proof proves consistency, not physical reality — the "assumptions gap" is ineradicable
+- **Category:** METHODOLOGY
+- **Issue:** The "Can Math Prove Physics" project demonstrated that formal proofs (including Lean) prove logical consistency under stated assumptions, not physical behavior. The "assumptions gap" between model and reality is fundamental and unbridgeable by math alone. This is the central epistemological insight from the aborted collaboration and the published essay (DOI: 10.5281/zenodo.20266032).
+- **Solution:** For every mathematical claim about ultrametric hardware, explicitly state: (a) what type of proof it is (consistency, impossibility, existence, or guarantee), (b) what assumptions it requires, (c) which assumptions are physically verified vs. hypothesized, and (d) what experiment would refute the physical claim. This is the "proof-physics contract" from the essay.
+- **Prevention:** Every QWAV publication that makes a mathematical claim about physical behavior should include an explicit assumptions audit.
+- **Cross-Project:** YES — transfer to CROSS-PROJECT-LEARNINGS.md candidate.
+
+### L18: Three of Richard Goodman's four technical objections remain unaddressed in current releases
+- **Category:** RESEARCH
+- **Issue:** Richard Goodman's May 2026 technical review identified 4 objections to the ultrametric error confinement papers: (1) decoder asymmetry at p=2 → RESOLVED by Symmetric Extension (p=3). (2) AGP 2006 prior art not cited → OPEN. (3) Classical vs. quantum scope mismatch → OPEN. (4) Heydeman et al. (2018) and Boettcher (2020) not cited → OPEN. Objections 2-4 are substantive gaps that weaken the papers' scholarly positioning.
+- **Solution:** Address objections 2-4 in the next Symmetric Extension revision. Cite AGP 2006, clarify classical/quantum scope, and engage with HMPS 2018 and Boettcher 2020. These are tracked as QWAV BACKLOG items P42-P44.
+- **Prevention:** Before claiming novelty, always search for and cite prior art on the specific mathematical structure (Bruhat-Tits trees) used as substrate.
+- **Cross-Project:** YES — transfer to CROSS-PROJECT-LEARNINGS.md candidate.
+
 
 ## Archived Learnings
 
