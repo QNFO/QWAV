@@ -2,7 +2,7 @@
 
 > **Purpose:** Prioritized queue of future work. Updated whenever new ideas emerge or priorities shift. Items are ordered by priority — work top to bottom.
 
-**Last updated:** 2026-05-17 | **Status:** Ultrametric_v2 (Tier 0.5) complete — 7 sprints. P17 outreach sent. Credential doc published. **Cross-project sync review complete** — Tree Distance Cophenetic + ultrametric_v2 reviewed for gaps; 10 new backlog items added (P31–P40).
+**Last updated:** 2026-05-18 | **Status:** Ultrametric_v2 (Tier 0.5) complete — 7 sprints. P17 outreach sent. Credential doc published. **Cross-project sync review complete** — Tree Distance Cophenetic + ultrametric_v2 reviewed for gaps; 14 new backlog items added (P31–P44).
 
 **Key Reprioritization (2026-05-17):** Cross-project review identified CRITICAL gaps: (1) Companion paper exists but not on Zenodo — P31. (2) Best outreach targets are neutral atom labs, not NV centers — P32 supersedes P10. (3) Key results ($q$-ary 48×, correlated noise, hardware spec) not yet in QWAV narrative materials — P33. P26 (Tier 1 paper) is ESSENTIALLY COMPLETE — companion paper written; only needs Zenodo upload. P10 SUPERSEDED by P32. P28 scope updated to leverage ultrametric_v2 codebase.
 
@@ -37,7 +37,7 @@
 | **P27** | **Cross-domain synthesis paper** | One paper showing ultrametricity as the unifying structure across: spin glasses (Parisi), protein folding (Wales), p-adic strings (Dragovich), cognitive models (Khrennikov), and quantum circuits (QWAV). This is the "pattern recognition" document. | 2–3 | All outreach complete (citations from community) | NOT STARTED |
 | **P28** | **Open-source simulation code** | ✅ DONE (2026-05-16) — GitHub repo enhanced: comprehensive README, MIT license, CITATION.cff, GitHub Pages config, v2 architecture guide. Internal QWAV docs removed. Ready for push + v2 code drop. | — | — | ✅ DONE |
 | **P29** | **FQXi Essay Contest** | Check for open FQXi essay contest on foundational physics. "Continuous manifold is the wrong assumption" is exactly their kind of provocative thesis. | 0.5 + writing | Contest open | NOT STARTED |
-| **P30** | **Entity formation assessment** | Evaluate: is a US entity (LLC or C-Corp) needed for SBIR/ARPA-E applications? Cost-benefit: entity cost vs. grant eligibility. | 0.5 | None | NOT STARTED |
+| **P30** | **Entity formation assessment** | ✅ DONE — `strategy/0.4.md`. Recommendation: stay sole proprietorship. Form PA single-member LLC ($125) only on SBIR award or liability trigger. No entity needed for currently pending applications. | 0.5 | None | ✅ DONE (2026-05-18) |
 | **P31** | **Publish ultrametric_v2 companion paper to Zenodo** | Published — DOI: [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437). **UNBLOCKS P32 (lab outreach) and P33 (credential doc refresh).** Verify: original paper [1] cross-referenced? | — | — | DONE (2026-05-16) |
 | **P32** 🔴 | **Neutral atom lab outreach campaign** | Send templated emails to 4 labs: Harvard/Lukin-Greiner, Caltech/Endres, PASQAL/Browaeys, Innsbruck/Zoller-Blatt. Attach outreach whitepaper + hardware spec. Specific ask: 2-4 hours machine time for $d=3$ demonstration (40 atoms). Templates in ultrametric_v2 BACKLOG §B1-B2. **SUPERSEDES P10 — neutral atoms, not NV centers.** | 1 | P31 (DOI to cite), email access | NOT STARTED |
 | **P33** 🔴 | **Refresh credential doc + narrative library with v2 findings** | ✅ P33a+P33b DONE — `Ultrametric Quantum Computing Foundations.md` updated with v2 section (ternary, 48× scatter, concatenation redundancy, 40-atom hardware pathway) + companion paper DOI. `QA - Narrative Modules` extended with M13-M16. Remaining strategy docs (P41) deferred. | 1-2 (remaining: P41) | P31 ✓ | ✅ P33a+P33b done (2026-05-16) |
@@ -56,6 +56,7 @@
 **Source projects referenced:**
 - `ultrametric_v2`: `G:\My Drive\projects\ultrametric_v2\` — 7 sprints complete, 28 tasks, 26 files, 260K+ MC trials
 - `Tree Distance Cophenetic`: `G:\My Drive\projects\Tree Distance Cophenetic\` — Sprint 3 nearly complete, 0.8.md publication-ready, DOI assigned
+- `Can Math Prove Physics`: `G:\My Drive\projects\Can Math Prove Physics\` — CLOSED 2026-05-18. Essay published (DOI: 10.5281/zenodo.20266032). Residual items transferred here (P41-P44).
 
 ---
 

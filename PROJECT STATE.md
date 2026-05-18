@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-18 | **Session:** P37 DONE — Public Disclosure & International Patent Strategy (`strategy/0.3.md`, 24.7 KB). Defensive publishing alignment confirmed. US 12-month grace period analyzed. Recommendation: file ONE US provisional ($75-$325) as low-cost hedge. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.20
+**Last updated:** 2026-05-18 | **Session:** P30 DONE — Entity formation assessment (`strategy/0.4.md`). PII audit + repo cleanup complete. All branches synced to GitHub. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.21
 
 ---
 

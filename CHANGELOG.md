@@ -4,6 +4,28 @@
 
 ---
 
+## [v2.21] — 2026-05-18 — Entity Formation Assessment (P30) + PII Audit & Repo Cleanup
+
+**What Changed:** Completed P30 entity formation assessment. Also completed full PII audit and repo reorganization (unscheduled but critical).
+
+**Completed:**
+- **P30 DONE** — Entity formation assessment (`strategy/0.4.md`, 17.4 KB, 300 lines). Recommendation: stay sole proprietorship, form PA single-member LLC ($125) only on SBIR award or liability trigger. No entity needed for any currently pending applications.
+- **PII Audit & Repo Cleanup** — Swept ALL tracked files across ALL branches for third-party PII. Redacted Zúñiga-Galindo email from BACKLOG/CHANGELOG/SPRINT. Removed 3 outreach PII files from git tracking (preserved on disk). Added `.gitignore` rule to permanently block `outreach-email-*`. Merged `feature/cross-project-sync` and `feature/strategy-refresh-v2` to `main`. Deleted 4 dead branches. Pushed all clean branches to GitHub. `feature/outreach-email-draft` kept local-only (contains PII in git history).
+
+**Files Changed:**
+- `strategy/0.4.md` — NEW: 300 lines, 17,371 bytes (P30 entity formation assessment)
+- `.gitignore` — EDIT: added `outreach-email-*` PII block
+- `outreach-email-*.md` (3 files) — REMOVED from git tracking (preserved on disk)
+- `BACKLOG.md` — EDIT: P30 marked DONE, PII redacted
+- `CHANGELOG.md` — EDIT: v2.20 entry, PII redacted
+- `SPRINT.md` — EDIT: item 29 added, IN PROGRESS updated, PII redacted
+- `PROJECT STATE.md` — EDIT: session headers updated
+- `strategy/0.2.md` — EDIT: cross-referenced 0.3.md
+
+**Git:** `eb2876e` — `feature/post-audit-cleanup`
+
+---
+
 ## [v2.20] — 2026-05-18 — Public Disclosure & Patent Strategy (0.3.md)
 
 **What Changed:** Strategic analysis of public GitHub/Zenodo disclosure implications for patent strategy. Created `strategy/0.3.md`.
