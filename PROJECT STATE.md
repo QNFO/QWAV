@@ -13,7 +13,7 @@
 | 1 | **VSD case study** — Submit to Deep Science Ventures. Santa sent reminder May 18. Rolling review. | Jul 31, 2026 | 2-3 days | 🔴 **DUE** |
 | 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | This week | 30 min | 🟡 Ready |
 | 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. Check engagement, reply if anyone asks substantive questions. | This week | 15 min/day | 🔄 Live |
-| 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 exists. Add bidirectional references from QWAV cred doc and P27. | 2 weeks | 30 min | 🟡 |
+| 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
 | 5 | **Q-PNA / AI specification** (P6) — Specify training on ultrametric trees: loss function, backprop in discrete space, token calc. Least developed side. | Ongoing | 2-3 sessions | 🟢 |
 | 6 | **SBIR Phase I** (P9) — Federal grant. Requires entity info (Empowering Change, Data For Good LLC, Netherlands plans). Blocked until you provide. | Rolling | 2-3 sessions | ⚠️ Blocked |
 | 7 | **FQXi Essay Contest** (P29) — Check if 2026 contest is open. "Continuous manifold is wrong assumption" is their kind of thesis. | When open | 0.5 + writing | ⚠️ Needs check |

@@ -349,6 +349,8 @@ This document is not submitted for peer review. It is published for reader evalu
 
 13. Quni-Gudzinas, R. B. (2026). Symmetric Extension of Ultrametric Error Confinement — Ternary Tree Architecture with Bidirectional Validation. Zenodo. DOI: 10.5281/zenodo.20208437.
 
+14. Quni-Gudzinas, R. B. (2026). The Tree Distance Cophenetic: A Unified Framework for Hierarchical Ontology. Zenodo. DOI: 10.5281/zenodo.20213043.
+
 ---
 
 **Publication Venues:**
