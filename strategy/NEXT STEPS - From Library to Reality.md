@@ -75,7 +75,7 @@ The pipeline is not empty. Here are the next written applications to prepare, re
 | 1 | Emergent Ventures | Fast, no-equity moonshot grants | Rolling | 1-page proposal; computational data strengthens the case |
 | 2 | Foresight Institute | Fellowships + grants for frontier tech | Varies by program | Written application focused on long-term impact |
 | 3 | SBIR Phase I (NSF/DOE/DARPA) | Federal small-business research grant | Varies | 15–25 page proposal; requires computational validation data |
-| 4 | Journal/arXiv submission | Open-access publication | Self-paced | Computational validation results + theoretical framework |
+| 4 | Zenodo publication | Open-access publication | Self-paced | Computational validation results + theoretical framework |
 | 5 | Additional fellowships (Activate, Breakthrough Energy, etc.) | Varies | Varies | Adapt library modules to each program's format |
 
 Each of these is a written application. Each is evaluated on content, not charisma. Each rejection — if it comes — is structured, scored, informative. Each acceptance opens a door.

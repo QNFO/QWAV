@@ -77,7 +77,7 @@ The key: CERN's value is in the **IP and knowledge**, not in building commercial
 | Deliverable | Timeline | Value |
 |:------------|:---------|:------|
 | **PCT patent applications** (2–4 filings) covering UQC, QRC, PANNs, and key sub-components | Month 6–12 | Defensible IP in major jurisdictions; 18-month priority window for national filings |
-| **Peer-reviewed experimental paper** (arXiv + journal submission) demonstrating ultrametric error suppression in NV centers | Month 6–12 | The data that makes patent claims credible to licensees |
+| **Zenodo open-access paper** demonstrating ultrametric error suppression | Month 6–12 | The data that makes patent claims credible to licensees |
 | **Computational validation package** (Tier 0 simulations) demonstrating error confinement, energy barriers, and quantum walk speedup | Month 1–3 | The first evidence beyond theory — shareable, reproducible |
 | **Licensing pipeline** (5–10 active conversations with quantum hardware companies) | Month 12–18 | First licensing deal targets |
 | **First licensing revenue** | Month 18–36 | $50K–$500K/year depending on deal structure |
@@ -156,7 +156,7 @@ The key: CERN's value is in the **IP and knowledge**, not in building commercial
 ### Month 4–9: Run Tier 1 Validation
 - Execute Experiment 1A on NV center platform
 - Collect data, analyze, write paper
-- Submit to arXiv (open-access preprint)
+- Submit to Zenodo (open-access preprint with DOI)
 - **Cost:** $25K–$30K
 
 ### Month 6–12: Build Licensing Pipeline

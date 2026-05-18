@@ -47,7 +47,7 @@ This one mathematical change enables two breakthroughs simultaneously:
 **Glass-Box AI (Q-PNA):**
 - Neural networks mapped onto Bruhat–Tits trees where information propagates along discrete, hierarchical paths
 - Every decision is a geometric path from root to leaf — fully traceable, structurally auditable
-- Syntactic Token Calculus provides formal verification of AI decisions
+- Syntactic Token Calculus enables glass-box AI explainability
 - **Inherently explainable** — satisfies EU AI Act requirements by design, not after the fact
 
 ---
@@ -113,7 +113,7 @@ We don't compete with Google or IBM on their playing field. They optimize within
 
 | Phase | Timeline | Funding | Milestone |
 |:------|:---------|:--------|:----------|
-| **Phase 0: Validate** | Year 1–2 | $200K–$550K | Computational validation (Tier 0 simulations), patent strengthening, written outreach, arXiv paper |
+| **Phase 0: Validate** | Year 1–2 | $200K–$550K | Computational validation (Tier 0 simulations), patent strengthening, Zenodo open-access publication |
 | **Phase 1: De-risk** | Year 2–4 | $500K–$2M (revenue + grants) | Cryogenic validation, first IP licensing deals |
 | **Phase 2: Scale** | Year 4–7 | Revenue-funded + $10M–$50M | Multiple licensees, consulting practice, €100M+ revenue target |
 | **Phase 3: Lead** | Year 7–10+ | Revenue + growth equity | Ultrametric as standard architecture, €1B+ valuation |
