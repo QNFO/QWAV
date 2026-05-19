@@ -101,7 +101,6 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P37** 🟡 | **Competitive landscape with benchmarking** | Use v2 honest baseline methodology for P8. | 0.5 | None | NOT STARTED |
 | **P38** 🟡 | **Open-source v2 codebase** | Same as P28 — 26-file validated codebase. | 1 | None | NOT STARTED |
 | **P39** 🟢 | **Cross-reference TDC publication** | Add bidirectional refs once both have DOIs. | 0.25 | Both published | NOT STARTED |
-| **P41** 🔴 | **Prompt remediation — role boundary amendments** | Handoff to Prompts agent — strategy/0.11.md. Apply §0.9 role definitions to QWAV and Projects system prompts. Fixes agent persona boundary violations (L20). | 1 | Prompts agent available | 📤 HANDED OFF (2026-05-18) |
 | **P40** 🟢 | **P27 updated scope** | Cross-domain paper now enriched by TDC + v2 results. | 2-3 | P36, outreach | NOT STARTED |
 
 **🔴 CRITICAL → 🟠 HIGH → 🟡 MEDIUM → 🟢 LOW. Execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P35 → P39 → P40.**

@@ -16,7 +16,6 @@
 | 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
 | 5 | **Q-PNA / AI specification** (P6) — Specify training on ultrametric trees: loss function, backprop in discrete space, token calc. Least developed side. | Ongoing | 2-3 sessions | 🔄 ✅ **DONE** — v2.0 Research Specification published by Projects thread. `Obsidian/releases/2026/05/Q-PNA Research Specification v2.0.md` (52 KB, 12 sections). |
 | 6 | **SBIR Phase I** (P9) — Federal grant. Requires entity info (Empowering Change, Data For Good LLC, Netherlands plans). Blocked until you provide. | Rolling | 2-3 sessions | ⚠️ Blocked |
-| 8 | **Prompt remediation** (P41) — Handoff to Prompts agent: strategy/0.11.md. Apply §0.9 role boundaries to system prompts. | When ready | — | 📤 HANDED OFF |
 | 7 | **FQXi Essay Contest** (P29) — Check if 2026 contest is open. "Continuous manifold is wrong assumption" is their kind of thesis. | When open | 0.5 + writing | ⚠️ Needs check |
 
 ### Reference Library (Not Action Items)

@@ -4,6 +4,23 @@
 
 ---
 
+## [v2.24] — 2026-05-18 — Session Close-Out: ACTION PLAN #2, #4, #5 Done; L20 Boundary Lesson; P6 Handoff & Return
+
+**What Changed:** 11 commits on `feature/action-plan-execution`. Three ACTION PLAN items completed:
+- **#2: LinkedIn + Substack posted** — Drafts reviewed, curly quotes fixed, footer tagline updated to "independent research alliance". Copy-paste delivered to user.
+- **#4: Cophenetic DOI cross-ref** — Already done earlier, confirmed.
+- **#5: Q-PNA / AI specification** — v0.1 spec created (`strategy/0.8.md`), handoff to Projects agent (`strategy/0.9.md`), Projects agent returned v2.0 Research Specification to `Obsidian/releases/2026/05/Q-PNA Research Specification v2.0.md` (52 KB, 12 sections). Marked DONE.
+
+**Buffer monitoring:** 48× scatter thread live on Mastodon (1 boost), Bluesky, Twitter/X. P27 synthesis thread scheduled. Zero errors.
+
+**Boundary lesson:** L20 added to LEARNINGS.md — agent persona boundaries discovered and documented. QWAV = Strategy Program Manager (initiate, coordinate, handoff). Projects = Independent Executor (research, computation, implementation). Prompt remediation identified as Prompts agent scope (removed from QWAV strategy docs).
+
+**Files Changed:** `LEARNINGS.md` (+L20), `SPRINT.md` (+P41 removed), `PROJECT STATE.md`, `README.md`, `strategy/0.4_linkedin.md` (footer), `strategy/0.4_substack.md` (curly quotes + footer), `strategy/0.8.md` (NEW — Q-PNA v0.1), `strategy/0.9.md` (NEW — P6 handoff), `strategy/0.10.md` (NEW then DELETED — prompt remediation → Prompts scope), `strategy/0.11.md` (NEW then DELETED — handoff → Prompts scope).
+
+**Git:** 11 commits on `feature/action-plan-execution` | Clean worktree | All 7 mandatory docs verified present and non-empty.
+
+---
+
 ## [v2.23] — 2026-05-18 — P34 Complete ($q$-Ary Scatter Talking Point)
 
 **What Changed:** P34 complete — $q$-ary scatter talking point written as `strategy/0.4.md` (5.5 KB, ~500 words). Accessible "wow" result for non-specialists: 48× LER reduction at zero qubit cost using existing hyperfine levels.
