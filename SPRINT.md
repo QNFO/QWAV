@@ -4,13 +4,13 @@
 
 ---
 
-## Current State (2026-05-19 — Post Portfolio Audit + Buffer Monitoring)
+## Current State (2026-05-19 — SBIR Deferred, FQXi: No Contest Open)
 
 ### Strategy Summary (Read This First)
 
 QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum computing and AI. The core thesis: replacing Archimedean (continuous) geometry with ultrametric (tree-based) geometry enables passive fault tolerance in quantum computing and glass-box explainability in AI — solving two multi-billion-dollar problems with one mathematical correction.
 
-**Buffer queue status (May 19):** 🟢 Healthy — 9 posts scheduled across 3 platforms through Jun 11. P27 synthesis firing today. Next campaign: Force-Multiplier (Jun 4-11). Zero errors.
+**ACTION PLAN status:** Buffer 🟢 Live (P27 fired May 19, Force-Multiplier Jun 4-11). SBIR ⚠️ DEFERRED (user confirms entities exist but US legal/tax not a current priority). FQXi ⚠️ No contest open (monitor fqxi.org — next likely June 2026).
 
 **Key Constraints (Non-Negotiable):**
 - **No physical lab access** — all experiments are computational simulations

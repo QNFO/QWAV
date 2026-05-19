@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-19 | **Session:** Buffer monitoring complete — queue healthy across 3 platforms, P27 synthesis firing today (May 19), Force-Multiplier campaign scheduled Jun 4-11. FQXi needs external search (manifest generated). Portfolio boundary audit complete (v2.31). | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.32
+**Last updated:** 2026-05-19 | **Session:** User provided SBIR entity info (Empowering Change 501c3 / Data For Good LLC exist; US legal/tax not a current priority → SBIR DEFERRED). FQXi search results received — no 2026 contest open (saved to `strategy/src_fqxi_2026.md`). Monitor fqxi.org for next announcement (~June 2026). | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.33
 
 ---
 
@@ -12,11 +12,11 @@
 |:--|:-------|:---------|:-----|:-------|
 | 1 | ~~VSD case study~~ — ❌ CANCELLED. | — | — | ❌ |
 | 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | May 18 | 30 min | ✅ **DONE** |
-| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. P27 cross-domain synthesis firing May 19 (Bluesky 18:40 UTC, Mastodon 22:58 UTC). Force-Multiplier campaign queued Jun 4-11. 9 posts scheduled, 0 errors. Queue healthy through mid-June. | This week | 15 min/day | 🟢 Live |
+| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. P27 cross-domain synthesis fired May 19. Force-Multiplier campaign queued Jun 4-11. 9 posts scheduled, 0 errors. Queue healthy through mid-June. | This week | 15 min/day | 🟢 Live |
 | 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
 | 5 | **Q-PNA / AI specification** (P6) — v2.0 Research Specification published by Projects thread. Now in P2 (Computational Validation) under Projects agent. Monitor releases for outputs. | Ongoing | — | 🔄 ✅ **DONE** |
-| 6 | **SBIR Phase I** (P9) — Federal grant. Requires entity info (Empowering Change, Data For Good LLC, Netherlands plans). Blocked per L19 legal/financial gate until user provides. | Rolling | 2-3 sessions | ⚠️ Blocked |
-| 7 | **FQXi Essay Contest** (P29) — Check if 2026 contest is open. Search Request Manifest generated — needs user to execute external searches and save results. | When open | 0.5 + writing | ⚠️ Awaiting external search |
+| 6 | **SBIR Phase I** (P9) — Federal grant. User confirms entities exist (Empowering Change 501c3, Data For Good LLC) but US legal/tax/corporate work is NOT a current priority. Deferred unless situation changes. | Deferred | — | ⚠️ DEFERRED |
+| 7 | **FQXi Essay Contest** (P29) — No 2026 contest currently open. Most recent ("How Quantum is Life?") concluded Jan 2026. Search results saved to `strategy/src_fqxi_2026.md`. Monitor fqxi.org — next contest likely announced June 2026. | Monitor | — | ⚠️ No contest open |
 
 ### Reference Library (Not Action Items)
 
