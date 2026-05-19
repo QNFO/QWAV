@@ -133,3 +133,15 @@ No cold outreach. No groveling. Publish. Let the work speak.
 | [Ultrametric Quantum Computing Foundations.md](Ultrametric%20Quantum%20Computing%20Foundations.md) | Credential document — 14 references, 5 pre-registered predictions |
 
 **Last updated:** 2026-05-18 | **GitHub:** [QNFO/QWAV](https://github.com/QNFO/QWAV)
+
+---
+
+## Directory Structure
+
+| Directory | Contents | Status |
+|:----------|:---------|:-------|
+| `strategy/` | 20 versioned strategy docs (0.1–0.9), reference materials (pitch deck, QA, IP plan) | Active |
+| `people/` | Resume (PDF + MD) | Maintained |
+| `applications/` | Emergent Ventures, Foresight Institute submissions | Archived |
+| `briefings/` | P11 collaborator materials (formal verification — terminated) | Archived |
+| `site/` | 14 files — Plain-text paper exports for QNFO.org render pipeline. Site building materials. Not actively developed — archive-only. | Static |
