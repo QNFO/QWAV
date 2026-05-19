@@ -33,7 +33,7 @@ No cold outreach. No groveling. Publish. Let the work speak.
 | # | Action | Status |
 |:--|:-------|:-------|
 | 1 | Post LinkedIn + Substack | 🟡 Ready |
-| 2 | Monitor Buffer (3 posts queued) | 🔄 Live |
+| **Monitor Buffer** | Posts live: 48x scatter thread on Mastodon (1 boost), Bluesky, Twitter/X. P27 synthesis scheduled May 19. Zero errors. |
 | 3 | Cophenetic DOI cross-ref | ✅ DONE |
 | 4 | Q-PNA / AI specification | 🔄 In Progress |
 | 5 | SBIR Phase I | ⚠️ Blocked |
