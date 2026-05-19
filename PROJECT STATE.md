@@ -36,6 +36,24 @@ These are for reference when needed — not to-do items:
 
 ---
 
+### Spinoff Projects
+
+These are QWAV-defined projects delegated to the Projects agent (`G:\My Drive\projects\`). QWAV defines WHAT; Projects executes HOW. Monitor releases directory for outputs.
+
+| Project | Directory | Status | Phase | Last Deliverable | Next Milestone |
+|:--------|:----------|:-------|:------|:-----------------|:---------------|
+| **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🔄 Active | P2 — Computational Validation | v2.0 Research Specification (52 KB) in `Obsidian/releases/2026/05/` | Task A: Tree-walk training PoC on synthetic data |
+
+**Spinoff lifecycle:**
+1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol
+2. QWAV scaffolds project directory → `G:\My Drive\projects\<name>\` with 7 mandatory docs + initial SPRINT.md
+3. Projects agent executes → independent `.git/`, own feature branches
+4. Deliverables land in `Obsidian/releases/` (read-only shared space)
+5. QWAV monitors → updates PROJECT STATE.md, SPRINT.md, BACKLOG.md when deliverables appear
+6. On completion: QWAV marks spinoff DONE in BACKLOG; project may continue independently or archive
+
+---
+
 ## 1. PROJECT IDENTITY
 
 **QWAV — Ultrametric Quantum Computing & AI.** Replace Archimedean (continuous) geometry with $p$-adic ultrametric (tree-based) geometry to achieve:
