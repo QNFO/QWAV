@@ -4,6 +4,29 @@
 
 ---
 
+## [v2.31] — 2026-05-19 — Portfolio Boundary Audit: Domain Column, Spinoff Registry, Site Docs
+
+**What Changed:** 3 commits on `feature/action-plan-execution`. Full portfolio boundary audit executed per user request. Six recommended actions completed.
+
+**Completed:**
+- ✅ **P0: Domain column added to BACKLOG.md** — All 40 P-items classified as 🟠 QWAV (39 items), 🟣 SPINOFF (1 item: P6). Domain key legend added to header. P6 status inconsistency fixed (was "NOT STARTED" → now "DONE — v2.0 in releases").
+- ✅ **P0: Spinoff Projects section added to PROJECT STATE.md** — Q-PNA registry table (directory, status, phase, deliverables, next milestone). Spinoff lifecycle protocol documented (6 steps: handoff → scaffold → execute → releases → monitor → close).
+- ✅ **P1: L20 prompt remediation verified** — DEFAULT.md §0.9 "PROJECTS AGENT ROLE: Independent Project Executor" confirmed present with symmetric What You DO/Do NOT Do + Handoff Protocol. No further action needed.
+- ✅ **P2: Directory Structure section added to README.md** — All subdirectories documented (strategy, people, applications, briefings, site). `site/` clarified as archive-only static paper exports.
+- ✅ **P3: Spinoff return protocol** — Covered by lifecycle in PROJECT STATE.md. QWAV monitors releases directory for spinoff outputs.
+- ✅ **L21 added to LEARNINGS.md** — Portfolio boundary clarity lesson with decision tree and cross-project transfer recommendation.
+
+**Files Changed:**
+- `BACKLOG.md` — EDIT: +Domain column, domain key legend, P6 status fix
+- `PROJECT STATE.md` — EDIT: +Spinoff Projects section with lifecycle
+- `README.md` — EDIT: +Directory Structure section
+- `LEARNINGS.md` — EDIT: +L21 lesson
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `1bd8d21`, `1032afd`, `cbfc8c4` on `feature/action-plan-execution` | Clean worktree | All 7 mandatory docs verified present and non-empty.
+
+---
+
 ## [v2.24] — 2026-05-18 — Session Close-Out: ACTION PLAN #2, #4, #5 Done; L20 Boundary Lesson; P6 Handoff & Return
 
 **What Changed:** 11 commits on `feature/action-plan-execution`. Three ACTION PLAN items completed:
