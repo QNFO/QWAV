@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-18 | **Session:** Close-out — 30+ commits across 6 feature branches. QWAV repo fully refactored: all email outreach cancelled (inbound-only strategy), reference library clean (strategy/0.1-0.7), ACTION PLAN active (6 remaining items), PII audit complete, GitHub synced. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.30
+**Last updated:** 2026-05-18 | **Session:** L20 added (agent persona boundaries), strategy/0.10.md (prompt remediation). P6 Q-PNA complete (Projects thread delivered v2.0 to releases). Buffer engagement logged (48x scatter thread: 1 Mastodon boost). — 30+ commits across 6 feature branches. QWAV repo fully refactored: all email outreach cancelled (inbound-only strategy), reference library clean (strategy/0.1-0.7), ACTION PLAN active (6 remaining items), PII audit complete, GitHub synced. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.30
 
 ---
 

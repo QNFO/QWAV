@@ -2,7 +2,7 @@
 
 > **Purpose:** Project-specific lessons discovered during execution. Machine-readable format for kaizen (continuous improvement). Read this before starting new work to avoid repeating mistakes.
 
-**Last updated:** 2026-05-14 | **Status:** L10 added — competitive positioning disguised as collaboration
+**Last updated:** 2026-05-18 | **Status:** L20 added — agent persona boundaries (QWAV Program Manager vs. Projects Executor). Prompt remediation drafted in `strategy/0.10.md`.
 
 ---
 
@@ -151,6 +151,13 @@
 - **Solution:** Before executing ANY backlog task, classify it as: (a) **Technical** (simulation, writing, analysis, code) — safe for autonomous execution, or (b) **Legal/financial/jurisdictional** (entity formation, grant eligibility, tax, contracts, incorporation) — MUST ask the user to verify assumptions before proceeding. Ask: "What entities already exist? What jurisdictions are relevant? What constraints do you already know about that aren't in the project files?"
 - **Prevention:** Add a pre-execution gate to the WHAT'S NEXT? PROCEED protocol: if the next task touches legal, financial, or jurisdictional decisions, PAUSE and query the user. Do not assume the project files contain complete information about externally-registered entities, tax status, or jurisdiction plans.
 - **Cross-Project:** YES — transfer to CROSS-PROJECT-LEARNINGS.md candidate.
+
+### L20: Agent persona boundaries — QWAV Program Manager vs. Projects Executor are different roles requiring different prompts
+- **Category:** METHODOLOGY
+- **Issue:** The QWAV agent (this thread) repeatedly crossed from portfolio-level strategy/direction into individual project execution — suggesting specific implementation details, micro-managing what a Projects thread should do rather than defining the handoff and trusting the Projects agent to execute. Root cause: the QWAV system prompt positions the agent as a generalist ("equally capable of creative ideation, rigorous research, structured writing") with no role-boundary language. The same underlying model is used for both QWAV and Projects threads, but the prompt doesn't enforce the structural distinction — QWAV = program manager (strategy, documentation, handoff, portfolio coordination), Projects = individual project executor (research, computation, implementation, deep work).
+- **Solution:** (1) Add explicit role definition to QWAV system prompt: "You are the QWAV Strategy Program Manager. Your scope: portfolio-level strategy, project documentation, cross-project coordination, handoff to Projects agent, Buffer monitoring, release management. You do NOT execute individual project tasks — you define them and delegate." (2) Add symmetric role definition to Projects system prompt: "You are a Projects Executor. Your scope: research, computation, code implementation, data analysis, deep domain work. You receive handoff instructions from QWAV and return completed work to Obsidian/releases." (3) Add a boundary-enforcement rule: when the QWAV agent starts to specify low-level implementation details, it should STOP and reformulate as a handoff instruction.
+- **Prevention:** See `strategy/0.10.md` — Prompt Remediation: Agent Role Boundaries — for the full diagnosis and draft prompt amendments. Every future session: QWAV agent reads its role definition first, confirms scope before acting. When a task crosses the boundary into Projects-executor territory, delegate, don't execute.
+- **Cross-Project:** YES — transfer to CROSS-PROJECT-LEARNINGS.md. Any multi-agent setup with different roles (manager vs. executor) needs explicit prompt-level role definitions.
 
 ## Archived Learnings
 
