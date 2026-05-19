@@ -14,7 +14,7 @@
 | 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | May 18 | 30 min | ✅ **DONE** |
 | 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. LIVE ENGAGEMENT: 48x scatter thread sent May 18 across all 3 platforms. Mastodon: 1 boost. Bluesky + Twitter: sent. P27 cross-domain synthesis thread scheduled May 19. When Proofs Deceive thread sent May 18. Symmetric Extension paper posted May 16. Zero errors. | This week | 15 min/day | Live |
 | 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
-| 5 | **Q-PNA / AI specification** (P6) — Specify training on ultrametric trees: loss function, backprop in discrete space, token calc. Least developed side. | Ongoing | 2-3 sessions | 🔄 In Progress (handoff to Projects thread — strategy/0.9.md) |
+| 5 | **Q-PNA / AI specification** (P6) — Specify training on ultrametric trees: loss function, backprop in discrete space, token calc. Least developed side. | Ongoing | 2-3 sessions | 🔄 ✅ **DONE** — v2.0 Research Specification published by Projects thread. `Obsidian/releases/2026/05/Q-PNA Research Specification v2.0.md` (52 KB, 12 sections). |
 | 6 | **SBIR Phase I** (P9) — Federal grant. Requires entity info (Empowering Change, Data For Good LLC, Netherlands plans). Blocked until you provide. | Rolling | 2-3 sessions | ⚠️ Blocked |
 | 7 | **FQXi Essay Contest** (P29) — Check if 2026 contest is open. "Continuous manifold is wrong assumption" is their kind of thesis. | When open | 0.5 + writing | ⚠️ Needs check |
 
