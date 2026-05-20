@@ -42,7 +42,9 @@ These are QWAV-defined projects delegated to the Projects agent (`G:\My Drive\pr
 
 | Project | Directory | Status | Phase | Last Deliverable | Next Milestone |
 |:--------|:----------|:-------|:------|:-----------------|:---------------|
-| **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🟣 Done | P5 — Close-Out | v2.0 Research Specification (52 KB) published. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. 12 experiments validated. Archived to `Archive\projects\Q-PNA Research Specification v2.0\`. | Project complete — specification published, code open-sourced, social scheduled |
+| **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🟣 Done | P5 — Close-Out | v2.0 Research Specification (52 KB) published. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. Archived. | Complete |
+| **Hierarchy as Ultrametricity** | `G:\My Drive\projects\Hierarchy as Ultrametricity\` | 🔄 Active | P2 — Execution | Research synthesis: hierarchy ≡ ultrametricity. Formal proof + cross-field catalog + cophenetic integration. 10 tasks in SPRINT.md. | Publication-ready document at `Obsidian/releases/2026/05/` |
+| **Ultrametric Game of Life** | `G:\My Drive\projects\ultrametric-game-of-life\` | 🔄 Active | P2 — Execution | Computational simulation: Conway's Game of Life on Bruhat-Tits tree topology. 9 tasks in SPRINT.md. | Working Python simulation with visualization and Euclidean baseline comparison |
 
 **Spinoff lifecycle:**
 1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol
