@@ -4,6 +4,19 @@
 
 ---
 
+## [v2.35] — 2026-05-19 — P12 Decided: High-Temp Filing — DO NOT FILE
+
+**What Changed:** Reviewed existing cost-benefit analysis for High-Temperature Topological Chiral provisional patent ($325). Decision confirmed from prior analysis.
+
+**Completed:**
+- ✅ **P12 — IP Filing Decision:** DO NOT FILE. Conditions not met: $0 funding, no 12-month conversion plan, all past provisionals expired (18 filings, 0 conversions, ~$6,000 wasted). EV analysis confirms negative expected value (-$453 to +$59). Conversion probability ~5%, licensing probability ~0.26%. Reconsider only if funding arrives or a specific IP threat requires priority-date hedge.
+
+**Files Changed:**
+- `BACKLOG.md` — EDIT: P12 status → DECIDED: DO NOT FILE with rationale
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/action-plan-execution`
+
 ## [v2.34] — 2026-05-19 — Q-PNA Handoff Received; Full Completion
 
 **What Changed:** Projects agent returned comprehensive handoff for Q-PNA / AI specification. All deliverables verified. Documentation updated.
