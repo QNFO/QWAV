@@ -54,7 +54,7 @@
 | **P42** 🟡 | **Investigate Heydeman et al. (2018) holographic QEC** | 🟠 QWAV | ✅ DONE — `strategy/0.5.2.md` + `0.6.md` Section 3. Supporting prior art: Bruhat-Tits QEC codes exist. Positioned with generalized framing. | 1 | Access to arXiv | ✅ ANALYZED (2026-05-18) |
 | **P43** 🟡 | **Investigate Boettcher (2020) quantum ultra-walk** | 🟠 QWAV | ✅ DONE — `strategy/0.5.2.md` + `0.6.md` Section 3. 5 reconciliation hypotheses. Generalized framing adds escape: Bruhat-Tits is one tree; ultrametric class may behave differently. | 1 | Access to PRR | ✅ ANALYZED (2026-05-18) |
 | **P44** | **Ultrametric Game of Life** | 🟣 SPINOFF | Computational simulation: Conway's Game of Life on Bruhat-Tits tree topology. Ternary ($p=3$) grid. Determine whether ultrametric geometry produces qualitatively different emergent behavior than Euclidean grids. 9 tasks. | 1-2 | None | 🔄 Handoff ready — `G:\My Drive\projects\ultrametric-game-of-life\` |
-**Priority key:** 🔴 CRITICAL (immediately actionable, high leverage) | 🟠 HIGH | 🟡 MEDIUM | 🟢 LOW
+| **P49** 🟣 | **Hierarchy as Ultrametricity** | 🟣 SPINOFF | Research synthesis: hierarchy IS ultrametricity — they are the same mathematical structure. Formal proof + cross-field catalog (6+ disciplines) + cophenetic integration (triadic rigidity). Standalone publication. 10 tasks. | 2-3 | None | 🔄 Handoff ready — `G:\My Drive\projects\Hierarchy as Ultrametricity\` |
 
 **Recommended execution order:** P31 → P33 → P32 → P36 → P38 → P34 → P37 → P35 → P39 → P40
 
