@@ -14,7 +14,7 @@
 | 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | May 18 | 30 min | ✅ **DONE** |
 | 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. P27 cross-domain synthesis fired May 19. Force-Multiplier campaign queued Jun 4-11. 9 posts scheduled, 0 errors. Queue healthy through mid-June. | This week | 15 min/day | 🟢 Live |
 | 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
-| 5 | **Q-PNA / AI specification** (P6) — v2.0 Research Specification published by Projects thread. Now in P2 (Computational Validation) under Projects agent. Monitor releases for outputs. | Ongoing | — | 🔄 ✅ **DONE** |
+| 5 | **Q-PNA / AI specification** (P6) — v2.0 Research Specification published by Projects thread. Handoff complete: 12 experiments validated, Zenodo DOI `10.5281/zenodo.20287742`, GitHub `QNFO/Q-PNA`, Buffer posts May 20, project archived. **Full completion — specification published, validated, open-sourced.** | May 19 | — | 🟣 ✅ **DONE — Full completion** |
 | 6 | **SBIR Phase I** (P9) — Federal grant. User confirms entities exist (Empowering Change 501c3, Data For Good LLC) but US legal/tax/corporate work is NOT a current priority. Deferred unless situation changes. | Deferred | — | ⚠️ DEFERRED |
 | 7 | **FQXi Essay Contest** (P29) — No 2026 contest currently open. Most recent ("How Quantum is Life?") concluded Jan 2026. Search results saved to `strategy/src_fqxi_2026.md`. Monitor fqxi.org — next contest likely announced June 2026. | Monitor | — | ⚠️ No contest open |
 
@@ -42,7 +42,7 @@ These are QWAV-defined projects delegated to the Projects agent (`G:\My Drive\pr
 
 | Project | Directory | Status | Phase | Last Deliverable | Next Milestone |
 |:--------|:----------|:-------|:------|:-----------------|:---------------|
-| **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🔄 Active | P2 — Computational Validation | v2.0 Research Specification (52 KB) in `Obsidian/releases/2026/05/` | Task A: Tree-walk training PoC on synthetic data |
+| **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🟣 Done | P5 — Close-Out | v2.0 Research Specification (52 KB) published. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. 12 experiments validated. Archived to `Archive\projects\Q-PNA Research Specification v2.0\`. | Project complete — specification published, code open-sourced, social scheduled |
 
 **Spinoff lifecycle:**
 1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol
