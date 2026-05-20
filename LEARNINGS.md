@@ -175,6 +175,13 @@
 - **Cross-Project:** YES — any multi-agent setup with handoff/return protocols needs immediate documentation sync on handoff receipt.
 
 
+### L23: Papers aren't read. Interactive artifacts engage. — Multi-channel distribution is the only path out of obscurity.
+- **Category:** METHODOLOGY
+- **Issue:** Analytics across all 5 QWAV Zenodo publications confirm near-zero readership. The paper-first distribution model — publish, post to social, hope someone reads — has produced zero measurable engagement beyond the program's own activity. The theory of change audit (strategy/1.0.md §3) identified the reading link as the weakest in the chain — and this is no longer a hypothesis, it's a confirmed measurement. Publishing papers that nobody reads is demoralizing and strategically inert.
+- **Solution:** Shift to an interactive-first, multi-channel distribution strategy. Every spinoff must produce an interactive public artifact — a GitHub Pages site, a working simulation, a visualization, a web tool — that a reader can engage with in 30 seconds rather than a paper that takes 30 minutes. The interactive artifact IS the engagement mechanism. The formal Zenodo DOI provides archival permanence, citability, and long-term discoverability for researchers who find the work years later via search — but it is NOT the primary engagement channel. Social media posts link to the interactive artifact, not to the paper. This is documented as D13 (DECISIONS.md) and integrated into the forward strategy (strategy/1.0.md §3.4, §8.2).
+- **Prevention:** Before initiating any new spinoff, ask: "What is the interactive artifact? What can someone play with, click on, or watch in 30 seconds?" If the answer is "a paper," redesign. The paper is the archival backstop, not the primary output. Every project needs both: an interactive artifact for engagement, a DOI for posterity. Neither replaces the other.
+- **Cross-Project:** YES — any open-access research program facing the "nobody reads papers" problem.
+
 ## Archived Learnings
 
 *None yet — all learnings above are still active and applicable.*

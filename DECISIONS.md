@@ -1,3 +1,9 @@
+### D13: Interactive-first, multi-channel distribution — every spinoff must produce an interactive public artifact
+- **Date:** 2026-05-20
+- **Decision:** Every spinoff project must produce an interactive public artifact (GitHub Pages, simulation, visualization, web tool) as its primary output. Formal documentation (papers, Zenodo DOIs) is supplementary — essential for archival permanence and citability, but not the primary engagement channel. Social media links to the artifact, not the paper.
+- **Rationale:** Analytics confirm near-zero Zenodo readership across all 5 QWAV publications. The theory of change identifies the reading link as broken by evidence, not hypothesis. Interactive artifacts lower the engagement barrier from hours to seconds. The DOI provides posterity; the artifact provides engagement. Neither replaces the other.
+- **Alternatives considered:** Paper-only distribution (rejected: proven failure mode). Social-only (rejected: no permanence). Interactive-only without DOI (rejected: loses citability and long-term discoverability).
+- **Reversible?** No — this is a structural correction to a proven failure mode. The interactive artifact requirement is permanent for all future spinoffs.
 
 ### D12: No external dependencies — single-thread completable only
 - **Date:** 2026-05-20

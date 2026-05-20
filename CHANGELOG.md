@@ -4,6 +4,28 @@
 
 ---
 
+## [v2.42] — 2026-05-20 — Strategic Evolution: Multi-Channel Distribution with Interactive-First Posture
+
+**What Changed:** Analytics confirm paper-first distribution model has failed (near-zero Zenodo readership). Program shifts to interactive-first, multi-channel distribution per new D13 constraint.
+
+**Completed:**
+- ✅ **L23 added to LEARNINGS.md** — "Papers aren't read. Interactive artifacts engage." The theory of change's weakest link (reading) is broken by evidence, not hypothesis.
+- ✅ **D13 added to DECISIONS.md** — Every spinoff MUST produce an interactive public artifact (GitHub Pages, simulation, visualization, web tool) as primary output. Formal documentation (DOI) is supplementary/archival — engagement vs. posterity.
+- ✅ **strategy/1.0.md §3.3-3.4 updated** — Theory of change revised. Interactive bridge replaces paper-as-primary. Reading link marked as BROKEN by evidence.
+- ✅ **strategy/1.0.md §8.2 updated** — New distribution posture: multi-channel table with artifact for engagement, DOI for posterity, social media as link surface.
+- ✅ **Ultrametric Game of Life SPRINT.md updated** — Prioritized interactive web app (GitHub Pages) as primary output per D13.
+
+**Preliminary Finding — Hierarchy as Ultrametricity Spinoff:**
+The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced an early result: "The geometry of possibility space itself channels diversity into uniformity" now has computational validation. Upward-monotonic dynamics in ultrametric spaces make convergence inevitable — no conspiracy, no pre-established harmony required. This provides a mechanism for the convergence-consilience thesis: if ultrametric spaces make convergence inevitable, then nature's repeated convergence on similar forms and knowledge's convergence on shared truths are mathematical consequences of geometry, not mysteries. L24 candidate — to be captured when formal output is published.
+
+**Files Changed:**
+- `LEARNINGS.md` — EDIT: +L23 lesson
+- `DECISIONS.md` — EDIT: +D13 constraint
+- `strategy/1.0.md` — EDIT: §3.3, §3.4, §8.2
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `main`
+
 ## [v2.35] — 2026-05-19 — P12 Decided: High-Temp Filing — DO NOT FILE
 
 **What Changed:** Reviewed existing cost-benefit analysis for High-Temperature Topological Chiral provisional patent ($325). Decision confirmed from prior analysis.
