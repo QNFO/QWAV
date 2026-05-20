@@ -38,7 +38,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 10 | QWAV independent repo initialized | Extracted from DeepChat workspace. `main` branch, 27 files, clean commit. Ready for GitHub. | 2026-05-11 |
 | 11 | D12 constraint established | No external dependencies. Every task completable in a single LLM thread. | 2026-05-20 |
 | 12 | arXiv/Zenodo paper PUBLISHED (P4) | "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits." Published on Zenodo (DOI: 10.5281/zenodo.20134944). Repo: github.com/QNFO/ultrametric-error-confinement. Commit: a902ddf. | 2026-05-12 |
-| 13 | Mathematical foundations written (P5) | Formal definitions, 4 theorems, lemma chain, Lean formalization priority table. Bridge between Tier 0 and formal verification (P11). | 2026-05-11 |
+| 13 | Mathematical foundations written (P5) | Formal definitions, 4 theorems, lemma chain. Bridge between Tier 0 computational validation and theoretical framework. | 2026-05-11 |
 | 14 | IP portfolio audit + reorganization | Full inventory (1,194 files, 25 packages). 770 dead files archived to `G:\My Drive\Archive\Patents\`. Patents directory cleaned (6 categories). 55 deleted files recovered via git. | 2026-05-11 |
 | 15 | IP relevance analysis vs. QWAV thesis | 25 packages cross-referenced against ultrametric/p-adic framework. 1 exact match (High-Temp Chiral), 2 partial, 22 dead. | 2026-05-11 |
 | 16 | Cost-benefit analysis for new filings | Quantitative EV model. Expected net value negative in all scenarios. Recommendation: file ONE or ZERO. | 2026-05-11 |
