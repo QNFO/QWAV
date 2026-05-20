@@ -2,7 +2,7 @@
 
 > **Purpose:** Program-level lessons discovered during execution. Machine-readable format for kaizen (continuous improvement). Read this before starting new work to avoid repeating mistakes.
 
-**Last updated:** 2026-05-20 | **Status:** L1-L22 active. L18 archived (CLOSED). L20-L21 cross-project lessons transferred.
+**Last updated:** 2026-05-20 | **Status:** L1-L22 active. L18 archived (CLOSED). L23 (interactive-first, papers aren't read) specified in session handoff prompt — to be applied next session. L20-L21 cross-project lessons transferred. ⚠️ NEXT SESSION: restore DECISIONS.md and apply 4 documentation changes from session prompt.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-20 | **Session:** Portfolio boundary audit complete. Domain column deployed. Spinoff registry established. Q-PNA and Convergence Consilience published. SBIR deferred. FQXi monitoring. D12 constraint added (no external dependencies). All ACTION PLAN items resolved. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.40
+**Last updated:** 2026-05-20 | **Session:** CLOSE-OUT. Portfolio boundary audit complete. Domain column deployed. Spinoff registry established. Q-PNA and Convergence Consilience published. SBIR deferred. FQXi monitoring. D12 constraint added. Two new spinoffs scaffolded (Hierarchy as Ultrametricity, Ultrametric Game of Life). Forward strategy published (strategy/1.0.md). Strategic evolution specified: interactive-first multi-channel distribution (D13, L23). README rewritten as public-facing. All 7 ACTION PLAN items resolved. 26 commits on main. ⚠️ NEXT SESSION: restore DECISIONS.md (git checkout HEAD~1) and apply 4 documentation changes from session prompt. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.43
 
 ---
 
@@ -12,11 +12,14 @@
 |:--|:-------|:---------|:-----|:-------|
 | 1 | ~~VSD case study~~ — ❌ CANCELLED. | — | — | ❌ |
 | 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | May 18 | 30 min | ✅ **DONE** |
-| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. QWAV content distributed across all platforms. Queue autonomous. | Ongoing | As needed | 🟢 Live |
+| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. QWAV content distributed across all platforms. Queue autonomous. Buffer monitoring complete for this session — Q-PNA campaign fired successfully (May 20), P27 synthesis fired (May 19). Force-Multiplier campaign autonomous through Jun 11. No errors. | Ongoing | As needed | 🟢 Live |
 | 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
 | 5 | **Q-PNA / AI specification** (P6) — v2.0 Research Specification published. 12 experiments validated. Zenodo DOI `10.5281/zenodo.20287742`. GitHub `QNFO/Q-PNA`. Archived. | May 19 | — | 🟣 ✅ **DONE** |
 | 6 | **SBIR Phase I** (P9) — Federal grant. Entities confirmed (Empowering Change 501c3, Data For Good LLC). Deferred — US legal/tax not a current priority. | Deferred | — | ⚠️ DEFERRED |
 | 7 | **FQXi Essay Contest** (P29) — No 2026 contest open. Results saved to `strategy/src_fqxi_2026.md`. Monitor fqxi.org. | Monitor | — | ⚠️ Monitoring |
+| 8 | **New Spinoffs** (P49, P50) — Hierarchy as Ultrametricity (10 tasks, research synthesis) and Ultrametric Game of Life (9 tasks, computational simulation) scaffolded. Both on `feature/initial-setup` in independent repos. Awaiting Projects agent assignment. | May 20 | — | 🔄 Handoff ready |
+| 9 | **Forward Strategy** — `strategy/1.0.md` published. Comprehensive 10-section strategy synthesizing all prior work. | May 20 | — | ✅ **DONE** |
+| 10 | **Session Close-Out** — All documentation updated. 26 commits pushed to GitHub. Repo clean on `main`. | May 20 | — | ✅ **DONE** |
 
 ### Reference Library (Not Action Items)
 
