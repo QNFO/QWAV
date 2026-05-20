@@ -4,6 +4,114 @@
 
 ---
 
+## [v2.35] — 2026-05-19 — P12 Decided: High-Temp Filing — DO NOT FILE
+
+**What Changed:** Reviewed existing cost-benefit analysis for High-Temperature Topological Chiral provisional patent ($325). Decision confirmed from prior analysis.
+
+**Completed:**
+- ✅ **P12 — IP Filing Decision:** DO NOT FILE. Conditions not met: $0 funding, no 12-month conversion plan, all past provisionals expired (18 filings, 0 conversions, ~$6,000 wasted). EV analysis confirms negative expected value (-$453 to +$59). Conversion probability ~5%, licensing probability ~0.26%. Reconsider only if funding arrives or a specific IP threat requires priority-date hedge.
+
+**Files Changed:**
+- `BACKLOG.md` — EDIT: P12 status → DECIDED: DO NOT FILE with rationale
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/action-plan-execution`
+
+## [v2.34] — 2026-05-19 — Q-PNA Handoff Received; Full Completion
+
+**What Changed:** Projects agent returned comprehensive handoff for Q-PNA / AI specification. All deliverables verified. Documentation updated.
+
+**Completed:**
+- ✅ **ACTION #5 — Q-PNA full completion:** Projects agent delivered v2.0 Research Specification with 12 computational experiments, STC verification (100% detection), transformer benchmark (LinMap wins 6.6×), differentiable tree validation. Zenodo DOI `10.5281/zenodo.20287742` registered. GitHub `QNFO/Q-PNA` live (35 commits). Buffer posts scheduled May 20. Project archived to `Archive\projects\Q-PNA Research Specification v2.0\`.
+- ✅ **Release file verified:** `Obsidian/releases/2026/05/Q-PNA Research Specification v2.0.md` (52 KB) confirmed on disk.
+- ✅ **Key findings from Projects agent:** (1) Archive contains more prior work than handoffs list — search broadly. (2) Bruhat-Tits vs cophenetic = false dichotomy — same structure, different angle. (3) Computational evidence must precede specification — tree-walk optimization doesn't converge; linear mapping does. (4) LinMap + cophenetic loss works (20.4% test acc, beats 6.6× transformer). (5) D=4 (256 leaves) optimal. What doesn't work documented honestly (tree-walk, temperature annealing, sparse backprop, ultrametric attention preprocessing).
+- ✅ **L22 added to LEARNINGS.md** — Handoff return protocol lesson (5 steps: verify → update docs → capture lessons → commit → next).
+
+**Files Changed:**
+- `PROJECT STATE.md` — EDIT: ACTION #5 → DONE (full completion), spinoff registry updated
+- `SPRINT.md` — EDIT: P6 status with DOI + GitHub refs
+- `LEARNINGS.md` — EDIT: +L22 lesson
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/action-plan-execution`
+
+## [v2.33] — 2026-05-19 — SBIR Deferred by User; FQXi Search Complete (No Contest Open)
+
+**What Changed:** User provided entity information and FQXi external search results.
+
+**Resolved:**
+- ✅ **ACTION #6 — SBIR Phase I:** User confirms entities exist (Empowering Change 501c3, Data For Good LLC) but US legal/tax/corporate work is NOT a current priority. SBIR DEFERRED unless situation changes.
+- ✅ **ACTION #7 — FQXi Essay Contest:** External search complete. No 2026 contest currently open. Most recent ("How Quantum is Life?") concluded January 2026. Pattern suggests next contest announced ~June 2026. Results saved to `strategy/src_fqxi_2026.md`. Monitor fqxi.org.
+
+**Files Changed:**
+- `strategy/src_fqxi_2026.md` — NEW: FQXi search results with contest details, official URLs, pattern analysis
+- `PROJECT STATE.md` — EDIT: Session header, ACTION PLAN #6 → DEFERRED, #7 → No contest open
+- `SPRINT.md` — EDIT: Current state header with ACTION PLAN status
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/action-plan-execution`
+
+## [v2.32] — 2026-05-19 — Buffer Monitoring: Queue Healthy; FQXi Manifest Generated
+
+**What Changed:** Buffer queue monitored across all 3 platforms. FQXi essay contest assessed — requires external search.
+
+**Completed:**
+- ✅ **ACTION #3 — Monitor Buffer:** Queue healthy. 9 posts scheduled (May 19 - Jun 11). P27 Cross-Domain Synthesis firing today (Bluesky 18:40 UTC, Mastodon 22:58 UTC). Force-Multiplier campaign queued Jun 4-11. 3 recent campaigns sent successfully (48× scatter, When Proofs Deceive, Symmetric Extension). Zero errors.
+- ✅ **ACTION #7 — FQXi assessed:** No contest data in filesystem. Search Request Manifest generated. User must execute external searches and save results to `strategy/src_fqxi_2026.md`.
+
+**Pending / Blocked:**
+- ⚠️ **ACTION #6 — SBIR Phase I:** Blocked per L19 (legal/financial gate — requires user entity info).
+- ⚠️ **ACTION #7 — FQXi:** Awaiting external search results.
+
+**Files Changed:**
+- `PROJECT STATE.md` — EDIT: Session header, ACTION PLAN status rows for #3, #5, #6, #7
+- `SPRINT.md` — EDIT: Current state header, Buffer status
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/action-plan-execution`
+
+---
+
+## [v2.31] — 2026-05-19 — Portfolio Boundary Audit: Domain Column, Spinoff Registry, Site Docs
+
+**What Changed:** 3 commits on `feature/action-plan-execution`. Full portfolio boundary audit executed per user request. Six recommended actions completed.
+
+**Completed:**
+- ✅ **P0: Domain column added to BACKLOG.md** — All 40 P-items classified as 🟠 QWAV (39 items), 🟣 SPINOFF (1 item: P6). Domain key legend added to header. P6 status inconsistency fixed (was "NOT STARTED" → now "DONE — v2.0 in releases").
+- ✅ **P0: Spinoff Projects section added to PROJECT STATE.md** — Q-PNA registry table (directory, status, phase, deliverables, next milestone). Spinoff lifecycle protocol documented (6 steps: handoff → scaffold → execute → releases → monitor → close).
+- ✅ **P1: L20 prompt remediation verified** — DEFAULT.md §0.9 "PROJECTS AGENT ROLE: Independent Project Executor" confirmed present with symmetric What You DO/Do NOT Do + Handoff Protocol. No further action needed.
+- ✅ **P2: Directory Structure section added to README.md** — All subdirectories documented (strategy, people, applications, briefings, site). `site/` clarified as archive-only static paper exports.
+- ✅ **P3: Spinoff return protocol** — Covered by lifecycle in PROJECT STATE.md. QWAV monitors releases directory for spinoff outputs.
+- ✅ **L21 added to LEARNINGS.md** — Portfolio boundary clarity lesson with decision tree and cross-project transfer recommendation.
+
+**Files Changed:**
+- `BACKLOG.md` — EDIT: +Domain column, domain key legend, P6 status fix
+- `PROJECT STATE.md` — EDIT: +Spinoff Projects section with lifecycle
+- `README.md` — EDIT: +Directory Structure section
+- `LEARNINGS.md` — EDIT: +L21 lesson
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `1bd8d21`, `1032afd`, `cbfc8c4` on `feature/action-plan-execution` | Clean worktree | All 7 mandatory docs verified present and non-empty.
+
+---
+
+## [v2.24] — 2026-05-18 — Session Close-Out: ACTION PLAN #2, #4, #5 Done; L20 Boundary Lesson; P6 Handoff & Return
+
+**What Changed:** 11 commits on `feature/action-plan-execution`. Three ACTION PLAN items completed:
+- **#2: LinkedIn + Substack posted** — Drafts reviewed, curly quotes fixed, footer tagline updated to "independent research alliance". Copy-paste delivered to user.
+- **#4: Cophenetic DOI cross-ref** — Already done earlier, confirmed.
+- **#5: Q-PNA / AI specification** — v0.1 spec created (`strategy/0.8.md`), handoff to Projects agent (`strategy/0.9.md`), Projects agent returned v2.0 Research Specification to `Obsidian/releases/2026/05/Q-PNA Research Specification v2.0.md` (52 KB, 12 sections). Marked DONE.
+
+**Buffer monitoring:** 48× scatter thread live on Mastodon (1 boost), Bluesky, Twitter/X. P27 synthesis thread scheduled. Zero errors.
+
+**Boundary lesson:** L20 added to LEARNINGS.md — agent persona boundaries discovered and documented. QWAV = Strategy Program Manager (initiate, coordinate, handoff). Projects = Independent Executor (research, computation, implementation). Prompt remediation identified as Prompts agent scope (removed from QWAV strategy docs).
+
+**Files Changed:** `LEARNINGS.md` (+L20), `SPRINT.md` (+P41 removed), `PROJECT STATE.md`, `README.md`, `strategy/0.4_linkedin.md` (footer), `strategy/0.4_substack.md` (curly quotes + footer), `strategy/0.8.md` (NEW — Q-PNA v0.1), `strategy/0.9.md` (NEW — P6 handoff), `strategy/0.10.md` (NEW then DELETED — prompt remediation → Prompts scope), `strategy/0.11.md` (NEW then DELETED — handoff → Prompts scope).
+
+**Git:** 11 commits on `feature/action-plan-execution` | Clean worktree | All 7 mandatory docs verified present and non-empty.
+
+---
+
 ## [v2.23] — 2026-05-18 — P34 Complete ($q$-Ary Scatter Talking Point)
 
 **What Changed:** P34 complete — $q$-ary scatter talking point written as `strategy/0.4.md` (5.5 KB, ~500 words). Accessible "wow" result for non-specialists: 48× LER reduction at zero qubit cost using existing hyperfine levels.

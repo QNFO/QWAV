@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-18 | **Session:** Close-out — 30+ commits across 6 feature branches. QWAV repo fully refactored: all email outreach cancelled (inbound-only strategy), reference library clean (strategy/0.1-0.7), ACTION PLAN active (6 remaining items), PII audit complete, GitHub synced. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.30
+**Last updated:** 2026-05-19 | **Session:** User provided SBIR entity info (Empowering Change 501c3 / Data For Good LLC exist; US legal/tax not a current priority → SBIR DEFERRED). FQXi search results received — no 2026 contest open (saved to `strategy/src_fqxi_2026.md`). Monitor fqxi.org for next announcement (~June 2026). | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.33
 
 ---
 
@@ -11,12 +11,12 @@
 | # | Action | Deadline | Time | Status |
 |:--|:-------|:---------|:-----|:-------|
 | 1 | ~~VSD case study~~ — ❌ CANCELLED. | — | — | ❌ |
-| 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | This week | 30 min | 🟡 Ready |
-| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. Check engagement, reply if anyone asks substantive questions. | This week | 15 min/day | 🔄 Live |
+| 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | May 18 | 30 min | ✅ **DONE** |
+| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. P27 cross-domain synthesis fired May 19. Force-Multiplier campaign queued Jun 4-11. 9 posts scheduled, 0 errors. Queue healthy through mid-June. | This week | 15 min/day | 🟢 Live |
 | 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
-| 5 | **Q-PNA / AI specification** (P6) — Specify training on ultrametric trees: loss function, backprop in discrete space, token calc. Least developed side. | Ongoing | 2-3 sessions | 🟢 |
-| 6 | **SBIR Phase I** (P9) — Federal grant. Requires entity info (Empowering Change, Data For Good LLC, Netherlands plans). Blocked until you provide. | Rolling | 2-3 sessions | ⚠️ Blocked |
-| 7 | **FQXi Essay Contest** (P29) — Check if 2026 contest is open. "Continuous manifold is wrong assumption" is their kind of thesis. | When open | 0.5 + writing | ⚠️ Needs check |
+| 5 | **Q-PNA / AI specification** (P6) — v2.0 Research Specification published by Projects thread. Handoff complete: 12 experiments validated, Zenodo DOI `10.5281/zenodo.20287742`, GitHub `QNFO/Q-PNA`, Buffer posts May 20, project archived. **Full completion — specification published, validated, open-sourced.** | May 19 | — | 🟣 ✅ **DONE — Full completion** |
+| 6 | **SBIR Phase I** (P9) — Federal grant. User confirms entities exist (Empowering Change 501c3, Data For Good LLC) but US legal/tax/corporate work is NOT a current priority. Deferred unless situation changes. | Deferred | — | ⚠️ DEFERRED |
+| 7 | **FQXi Essay Contest** (P29) — No 2026 contest currently open. Most recent ("How Quantum is Life?") concluded Jan 2026. Search results saved to `strategy/src_fqxi_2026.md`. Monitor fqxi.org — next contest likely announced June 2026. | Monitor | — | ⚠️ No contest open |
 
 ### Reference Library (Not Action Items)
 
@@ -33,6 +33,24 @@ These are for reference when needed — not to-do items:
 | `strategy/0.5.2.md` | Must cite Heydeman/Boettcher in next paper revision |
 | `strategy/0.6.md` | Canonical statement of generalized thesis |
 | `strategy/0.7.md` | If anyone asks about physical fabrication |
+
+---
+
+### Spinoff Projects
+
+These are QWAV-defined projects delegated to the Projects agent (`G:\My Drive\projects\`). QWAV defines WHAT; Projects executes HOW. Monitor releases directory for outputs.
+
+| Project | Directory | Status | Phase | Last Deliverable | Next Milestone |
+|:--------|:----------|:-------|:------|:-----------------|:---------------|
+| **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🟣 Done | P5 — Close-Out | v2.0 Research Specification (52 KB) published. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. 12 experiments validated. Archived to `Archive\projects\Q-PNA Research Specification v2.0\`. | Project complete — specification published, code open-sourced, social scheduled |
+
+**Spinoff lifecycle:**
+1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol
+2. QWAV scaffolds project directory → `G:\My Drive\projects\<name>\` with 7 mandatory docs + initial SPRINT.md
+3. Projects agent executes → independent `.git/`, own feature branches
+4. Deliverables land in `Obsidian/releases/` (read-only shared space)
+5. QWAV monitors → updates PROJECT STATE.md, SPRINT.md, BACKLOG.md when deliverables appear
+6. On completion: QWAV marks spinoff DONE in BACKLOG; project may continue independently or archive
 
 ---
 

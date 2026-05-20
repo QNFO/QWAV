@@ -2,7 +2,7 @@
 
 > **Purpose:** Project-specific lessons discovered during execution. Machine-readable format for kaizen (continuous improvement). Read this before starting new work to avoid repeating mistakes.
 
-**Last updated:** 2026-05-14 | **Status:** L10 added — competitive positioning disguised as collaboration
+**Last updated:** 2026-05-19 | **Status:** L21 added — portfolio boundary audit (Backlog domain column, spinoff registry, site documentation). L20 prompt remediation verified complete.
 
 ---
 
@@ -151,6 +151,29 @@
 - **Solution:** Before executing ANY backlog task, classify it as: (a) **Technical** (simulation, writing, analysis, code) — safe for autonomous execution, or (b) **Legal/financial/jurisdictional** (entity formation, grant eligibility, tax, contracts, incorporation) — MUST ask the user to verify assumptions before proceeding. Ask: "What entities already exist? What jurisdictions are relevant? What constraints do you already know about that aren't in the project files?"
 - **Prevention:** Add a pre-execution gate to the WHAT'S NEXT? PROCEED protocol: if the next task touches legal, financial, or jurisdictional decisions, PAUSE and query the user. Do not assume the project files contain complete information about externally-registered entities, tax status, or jurisdiction plans.
 - **Cross-Project:** YES — transfer to CROSS-PROJECT-LEARNINGS.md candidate.
+
+### L20: Agent persona boundaries — QWAV Program Manager vs. Projects Executor are different roles requiring different prompts
+- **Category:** METHODOLOGY
+- **Issue:** The QWAV agent (this thread) repeatedly crossed from portfolio-level strategy/direction into individual project execution — suggesting specific implementation details, micro-managing what a Projects thread should do rather than defining the handoff and trusting the Projects agent to execute. Root cause: the QWAV system prompt positions the agent as a generalist ("equally capable of creative ideation, rigorous research, structured writing") with no role-boundary language. The same underlying model is used for both QWAV and Projects threads, but the prompt doesn't enforce the structural distinction — QWAV = program manager (strategy, documentation, handoff, portfolio coordination, project initiation), Projects = individual project executor (research, computation, implementation, deep work). **Critical nuance:** The QWAV agent MAY initiate new projects (create directory, scaffold 7 mandatory docs, write initial SPRINT.md + handoff) and MAY spin off project documentation — but the QWAV agent does NOT execute the project work itself. Project execution ALWAYS delegates to the Projects agent.
+- **Solution:** (1) Add explicit role definition to QWAV system prompt: "You are the QWAV Strategy Program Manager. Your scope: portfolio-level strategy, project documentation, cross-project coordination, handoff to Projects agent, Buffer monitoring, release management. You do NOT execute individual project tasks — you define them and delegate." (2) Add symmetric role definition to Projects system prompt: "You are a Projects Executor. Your scope: research, computation, code implementation, data analysis, deep domain work. You receive handoff instructions from QWAV and return completed work to Obsidian/releases." (3) Add a boundary-enforcement rule: when the QWAV agent starts to specify low-level implementation details, it should STOP and reformulate as a handoff instruction.
+- **Prevention:** See `strategy/0.10.md` — Prompt Remediation: Agent Role Boundaries — for the full diagnosis and draft prompt amendments. Every future session: QWAV agent reads its role definition first, confirms scope before acting. When a task crosses the boundary into Projects-executor territory, delegate, don't execute. **Initiation boundary:** Creating project scaffolding (directory + 7 docs) and writing handoff/SPRINT documents is QWAV scope. Writing code, running simulations, or producing computational results is Projects scope. When uncertain, ask: "Am I setting up work for someone else to do, or am I doing the work myself?" If the latter, delegate.
+- **Cross-Project:** YES — transfer to CROSS-PROJECT-LEARNINGS.md. Any multi-agent setup with different roles (manager vs. executor) needs explicit prompt-level role definitions.
+
+### L21: Portfolio boundary clarity requires explicit domain classification and spinoff tracking
+- **Category:** METHODOLOGY
+- **Issue:** The QWAV BACKLOG mixed portfolio-level tasks (strategy, documentation, grants, IP) with delegated project tasks (Q-PNA specification) without any domain label. This made it unclear which items were QWAV scope vs. delegated spinoffs vs. meta/ecosystem tasks (prompt engineering). The only active spinoff (Q-PNA) was tracked informally with no registry, return protocol, or status dashboard. Additionally, the `site/` subdirectory (14 files) had no documented purpose.
+- **Solution:** (1) Added a `Domain` column to BACKLOG.md with three values: 🟠 QWAV (core portfolio), 🟣 SPINOFF (delegated to Projects agent), 🟡 META (Prompts workspace). All 40 items classified. (2) Fixed P6 status inconsistency (was "NOT STARTED" in BACKLOG but DONE in SPRINT). (3) Added "Spinoff Projects" section to PROJECT STATE.md with Q-PNA registry and spinoff lifecycle protocol (handoff → scaffold → execute → releases → monitor → close). (4) Added "Directory Structure" section to README.md documenting all subdirectories including `site/` (archive-only static content). (5) Verified L20 prompt remediation already completed — both QWAV-DEFAULT.md (§0.9) and DEFAULT.md (§0.9) have symmetric role boundary language.
+- **Prevention:** Every backlog item should carry an explicit domain classification at creation time. New spinoff projects should be immediately registered in PROJECT STATE.md's Spinoff Projects table. The decision tree from the audit ("Does this belong in QWAV?") should be consulted before adding any new task.
+- **Cross-Project:** YES — any multi-project portfolio being managed by a Strategy Program Manager agent needs explicit domain classification and spinoff tracking.
+
+
+### L22: Handoff return protocol — verify release file, update docs, capture lessons, commit immediately
+- **Category:** METHODOLOGY
+- **Issue:** The Q-PNA spinoff (Projects agent) returned a comprehensive handoff with 5 critical lessons about Archive search breadth, computational-before-specification methodology, and the false dichotomy of Bruhat-Tits vs. cophenetic trees. These lessons needed to be captured immediately before context was lost, and the PROJECT STATE/SPRINT/CHANGELOG needed updating to reflect full completion.
+- **Solution:** (1) Verified release file existence at `Obsidian/releases/2026/05/` via PowerShell `Test-Path`. (2) Updated PROJECT STATE.md — ACTION #5 → DONE (full completion), spinoff registry updated with DOI, GitHub, and archive location. (3) Updated SPRINT.md — P6 status with handoff completion details. (4) Added CHANGELOG v2.34 entry. (5) Captured 5 Projects-agent lessons as L22. (6) Committed immediately on `feature/action-plan-execution`.
+- **Prevention:** When a spinoff project returns a handoff: (a) verify the release file exists on disk, (b) update all 3 documentation targets (PROJECT STATE, SPRINT, CHANGELOG) immediately, (c) extract cross-project lessons before context is lost, (d) update the spinoff registry table, (e) commit before the next task. Never defer handoff processing — the Projects agent's context window is gone the moment the handoff is delivered.
+- **Cross-Project:** YES — any multi-agent setup with handoff/return protocols needs immediate documentation sync on handoff receipt.
+
 
 ## Archived Learnings
 

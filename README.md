@@ -21,7 +21,7 @@ No cold outreach. No groveling. Publish. Let the work speak.
 | **Zenodo** | Primary — all papers published with DOIs |
 | **ResearchGate + QNFO.org** | Cross-posted from Zenodo |
 | **Buffer (social)** | Mastodon, Twitter/X, Bluesky — posts queued |
-| **LinkedIn + Substack** | Drafts ready in `strategy/` |
+| **LinkedIn + Substack** | ✅ POSTED in `strategy/` |
 | **Email** | ❌ CANCELLED — inbound-only. If someone reads the work and reaches out, evaluate case-by-case. |
 
 ---
@@ -33,9 +33,9 @@ No cold outreach. No groveling. Publish. Let the work speak.
 | # | Action | Status |
 |:--|:-------|:-------|
 | 1 | Post LinkedIn + Substack | 🟡 Ready |
-| 2 | Monitor Buffer (3 posts queued) | 🔄 Live |
+| **Monitor Buffer** | Posts live: 48x scatter thread on Mastodon (1 boost), Bluesky, Twitter/X. P27 synthesis scheduled May 19. Zero errors. |
 | 3 | Cophenetic DOI cross-ref | ✅ DONE |
-| 4 | Q-PNA / AI specification | 🟢 Next |
+| 4 | Q-PNA / AI specification | 🔄 ✅ DONE — v2.0 in releases |
 | 5 | SBIR Phase I | ⚠️ Blocked |
 | 6 | FQXi Essay Contest | ⚠️ Needs check |
 
@@ -133,3 +133,15 @@ No cold outreach. No groveling. Publish. Let the work speak.
 | [Ultrametric Quantum Computing Foundations.md](Ultrametric%20Quantum%20Computing%20Foundations.md) | Credential document — 14 references, 5 pre-registered predictions |
 
 **Last updated:** 2026-05-18 | **GitHub:** [QNFO/QWAV](https://github.com/QNFO/QWAV)
+
+---
+
+## Directory Structure
+
+| Directory | Contents | Status |
+|:----------|:---------|:-------|
+| `strategy/` | 20 versioned strategy docs (0.1–0.9), reference materials (pitch deck, QA, IP plan) | Active |
+| `people/` | Resume (PDF + MD) | Maintained |
+| `applications/` | Emergent Ventures, Foresight Institute submissions | Archived |
+| `briefings/` | P11 collaborator materials (formal verification — terminated) | Archived |
+| `site/` | 14 files — Plain-text paper exports for QNFO.org render pipeline. Site building materials. Not actively developed — archive-only. | Static |

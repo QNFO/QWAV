@@ -4,11 +4,13 @@
 
 ---
 
-## Current State (2026-05-12 — Post Patent Design)
+## Current State (2026-05-19 — SBIR Deferred, FQXi: No Contest Open)
 
 ### Strategy Summary (Read This First)
 
 QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum computing and AI. The core thesis: replacing Archimedean (continuous) geometry with ultrametric (tree-based) geometry enables passive fault tolerance in quantum computing and glass-box explainability in AI — solving two multi-billion-dollar problems with one mathematical correction.
+
+**ACTION PLAN status:** Buffer 🟢 Live (P27 fired May 19, Force-Multiplier Jun 4-11). SBIR ⚠️ DEFERRED (user confirms entities exist but US legal/tax not a current priority). FQXi ⚠️ No contest open (monitor fqxi.org — next likely June 2026).
 
 **Key Constraints (Non-Negotiable):**
 - **No physical lab access** — all experiments are computational simulations
@@ -70,7 +72,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | **P3** | **Foresight Institute application** | Written application focused on long-term impact. AI for Science & Safety track — glass-box AI as safety mechanism, decentralized science alignment. | 1 | Library complete | ✅ DONE (2026-05-11) |
 | **P4** | **arXiv/Zenodo paper** | Prepare the UQC architecture as a formal paper for open-access publication. Include Tier 0 simulation results if available. | 2–3 | P1 (ideally) | ✅ DONE (2026-05-11) |
 | **P5** | **Mathematical deepening** | Formal mathematical foundations for Lean 4 formalization. Theorem statements, proof sketches, lemma chain. Bridge between Tier 0 simulation and formal verification. | 2–3 | None | ✅ DONE (2026-05-11) |
-| **P6** | **Q-PNA / AI side** | Specify training mechanism on Bruhat-Tits trees (loss function, backpropagation in discrete space, token calculus verification). Currently the AI side is less developed than quantum. | 2–3 | None | NOT STARTED |
+| **P6** | **Q-PNA / AI side** | ~~Specify training mechanism on Bruhat-Tits trees (loss function, backpropagation in discrete space, token calculus verification).~~ Initial specification complete — strategy/0.8.md (23 KB, 10 sections). Covers cophenetic loss, tree-walk optimization, token calculus, glass-box verification, computational validation plan (Phases 0-3), and 7 open research questions. | 2-3 | None | 🔄 ✅ DONE — v2.0 Research Specification published to releases by Projects thread. `Obsidian/releases/2026/05/Q-PNA Research Specification v2.0.md` (52 KB, 783 lines, 12 sections). Covers Gauge Problem framing, Distinction Calculus, Cocycle Condition, convergence conditions, complexity analysis, architecture comparisons. Bruhat-Tits vs. cophenetic resolved: same mathematical structure. |
 | **P7** | **Patent timeline** | Research and document: filing dates, conversion status, jurisdictions, key claims, expiration timeline. Current docs say "provisional" without specifics. | 1 | Access to patent records | ✅ DONE (2026-05-12) — `strategy/0.2.md` |
 | **P8** | **Competitive landscape** | Research: who else works on p-adic/ultrametric quantum computing? If none, document why. If some, differentiate. | 1 | None | NOT STARTED |
 | **P11** | **P11 formal verification collaboration** | Lean 4 formal verification of ultrametric QEC threshold theorem. ⚠️ Competitive dynamic identified: collaborator's commercial positioning (software QEC verification) conflicts with QWAV thesis (hardware passive fault tolerance). Four technical objections each protect his business model. Collaboration unlikely unless next reply demonstrates genuine good-faith engagement. See L10. | 3-5 (ongoing) | Resolution of competitive dynamic | ⚠️ Under review — likely walk |
