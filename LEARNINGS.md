@@ -1,8 +1,8 @@
-# QWAV PROJECT LEARNINGS
+# QWAV PROGRAM LEARNINGS
 
-> **Purpose:** Project-specific lessons discovered during execution. Machine-readable format for kaizen (continuous improvement). Read this before starting new work to avoid repeating mistakes.
+> **Purpose:** Program-level lessons discovered during execution. Machine-readable format for kaizen (continuous improvement). Read this before starting new work to avoid repeating mistakes.
 
-**Last updated:** 2026-05-19 | **Status:** L21 added — portfolio boundary audit (Backlog domain column, spinoff registry, site documentation). L20 prompt remediation verified complete.
+**Last updated:** 2026-05-20 | **Status:** L1-L22 active. L18 archived (CLOSED). L20-L21 cross-project lessons transferred.
 
 ---
 

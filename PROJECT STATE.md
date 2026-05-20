@@ -1,8 +1,8 @@
-# QWAV — PROJECT STATE
+# QWAV — PROGRAM STATE
 
-**For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the project stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
+**For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-19 | **Session:** User provided SBIR entity info (Empowering Change 501c3 / Data For Good LLC exist; US legal/tax not a current priority → SBIR DEFERRED). FQXi search results received — no 2026 contest open (saved to `strategy/src_fqxi_2026.md`). Monitor fqxi.org for next announcement (~June 2026). | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.33
+**Last updated:** 2026-05-20 | **Session:** Portfolio boundary audit complete. Domain column deployed. Spinoff registry established. Q-PNA and Convergence Consilience published. SBIR deferred. FQXi monitoring. D12 constraint added (no external dependencies). All ACTION PLAN items resolved. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.40
 
 ---
 
@@ -12,11 +12,11 @@
 |:--|:-------|:---------|:-----|:-------|
 | 1 | ~~VSD case study~~ — ❌ CANCELLED. | — | — | ❌ |
 | 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | May 18 | 30 min | ✅ **DONE** |
-| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. P27 cross-domain synthesis fired May 19. Force-Multiplier campaign queued Jun 4-11. 9 posts scheduled, 0 errors. Queue healthy through mid-June. | This week | 15 min/day | 🟢 Live |
+| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. QWAV content distributed across all platforms. Queue autonomous. | Ongoing | As needed | 🟢 Live |
 | 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
-| 5 | **Q-PNA / AI specification** (P6) — v2.0 Research Specification published by Projects thread. Handoff complete: 12 experiments validated, Zenodo DOI `10.5281/zenodo.20287742`, GitHub `QNFO/Q-PNA`, Buffer posts May 20, project archived. **Full completion — specification published, validated, open-sourced.** | May 19 | — | 🟣 ✅ **DONE — Full completion** |
-| 6 | **SBIR Phase I** (P9) — Federal grant. User confirms entities exist (Empowering Change 501c3, Data For Good LLC) but US legal/tax/corporate work is NOT a current priority. Deferred unless situation changes. | Deferred | — | ⚠️ DEFERRED |
-| 7 | **FQXi Essay Contest** (P29) — No 2026 contest currently open. Most recent ("How Quantum is Life?") concluded Jan 2026. Search results saved to `strategy/src_fqxi_2026.md`. Monitor fqxi.org — next contest likely announced June 2026. | Monitor | — | ⚠️ No contest open |
+| 5 | **Q-PNA / AI specification** (P6) — v2.0 Research Specification published. 12 experiments validated. Zenodo DOI `10.5281/zenodo.20287742`. GitHub `QNFO/Q-PNA`. Archived. | May 19 | — | 🟣 ✅ **DONE** |
+| 6 | **SBIR Phase I** (P9) — Federal grant. Entities confirmed (Empowering Change 501c3, Data For Good LLC). Deferred — US legal/tax not a current priority. | Deferred | — | ⚠️ DEFERRED |
+| 7 | **FQXi Essay Contest** (P29) — No 2026 contest open. Results saved to `strategy/src_fqxi_2026.md`. Monitor fqxi.org. | Monitor | — | ⚠️ Monitoring |
 
 ### Reference Library (Not Action Items)
 
@@ -30,7 +30,7 @@ These are for reference when needed — not to-do items:
 | `strategy/0.4.md` + social | $q$-ary scatter talking point (already distributed) |
 | `strategy/0.5.md` | Grant apps or "who else does this?" |
 | `strategy/0.5.1.md` | Credibility / benchmarking talking point |
-| `strategy/0.5.2.md` | Must cite Heydeman/Boettcher in next paper revision |
+| `strategy/0.5.2.md` | Prior art analysis (Heydeman 2018, Boettcher 2020, AGP 2006) |
 | `strategy/0.6.md` | Canonical statement of generalized thesis |
 | `strategy/0.7.md` | If anyone asks about physical fabrication |
 
@@ -54,7 +54,7 @@ These are QWAV-defined projects delegated to the Projects agent (`G:\My Drive\pr
 
 ---
 
-## 1. PROJECT IDENTITY
+## 1. PROGRAM IDENTITY
 
 **QWAV — Ultrametric Quantum Computing & AI.** Replace Archimedean (continuous) geometry with $p$-adic ultrametric (tree-based) geometry to achieve:
 - **Passive fault tolerance** in quantum computing (geometric error suppression, no active QEC, 4 K operation)

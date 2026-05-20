@@ -4,13 +4,13 @@
 
 ---
 
-## Current State (2026-05-19 — SBIR Deferred, FQXi: No Contest Open)
+## Current State (2026-05-20 — Portfolio Clean, Monitoring Phase)
 
 ### Strategy Summary (Read This First)
 
 QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum computing and AI. The core thesis: replacing Archimedean (continuous) geometry with ultrametric (tree-based) geometry enables passive fault tolerance in quantum computing and glass-box explainability in AI — solving two multi-billion-dollar problems with one mathematical correction.
 
-**ACTION PLAN status:** Buffer 🟢 Live (P27 fired May 19, Force-Multiplier Jun 4-11). SBIR ⚠️ DEFERRED (user confirms entities exist but US legal/tax not a current priority). FQXi ⚠️ No contest open (monitor fqxi.org — next likely June 2026).
+**ACTION PLAN status:** All 7 items resolved. Buffer 🟢 Live (QWAV content distributed). SBIR ⚠️ DEFERRED. FQXi ⚠️ Monitoring. D12 constraint added (no external dependencies).
 
 **Key Constraints (Non-Negotiable):**
 - **No physical lab access** — all experiments are computational simulations
@@ -36,7 +36,7 @@ QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum comput
 | 8 | SPRINT.md created | This file. State tracker and handoff document | 2026-05-11 | 2026-05-11 |
 | 9 | Tier 0 Simulation built | btree.py, encoding.py, noise.py, metrics.py, experiments 0A+0B, plots | 2026-05-11 |
 | 10 | QWAV independent repo initialized | Extracted from DeepChat workspace. `main` branch, 27 files, clean commit. Ready for GitHub. | 2026-05-11 |
-| 11 | P11 collaborator briefing prepared | Comprehensive meet-and-greet doc. Covers formal verification strategy, threshold theorem target, Veselov precedent, IP terms, talking points. | 2026-05-11 |
+| 11 | D12 constraint established | No external dependencies. Every task completable in a single LLM thread. | 2026-05-20 |
 | 12 | arXiv/Zenodo paper PUBLISHED (P4) | "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits." Published on Zenodo (DOI: 10.5281/zenodo.20134944). Repo: github.com/QNFO/ultrametric-error-confinement. Commit: a902ddf. | 2026-05-12 |
 | 13 | Mathematical foundations written (P5) | Formal definitions, 4 theorems, lemma chain, Lean formalization priority table. Bridge between Tier 0 and formal verification (P11). | 2026-05-11 |
 | 14 | IP portfolio audit + reorganization | Full inventory (1,194 files, 25 packages). 770 dead files archived to `G:\My Drive\Archive\Patents\`. Patents directory cleaned (6 categories). 55 deleted files recovered via git. | 2026-05-11 |

@@ -1,6 +1,6 @@
-# QWAV PROJECT CHANGELOG
+# QWAV PROGRAM CHANGELOG
 
-> **Purpose:** Versioned record of all project changes. Read this alongside SPRINT.md when starting a new thread to understand what changed, when, and why.
+> **Purpose:** Versioned record of all program changes. Read this alongside SPRINT.md when starting a new thread to understand what changed, when, and why.
 
 ---
 
