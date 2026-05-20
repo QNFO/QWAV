@@ -4,6 +4,24 @@
 
 ---
 
+## [v2.34] — 2026-05-19 — Q-PNA Handoff Received; Full Completion
+
+**What Changed:** Projects agent returned comprehensive handoff for Q-PNA / AI specification. All deliverables verified. Documentation updated.
+
+**Completed:**
+- ✅ **ACTION #5 — Q-PNA full completion:** Projects agent delivered v2.0 Research Specification with 12 computational experiments, STC verification (100% detection), transformer benchmark (LinMap wins 6.6×), differentiable tree validation. Zenodo DOI `10.5281/zenodo.20287742` registered. GitHub `QNFO/Q-PNA` live (35 commits). Buffer posts scheduled May 20. Project archived to `Archive\projects\Q-PNA Research Specification v2.0\`.
+- ✅ **Release file verified:** `Obsidian/releases/2026/05/Q-PNA Research Specification v2.0.md` (52 KB) confirmed on disk.
+- ✅ **Key findings from Projects agent:** (1) Archive contains more prior work than handoffs list — search broadly. (2) Bruhat-Tits vs cophenetic = false dichotomy — same structure, different angle. (3) Computational evidence must precede specification — tree-walk optimization doesn't converge; linear mapping does. (4) LinMap + cophenetic loss works (20.4% test acc, beats 6.6× transformer). (5) D=4 (256 leaves) optimal. What doesn't work documented honestly (tree-walk, temperature annealing, sparse backprop, ultrametric attention preprocessing).
+- ✅ **L22 added to LEARNINGS.md** — Handoff return protocol lesson (5 steps: verify → update docs → capture lessons → commit → next).
+
+**Files Changed:**
+- `PROJECT STATE.md` — EDIT: ACTION #5 → DONE (full completion), spinoff registry updated
+- `SPRINT.md` — EDIT: P6 status with DOI + GitHub refs
+- `LEARNINGS.md` — EDIT: +L22 lesson
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/action-plan-execution`
+
 ## [v2.33] — 2026-05-19 — SBIR Deferred by User; FQXi Search Complete (No Contest Open)
 
 **What Changed:** User provided entity information and FQXi external search results.

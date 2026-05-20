@@ -167,6 +167,14 @@
 - **Cross-Project:** YES — any multi-project portfolio being managed by a Strategy Program Manager agent needs explicit domain classification and spinoff tracking.
 
 
+### L22: Handoff return protocol — verify release file, update docs, capture lessons, commit immediately
+- **Category:** METHODOLOGY
+- **Issue:** The Q-PNA spinoff (Projects agent) returned a comprehensive handoff with 5 critical lessons about Archive search breadth, computational-before-specification methodology, and the false dichotomy of Bruhat-Tits vs. cophenetic trees. These lessons needed to be captured immediately before context was lost, and the PROJECT STATE/SPRINT/CHANGELOG needed updating to reflect full completion.
+- **Solution:** (1) Verified release file existence at `Obsidian/releases/2026/05/` via PowerShell `Test-Path`. (2) Updated PROJECT STATE.md — ACTION #5 → DONE (full completion), spinoff registry updated with DOI, GitHub, and archive location. (3) Updated SPRINT.md — P6 status with handoff completion details. (4) Added CHANGELOG v2.34 entry. (5) Captured 5 Projects-agent lessons as L22. (6) Committed immediately on `feature/action-plan-execution`.
+- **Prevention:** When a spinoff project returns a handoff: (a) verify the release file exists on disk, (b) update all 3 documentation targets (PROJECT STATE, SPRINT, CHANGELOG) immediately, (c) extract cross-project lessons before context is lost, (d) update the spinoff registry table, (e) commit before the next task. Never defer handoff processing — the Projects agent's context window is gone the moment the handoff is delivered.
+- **Cross-Project:** YES — any multi-agent setup with handoff/return protocols needs immediate documentation sync on handoff receipt.
+
+
 ## Archived Learnings
 
 *None yet — all learnings above are still active and applicable.*
