@@ -4,21 +4,24 @@
 
 ---
 
-## Current State (2026-05-20 — Portfolio Clean, Monitoring Phase)
+## Current State (2026-05-21 — Strategic Evolution Applied, Monitoring Phase)
 
 ### Strategy Summary (Read This First)
 
 QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum computing and AI. The core thesis: replacing Archimedean (continuous) geometry with ultrametric (tree-based) geometry enables passive fault tolerance in quantum computing and glass-box explainability in AI — solving two multi-billion-dollar problems with one mathematical correction.
 
-**ACTION PLAN status:** All 7 items resolved. Buffer 🟢 Live (QWAV content distributed). SBIR ⚠️ DEFERRED. FQXi ⚠️ Monitoring. D12 constraint added (no external dependencies).
+**ACTION PLAN status:** All 7 items resolved. Buffer 🟢 Live (QWAV content distributed). SBIR ⚠️ DEFERRED. FQXi ⚠️ Monitoring.
+
+**Strategic evolution (2026-05-20, applied 2026-05-21):** D13 added (interactive-first, multi-channel distribution). L23 added (papers aren't read — interactive artifacts engage). strategy/1.0.md §3.3, §3.4, §8.2 revised. v2.42 changelog entry recorded. Preliminary finding from Hierarchy as Ultrametricity spinoff captured. See commit 685f34f.
 
 **Key Constraints (Non-Negotiable):**
 - **No physical lab access** — all experiments are computational simulations
 - **No peer review** — the peer-review system is rejected as gatekeeping; open-access, reader-evaluated publication only
 - **Written-first strategy** — no live pitches, no networking, no "business development"
 - **Substance over credentials** — target audiences that evaluate ideas on merit, not institutional affiliation
+- **Interactive-first distribution (D13)** — every spinoff MUST produce an interactive public artifact. Social media links to the artifact, not the paper. The DOI is archival backstop, not primary engagement channel.
 
-**Primary Bottleneck:** Evidence. The thesis is mathematically sound and computationally validated (Tier 0 paper published, Zenodo DOI: 10.5281/zenodo.20134944, 2026-05-12). Next bottleneck: adoption — getting the right people to read and evaluate the work.
+**Primary Bottleneck:** Evidence. The thesis is mathematically sound and computationally validated (Tier 0 paper published, Zenodo DOI: 10.5281/zenodo.20134944, 2026-05-12). Next bottleneck: adoption — getting the right people to engage with interactive artifacts rather than papers.
 
 ---
 

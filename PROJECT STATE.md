@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-20 | **Session:** CLOSE-OUT. Portfolio boundary audit complete. Domain column deployed. Spinoff registry established. Q-PNA and Convergence Consilience published. SBIR deferred. FQXi monitoring. D12 constraint added. Two new spinoffs scaffolded (Hierarchy as Ultrametricity, Ultrametric Game of Life). Forward strategy published (strategy/1.0.md). Strategic evolution specified: interactive-first multi-channel distribution (D13, L23). README rewritten as public-facing. All 7 ACTION PLAN items resolved. 26 commits on main. ⚠️ NEXT SESSION: restore DECISIONS.md (git checkout HEAD~1) and apply 4 documentation changes from session prompt. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.43
+**Last updated:** 2026-05-21 | **Session:** Strategic evolution session. D13 added to DECISIONS.md (interactive-first, multi-channel distribution). L23 added to LEARNINGS.md (papers aren't read — interactive artifacts engage). strategy/1.0.md §3.3, §3.4, and §8.2 revised with new distribution posture. v2.42 changelog entry recorded. Preliminary finding from Hierarchy as Ultrametricity spinoff captured (convergence-consilience mechanism). All changes committed and pushed to GitHub (commit 685f34f). Portfolio clean. Monitoring phase. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.42
 
 ---
 
