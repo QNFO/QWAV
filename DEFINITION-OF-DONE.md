@@ -1,75 +1,91 @@
 # DEFINITION OF DONE — QWAV Technical Site Hub
 
-## What Does "Done" Mean for This Project?
+## What "Done" Means
 
-This project is **complete** when ALL of the following are true:
-
-### Functional Completeness
-- [x] Interactive elements respond to user input (tested: slider movement → canvas redraw)
-- [x] Canvas renders non-zero content at all default parameter settings
-- [x] JavaScript executes without console errors
-- [x] All buttons, sliders, and interactive controls are wired to event handlers
-- [x] Default state is visually meaningful (not blank, not broken)
-
-### Deployment Completeness
-- [x] Pushed to GitHub under QNFO organization (QNFO/QWAV)
-- [x] GitHub Pages enabled, serving from correct branch
-- [x] Live URL verified loading: https://qnfo.github.io/QWAV/
-- [x] .nojekyll present (prevents Jekyll processing)
-
-### Documentation Completeness
-- [x] README.md describes what the demo shows and how to use it
-- [x] PROJECT STATE.md records deployment status and URL
-- [x] SPRINT.md tracks all tasks as complete
-- [x] CHANGELOG.md documents version history
-- [x] BACKLOG.md captures deferred enhancements
-- [x] LEARNINGS.md records project-specific lessons
-- [x] DECISIONS.md logs architecture decisions
-- [x] DEFINITION-OF-DONE.md (this file)
-
-### Integration Completeness
-- [x] Cross-linked from QWAV Technical Site Hub (https://qnfo.github.io/QWAV/)
-- [x] Links to relevant published papers where applicable
-- [x] Part of the QWAV D13 interactive artifact set (5 demos)
-
-### Verification Checklist (last verified: 2026-05-23)
-- [x] Canvas.getImageData() → non-zero pixels
-- [x] Slider input event → canvas redraw
-- [x] No JavaScript console errors
-- [x] Mobile responsive (viewport meta, flexible layout)
-- [x] All external links functional
-
-### Archive Cross-Reference
-
-This site synthesizes evidence from:
-- **ultrametric_v2** (Archive 2026/05, 45 files) — simulation data for all Evidence Deck charts (T5)
-- **Computational-Ultrametricity** (Archive 2026/05, 20 files) — ultrametric verification data for Tree Distance and Convergence
-- **Validation of Ultrametric Error Confinement** (Archive 2026/05 → DOI: 10.5281/zenodo.20134944)
-- **Symmetric Extension** (Archive 2026/05 → DOI: 10.5281/zenodo.20208437)
-- **Q-PNA v2.0** (Archive 2026/05 → DOI: 10.5281/zenodo.20287742)
-- **Tree Distance Cophenetic** (Archive 2026/05 → DOI: 10.5281/zenodo.20213043)
-- **Ultrametric Geometry as Common Structure** (Archive 2026/05 → DOI: 10.5281/zenodo.20265907)
-- **Convergence Consilience** (Archive 2026/05 → DOI: 10.5281/zenodo.20302276)
-
-### Migration Note
-
-This site replaced **ultrametric-site** (Archive 2026/05), a Jekyll-based site (_config.yml, Gemfile, 404.md, index.md). The architectural change was motivated by simpler deployment: single HTML file with inline CSS/JS vs. Jekyll build pipeline. The purpose is identical — central QWAV program hub — but the implementation is self-contained.
-
-## What Is Explicitly OUT of Scope
-
-- Production-grade accessibility (WCAG AA)
-- Multi-language i18n
-- Automated testing suite (unit/integration)
-- Performance optimization beyond basic usability
-- Analytics or tracking
-- Backend or server-side logic
-- CDN dependencies
-
-## Completion Status
-
-**ALL criteria met. Project is DONE.** ✅
-Deployed: 2026-05-23. Verified: 2026-05-23. ['T1: Landing page with hero, badges, and CTA links', 'T2: Artifact directory — 5 interactive demo cards with live status badges', 'T3: SEO metadata (OG tags, description, canonical)', 'T4: Evidence highlights — 4 evidence cards with key metrics', 'T5: Evidence Deck — scrollable Canvas charts (LER vs depth, error reduction, Q-PNA comparison) + STC verification table', 'T6: Expanded Research Roadmap — 4 phases with DOIs, [SPECULATIVE] flags on forward projections', 'T7: A1-A5 artifact links', 'T8: Intellectual Genealogy — 30 key publications in 4 threads (QEC, AI, Math, Strategy)', 'T9: Cross-link all artifacts — all 6 demos + Game of Life linked in footer', 'T12: Polish + audit — mobile responsive, canonical, OG image, accessibility audit'] of ['T1: Landing page with hero, badges, and CTA links', 'T2: Artifact directory — 5 interactive demo cards with live status badges', 'T3: SEO metadata (OG tags, description, canonical)', 'T4: Evidence highlights — 4 evidence cards with key metrics', 'T5: Evidence Deck — scrollable Canvas charts (LER vs depth, error reduction, Q-PNA comparison) + STC verification table', 'T6: Expanded Research Roadmap — 4 phases with DOIs, [SPECULATIVE] flags on forward projections', 'T7: A1-A5 artifact links', 'T8: Intellectual Genealogy — 30 key publications in 4 threads (QEC, AI, Math, Strategy)', 'T9: Cross-link all artifacts — all 6 demos + Game of Life linked in footer', 'T12: Polish + audit — mobile responsive, canonical, OG image, accessibility audit'] tasks complete.
+This project is **done** when it is the single canonical URL for QWAV — every artifact links back to it, every publication is listed with verified DOIs, every chart displays correct data, and it works offline and on mobile.
 
 ---
 
-*This DoD is the contract between the project and the QWAV program. When all boxes are checked, the project is closed out.*
+## GATE 1: FUNCTIONAL COMPLETENESS
+
+| # | Requirement | Test | Status |
+|:--|:-----------|:-----|:------|
+| F1 | All sections render (hero, evidence, artifacts, publications, roadmap, genealogy) | Visual inspection of each section | ✅ VERIFIED |
+| F2 | All 3 Canvas charts render correctly (LER, Error Reduction, Q-PNA) | `getImageData()` non-zero, chart data matches published values | ✅ VERIFIED (render), ❌ UNTESTED (data accuracy) |
+| F3 | All artifact links (A1-A5 + Game of Life) functional and open correct URLs | Automated link checker | ❌ UNTESTED |
+| F4 | All 8+ DOI links resolve correctly to Zenodo | Automated DOI resolver | ❌ UNTESTED |
+| F5 | Mobile layout functional (no horizontal scroll, readable text) | Test on iOS Safari, Android Chrome at 375px width | ❌ UNTESTED |
+| F6 | **Offline fallback:** site renders without CDN dependencies | Test with network disconnected | ❌ NOT BUILT |
+| F7 | SEO meta tags present (title, description, og:image, twitter:card) | HTML source inspection | ❌ NOT BUILT |
+| F8 | Google Analytics or equivalent tracking (optional) | Verify analytics events fire | ❌ NOT BUILT |
+
+## GATE 2: TEST EXECUTION
+
+### Test Suite 1: Link Integrity
+```
+File: test_links.py
+Test: For every <a href> in index.html:
+  1. Internal links (#fragment) — verify target element exists
+  2. External links (DOI, artifact URLs) — HEAD request, verify 200
+Status: NOT YET WRITTEN
+```
+
+### Test Suite 2: Chart Data Accuracy
+```
+File: test_charts.py
+Test: For each Canvas chart:
+  1. Extract rendered data labels and values
+  2. Compare to published source data
+  3. Verify within 1% tolerance
+Status: NOT YET WRITTEN
+```
+
+### Test Suite 3: Cross-Browser + Mobile
+```
+Same as A1 test suites 4-5
+Status: NOT YET EXECUTED
+```
+
+## GATE 3: DEPLOYMENT
+
+| # | Requirement | Status |
+|:--|:-----------|:------|
+| D1 | Pushed to `QNFO/QWAV` on GitHub | ✅ DONE |
+| D2 | GitHub Pages enabled | ✅ DONE |
+| D3 | Live URL loads: `https://qnfo.github.io/QWAV/` | ✅ DONE |
+| D4 | Works without CDN dependencies (self-hosted critical assets) | ❌ NOT BUILT |
+
+## GATE 4: QWAV INTEGRATION — THIS IS THE HUB
+
+| # | Requirement | Status |
+|:--|:-----------|:------|
+| I1 | Links TO all artifacts (A1-A5 + Game of Life) | ✅ DONE |
+| I2 | Links FROM all artifacts back to hub | ❌ NOT BUILT (needed in each A1-A5 artifact) |
+| I3 | All publications listed with verified DOIs | ✅ DONE |
+| I4 | qwav.tech domain redirects or points here | ❌ UNVERIFIED |
+
+## GATE 5: DOCUMENTATION
+
+| # | Requirement | Status |
+|:--|:-----------|:------|
+| DOC1 | README explains site structure and purpose | ✅ EXISTS |
+| DOC2 | Build/deploy instructions (how to update) | ❌ NOT DONE |
+| DOC3 | Chart data sources documented | ❌ NOT DONE |
+
+---
+
+## CURRENT STATUS vs DONE
+
+| Gate | Requirements | Met | Status |
+|:-----|:------------|:---|:------|
+| GATE 1 | Functional (8 items) | 2/8 | 🟡 MOST FUNCTIONAL |
+| GATE 2 | Test Execution (3 suites) | 0/3 | 🔴 NO TESTS |
+| GATE 3 | Deployment (4 items) | 3/4 | 🟡 CDN dependency |
+| GATE 4 | QWAV Integration (4 items) | 2/4 | 🟡 MISSING BACK-LINKS |
+| GATE 5 | Documentation (3 items) | 1/3 | 🔴 BLOCKED |
+
+**OVERALL:** 8/22 requirements met (36%). **Most complete artifact. Needs CDN fallback, mobile testing, link verification, and back-links from A1-A5.**
+
+---
+
+*Updated: 2026-05-23*

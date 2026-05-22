@@ -1,60 +1,76 @@
 # PROJECT CHARTER — QWAV Technical Site Hub
 
-## Project Identity
+## 1. PROJECT IDENTITY
 
 | Field | Value |
 |:------|:------|
-| **Project Name** | qwav-technical-site |
+| **Project Name** | `qwav-technical-site` |
 | **Title** | QWAV Technical Site Hub |
-| **Type** | QWAV Spinoff — Interactive Artifact (D13) |
+| **Type** | QWAV Spinoff — Central Hub (K1) |
+| **QWAV Strategy Reference** | `strategy/3.0.md` — Build Gravity, Tier 2 |
 | **Created** | 2026-05-22 |
-| **Deployed** | 2026-05-23 |
-| **Live URL** | https://qnfo.github.io/QWAV/ |
-| **Repository** | QNFO/QWAV |
+| **Repository** | `QNFO/QWAV` |
+| **Live Target** | `https://qnfo.github.io/QWAV/` |
 | **Parent Program** | QWAV — Ultrametric Quantum Computing & AI |
 
-## Purpose & Thesis
+## 2. RAISON D'ÊTRE — QWAV STRATEGY NEXUS
 
-Central hub site for the QWAV research program. Serves as the landing page linking all interactive demos, publications, evidence, and roadmap in one place.
+**This project exists because six separate interactive demos scattered across GitHub Pages are not a program — they need a single destination that tells the complete story.**
 
-## Technical Approach
+Strategy 3.0 defines Tier 2 as the "Technical Site Hub" — the aggregation point for all evidence, artifacts, publications, and the research roadmap. It is the single URL shared in every application, bio, and outreach email. If Tier 1 artifacts are the gravity wells, the hub is the gravity center — the nexus where all paths converge.
 
-Single HTML file, vanilla JavaScript, Canvas API for evidence deck charts. No dependencies.
+**Strategic contribution:**
+- Provides one canonical URL for all QWAV evidence
+- Aggregates publications (8+ DOIs), artifacts (A1-A5), roadmap, and intellectual genealogy
+- Serves as the "deep dive" destination for serious evaluators
+- Links TO every artifact and FROM every artifact (cross-linked portfolio)
 
-## User Interaction
+**Without this project, QWAV is six disconnected demos with no unifying narrative.**
 
-['T1: Landing page with hero, badges, and CTA links', 'T2: Artifact directory — 5 interactive demo cards with live status badges', 'T3: SEO metadata (OG tags, description, canonical)', 'T4: Evidence highlights — 4 evidence cards with key metrics', 'T5: Evidence Deck — scrollable Canvas charts (LER vs depth, error reduction, Q-PNA comparison) + STC verification table', 'T6: Expanded Research Roadmap — 4 phases with DOIs, [SPECULATIVE] flags on forward projections', 'T7: A1-A5 artifact links', 'T8: Intellectual Genealogy — 30 key publications in 4 threads (QEC, AI, Math, Strategy)', 'T9: Cross-link all artifacts — all 6 demos + Game of Life linked in footer', 'T12: Polish + audit — mobile responsive, canonical, OG image, accessibility audit']
+## 3. SCOPE
 
-## Evidence Contribution
+### In Scope (Built)
+- Hero section with thesis statement
+- Evidence highlights (4 cards: error confinement, glass-box AI, convergence, hardware)
+- Interactive artifact directory (A1-A5 cards with links)
+- Publication table (8+ DOIs with links to Zenodo)
+- Research roadmap timeline
+- Intellectual genealogy (30+ publications)
+- Canvas-based evidence deck charts (LER, Error Reduction, Q-PNA performance)
 
-Zero logical errors at depth 7. 48x error reduction. 40-atom hardware spec. 6.6x AI improvement. 5 interactive demos. 8+ publications with DOIs.
+### In Scope (Not Yet Built)
+- Cross-links FROM each artifact back to the hub
+- Mobile-optimized layout (current version works but needs testing)
+- Offline fallback for CDN resources
+- Search engine optimization meta tags
 
-## Success Criteria
+## 4. CURRENT STATUS (2026-05-23)
 
-1. Interactive elements respond to user input (verified by automated canvas check)
-2. Deployed and loading at https://qnfo.github.io/QWAV/
-3. JavaScript executes without console errors
-4. Cross-linked from QWAV Technical Site Hub
-5. Demonstrates a specific, published QWAV result
+**Phase:** FUNCTIONAL — Most complete artifact in the portfolio
 
-## Constraints
+**What exists:** A 31 KB `index.html` with 7 commits of real development, including bug fixes. All sections present. Canvas charts render. Publication table complete. Artifact directory links functional.
 
-- Zero external dependencies (no CDN, no npm)
-- Single HTML file (inline CSS/JS)
-- GitHub Pages deployment (no server)
-- MIT licensed or equivalent open-source
+**What's missing:**
+- **58 external CDN dependencies** (fonts, icons, analytics) — fragile, breaks if any CDN is down
+- **No offline fallback.** Site requires internet for fonts/icons.
+- **No mobile testing.** Responsive design implemented but not verified on real devices.
+- **No test suite.** Charts render but accuracy of displayed data not verified.
+- **Missing back-links from A1-A5 artifacts.**
 
-## Relationship to QWAV Program
+## 5. DELIVERABLES
 
-This project is one of 5 interactive artifacts (D13) that make QWAV's computational evidence tangible. Each demo demonstrates one key result:
-- Error Confinement → strong triangle inequality visualization
-- Q-PNA Playground → glass-box AI decision trees
-- Convergence Explorer → ultrametric vs Euclidean comparison
-- Tree Distance Sandbox → cophenetic distance computation
-- Hardware Visualizer → neutral atom hardware mapping
-
-Together, these 5 demos + the Technical Site Hub + the Virtual Qubit Showdown form the complete QWAV Gravity Portfolio.
+| # | Deliverable | Status |
+|:--|:------------|:------|
+| T1-T4 | Core hub structure (hero, evidence, artifacts, roadmap) | ✅ BUILT |
+| T5 | Evidence Deck (Canvas charts) | ✅ BUILT (bug fixed) |
+| T6 | Expanded roadmap with DOIs | ✅ BUILT |
+| T7 | Publication table (8+ DOIs) | ✅ BUILT |
+| T8 | Intellectual Genealogy (30 publications) | ✅ BUILT |
+| T9 | Cross-links to all artifacts + Game of Life | ✅ BUILT |
+| T10 | Mobile optimization | NOT TESTED |
+| T11 | Offline fallback (self-host fonts) | NOT BUILT |
+| T12 | SEO meta tags | NOT BUILT |
 
 ---
 
-*Project charter established 2026-05-22. Project completed 2026-05-23.*
+*Updated: 2026-05-23 | QWAV Strategy: Build Gravity v3.0 | Tier 2 — Hub*
