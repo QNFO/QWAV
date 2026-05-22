@@ -4,6 +4,16 @@
 
 ---
 
+## [v2.51] — 2026-05-22 — BUILD COMPLETE: 6 Artifacts Built + Spun Off
+
+**What Changed:** 5 interactive artifacts (A1-A5) + technical site hub (T1-T4,T7) all built from scratch, scaffolded as independent projects, git-initialized, committed. 30+ KB of deployable HTML/CSS/JS. 20+ commits this session.
+
+**Built:** Error Confinement Demo (10 KB), Q-PNA Playground (9 KB), Convergence Explorer (7 KB), Tree Distance Sandbox (8 KB), Hardware Visualizer (5 KB), Technical Site Hub (13.5 KB).
+
+**All 6 spun off** under `projects/2026/05/` with README, PROJECT STATE, SPRINT, .gitignore, git init. Ready for GitHub Pages deploy.
+
+**Git:** `feature/qwav-strategy-overhaul-2026-05-22`
+
 ## [v2.49] — 2026-05-22 — Session Close-Out: All QWAV Scope Complete
 
 **What Changed:** Remaining backlog items (P54-P57) status updated to DOCUMENTED with founder actions specified. SPRINT.md updated for session close-out. All QWAV-scope tasks complete — 18.5 sessions of build work queued for Projects agent.

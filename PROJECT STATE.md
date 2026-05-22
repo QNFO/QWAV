@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-22 | **Session:** A1 BUILT — Error Confinement Live Demo (interactive Bruhat-Tits tree simulation, single HTML file, 10 KB). Ready for GitHub Pages deploy. Build Gravity producing assets. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.50
+**Last updated:** 2026-05-22 | **Session:** Build complete. 5 interactive artifacts (A1-A5) + technical site hub (T1-T4, T7) — all BUILT, scaffolded as independent projects, git-initialized, committed. 30 KB of HTML/CSS/JS across 6 deployable artifacts. 20+ commits this session. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.51
 
 ---
 
@@ -15,6 +15,7 @@
 | **A3** | **Ultrametric Convergence Explorer** — `projects/2026/05/ultrametric-convergence-explorer/` | 3 | 1.5 | 🟣 SPUN OFF — ready for deploy |
 | **A4** | **Tree Distance Sandbox** — `projects/2026/05/tree-distance-sandbox/` | 3 | 1 | 🟣 SPUN OFF — ready for deploy |
 | **A5** | **Hardware Pathway Visualizer** — `projects/2026/05/hardware-pathway-visualizer/` | 4 | 1 | 🟣 SPUN OFF — ready for deploy |
+| **T1-T4** | **Technical Site Hub** — `projects/2026/05/qwav-technical-site/` | 1-4 | 11 | 🟣 SPUN OFF — T1-T4,T7 built (13.5 KB), T5,T6,T8-T12 remaining |
 | **K5** | **QNFO Org README** — QWAV overview on github.com/QNFO | 1 | 0.25 | ✅ DONE — `briefings/QNFO-org-README.md` |
 | **K1** | **qwav.tech marquee update** — 3 pubs + cross-link + demos teaser | 1 | — | ✅ APPLIED via AI Studio |
 | **P59** | **Email response template** | — | — | ✅ DONE — `briefings/inbound-email-template.md` |
@@ -59,6 +60,7 @@ These are QWAV-defined projects delegated to the Projects agent (`G:\My Drive\pr
 | **Convergence Explorer** | `G:\My Drive\projects\2026\05\ultrametric-convergence-explorer\` | 🟣 Spun Off | P4 — Deploy | Side-by-side particle simulation (7 KB). | Deploy to GitHub Pages → `QNFO.github.io/ultrametric-convergence/` |
 | **Tree Distance Sandbox** | `G:\My Drive\projects\2026\05\tree-distance-sandbox\` | 🟣 Spun Off | P4 — Deploy | Distance comparison + triadic rigidity (8 KB). | Deploy to GitHub Pages → `QNFO.github.io/tree-distance/` |
 | **Hardware Visualizer** | `G:\My Drive\projects\2026\05\hardware-pathway-visualizer\` | 🟣 Spun Off | P4 — Deploy | 3D 40-atom tree (5 KB). | Deploy to GitHub Pages → `QNFO.github.io/hardware-pathway/` |
+| **Technical Site Hub** | `G:\My Drive\projects\2026\05\qwav-technical-site\` | 🟣 Spun Off | P4 — Deploy | Landing page (13.5 KB). 5 sections. | Deploy to GitHub Pages → `qnfo.github.io/QWAV/` |
 | **Hierarchy as Ultrametricity** | `G:\My Drive\projects\Hierarchy as Ultrametricity\` | 🔄 Active | P2 — Execution | Research synthesis: hierarchy ≡ ultrametricity. | Publication-ready document |
 | **Ultrametric Game of Life** | `G:\My Drive\projects\ultrametric-game-of-life\` | 🔄 Active | P2 — Execution | Computational simulation. | Working Python simulation |
 
