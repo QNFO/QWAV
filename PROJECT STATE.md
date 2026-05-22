@@ -10,12 +10,12 @@
 
 | # | Action | Week | Sessions | Status |
 |:--|:-------|:-----|:---------|:-------|
-| **A1** | **Error Confinement Live Demo** — `projects/2026/05/ultrametric-error-confinement-demo/` | 1 | 2 | 🟣 SPUN OFF — ready for deploy |
-| **A2** | **Q-PNA Classifier Playground** — `projects/2026/05/qpna-classifier-playground/` | 2 | 2 | 🟣 SPUN OFF — ready for deploy |
-| **A3** | **Ultrametric Convergence Explorer** — `projects/2026/05/ultrametric-convergence-explorer/` | 3 | 1.5 | 🟣 SPUN OFF — ready for deploy |
-| **A4** | **Tree Distance Sandbox** — `projects/2026/05/tree-distance-sandbox/` | 3 | 1 | 🟣 SPUN OFF — ready for deploy |
-| **A5** | **Hardware Pathway Visualizer** — `projects/2026/05/hardware-pathway-visualizer/` | 4 | 1 | 🟣 SPUN OFF — ready for deploy |
-| **T1-T4** | **Technical Site Hub** — `projects/2026/05/qwav-technical-site/` | 1-4 | 11 | 🟣 SPUN OFF — T1-T4,T7 built (13.5 KB), T5,T6,T8-T12 remaining |
+| **A1** | **Error Confinement Live Demo** — `projects/ultrametric-error-confinement-demo/` | 1 | 2 | 🟣 SPUN OFF — ready for deploy |
+| **A2** | **Q-PNA Classifier Playground** — `projects/qpna-classifier-playground/` | 2 | 2 | 🟣 SPUN OFF — ready for deploy |
+| **A3** | **Ultrametric Convergence Explorer** — `projects/ultrametric-convergence-explorer/` | 3 | 1.5 | 🟣 SPUN OFF — ready for deploy |
+| **A4** | **Tree Distance Sandbox** — `projects/tree-distance-sandbox/` | 3 | 1 | 🟣 SPUN OFF — ready for deploy |
+| **A5** | **Hardware Pathway Visualizer** — `projects/hardware-pathway-visualizer/` | 4 | 1 | 🟣 SPUN OFF — ready for deploy |
+| **T1-T4** | **Technical Site Hub** — `projects/qwav-technical-site/` | 1-4 | 11 | 🟣 SPUN OFF — T1-T4,T7 built (13.5 KB), T5,T6,T8-T12 remaining |
 | **K5** | **QNFO Org README** — QWAV overview on github.com/QNFO | 1 | 0.25 | ✅ DONE — `briefings/QNFO-org-README.md` |
 | **K1** | **qwav.tech marquee update** — 3 pubs + cross-link + demos teaser | 1 | — | ✅ APPLIED via AI Studio |
 | **P59** | **Email response template** | — | — | ✅ DONE — `briefings/inbound-email-template.md` |
