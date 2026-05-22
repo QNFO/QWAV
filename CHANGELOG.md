@@ -4,6 +4,28 @@
 
 ---
 
+## [v2.45] — 2026-05-22 — Template Compliance: 4 Phase Documents Created
+
+**What Changed:** QWAV now has all 11 project management files — the 7 core docs required by §0.7 plus the 4 phase documents required by the Project Initiation Protocol (CHARTER, DEFINITION-OF-DONE, RISK-REGISTER, CONTRIBUTING). All 4 use the latest templates from the prompts workspace.
+
+**Created:**
+- `CHARTER.md` — PROJECT-CHARTER-TEMPLATE: scope, success criteria (7 measurable), constraints (7), dependencies (6), deliverables (10), prior work (6 sources)
+- `DEFINITION-OF-DONE.md` — DEFINITION-OF-DONE-TEMPLATE: CODE, CODE TEST, DOCUMENT, PUBLICATION, ANALYSIS, ANALYSIS TEST, WEB APP task gates + QWAV-specific additions (strategy documents, spinoff handoffs)
+- `RISK-REGISTER.md` — RISK-REGISTER-TEMPLATE: 8 active risks (R1-R8), 14 CPL pre-populated risks (L1-L40), resolved risks table
+- `CONTRIBUTING.md` — CONTRIBUTING-TEMPLATE: QWAV-specific DoD, verification gates, domain rules (geometry precision, thesis consistency, evidence standard, D13 compliance), git conventions, escalation protocol, agent workflow (QWAV vs Projects boundary)
+
+**DECISIONS.md note:** Current format (flat decision blocks) is functional but not ADR-TEMPLATE compliant. 13 decisions (D1-D13) would need reformatting to ADR structure (Context → Decision → Consequences: Easier/Harder/Risks). Deferred — flat format is sufficient for now.
+
+**Files Changed:**
+- `CHARTER.md` — CREATE (6,314 bytes)
+- `DEFINITION-OF-DONE.md` — CREATE (4,829 bytes)
+- `RISK-REGISTER.md` — CREATE (5,522 bytes)
+- `CONTRIBUTING.md` — CREATE (5,545 bytes)
+- `PROJECT STATE.md` — EDIT: documentation map updated
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/qwav-strategy-overhaul-2026-05-22`
+
 ## [v2.44] — 2026-05-22 — Strategy Reframe: Build Gravity, Don't Wait for Permission
 
 **What Changed:** strategy/3.0.md (22 KB, ~3,500 words, 8 sections) published — replaces the passive "monitoring phase" posture of 2.0 with an active "build gravity" posture. The 2.0 strategy was correct defensively but strategically inert: it defined a program waiting for exogenous events. 3.0 defines a program that builds endogenous momentum.

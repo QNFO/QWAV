@@ -269,7 +269,7 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 
 ## 10. DOCUMENTATION MAP
 
-### Active Files (QWAV directory — 29 files across root + 4 subdirectories)
+### Active Files (QWAV directory — 11 root docs + strategy library + 4 subdirectories)
 
 **Root (7 docs):**
 
@@ -282,8 +282,12 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 | `BACKLOG.md` | Prioritized future work queue | Created 2026-05-12 |
 | `LEARNINGS.md` | Project-specific lessons (kaizen) | Created 2026-05-12 |
 | `DECISIONS.md` | Architecture/design decisions with rationale | Created 2026-05-12 |
+| `CHARTER.md` | Project charter — scope, success criteria, constraints, deliverables | ✅ NEW 2026-05-22 — PROJECT-CHARTER-TEMPLATE |
+| `DEFINITION-OF-DONE.md` | Task completion criteria — CODE, DOC, PUBLICATION, ANALYSIS, WEB APP | ✅ NEW 2026-05-22 — DEFINITION-OF-DONE-TEMPLATE |
+| `RISK-REGISTER.md` | Active risks + CPL pre-populated risks + resolved risks | ✅ NEW 2026-05-22 — RISK-REGISTER-TEMPLATE |
+| `CONTRIBUTING.md` | Agent workflow rules, domain rules, escalation protocol | ✅ NEW 2026-05-22 — CONTRIBUTING-TEMPLATE |
 
-**strategy/ (13 files):**
+**strategy/ (15 files):**
 
 | File | Purpose | Status |
 |:-----|:--------|:-------|
