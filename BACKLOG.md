@@ -2,7 +2,7 @@
 
 > **Purpose:** Prioritized queue of future work. Updated whenever new ideas emerge or priorities shift. Items are ordered by priority — work top to bottom.
 
-**Last updated:** 2026-05-19 | **Status:** Domain column added (May 19 audit). Ultrametric_v2 (Tier 0.5) complete — 7 sprints. P17 outreach sent. Credential doc published. **Cross-project sync review complete** — Tree Distance Cophenetic + ultrametric_v2 reviewed for gaps; 14 new backlog items added (P31–P44).
+**Last updated:** 2026-05-22 | **Status:** Strategy overhaul complete (strategy/2.0.md). New integration gap items added (P50-P57). Domain column added (May 19 audit). Ultrametric_v2 (Tier 0.5) complete — 7 sprints. P17 outreach sent. Credential doc published. **Cross-project sync review complete** — Tree Distance Cophenetic + ultrametric_v2 reviewed for gaps; 14 new backlog items added (P31–P44). **Strategy overhaul (May 22):** 8 integration gaps identified — added as P50-P57.
 
 **Domain key:** 🟠 QWAV = Core portfolio strategy/tasks | 🟣 SPINOFF = Delegated to Projects agent | 🟡 META = Prompt engineering / agent config (Prompts workspace)
 
@@ -55,8 +55,16 @@
 | **P43** 🟡 | **Investigate Boettcher (2020) quantum ultra-walk** | 🟠 QWAV | ✅ DONE — `strategy/0.5.2.md` + `0.6.md` Section 3. 5 reconciliation hypotheses. Generalized framing adds escape: Bruhat-Tits is one tree; ultrametric class may behave differently. | 1 | Access to PRR | ✅ ANALYZED (2026-05-18) |
 | **P44** | **Ultrametric Game of Life** | 🟣 SPINOFF | Computational simulation: Conway's Game of Life on Bruhat-Tits tree topology. Ternary ($p=3$) grid. Determine whether ultrametric geometry produces qualitatively different emergent behavior than Euclidean grids. 9 tasks. | 1-2 | None | 🔄 Handoff ready — `G:\My Drive\projects\ultrametric-game-of-life\` |
 | **P49** 🟣 | **Hierarchy as Ultrametricity** | 🟣 SPINOFF | Research synthesis: hierarchy IS ultrametricity — they are the same mathematical structure. Formal proof + cross-field catalog (6+ disciplines) + cophenetic integration (triadic rigidity). Standalone publication. 10 tasks. | 2-3 | None | 🔄 Handoff ready — `G:\My Drive\projects\Hierarchy as Ultrametricity\` |
+| **P50** 🔴 | **D13 compliance: Interactive artifacts for existing publications** | 🟠 QWAV | Build GitHub Pages interactive demos for the 5 core publications. Simulation/visualization that demonstrates the thesis in 30 seconds. This is the highest-leverage D13 action — converts existing publications from paper-only to interactive-first. | 2-4 | None | 📋 PLANNED — strategy/2.0.md S5, S6 |
+| **P51** 🟡 | **qwav.tech public-facing site** | 🟠 QWAV | Build GitHub Pages site: thesis, evidence summary, publication links (DOIs), interactive artifact directory, prior work catalog. Clean geometric aesthetic. This is QWAV's public face — currently missing. | 1-2 | None | 📋 PLANNED — strategy/2.0.md S1 |
+| **P52** 🟡 | **QNFO GitHub org README** | 🟠 QWAV | Brief QWAV program overview + links to all repos. Where developers/researchers land when they discover the code. | 0.5 | None | 📋 PLANNED — strategy/2.0.md S3 |
+| **P53** 🟡 | **Curate Prior Work catalog (20-30 publications)** | 🟠 QWAV | Select 20-30 most QWAV-relevant publications from 673-release corpus. One-line relevance statements. Host on qwav.tech as "Intellectual Genealogy" page. | 1 | S1 (qwav.tech live) | 📋 PLANNED — strategy/2.0.md S2 |
+| **P54** 🟡 | **Verify ResearchGate cross-posting** | 🟠 QWAV | Confirm all 5 Zenodo DOIs are cross-posted to ResearchGate. Profile links to QWAV. If missing, set up. | 0.25 | None | 📋 PLANNED — strategy/2.0.md S4 |
+| **P55** 🟢 | **Domain redirects (qwav.org, QNFO.org)** | 🟠 QWAV | Configure DNS: qwav.org → qwav.tech, QNFO.org → qwav.tech or GitHub org. Requires founder to access domain registrar. | 0.25 | Founder DNS access | 📋 PLANNED — Founder action |
+| **P56** 🟢 | **LinkedIn profile QWAV alignment** | 🟠 QWAV | Update personal LinkedIn: reference QWAV program, link to qwav.tech, list publications. Not a pitch — a presence. | 0.5 | None | 📋 PLANNED — strategy/2.0.md §8.2 |
+| **P57** 🟢 | **Email response template for inbound contacts** | 🟠 QWAV | Standard template for responding to inbound contacts from published work. Professional, substance-focused, links to interactive artifacts + DOIs. | 0.25 | None | 📋 PLANNED — strategy/2.0.md §8.3 |
 
-**Recommended execution order:** P31 → P33 → P32 → P36 → P38 → P34 → P37 → P35 → P39 → P40
+**Recommended execution order:** P50 → P51 → P52 → P54 → P53 → P56 → P57 → P55
 
 **Source projects referenced:**
 - `ultrametric_v2`: `G:\My Drive\projects\ultrametric_v2\` — 7 sprints complete, 28 tasks, 26 files, 260K+ MC trials
