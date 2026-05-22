@@ -2,7 +2,7 @@
 
 > **Purpose:** Prioritized queue of future work. Updated whenever new ideas emerge or priorities shift. Items are ordered by priority — work top to bottom.
 
-**Last updated:** 2026-05-22 | **Status:** Strategy overhaul complete (strategy/2.0.md). New integration gap items added (P50-P57). Domain column added (May 19 audit). Ultrametric_v2 (Tier 0.5) complete — 7 sprints. P17 outreach sent. Credential doc published. **Cross-project sync review complete** — Tree Distance Cophenetic + ultrametric_v2 reviewed for gaps; 14 new backlog items added (P31–P44). **Strategy overhaul (May 22):** 8 integration gaps identified — added as P50-P57.
+**Last updated:** 2026-05-22 | **Status:** Strategy overhaul complete (strategy/2.0.md + 3.0.md). Build Gravity posture confirmed by founder. A1 handed off to Projects agent. Domain column added (May 19 audit). Ultrametric_v2 (Tier 0.5) complete — 7 sprints. P17 outreach sent. Credential doc published. **Cross-project sync review complete** — Tree Distance Cophenetic + ultrametric_v2 reviewed for gaps; 14 new backlog items added (P31–P44). **Strategy overhaul (May 22):** 8 integration gaps identified — added as P50-P57. **Template compliance (May 22):** 4 phase docs created (CHARTER, DEFINITION-OF-DONE, RISK-REGISTER, CONTRIBUTING).
 
 **Domain key:** 🟠 QWAV = Core portfolio strategy/tasks | 🟣 SPINOFF = Delegated to Projects agent | 🟡 META = Prompt engineering / agent config (Prompts workspace)
 

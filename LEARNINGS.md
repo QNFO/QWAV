@@ -2,7 +2,7 @@
 
 > **Purpose:** Program-level lessons discovered during execution. Machine-readable format for kaizen (continuous improvement). Read this before starting new work to avoid repeating mistakes.
 
-**Last updated:** 2026-05-20 | **Status:** L1-L22 active. L18 archived (CLOSED). L23 (interactive-first, papers aren't read) specified in session handoff prompt — to be applied next session. L20-L21 cross-project lessons transferred. ⚠️ NEXT SESSION: restore DECISIONS.md and apply 4 documentation changes from session prompt.
+**Last updated:** 2026-05-22 | **Status:** L1-L24 active. L18 archived (CLOSED). L24 (Build gravity, don't wait for permission — endogenous momentum > exogenous validation) added as direct result of strategy reframe confirmed by founder.
 
 ---
 
@@ -174,6 +174,13 @@
 - **Prevention:** When a spinoff project returns a handoff: (a) verify the release file exists on disk, (b) update all 3 documentation targets (PROJECT STATE, SPRINT, CHANGELOG) immediately, (c) extract cross-project lessons before context is lost, (d) update the spinoff registry table, (e) commit before the next task. Never defer handoff processing — the Projects agent's context window is gone the moment the handoff is delivered.
 - **Cross-Project:** YES — any multi-agent setup with handoff/return protocols needs immediate documentation sync on handoff receipt.
 
+
+### L24: Build gravity, don't wait for permission — endogenous momentum > exogenous validation
+- **Category:** METHODOLOGY
+- **Issue:** Strategy/2.0.md defined a program in "monitoring phase" — waiting for application outcomes, waiting for inbound contacts, waiting for exogenous events. This was correct defensive strategy but strategically inert. The program that built 5 publications, computational evidence at depth 7, 48× error reduction, and a glass-box AI architecture was not built by waiting — it was built by building. The monitoring posture produced stagnation and demoralization.
+- **Solution:** Strategy/3.0.md reframed the program from passive to active: 10 assets across 3 tiers, 30-day concrete build plan, all D1-D13 compliant. The core insight: build something that creates its own gravitational pull. If applications come back positive, the built assets amplify the outcome. If they come back negative, the built assets ARE the outcome — a program too substantial to ignore. The flywheel: BUILD → PUBLISH → DISTRIBUTE → VISITOR EXPLORES → VISITOR RETURNS → INBOUND CONTACT (natural consequence, not hoped-for response).
+- **Prevention:** When a program feels stagnant, audit whether the primary activities are internal (building, publishing, growing) or external (waiting, monitoring, hoping). If external activities exceed internal activities, the program has surrendered its agency. The fix is always: build something.
+- **Cross-Project:** YES — any solo founder or independent research program facing the "waiting for permission" trap.
 
 ### L23: Papers aren't read. Interactive artifacts engage. — Multi-channel distribution is the only path out of obscurity.
 - **Category:** METHODOLOGY

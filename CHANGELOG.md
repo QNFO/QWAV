@@ -4,6 +4,33 @@
 
 ---
 
+## [v2.46] — 2026-05-22 — BUILD PHASE ACTIVE: Strategy Confirmed, A1 Handed Off
+
+**What Changed:** Founder confirmed the shift from passive "monitor and wait" to active "build and grow." The Build Gravity posture (strategy/3.0.md) is now the active strategy. First asset handed off to Projects agent.
+
+**Completed:**
+- ✅ Strategy shift CONFIRMED by founder — "Definitely, 100% shift from monitor and wait to build and grow"
+- ✅ A1 handoff written — `briefings/A1-handoff-error-confinement-demo.md` — full spec for Error Confinement Live Demo (interactive Bruhat-Tits tree on GitHub Pages)
+- ✅ Documentation updated — PROJECT STATE, SPRINT, LEARNINGS, CHANGELOG all reflect active build phase
+
+**A1 Handoff Details:**
+- **What:** Interactive Bruhat-Tits tree error simulation. Sliders for error rate (0-50%), depth (d=2-7), prime (p=2,3,5). Real-time LER visualization. "Zero errors at depth 7" becomes experiential.
+- **Deploy target:** `https://QNFO.github.io/ultrametric-error-confinement/`
+- **Tech:** Single HTML + CSS + vanilla JS. Client-side only. GitHub Pages.
+- **Sessions:** 2 estimated (Session 1: simulation + visualization, Session 2: polish + deploy)
+- **Reference:** ultrametric_v2 codebase, Tier 0/1 papers (DOIs in handoff)
+
+**L24 added to LEARNINGS.md:** "Build gravity, don't wait for permission." The program that built 5 publications was not built by waiting. Endogenous momentum creates its own gravitational pull.
+
+**Files Changed:**
+- `briefings/A1-handoff-error-confinement-demo.md` — CREATE: full A1 spec
+- `PROJECT STATE.md` — EDIT: strategy confirmed, A1 handed off
+- `SPRINT.md` — EDIT: BUILD PHASE ACTIVE
+- `LEARNINGS.md` — EDIT: +L24
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/qwav-strategy-overhaul-2026-05-22`
+
 ## [v2.45] — 2026-05-22 — Template Compliance: 4 Phase Documents Created
 
 **What Changed:** QWAV now has all 11 project management files — the 7 core docs required by §0.7 plus the 4 phase documents required by the Project Initiation Protocol (CHARTER, DEFINITION-OF-DONE, RISK-REGISTER, CONTRIBUTING). All 4 use the latest templates from the prompts workspace.

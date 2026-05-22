@@ -4,19 +4,17 @@
 
 ---
 
-## Current State (2026-05-22 — Strategy Reframed: Build Gravity)
+## Current State (2026-05-22 — BUILD PHASE ACTIVE: Strategy Confirmed, A1 Handed Off)
 
 ### Strategy Summary (Read This First)
 
 QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) geometry for quantum computing and AI. 5 Zenodo publications. Zero logical errors at depth 7. 48× error reduction. Glass-box AI outperforming transformers.
 
-**STRATEGY REFRAMED (2026-05-22):** `strategy/3.0.md` — shifts from passive "monitoring and waiting" to active "building gravity." The program does not wait for application outcomes. It builds interactive artifacts, knowledge architecture, and publication rhythm that create their own gravitational pull. 10 assets across 3 tiers. 30-day concrete build plan. All D1-D13 compliant.
+**BUILD GRAVITY posture CONFIRMED by founder (2026-05-22).** The program does not wait. It builds. First asset: A1 Error Confinement Live Demo — interactive Bruhat-Tits tree simulation on GitHub Pages. Handoff at `briefings/A1-handoff-error-confinement-demo.md`. 2 sessions estimated. Projects agent: start building.
 
-**Current posture:** BUILD PHASE. 10 assets planned (5 interactive artifacts + 5 knowledge architecture). 14-session, 30-day build plan. Applications monitored in background. Spinoffs executing in background. Buffer autonomous.
+**Next immediate:** A1 live at `https://QNFO.github.io/ultrametric-error-confinement/`. Once deployed: Buffer campaign, qwav.tech update, link to next asset.
 
-**Next immediate action:** A1 — Error Confinement Live Demo (interactive Bruhat-Tits tree simulation, 2 sessions).
-
-**Key Constraints (Non-Negotiable):** D1-D13 — no lab, no peer review, written-only, solo founder, substance-first, no external dependencies, interactive-first distribution.
+**Key Constraints:** D1-D13 — no lab, no peer review, written-only, solo founder, substance-first, no external dependencies, interactive-first.
 
 ---
 
