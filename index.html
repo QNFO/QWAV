@@ -182,7 +182,7 @@ x.fillStyle="#E5E5E5";x.font="bold 12px system-ui";x.textAlign="center";
 x.fillText(lers[i]===0?"0":lers[i].toFixed(3),startX+i*gap+barW/2,235-h);
 x.fillStyle="#9CA3AF";x.font="11px system-ui";x.fillText(depths[i],startX+i*gap+barW/2,260)}
 x.fillStyle="#9CA3AF";x.font="10px system-ui";x.textAlign="center";x.fillText("Tree Depth",200,278)
-})()
+})();
 
 // CHART 2: Error Reduction Factor
 (function(){
@@ -207,7 +207,7 @@ x.fillText(reduction[i]+"x",px,py-10)}
 x.fillStyle="#9CA3AF";x.font="11px system-ui";
 x.textAlign="center";x.fillText("Encoding size q (leaves)",200,270);
 x.save();x.translate(18,160);x.rotate(-Math.PI/2);x.fillText("Error reduction factor",0,0);x.restore()
-})()
+})();
 
 // CHART 3: Q-PNA vs Transformer
 (function(){
