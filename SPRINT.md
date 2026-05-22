@@ -4,17 +4,17 @@
 
 ---
 
-## Current State (2026-05-22 — BUILD PHASE ACTIVE: Strategy Confirmed, A1 Handed Off)
+## Current State (2026-05-22 — SESSION CLOSE-OUT: Build Gravity Active)
 
-### Strategy Summary (Read This First)
+**QWAV has shifted from "monitor and wait" to "build and grow."** All strategy documentation, handoff specs, and backlog items through QWAV scope are complete. 18.5 sessions of build work queued for Projects agent.
 
-QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) geometry for quantum computing and AI. 5 Zenodo publications. Zero logical errors at depth 7. 48× error reduction. Glass-box AI outperforming transformers.
+**What's live:** qwav.tech marquee updated (3 pubs, cross-link, demos teaser). Google + Bing consoles active. All 11 management docs up to date. 24 learnings, 13 decisions, 8 handoffs, venue registry with search baseline.
 
-**BUILD GRAVITY posture CONFIRMED by founder (2026-05-22).** The program does not wait. It builds. First asset: A1 Error Confinement Live Demo — interactive Bruhat-Tits tree simulation on GitHub Pages. Handoff at `briefings/A1-handoff-error-confinement-demo.md`. 2 sessions estimated. Projects agent: start building.
+**What's queued for Projects agent:** A1-A5 interactive artifacts (7.5 sessions), T1-T12 technical site overhaul (11 sessions).
 
-**Next immediate:** A1 live at `https://QNFO.github.io/ultrametric-error-confinement/`. Once deployed: Buffer campaign, qwav.tech update, link to next asset.
+**What's left for founder:** Deploy QNFO org README (5 min), add Zenodo links to social bios (10 min), verify ResearchGate cross-posting, apply optional evidence prompt to qwav.tech.
 
-**Key Constraints:** D1-D13 — no lab, no peer review, written-only, solo founder, substance-first, no external dependencies, interactive-first.
+**Next session:** Read PROJECT STATE.md → check if Projects agent delivered A1 → if yes, verify deployment, update VENUE-REGISTRY, launch Buffer campaign. If no, check A1 status and unblock.
 
 ---
 

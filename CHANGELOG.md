@@ -4,7 +4,29 @@
 
 ---
 
-## [v2.48] — 2026-05-22 — Backlog Execution: QNFO README, Email Template, Zenodo Audit, A2-A5 Handoffs
+## [v2.49] — 2026-05-22 — Session Close-Out: All QWAV Scope Complete
+
+**What Changed:** Remaining backlog items (P54-P57) status updated to DOCUMENTED with founder actions specified. SPRINT.md updated for session close-out. All QWAV-scope tasks complete — 18.5 sessions of build work queued for Projects agent.
+
+**Session Summary — 9 commits:**
+1. strategy/3.0.md — Build Gravity reframe
+2. strategy/2.0.md — Comprehensive overhaul (vision, venues, corpus, gaps)
+3. 4 phase docs — CHARTER, DEFINITION-OF-DONE, RISK-REGISTER, CONTRIBUTING
+4. A1 handoff + L24 + strategy confirmed
+5. VENUE-REGISTRY.md — 30+ venues, search baseline
+6. Google AI Studio prompts — qwav.tech update (APPLIED + VERIFIED)
+7. Technical site sprint plan — 12 tasks, 11 sessions
+8. A2-A5 handoffs + P58-P60 executed
+9. Session close-out — remaining items documented, SPRINT updated
+
+**Total produced:** 3 strategy docs, 4 phase docs, 8 handoff specs, 1 venue registry, 1 email template, 1 cross-link audit. 24 learnings. 13 decisions. 11 management files. Clean git on `feature/qwav-strategy-overhaul-2026-05-22`.
+
+**Files Changed:**
+- `SPRINT.md` — EDIT: close-out state
+- `BACKLOG.md` — EDIT: P54-P57 status updated
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/qwav-strategy-overhaul-2026-05-22`
 
 **What Changed:** 3 quick-win backlog items executed + 4 new handoff specs written. All A1-A5 interactive artifact handoffs now complete.
 

@@ -59,12 +59,13 @@
 | **P51** 🟡 | **qwav.tech public-facing site** | 🟠 QWAV | Build GitHub Pages site: thesis, evidence summary, publication links (DOIs), interactive artifact directory, prior work catalog. Clean geometric aesthetic. This is QWAV's public face — currently missing. | 1-2 | None | 📋 PLANNED — strategy/2.0.md S1 |
 | **P52** 🟡 | **QNFO GitHub org README** | 🟠 QWAV | Brief QWAV program overview + links to all repos. Where developers/researchers land when they discover the code. | 0.5 | None | 📋 PLANNED — strategy/2.0.md S3 |
 | **P53** 🟡 | **Curate Prior Work catalog (20-30 publications)** | 🟠 QWAV | Select 20-30 most QWAV-relevant publications from 673-release corpus. One-line relevance statements. Host on qwav.tech as "Intellectual Genealogy" page. | 1 | S1 (qwav.tech live) | 📋 PLANNED — strategy/2.0.md S2 |
-| **P54** 🟡 | **Verify ResearchGate cross-posting** | 🟠 QWAV | Confirm all 5 Zenodo DOIs are cross-posted to ResearchGate. Profile links to QWAV. If missing, set up. | 0.25 | None | 📋 PLANNED — strategy/2.0.md S4 |
-| **P55** 🟢 | **Domain redirects (qwav.org, QNFO.org)** | 🟠 QWAV | Configure DNS: qwav.org → qwav.tech, QNFO.org → qwav.tech or GitHub org. Requires founder to access domain registrar. | 0.25 | Founder DNS access | 📋 PLANNED — Founder action |
-| **P56** 🟢 | **LinkedIn profile QWAV alignment** | 🟠 QWAV | Update personal LinkedIn: reference QWAV program, link to qwav.tech, list publications. Not a pitch — a presence. | 0.5 | None | 📋 PLANNED — strategy/2.0.md §8.2 |
-| **P58** 🔴 | **QNFO GitHub org README** | 🟠 QWAV | ✅ DONE — Content at `briefings/QNFO-org-README.md`. Deploy to `QNFO/.github` repo as `profile/README.md`. 5 key results, 3 repo links, 5 publication DOIs, cross-links. | 0.1 | None | ✅ DONE (2026-05-22) |
-| **P59** 🔴 | **Email response template for inbound contacts** | 🟠 QWAV | ✅ DONE — `briefings/inbound-email-template.md`. Standard template for responding to substantive inbound contacts. Links to interactive artifacts + DOIs. Professional tone. D13 compliant. | 0.1 | None | ✅ DONE (2026-05-22) |
-| **P60** 🟡 | **Zenodo cross-link audit** | 🟠 QWAV | ✅ AUDIT COMPLETE — `briefings/zenodo-crosslink-audit.md`. 7/10 major venues missing Zenodo community links. All fix actions documented. | 0.1 | None | ✅ DONE (2026-05-22) |
+| **P54** 🟡 | **Verify ResearchGate cross-posting** | 🟠 QWAV | ✅ DOCUMENTED — `briefings/zenodo-crosslink-audit.md`. ResearchGate blocks automated access — must be verified manually by founder. | 0.25 | Founder login | 📋 Founder action |
+| **P55** 🟢 | **Domain redirects (qwav.org, QNFO.org)** | 🟠 QWAV | ✅ qwav.org confirmed registered and resolving. QNFO.org: founder action to verify/redirect. | 0.25 | Founder DNS access | 📋 Founder action |
+| **P56** 🟢 | **LinkedIn profile QWAV alignment** | 🟠 QWAV | ✅ DOCUMENTED — bio text in `briefings/zenodo-crosslink-audit.md`. Update LinkedIn About section + add Zenodo link. | 0.5 | Founder login | 📋 Founder action |
+| **P57** 🟢 | **Social bio Zenodo links** | 🟠 QWAV | ✅ DOCUMENTED — copy-paste text in `briefings/zenodo-crosslink-audit.md`. Mastodon, Bluesky, Twitter bios. | 0.1 | Founder login | 📋 Founder action |
+| **P58** 🔴 | **QNFO GitHub org README** | 🟠 QWAV | ✅ DONE — Content at `briefings/QNFO-org-README.md`. Deploy to `QNFO/.github` repo as `profile/README.md`. | 0.1 | None | ✅ DONE — awaiting deploy |
+| **P59** 🔴 | **Email response template for inbound contacts** | 🟠 QWAV | ✅ DONE — `briefings/inbound-email-template.md`. Standard template + 3 variations. | 0.1 | None | ✅ DONE |
+| **P60** 🟡 | **Zenodo cross-link audit** | 🟠 QWAV | ✅ DONE — `briefings/zenodo-crosslink-audit.md`. 7/10 venues missing Zenodo links. All fix actions + bio text documented. | 0.1 | None | ✅ DONE |
 
 **Recommended execution order:** P50 → P51 → P52 → P54 → P53 → P56 → P57 → P55
 
