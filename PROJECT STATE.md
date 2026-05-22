@@ -3,15 +3,19 @@
 **Project:** QWAV Technical Site Hub
 **Description:** Central hub site - evidence, artifacts, publications, roadmap
 **Type:** QWAV Spinoff (strategy/3.0 K1)
-**Status:** BUILT - Ready for deploy
+**Status:** DEPLOYED
 **Created:** 2026-05-22
-**Deploy:** https://qnfo.github.io/QWAV/
+**Deployed:** 2026-05-22
+**Live URL:** https://qnfo.github.io/QWAV/
 
 ## Current Status
-Landing page built (index.html, 13.5 KB). 5 sections. Ready for GitHub Pages.
+Deployed to GitHub Pages. Site verified live (H1: QWAV, title confirmed).
+Remote: https://github.com/QNFO/QWAV.git
+Landing page built (index.html, 13.5 KB). 5 sections.
 
 ## Next Steps
-1. Push to QNFO/QWAV repo
-2. GitHub Pages auto-deploys
-3. Verify URL
-4. Report to QWAV agent
+- T5: Evidence Deck (charts)
+- T6: Detailed roadmap
+- T8: Intellectual Genealogy
+- T9: Cross-link all artifacts
+- T12: Polish + audit

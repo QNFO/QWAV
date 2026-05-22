@@ -7,10 +7,13 @@
 - [x] T3: SEO metadata
 - [x] T4: Evidence highlights
 - [x] T7: A1-A5 links
-- [ ] Deploy to GitHub Pages
+- [x] Deploy to GitHub Pages
+- [x] Verify URL
 - [ ] T5: Evidence Deck (charts)
 - [ ] T6: Detailed roadmap
-- [ ] Verify URL
+- [ ] T8: Intellectual Genealogy
+- [ ] T9: Cross-link all artifacts
+- [ ] T12: Polish + audit
 
 ## Next Action
-Deploy to GitHub Pages.
+T5: Evidence Deck — scrollable charts (LER vs depth, scatter, Q-PNA benchmarks, STC table).
