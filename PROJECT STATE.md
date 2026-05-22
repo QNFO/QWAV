@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-22 | **Session:** Full backlog sprint. 3 quick-win items executed (P58-P60: QNFO README, email template, Zenodo audit). A2-A5 handoff specs written. All 5 interactive artifact handoffs now complete (A1-A5: 7.5 sessions). VENUE-REGISTRY corrected (qwav.org confirmed registered). Build Gravity posture active. All changes committed on `feature/qwav-strategy-overhaul-2026-05-22`. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.48
+**Last updated:** 2026-05-22 | **Session:** A1 BUILT — Error Confinement Live Demo (interactive Bruhat-Tits tree simulation, single HTML file, 10 KB). Ready for GitHub Pages deploy. Build Gravity producing assets. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.50
 
 ---
 
@@ -10,7 +10,7 @@
 
 | # | Action | Week | Sessions | Status |
 |:--|:-------|:-----|:---------|:-------|
-| **A1** | **Error Confinement Live Demo** — Interactive Bruhat-Tits tree on GitHub Pages | 1 | 2 | 🔴 HANDED OFF |
+| **A1** | **Error Confinement Live Demo** — Interactive Bruhat-Tits tree on GitHub Pages | 1 | 2 | ✅ BUILT — `artifacts/error-confinement-demo/` |
 | **A2** | **Q-PNA Classifier Playground** — Glass-box AI demo on GitHub Pages | 2 | 2 | 🔴 HANDED OFF |
 | **A3** | **Ultrametric Convergence Explorer** — Convergence visualization | 3 | 1.5 | 🔴 HANDED OFF |
 | **A4** | **Tree Distance Sandbox** — Distance metrics comparison | 3 | 1 | 🔴 HANDED OFF |
