@@ -39,6 +39,22 @@ This project is **complete** when ALL of the following are true:
 - [x] Mobile responsive (viewport meta, flexible layout)
 - [x] All external links functional
 
+### Archive Cross-Reference
+
+This site synthesizes evidence from:
+- **ultrametric_v2** (Archive 2026/05, 45 files) — simulation data for all Evidence Deck charts (T5)
+- **Computational-Ultrametricity** (Archive 2026/05, 20 files) — ultrametric verification data for Tree Distance and Convergence
+- **Validation of Ultrametric Error Confinement** (Archive 2026/05 → DOI: 10.5281/zenodo.20134944)
+- **Symmetric Extension** (Archive 2026/05 → DOI: 10.5281/zenodo.20208437)
+- **Q-PNA v2.0** (Archive 2026/05 → DOI: 10.5281/zenodo.20287742)
+- **Tree Distance Cophenetic** (Archive 2026/05 → DOI: 10.5281/zenodo.20213043)
+- **Ultrametric Geometry as Common Structure** (Archive 2026/05 → DOI: 10.5281/zenodo.20265907)
+- **Convergence Consilience** (Archive 2026/05 → DOI: 10.5281/zenodo.20302276)
+
+### Migration Note
+
+This site replaced **ultrametric-site** (Archive 2026/05), a Jekyll-based site (_config.yml, Gemfile, 404.md, index.md). The architectural change was motivated by simpler deployment: single HTML file with inline CSS/JS vs. Jekyll build pipeline. The purpose is identical — central QWAV program hub — but the implementation is self-contained.
+
 ## What Is Explicitly OUT of Scope
 
 - Production-grade accessibility (WCAG AA)
