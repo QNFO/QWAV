@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-22 | **Session:** Strategy shift CONFIRMED by founder. Build Gravity posture active. A1 handoff written — Error Confinement Live Demo (interactive Bruhat-Tits tree simulation). Handoff at `briefings/A1-handoff-error-confinement-demo.md`. Ready for Projects agent execution. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.46
+**Last updated:** 2026-05-22 | **Session:** Comprehensive strategy overhaul + venue audit + build phase activation. 3 strategy docs (2.0/3.0/venue-registry). 4 phase docs created (CHARTER, DEFINITION-OF-DONE, RISK-REGISTER, CONTRIBUTING). A1 handed off. 11 public venues audited. Search engine baseline captured (DuckDuckGo only — Google/Bing untestable). All changes committed on `feature/qwav-strategy-overhaul-2026-05-22`. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.47
 
 ---
 

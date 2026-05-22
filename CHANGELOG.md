@@ -4,6 +4,28 @@
 
 ---
 
+## [v2.47] — 2026-05-22 — Venue Registry: Complete Public Presence Audit
+
+**What Changed:** `strategy/VENUE-REGISTRY.md` (13.8 KB) created — permanent registry of ALL QWAV public venues. Captures the complete May 22, 2026 audit baseline for future comparison.
+
+**Contains:**
+- **§1-5: 30+ venues catalogued** — Primary web (5), Code/Dev (6), Publication permanence (9), Social distribution (6), Professional identity (6)
+- **§6: Search engine audit baseline** — DuckDuckGo rankings for 12 search terms. Google: untestable. Bing: degraded.
+- **§7: Filesystem vaults** — QWAV/, Obsidian/ (releases, notes, pvt, Clippings), Archive/
+- **§8: Strategy alignment gaps** — 8 prioritized gaps with fix actions
+- **§9: Success metrics audit checklist** — M2-M5 with baseline values
+- **§10: Audit cadence** — monthly full audit, weekly checks
+- **§11: 22 canonical search terms** for tracking visibility over time
+
+**Key finding from audit:** QWAV DOMINATES DuckDuckGo for brand terms (#1 for both "ultrametric quantum computing" and "Rowan Brad Quni-Gudzinas") but is COMPLETELY INVISIBLE for publication-specific searches. Exact title of flagship publication returns zero results. 145 Zenodo records invisible. QNFO brand has zero search presence. Google (90% market share) untestable.
+
+**Files Changed:**
+- `strategy/VENUE-REGISTRY.md` — CREATE: complete venue registry + audit baseline
+- `PROJECT STATE.md` — EDIT: updated handoff header
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/qwav-strategy-overhaul-2026-05-22`
+
 ## [v2.46] — 2026-05-22 — BUILD PHASE ACTIVE: Strategy Confirmed, A1 Handed Off
 
 **What Changed:** Founder confirmed the shift from passive "monitor and wait" to active "build and grow." The Build Gravity posture (strategy/3.0.md) is now the active strategy. First asset handed off to Projects agent.
