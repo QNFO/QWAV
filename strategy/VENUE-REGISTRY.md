@@ -4,15 +4,20 @@
 **Purpose:** Single-source registry of ALL QWAV/QNFO/Rowan public venues. Used for SEO audits, strategy alignment checks, and milestone tracking. Update when venues change or new ones launch.
 **Methodology:** Browser-loaded + search-engine queried (DuckDuckGo) + filesystem-verified (Obsidian vault, Archive, QWAV repo). Google untestable (blocks automated access). Bing degraded (probable bot detection).
 
+**Two-Site Architecture (corrected 2026-05-22):**
+- **qwav.tech = Marquee page.** Discovery + broad SEO. Casts a wide net. Appeals to investors + researchers. Static. Built with Google AI Studio app builder. Updated monthly.
+- **qnfo.github.io/QWAV/ = Technical site.** Depth. Current publications. Interactive artifacts. Frequently updated (per publication / per artifact deploy).
+- This architecture is intentional and strategic. The marquee gets people interested. The technical site gives them everything. Both are needed.
+
 ---
 
 ## 1. PRIMARY WEB PRESENCE
 
 | # | Venue | URL | Status | Strategy Align | Notes |
 |:--|:------|:----|:-------|:---------------|:------|
-| P1 | **qwav.tech** | https://qwav.tech | ✅ LIVE | ❌ Pre-refactor | React SPA. "institute" framing, investor section, recruitment, revenue model, stale DOIs, no interactive artifacts. **Not crawlable by search bots (JS-rendered).** |
-| P2 | **qwave.tech** | https://qwave.tech | ✅ LIVE — mirrors P1 | ❌ Same as P1 | Typo-protection domain. Content identical to qwav.tech. Smart to own. |
-| P3 | **GitHub Pages** | https://qnfo.github.io/QWAV/ | ✅ LIVE | ✅ ALIGNED | Static HTML from repo README. Clean thesis, 5 current DOIs, correct "solo" framing, no pitch. **Crawlable.** |
+| P1 | **qwav.tech** | https://qwav.tech | ✅ LIVE | ⚠️ Needs update | **Marquee page.** React SPA (Google AI Studio app builder). Broad SEO. Appeals to investors + research collaborators. "institute" framing is intentional marquee positioning. **Needs:** 3 missing publications added, cross-link to technical site, interactive demos teaser. Google AI Studio prompts at `briefings/google-ai-studio-prompts-qwav-marquee.md`. **Not crawlable by all search bots (JS-rendered).** DOIs are stale (6 pre-branding pubs, missing Symmetric Extension, Foundations, Q-PNA). |
+| P2 | **qwave.tech** | https://qwave.tech | ✅ LIVE — mirrors P1 | ⚠️ Same as P1 | Typo-protection domain. Content identical to qwav.tech. |
+| P3 | **GitHub Pages** | https://qnfo.github.io/QWAV/ | ✅ LIVE | ✅ CURRENT | **Technical site.** Static HTML from repo README. All 5 current DOIs. Correct "solo" framing. Clean. **Crawlable.** This is the day-to-day technical face — the marquee page (P1) is the discovery/SEO face. Two-site architecture is intentional. |
 | P4 | **qwav.org** | https://qwav.org | ❌ DOES NOT RESOLVE | — | ERR_NAME_NOT_RESOLVED. Domain not registered or no DNS. "Much better for search rankings" per founder — not yet registered. |
 | P5 | **QNFO.org** | http://qnfo.org | ⚠️ Referenced in Obsidian ABOUT.md (website, email, LICENSE) | Unknown | Not tested live. Referenced as canonical domain in Obsidian vault identity. |
 
@@ -118,15 +123,14 @@
 
 | Priority | Gap | Venues Affected | Fix |
 |:---------|:----|:----------------|:----|
-| 🔴 **CRITICAL** | qwav.tech shows pre-refactor content — investor pitch, recruitment, revenue model. The #1 search result shows the wrong posture. | P1, P2 | **Redirect qwav.tech → GitHub Pages (P3)** |
 | 🔴 **CRITICAL** | Google ranking unknown. 90% search market share. Total black box. | All | **Register with Google Search Console. Submit sitemap.** |
 | 🔴 **CRITICAL** | 145 Zenodo publications invisible to search. Exact titles return nothing. | Z1-Z9 | **Cross-link DOIs from all indexed venues.** |
-| 🟡 **HIGH** | GitHub Pages site has no SEO metadata. Title tag is generic. No OG tags. No Schema.org. | P3 | **Add `<title>`, meta description, OG tags, Schema.org, sitemap.xml, robots.txt** |
-| 🟡 **HIGH** | QNFO GitHub org has zero search presence. "QNFO quantum computing" returns Wikipedia. | G1 | **Add org-level README. Cross-link repos.** |
-| 🟡 **MEDIUM** | No unified visual identity across venues. | P1-P3, G1-G4, S1-S6 | **Develop QWAV visual brand asset kit** (logo, colors, typography) |
-| 🟡 **MEDIUM** | LinkedIn profile not explicitly QWAV-aligned | I3 | **Update LinkedIn to reference QWAV program, link to qwav.tech** |
-| 🟢 **LOW** | qwav.org not registered | P4 | **Register domain. Redirect to qwav.tech.** |
-| 🟢 **LOW** | No email response template for inbound contacts | — | **Create standard response template referencing interactive artifacts + DOIs** |
+| 🟡 **HIGH** | qwav.tech marquee shows 6 pre-branding publications. Missing 3 key May 2026 pubs: Symmetric Extension (Tier 1), Foundations (credential), Q-PNA v2.0 (spinoff). | P1, P2 | **Apply Google AI Studio prompts** at `briefings/google-ai-studio-prompts-qwav-marquee.md` |
+| 🟡 **HIGH** | No bridge from marquee (qwav.tech) to technical site (qnfo.github.io/QWAV/). Visitors who discover via search cannot reach the technical content. | P1→P3 | **Add cross-link** — Google AI Studio prompt #2 |
+| 🟡 **HIGH** | No interactive artifacts teaser on marquee page. A1-A5 deploying June 2026 — the marquee should build anticipation. | P1 | **Add "Interactive Demos" section** — Google AI Studio prompt #3 |
+| 🟡 **HIGH** | GitHub Pages site has no SEO metadata. No OG tags. No Schema.org. | P3 | **Add SEO metadata** to repo README / GitHub Pages |
+| 🟡 **MEDIUM** | QNFO GitHub org has zero search presence. "QNFO quantum computing" returns Wikipedia. | G1 | **Add org-level README. Cross-link repos.** |
+| 🟢 **LOW** | No email response template for inbound contacts | — | **Create standard response template** |
 
 ---
 
