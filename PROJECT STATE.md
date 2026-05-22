@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-22 | **Session:** Comprehensive strategy overhaul + venue audit + build phase activation. 3 strategy docs (2.0/3.0/venue-registry). 4 phase docs created (CHARTER, DEFINITION-OF-DONE, RISK-REGISTER, CONTRIBUTING). A1 handed off. 11 public venues audited. Search engine baseline captured (DuckDuckGo only — Google/Bing untestable). All changes committed on `feature/qwav-strategy-overhaul-2026-05-22`. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.47
+**Last updated:** 2026-05-22 | **Session:** Full backlog sprint. 3 quick-win items executed (P58-P60: QNFO README, email template, Zenodo audit). A2-A5 handoff specs written. All 5 interactive artifact handoffs now complete (A1-A5: 7.5 sessions). VENUE-REGISTRY corrected (qwav.org confirmed registered). Build Gravity posture active. All changes committed on `feature/qwav-strategy-overhaul-2026-05-22`. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.48
 
 ---
 
@@ -10,16 +10,16 @@
 
 | # | Action | Week | Sessions | Status |
 |:--|:-------|:-----|:---------|:-------|
-| **A1** | **Error Confinement Live Demo** — Interactive Bruhat-Tits tree on GitHub Pages | 1 | 2 | 🔴 HANDED OFF — `briefings/A1-handoff-error-confinement-demo.md` |
-| **K5** | **QNFO Org README** — QWAV overview on github.com/QNFO | 1 | 0.25 | 📋 |
-| **K1** | **qwav.tech** — Public-facing site with thesis, evidence, artifacts | 1 | 1.5 | 📋 |
-| **A2** | **Q-PNA Classifier Playground** — Interactive Q-PNA demo | 2 | 2 | 📋 |
-| **K2** | **Intellectual Genealogy** — 30 key publications catalogued | 2 | 1 | 📋 |
-| **A3** | **Ultrametric Convergence Explorer** — Upward-monotonic visualization | 3 | 1.5 | 📋 |
-| **A4** | **Tree Distance Sandbox** — Cophenetic/ultrametric/Euclidean comparison | 3 | 1 | 📋 |
-| **K3** | **Evidence Deck** — Scrollable computational results | 3 | 1 | 📋 |
-| **A5** | **Hardware Pathway Visualizer** — 3D neutral atom tree | 4 | 1 | 📋 |
-| **K4** | **Public Research Roadmap** — Forward-looking agenda | 4 | 0.5 | 📋 |
+| **A1** | **Error Confinement Live Demo** — Interactive Bruhat-Tits tree on GitHub Pages | 1 | 2 | 🔴 HANDED OFF |
+| **A2** | **Q-PNA Classifier Playground** — Glass-box AI demo on GitHub Pages | 2 | 2 | 🔴 HANDED OFF |
+| **A3** | **Ultrametric Convergence Explorer** — Convergence visualization | 3 | 1.5 | 🔴 HANDED OFF |
+| **A4** | **Tree Distance Sandbox** — Distance metrics comparison | 3 | 1 | 🔴 HANDED OFF |
+| **A5** | **Hardware Pathway Visualizer** — 3D neutral atom tree | 4 | 1 | 🔴 HANDED OFF |
+| **K5** | **QNFO Org README** — QWAV overview on github.com/QNFO | 1 | 0.25 | ✅ DONE — `briefings/QNFO-org-README.md` |
+| **K1** | **qwav.tech marquee update** — 3 pubs + cross-link + demos teaser | 1 | — | ✅ APPLIED via AI Studio |
+| **P59** | **Email response template** | — | — | ✅ DONE — `briefings/inbound-email-template.md` |
+| **P60** | **Zenodo cross-link audit** | — | — | ✅ DONE — `briefings/zenodo-crosslink-audit.md` |
+| **T1-T12** | **Technical site overhaul** — qnfo.github.io/QWAV/ (11 sessions) | 1-4 | 11 | 📋 HANDED OFF — `briefings/technical-site-sprint-plan.md` |
 
 **Background processes (not blocking build phase):**
 | # | Action | Cadence | Status |

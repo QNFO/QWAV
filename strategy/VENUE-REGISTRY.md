@@ -2,7 +2,7 @@
 
 **Created:** 2026-05-22
 **Purpose:** Single-source registry of ALL QWAV/QNFO/Rowan public venues. Used for SEO audits, strategy alignment checks, and milestone tracking. Update when venues change or new ones launch.
-**Methodology:** Browser-loaded + search-engine queried (DuckDuckGo) + filesystem-verified (Obsidian vault, Archive, QWAV repo). Google untestable (blocks automated access). Bing degraded (probable bot detection).
+**Methodology:** Browser-loaded + search-engine queried (DuckDuckGo) + filesystem-verified (Obsidian vault, Archive, QWAV repo). Google untestable (blocks automated access). Bing degraded (probable bot detection). **Update 2026-05-22:** All QWAV domains/URLs submitted to Bing Webmaster Tools (imported from Google Search Console). Both Google and Bing now actively indexing.
 
 **Two-Site Architecture (corrected 2026-05-22):**
 - **qwav.tech = Marquee page.** Discovery + broad SEO. Casts a wide net. Appeals to investors + researchers. Static. Built with Google AI Studio app builder. Updated monthly.
@@ -18,7 +18,7 @@
 | P1 | **qwav.tech** | https://qwav.tech | ✅ LIVE | ⚠️ Needs update | **Marquee page.** React SPA (Google AI Studio app builder). Broad SEO. Appeals to investors + research collaborators. "institute" framing is intentional marquee positioning. **Needs:** 3 missing publications added, cross-link to technical site, interactive demos teaser. Google AI Studio prompts at `briefings/google-ai-studio-prompts-qwav-marquee.md`. **Not crawlable by all search bots (JS-rendered).** DOIs are stale (6 pre-branding pubs, missing Symmetric Extension, Foundations, Q-PNA). |
 | P2 | **qwave.tech** | https://qwave.tech | ✅ LIVE — mirrors P1 | ⚠️ Same as P1 | Typo-protection domain. Content identical to qwav.tech. |
 | P3 | **GitHub Pages** | https://qnfo.github.io/QWAV/ | ✅ LIVE | ✅ CURRENT | **Technical site.** Static HTML from repo README. All 5 current DOIs. Correct "solo" framing. Clean. **Crawlable.** This is the day-to-day technical face — the marquee page (P1) is the discovery/SEO face. Two-site architecture is intentional. |
-| P4 | **qwav.org** | https://qwav.org | ❌ DOES NOT RESOLVE | — | ERR_NAME_NOT_RESOLVED. Domain not registered or no DNS. "Much better for search rankings" per founder — not yet registered. |
+| P4 | **qwav.org** | https://qwav.org | ✅ REGISTERED — resolves to qwav.tech | ✅ | User confirmed registered. Points to same marquee page as qwav.tech. |
 | P5 | **QNFO.org** | http://qnfo.org | ⚠️ Referenced in Obsidian ABOUT.md (website, email, LICENSE) | Unknown | Not tested live. Referenced as canonical domain in Obsidian vault identity. |
 
 ---
