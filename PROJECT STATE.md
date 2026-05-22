@@ -10,11 +10,11 @@
 
 | # | Action | Week | Sessions | Status |
 |:--|:-------|:-----|:---------|:-------|
-| **A1** | **Error Confinement Live Demo** — Interactive Bruhat-Tits tree on GitHub Pages | 1 | 2 | ✅ BUILT — `artifacts/error-confinement-demo/` |
-| **A2** | **Q-PNA Classifier Playground** — Glass-box AI demo on GitHub Pages | 2 | 2 | 🔴 HANDED OFF |
-| **A3** | **Ultrametric Convergence Explorer** — Convergence visualization | 3 | 1.5 | 🔴 HANDED OFF |
-| **A4** | **Tree Distance Sandbox** — Distance metrics comparison | 3 | 1 | 🔴 HANDED OFF |
-| **A5** | **Hardware Pathway Visualizer** — 3D neutral atom tree | 4 | 1 | 🔴 HANDED OFF |
+| **A1** | **Error Confinement Live Demo** — `projects/2026/05/ultrametric-error-confinement-demo/` | 1 | 2 | 🟣 SPUN OFF — ready for deploy |
+| **A2** | **Q-PNA Classifier Playground** — `projects/2026/05/qpna-classifier-playground/` | 2 | 2 | 🟣 SPUN OFF — ready for deploy |
+| **A3** | **Ultrametric Convergence Explorer** — `projects/2026/05/ultrametric-convergence-explorer/` | 3 | 1.5 | 🟣 SPUN OFF — ready for deploy |
+| **A4** | **Tree Distance Sandbox** — `projects/2026/05/tree-distance-sandbox/` | 3 | 1 | 🟣 SPUN OFF — ready for deploy |
+| **A5** | **Hardware Pathway Visualizer** — `projects/2026/05/hardware-pathway-visualizer/` | 4 | 1 | 🟣 SPUN OFF — ready for deploy |
 | **K5** | **QNFO Org README** — QWAV overview on github.com/QNFO | 1 | 0.25 | ✅ DONE — `briefings/QNFO-org-README.md` |
 | **K1** | **qwav.tech marquee update** — 3 pubs + cross-link + demos teaser | 1 | — | ✅ APPLIED via AI Studio |
 | **P59** | **Email response template** | — | — | ✅ DONE — `briefings/inbound-email-template.md` |
@@ -54,8 +54,13 @@ These are QWAV-defined projects delegated to the Projects agent (`G:\My Drive\pr
 | Project | Directory | Status | Phase | Last Deliverable | Next Milestone |
 |:--------|:----------|:-------|:------|:-----------------|:---------------|
 | **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🟣 Done | P5 — Close-Out | v2.0 Research Specification (52 KB) published. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. Archived. | Complete |
-| **Hierarchy as Ultrametricity** | `G:\My Drive\projects\Hierarchy as Ultrametricity\` | 🔄 Active | P2 — Execution | Research synthesis: hierarchy ≡ ultrametricity. Formal proof + cross-field catalog + cophenetic integration. 10 tasks in SPRINT.md. | Publication-ready document at `Obsidian/releases/2026/05/` |
-| **Ultrametric Game of Life** | `G:\My Drive\projects\ultrametric-game-of-life\` | 🔄 Active | P2 — Execution | Computational simulation: Conway's Game of Life on Bruhat-Tits tree topology. 9 tasks in SPRINT.md. | Working Python simulation with visualization and Euclidean baseline comparison |
+| **Error Confinement Demo** | `G:\My Drive\projects\2026\05\ultrametric-error-confinement-demo\` | 🟣 Spun Off | P4 — Deploy | Interactive Bruhat-Tits tree (10 KB). Single HTML + vanilla JS. | Deploy to GitHub Pages → `QNFO.github.io/ultrametric-error-confinement/` |
+| **Q-PNA Playground** | `G:\My Drive\projects\2026\05\qpna-classifier-playground\` | 🟣 Spun Off | P4 — Deploy | Glass-box AI demo (9 KB). Decision tree explorer. STC verification. | Deploy to GitHub Pages → `QNFO.github.io/q-pna/` |
+| **Convergence Explorer** | `G:\My Drive\projects\2026\05\ultrametric-convergence-explorer\` | 🟣 Spun Off | P4 — Deploy | Side-by-side particle simulation (7 KB). | Deploy to GitHub Pages → `QNFO.github.io/ultrametric-convergence/` |
+| **Tree Distance Sandbox** | `G:\My Drive\projects\2026\05\tree-distance-sandbox\` | 🟣 Spun Off | P4 — Deploy | Distance comparison + triadic rigidity (8 KB). | Deploy to GitHub Pages → `QNFO.github.io/tree-distance/` |
+| **Hardware Visualizer** | `G:\My Drive\projects\2026\05\hardware-pathway-visualizer\` | 🟣 Spun Off | P4 — Deploy | 3D 40-atom tree (5 KB). | Deploy to GitHub Pages → `QNFO.github.io/hardware-pathway/` |
+| **Hierarchy as Ultrametricity** | `G:\My Drive\projects\Hierarchy as Ultrametricity\` | 🔄 Active | P2 — Execution | Research synthesis: hierarchy ≡ ultrametricity. | Publication-ready document |
+| **Ultrametric Game of Life** | `G:\My Drive\projects\ultrametric-game-of-life\` | 🔄 Active | P2 — Execution | Computational simulation. | Working Python simulation |
 
 **Spinoff lifecycle:**
 1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol
