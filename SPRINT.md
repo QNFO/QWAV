@@ -4,24 +4,19 @@
 
 ---
 
-## Current State (2026-05-21 — Strategic Evolution Applied, Monitoring Phase)
+## Current State (2026-05-22 — Strategy Reframed: Build Gravity)
 
 ### Strategy Summary (Read This First)
 
-QWAV is a solo deep-tech venture advancing ultrametric ($p$-adic) quantum computing and AI. The core thesis: replacing Archimedean (continuous) geometry with ultrametric (tree-based) geometry enables passive fault tolerance in quantum computing and glass-box explainability in AI — solving two multi-billion-dollar problems with one mathematical correction.
+QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) geometry for quantum computing and AI. 5 Zenodo publications. Zero logical errors at depth 7. 48× error reduction. Glass-box AI outperforming transformers.
 
-**ACTION PLAN status:** All 7 items resolved. Buffer 🟢 Live (QWAV content distributed). SBIR ⚠️ DEFERRED. FQXi ⚠️ Monitoring.
+**STRATEGY REFRAMED (2026-05-22):** `strategy/3.0.md` — shifts from passive "monitoring and waiting" to active "building gravity." The program does not wait for application outcomes. It builds interactive artifacts, knowledge architecture, and publication rhythm that create their own gravitational pull. 10 assets across 3 tiers. 30-day concrete build plan. All D1-D13 compliant.
 
-**Strategic evolution (2026-05-20, applied 2026-05-21):** D13 added (interactive-first, multi-channel distribution). L23 added (papers aren't read — interactive artifacts engage). strategy/1.0.md §3.3, §3.4, §8.2 revised. v2.42 changelog entry recorded. Preliminary finding from Hierarchy as Ultrametricity spinoff captured. See commit 685f34f.
+**Current posture:** BUILD PHASE. 10 assets planned (5 interactive artifacts + 5 knowledge architecture). 14-session, 30-day build plan. Applications monitored in background. Spinoffs executing in background. Buffer autonomous.
 
-**Key Constraints (Non-Negotiable):**
-- **No physical lab access** — all experiments are computational simulations
-- **No peer review** — the peer-review system is rejected as gatekeeping; open-access, reader-evaluated publication only
-- **Written-first strategy** — no live pitches, no networking, no "business development"
-- **Substance over credentials** — target audiences that evaluate ideas on merit, not institutional affiliation
-- **Interactive-first distribution (D13)** — every spinoff MUST produce an interactive public artifact. Social media links to the artifact, not the paper. The DOI is archival backstop, not primary engagement channel.
+**Next immediate action:** A1 — Error Confinement Live Demo (interactive Bruhat-Tits tree simulation, 2 sessions).
 
-**Primary Bottleneck:** Evidence. The thesis is mathematically sound and computationally validated (Tier 0 paper published, Zenodo DOI: 10.5281/zenodo.20134944, 2026-05-12). Next bottleneck: adoption — getting the right people to engage with interactive artifacts rather than papers.
+**Key Constraints (Non-Negotiable):** D1-D13 — no lab, no peer review, written-only, solo founder, substance-first, no external dependencies, interactive-first distribution.
 
 ---
 

@@ -4,6 +4,45 @@
 
 ---
 
+## [v2.44] — 2026-05-22 — Strategy Reframe: Build Gravity, Don't Wait for Permission
+
+**What Changed:** strategy/3.0.md (22 KB, ~3,500 words, 8 sections) published — replaces the passive "monitoring phase" posture of 2.0 with an active "build gravity" posture. The 2.0 strategy was correct defensively but strategically inert: it defined a program waiting for exogenous events. 3.0 defines a program that builds endogenous momentum.
+
+**Key reframes:**
+- FROM: "Monitor applications, wait for responses" → TO: "Build gravitational pull so applications become secondary"
+- FROM: "No new initiatives until application outcomes" → TO: "10 assets in 30 days, all D1-D13 compliant"
+- FROM: "Inbound-only" as waiting → TO: "Inbound-only" as natural consequence of gravity
+
+**New: The Gravity Portfolio (10 assets, ~14 sessions, 30 days):**
+- **Tier 1 — Interactive Artifacts (D13):** A1 Error Confinement Live Demo, A2 Q-PNA Classifier Playground, A3 Ultrametric Convergence Explorer, A4 Tree Distance Sandbox, A5 Hardware Pathway Visualizer
+- **Tier 2 — Knowledge Architecture:** K1 qwav.tech public site, K2 Intellectual Genealogy (30 publications), K3 Evidence Deck (scrollable results), K4 Public Research Roadmap, K5 QNFO Org README
+- **Tier 3 — Living Program:** L1 Publication rhythm (biweekly-monthly), L2 Spinoff pipeline (2-3 active), L3 Buffer calendar (2-4 weeks ahead), L4 Monthly evidence update, L5 Application cycle (background)
+
+**Concrete 30-day build plan (May 22 – June 22):** Week-by-week session allocation. 13.75 sessions total. At 1 session/day: 2 weeks. At 1 session/2 days: 4 weeks.
+
+**Files Changed:**
+- `strategy/3.0.md` — CREATE: reframed strategy
+- `PROJECT STATE.md` — EDIT: updated handoff header
+- `SPRINT.md` — EDIT: current state + action plan
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/qwav-strategy-overhaul-2026-05-22`
+
+## [v2.43] — 2026-05-22 — Comprehensive Strategy Overhaul: From Piecemeal to Program
+
+**What Changed:** strategy/2.0.md (42 KB, ~6,000 words, 10 sections) published — synthesizes all prior strategy, the 673-release corpus, all 23 learnings, all 13 decisions, and the Archive project history into a single coherent architecture.
+
+**Key additions:** Vision Layers (Personal/Program/Public) defined and synchronized for the first time. Venue Architecture matrix across 13 venues with current vs. desired state audit. 673-Release Corpus integration strategy (Option B: Selective Curation). Trigger-based action plan replacing fixed timeline. Deprecated activities catalog. Integration gaps audit (8 gaps identified).
+
+**Files Changed:**
+- `strategy/2.0.md` — CREATE: comprehensive strategy overhaul
+- `PROJECT STATE.md` — EDIT: updated handoff header, new action plan
+- `SPRINT.md` — EDIT: current state updated
+- `BACKLOG.md` — EDIT: new integration gap items added
+- `CHANGELOG.md` — EDIT: this entry
+
+**Git:** `feature/qwav-strategy-overhaul-2026-05-22`
+
 ## [v2.42] — 2026-05-20 — Strategic Evolution: Multi-Channel Distribution with Interactive-First Posture
 
 **What Changed:** Analytics confirm paper-first distribution model has failed (near-zero Zenodo readership). Program shifts to interactive-first, multi-channel distribution per new D13 constraint.

@@ -2,24 +2,32 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-21 | **Session:** Strategic evolution session. D13 added to DECISIONS.md (interactive-first, multi-channel distribution). L23 added to LEARNINGS.md (papers aren't read — interactive artifacts engage). strategy/1.0.md §3.3, §3.4, and §8.2 revised with new distribution posture. v2.42 changelog entry recorded. Preliminary finding from Hierarchy as Ultrametricity spinoff captured (convergence-consilience mechanism). All changes committed and pushed to GitHub (commit 685f34f). Portfolio clean. Monitoring phase. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.42
+**Last updated:** 2026-05-22 | **Session:** Strategy reframed from passive to active. strategy/3.0.md (22 KB, ~3,500 words) published — replaces the "monitoring phase" posture of 2.0 with a "build gravity" posture. Defines 10 assets across 3 tiers: 5 interactive artifacts (A1-A5), 5 knowledge architecture assets (K1-K5), and 5 living program activities (L1-L5). Provides concrete 30-day build plan (May 22 – June 22) with daily session allocation. Shifts from "wait for applications" to "build something that makes waiting irrelevant." All D1-D13 constraints honored. All changes committed on `feature/qwav-strategy-overhaul-2026-05-22`. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.44
 
 ---
 
-## ACTION PLAN — What To Do Next
+## ACTION PLAN — Build Phase (30 Days: May 22 – June 22, 2026)
 
-| # | Action | Deadline | Time | Status |
-|:--|:-------|:---------|:-----|:-------|
-| 1 | ~~VSD case study~~ — ❌ CANCELLED. | — | — | ❌ |
-| 2 | **Post LinkedIn + Substack** — Drafts at `strategy/0.4_linkedin.md` and `strategy/0.4_substack.md`. Plain text, copy-paste ready. | May 18 | 30 min | ✅ **DONE** |
-| 3 | **Monitor Buffer** — Mastodon, Twitter/X, Bluesky posts queued. QWAV content distributed across all platforms. Queue autonomous. Buffer monitoring complete for this session — Q-PNA campaign fired successfully (May 20), P27 synthesis fired (May 19). Force-Multiplier campaign autonomous through Jun 11. No errors. | Ongoing | As needed | 🟢 Live |
-| 4 | **Cophenetic DOI cross-ref** (P39) — DOI 10.5281/zenodo.20213043 added to QWAV credential doc (ref [14]) and competitive landscape (0.5.md). | May 18 | 30 min | ✅ **DONE** |
-| 5 | **Q-PNA / AI specification** (P6) — v2.0 Research Specification published. 12 experiments validated. Zenodo DOI `10.5281/zenodo.20287742`. GitHub `QNFO/Q-PNA`. Archived. | May 19 | — | 🟣 ✅ **DONE** |
-| 6 | **SBIR Phase I** (P9) — Federal grant. Entities confirmed (Empowering Change 501c3, Data For Good LLC). Deferred — US legal/tax not a current priority. | Deferred | — | ⚠️ DEFERRED |
-| 7 | **FQXi Essay Contest** (P29) — No 2026 contest open. Results saved to `strategy/src_fqxi_2026.md`. Monitor fqxi.org. | Monitor | — | ⚠️ Monitoring |
-| 8 | **New Spinoffs** (P49, P50) — Hierarchy as Ultrametricity (10 tasks, research synthesis) and Ultrametric Game of Life (9 tasks, computational simulation) scaffolded. Both on `feature/initial-setup` in independent repos. Awaiting Projects agent assignment. | May 20 | — | 🔄 Handoff ready |
-| 9 | **Forward Strategy** — `strategy/1.0.md` published. Comprehensive 10-section strategy synthesizing all prior work. | May 20 | — | ✅ **DONE** |
-| 10 | **Session Close-Out** — All documentation updated. 26 commits pushed to GitHub. Repo clean on `main`. | May 20 | — | ✅ **DONE** |
+| # | Action | Week | Sessions | Status |
+|:--|:-------|:-----|:---------|:-------|
+| **A1** | **Error Confinement Live Demo** — Interactive Bruhat-Tits tree on GitHub Pages | 1 | 2 | 📋 NEXT |
+| **K5** | **QNFO Org README** — QWAV overview on github.com/QNFO | 1 | 0.25 | 📋 |
+| **K1** | **qwav.tech** — Public-facing site with thesis, evidence, artifacts | 1 | 1.5 | 📋 |
+| **A2** | **Q-PNA Classifier Playground** — Interactive Q-PNA demo | 2 | 2 | 📋 |
+| **K2** | **Intellectual Genealogy** — 30 key publications catalogued | 2 | 1 | 📋 |
+| **A3** | **Ultrametric Convergence Explorer** — Upward-monotonic visualization | 3 | 1.5 | 📋 |
+| **A4** | **Tree Distance Sandbox** — Cophenetic/ultrametric/Euclidean comparison | 3 | 1 | 📋 |
+| **K3** | **Evidence Deck** — Scrollable computational results | 3 | 1 | 📋 |
+| **A5** | **Hardware Pathway Visualizer** — 3D neutral atom tree | 4 | 1 | 📋 |
+| **K4** | **Public Research Roadmap** — Forward-looking agenda | 4 | 0.5 | 📋 |
+
+**Background processes (not blocking build phase):**
+| # | Action | Cadence | Status |
+|:--|:-------|:--------|:-------|
+| **Monitor applications** | Weekly inbox check — 6 pending | ⏳ |
+| **Monitor Buffer** | Weekly — queue autonomous through Jun 11 | 🟢 |
+| **Monitor spinoffs** | Weekly — 2 active under Projects agent | 🔄 |
+| **SBIR** | Deferred — US legal/tax not current priority | ⚠️ |
 
 ### Reference Library (Not Action Items)
 
