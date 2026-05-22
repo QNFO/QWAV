@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hardware Pathway Visualizer — QWAV</title>
+<meta name="description" content="Interactive 3D visualization of the 40-atom neutral atom Bruhat-Tits tree layout. Rydberg blockade gates. 4K operation. Buildable today.">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:#0A1128;color:#E5E5E5;font-family:system-ui,-apple-system,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+header{width:100%;padding:1.5rem 2rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(129,140,248,0.2)}
+header a{color:#818CF8;text-decoration:none;font-size:.875rem}
+h1{font-size:1.5rem;font-weight:600;background:linear-gradient(135deg,#818CF8,#C4B5FD);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+main{flex:1;display:flex;flex-wrap:wrap;gap:1.5rem;padding:1.5rem;max-width:1200px;margin:0 auto;width:100%}
+#viz-panel{flex:2;min-width:500px;background:rgba(129,140,248,0.04);border-radius:12px;border:1px solid rgba(129,140,248,0.12);padding:1rem}
+#hwCanvas{width:100%;display:block;border-radius:8px;background:rgba(10,17,40,0.8)}
+.info-panel{flex:1;min-width:250px;display:flex;flex-direction:column;gap:1rem}
+.info-card{padding:1.25rem;border-radius:10px;border:1px solid rgba(129,140,248,0.15);background:rgba(129,140,248,0.04)}
+.info-card h3{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:#818CF8;margin-bottom:.5rem}
+.info-card .big{font-size:2rem;font-weight:700;color:#34D399}
+.info-card p{font-size:.75rem;color:#9CA3AF;line-height:1.5;margin-top:.25rem}
+.gate-legend{display:flex;gap:1rem;flex-wrap:wrap;font-size:.7rem;color:#9CA3AF}
+.gate-legend span{display:flex;align-items:center;gap:.25rem}
+.gate-legend .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.instruction{font-size:.7rem;color:#6B7280;text-align:center}
+footer{width:100%;padding:1rem;text-align:center;border-top:1px solid rgba(129,140,248,0.1)}
+footer a{color:#818CF8;text-decoration:none;font-size:.75rem;margin:0 .75rem}
+</style>
+</head>
+<body>
+<header>
+<h1>Hardware Pathway Visualizer</h1>
+<a href="https://qnfo.github.io/QWAV/">← Technical Site</a>
+</header>
+<main>
+<div id="viz-panel">
+<canvas id="hwCanvas"></canvas>
+<p class="instruction">Drag to rotate. Scroll to zoom. 40 atoms. Ternary tree depth 3. Rydberg blockade gates.</p>
+<div class="gate-legend">
+<span><span class="dot" style="background:#818CF8"></span> Data qubit (leaf)</span>
+<span><span class="dot" style="background:#6366F1"></span> Vertex atom</span>
+<span><span class="dot" style="background:#FBBF24"></span> Rydberg gate connection</span>
+</div>
+</div>
+<div class="info-panel">
+<div class="info-card"><h3>Atoms</h3><div class="big">40</div><p>Ternary tree depth 3. 27 leaf qubits + 13 vertex atoms. Within demonstrated neutral atom array capabilities (Harvard, Caltech, PASQAL).</p></div>
+<div class="info-card"><h3>Temperature</h3><div class="big">4 K</div><p>Standard cryogenic operation. No millikelvin dilution refrigerator required. The 20,000× cooling gap is bypassed — not solved.</p></div>
+<div class="info-card"><h3>Gates</h3><div class="big">Rydberg</div><p>Rydberg blockade interactions between adjacent tree vertices. Natural mapping: tree edges = physical gate connections. No exotic hardware.</p></div>
+<div class="info-card"><h3>Status</h3><div class="big">Spec Published</div><p>Complete hardware specification in Symmetric Extension paper (DOI: 10.5281/zenodo.20208437). Awaiting experimental collaboration.</p></div>
+</div>
+</main>
+<footer>
+<a href="https://qwav.tech">qwav.tech</a>
+<a href="https://doi.org/10.5281/zenodo.20208437">DOI: 10.5281/zenodo.20208437</a>
+</footer>
+<script>
+const hwCanvas=document.getElementById('hwCanvas'),hwCtx=hwCanvas.getContext('2d');
+let hwAngle=0,hwZoom=1,hwDragging=false,hwLastX=0,hwLastY=0;
+let hwAtoms=[];
+
+function buildHWTree(){
+ const atoms=[];
+ let id=0;
+ function project3D(x,y,z){
+  const cos=Math.cos(hwAngle),sin=Math.sin(hwAngle);
+  const rx=x*cos-z*sin,rz=x*sin+z*cos;
+  const cx=hwCanvas.width/2,cy=hwCanvas.height/2;
+  const s=hwZoom*120;
+  return{cx:cx+rx*s,cy:cy-(y*s-70)+rz*s*0.5,z:rz,r:3+2*(1-z*0.3)};
+ }
+ function addAtom(x,y,z,layer,isLeaf){
+  const p=project3D(x,y,z);
+  atoms.push({...p,x3:x,y3:y,z3:z,layer,isLeaf,id:id++});
+ }
+ for(let leaf=0;leaf<27;leaf++){
+  const lx=(leaf%3-1)*0.6,ly=((Math.floor(leaf/3))%3-1)*0.6,lz=(Math.floor(leaf/9)-1)*0.6;
+  addAtom(lx,ly,lz,3,true);
+ }
+ for(let v=0;v<9;v++){
+  const vx=(v%3-1)*1.1,vy=((Math.floor(v/3))%3-1)*1.1,vz=0;
+  addAtom(vx,vy,vz,2,false);
+ }
+ for(let v=0;v<3;v++){
+  addAtom((v-1)*1.5,0,0,1,false);
+ }
+ addAtom(0,0,0,0,false);
+ return atoms;
+}
+
+function drawHW(){
+ const w=Math.max(500,hwCanvas.parentElement.clientWidth-40);
+ const h=Math.max(450,500);
+ hwCanvas.width=w;hwCanvas.height=h;
+ hwCtx.fillStyle='rgba(10,17,40,0.9)';hwCtx.fillRect(0,0,w,h);
+ hwAtoms=buildHWTree();
+ const zSorted=[...hwAtoms].sort((a,b)=>a.z-b.z);
+ zSorted.forEach(a=>{
+  hwCtx.beginPath();hwCtx.arc(a.cx,a.cy,a.r+1,0,Math.PI*2);
+  hwCtx.fillStyle=a.isLeaf?'rgba(129,140,248,0.3)':'rgba(99,102,241,0.2)';
+  hwCtx.fill();
+ });
+ zSorted.forEach(a=>{
+  if(a.layer>0){
+   const parent=zSorted.find(p=>!p.isLeaf&&p.layer===a.layer-1);
+   if(parent){
+    hwCtx.beginPath();hwCtx.moveTo(a.cx,a.cy);hwCtx.lineTo(parent.cx,parent.cy);
+    hwCtx.strokeStyle='rgba(251,191,36,0.2)';hwCtx.lineWidth=1;hwCtx.stroke();
+   }
+  }
+ });
+ zSorted.forEach(a=>{
+  hwCtx.beginPath();hwCtx.arc(a.cx,a.cy,a.r,0,Math.PI*2);
+  hwCtx.fillStyle=a.isLeaf?'#818CF8':'#6366F1';
+  hwCtx.fill();
+  hwCtx.strokeStyle='rgba(255,255,255,0.15)';hwCtx.lineWidth=.5;hwCtx.stroke();
+ });
+ hwCtx.fillStyle='rgba(255,255,255,0.5)';hwCtx.font='bold 10px system-ui';hwCtx.textAlign='center';
+ hwCtx.fillText('40 ATOMS',w/2,25);
+ hwCtx.fillText('TERNARY TREE · DEPTH 3 · 4K',w/2,40);
+}
+
+hwCanvas.addEventListener('mousedown',e=>{hwDragging=true;hwLastX=e.clientX;hwLastY=e.clientY});
+hwCanvas.addEventListener('mousemove',e=>{if(!hwDragging)return;hwAngle+=(e.clientX-hwLastX)*0.01;hwLastX=e.clientX;hwLastY=e.clientY;drawHW()});
+hwCanvas.addEventListener('mouseup',()=>{hwDragging=false});
+hwCanvas.addEventListener('mouseleave',()=>{hwDragging=false});
+hwCanvas.addEventListener('wheel',e=>{e.preventDefault();hwZoom=Math.max(0.3,Math.min(3,hwZoom-e.deltaY*0.001));drawHW()});
+window.addEventListener('resize',drawHW);
+drawHW();
+</script>
+</body>
+</html>
