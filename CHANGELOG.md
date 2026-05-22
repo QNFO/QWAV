@@ -4,7 +4,28 @@
 
 ---
 
-## v2.52 — 2026-05-23 — Project Audit & Synchronization
+## v2.53 — 2026-05-23 — Project Management Overhaul: Charters & DoDs Rebuilt
+
+**What Changed:** Replaced all 16 template-generated PROJECT-CHARTER.md and DEFINITION-OF-DONE.md files across all 8 active projects with detailed, honest, project-specific versions. Each file now includes:
+- **QWAV Strategy Nexus** — explicit justification of why the project exists relative to strategy/3.0.md Build Gravity
+- **Honest Status Assessment** — no checkbox theater ("tested: slider moved"), real status reporting
+- **Test Plan Gates** — executable test specifications with specific test cases and expected results
+- **Gap Analysis** — what's missing, what's critical, what's cosmetic
+
+**Key findings documented:**
+- A2 (Q-PNA) has **hardcoded fake accuracy numbers** — critical credibility risk
+- A5 (Hardware) has **72 lines of 2D JS** for a "3D visualization" — requires complete rebuild
+- A1-A5 have **zero automated tests** — only "Verify live URL" checkboxes
+- Game of Life is the **only artifact with an executed test suite** (46/53 pass, 7 documented failures)
+- Nested Semantic Graph is genuinely CLOSED OUT (5 sprints, 50 commits) — Sprint 6 tasks cancelled
+
+**Files Changed:** 16 files across 8 projects:
+- `projects/*/PROJECT-CHARTER.md` × 8 (replaced template boilerplate)
+- `projects/*/DEFINITION-OF-DONE.md` × 8 (replaced checkbox theater with test gates)
+
+**Git:** 8 commits across 8 projects | **QWAV CHANGELOG:** This entry
+
+---
 
 **What Changed:** Comprehensive audit of all 8 projects under `G:\My Drive\projects\` (excluding markdown-pdf-builder). Synchronized QWAV documentation to reflect all deployed/completed artifacts.
 
