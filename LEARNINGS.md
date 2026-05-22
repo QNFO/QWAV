@@ -6,6 +6,29 @@
 
 ---
 
+### L25: All deliverables MUST have a detailed, executed test plan — "Deployed" is not "Done," "Clicked the slider" is not "Tested"
+
+- **Category:** METHODOLOGY
+- **Issue:** The 2026-05-23 cross-project audit revealed that 6 of 8 active projects (A1-A5 + K1 — the entire Build Phase portfolio) have ZERO automated tests. Their "test" consists of a single checkbox: "Verify live URL." The Definition of Done files contained checkbox theater — `[x]` marks next to claims like "tested: slider movement → canvas redraw" with no test script, no test log, no screenshot, and no automated verification. One project (A2) contains hardcoded fake accuracy numbers that were never validated against any dataset. Only one project (Game of Life) has an actual executed test suite — and it found 7 real failures (46/53 pass).
+
+The pattern is systemic: deliverables are declared "complete" and "deployed" the moment a URL loads, with zero verification that the code actually works, the math is correct, or the claims match reality. This produces a portfolio of untested prototypes masquerading as finished products.
+
+- **Solution:** Every deliverable — code, document, or artifact — must include:
+  1. **A test plan file** (`test_plan.py` or equivalent) with specific, executable test cases and expected results, written BEFORE the deliverable is declared complete.
+  2. **Execution evidence** — a test log, screenshot, or terminal output showing tests were run and results recorded.
+  3. **Pass/fail accounting** — honest reporting of what passed and what failed, with documented explanations for failures.
+  4. **The test plan is part of the Definition of Done** — a deliverable CANNOT be marked `[x]` complete until its test plan is written AND executed.
+
+  The Game of Life project (46/53 pass, 7 documented failures) is the model. Every other project should match this standard.
+
+- **Prevention:** 
+  - Add "Test Plan Executed" as a mandatory gate in every DEFINITION-OF-DONE.md template.
+  - The SPRINT.md "Verify live URL" task must be replaced with "Execute test plan: N/N pass" as the completion condition.
+  - No deliverable may be marked DEPLOYED or COMPLETE in PROJECT STATE.md until test results are committed.
+  - Audit question for every project review: "Show me the test plan. Show me the test results."
+
+- **Cross-Project:** YES — This applies to all projects. The checkbox-theater pattern was found across every Build Phase artifact. Any future project spun off from QWAV or initiated independently must have test plans as a Definition of Done prerequisite.
+
 ## Active Learnings
 
 ### L1: Computational validation is the highest-leverage evidence generator
