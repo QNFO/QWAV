@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QWAV — Ultrametric Quantum Computing & AI | Technical Site</title>
+<meta name="description" content="QWAV technical site: computational evidence, interactive demos, and open-access publications on ultrametric quantum computing and glass-box AI. Zero logical errors at depth 7. 48× error reduction.">
+<meta property="og:title" content="QWAV — Ultrametric Quantum Computing & AI">
+<meta property="og:description" content="Computational evidence, interactive demos, open-access publications on ultrametric quantum computing and glass-box AI.">
+<meta property="og:url" content="https://qnfo.github.io/QWAV/">
+<meta property="og:type" content="website">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#0A1128;color:#E5E5E5;font-family:system-ui,-apple-system,sans-serif;line-height:1.6}
+nav{position:sticky;top:0;z-index:50;background:rgba(10,17,40,0.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(129,140,248,0.15);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
+nav a{color:#818CF8;text-decoration:none;font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;transition:color .2s}
+nav a:hover{color:#A5B4FC}
+.nav-brand{font-weight:700;font-size:1rem;background:linear-gradient(135deg,#818CF8,#C4B5FD);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform:none;letter-spacing:0}
+.nav-links{display:flex;gap:1.5rem;flex-wrap:wrap}
+section{padding:4rem 2rem;max-width:1100px;margin:0 auto;width:100%}
+section h2{font-size:1.5rem;margin-bottom:2rem;background:linear-gradient(135deg,#818CF8,#C4B5FD);-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:inline-block}
+#hero{text-align:center;padding:6rem 2rem 4rem}
+#hero h1{font-size:2.5rem;font-weight:700;margin-bottom:1.5rem;background:linear-gradient(135deg,#818CF8,#C4B5FD);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+#hero p{max-width:700px;margin:0 auto 2rem;color:#9CA3AF;font-size:1.1rem}
+#hero .badge{display:inline-block;padding:.4rem 1rem;border-radius:20px;background:rgba(52,211,153,0.1);color:#34D399;font-size:.8rem;margin-bottom:1.5rem;border:1px solid rgba(52,211,153,0.2)}
+.hero-links{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.hero-links a{padding:.75rem 2rem;border-radius:8px;text-decoration:none;font-size:.9rem;font-weight:600;transition:all .2s}
+.btn-primary{background:linear-gradient(135deg,#818CF8,#6366F1);color:#fff}
+.btn-primary:hover{opacity:.9}
+.btn-secondary{background:rgba(129,140,248,0.1);color:#E5E5E5;border:1px solid rgba(129,140,248,0.2)}
+.btn-secondary:hover{background:rgba(129,140,248,0.2)}
+#evidence{background:rgba(129,140,248,0.02)}
+.evidence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem}
+.evidence-card{padding:1.5rem;border-radius:12px;border:1px solid rgba(129,140,248,0.12);background:rgba(129,140,248,0.04);transition:border-color .2s}
+.evidence-card:hover{border-color:rgba(129,140,248,0.3)}
+.evidence-card .number{font-size:2rem;font-weight:700;color:#34D399;margin-bottom:.5rem}
+.evidence-card h3{font-size:.9rem;color:#E5E5E5;margin-bottom:.5rem}
+.evidence-card p{font-size:.8rem;color:#9CA3AF;line-height:1.6}
+.evidence-card a{color:#818CF8;text-decoration:none;font-size:.75rem;display:inline-block;margin-top:.75rem}
+.evidence-card a:hover{text-decoration:underline}
+#artifacts{background:rgba(10,17,40,0.5)}
+.artifact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.25rem}
+.artifact-card{padding:1.5rem;border-radius:12px;border:1px solid rgba(129,140,248,0.12);background:rgba(129,140,248,0.04);text-decoration:none;color:inherit;transition:all .2s;display:block}
+.artifact-card:hover{border-color:#818CF8;background:rgba(129,140,248,0.08);transform:translateY(-2px)}
+.artifact-card .status{font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.75rem}
+.artifact-card .status.live{color:#34D399}
+.artifact-card h3{font-size:.9rem;margin-bottom:.5rem;color:#E5E5E5}
+.artifact-card p{font-size:.75rem;color:#9CA3AF;line-height:1.5}
+#publications{background:rgba(129,140,248,0.02)}
+.pub-table{width:100%;border-collapse:collapse;font-size:.85rem}
+.pub-table th{text-align:left;padding:.75rem .5rem;border-bottom:1px solid rgba(129,140,248,0.15);color:#818CF8;font-size:.7rem;text-transform:uppercase;letter-spacing:.1em}
+.pub-table td{padding:.75rem .5rem;border-bottom:1px solid rgba(129,140,248,0.08)}
+.pub-table a{color:#818CF8;text-decoration:none}
+.pub-table a:hover{text-decoration:underline}
+.pub-table .date{color:#6B7280;white-space:nowrap}
+#roadmap{background:rgba(10,17,40,0.5)}
+.timeline{display:flex;flex-direction:column;gap:1.5rem;max-width:700px}
+.timeline-item{padding:1.25rem;border-left:3px solid rgba(129,140,248,0.3);margin-left:1rem}
+.timeline-item .phase{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:#818CF8;margin-bottom:.5rem}
+.timeline-item h3{font-size:.95rem;margin-bottom:.25rem}
+.timeline-item p{font-size:.8rem;color:#9CA3AF}
+.timeline-item.complete{border-left-color:#34D399}
+.timeline-item.complete .phase{color:#34D399}
+footer{padding:3rem 2rem;text-align:center;border-top:1px solid rgba(129,140,248,0.1);max-width:1100px;margin:0 auto;width:100%}
+footer .footer-links{display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.5rem}
+footer a{color:#818CF8;text-decoration:none;font-size:.8rem}
+footer a:hover{text-decoration:underline}
+footer .copyright{font-size:.7rem;color:#6B7280;margin-top:1rem}
+@media(max-width:768px){section{padding:2.5rem 1rem}#hero h1{font-size:1.8rem}nav{padding:1rem}}
+</style>
+</head>
+<body>
+<nav>
+<a href="#" class="nav-brand">QWAV Technical Site</a>
+<div class="nav-links">
+<a href="#evidence">Evidence</a>
+<a href="#artifacts">Artifacts</a>
+<a href="#publications">Publications</a>
+<a href="#roadmap">Roadmap</a>
+<a href="https://qwav.tech">Marquee</a>
+</div>
+</nav>
+
+<section id="hero">
+<div class="badge">5 Interactive Demos · 5 Published Papers · 145+ Zenodo Records</div>
+<h1>Ultrametric Quantum Computing &amp; AI</h1>
+<p>Passive fault tolerance at 4K. Glass-box AI. One mathematical correction — replacing continuous geometry with ultrametric tree geometry — addresses two multi-billion-dollar problems. All evidence is open-access. All demos are interactive. All code is MIT-licensed.</p>
+<div class="hero-links">
+<a href="#artifacts" class="btn-primary">Try the Demos</a>
+<a href="https://qwav.tech" class="btn-secondary">Visit Marquee Page</a>
+</div>
+</section>
+
+<section id="evidence">
+<h2>Computational Evidence</h2>
+<div class="evidence-grid">
+<div class="evidence-card">
+<div class="number">0</div>
+<h3>Zero Logical Errors at Depth 7</h3>
+<p>Ternary Bruhat-Tits tree encoding produces zero logical errors at depth 7 (2,187 leaves), validated at physical error rates up to 40%. The strong triangle inequality geometrically prevents error accumulation.</p>
+<a href="https://doi.org/10.5281/zenodo.20208437">DOI: Symmetric Extension →</a>
+</div>
+<div class="evidence-card">
+<div class="number">48×</div>
+<h3>Error Reduction at Zero Qubit Cost</h3>
+<p>Encoding one logical bit across q=128 leaves reduces logical error rate by 48× — achieved by exploiting existing hyperfine levels. Zero additional physical qubits required.</p>
+<a href="https://doi.org/10.5281/zenodo.20208437">DOI: Symmetric Extension →</a>
+</div>
+<div class="evidence-card">
+<div class="number">40</div>
+<h3>Atoms. Buildable Today.</h3>
+<p>Complete neutral atom hardware specification: ternary tree depth 3, Rydberg blockade gates, 4K operation. Within demonstrated experimental capabilities at Harvard, Caltech, PASQAL.</p>
+<a href="artifacts/hardware-visualizer/">Try: Hardware Visualizer →</a>
+</div>
+<div class="evidence-card">
+<div class="number">6.6×</div>
+<h3>Glass-Box AI Beats Transformers</h3>
+<p>Q-PNA linear mapping with cophenetic loss beats transformer 6.6× on hierarchical classification. STC verification: 100% detection rate, 0 false positives.</p>
+<a href="https://doi.org/10.5281/zenodo.20287742">DOI: Q-PNA v2.0 →</a>
+</div>
+</div>
+</section>
+
+<section id="artifacts">
+<h2>Interactive Demos</h2>
+<p style="color:#9CA3AF;margin-bottom:2rem;max-width:600px">Don't read about it. Watch it happen. Each demo demonstrates a key QWAV result in 30 seconds.</p>
+<div class="artifact-grid">
+<a href="https://QNFO.github.io/ultrametric-error-confinement/" class="artifact-card">
+<div class="status live">Live Demo</div>
+<h3>Error Confinement</h3>
+<p>Watch ultrametric geometry suppress errors in real time. Adjust error rates and tree depth with sliders.</p>
+</a>
+<a href="https://QNFO.github.io/q-pna/" class="artifact-card">
+<div class="status live">Live Demo</div>
+<h3>Q-PNA Playground</h3>
+<p>Explore glass-box AI decision trees. Train on sample data. See WHY each classification was made.</p>
+</a>
+<a href="https://QNFO.github.io/ultrametric-convergence/" class="artifact-card">
+<div class="status live">Live Demo</div>
+<h3>Convergence Explorer</h3>
+<p>Watch particles cluster inevitably in ultrametric space — and random-walk forever in Euclidean.</p>
+</a>
+<a href="https://QNFO.github.io/tree-distance/" class="artifact-card">
+<div class="status live">Live Demo</div>
+<h3>Tree Distance Sandbox</h3>
+<p>Compare cophenetic, ultrametric, and Euclidean distances. Discover triadic rigidity by clicking leaves.</p>
+</a>
+<a href="https://QNFO.github.io/hardware-pathway/" class="artifact-card">
+<div class="status live">Live Demo</div>
+<h3>Hardware Visualizer</h3>
+<p>Rotate and zoom a 40-atom neutral atom tree. See how Rydberg gates map to tree vertices.</p>
+</a>
+</div>
+</section>
+
+<section id="publications">
+<h2>Publications</h2>
+<p style="color:#9CA3AF;margin-bottom:2rem">All papers open-access on Zenodo with registered DOIs. Full archive at <a href="https://zenodo.org/communities/qwav/" style="color:#818CF8">zenodo.org/communities/qwav/</a> (145+ records).</p>
+<table class="pub-table">
+<thead><tr><th>Title</th><th>Date</th><th>DOI</th><th>Code</th></tr></thead>
+<tbody>
+<tr><td>Computational Validation of Ultrametric Error Confinement</td><td class="date">2026-05-12</td><td><a href="https://doi.org/10.5281/zenodo.20134944">10.5281/zenodo.20134944</a></td><td><a href="https://github.com/QNFO/ultrametric-error-confinement">GitHub</a></td></tr>
+<tr><td>Symmetric Extension — Ternary Tree Architecture</td><td class="date">2026-05-16</td><td><a href="https://doi.org/10.5281/zenodo.20208437">10.5281/zenodo.20208437</a></td><td>—</td></tr>
+<tr><td>Ultrametric Quantum Computing Foundations</td><td class="date">2026-05-15</td><td><a href="https://doi.org/10.5281/zenodo.20154557">10.5281/zenodo.20154557</a></td><td>—</td></tr>
+<tr><td>Cross-Domain Synthesis: Ultrametric Geometry as Common Structure</td><td class="date">2026-05-17</td><td><a href="https://doi.org/10.5281/zenodo.20265907">10.5281/zenodo.20265907</a></td><td>—</td></tr>
+<tr><td>Tree Distance Cophenetic</td><td class="date">2026-05-18</td><td><a href="https://doi.org/10.5281/zenodo.20213043">10.5281/zenodo.20213043</a></td><td>—</td></tr>
+<tr><td>When Proofs Deceive — A Taxonomy of Mathematical Certainty</td><td class="date">2026-05-18</td><td><a href="https://doi.org/10.5281/zenodo.20266032">10.5281/zenodo.20266032</a></td><td>—</td></tr>
+<tr><td>Q-PNA Research Specification v2.0</td><td class="date">2026-05-19</td><td><a href="https://doi.org/10.5281/zenodo.20287742">10.5281/zenodo.20287742</a></td><td><a href="https://github.com/QNFO/Q-PNA">GitHub</a></td></tr>
+<tr><td>Convergence, Consilience, and the Hierarchical Architecture of Reality</td><td class="date">2026-05-20</td><td><a href="https://doi.org/10.5281/zenodo.20302276">10.5281/zenodo.20302276</a></td><td>—</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="roadmap">
+<h2>Research Roadmap</h2>
+<div class="timeline">
+<div class="timeline-item complete">
+<div class="phase">Q2 2026 — Complete</div>
+<h3>Tier 0-1 Computational Validation</h3>
+<p>Zero logical errors at depth 7. 48× error reduction. 40-atom hardware spec. 5 interactive demos deployed. 8 publications with registered DOIs.</p>
+</div>
+<div class="timeline-item">
+<div class="phase">Q3 2026 — In Progress</div>
+<h3>Tier 2: Expanded Benchmarks</h3>
+<p>Larger trees (d=8-10). Multi-prime validation. New error models. Q-PNA v2.1 with new datasets. First inbound contact milestone.</p>
+</div>
+<div class="timeline-item">
+<div class="phase">Q4 2026 — Planned</div>
+<h3>Cross-Domain Synthesis v2</h3>
+<p>Expanded domain coverage. New spinoffs from backlog. Strategy refresh at 6-month mark. Evidence deck with scrollable charts.</p>
+</div>
+<div class="timeline-item">
+<div class="phase">2027 — Forward</div>
+<h3>Experimental Collaboration</h3>
+<p>If inbound contact converts. Entity formation if funding triggers. Publication archive reaches 700+.</p>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="footer-links">
+<a href="https://qwav.tech">Marquee Site</a>
+<a href="https://github.com/QNFO">GitHub</a>
+<a href="https://zenodo.org/communities/qwav/">Zenodo</a>
+<a href="https://orcid.org/0009-0002-4317-5604">ORCID</a>
+<a href="mailto:rowan.quni@outlook.com">Contact</a>
+</div>
+<p class="copyright">QWAV — Solo deep-tech research program. All work open-access. © 2026</p>
+</footer>
+</body>
+</html>
