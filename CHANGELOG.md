@@ -1,6 +1,27 @@
 # QWAV PROGRAM CHANGELOG
 
-> **Purpose:** Versioned record of all program changes. Read this alongside SPRINT.md when starting a new thread to understand what changed, when, and why.
+> **Purpose:** Chronological change tracking for program-level decisions, deliverables, and state changes.
+
+---
+
+## v2.52 — 2026-05-23 — Project Audit & Synchronization
+
+**What Changed:** Comprehensive audit of all 8 projects under `G:\My Drive\projects\` (excluding markdown-pdf-builder). Synchronized QWAV documentation to reflect all deployed/completed artifacts.
+
+**Key Findings:**
+- **6 QWAV Build Phase spinoffs** — all DEPLOYED and verified live (A1-A5 + K1/T1-T12)
+- **2 independent projects** — `ultrametric-game-of-life` (complete, deployed), `nested-semantic-graph` (closed out, SPRINT inconsistency flagged)
+- **Zero active Projects-agent work remaining** across all 8 projects
+- **Next phase:** QWAV-scope promotion — Buffer campaign, venue registry, cross-linking
+
+**Files Changed:**
+- `PROJECT STATE.md` — 17 edits: Build Phase table (A1-A5, T1-T12 statuses), spinoff section (deployed, paths fixed), added nested-semantic-graph, updated metadata
+- `SPRINT.md` — Updated Current State section from "Build Gravity Active" to "BUILD PHASE COMPLETE"
+- `CHANGELOG.md` — This entry
+- `projects/nested-semantic-graph/SPRINT.md` — S6.1-S6.3 tasks marked `[-]` cancelled (project closed out)
+- `_sync_edit.py` — Temporary edit script (to be deleted)
+
+**Git:** Commit pending.
 
 ---
 

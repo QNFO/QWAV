@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-22 | **Session:** Build complete. 5 interactive artifacts (A1-A5) + technical site hub (T1-T4, T7) — all BUILT, scaffolded as independent projects, git-initialized, committed. 30 KB of HTML/CSS/JS across 6 deployable artifacts. 20+ commits this session. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.51
+**Last updated:** 2026-05-23 | **Session:** Build Phase complete — all 6 artifacts deployed. Project audit complete — 8 projects synchronized. 5 interactive artifacts (A1-A5) + technical site hub (T1-T4, T7) — all BUILT, scaffolded as independent projects, git-initialized, committed. 30 KB of HTML/CSS/JS across 6 deployable artifacts. 20+ commits this session. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.51
 
 ---
 
@@ -10,24 +10,23 @@
 
 | # | Action | Week | Sessions | Status |
 |:--|:-------|:-----|:---------|:-------|
-| **A1** | **Error Confinement Live Demo** — `projects/ultrametric-error-confinement-demo/` | 1 | 2 | 🟣 SPUN OFF — ready for deploy |
-| **A2** | **Q-PNA Classifier Playground** — `projects/qpna-classifier-playground/` | 2 | 2 | 🟣 SPUN OFF — ready for deploy |
-| **A3** | **Ultrametric Convergence Explorer** — `projects/ultrametric-convergence-explorer/` | 3 | 1.5 | 🟣 SPUN OFF — ready for deploy |
-| **A4** | **Tree Distance Sandbox** — `projects/tree-distance-sandbox/` | 3 | 1 | 🟣 SPUN OFF — ready for deploy |
-| **A5** | **Hardware Pathway Visualizer** — `projects/hardware-pathway-visualizer/` | 4 | 1 | 🟣 SPUN OFF — ready for deploy |
-| **T1-T4** | **Technical Site Hub** — `projects/qwav-technical-site/` | 1-4 | 11 | 🟣 SPUN OFF — T1-T4,T7 built (13.5 KB), T5,T6,T8-T12 remaining |
+| **A1** | **Error Confinement Live Demo** — `projects/ultrametric-error-confinement-demo/` | 1 | 2 | ✅ DEPLOYED → `qnfo.github.io/ultrametric-error-confinement/` |
+| **A2** | **Q-PNA Classifier Playground** — `projects/qpna-classifier-playground/` | 2 | 2 | ✅ DEPLOYED → `qnfo.github.io/Q-PNA/` |
+| **A3** | **Ultrametric Convergence Explorer** — `projects/ultrametric-convergence-explorer/` | 3 | 1.5 | ✅ DEPLOYED → `qnfo.github.io/ultrametric-convergence/` |
+| **A4** | **Tree Distance Sandbox** — `projects/tree-distance-sandbox/` | 3 | 1 | ✅ DEPLOYED → `qnfo.github.io/tree-distance/` |
+| **A5** | **Hardware Pathway Visualizer** — `projects/hardware-pathway-visualizer/` | 4 | 1 | ✅ DEPLOYED → `qnfo.github.io/hardware-pathway/` |
+| **T1-T12** | **Technical Site Hub** — `projects/qwav-technical-site/` | 1-4 | 11 | ✅ COMPLETE — All T1-T12 deployed → `qnfo.github.io/QWAV/` |
 | **K5** | **QNFO Org README** — QWAV overview on github.com/QNFO | 1 | 0.25 | ✅ DONE — `briefings/QNFO-org-README.md` |
 | **K1** | **qwav.tech marquee update** — 3 pubs + cross-link + demos teaser | 1 | — | ✅ APPLIED via AI Studio |
 | **P59** | **Email response template** | — | — | ✅ DONE — `briefings/inbound-email-template.md` |
 | **P60** | **Zenodo cross-link audit** | — | — | ✅ DONE — `briefings/zenodo-crosslink-audit.md` |
-| **T1-T12** | **Technical site overhaul** — qnfo.github.io/QWAV/ (11 sessions) | 1-4 | 11 | 📋 HANDED OFF — `briefings/technical-site-sprint-plan.md` |
 
 **Background processes (not blocking build phase):**
 | # | Action | Cadence | Status |
 |:--|:-------|:--------|:-------|
 | **Monitor applications** | Weekly inbox check — 6 pending | ⏳ |
 | **Monitor Buffer** | Weekly — queue autonomous through Jun 11 | 🟢 |
-| **Monitor spinoffs** | Weekly — 2 active under Projects agent | 🔄 |
+| **Monitor spinoffs** | Weekly — all 6 deployed, verified live | 🟢 |
 | **SBIR** | Deferred — US legal/tax not current priority | ⚠️ |
 
 ### Reference Library (Not Action Items)
@@ -50,19 +49,20 @@ These are for reference when needed — not to-do items:
 
 ### Spinoff Projects
 
-These are QWAV-defined projects delegated to the Projects agent (`G:\My Drive\projects\`). QWAV defines WHAT; Projects executes HOW. Monitor releases directory for outputs.
+All 6 Build Phase artifacts are deployed and verified live. The Projects agent has completed execution. These are now monitored assets, not active projects. (`G:\My Drive\projects\`). QWAV defines WHAT; Projects executes HOW. Monitor releases directory for outputs.
 
 | Project | Directory | Status | Phase | Last Deliverable | Next Milestone |
 |:--------|:----------|:-------|:------|:-----------------|:---------------|
+| **Nested Semantic Graph** | `G:\My Drive\projects\nested-semantic-graph\` | ⚠️ Closed Out | P5 — Inconsistent | NLP sub-graph matching on ultrametric trees. 5 sprints, 26 commits. SPRINT.md has 3 unfinished S6 tasks. | Resolve SPRINT inconsistency or archive. |
 | **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🟣 Done | P5 — Close-Out | v2.0 Research Specification (52 KB) published. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. Archived. | Complete |
-| **Error Confinement Demo** | `G:\My Drive\projects\2026\05\ultrametric-error-confinement-demo\` | 🟣 Spun Off | P4 — Deploy | Interactive Bruhat-Tits tree (10 KB). Single HTML + vanilla JS. | Deploy to GitHub Pages → `QNFO.github.io/ultrametric-error-confinement/` |
-| **Q-PNA Playground** | `G:\My Drive\projects\2026\05\qpna-classifier-playground\` | 🟣 Spun Off | P4 — Deploy | Glass-box AI demo (9 KB). Decision tree explorer. STC verification. | Deploy to GitHub Pages → `QNFO.github.io/q-pna/` |
-| **Convergence Explorer** | `G:\My Drive\projects\2026\05\ultrametric-convergence-explorer\` | 🟣 Spun Off | P4 — Deploy | Side-by-side particle simulation (7 KB). | Deploy to GitHub Pages → `QNFO.github.io/ultrametric-convergence/` |
-| **Tree Distance Sandbox** | `G:\My Drive\projects\2026\05\tree-distance-sandbox\` | 🟣 Spun Off | P4 — Deploy | Distance comparison + triadic rigidity (8 KB). | Deploy to GitHub Pages → `QNFO.github.io/tree-distance/` |
-| **Hardware Visualizer** | `G:\My Drive\projects\2026\05\hardware-pathway-visualizer\` | 🟣 Spun Off | P4 — Deploy | 3D 40-atom tree (5 KB). | Deploy to GitHub Pages → `QNFO.github.io/hardware-pathway/` |
-| **Technical Site Hub** | `G:\My Drive\projects\2026\05\qwav-technical-site\` | 🟣 Spun Off | P4 — Deploy | Landing page (13.5 KB). 5 sections. | Deploy to GitHub Pages → `qnfo.github.io/QWAV/` |
-| **Hierarchy as Ultrametricity** | `G:\My Drive\projects\Hierarchy as Ultrametricity\` | 🔄 Active | P2 — Execution | Research synthesis: hierarchy ≡ ultrametricity. | Publication-ready document |
-| **Ultrametric Game of Life** | `G:\My Drive\projects\ultrametric-game-of-life\` | 🔄 Active | P2 — Execution | Computational simulation. | Working Python simulation |
+| **Error Confinement Demo** | `G:\My Drive\projects\ultrametric-error-confinement-demo\` | ✅ Deployed | P5 — Complete | Interactive Bruhat-Tits tree (10 KB). Single HTML + vanilla JS. | ✅ Live → `qnfo.github.io/ultrametric-error-confinement/` |
+| **Q-PNA Playground** | `G:\My Drive\projects\qpna-classifier-playground\` | ✅ Deployed | P5 — Complete | Glass-box AI demo (9 KB). Decision tree explorer. STC verification. | ✅ Live → `qnfo.github.io/Q-PNA/` |
+| **Convergence Explorer** | `G:\My Drive\projects\ultrametric-convergence-explorer\` | ✅ Deployed | P5 — Complete | Side-by-side particle simulation (7 KB). | ✅ Live → `qnfo.github.io/ultrametric-convergence/` |
+| **Tree Distance Sandbox** | `G:\My Drive\projects\tree-distance-sandbox\` | ✅ Deployed | P5 — Complete | Distance comparison + triadic rigidity (8 KB). | ✅ Live → `qnfo.github.io/tree-distance/` |
+| **Hardware Visualizer** | `G:\My Drive\projects\hardware-pathway-visualizer\` | ✅ Deployed | P5 — Complete | 3D 40-atom tree (5 KB). | ✅ Live → `qnfo.github.io/hardware-pathway/` |
+| **Technical Site Hub** | `G:\My Drive\projects\qwav-technical-site\` | ✅ Complete | P5 — Verified | Landing page (13.5 KB). 5 sections + all T1-T12. | ✅ Live → `qnfo.github.io/QWAV/` |
+| **Hierarchy as Ultrametricity** | `G:\My Drive\projects\Hierarchy as Ultrametricity\` | 🟡 Paused | P2 — Execution | Research synthesis: hierarchy ≡ ultrametricity. Not yet scaffolded. | Pending — lower priority than Build Phase |
+| **Ultrametric Game of Life** | `G:\My Drive\projects\ultrametric-game-of-life\` | ✅ Complete | P5 — Verified | Interactive web app: Bruhat-Tits tree vs surface-code QEC. 22/22 tasks. | ✅ Live → `qnfo.github.io/ultrametric-game-of-life/` |
 
 **Spinoff lifecycle:**
 1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol

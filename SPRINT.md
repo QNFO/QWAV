@@ -4,17 +4,17 @@
 
 ---
 
-## Current State (2026-05-22 — SESSION CLOSE-OUT: Build Gravity Active)
+## Current State (2026-05-23 — BUILD PHASE COMPLETE: All Artifacts Deployed)
 
-**QWAV has shifted from "monitor and wait" to "build and grow."** All strategy documentation, handoff specs, and backlog items through QWAV scope are complete. 18.5 sessions of build work queued for Projects agent.
+**QWAV has shifted from "monitor and wait" to "build and grow" to "now promote and amplify."** All 6 Build Phase artifacts are deployed, verified live, and cross-linked on the technical hub. The Projects agent has completed execution. Buffer campaign launches next.
 
-**What's live:** qwav.tech marquee updated (3 pubs, cross-link, demos teaser). Google + Bing consoles active. All 11 management docs up to date. 24 learnings, 13 decisions, 8 handoffs, venue registry with search baseline.
+**What's live:** All 6 interactive artifacts (A1-A5) + technical site hub (K1/T1-T12) at their GitHub Pages URLs. qwav.tech marquee updated. Google + Bing consoles active. All 11 management docs up to date. 24 learnings, 13 decisions, 8 handoffs, venue registry with search baseline.
 
-**What's queued for Projects agent:** A1-A5 interactive artifacts (7.5 sessions), T1-T12 technical site overhaul (11 sessions).
+**What the Projects agent delivered:** A1 (Error Confinement Demo), A2 (Q-PNA Playground), A3 (Convergence Explorer), A4 (Tree Distance Sandbox), A5 (Hardware Visualizer), K1/T1-T12 (Technical Site Hub). All 6 deployed and verified functional. Plus 2 independent projects: `ultrametric-game-of-life` (complete, deployed) and `nested-semantic-graph` (closed out, SPRINT inconsistency to resolve).
 
-**What's left for founder:** Deploy QNFO org README (5 min), add Zenodo links to social bios (10 min), verify ResearchGate cross-posting, apply optional evidence prompt to qwav.tech.
+**What's next for QWAV agent:** Launch Buffer social media campaign promoting A1-A5. Verify all deployments. Update VENUE-REGISTRY with live URLs. Cross-link artifacts within each other. Add `ultrametric-game-of-life` to technical hub.
 
-**Next session:** Read PROJECT STATE.md → check if Projects agent delivered A1 → if yes, verify deployment, update VENUE-REGISTRY, launch Buffer campaign. If no, check A1 status and unblock.
+**Next session:** Read PROJECT STATE.md → check Buffer campaign status → verify all 6 deployments still live → continue content pipeline.
 
 ---
 
