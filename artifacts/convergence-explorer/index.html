@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultrametric Convergence Explorer — QWAV</title>
+<meta name="description" content="Watch hierarchical dynamics in action. Particles in ultrametric space converge inevitably. In Euclidean space, they random-walk forever.">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:#0A1128;color:#E5E5E5;font-family:system-ui,-apple-system,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+header{width:100%;padding:1.5rem 2rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(129,140,248,0.2)}
+header a{color:#818CF8;text-decoration:none;font-size:.875rem}
+h1{font-size:1.5rem;font-weight:600;background:linear-gradient(135deg,#818CF8,#C4B5FD);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+main{flex:1;display:flex;flex-wrap:wrap;gap:1rem;padding:1.5rem;max-width:1300px;margin:0 auto;width:100%}
+.world{flex:1;min-width:300px;background:rgba(129,140,248,0.04);border-radius:12px;border:1px solid rgba(129,140,248,0.12);padding:1rem;display:flex;flex-direction:column;gap:.5rem}
+.world h2{font-size:.9rem;color:#818CF8;text-align:center;text-transform:uppercase;letter-spacing:.1em}
+.world canvas{width:100%;display:block;border-radius:8px;background:rgba(10,17,40,0.6)}
+.controls-bar{display:flex;gap:1rem;align-items:center;justify-content:center;flex-wrap:wrap;padding:.5rem}
+.controls-bar button{padding:.5rem 1.5rem;border-radius:6px;cursor:pointer;font-size:.8rem;border:1px solid rgba(129,140,248,0.3);background:rgba(129,140,248,0.1);color:#E5E5E5}
+.controls-bar button:hover{background:rgba(129,140,248,0.25)}
+.controls-bar button.running{background:rgba(239,68,68,0.2);border-color:#EF4444}
+.controls-bar span{font-size:.75rem;color:#9CA3AF}
+.quote{text-align:center;padding:1rem;color:#A5B4FC;font-style:italic;font-size:.9rem;max-width:700px;margin:0 auto}
+footer{width:100%;padding:1rem;text-align:center;border-top:1px solid rgba(129,140,248,0.1)}
+footer a{color:#818CF8;text-decoration:none;font-size:.75rem;margin:0 .75rem}
+</style>
+</head>
+<body>
+<header>
+<h1>Ultrametric Convergence Explorer</h1>
+<a href="https://qnfo.github.io/QWAV/">← Technical Site</a>
+</header>
+<p class="quote">"The geometry of possibility space itself channels diversity into uniformity."</p>
+<div class="controls-bar">
+<button id="playBtn">Play</button>
+<button id="resetBtn">Reset</button>
+<span>Step: <strong id="stepDisplay">0</strong></span>
+<span>Ultrametric clusters: <strong id="ultraClusters" style="color:#34D399">--</strong></span>
+<span>Euclidean clusters: <strong id="euclClusters" style="color:#EF4444">--</strong></span>
+</div>
+<main>
+<div class="world">
+<h2>Ultrametric Space (Bruhat-Tits Tree)</h2>
+<canvas id="ultraCanvas"></canvas>
+</div>
+<div class="world">
+<h2>Euclidean Space (ℝ²)</h2>
+<canvas id="euclCanvas"></canvas>
+</div>
+</main>
+<footer>
+<a href="https://qwav.tech">qwav.tech</a>
+<a href="https://doi.org/10.5281/zenodo.20302276">DOI: 10.5281/zenodo.20302276</a>
+</footer>
+<script>
+const uC=document.getElementById('ultraCanvas'),uCtx=uC.getContext('2d');
+const eC=document.getElementById('euclCanvas'),eCtx=eC.getContext('2d');
+const N=200,treeDepth=5;
+let particles=[],euclParticles=[],step=0,running=false,animId=null;
+let treeLeaves=[];
+
+function buildTreeLeaves(d){
+ const leaves=[];
+ const degree=3;
+ function grow(x,y,w,h,rem){
+  if(rem<=0){leaves.push({x:x+w/2,y:y+h/2,w,h});return}
+  const cols=degree,rows=1;
+  for(let i=0;i<cols;i++){
+   grow(x+i*w/cols,y,w/cols,h,rem-1);
+  }
+ }
+ grow(20,20,560,360,d);
+ return leaves;
+}
+
+function commonAncestorDepth(a,b){
+ const grid=Math.pow(3,treeDepth);
+ const cellsPerLeaf=grid/leaves.length;
+ let ia=Math.floor(a.x/10),ib=Math.floor(b.x/10);
+ if(ia===ib)return 0;
+ let mask=grid,d=0;
+ while(mask>1){
+  mask/=3;
+  if(Math.floor(ia/mask)!==Math.floor(ib/mask))return d;
+  d++;
+ }
+ return treeDepth;
+}
+
+function init(){
+ treeLeaves=buildTreeLeaves(treeDepth);
+ const leafCount=treeLeaves.length;
+ particles=[];
+ for(let i=0;i<N;i++){
+  const leaf=treeLeaves[Math.floor(Math.random()*leafCount)];
+  particles.push({x:leaf.x+Math.random()*leaf.w-leaf.w/2,y:leaf.y+Math.random()*leaf.h-leaf.h/2,leaf:leaf,home:leaf});
+ }
+ euclParticles=[];
+ for(let i=0;i<N;i++){
+  euclParticles.push({x:Math.random()*560+20,y:Math.random()*360+20});
+ }
+ step=0;updateDisplays();
+ drawBoth();
+}
+
+function stepSimulation(){
+ step++;
+ const leafCount=treeLeaves.length;
+ particles.forEach(p=>{
+  if(Math.random()<0.15){
+   const targetLeaf=treeLeaves[Math.floor(Math.random()*leafCount)];
+   const ancestorDepth=commonAncestorDepth(p.home,targetLeaf);
+   const pull=Math.min(1,ancestorDepth/treeDepth);
+   p.x+=(targetLeaf.x-p.x)*pull*0.3;
+   p.y+=(targetLeaf.y-p.y)*pull*0.3;
+  }
+ });
+ euclParticles.forEach(p=>{
+  p.x+=(Math.random()-0.5)*15;
+  p.y+=(Math.random()-0.5)*15;
+ });
+ if(step%10===0)updateDisplays();
+ drawBoth();
+}
+
+function clusterCount(pts,threshold){
+ const visited=new Set();let clusters=0;
+ for(let i=0;i<pts.length;i++){
+  if(visited.has(i))continue;
+  clusters++;
+  const queue=[i];visited.add(i);
+  while(queue.length>0){
+   const j=queue.shift();
+   for(let k=0;k<pts.length;k++){
+    if(visited.has(k))continue;
+    const dx=pts[j].x-pts[k].x,dy=pts[j].y-pts[k].y;
+    if(dx*dx+dy*dy<threshold*threshold){visited.add(k);queue.push(k)}
+   }
+  }
+ }
+ return clusters;
+}
+
+function updateDisplays(){
+ document.getElementById('stepDisplay').textContent=step;
+ document.getElementById('ultraClusters').textContent=clusterCount(particles,25);
+ document.getElementById('euclClusters').textContent=clusterCount(euclParticles,25);
+}
+
+function drawBoth(){
+ const w=600,h=400;
+ uC.width=w;uC.height=h;eC.width=w;eC.height=h;
+ uCtx.fillStyle='rgba(10,17,40,0.8)';uCtx.fillRect(0,0,w,h);
+ eCtx.fillStyle='rgba(10,17,40,0.8)';eCtx.fillRect(0,0,w,h);
+ treeLeaves.forEach(l=>{
+  uCtx.strokeStyle='rgba(129,140,248,0.2)';uCtx.lineWidth=.5;
+  uCtx.strokeRect(l.x-l.w/2,l.y-l.h/2,l.w,l.h);
+ });
+ particles.forEach(p=>{
+  uCtx.beginPath();uCtx.arc(p.x,p.y,2.5,0,Math.PI*2);
+  uCtx.fillStyle='rgba(129,140,248,0.8)';uCtx.fill();
+ });
+ euclParticles.forEach(p=>{
+  eCtx.beginPath();eCtx.arc(p.x,p.y,2.5,0,Math.PI*2);
+  eCtx.fillStyle='rgba(239,68,68,0.8)';eCtx.fill();
+ });
+}
+
+function togglePlay(){
+ if(running){
+  running=false;cancelAnimationFrame(animId);
+  document.getElementById('playBtn').textContent='Play';
+  document.getElementById('playBtn').classList.remove('running');
+ }else{
+  running=true;
+  document.getElementById('playBtn').textContent='Pause';
+  document.getElementById('playBtn').classList.add('running');
+  function loop(){if(!running)return;stepSimulation();animId=requestAnimationFrame(loop)}
+  loop();
+ }
+}
+
+document.getElementById('playBtn').addEventListener('click',togglePlay);
+document.getElementById('resetBtn').addEventListener('click',()=>{running=false;cancelAnimationFrame(animId);document.getElementById('playBtn').textContent='Play';document.getElementById('playBtn').classList.remove('running');init()});
+window.addEventListener('resize',drawBoth);
+init();
+</script>
+</body>
+</html>
