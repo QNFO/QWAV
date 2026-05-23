@@ -4,6 +4,26 @@
 
 ---
 
+## v2.55 — 2026-05-23 — CPL L41-L47: Cross-Project Lessons from Audit
+
+**What Changed:** Added 7 new cross-project lessons (L41-L47) to CROSS-PROJECT-LEARNINGS.md documenting every systemic pattern discovered in the 2026-05-23 audit. Fixed misplaced L41 (moved from beginning to chronological position after L40).
+
+**New lessons:**
+- **L41:** Mandatory test plans as DoD prerequisite (moved to correct position)
+- **L42:** Spinoff lifecycle violation — agent that writes specs must not also build and self-certify
+- **L43:** Moscow prioritization before project creation — not every idea needs a git repo
+- **L44:** Completed projects must be archived — don't let closed projects clutter active directory
+- **L45:** Template-generated checkbox theater — DoD templates that exclude testing produce untested deliverables
+- **L46:** Verify deliverables against handoff specs — what was built didn't match what was specified
+- **L47:** Documentation proportionality — project management files should not outweigh the deliverable
+
+**Files Changed:**
+- projects/_shared/CROSS-PROJECT-LEARNINGS.md — Lessons L41-L47 added (note: _shared has no .git)
+
+**Git:** QWAV commit pending
+
+---
+
 ## v2.54 — 2026-05-23 — L25 Codified: Mandatory Test Plans as DoD Prerequisite
 
 **What Changed:** Added cross-project lesson L25 (QWAV) / L41 (CPL) formalizing the requirement that ALL deliverables must have a detailed, executed test plan as a Definition of Done prerequisite.
