@@ -15,7 +15,7 @@
 | **A3** | **Ultrametric Convergence Explorer** — `projects/ultrametric-convergence-explorer/` | 3 | 1.5 | ✅ DEPLOYED → `qnfo.github.io/ultrametric-convergence/` |
 | **A4** | **Tree Distance Sandbox** — `projects/tree-distance-sandbox/` | 3 | 1 | ✅ DEPLOYED → `qnfo.github.io/tree-distance/` |
 | **A5** | **Hardware Pathway Visualizer** — `projects/hardware-pathway-visualizer/` | 4 | 1 | ✅ DEPLOYED → `qnfo.github.io/hardware-pathway/` |
-| **T1-T12** | **Technical Site Hub** — `projects/qwav-technical-site/` | 1-4 | 11 | ✅ COMPLETE — All T1-T12 deployed → `qnfo.github.io/QWAV/` |
+| **T1-T12** | **Technical Site Hub** — `QWAV/site/index.html` | 1-4 | 11 | ✅ COMPLETE — All T1-T12 deployed → `qnfo.github.io/QWAV/` |
 | **K5** | **QNFO Org README** — QWAV overview on github.com/QNFO | 1 | 0.25 | ✅ DONE — `briefings/QNFO-org-README.md` |
 | **K1** | **qwav.tech marquee update** — 3 pubs + cross-link + demos teaser | 1 | — | ✅ APPLIED via AI Studio |
 | **P59** | **Email response template** | — | — | ✅ DONE — `briefings/inbound-email-template.md` |
@@ -62,7 +62,7 @@ These are for reference when needed — not to-do items:
 **P5** | **Write + execute test_plan.py for A3** — 44/44 PASS. Convergence shows 4.5-4.9x fewer clusters than Euclidean. Simulation step logic verified. Evidence: test-evidence-1.0.0.md. | P1 | 1.0 | [x] |
 **P6** | **Write + execute test_plan.py for A4** — 37/37 PASS. Zero triadic rigidity violations. Zero strong triangle inequality violations. Cophenetic + Euclidean distances verified. Evidence: test-evidence-1.0.0.md. | P1 | 1.0 | [x] |
 **P7** | **Decide + execute A5 approach** — 32/32 PASS. Three.js 3D build verified. 64-atom tree, Rydberg blockade gates (378 connections), full 3D rendering capabilities (perspective camera, orbit controls, PBR materials). Evidence: test-evidence-1.0.0.md. | P1 | 1-2 | [x] |
-| **P8** | **Write + execute test suite for K1** — Link checker, chart data validator. 39/39 structural tests pass. DOI format verified (15 unique). Back-links confirmed (5/5). CDN-free confirmed. Test evidence at `qwav-technical-site/test-evidence-1.0.0.md`. | P2 | 1.0 | [x] |
+| **P8** | **Write + execute test suite for K1** — Link checker, chart data validator. 39/39 structural tests pass. DOI format verified (15 unique). Back-links confirmed (5/5). CDN-free confirmed. Test evidence at `QWAV/site/test-evidence-1.0.0.md`. | P2 | 1.0 | [x] |
 **P9** | **Resolve Game-of-Life 7 test failures** — 53/53 PASS. Energy barrier fixed to 2^d (matches paper). d=2 thresholds relaxed. Flat encoding tolerance broadened. All 7 previous failures resolved. Evidence: test-evidence-1.0.0.md. | P2 | 1.0 | [x] |
 | **P10** | **Cross-link all artifacts** — Back-links + bidirectional navigation. Verified 5/5 artifacts (A1-A5) link back to hub at qnfo.github.io/QWAV/. | P2 | 0.5 | [x] |
 | **P11** | **Buffer social campaign** — Posted to Bluesky + Mastodon via Buffer API. Twitter requires manual posting (API channel ID format issue). | P2 | 0.5 | [x] |
@@ -114,7 +114,7 @@ These were moved to `G:\My Drive\Archive\projects\2026\05\` during the post-audi
 | **Convergence Explorer** | `G:\My Drive\projects\ultrametric-convergence-explorer\` | ✅ Deployed | P5 — Complete | Side-by-side particle simulation (7 KB). | ✅ Live → `qnfo.github.io/ultrametric-convergence/` |
 | **Tree Distance Sandbox** | `G:\My Drive\projects\tree-distance-sandbox\` | ✅ Deployed | P5 — Complete | Distance comparison + triadic rigidity (8 KB). | ✅ Live → `qnfo.github.io/tree-distance/` |
 | **Hardware Visualizer** | `G:\My Drive\projects\hardware-pathway-visualizer\` | ✅ Deployed | P5 — Complete | 3D 40-atom tree (5 KB). | ✅ Live → `qnfo.github.io/hardware-pathway/` |
-| **Technical Site Hub** | `G:\My Drive\projects\qwav-technical-site\` | ✅ Complete | P5 — Verified | Landing page (13.5 KB). 5 sections + all T1-T12. | ✅ Live → `qnfo.github.io/QWAV/` |
+| **Technical Site Hub** | `QWAV/site/index.html` | ✅ Complete | P5 — Verified | Landing page (34.7 KB). All T1-T12. | ✅ Live → `qnfo.github.io/QWAV/` |
 
 **Spinoff lifecycle:**
 1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol
