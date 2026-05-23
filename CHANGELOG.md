@@ -4,6 +4,19 @@
 
 ---
 
+## v2.58 — 2026-05-23 (Sprint 10 Close-Out)
+
+**What Changed:**
+- S10.1: Git branch hygiene — QWAV on feature/qwav-strategic-harmonization; artifact Pages repos correctly on main/master for deployment
+- S10.2: Backlog grooming — stale items archived, header updated
+- S10.3: K1 Pages rebuild verified — 17.1s, zero errors, deployed == source (35,361 bytes)
+- S10.4: Sprint 10 closed — 4/4 tasks complete, Current State updated
+
+**Files Changed:** SPRINT.md, PROJECT STATE.md, BACKLOG.md
+**Git:** feature/qwav-strategic-harmonization
+
+---
+
 ## v2.57 — 2026-05-23 (Sprint 9 Close-Out)
 
 **What Changed:**

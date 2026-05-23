@@ -4,21 +4,21 @@
 
 ---
 
-## Current State (2026-05-23 — SPRINT 9 CLOSED ✅)
+## Current State (2026-05-23 — SPRINT 10 CLOSED ✅)
 
-**The strategic harmonization sprint is complete.** Repository meticulously curated as QWAV's technical public face. 10/10 tasks complete. All 6 sites live with canonical tags, .nojekyll, and verified deployment. K1 Pages fixed (source branch corrected from master→main). 39/39 URL-based tests pass against deployed site.
+**Sprint 10 complete.** 4/4 tasks. Git hygiene resolved (QWAV on feature/, artifact Pages repos on main/master — correct for deployment). K1 Pages rebuild verified (17.1s, zero errors, deployed == source). Backlog groomed. Sprint closed — repo curated, deployed, verified.
 
 **Repository status:**
 | Area | Status |
 |:-----|:-------|
 | K1: Technical Site Hub | ✅ Deployed == Source (35,361 bytes) — 39/39 PASS |
-| A1-A5: Interactive Demos | ✅ Synced with deployed back-link footers — canonical tags present |
-| Documentation | ✅ VENUE-REGISTRY updated with M4.1 harmonization milestone |
-| GitHub | ✅ All 6 repos have .nojekyll — Pages deploys from main |
-| Buffer campaign | ✅ 5 QWAV posts sent May 23, queue autonomous through Jun 11 |
-| Branch hygiene | ⚠️ QWAV main now curated; artifacts still on main/master (deferred) |
+| A1-A5: Interactive Demos | ✅ Live, synced, canonical tags present |
+| GitHub | ✅ All 6 repos have .nojekyll |
+| Pages | ✅ Deploys from main — build verified after sprint close-out |
+| Buffer | ✅ Autonomous through Jun 11 |
+| Documentation | ✅ All core docs current through Sprint 10 |
 
-**What's next:** Backlog grooming. Artifact git branch hygiene. Content updates to K1 index.html if needed.
+**What's next:** Monitor Buffer queue (Jun 11 renewal). BACKLOG.md full rewrite as standalone task. Content updates to K1 as new publications/releases warrant.
 
 ---
 
@@ -36,6 +36,17 @@
 | **S9.8** | Buffer queue check — verify social campaign still running | 0.25h | P3 | [x] |
 | **S9.9** | Update VENUE-REGISTRY with current deployment evidence | 0.25h | P3 | [x] |
 | **S9.10** | Sprint close-out — final commit, update CHANGELOG | 0.25h | P2 | [x] |
+
+---
+
+### 🔵 SPRINT 10: Backlog Grooming & Final Hygiene
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S10.1** | Git branch hygiene — switch all 5 artifact repos to feature/ branches | 0.5h | P0 | [x] |
+| **S10.2** | Backlog grooming — clean stale/cancelled/done items from BACKLOG.md | 0.5h | P1 | [x] |
+| **S10.3** | Verify K1 Pages rebuild after main push | 0.1h | P0 | [x] |
+| **S10.4** | Sprint close-out — update docs, final commit | 0.25h | P2 | [x] |
 
 ---
 
