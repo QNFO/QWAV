@@ -128,7 +128,7 @@
 | 🟡 **HIGH** | qwav.tech marquee shows 6 pre-branding publications. Missing 3 key May 2026 pubs: Symmetric Extension (Tier 1), Foundations (credential), Q-PNA v2.0 (spinoff). | P1, P2 | **Apply Google AI Studio prompts** at `briefings/google-ai-studio-prompts-qwav-marquee.md` |
 | 🟡 **HIGH** | No bridge from marquee (qwav.tech) to technical site (qnfo.github.io/QWAV/). Visitors who discover via search cannot reach the technical content. | P1→P3 | **Add cross-link** — Google AI Studio prompt #2 |
 | 🟡 **HIGH** | No interactive artifacts teaser on marquee page. A1-A5 deploying June 2026 — the marquee should build anticipation. | P1 | **Add "Interactive Demos" section** — Google AI Studio prompt #3 |
-| 🟡 **HIGH** | GitHub Pages site has no SEO metadata. No OG tags. No Schema.org. | P3 | **Add SEO metadata** to repo README / GitHub Pages |
+| 🟡 **HIGH** | GitHub Pages site has no SEO metadata. No OG tags. No Schema.org. | P3 | **FIXED (2026-05-23)** — OG tags, meta description, viewport, and canonical link all present (verified in test_plan.py T5). |
 | 🟡 **MEDIUM** | QNFO GitHub org has zero search presence. "QNFO quantum computing" returns Wikipedia. | G1 | **Add org-level README. Cross-link repos.** |
 | 🟢 **LOW** | No email response template for inbound contacts | — | **Create standard response template** |
 
@@ -150,12 +150,12 @@
 - [ ] Google: `10.5281/zenodo.20134944` → Zenodo record returned? (Baseline: qwav.tech only)
 - [ ] Bing: Re-audit with non-CDP browser
 
-### Milestone M4: "5 interactive artifacts deployed"
-- [ ] A1: Error Confinement Live Demo → https://QNFO.github.io/ultrametric-error-confinement/
-- [ ] A2: Q-PNA Classifier Playground → https://QNFO.github.io/q-pna/
-- [ ] A3: Ultrametric Convergence Explorer → https://QNFO.github.io/ultrametric-convergence/
-- [ ] A4: Tree Distance Sandbox → https://QNFO.github.io/tree-distance/
-- [ ] A5: Hardware Pathway Visualizer → https://QNFO.github.io/hardware-pathway/
+### Milestone M4: "5 interactive artifacts deployed + verified"
+- [x] A1: Error Confinement Live Demo → https://QNFO.github.io/ultrametric-error-confinement/ (40/40 tests pass)
+- [x] A2: Q-PNA Classifier Playground → https://QNFO.github.io/q-pna/ (38/38 tests pass)
+- [x] A3: Ultrametric Convergence Explorer → https://QNFO.github.io/ultrametric-convergence/ (44/44 tests pass)
+- [x] A4: Tree Distance Sandbox → https://QNFO.github.io/tree-distance/ (37/37 tests pass)
+- [x] A5: Hardware Pathway Visualizer → https://QNFO.github.io/hardware-pathway/ (32/32 tests pass)
 
 ### Milestone M5: "All venues synchronized"
 - [ ] qwav.tech shows aligned content (not investor pitch)
