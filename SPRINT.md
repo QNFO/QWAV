@@ -27,11 +27,11 @@
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|
 | **S9.1** | Git branch hygiene — switch all 5 artifact repos + QWAV to feature/ branches | 0.5h | P0 | [~] |
-| **S9.2** | Sync local artifacts with deployed versions (pull back-link footers) | 0.5h | P0 | [ ] |
-| **S9.3** | Fix K1 Pages deployment mismatch (Pages serves stripped CSS vs source) | 1h | P1 | [ ] |
-| **S9.4** | Add .nojekyll to Q-PNA (A2) GitHub repo | 0.1h | P1 | [ ] |
-| **S9.5** | Add canonical &lt;link&gt; tags to A2-A5 | 0.5h | P2 | [ ] |
-| **S9.6** | Push all changes to GitHub — ensure Pages rebuilds correctly | 0.5h | P0 | [ ] |
+| **S9.2** | Sync local artifacts with deployed versions (pull back-link footers) | 0.5h | P0 | [x] |
+| **S9.3** | Fix K1 Pages deployment mismatch (Pages serves stripped CSS vs source) | 1h | P1 | [x] |
+| **S9.4** | Add .nojekyll to Q-PNA (A2) GitHub repo | 0.1h | P1 | [x] |
+| **S9.5** | Add canonical &lt;link&gt; tags to A2-A5 | 0.5h | P2 | [x] |
+| **S9.6** | Push all changes to GitHub — ensure Pages rebuilds correctly | 0.5h | P0 | [~] |
 | **S9.7** | Re-run K1 test suite against deployed URL (not local file) | 0.25h | P2 | [ ] |
 | **S9.8** | Buffer queue check — verify social campaign still running | 0.25h | P3 | [ ] |
 | **S9.9** | Update VENUE-REGISTRY with current deployment evidence | 0.25h | P3 | [ ] |
