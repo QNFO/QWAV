@@ -243,3 +243,10 @@ The pattern is systemic: deliverables are declared "complete" and "deployed" the
 ## Archived Learnings
 
 *None yet — all learnings above are still active and applicable.*
+
+### L28: Structural Tests != Working Demos — Test-Audit Gap
+- **Category:** METHODOLOGY
+- **Issue:** `test_all_artifacts.py` passed 164/164 structural tests (DOCTYPE, closing tags, viewport, CDN, interactive element wiring, placeholder text), but the assistant claimed this meant the interactive demos "worked." The user repeatedly said "SEVERAL OF THESE APPS ARE NOT WORKING AND IT SEEMS YOUR TESTS CANNOT TELL THAT" and sent "FAIL" 3 times. The test suite cannot detect: runtime JS errors, incorrect canvas rendering, broken animations, non-functional button clicks, or UI/UX failures. 
+- **Solution:** Never claim "all tests pass = everything works." Structural tests are necessary but NOT sufficient. Browser-based smoke tests (YoBrowser CDP) are required to verify actual interactive functionality. Label test results with scope: "[PASS: structural]" not "[PASS: demo works]."
+- **Prevention:** Every test suite MUST document what it does AND does not test. Add a "DOES NOT TEST" section. For interactive artifacts, require at least one browser-based smoke test that clicks a button and verifies output changed.
+- **Cross-Project:** YES — any project with interactive web artifacts faces the same structural-vs-functional testing gap.
