@@ -4,24 +4,22 @@
 
 ---
 
-## Current State (2026-05-23 — SPRINT 13: AUDIT CLOSEOUT & CLEANUP 🔵)
+## Current State (2026-05-23 — SPRINT 14: TEST SUITE MODERNIZATION 🔵)
 
-**Post-audit recovery complete.** Export audit → structural test gap identified (L28) → smoke tests created (64/64) → BACKLOG triaged (19KB→9KB). S9.1 resolved (done in S10.1). Sprint 12 all 12 tasks complete. Sprint 13 active.
+**S14.1 complete:** test_all_artifacts.py refactored from sequential check() script to unittest.TestCase with subTest parametrization. 42 individual test methods, all passing (42/42, 0 failures). Same coverage as original 164 sequential checks.
 
 | Area | Status |
 |:-----|:-------|
-| Automated tests | ✅ 164/164 PASS (7 suites, 0 failures) |
-| Smoke tests | ✅ 64/64 PASS (8 suites: live, JS, buttons, canvas, content, stale, K1, perf) |
-| Artifact repo sync | ✅ All 5 repos deployed with fixes + back-links |
-| Interactive demos | ✅ All auto-init on load, no placeholder values |
-| K1 Technical Hub | ✅ Deployed == Source (35,361 bytes) |
-| Buffer campaign | ✅ Autonomous through Jun 11 |
-| BACKLOG.md | ✅ Rewritten — 19KB→9KB, 32 items archived, 19 active P0-P3 |
+| Structural tests | ✅ 42/42 unittest methods (refactored from 164 sequential checks) |
+| Smoke tests | ✅ 64/64 PASS (test_smoke.py, 8 suites) |
+| Artifact repo sync | ✅ All 5 repos deployed |
+| Interactive demos | ✅ All auto-init, no placeholders |
+| K1 Technical Hub | ✅ Deployed == Source |
+| BACKLOG.md | ✅ Triaged 19KB→9KB, 19 active P0-P3 |
 | Documentation | ✅ All 11 core docs current |
-| Git branch hygiene | ✅ Feature branches active, S9.1 closed (S10.1) |
-| Audit report | ✅ FINAL_AUDIT_REPORT.md (10 sections, 340 lines) |
+| Audit report | ✅ FINAL_AUDIT_REPORT.md |
 
-**What's next:** Merge feature/audit-export-conversation to main. QNFO org README deploy. Sprint 13 close-out.
+**What's next:** S14.2 (JS error detection). S14.3 (close-out).
 
 ---
 
@@ -44,7 +42,15 @@
 
 ---
 
-### 🔵 SPRINT 13: Audit Closeout & Cleanup (Active)
+### 🔵 SPRINT 14: Test Suite Modernization (Active)
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S14.1** | Refactor test_all_artifacts.py to unittest (pytest-compatible) | 2h | P1 | [x] |
+| **S14.2** | JS error detection in smoke tests — YoBrowser/CDP console capture | 1-2h | P2 | [ ] |
+| **S14.3** | Sprint close-out | 0.25h | P2 | [ ] |
+
+### 🔵 SPRINT 13: Audit Closeout & Cleanup (Closed)
 
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|

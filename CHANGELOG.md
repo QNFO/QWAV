@@ -4,6 +4,22 @@
 
 ---
 
+## v2.63 — 2026-05-23 (Sprint 14 — Test Suite Modernization)
+
+**What Changed:**
+- `test_all_artifacts.py` completely refactored from sequential check() script to unittest.TestCase
+- 42 individual test methods with subTest parametrization (covers all 164 original checks)
+- Tests now individually runnable: `python -m unittest test_all_artifacts.TestHTMLStructure`
+- 7 TestCase classes: TestHTMLStructure, TestInteractiveElements, TestContentHonesty, TestJavaScriptIntegrity, TestDeployedLocalSync, TestK1Structural, TestCrossReferenceIntegrity
+- Sprint 14 created with 3 tasks
+- pytest not installed — used unittest (stdlib) instead
+
+**Files Changed:**
+- REWRITE: `test_all_artifacts.py` (328 lines → 361 lines, from sequential to OOP)
+- EDIT: `SPRINT.md` (Sprint 14 added, S14.1 done)
+
+**Git:** `feature/sprint-14-planning`
+
 ## v2.62 — 2026-05-23 (Sprint 13 — Audit Closeout & Cleanup)
 
 **What Changed:**

@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-23 | **Session:** Sprint 13 Closeout — 3/5 tasks complete (merge to main pending, QNFO README blocked). Audit→Smoke→Backlog→Sprint pipeline complete. L28 cross-project. CHANGELOG v2.62. Branch: feature/audit-export-conversation (ready to merge). | **Next:** Merge to main. QNFO/.github repo creation (founder). Buffer renewal Jun 11. Sprint 14: test refactoring + JS error detection. | **GitHub:** QNFO/QWAV (main) | **Changelog:** `CHANGELOG.md` v2.62
+**Last updated:** 2026-05-23 | **Session:** Sprint 14 — S14.1 COMPLETE. test_all_artifacts.py refactored to unittest (42 test methods, 7 TestCase classes, subTest parametrization). All 42/42 pass. pytest not installed — used stdlib unittest. Branch: feature/sprint-14-planning. | **Next:** S14.2 (JS error detection in smoke tests). S14.3 (close-out). | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.63
 
 ---
 
