@@ -4,21 +4,56 @@
 
 ---
 
-## Current State (2026-05-23 — BUILD PHASE COMPLETE: All Artifacts Deployed)
+## Current State (2026-05-23 — POST-AUDIT: Verification & Remediation Phase)
 
-**QWAV has shifted from "monitor and wait" to "build and grow" to "now promote and amplify."** All 6 Build Phase artifacts are deployed, verified live, and cross-linked on the technical hub. The Projects agent has completed execution. Buffer campaign launches next.
+**The 2026-05-23 cross-project audit revealed BUILD PHASE COMPLETE was premature.** All 6 artifacts are deployed but NONE have been tested beyond URL availability. The QWAV agent's own handoff specs require capabilities never verified — and in two cases (A2, A5) never built.
 
-**What's live:** All 6 interactive artifacts (A1-A5) + technical site hub (K1/T1-T12) at their GitHub Pages URLs. qwav.tech marquee updated. Google + Bing consoles active. All 11 management docs up to date. 24 learnings, 13 decisions, 8 handoffs, venue registry with search baseline.
+**Audit findings:**
+- **A1-A5 + K1:** Zero automated tests. Only "Verify live URL" checkboxes.
+- **A2 (Q-PNA):** Hardcoded fake accuracy — `qpnaAcc=96.2` with no classification logic.
+- **A5 (Hardware):** 72 lines of 2D JS — not the 3D visualization specified.
+- **Game of Life:** ONLY artifact with executed test suite (46/53 pass, 7 failures).
+- **Nested Semantic Graph:** Genuinely closed out (5 sprints, 50 commits).
 
-**What the Projects agent delivered:** A1 (Error Confinement Demo), A2 (Q-PNA Playground), A3 (Convergence Explorer), A4 (Tree Distance Sandbox), A5 (Hardware Visualizer), K1/T1-T12 (Technical Site Hub). All 6 deployed and verified functional. Plus 2 independent projects: `ultrametric-game-of-life` (complete, deployed) and `nested-semantic-graph` (closed out, SPRINT inconsistency to resolve).
+**Today's deliverables (all committed):**
+- 16 PROJECT-CHARTER.md + DEFINITION-OF-DONE.md files rebuilt with test plan gates and QWAV nexus
+- L25 codified in QWAV LEARNINGS.md — mandatory test plans as DoD prerequisite
+- L41 codified in CROSS-PROJECT-LEARNINGS.md — cross-project version
+- PROJECT STATE.md updated with POST-AUDIT ACTION PLAN
 
-**What's next for QWAV agent:** Launch Buffer social media campaign promoting A1-A5. Verify all deployments. Update VENUE-REGISTRY with live URLs. Cross-link artifacts within each other. Add `ultrametric-game-of-life` to technical hub.
+**What's next — THIS SESSION:**
+1. P1: Fix git branch hygiene on all 8 repos (A1-A5, K1: `master` → `feature/`; GoL: `main` → `feature/`)
+2. P2: Begin writing `test_plan.py` for A1 (Error Confinement) — the core thesis demo
 
-**Next session:** Read PROJECT STATE.md → check Buffer campaign status → verify all 6 deployments still live → continue content pipeline.
+**Next session:** Read PROJECT STATE.md → check P1 status → continue P2 (A1 test plan).
+
+---
+
+### 🔴 SPRINT 7: Verification & Remediation
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S7.1** | Git branch hygiene — switch all repos from `master`/`main` to `feature/` | 0.5h | P0 | [ ] |
+| **S7.2** | Write `test_plan.py` for A1 — tree construction validation | 1h | P0 | [ ] |
+| **S7.3** | Write `test_plan.py` for A1 — error rate validation vs published Table 1 | 1h | P0 | [ ] |
+| **S7.4** | Write `test_plan.py` for A1 — strong triangle inequality + interactive verification | 0.5h | P0 | [ ] |
+| **S7.5** | Execute A1 test_plan.py — run tests, document results, fix failures | 0.5h | P0 | [ ] |
+| **S7.6** | Fix A2 hardcoded accuracy — build synthetic dataset + real JS classification | 2h | P0 | [ ] |
+| **S7.7** | Write + execute `test_plan.py` for A2 — classification, decision path integrity | 1h | P0 | [ ] |
+| **S7.8** | Write + execute `test_plan.py` for A3 — convergence metric, particle behavior | 1h | P1 | [ ] |
+| **S7.9** | Write + execute `test_plan.py` for A4 — distance correctness, triadic rigidity | 1h | P1 | [ ] |
+| **S7.10** | Decide A5 approach: Three.js rebuild vs 2.5D descope | 0.25h | P1 | [ ] |
+| **S7.11** | Execute A5 approach — rebuild or polish + test_plan.py | 1-2h | P1 | [ ] |
+| **S7.12** | Write test suite for K1 — link checker, chart data validator | 1h | P2 | [ ] |
+| **S7.13** | Investigate + resolve Game of Life 7 test failures | 1h | P2 | [ ] |
+| **S7.14** | Cross-link all artifacts — back-links + bidirectional navigation | 0.5h | P2 | [ ] |
+| **S7.15** | Buffer social campaign — launch after A1 tests pass | 0.5h | P2 | [ ] |
+| **S7.16** | Sprint close-out — update docs, commit | 0.25h | P2 | [ ] |
 
 ---
 
 ### ✅ COMPLETED
+
 
 | # | Item | Outcome | Date |
 |:--|:-----|:--------|:-----|

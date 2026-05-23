@@ -2,11 +2,11 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-23 | **Session:** Build Phase complete — all 6 artifacts deployed. Project audit complete — 8 projects synchronized. 5 interactive artifacts (A1-A5) + technical site hub (T1-T4, T7) — all BUILT, scaffolded as independent projects, git-initialized, committed. 30 KB of HTML/CSS/JS across 6 deployable artifacts. 20+ commits this session. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.51
+**Last updated:** 2026-05-23 | **Session:** Post-audit action plan created. Verification & remediation phase initiated. L25/L41 codified. 16 charter/DoD files rebuilt. 8 project git hygiene pending. | **Next:** P1 (git branches) → P2 (A1 test plan). 5 interactive artifacts (A1-A5) + technical site hub (T1-T4, T7) — all BUILT, scaffolded as independent projects, git-initialized, committed. 30 KB of HTML/CSS/JS across 6 deployable artifacts. 20+ commits this session. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.51
 
 ---
 
-## ACTION PLAN — Build Phase (30 Days: May 22 – June 22, 2026)
+## ✅ BUILD PHASE COMPLETE — All Artifacts Deployed (May 22 – May 23, 2026)
 
 | # | Action | Week | Sessions | Status |
 |:--|:-------|:-----|:---------|:-------|
@@ -46,6 +46,45 @@ These are for reference when needed — not to-do items:
 | `strategy/0.7.md` | If anyone asks about physical fabrication |
 
 ---
+
+---
+
+## POST-AUDIT ACTION PLAN — Verification & Remediation Phase (2026-05-23 → 2026-06-06)
+
+> **Context:** The 2026-05-23 cross-project audit revealed that Build Phase artifacts (A1-A5 + K1) have ZERO automated tests, contain hardcoded fake data (A2), and lack actual 3D rendering (A5). "DEPLOYED" was based on URL availability, not verified functionality. This plan replaces premature promotion with systematic verification.
+
+| # | Action | Priority | Est. | Status |
+|:--|:-------|:---------|:-----|:-------|
+| **P1** | **Git branch hygiene** — Switch A1-A5 + K1 from `master` to `feature/`. Switch Game-of-Life from `main` to `feature/`. | P0 | 0.25 | [ ] |
+| **P2** | **Write + execute test_plan.py for A1** — Tree construction, error rate validation vs published Table 1, strong triangle inequality, interactive verification. | P0 | 2.0 | [ ] |
+| **P3** | **Fix A2 hardcoded accuracy** — Replace `qpnaAcc=96.2` with real classification on synthetic dataset OR honestly descope. | P0 | 2.0 | [ ] |
+| **P4** | **Write + execute test_plan.py for A2** — Classification accuracy, decision path integrity. | P0 | 1.0 | [ ] |
+| **P5** | **Write + execute test_plan.py for A3** — Convergence metric, particle behavior. | P1 | 1.0 | [ ] |
+| **P6** | **Write + execute test_plan.py for A4** — Distance correctness, triadic rigidity. | P1 | 1.0 | [ ] |
+| **P7** | **Decide + execute A5 approach** — Three.js rebuild (actual 3D) or honest 2.5D descope + test_plan.py. | P1 | 1-2 | [ ] |
+| **P8** | **Write test suite for K1** — Link checker, chart data validator. | P2 | 1.0 | [ ] |
+| **P9** | **Resolve Game-of-Life 7 test failures** — Energy barrier formula, d=2 thresholds. | P2 | 1.0 | [ ] |
+| **P10** | **Cross-link all artifacts** — Back-links + bidirectional navigation. | P2 | 0.5 | [ ] |
+| **P11** | **Buffer social campaign** — Launch only AFTER A1 tests pass (P2). | P2 | 0.5 | [ ] |
+
+### What Changed
+
+| Old Plan | New Reality |
+|:---------|:------------|
+| "Launch Buffer campaign" | Wait — artifacts have zero verified functionality |
+| "All 6 verified functional" | All 6 deployed but **zero have automated tests** |
+| "Projects agent work is done" | Projects agent work begins: test plans for A1-A5 |
+| "Update VENUE-REGISTRY" | Deferred until P2-P3 complete |
+
+### Minimum Viable Verification (This Week)
+- [x] 16 charter/DoD files rebuilt with test plan gates
+- [x] L25/L41 codified — mandatory test plans as DoD prerequisite
+- [ ] A1 test_plan.py written and executed (P2)
+- [ ] A2 hardcoded accuracy fixed (P3)
+- [ ] Git branches fixed across all repos (P1)
+
+---
+
 
 ### Spinoff Projects
 
