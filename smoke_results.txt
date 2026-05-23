@@ -88,12 +88,12 @@ SUITE 7: K1 HUB SPECIFIC CHECKS
 ============================================================
 SUITE 8: RESPONSE TIME (Performance)
 ============================================================
-  [PASS] A1: Loads in <5s (0.08s, 10,412 bytes)
-  [PASS] A2: Loads in <5s (0.05s, 15,791 bytes)
-  [PASS] A3: Loads in <5s (0.08s, 7,488 bytes)
-  [PASS] A4: Loads in <5s (0.07s, 9,832 bytes)
-  [PASS] A5: Loads in <5s (0.05s, 11,328 bytes)
-  [PASS] K1: Loads in <5s (0.06s, 35,361 bytes)
+  [PASS] A1: Loads in <5s (0.07s, 10,412 bytes)
+  [PASS] A2: Loads in <5s (0.08s, 15,791 bytes)
+  [PASS] A3: Loads in <5s (0.05s, 7,488 bytes)
+  [PASS] A4: Loads in <5s (0.08s, 9,832 bytes)
+  [PASS] A5: Loads in <5s (0.06s, 11,328 bytes)
+  [PASS] K1: Loads in <5s (0.09s, 35,361 bytes)
 
 ============================================================
 SUITE 9: JAVASCRIPT ERROR-PATTERN DETECTION
