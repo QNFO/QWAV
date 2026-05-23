@@ -40,7 +40,7 @@
 | **S7.5** | Execute A1 test_plan.py — run tests, document results, fix failures | 0.5h | P0 | [x] |
 | **S7.6** | Fix A2 hardcoded accuracy — build synthetic dataset + real JS classification | 2h | P0 | [x] |
 | **S7.7** | Write + execute `test_plan.py` for A2 — classification, decision path integrity | 1h | P0 | [x] |
-| **S7.8** | Write + execute `test_plan.py` for A3 — convergence metric, particle behavior | 1h | P1 | [ ] |
+| **S7.8** | Write + execute `test_plan.py` for A3 — convergence metric, particle behavior | 1h | P1 | [x] |
 | **S7.9** | Write + execute `test_plan.py` for A4 — distance correctness, triadic rigidity | 1h | P1 | [ ] |
 | **S7.10** | Decide A5 approach: Three.js rebuild vs 2.5D descope | 0.25h | P1 | [ ] |
 | **S7.11** | Execute A5 approach — rebuild or polish + test_plan.py | 1-2h | P1 | [ ] |
