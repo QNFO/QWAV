@@ -4,21 +4,24 @@
 
 ---
 
-## Current State (2026-05-23 — SPRINT 12: FINAL VERIFICATION & CLOSE-OUT ✅)
+## Current State (2026-05-23 — SPRINT 13: AUDIT CLOSEOUT & CLEANUP 🔵)
 
-**All prior sprint work deployed, verified, and tested.** 164/164 automated tests — 0 failures. 5 artifact repos synced with interactive enhancements and back-link footers. Comprehensive test suite created. Browser-based UI/UX testing deferred.
+**Post-audit recovery complete.** Export audit → structural test gap identified (L28) → smoke tests created (64/64) → BACKLOG triaged (19KB→9KB). S9.1 resolved (done in S10.1). Sprint 12 all 12 tasks complete. Sprint 13 active.
 
 | Area | Status |
 |:-----|:-------|
 | Automated tests | ✅ 164/164 PASS (7 suites, 0 failures) |
+| Smoke tests | ✅ 64/64 PASS (8 suites: live, JS, buttons, canvas, content, stale, K1, perf) |
 | Artifact repo sync | ✅ All 5 repos deployed with fixes + back-links |
 | Interactive demos | ✅ All auto-init on load, no placeholder values |
 | K1 Technical Hub | ✅ Deployed == Source (35,361 bytes) |
 | Buffer campaign | ✅ Autonomous through Jun 11 |
-| Documentation | ✅ SPRINT.md, PROJECT STATE.md, CHANGELOG.md current |
-| Browser UI/UX testing | ✅ 64/64 smoke tests pass (`test_smoke.py`) |
+| BACKLOG.md | ✅ Rewritten — 19KB→9KB, 32 items archived, 19 active P0-P3 |
+| Documentation | ✅ All 11 core docs current |
+| Git branch hygiene | ✅ Feature branches active, S9.1 closed (S10.1) |
+| Audit report | ✅ FINAL_AUDIT_REPORT.md (10 sections, 340 lines) |
 
-**What's next:** Buffer renewal Jun 11. S9.1 git branch hygiene. Sprint 13 planning.
+**What's next:** Merge feature/audit-export-conversation to main. QNFO org README deploy. Sprint 13 close-out.
 
 ---
 
@@ -40,6 +43,16 @@
 | **S12.12** | Sprint close-out — update docs, final commit | 0.25h | P2 | [x] |
 
 ---
+
+### 🔵 SPRINT 13: Audit Closeout & Cleanup (Active)
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S13.1** | Merge feature/audit-export-conversation to main | 0.25h | P0 | [~] |
+| **S13.2** | QNFO org README deploy — push briefings/QNFO-org-README.md to QNFO/.github | 0.25h | P1 | [ ] |
+| **S13.3** | CHANGELOG version format cleanup — normalize square-bracket vs non-bracket versions | 0.25h | P2 | [ ] |
+| **S13.4** | BACKLOG.md — mark S9.1 done, remove P-number cleanup (done), update status | 0.25h | P2 | [ ] |
+| **S13.5** | Sprint close-out — update all docs, final commit | 0.25h | P2 | [ ] |
 
 ### 🔵 SPRINT 11: Deep Audit Remediation
 
@@ -75,7 +88,7 @@
 
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|
-| **S9.1** | Git branch hygiene — switch all 5 artifact repos + QWAV to feature/ branches | 0.5h | P0 | [~] |
+| **S9.1** | Git branch hygiene — switch all 5 artifact repos + QWAV to feature/ branches | 0.5h | P0 | [x] S10.1 |
 | **S9.2** | Sync local artifacts with deployed versions (pull back-link footers) | 0.5h | P0 | [x] |
 | **S9.3** | Fix K1 Pages deployment mismatch (Pages serves stripped CSS vs source) | 1h | P1 | [x] |
 | **S9.4** | Add .nojekyll to Q-PNA (A2) GitHub repo | 0.1h | P1 | [x] |
