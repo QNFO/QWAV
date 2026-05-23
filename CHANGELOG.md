@@ -4,6 +4,30 @@
 
 ---
 
+## v2.54 — 2026-05-23 — L25 Codified: Mandatory Test Plans as DoD Prerequisite
+
+**What Changed:** Added cross-project lesson L25 (QWAV) / L41 (CPL) formalizing the requirement that ALL deliverables must have a detailed, executed test plan as a Definition of Done prerequisite.
+
+**Source:** 2026-05-23 cross-project audit finding: 6 of 8 projects have zero automated tests. Checkbox-theater antipattern documented across all Build Phase artifacts. Only Game of Life has an actual executed test suite (46/53 pass, 7 documented failures).
+
+**Lesson codified in:**
+- QWAV/LEARNINGS.md — L25 added (committed: a311cc5)
+- projects/_shared/CROSS-PROJECT-LEARNINGS.md — L41 added (edited, no git repo to commit)
+
+**Prevention mandates:**
+- Add “Test Plan Executed” as mandatory gate in every DEFINITION-OF-DONE.md
+- Replace “Verify live URL” SPRINT tasks with “Execute test plan: N/N pass”
+- No deliverable marked DEPLOYED/COMPLETE until test results committed
+- Standard audit question: “Show me the test plan. Show me the test results.”
+
+**Files Changed:**
+- QWAV/LEARNINGS.md — Added L25 (23 lines)
+- projects/_shared/CROSS-PROJECT-LEARNINGS.md — Added L41 (note: _shared has no .git)
+
+**Git:** QWAV commit a311cc5
+
+---
+
 ## v2.53 — 2026-05-23 — Project Management Overhaul: Charters & DoDs Rebuilt
 
 **What Changed:** Replaced all 16 template-generated PROJECT-CHARTER.md and DEFINITION-OF-DONE.md files across all 8 active projects with detailed, honest, project-specific versions. Each file now includes:
@@ -26,23 +50,6 @@
 **Git:** 8 commits across 8 projects | **QWAV CHANGELOG:** This entry
 
 ---
-
-**What Changed:** Comprehensive audit of all 8 projects under `G:\My Drive\projects\` (excluding markdown-pdf-builder). Synchronized QWAV documentation to reflect all deployed/completed artifacts.
-
-**Key Findings:**
-- **6 QWAV Build Phase spinoffs** — all DEPLOYED and verified live (A1-A5 + K1/T1-T12)
-- **2 independent projects** — `ultrametric-game-of-life` (complete, deployed), `nested-semantic-graph` (closed out, SPRINT inconsistency flagged)
-- **Zero active Projects-agent work remaining** across all 8 projects
-- **Next phase:** QWAV-scope promotion — Buffer campaign, venue registry, cross-linking
-
-**Files Changed:**
-- `PROJECT STATE.md` — 17 edits: Build Phase table (A1-A5, T1-T12 statuses), spinoff section (deployed, paths fixed), added nested-semantic-graph, updated metadata
-- `SPRINT.md` — Updated Current State section from "Build Gravity Active" to "BUILD PHASE COMPLETE"
-- `CHANGELOG.md` — This entry
-- `projects/nested-semantic-graph/SPRINT.md` — S6.1-S6.3 tasks marked `[-]` cancelled (project closed out)
-- `_sync_edit.py` — Temporary edit script (to be deleted)
-
-**Git:** Commit pending.
 
 ---
 
