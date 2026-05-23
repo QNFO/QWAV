@@ -22,8 +22,8 @@
 
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|
-| **S11.1** | A2: Rewrite Q-PNA demo — replace fake random training with honest architecture explorer | 2h | P1 | [~] |
-| **S11.2** | Fix A1 Archimedean label to honest description | 0.25h | P1 | [ ] |
+| **S11.1** | A2: Rewrite Q-PNA demo — replace fake random training with honest architecture explorer | 2h | P1 | [x] |
+| **S11.2** | Fix A1 Archimedean label to honest description | 0.25h | P1 | [x] |
 | **S11.3** | A5: Bundle Three.js locally (remove CDN) | 1h | P2 | [ ] |
 | **S11.4** | A5: Fix error propagation to grandparents | 0.5h | P2 | [ ] |
 | **S11.5** | Sprint close-out — update docs, commit, push | 0.25h | P2 | [ ] |
