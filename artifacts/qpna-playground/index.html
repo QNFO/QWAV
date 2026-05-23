@@ -48,12 +48,12 @@ footer a{color:#818CF8;text-decoration:none;font-size:.75rem;margin:0 .75rem}
 <p class="explainer"><strong>Q-PNA replaces continuous embedding spaces (&reals;ⁿ) with Bruhat-Tits tree geometry.</strong> Features are mapped to tree leaves via a learned linear transformation. Classification happens by walking the tree — every decision is traceable by construction.</p>
 <p class="explainer">This explorer demonstrates the <strong>architecture</strong>: a 4-ary tree with 4 class regions. Click <strong>Classify</strong> to simulate a feature vector being mapped to a leaf, then trace the decision path from root to leaf. Green = correct class. Yellow = wrong class but traceable.</p>
 <h2>Controls</h2>
-<button class="classify-btn" id="classifyBtn">Classify Random Sample</button>
+<button class="classify-btn" id="classifyBtn">Classify 5 Samples</button>
 <div class="metrics">
-<div class="metric"><div class="val" id="className">--</div><div class="lbl">Assigned Class</div></div>
-<div class="metric"><div class="val" id="certainty">--</div><div class="lbl">Certainty (inverse distance)</div></div>
+<div class="metric"><div class="val" id="className">--</div><div class="lbl">Correct/Total</div></div>
+<div class="metric"><div class="val" id="certainty">--</div><div class="lbl">Aggregate Accuracy</div></div>
 <div class="metric"><div class="val" id="pathDepth">--</div><div class="lbl">Tree Depth Traversed</div></div>
-<div class="metric"><div class="val" id="classCorrect">--</div><div class="lbl">Classification Result</div></div>
+<div class="metric"><div class="val" id="classCorrect">--</div><div class="lbl">Accuracy Level</div></div>
 </div>
 <h2>Decision Trace</h2>
 <div class="decision-log" id="decisionLog">
@@ -186,70 +186,95 @@ function drawTree(data, highlightLeaf){
  }
 }
 
-function classifySample(){
+function classifySamples(numSamples){
+ // Classify multiple samples and show aggregate statistics
+ if(!numSamples) numSamples = 1;
  const data = buildTree(treeD);
  treeNodes=data.nodes; treeEdges=data.edges; treeLeaves=data.leaves;
  leafClasses=data.classLabels;
-
- // Pick a random leaf as the test sample
- const leafIdx = Math.floor(Math.random() * treeLeaves.length);
- testLeaf = leafIdx;
- testTrueClass = leafClasses[leafIdx];
-
- // Add simulated classification noise: 15% chance of misclassification
- // This is architectural — in real Q-PNA, noise resistance comes from tree depth
- const noisyLeaf = Math.random() < 0.15
-   ? Math.floor(Math.random() * treeLeaves.length)
-   : leafIdx;
  
- const assignedClass = leafClasses[noisyLeaf];
- const leaf = treeLeaves[noisyLeaf];
-
- // Calculate certainty based on distance to assigned leaf
- // In real Q-PNA, this uses cophenetic distance
- const root = treeNodes[0];
- const maxDist = Math.sqrt((canvas2.width)**2 + (canvas2.height)**2);
- const leafDist = Math.sqrt((leaf.x - treeLeaves[leafIdx].x)**2 + (leaf.y - treeLeaves[leafIdx].y)**2);
- const certainty = Math.max(0, Math.min(100, Math.round((1 - leafDist/maxDist) * 100)));
-
- // Depth traversed
- let depth=0, n=leaf;
- while(n.parent){depth++;n=n.parent}
-
- // Update displays
- const classNames=['α (Blue)','β (Green)','γ (Yellow)','δ (Red)'];
- document.getElementById('className').textContent=classNames[assignedClass];
- document.getElementById('certainty').textContent=certainty+'%';
- document.getElementById('certainty').className='val '+(certainty>=80?'good':(certainty>=50?'':'warn'));
- document.getElementById('pathDepth').textContent=depth;
-
- const correct = assignedClass === testTrueClass;
- document.getElementById('classCorrect').textContent = correct ? 'CORRECT' : 'MISCLASSIFIED';
- document.getElementById('classCorrect').className = 'val ' + (correct ? 'good' : 'warn');
-
- // Build decision trace
- const path=[];
- let node2=leaf;
- while(node2){path.unshift(node2);node2=node2.parent}
-
- let html='<div class="step"><span class="node">root</span> → starting classification</div>';
- const layerNames=['Feature','Subcategory','Category','Domain','Leaf'];
- for(let i=1;i<path.length;i++){
-  const n=path[i];
-  const isLast=i===path.length-1;
-  const layerLabel=layerNames[Math.min(i, layerNames.length-1)];
+ let correctCount = 0;
+ let totalDepth = 0;
+ let totalCertainty = 0;
+ let lastLeaf = null;
+ let lastPath = [];
+ let lastTrueClass = 0;
+ let lastAssignedClass = 0;
+ 
+ const classNames = ['Alpha (Blue)', 'Beta (Green)', 'Gamma (Yellow)', 'Delta (Red)'];
+ const noiseRate = 0.15;
+ 
+ for(let s = 0; s < numSamples; s++){
+  const leafIdx = Math.floor(Math.random() * treeLeaves.length);
+  const trueClass = leafClasses[leafIdx];
+  
+  // Simulated noise: Q-PNA's tree structure provides geometric noise resistance
+  const noisyLeaf = Math.random() < noiseRate
+    ? Math.floor(Math.random() * treeLeaves.length)
+    : leafIdx;
+  
+  const assignedClass = leafClasses[noisyLeaf];
+  const leaf = treeLeaves[noisyLeaf];
+  if(assignedClass === trueClass) correctCount++;
+  
+  // Track last sample for detailed display
+  if(s === numSamples - 1){
+   lastLeaf = noisyLeaf;
+   lastTrueClass = trueClass;
+   lastAssignedClass = assignedClass;
+   
+   // Build path
+   let n2 = leaf;
+   while(n2){lastPath.unshift(n2); n2 = n2.parent;}
+   
+   // Certainty
+   const maxDist = Math.sqrt((canvas2.width)**2 + (canvas2.height)**2);
+   const leafDist = Math.sqrt((leaf.x - treeLeaves[leafIdx].x)**2 + (leaf.y - treeLeaves[leafIdx].y)**2);
+   totalCertainty = Math.max(0, Math.min(100, Math.round((1 - leafDist/maxDist) * 100)));
+  }
+  
+  // Track depth
+  let d = 0, n = leaf;
+  while(n.parent){d++; n = n.parent;}
+  totalDepth += d;
+ }
+ 
+ const avgDepth = Math.round(totalDepth / numSamples);
+ const accuracy = Math.round((correctCount / numSamples) * 100);
+ 
+ // Update aggregate metrics
+ document.getElementById('className').textContent = `${correctCount}/${numSamples}`;
+ document.getElementById('certainty').textContent = accuracy + '%';
+ document.getElementById('certainty').className = 'val ' + (accuracy >= 80 ? 'good' : (accuracy >= 50 ? '' : 'warn'));
+ document.getElementById('pathDepth').textContent = avgDepth;
+ document.getElementById('classCorrect').textContent = accuracy >= 80 ? 'HIGH ACCURACY' : (accuracy >= 50 ? 'MODERATE' : 'LOW');
+ document.getElementById('classCorrect').className = 'val ' + (accuracy >= 80 ? 'good' : 'warn');
+ 
+ // Build decision trace for last sample
+ let html = `<div class="step"><span class="node">Batch: ${numSamples} samples</span> | Accuracy: ${accuracy}% (${correctCount}/${numSamples})</div>`;
+ html += '<div class="step" style="color:#818CF8">Last sample trace:</div>';
+ html += '<div class="step"><span class="node">root</span> -> starting classification</div>';
+ const layerNames = ['Feature','Subcategory','Category','Domain','Leaf'];
+ for(let i = 1; i < lastPath.length; i++){
+  const n = lastPath[i];
+  const isLast = i === lastPath.length - 1;
+  const layerLabel = layerNames[Math.min(i, layerNames.length - 1)];
   if(isLast){
-   const cls=leafClasses[leaves.indexOf(n)];
-   html+=`<div class="step">→ <span class="leaf">leaf #${leaves.indexOf(n)}</span>: assigned class <span class="leaf">${classNames[cls]}</span> (true: ${classNames[testTrueClass]})</div>`;
+   const cls = leafClasses[treeLeaves.indexOf(n)];
+   html += `<div class="step">-> <span class="leaf">leaf #${treeLeaves.indexOf(n)}</span>: class <span class="leaf">${classNames[cls]}</span> (true: ${classNames[lastTrueClass]})</div>`;
   }else{
-   html+=`<div class="step">→ <span class="node">node ${n.id}</span>: ${layerLabel} layer — branching decision</div>`;
+   html += `<div class="step">-> <span class="node">node ${n.id}</span>: ${layerLabel} layer</div>`;
   }
  }
- html+=`<div class="step" style="color:#6B7280;font-style:italic;padding-top:.5rem">This path is <strong>traceable by construction</strong>. Q-PNA decisions are never black-box. Every classification can be audited by walking the tree.</div>`;
- document.getElementById('decisionLog').innerHTML=html;
-
+ html += `<div class="step" style="color:#6B7280;font-style:italic;padding-top:.5rem">15% simulated noise rate. In real Q-PNA, the tree structure provides geometric resistance to classification errors through hierarchical feature organization.</div>`;
+ document.getElementById('decisionLog').innerHTML = html;
+ 
  layoutTree(data);
- drawTree(data, noisyLeaf);
+ drawTree(data, lastLeaf);
+}
+
+function classifySample(){
+ classifySamples(5);
 }
 
 function handleLeafClick(e){
@@ -310,6 +335,8 @@ function initTree(){
  treeNodes=data.nodes; treeEdges=data.edges; treeLeaves=data.leaves;
  leafClasses=data.classLabels;
  layoutTree(data);drawTree(data);
+ // Auto-classify on load so metrics show immediately
+ setTimeout(classifySample, 300);
 }
 window.addEventListener('resize',()=>{
  const data=buildTree(treeD);

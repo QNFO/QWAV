@@ -201,7 +201,16 @@ dCanvas.addEventListener('click',function(e){
 function init(){
  const data=buildDistTree(treeD);
  dNodes=data.nodes;dLeaves=data.leaves;
- layoutDistTree(data);drawDistTree(data);
+ layoutDistTree(data);
+ // Auto-select 2 random leaves to show distances immediately
+ if(dLeaves.length >= 2){
+  const i1 = Math.floor(Math.random() * dLeaves.length);
+  let i2 = Math.floor(Math.random() * (dLeaves.length - 1));
+  if(i2 >= i1) i2++;
+  selected = [dLeaves[i1], dLeaves[i2]];
+  updateDistances();
+ }
+ drawDistTree(data);
 }
 window.addEventListener('resize',()=>{layoutDistTree({root:dNodes[0],nodes:dNodes,leaves:dLeaves,d:treeD});drawDistTree({root:dNodes[0],nodes:dNodes,leaves:dLeaves,d:treeD})});
 init();
