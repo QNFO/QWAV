@@ -88,20 +88,28 @@ These are for reference when needed — not to-do items:
 
 ### Spinoff Projects
 
-All 6 Build Phase artifacts are deployed and verified live. The Projects agent has completed execution. These are now monitored assets, not active projects. (`G:\My Drive\projects\`). QWAV defines WHAT; Projects executes HOW. Monitor releases directory for outputs.
+6 Build Phase artifacts remaining. All deployed but ZERO have automated tests. These are now in active Verification & Remediation phase (see POST-AUDIT ACTION PLAN above). (`G:\My Drive\projects\`). QWAV defines WHAT; Projects executes HOW. Monitor releases directory for outputs.
 
 | Project | Directory | Status | Phase | Last Deliverable | Next Milestone |
 |:--------|:----------|:-------|:------|:-----------------|:---------------|
-| **Nested Semantic Graph** | `G:\My Drive\projects\nested-semantic-graph\` | ⚠️ Closed Out | P5 — Inconsistent | NLP sub-graph matching on ultrametric trees. 5 sprints, 26 commits. SPRINT.md has 3 unfinished S6 tasks. | Resolve SPRINT inconsistency or archive. |
 | **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🟣 Done | P5 — Close-Out | v2.0 Research Specification (52 KB) published. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. Archived. | Complete |
 | **Error Confinement Demo** | `G:\My Drive\projects\ultrametric-error-confinement-demo\` | ✅ Deployed | P5 — Complete | Interactive Bruhat-Tits tree (10 KB). Single HTML + vanilla JS. | ✅ Live → `qnfo.github.io/ultrametric-error-confinement/` |
 | **Q-PNA Playground** | `G:\My Drive\projects\qpna-classifier-playground\` | ✅ Deployed | P5 — Complete | Glass-box AI demo (9 KB). Decision tree explorer. STC verification. | ✅ Live → `qnfo.github.io/Q-PNA/` |
+
+### Archived Projects (2026-05-23)
+
+These were moved to `G:\My Drive\Archive\projects\2026\05\` during the post-audit cleanup:
+
+| Project | Reason | Moscow |
+|:--------|:-------|:-------|
+| **Nested Semantic Graph** | CLOSED OUT. 5 sprints, 50 commits. Adjacent domain (NLP), weakest QWAV nexus. | W |
+| **Ultrametric Game of Life** | COMPLETE. 46/53 tests pass. Deployed. Bonus asset, not in formal Build Phase. | C |
+| **Hierarchy as Ultrametricity** | Never scaffolded. Lower priority than Build Phase. | W |
+
 | **Convergence Explorer** | `G:\My Drive\projects\ultrametric-convergence-explorer\` | ✅ Deployed | P5 — Complete | Side-by-side particle simulation (7 KB). | ✅ Live → `qnfo.github.io/ultrametric-convergence/` |
 | **Tree Distance Sandbox** | `G:\My Drive\projects\tree-distance-sandbox\` | ✅ Deployed | P5 — Complete | Distance comparison + triadic rigidity (8 KB). | ✅ Live → `qnfo.github.io/tree-distance/` |
 | **Hardware Visualizer** | `G:\My Drive\projects\hardware-pathway-visualizer\` | ✅ Deployed | P5 — Complete | 3D 40-atom tree (5 KB). | ✅ Live → `qnfo.github.io/hardware-pathway/` |
 | **Technical Site Hub** | `G:\My Drive\projects\qwav-technical-site\` | ✅ Complete | P5 — Verified | Landing page (13.5 KB). 5 sections + all T1-T12. | ✅ Live → `qnfo.github.io/QWAV/` |
-| **Hierarchy as Ultrametricity** | `G:\My Drive\projects\Hierarchy as Ultrametricity\` | 🟡 Paused | P2 — Execution | Research synthesis: hierarchy ≡ ultrametricity. Not yet scaffolded. | Pending — lower priority than Build Phase |
-| **Ultrametric Game of Life** | `G:\My Drive\projects\ultrametric-game-of-life\` | ✅ Complete | P5 — Verified | Interactive web app: Bruhat-Tits tree vs surface-code QEC. 22/22 tasks. | ✅ Live → `qnfo.github.io/ultrametric-game-of-life/` |
 
 **Spinoff lifecycle:**
 1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol
