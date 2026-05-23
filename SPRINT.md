@@ -35,7 +35,7 @@
 |:---|:-----|:-----|:---------|:-------|
 | **S7.1** | Git branch hygiene — switch all repos from `master`/`main` to `feature/` | 0.5h | P0 | [x] |
 | **S7.2** | Write `test_plan.py` for A1 — tree construction validation | 1h | P0 | [x] |
-| **S7.3** | Write `test_plan.py` for A1 — error rate validation vs published Table 1 | 1h | P0 | [ ] |
+| **S7.3** | Write `test_plan.py` for A1 — error rate validation vs published Table 1 | 1h | P0 | [x] |
 | **S7.4** | Write `test_plan.py` for A1 — strong triangle inequality + interactive verification | 0.5h | P0 | [x] |
 | **S7.5** | Execute A1 test_plan.py — run tests, document results, fix failures | 0.5h | P0 | [x] |
 | **S7.6** | Fix A2 hardcoded accuracy — build synthetic dataset + real JS classification | 2h | P0 | [x] |
@@ -45,9 +45,9 @@
 | **S7.10** | Decide A5 approach: Three.js rebuild vs 2.5D descope | 0.25h | P1 | [x] |
 | **S7.11** | Execute A5 approach — rebuild or polish + test_plan.py | 1-2h | P1 | [x] |
 | **S7.12** | Write test suite for K1 — link checker, chart data validator | 1h | P2 | [x] |
-| **S7.14** | Cross-link all artifacts — back-links + bidirectional navigation | 0.5h | P2 | [ ] |
-| **S7.15** | Buffer social campaign — launch after A1 tests pass | 0.5h | P2 | [ ] |
-| **S7.16** | Sprint close-out — update docs, commit | 0.25h | P2 | [ ] |
+| **S7.14** | Cross-link all artifacts — back-links + bidirectional navigation | 0.5h | P2 | [x] |
+| **S7.15** | Buffer social campaign — launch after A1 tests pass | 0.5h | P2 | [x] |
+| **S7.16** | Sprint close-out — update docs, commit | 0.25h | P2 | [x] |
 
 ---
 
