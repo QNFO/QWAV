@@ -4,6 +4,32 @@
 
 ---
 
+## v2.56 — 2026-05-23 (Strategic Harmonization)
+
+**What Changed:**
+- Repository structure harmonized: duplicates removed, files organized into proper directories
+- Deleted orphan `artifacts/technical-site/` (merged into main K1 site)
+- Deleted stale files: `_fix_all.py`, `HANDOFF-2026-05-23.md`, `CLOSEOUT-CHECKLIST.md`
+- Removed duplicate strategy docs from `site/` (0.1-0.6.md, DEFINITION-OF-DONE.md, LEARNINGS.md)
+- Created `papers/` directory: moved 8 published paper .txt files + Foundations.md
+- Moved outreach emails from root to `briefings/`
+- Synced root `index.html` + `test_plan.py` from `site/` (canonical source)
+- Created root `.nojekyll` (was missing after closeout)
+- Updated README.md: added Repository Structure section, Interactive Demos table
+- Updated SPRINT.md: new Current State (Strategic Harmonization), SPRINT 9 defined (10 tasks)
+- Updated PROJECT STATE.md: session state, changelog ref
+- K1 test suite re-run: 39/39 PASS against root index.html
+- GitHub CLI access verified: ADMIN on all 6 repos
+
+**Files Changed:** README.md, SPRINT.md, PROJECT STATE.md, CHANGELOG.md, index.html, test_plan.py, .nojekyll
+**Files Created:** papers/ (8 files)
+**Files Deleted:** artifacts/technical-site/, _fix_all.py, HANDOFF-2026-05-23.md, CLOSEOUT-CHECKLIST.md, site/0.*.md (6), site/DEFINITION-OF-DONE.md, site/LEARNINGS.md
+**Files Moved:** site/*.txt → papers/, outreach-email-*.md → briefings/, Ultrametric Quantum Computing Foundations.md → papers/
+**Git:** feature/qwav-strategic-harmonization
+**Tests:** K1 39/39 PASS
+
+---
+
 ## v2.54 — 2026-05-23 (Buffer Campaign + Close-Out)
 
 **What Changed:**

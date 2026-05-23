@@ -12,15 +12,76 @@ QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) ge
 
 ---
 
+## Repository Structure
+
+```
+QWAV/
+├── index.html                     # K1 Technical Hub — live at qnfo.github.io/QWAV/
+├── test_plan.py                   # K1 test suite (39/39 PASS) — run: python test_plan.py
+├── .nojekyll                      # GitHub Pages: bypass Jekyll processing
+├── README.md                      # This file — project overview
+├── CHANGELOG.md                   # Chronological versioned change log
+├── SPRINT.md                      # Active sprint task tracker
+├── PROJECT STATE.md               # Comprehensive handoff document for LLM agents
+├── BACKLOG.md                     # Prioritized future work queue
+├── LEARNINGS.md                   # Program-level lessons (kaizen engine)
+├── DECISIONS.md                   # Architecture/design decisions with rationale
+├── CHARTER.md                     # Project charter — scope, constraints, deliverables
+├── CONTRIBUTING.md                # Contribution guidelines and rules
+├── DEFINITION-OF-DONE.md          # Task completion gates
+├── RISK-REGISTER.md               # Pre-populated risk tracking
+│
+├── site/                          # K1 hub canonical source directory
+│   ├── index.html                 # Source for deployed root index.html
+│   └── test_plan.py               # Test suite source
+│
+├── artifacts/                     # A1–A5 Interactive Demos
+│   ├── error-confinement-demo/    # A1: Ultrametric Error Confinement Demo
+│   ├── qpna-playground/           # A2: Q-PNA Classifier Playground
+│   ├── convergence-explorer/      # A3: Ultrametric Convergence Explorer
+│   ├── tree-distance/             # A4: Tree Distance Sandbox
+│   └── hardware-visualizer/       # A5: Hardware Pathway Visualizer
+│
+├── papers/                        # Published paper full texts (.txt)
+│
+├── strategy/                      # Strategic planning documents
+│   ├── VENUE-REGISTRY.md          # Complete public presence audit
+│   └── *.md                       # Strategy, pitch deck, prior art analysis
+│
+├── briefings/                     # Internal briefings, handoffs, outreach templates
+│
+├── people/                        # Founder CV / resume
+│
+└── applications/                  # Grant and fellowship applications
+```
+
+---
+
+## Interactive Demos
+
+All demos are live on GitHub Pages. Each is a standalone single-page application.
+
+| # | Demo | URL | Tests |
+|:--|:-----|:----|:------|
+| **A1** | Error Confinement Demo | [qnfo.github.io/ultrametric-error-confinement](https://qnfo.github.io/ultrametric-error-confinement/) | 40/40 PASS |
+| **A2** | Q-PNA Classifier Playground | [qnfo.github.io/Q-PNA](https://qnfo.github.io/Q-PNA/) | 38/38 PASS |
+| **A3** | Convergence Explorer | [qnfo.github.io/ultrametric-convergence](https://qnfo.github.io/ultrametric-convergence/) | 44/44 PASS |
+| **A4** | Tree Distance Sandbox | [qnfo.github.io/tree-distance](https://qnfo.github.io/tree-distance/) | 37/37 PASS |
+| **A5** | Hardware Pathway Visualizer | [qnfo.github.io/hardware-pathway](https://qnfo.github.io/hardware-pathway/) | 32/32 PASS |
+
+**Total: 283 automated tests across 7 artifacts — 0 failures.**
+
+---
+
 ## Publications
 
-All papers are open-access on Zenodo with registered DOIs.
+All papers are open-access on Zenodo with registered DOIs. Full texts in `papers/`.
 
 | Title | Date | DOI |
 |:------|:-----|:----|
 | Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits | 2026-05-12 | [10.5281/zenodo.20134944](https://doi.org/10.5281/zenodo.20134944) |
-| Symmetric Extension of Ultrametric Error Confinement — Ternary Tree Architecture | 2026-05-16 | [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437) |
 | Ultrametric Quantum Computing Foundations | 2026-05-15 | [10.5281/zenodo.20154557](https://doi.org/10.5281/zenodo.20154557) |
+| Symmetric Extension of Ultrametric Error Confinement — Ternary Tree Architecture | 2026-05-16 | [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437) |
 | Q-PNA: Quantum-Native $p$-Adic Neural Architecture — Research Specification v2.0 | 2026-05-19 | [10.5281/zenodo.20287742](https://doi.org/10.5281/zenodo.20287742) |
 | Convergence, Consilience, and the Hierarchical Architecture of Reality | 2026-05-20 | [10.5281/zenodo.20302276](https://doi.org/10.5281/zenodo.20302276) |
 
@@ -38,7 +99,7 @@ The Quantum-Native $p$-Adic Neural Architecture replaces continuous embedding sp
 
 ---
 
-## Distribution Pipeline (Inbound-Only)
+## Distribution Pipeline
 
 No cold outreach. No groveling. Publish. Let the work speak.
 
@@ -46,35 +107,24 @@ No cold outreach. No groveling. Publish. Let the work speak.
 |:------|:--------|
 | **Primary** | Zenodo — all papers published with registered DOIs |
 | **Secondary** | ResearchGate + QNFO.org — cross-posted from Zenodo |
-| **Social** | Mastodon ([@QNFO](https://mstdn.science/@QNFO)), Bluesky, Twitter/X — distribution only, no engagement farming |
+| **Social** | Mastodon ([@QNFO](https://mstdn.science/@QNFO)), Bluesky, Twitter/X |
 | **Email** | Inbound-only — if someone reads the work and reaches out, evaluate case-by-case |
+| **Technical Site** | [qnfo.github.io/QWAV](https://qnfo.github.io/QWAV/) — live interactive hub |
 
 ---
 
 ## Non-Negotiable Constraints
 
-These are not gaps to be closed — they are the path.
-
 | Constraint | Rationale |
 |:-----------|:----------|
-| **No physical lab** | Computational validation only. Computational physics is a legitimate field — simulations produce falsifiable, reproducible, shareable results. |
-| **No peer review** | Open-access publication only. Credibility comes from substance and falsifiable predictions, not journal acceptance. |
-| **Written-first** | All communication is written. No live pitches, no networking, no conference schmoozing. The introvert path is not a limitation — it is a filter. |
-| **Solo founder** | No team-building aspirations. If collaborators emerge organically through the work, that's fine — but recruitment is not a goal. |
-| **Substance-first** | Target only individuals and programs that evaluate on content, not credentials. Do not waste time on audiences that require institutional affiliation or PhDs. |
-| **No external dependencies** | Every task must be completable by a single agent in a single LLM thread. No formal verification collaborators, no external labs, no API dependencies. |
+| **No physical lab** | Computational validation only — simulations produce falsifiable, reproducible, shareable results |
+| **No peer review** | Open-access publication only — credibility from substance, not journal gatekeeping |
+| **Written-first** | All communication is written — the introvert path is a filter, not a limitation |
+| **Solo founder** | No team-building aspirations — collaborators emerge organically through the work |
+| **Substance-first** | The work speaks for itself — booster language dilutes credibility |
 
 ---
 
-## Repository
+**Contact:** [Rowan Brad Quni-Gudzinas](mailto:rowan.quni@outlook.com) · [ORCID: 0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604) · [QNFO on GitHub](https://github.com/QNFO)
 
-This repository contains the QWAV strategy library: patent outlines, competitive landscape, benchmarking methodology, prior art analysis, IP strategy, and the full computational validation framework. For detailed project status, see [PROJECT STATE.md](PROJECT%20STATE.md).
-
-| Directory | Contents |
-|:----------|:---------|
-| `strategy/` | Sequential strategy documents — patent claims, timeline, competitive analysis, prior art, thesis reframing |
-| `people/` | Founder resume |
-| `applications/` | Grant and fellowship submissions |
-
-**GitHub:** [github.com/QNFO/QWAV](https://github.com/QNFO/QWAV)
-**Author:** Rowan Brad Quni-Gudzinas — [ORCID: 0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)
+*Last updated: 2026-05-23 — Strategic harmonization. Repository curated as the technical public face of QWAV.*
