@@ -58,7 +58,7 @@ footer .sep{color:#4B5563}
 </footer>
 
 <script type="importmap">
-{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+{"imports":{"three":"./three.module.js","three/addons/":"./"}}
 </script>
 <script type="module">
 import * as THREE from 'three';
@@ -238,9 +238,9 @@ function propagateToParent(atom) {
     if (mesh) mesh.material = errorMat.clone();
 
     // Suppress the children that were in error (they already propagated)
-    atom.errorState = 2;
+    if (atom.errorState === 1) { atom.errorState = 2; activeErrors--; }
     siblings.forEach(s => {
-      if (s.errorState === 1) s.errorState = 2;
+      if (s.errorState === 1) { s.errorState = 2; activeErrors--; }
     });
 
     // Continue propagating upward

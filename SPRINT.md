@@ -4,17 +4,21 @@
 
 ---
 
-## Current State (2026-05-23 — SPRINT 11: DEEP AUDIT REMEDIATION 🔍)
+## Current State (2026-05-23 — SPRINT 11 CLOSED ✅)
 
-**Deep-dive audit revealed critical bugs. A2 is fake (random labels). 4 demos had 3 duplicate footers. A4 rebuilt tree on resize. P0 fixes deployed. Now remediating P1/P2.**
+**Sprint 11 complete. 5/5 tasks. All P0/P1/P2 bugs remediated. A2 rewritten from fake random-training demo to honest Q-PNA Architecture Explorer. A1 label fixed. A5 Three.js bundled locally (no CDN). A5 error propagation counter fixed.**
 
 | Area | Status |
 |:-----|:-------|
-| P0: Footers + A4 resize + A1 canonical | [x] FIXED & DEPLOYED |
-| P1: A2 Rewrite — honest architecture demo | [~] IN PROGRESS |
-| A1: Archimedean label fix | [ ] Pending |
-| A5: CDN + propagation fixes | [ ] Pending |
-| K1: Technical Site Hub | [x] 39/39 PASS |
+| P0: Duplicate footers | ✅ Removed — all 5 artifacts have 1 footer |
+| P0: A4 resize bug | ✅ Fixed — no longer rebuilds tree |
+| P1: A2 Q-PNA Rewrite | ✅ Honest architecture explorer (14,525 bytes) |
+| P1: A1 Label Fix | ✅ "Pr(≥1 Leaf Error) Unprotected" |
+| P2: A5 CDN | ✅ Three.js bundled locally (1.27 MB) |
+| P2: A5 Error Propagation | ✅ activeErrors properly decremented on cascade |
+| K1: Technical Site Hub | ✅ 39/39 PASS — Deployed == Source |
+
+**What's next:** Monitor Buffer (Jun 11). Full BACKLOG.md rewrite. K1 content updates as new publications warrant.
 
 ---
 
@@ -24,9 +28,9 @@
 |:---|:-----|:-----|:---------|:-------|
 | **S11.1** | A2: Rewrite Q-PNA demo — replace fake random training with honest architecture explorer | 2h | P1 | [x] |
 | **S11.2** | Fix A1 Archimedean label to honest description | 0.25h | P1 | [x] |
-| **S11.3** | A5: Bundle Three.js locally (remove CDN) | 1h | P2 | [ ] |
-| **S11.4** | A5: Fix error propagation to grandparents | 0.5h | P2 | [ ] |
-| **S11.5** | Sprint close-out — update docs, commit, push | 0.25h | P2 | [ ] |
+| **S11.3** | A5: Bundle Three.js locally (remove CDN) | 1h | P2 | [x] |
+| **S11.4** | A5: Fix error propagation to grandparents | 0.5h | P2 | [x] |
+| **S11.5** | Sprint close-out — update docs, commit, push | 0.25h | P2 | [x] |
 
 ---
 
