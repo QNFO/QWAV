@@ -3,10 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <link rel="canonical" href="https://qnfo.github.io/Q-PNA/">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Q-PNA Classifier Playground — QWAV</title>
-<meta name="description" content="Explore glass-box AI. Watch Q-PNA train on Bruhat-Tits trees. See WHY each classification was made. 100% verification detection.">
+<title>Q-PNA Architecture Explorer — QWAV</title>
+<meta name="description" content="Explore the Q-PNA architecture: how Bruhat-Tits tree geometry enables glass-box AI with traceable decision paths. Click leaves to trace classification decisions.">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 body{background:#0A1128;color:#E5E5E5;font-family:system-ui,-apple-system,sans-serif;min-height:100vh;display:flex;flex-direction:column}
@@ -16,57 +15,55 @@ h1{font-size:1.5rem;font-weight:600;background:linear-gradient(135deg,#818CF8,#C
 main{flex:1;display:flex;flex-wrap:wrap;gap:1.5rem;padding:1.5rem;max-width:1300px;margin:0 auto;width:100%}
 .panel{flex:1;min-width:300px;background:rgba(129,140,248,0.04);border-radius:12px;border:1px solid rgba(129,140,248,0.12);padding:1.25rem;display:flex;flex-direction:column;gap:1rem}
 .panel h2{font-size:1rem;color:#818CF8;text-transform:uppercase;letter-spacing:.1em}
-.dataset-select{display:flex;gap:.5rem;flex-wrap:wrap}
-.dataset-btn{padding:.5rem 1rem;background:rgba(129,140,248,0.1);border:1px solid rgba(129,140,248,0.2);color:#E5E5E5;border-radius:6px;cursor:pointer;font-size:.8rem;transition:all .2s}
-.dataset-btn:hover,.dataset-btn.active{background:rgba(129,140,248,0.25);border-color:#818CF8}
-.train-btn{padding:.75rem 2rem;background:linear-gradient(135deg,#818CF8,#6366F1);border:none;color:#fff;border-radius:8px;cursor:pointer;font-size:.9rem;font-weight:600;width:100%}
-.train-btn:hover{opacity:.9}
-.train-btn:disabled{opacity:.4;cursor:not-allowed}
+.explainer{font-size:.75rem;color:#9CA3AF;line-height:1.6;padding:.5rem 0}
+.explainer strong{color:#C4B5FD}
+.classify-btn{padding:.75rem 2rem;background:linear-gradient(135deg,#818CF8,#6366F1);border:none;color:#fff;border-radius:8px;cursor:pointer;font-size:.9rem;font-weight:600;width:100%}
+.classify-btn:hover{opacity:.9}
+.classify-btn:disabled{opacity:.4;cursor:not-allowed}
 .metrics{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
 .metric{background:rgba(129,140,248,0.06);border-radius:8px;padding:.75rem;text-align:center}
 .metric .val{font-size:1.5rem;font-weight:700;color:#A5B4FC}
 .metric .lbl{font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;color:#818CF8;margin-top:.25rem}
-.metric .val.win{color:#34D399}
+.metric .val.good{color:#34D399}
+.metric .val.warn{color:#FBBF24}
 #tree-panel{flex:1.5;min-width:400px}
 #treeCanvas2{width:100%;display:block;border-radius:8px}
-.decision-log{max-height:200px;overflow-y:auto;font-size:.75rem;color:#9CA3AF;line-height:1.6}
-.decision-log .step{padding:.25rem 0;border-bottom:1px solid rgba(129,140,248,0.08)}
-.decision-log .step .node{color:#818CF8}
-.decision-log .step .leaf{color:#34D399}
+.decision-log{max-height:250px;overflow-y:auto;font-size:.75rem;color:#9CA3AF;line-height:1.6;background:rgba(0,0,0,0.2);border-radius:8px;padding:.5rem}
+.decision-log .step{padding:.35rem .5rem;border-bottom:1px solid rgba(129,140,248,0.06)}
+.decision-log .step .node{color:#818CF8;font-weight:600}
+.decision-log .step .leaf{color:#34D399;font-weight:600}
+.decision-log .step .branch{color:#FBBF24}
 footer{width:100%;padding:1rem;text-align:center;border-top:1px solid rgba(129,140,248,0.1)}
 footer a{color:#818CF8;text-decoration:none;font-size:.75rem;margin:0 .75rem}
 </style>
 </head>
 <body>
 <header>
-<h1>Q-PNA Classifier Playground</h1>
+<h1>Q-PNA Architecture Explorer</h1>
 <a href="https://qnfo.github.io/QWAV/">← Technical Site</a>
 </header>
 <main>
 <div class="panel">
-<h2>Dataset</h2>
-<div class="dataset-select">
-<button class="dataset-btn active" data-ds="hierarchy">Hierarchical</button>
-<button class="dataset-btn" data-ds="mnist">MNIST-Ultrametric</button>
-<button class="dataset-btn" data-ds="synthetic">Synthetic Tree</button>
-</div>
-<h2>Training</h2>
-<button class="train-btn" id="trainBtn">Train Q-PNA</button>
+<h2>How Q-PNA Works</h2>
+<p class="explainer"><strong>Q-PNA replaces continuous embedding spaces (&reals;ⁿ) with Bruhat-Tits tree geometry.</strong> Features are mapped to tree leaves via a learned linear transformation. Classification happens by walking the tree — every decision is traceable by construction.</p>
+<p class="explainer">This explorer demonstrates the <strong>architecture</strong>: a 4-ary tree with 4 class regions. Click <strong>Classify</strong> to simulate a feature vector being mapped to a leaf, then trace the decision path from root to leaf. Green = correct class. Yellow = wrong class but traceable.</p>
+<h2>Controls</h2>
+<button class="classify-btn" id="classifyBtn">Classify Random Sample</button>
 <div class="metrics">
-<div class="metric"><div class="val" id="qAcc">--</div><div class="lbl">Q-PNA Accuracy</div></div>
-<div class="metric"><div class="val" id="tAcc">--</div><div class="lbl">Transformer Baseline</div></div>
-<div class="metric"><div class="val" id="stcDetect">--</div><div class="lbl">STC Detection Rate</div></div>
-<div class="metric"><div class="val" id="stcFP">--</div><div class="lbl">False Positives</div></div>
+<div class="metric"><div class="val" id="className">--</div><div class="lbl">Assigned Class</div></div>
+<div class="metric"><div class="val" id="certainty">--</div><div class="lbl">Certainty (inverse distance)</div></div>
+<div class="metric"><div class="val" id="pathDepth">--</div><div class="lbl">Tree Depth Traversed</div></div>
+<div class="metric"><div class="val" id="classCorrect">--</div><div class="lbl">Classification Result</div></div>
 </div>
 <h2>Decision Trace</h2>
 <div class="decision-log" id="decisionLog">
-<p style="color:#6B7280">Train the model, then click a leaf in the tree to see the decision path.</p>
+<p style="color:#6B7280;padding:.5rem">Click <strong>Classify</strong> or click a leaf in the tree to trace the decision path from root to leaf.</p>
 </div>
 </div>
 <div class="panel" id="tree-panel">
 <h2>Bruhat-Tits Decision Tree</h2>
 <canvas id="treeCanvas2"></canvas>
-<p style="font-size:.7rem;color:#6B7280;text-align:center">Click any leaf to trace the decision. Green = correct. Red = error.</p>
+<p style="font-size:.7rem;color:#6B7280;text-align:center">Yellow regions = class boundaries. Click any leaf to trace its path. Green highlight = selected leaf.</p>
 </div>
 </main>
 <footer>
@@ -76,13 +73,14 @@ footer a{color:#818CF8;text-decoration:none;font-size:.75rem;margin:0 .75rem}
 </footer>
 <script>
 const canvas2=document.getElementById('treeCanvas2'),ctx2=canvas2.getContext('2d');
-let treeD=4,selectedDataset='hierarchy',trained=false;
-let treeNodes=[],treeEdges=[],leafLabels=[],predictions=[];
-let qpnaAcc=0,transformerAcc=0;
+const treeD=4, degree=4, numClasses=4;
+let treeNodes=[], treeEdges=[], treeLeaves=[];
+let leafClasses=[];        // class assignment per leaf (0-3)
+let testLeaf=null;         // currently selected test leaf
+let testTrueClass=null;    // true class of the test leaf
 
-function buildQPNATree(d){
+function buildTree(d){
  const nodes=[],edges=[],leaves=[];
- const degree=4;
  const root={id:0,x:0,y:0,layer:0,children:[],parent:null};
  nodes.push(root);
  let nid=1;
@@ -95,15 +93,28 @@ function buildQPNATree(d){
   }
  }
  grow(root,d);
- return {root,nodes,edges,leaves,degree,d};
+
+ // Assign class regions based on tree structure
+ // Each class gets a contiguous block of leaves (subtree)
+ const leavesPerClass = Math.floor(leaves.length / numClasses);
+ const classLabels = [];
+ for(let i = 0; i < leaves.length; i++){
+  classLabels.push(Math.floor(i / leavesPerClass));
+ }
+ // Fix any overflow into last class
+ for(let i = leavesPerClass * numClasses; i < leaves.length; i++){
+  classLabels[i] = numClasses - 1;
+ }
+ 
+ return {root,nodes,edges,leaves,classLabels,d};
 }
 
-function layoutQPNATree(data){
+function layoutTree(data){
  const {nodes,d}=data;
  const levels={};
  nodes.forEach(n=>{if(!levels[n.layer])levels[n.layer]=[];levels[n.layer].push(n)});
  const w=Math.max(500,canvas2.parentElement.clientWidth-40);
- const h=Math.max(350,(d+1)*65);
+ const h=Math.max(400,(d+1)*70);
  canvas2.width=w;canvas2.height=h;
  Object.keys(levels).forEach(l=>{
   const layer=parseInt(l),nods=levels[layer];
@@ -112,128 +123,199 @@ function layoutQPNATree(data){
  });
 }
 
-function drawQPNATree(data,selectedLeaf){
- const {nodes,edges,leaves}=data;
+function drawTree(data, highlightLeaf){
+ const {nodes,edges,leaves,classLabels}=data;
  ctx2.clearRect(0,0,canvas2.width,canvas2.height);
+
+ // Draw edges
  edges.forEach(e=>{
   const f=nodes.find(n=>n.id===e.from),t=nodes.find(n=>n.id===e.to);
   ctx2.beginPath();ctx2.moveTo(f.x,f.y);ctx2.lineTo(t.x,t.y);
-  ctx2.strokeStyle='rgba(129,140,248,0.15)';ctx2.lineWidth=1;ctx2.stroke();
+  ctx2.strokeStyle='rgba(129,140,248,0.12)';ctx2.lineWidth=1;ctx2.stroke();
  });
+
+ // Draw class region backgrounds (subtle)
+ if(classLabels){
+  const classColors=['rgba(129,140,248,0.04)','rgba(52,211,153,0.04)','rgba(251,191,36,0.04)','rgba(239,68,68,0.04)'];
+  // Group leaves by class and draw bounding regions
+  for(let c=0;c<numClasses;c++){
+   const classLeaves=leaves.filter((_,i)=>classLabels[i]===c);
+   if(classLeaves.length>0){
+    let minX=Infinity,minY=Infinity,maxX=-Infinity,maxY=-Infinity;
+    classLeaves.forEach(l=>{minX=Math.min(minX,l.x);minY=Math.min(minY,l.y);maxX=Math.max(maxX,l.x);maxY=Math.max(maxY,l.y)});
+    ctx2.fillStyle=classColors[c];
+    ctx2.fillRect(minX-5,minY-5,maxX-minX+10,maxY-minY+10);
+   }
+  }
+ }
+
+ // Draw nodes
  nodes.forEach(n=>{
   const isLeaf=n.children.length===0,isRoot=n.id===0;
   const r=isRoot?7:isLeaf?6:3;
   ctx2.beginPath();ctx2.arc(n.x,n.y,r,0,Math.PI*2);
-  if(isLeaf&&predictions.length>0){
+
+  if(isLeaf && classLabels){
    const idx=leaves.indexOf(n);
-   ctx2.fillStyle=predictions[idx]? '#34D399':'#EF4444';
+   const cls=classLabels[idx];
+   const leafColors=['#818CF8','#34D399','#FBBF24','#EF4444'];
+   ctx2.fillStyle=leafColors[cls];
   }else if(isRoot)ctx2.fillStyle='#818CF8';
   else ctx2.fillStyle='#4B5563';
   ctx2.fill();
-  if(isRoot||isLeaf)ctx2.strokeStyle='rgba(255,255,255,0.2)';ctx2.lineWidth=.5;ctx2.stroke();
+  if(isRoot||isLeaf){ctx2.strokeStyle='rgba(255,255,255,0.15)';ctx2.lineWidth=.5;ctx2.stroke()}
  });
- if(selectedLeaf!==undefined&&selectedLeaf>=0){
-  const leaf=leaves[selectedLeaf];
-  ctx2.beginPath();ctx2.arc(leaf.x,leaf.y,10,0,Math.PI*2);
-  ctx2.strokeStyle='#FBBF24';ctx2.lineWidth=2;ctx2.stroke();
+
+ // Highlight selected leaf and its path
+ if(highlightLeaf!==null && highlightLeaf!==undefined && highlightLeaf>=0){
+  const leaf=leaves[highlightLeaf];
+  // Draw path from root to leaf
   let node=leaf;
   while(node){
-   ctx2.beginPath();ctx2.arc(node.x,node.y,8,0,Math.PI*2);
-   ctx2.strokeStyle='rgba(251,191,36,0.4)';ctx2.lineWidth=1.5;ctx2.stroke();
+   ctx2.beginPath();ctx2.arc(node.x,node.y,9,0,Math.PI*2);
+   ctx2.strokeStyle='rgba(255,255,255,0.6)';ctx2.lineWidth=2;ctx2.stroke();
+   if(node.parent){
+    ctx2.beginPath();ctx2.moveTo(node.x,node.y);ctx2.lineTo(node.parent.x,node.parent.y);
+    ctx2.strokeStyle='rgba(255,255,255,0.4)';ctx2.lineWidth=2;ctx2.stroke();
+   }
    node=node.parent;
   }
+  // Bright highlight on selected leaf
+  ctx2.beginPath();ctx2.arc(leaf.x,leaf.y,11,0,Math.PI*2);
+  ctx2.strokeStyle='#FFFFFF';ctx2.lineWidth=2.5;ctx2.stroke();
  }
 }
 
-function simulateTraining(){
- const data=buildQPNATree(treeD);
- treeNodes=data.nodes;treeEdges=data.edges;
- const leafCount=data.leaves.length;
- leafLabels=data.leaves.map((_,i)=>Math.random()<0.5?0:1);
- predictions=leafLabels.map(l=>Math.random()<0.15? (l===0?1:0):l);
- qpnaAcc=predictions.filter((p,i)=>p===leafLabels[i]).length/leafCount;
- transformerAcc=0.35+Math.random()*0.1+(selectedDataset==='hierarchy'?0:0.05);
- trained=true;
- return data;
-}
+function classifySample(){
+ const data = buildTree(treeD);
+ treeNodes=data.nodes; treeEdges=data.edges; treeLeaves=data.leaves;
+ leafClasses=data.classLabels;
 
-function showDecision(leafIdx){
- if(!trained)return;
- const data=buildQPNATree(treeD);
- const leaf=data.leaves[leafIdx];
+ // Pick a random leaf as the test sample
+ const leafIdx = Math.floor(Math.random() * treeLeaves.length);
+ testLeaf = leafIdx;
+ testTrueClass = leafClasses[leafIdx];
+
+ // Add simulated classification noise: 15% chance of misclassification
+ // This is architectural — in real Q-PNA, noise resistance comes from tree depth
+ const noisyLeaf = Math.random() < 0.15
+   ? Math.floor(Math.random() * treeLeaves.length)
+   : leafIdx;
+ 
+ const assignedClass = leafClasses[noisyLeaf];
+ const leaf = treeLeaves[noisyLeaf];
+
+ // Calculate certainty based on distance to assigned leaf
+ // In real Q-PNA, this uses cophenetic distance
+ const root = treeNodes[0];
+ const maxDist = Math.sqrt((canvas2.width)**2 + (canvas2.height)**2);
+ const leafDist = Math.sqrt((leaf.x - treeLeaves[leafIdx].x)**2 + (leaf.y - treeLeaves[leafIdx].y)**2);
+ const certainty = Math.max(0, Math.min(100, Math.round((1 - leafDist/maxDist) * 100)));
+
+ // Depth traversed
+ let depth=0, n=leaf;
+ while(n.parent){depth++;n=n.parent}
+
+ // Update displays
+ const classNames=['α (Blue)','β (Green)','γ (Yellow)','δ (Red)'];
+ document.getElementById('className').textContent=classNames[assignedClass];
+ document.getElementById('certainty').textContent=certainty+'%';
+ document.getElementById('certainty').className='val '+(certainty>=80?'good':(certainty>=50?'':'warn'));
+ document.getElementById('pathDepth').textContent=depth;
+
+ const correct = assignedClass === testTrueClass;
+ document.getElementById('classCorrect').textContent = correct ? 'CORRECT' : 'MISCLASSIFIED';
+ document.getElementById('classCorrect').className = 'val ' + (correct ? 'good' : 'warn');
+
+ // Build decision trace
  const path=[];
- let node=leaf;
- while(node){path.unshift(node);node=node.parent}
- let html='<div class="step"><span class="node">root</span> → starting decision</div>';
+ let node2=leaf;
+ while(node2){path.unshift(node2);node2=node2.parent}
+
+ let html='<div class="step"><span class="node">root</span> → starting classification</div>';
+ const layerNames=['Feature','Subcategory','Category','Domain','Leaf'];
  for(let i=1;i<path.length;i++){
   const n=path[i];
   const isLast=i===path.length-1;
+  const layerLabel=layerNames[Math.min(i, layerNames.length-1)];
   if(isLast){
-   const correct=predictions[leafIdx]===leafLabels[leafIdx];
-   html+=`<div class="step">→ <span class="${correct?'leaf':'node'}" style="color:${correct?'#34D399':'#EF4444'}">leaf ${leafIdx}</span>: ${correct?'CORRECT':'ERROR'} (predicted ${predictions[leafIdx]}, actual ${leafLabels[leafIdx]})</div>`;
+   const cls=leafClasses[leaves.indexOf(n)];
+   html+=`<div class="step">→ <span class="leaf">leaf #${leaves.indexOf(n)}</span>: assigned class <span class="leaf">${classNames[cls]}</span> (true: ${classNames[testTrueClass]})</div>`;
   }else{
-   html+=`<div class="step">→ <span class="node">vertex ${n.id}</span>: branching at layer ${n.layer}</div>`;
+   html+=`<div class="step">→ <span class="node">node ${n.id}</span>: ${layerLabel} layer — branching decision</div>`;
   }
  }
+ html+=`<div class="step" style="color:#6B7280;font-style:italic;padding-top:.5rem">This path is <strong>traceable by construction</strong>. Q-PNA decisions are never black-box. Every classification can be audited by walking the tree.</div>`;
  document.getElementById('decisionLog').innerHTML=html;
+
+ layoutTree(data);
+ drawTree(data, noisyLeaf);
 }
 
-function runTraining(){
- const btn=document.getElementById('trainBtn');
- btn.disabled=true;btn.textContent='Training...';
- setTimeout(()=>{
-  const data=simulateTraining();
-  layoutQPNATree(data);
-  drawQPNATree(data);
-  document.getElementById('qAcc').textContent=(qpnaAcc*100).toFixed(1)+'%';
-  document.getElementById('tAcc').textContent=(transformerAcc*100).toFixed(1)+'%';
-  document.getElementById('stcDetect').textContent='100%';
-  document.getElementById('stcDetect').className='val win';
-  document.getElementById('stcFP').textContent='0';
-  document.getElementById('stcFP').className='val win';
-  if(qpnaAcc>transformerAcc){
-   document.getElementById('qAcc').className='val win';
-   document.getElementById('tAcc').className='val';
-  }
-  const ratio=(qpnaAcc/transformerAcc).toFixed(1);
-  document.getElementById('decisionLog').innerHTML=`<p style="color:#34D399">Trained! Q-PNA beats transformer ${ratio}x. Click any leaf to explore the decision path.</p>`;
-  btn.disabled=false;btn.textContent='Retrain';
- },800);
-}
+function handleLeafClick(e){
+ const data = buildTree(treeD);
+ treeNodes=data.nodes; treeLeaves=data.leaves;
+ leafClasses=data.classLabels;
+ layoutTree(data);
 
-document.getElementById('trainBtn').addEventListener('click',runTraining);
-document.querySelectorAll('.dataset-btn').forEach(b=>{
- b.addEventListener('click',function(){
-  document.querySelectorAll('.dataset-btn').forEach(x=>x.classList.remove('active'));
-  this.classList.add('active');
-  selectedDataset=this.dataset.ds;
-  treeD=selectedDataset==='mnist'?5:selectedDataset==='synthetic'?3:4;
-  trained=false;
-  const d=buildQPNATree(treeD);
-  layoutQPNATree(d);drawQPNATree(d);
- });
-});
-canvas2.addEventListener('click',function(e){
- if(!trained)return;
  const rect=canvas2.getBoundingClientRect();
  const mx=e.clientX-rect.left,my=e.clientY-rect.top;
- const data=buildQPNATree(treeD);
- layoutQPNATree(data);
  let closest=-1,minDist=Infinity;
  data.leaves.forEach((l,i)=>{
   const dx=l.x-mx,dy=l.y-my,dist=dx*dx+dy*dy;
-  if(dist<minDist&&dist<400){minDist=dist;closest=i}
+  if(dist<minDist&&dist<1500){minDist=dist;closest=i}
  });
- if(closest>=0){showDecision(closest);drawQPNATree(data,closest)}
- else{drawQPNATree(data)}
-});
+
+ if(closest>=0){
+  testLeaf=closest;
+  testTrueClass=leafClasses[closest];
+  const cls=leafClasses[closest];
+  const classNames=['α (Blue)','β (Green)','γ (Yellow)','δ (Red)'];
+  document.getElementById('className').textContent=classNames[cls];
+  document.getElementById('certainty').textContent='manual';
+  document.getElementById('certainty').className='val';
+  document.getElementById('pathDepth').textContent='--';
+  document.getElementById('classCorrect').textContent='SELECTED';
+  document.getElementById('classCorrect').className='val';
+
+  // Show path
+  const path=[];
+  let node2=data.leaves[closest];
+  while(node2){path.unshift(node2);node2=node2.parent}
+  let html='<div class="step"><span class="node">root</span> → leaf selected manually</div>';
+  const layerNames=['Feature','Subcategory','Category','Domain','Leaf'];
+  for(let i=1;i<path.length;i++){
+   const n=path[i];
+   const isLast=i===path.length-1;
+   const layerLabel=layerNames[Math.min(i, layerNames.length-1)];
+   if(isLast){
+    html+=`<div class="step">→ <span class="leaf">leaf #${closest}</span>: class <span class="leaf">${classNames[cls]}</span></div>`;
+   }else{
+    html+=`<div class="step">→ <span class="node">node ${n.id}</span>: ${layerLabel} layer</div>`;
+   }
+  }
+  html+=`<div class="step" style="color:#6B7280;font-style:italic;padding-top:.5rem">This is a <strong>manually selected leaf</strong>. Every point on the tree has a fully traceable path to root — the definition of glass-box AI.</div>`;
+  document.getElementById('decisionLog').innerHTML=html;
+  drawTree(data, closest);
+ }else{
+  drawTree(data);
+ }
+}
+
+document.getElementById('classifyBtn').addEventListener('click', classifySample);
+canvas2.addEventListener('click', handleLeafClick);
+
 function initTree(){
- const d=buildQPNATree(treeD);
- layoutQPNATree(d);drawQPNATree(d);
+ const data=buildTree(treeD);
+ treeNodes=data.nodes; treeEdges=data.edges; treeLeaves=data.leaves;
+ leafClasses=data.classLabels;
+ layoutTree(data);drawTree(data);
 }
 window.addEventListener('resize',()=>{
- if(!trained){const d=buildQPNATree(treeD);layoutQPNATree(d);drawQPNATree(d)}
- else{const d=buildQPNATree(treeD);layoutQPNATree(d);drawQPNATree(d)}
+ const data=buildTree(treeD);
+ treeNodes=data.nodes; treeLeaves=data.leaves;
+ leafClasses=data.classLabels;
+ layoutTree(data);drawTree(data);
 });
 initTree();
 </script>

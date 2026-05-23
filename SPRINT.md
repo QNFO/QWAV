@@ -4,7 +4,33 @@
 
 ---
 
-## Current State (2026-05-23 — SPRINT 10 CLOSED ✅)
+## Current State (2026-05-23 — SPRINT 11: DEEP AUDIT REMEDIATION 🔍)
+
+**Deep-dive audit revealed critical bugs. A2 is fake (random labels). 4 demos had 3 duplicate footers. A4 rebuilt tree on resize. P0 fixes deployed. Now remediating P1/P2.**
+
+| Area | Status |
+|:-----|:-------|
+| P0: Footers + A4 resize + A1 canonical | [x] FIXED & DEPLOYED |
+| P1: A2 Rewrite — honest architecture demo | [~] IN PROGRESS |
+| A1: Archimedean label fix | [ ] Pending |
+| A5: CDN + propagation fixes | [ ] Pending |
+| K1: Technical Site Hub | [x] 39/39 PASS |
+
+---
+
+### 🔵 SPRINT 11: Deep Audit Remediation
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S11.1** | A2: Rewrite Q-PNA demo — replace fake random training with honest architecture explorer | 2h | P1 | [~] |
+| **S11.2** | Fix A1 Archimedean label to honest description | 0.25h | P1 | [ ] |
+| **S11.3** | A5: Bundle Three.js locally (remove CDN) | 1h | P2 | [ ] |
+| **S11.4** | A5: Fix error propagation to grandparents | 0.5h | P2 | [ ] |
+| **S11.5** | Sprint close-out — update docs, commit, push | 0.25h | P2 | [ ] |
+
+---
+
+### 🔵 SPRINT 10: Backlog Grooming & Final Hygiene — SPRINT 10 CLOSED ✅)
 
 **Sprint 10 complete.** 4/4 tasks. Git hygiene resolved (QWAV on feature/, artifact Pages repos on main/master — correct for deployment). K1 Pages rebuild verified (17.1s, zero errors, deployed == source). Backlog groomed. Sprint closed — repo curated, deployed, verified.
 
