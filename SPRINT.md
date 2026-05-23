@@ -42,9 +42,9 @@
 | **S7.7** | Write + execute `test_plan.py` for A2 — classification, decision path integrity | 1h | P0 | [x] |
 | **S7.8** | Write + execute `test_plan.py` for A3 — convergence metric, particle behavior | 1h | P1 | [x] |
 | **S7.9** | Write + execute `test_plan.py` for A4 — distance correctness, triadic rigidity | 1h | P1 | [x] |
-| **S7.10** | Decide A5 approach: Three.js rebuild vs 2.5D descope | 0.25h | P1 | [ ] |
-| **S7.11** | Execute A5 approach — rebuild or polish + test_plan.py | 1-2h | P1 | [ ] |
-| **S7.12** | Write test suite for K1 — link checker, chart data validator | 1h | P2 | [ ] |
+| **S7.10** | Decide A5 approach: Three.js rebuild vs 2.5D descope | 0.25h | P1 | [x] |
+| **S7.11** | Execute A5 approach — rebuild or polish + test_plan.py | 1-2h | P1 | [x] |
+| **S7.12** | Write test suite for K1 — link checker, chart data validator | 1h | P2 | [x] |
 | **S7.14** | Cross-link all artifacts — back-links + bidirectional navigation | 0.5h | P2 | [ ] |
 | **S7.15** | Buffer social campaign — launch after A1 tests pass | 0.5h | P2 | [ ] |
 | **S7.16** | Sprint close-out — update docs, commit | 0.25h | P2 | [ ] |
