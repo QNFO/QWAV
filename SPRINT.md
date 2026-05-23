@@ -4,21 +4,40 @@
 
 ---
 
-## Current State (2026-05-23 — SPRINT 11 CLOSED ✅)
+## Current State (2026-05-23 — SPRINT 12: FINAL VERIFICATION & CLOSE-OUT ✅)
 
-**Sprint 11 complete. 5/5 tasks. All P0/P1/P2 bugs remediated. A2 rewritten from fake random-training demo to honest Q-PNA Architecture Explorer. A1 label fixed. A5 Three.js bundled locally (no CDN). A5 error propagation counter fixed.**
+**All prior sprint work deployed, verified, and tested.** 164/164 automated tests — 0 failures. 5 artifact repos synced with interactive enhancements and back-link footers. Comprehensive test suite created. Browser-based UI/UX testing deferred.
 
 | Area | Status |
 |:-----|:-------|
-| P0: Duplicate footers | ✅ Removed — all 5 artifacts have 1 footer |
-| P0: A4 resize bug | ✅ Fixed — no longer rebuilds tree |
-| P1: A2 Q-PNA Rewrite | ✅ Honest architecture explorer (14,525 bytes) |
-| P1: A1 Label Fix | ✅ "Pr(≥1 Leaf Error) Unprotected" |
-| P2: A5 CDN | ✅ Three.js bundled locally (1.27 MB) |
-| P2: A5 Error Propagation | ✅ activeErrors properly decremented on cascade |
-| K1: Technical Site Hub | ✅ 39/39 PASS — Deployed == Source |
+| Automated tests | ✅ 164/164 PASS (7 suites, 0 failures) |
+| Artifact repo sync | ✅ All 5 repos deployed with fixes + back-links |
+| Interactive demos | ✅ All auto-init on load, no placeholder values |
+| K1 Technical Hub | ✅ Deployed == Source (35,361 bytes) |
+| Buffer campaign | ✅ Autonomous through Jun 11 |
+| Documentation | ✅ SPRINT.md, PROJECT STATE.md, CHANGELOG.md current |
+| Browser UI/UX testing | ⬜ Deferred — requires browser environment |
 
-**What's next:** Monitor Buffer (Jun 11). Full BACKLOG.md rewrite. K1 content updates as new publications warrant.
+**What's next:** Browser-based UI/UX validation. BACKLOG.md full rewrite. Buffer renewal Jun 11.
+
+---
+
+### 🔵 SPRINT 12: Final Verification & Close-Out
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S12.1** | Deploy all fixes to 5 separate artifact repos (back-links preserved) | 1h | P0 | [x] |
+| **S12.2** | Enhance interactive demos — auto-init on load, batch classification, no `--` values | 2h | P0 | [x] |
+| **S12.3** | Write + execute comprehensive test suite (test_all_artifacts.py — 164 tests) | 2h | P0 | [x] |
+| **S12.4** | Fix A2 entirely — rewrite from fake random-training to honest Architecture Explorer | 2h | P0 | [x] |
+| **S12.5** | Fix A5 — bundle Three.js locally, fix error propagation counter | 1.5h | P1 | [x] |
+| **S12.6** | Fix A1 — remove duplicate footers, fix misleading label, add canonical tag | 0.5h | P1 | [x] |
+| **S12.7** | Fix A3/A4 — remove duplicate footers, fix resize bug, auto-init | 0.5h | P1 | [x] |
+| **S12.8** | K1 Pages fix — switch source branch master→main, verify deploy==source | 1h | P1 | [x] |
+| **S12.9** | Buffer social campaign — 5 QWAV posts sent May 23, queue verified | 0.5h | P2 | [x] |
+| **S12.10** | VENUE-REGISTRY update — M4.1 harmonization milestone, A2 URL fix | 0.25h | P2 | [x] |
+| **S12.11** | Backlog grooming — header updated, stale items noted | 0.25h | P2 | [x] |
+| **S12.12** | Sprint close-out — update docs, final commit | 0.25h | P2 | [x] |
 
 ---
 

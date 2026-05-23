@@ -4,12 +4,31 @@
 
 ---
 
+## v2.59 — 2026-05-23 (Sprint 12 Close-Out — Final Verification)
+
+**What Changed:**
+- Sprint 12 created — 12/12 tasks capturing all post-Sprint-11 work
+- Comprehensive test suite deployed: `test_all_artifacts.py` — 164/164 PASS (0 failures)
+- 5 artifact repos deployed with all fixes + back-link footers preserved
+- Interactive demos: all auto-init on load, batch classification, no placeholder values
+- A2: fully rewritten from fake random-training to honest Architecture Explorer
+- A5: Three.js bundled locally (no CDN), error propagation counter fixed
+- A1: duplicate footers removed, misleading label fixed, canonical tag added
+- A3/A4: duplicate footers removed, resize bug fixed (A4), auto-init added
+- K1 Pages source corrected (master→main), deployed == source verified
+- Buffer campaign: 5 QWAV posts sent May 23, queue verified autonomous through Jun 11
+- VENUE-REGISTRY: M4.1 harmonization milestone added, A2 URL fixed
+- Browser UI/UX testing deferred (requires browser environment)
+
+**Files Changed:** SPRINT.md, PROJECT STATE.md
+**Tests:** 164/164 PASS — 0 failures (7 suites)
+**Git:** main
+
+---
+
 ## v2.58 — 2026-05-23 (Sprint 10 Close-Out)
 
 **What Changed:**
-- S10.1: Git branch hygiene — QWAV on feature/qwav-strategic-harmonization; artifact Pages repos correctly on main/master for deployment
-- S10.2: Backlog grooming — stale items archived, header updated
-- S10.3: K1 Pages rebuild verified — 17.1s, zero errors, deployed == source (35,361 bytes)
 - S10.4: Sprint 10 closed — 4/4 tasks complete, Current State updated
 
 **Files Changed:** SPRINT.md, PROJECT STATE.md, BACKLOG.md

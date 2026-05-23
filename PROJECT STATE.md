@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-23 | **Session:** Sprint 10 close-out — 4/4 tasks complete. QWAV on feature/qwav-strategic-harmonization. K1 Pages rebuild verified (17.1s, deployed == source). Backlog groomed. Repo curated, deployed, verified. | **Next:** Monitor Buffer (Jun 11). BACKLOG.md full rewrite. Content updates as warranted. | **GitHub:** QNFO/QWAV (main) | **Changelog:** `CHANGELOG.md` v2.58
+**Last updated:** 2026-05-23 | **Session:** Sprint 12 close-out — 12/12 tasks complete. 164/164 automated tests pass (0 failures) across 7 test suites. All 5 artifact repos deployed with fixes + back-link footers. Interactive demos enhanced (auto-init, batch classification, no placeholder values). K1 Pages verified (deployed == source). Buffer autonomous through Jun 11. | **Next:** Browser-based UI/UX testing. BACKLOG.md full rewrite. Buffer renewal Jun 11. | **GitHub:** QNFO/QWAV (main) | **Changelog:** `CHANGELOG.md` v2.59
 
 ---
 
