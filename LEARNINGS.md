@@ -2,7 +2,7 @@
 
 > **Purpose:** Program-level lessons discovered during execution. Machine-readable format for kaizen (continuous improvement). Read this before starting new work to avoid repeating mistakes.
 
-**Last updated:** 2026-05-23 | **Status:** L1-L24 active. L18 archived (CLOSED). L24 (Build gravity, don't wait for permission — endogenous momentum > exogenous validation) added as direct result of strategy reframe confirmed by founder.
+**Last updated:** 2026-05-23 | **Status:** 27 lessons (L1-L27). L18 archived. L18 archived (CLOSED). L24 (Build gravity, don't wait for permission — endogenous momentum > exogenous validation) added as direct result of strategy reframe confirmed by founder.
 
 ---
 
@@ -28,6 +28,34 @@ The pattern is systemic: deliverables are declared "complete" and "deployed" the
   - Audit question for every project review: "Show me the test plan. Show me the test results."
 
 - **Cross-Project:** YES — This applies to all projects. The checkbox-theater pattern was found across every Build Phase artifact. Any future project spun off from QWAV or initiated independently must have test plans as a Definition of Done prerequisite.
+
+
+### L26: Email outreach must be high-impact and targeted — no booster language, just the work
+
+- **Category:** METHODOLOGY — OUTREACH
+- **Issue:** Outreach templates drafted in the 2026-05-23 session used booster language ("48x error reduction," "zero errors at depth 7," "groundbreaking," "the hardware story") in cold emails. This language is marketing copy that undermines credibility. The same templates were aimed at generic corporate addresses (info@company.com) rather than specific named individuals with relevant expertise. Cold emailing generic addresses has near-zero success probability and wastes time.
+- **Solution:** Every outreach email must follow these rules:
+  1. **No booster language.** Strip "demonstrate," "proves," "48x," "breakthrough," "groundbreaking." Replace with "explores," "suggests," "indicates."
+  2. **One link, one paragraph.** Body less than or equal to 8 sentences. A single link to the technical hub or a specific artifact. Let the recipient decide if they're interested.
+  3. **Specific named individuals only.** No info@company.com. No C-level executives without a warm introduction. Target: arXiv authors who published on the exact topic, postdocs at relevant labs, conference attendees with shared research interests.
+  4. **Affirmative opt-in before sending.** Drafts are saved for review. Never send without explicit user "yes" confirmation.
+  5. **"Explore" not "demonstrate."** Honest uncertainty is more credible than false certainty.
+- **Prevention:** The QWAV agent must not draft outreach emails unless the user initiates the request. Drafts must be reviewed against a checklist: (a) booster language stripped? (b) specific named recipient? (c) less than or equal to 8 sentences? (d) single link? (e) user approved? If any check fails, BLOCK the send.
+- **Cross-Project:** YES — applies to all projects. The booster-language antipattern appeared across all 5 lab outreach templates and the summer school application.
+
+### L27: Cold outreach is antithetical to the introvert path — the founder finds it draining
+
+- **Category:** METHODOLOGY — FOUNDER CONSTRAINT
+- **Issue:** The 2026-05-23 session drifted from the written-first strategy into cold outreach mode: drafting lab emails, searching LinkedIn for contacts, preparing templates for unsolicited messages. This violates Strategy 3.0's core constraint: "The introvert path is the path. No networking, no live pitching, no conference schmoozing. All communication is written." Cold email outreach — even well-crafted — is the written equivalent of networking. It drains the founder and has low expected return.
+- **Solution:** The QWAV agent must default to introvert-compatible actions:
+  1. **Conference abstract submissions** — write once, submit, the committee decides. No personal outreach required.
+  2. **Publication pipeline** — Zenodo DOIs, cross-links, SEO. The work finds its audience organically.
+  3. **Scheduled social media** — Buffer posts. No personal interaction required.
+  4. **Archiving and documenting** — lessons, charters, test plans. Building the asset base that speaks for itself.
+  Cold email outreach is permitted ONLY when the founder explicitly requests it for a specific named individual with a warm introduction or shared context.
+- **Prevention:** The QWAV agent must not draft cold outreach emails unless: (a) the user initiates the request, (b) a specific named individual is identified, (c) there is a warm connection or shared context, (d) the email is reviewed and approved by the user before sending. If the user says "no cold emails" or "this is draining," the agent stops immediately and pivots to introvert-compatible actions.
+- **Cross-Project:** YES — applies to all projects. The written-first, introvert-path constraint is a non-negotiable design decision per Strategy 3.0.
+
 
 ## Active Learnings
 
