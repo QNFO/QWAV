@@ -206,3 +206,32 @@
 - Research releases: external, not in public repo (Obsidian/releases)
 
 **The only metric that matters:** Evidence generated or applications advanced. Everything else is secondary.
+
+
+---
+
+### SPRINT 8: Deploy & Amplify (2026-05-23)
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S8.1** | Push all 6 rebuilt artifacts to GitHub remotes | 0.5h | P0 | [x] |
+| **S8.2** | Verify all 6 GitHub Pages load (HTTP 200) | 0.5h | P0 | [x] |
+| **S8.3** | Complete Buffer campaign — A4, A5, K1 | 0.5h | P1 | [!] Buffer session expired |
+| **S8.4** | SEO audit — meta tags on all 6 (verified in S7.12) | 0.5h | P1 | [x] |
+| **S8.5** | Update VENUE-REGISTRY with live URLs | 0.25h | P2 | [x] |
+| **S8.6** | Mobile responsiveness spot-check | 0.5h | P2 | [-] Deferred |
+| **S8.7** | Sprint close-out | 0.25h | P2 | [x] |
+
+**Sprint 8 Summary: 5/7 complete, 1 blocked, 1 deferred.**
+
+All 6 artifacts deployed and live:
+| Artifact | Live URL |
+|:---------|:---------|
+| A1 Error Confinement | https://qnfo.github.io/ultrametric-error-confinement/ |
+| A2 Q-PNA Playground | https://qnfo.github.io/Q-PNA/ |
+| A3 Convergence Explorer | https://qnfo.github.io/ultrametric-convergence/ |
+| A4 Tree Distance | https://qnfo.github.io/tree-distance/ |
+| A5 Hardware Visualizer | https://qnfo.github.io/hardware-pathway/ |
+| K1 Technical Hub | https://qnfo.github.io/QWAV/ |
+
+New project this session: ultrametric-tree-universality (P4 — awaiting publication approval)
