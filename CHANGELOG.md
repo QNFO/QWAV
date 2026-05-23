@@ -1,6 +1,25 @@
 # QWAV PROGRAM CHANGELOG
 
-> **Purpose:** Chronological change tracking for program-level decisions, deliverables, and state changes.
+> **Purpose:** Chronological change tracking for program decisions, outputs, and events.
+
+---
+
+## v2.52 — 2026-05-23 (K1 Verification Complete)
+
+**What Changed:**
+- K1 (qwav-technical-site) test suite executed: 39/39 structural tests pass, 5/5 artifact back-links confirmed, 15/15 DOI format verified, zero CDN dependencies confirmed
+- Test evidence documented at `qwav-technical-site/test-evidence-1.0.0.md` (62/64 pass, 96.9%)
+- Definition of Done updated: 20.5/23 (89%), up from 8/22 (36%)
+- P8 (K1 test suite) marked complete in POST-AUDIT ACTION PLAN
+- P10 (cross-link artifacts) marked complete -- all 5 artifacts confirmed with back-links
+- QWAV SPRINT S7.12 and S7.14 updated with verification evidence
+- Site confirmed live at qnfo.github.io/QWAV/ (HTTP 200) and qwav.tech (HTTP 200)
+
+**Files Changed:**
+- QWAV: PROJECT STATE.md, SPRINT.md, CHANGELOG.md
+- qwav-technical-site: PROJECT STATE.md, DEFINITION-OF-DONE.md, test-evidence-1.0.0.md (new)
+
+**Remaining:** LER chart + Q-PNA chart data source verification (P3). Buffer campaign pending A1-A5 verification.
 
 ---
 

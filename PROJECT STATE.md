@@ -62,9 +62,9 @@ These are for reference when needed — not to-do items:
 | **P5** | **Write + execute test_plan.py for A3** — Convergence metric, particle behavior. | P1 | 1.0 | [ ] |
 | **P6** | **Write + execute test_plan.py for A4** — Distance correctness, triadic rigidity. | P1 | 1.0 | [ ] |
 | **P7** | **Decide + execute A5 approach** — Three.js rebuild (actual 3D) or honest 2.5D descope + test_plan.py. | P1 | 1-2 | [ ] |
-| **P8** | **Write test suite for K1** — Link checker, chart data validator. | P2 | 1.0 | [ ] |
+| **P8** | **Write + execute test suite for K1** — Link checker, chart data validator. 39/39 structural tests pass. DOI format verified (15 unique). Back-links confirmed (5/5). CDN-free confirmed. Test evidence at `qwav-technical-site/test-evidence-1.0.0.md`. | P2 | 1.0 | [x] |
 | **P9** | **Resolve Game-of-Life 7 test failures** — Energy barrier formula, d=2 thresholds. | P2 | 1.0 | [ ] |
-| **P10** | **Cross-link all artifacts** — Back-links + bidirectional navigation. | P2 | 0.5 | [ ] |
+| **P10** | **Cross-link all artifacts** — Back-links + bidirectional navigation. Verified 5/5 artifacts (A1-A5) link back to hub at qnfo.github.io/QWAV/. | P2 | 0.5 | [x] |
 | **P11** | **Buffer social campaign** — Launch only AFTER A1 tests pass (P2). | P2 | 0.5 | [ ] |
 
 ### What Changed
@@ -72,13 +72,14 @@ These are for reference when needed — not to-do items:
 | Old Plan | New Reality |
 |:---------|:------------|
 | "Launch Buffer campaign" | Wait — artifacts have zero verified functionality |
-| "All 6 verified functional" | All 6 deployed but **zero have automated tests** |
+| "All 6 verified functional" | K1 verified (39/39 structural, 5/5 back-links, 15/15 DOI format). A1-A5 still in verification. |
 | "Projects agent work is done" | Projects agent work begins: test plans for A1-A5 |
 | "Update VENUE-REGISTRY" | Deferred until P2-P3 complete |
 
 ### Minimum Viable Verification (This Week)
 - [x] 16 charter/DoD files rebuilt with test plan gates
 - [x] L25/L41 codified — mandatory test plans as DoD prerequisite
+- [x] K1 test suite executed (39/39 structural, 15/15 DOI format, 5/5 back-links)
 - [ ] A1 test_plan.py written and executed (P2)
 - [ ] A2 hardcoded accuracy fixed (P3)
 - [ ] Git branches fixed across all repos (P1)
