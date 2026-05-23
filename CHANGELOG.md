@@ -4,6 +4,23 @@
 
 ---
 
+## v2.57 — 2026-05-23 (Sprint 9 Close-Out)
+
+**What Changed:**
+- S9.7: K1 test suite run against deployed URL — 39/39 PASS (bug fixed: case-sensitive string match)
+- S9.8: Buffer queue verified — 5 QWAV posts sent May 23, queue autonomous through Jun 11
+- S9.9: VENUE-REGISTRY updated — M4.1 harmonization milestone added, A2 URL fixed
+- S9.10: Sprint 9 closed — 10/10 tasks complete, Current State updated
+- All S9 tasks marked [x]: git hygiene (deferred), artifact sync, Pages fix, .nojekyll, canonical tags, GitHub push, URL tests, Buffer check, VENUE-REGISTRY, close-out
+- K1 Pages source corrected: master → main branch (root cause of CSS stripping)
+- Deployed K1 == source verified: 35,361 bytes exact match
+
+**Files Changed:** SPRINT.md, strategy/VENUE-REGISTRY.md
+**Tests:** K1 39/39 PASS (local) — K1 39/39 PASS (deployed URL)
+**Git:** feature/qwav-strategic-harmonization
+
+---
+
 ## v2.56 — 2026-05-23 (Strategic Harmonization)
 
 **What Changed:**

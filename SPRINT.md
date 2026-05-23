@@ -4,21 +4,21 @@
 
 ---
 
-## Current State (2026-05-23 — STRATEGIC HARMONIZATION ✅)
+## Current State (2026-05-23 — SPRINT 9 CLOSED ✅)
 
-**The 2026-05-23 strategic harmonization is complete.** Repository structure cleaned up, duplicates removed, documentation updated. All 6 sites live and verified. 283 automated tests across 7 artifacts — 0 failures.
+**The strategic harmonization sprint is complete.** Repository meticulously curated as QWAV's technical public face. 10/10 tasks complete. All 6 sites live with canonical tags, .nojekyll, and verified deployment. K1 Pages fixed (source branch corrected from master→main). 39/39 URL-based tests pass against deployed site.
 
 **Repository status:**
 | Area | Status |
 |:-----|:-------|
-| K1: Technical Site Hub | ✅ Live at qnfo.github.io/QWAV/ — 39/39 PASS |
-| A1-A5: Interactive Demos | ✅ All live on GitHub Pages — 244/244 PASS |
-| Documentation | ✅ Harmonized — README, PROJECT STATE, SPRINT, BACKLOG updated |
-| File structure | ✅ Cleaned — duplicates removed, papers/ created, artifacts curated |
-| GitHub | ✅ All 6 repos accessible, ADMIN permission verified |
-| Branch hygiene | ⚠️ QWAV on feature/qwav-strategic-harmonization; artifacts still on main/master |
+| K1: Technical Site Hub | ✅ Deployed == Source (35,361 bytes) — 39/39 PASS |
+| A1-A5: Interactive Demos | ✅ Synced with deployed back-link footers — canonical tags present |
+| Documentation | ✅ VENUE-REGISTRY updated with M4.1 harmonization milestone |
+| GitHub | ✅ All 6 repos have .nojekyll — Pages deploys from main |
+| Buffer campaign | ✅ 5 QWAV posts sent May 23, queue autonomous through Jun 11 |
+| Branch hygiene | ⚠️ QWAV main now curated; artifacts still on main/master (deferred) |
 
-**What's next:** SPRINT 9 tasks — git branch hygiene for artifacts, K1 Pages deployment fix, A2 .nojekyll, canonical tags for A2-A5.
+**What's next:** Backlog grooming. Artifact git branch hygiene. Content updates to K1 index.html if needed.
 
 ---
 
@@ -31,11 +31,11 @@
 | **S9.3** | Fix K1 Pages deployment mismatch (Pages serves stripped CSS vs source) | 1h | P1 | [x] |
 | **S9.4** | Add .nojekyll to Q-PNA (A2) GitHub repo | 0.1h | P1 | [x] |
 | **S9.5** | Add canonical &lt;link&gt; tags to A2-A5 | 0.5h | P2 | [x] |
-| **S9.6** | Push all changes to GitHub — ensure Pages rebuilds correctly | 0.5h | P0 | [~] |
-| **S9.7** | Re-run K1 test suite against deployed URL (not local file) | 0.25h | P2 | [ ] |
-| **S9.8** | Buffer queue check — verify social campaign still running | 0.25h | P3 | [ ] |
-| **S9.9** | Update VENUE-REGISTRY with current deployment evidence | 0.25h | P3 | [ ] |
-| **S9.10** | Sprint close-out — final commit, update CHANGELOG | 0.25h | P2 | [ ] |
+| **S9.6** | Push all changes to GitHub — ensure Pages rebuilds correctly | 0.5h | P0 | [x] |
+| **S9.7** | Re-run K1 test suite against deployed URL (not local file) | 0.25h | P2 | [x] |
+| **S9.8** | Buffer queue check — verify social campaign still running | 0.25h | P3 | [x] |
+| **S9.9** | Update VENUE-REGISTRY with current deployment evidence | 0.25h | P3 | [x] |
+| **S9.10** | Sprint close-out — final commit, update CHANGELOG | 0.25h | P2 | [x] |
 
 ---
 

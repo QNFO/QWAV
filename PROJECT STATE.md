@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-23 | **Session:** Strategic harmonization — repository structure curated as public face. Duplicates removed, papers/ created, documentation harmonized. QWAV on feature/qwav-strategic-harmonization. 283 tests across 7 artifacts — 0 failures. All 6 sites live. | **Next:** S9 (git hygiene, artifact sync, Pages fix) → push to GitHub. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.56
+**Last updated:** 2026-05-23 | **Session:** Sprint 9 close-out — strategic harmonization complete. 10/10 tasks. Repository curated as public face. K1 Pages source corrected (master→main). Deployed == source (35,361 bytes). 39/39 URL-tested. Buffer autonomous through Jun 11. VENUE-REGISTRY updated. | **Next:** Backlog grooming, artifact git branch hygiene, K1 content updates. | **GitHub:** QNFO/QWAV (main) | **Changelog:** `CHANGELOG.md` v2.57
 
 ---
 

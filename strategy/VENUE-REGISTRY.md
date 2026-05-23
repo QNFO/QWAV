@@ -152,10 +152,20 @@
 
 ### Milestone M4: "5 interactive artifacts deployed + verified"
 - [x] A1: Error Confinement Live Demo → https://QNFO.github.io/ultrametric-error-confinement/ (40/40 tests pass)
-- [x] A2: Q-PNA Classifier Playground → https://QNFO.github.io/q-pna/ (38/38 tests pass)
+- [x] A2: Q-PNA Classifier Playground → https://QNFO.github.io/Q-PNA/ (38/38 tests pass)
 - [x] A3: Ultrametric Convergence Explorer → https://QNFO.github.io/ultrametric-convergence/ (44/44 tests pass)
 - [x] A4: Tree Distance Sandbox → https://QNFO.github.io/tree-distance/ (37/37 tests pass)
 - [x] A5: Hardware Pathway Visualizer → https://QNFO.github.io/hardware-pathway/ (32/32 tests pass)
+
+### Milestone M4.1: "Strategic harmonization — repository curated as public face" (2026-05-23)
+- [x] File structure cleaned: duplicates removed, papers/ created, artifacts curated
+- [x] K1 Pages deployment fixed — source switched from master → main branch
+- [x] All 6 canonical tags present (A1-A5 + K1)
+- [x] All 6 repos have .nojekyll (Q-PNA added)
+- [x] Local artifacts synced with deployed back-link footers
+- [x] K1 deployed == source verified (35,361 bytes exact match, 39/39 URL-based tests pass)
+- [x] GitHub CLI access: ADMIN on all 6 repos
+- [x] Buffer campaign: 5 QWAV posts sent May 23, queue autonomous through Jun 11
 
 ### Milestone M5: "All venues synchronized"
 - [ ] qwav.tech shows aligned content (not investor pitch)
