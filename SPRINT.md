@@ -16,9 +16,9 @@
 | K1 Technical Hub | ✅ Deployed == Source (35,361 bytes) |
 | Buffer campaign | ✅ Autonomous through Jun 11 |
 | Documentation | ✅ SPRINT.md, PROJECT STATE.md, CHANGELOG.md current |
-| Browser UI/UX testing | ⬜ Deferred — requires browser environment |
+| Browser UI/UX testing | ✅ 64/64 smoke tests pass (`test_smoke.py`) |
 
-**What's next:** Browser-based UI/UX validation. BACKLOG.md full rewrite. Buffer renewal Jun 11.
+**What's next:** Buffer renewal Jun 11. S9.1 git branch hygiene. Sprint 13 planning.
 
 ---
 
@@ -36,7 +36,7 @@
 | **S12.8** | K1 Pages fix — switch source branch master→main, verify deploy==source | 1h | P1 | [x] |
 | **S12.9** | Buffer social campaign — 5 QWAV posts sent May 23, queue verified | 0.5h | P2 | [x] |
 | **S12.10** | VENUE-REGISTRY update — M4.1 harmonization milestone, A2 URL fix | 0.25h | P2 | [x] |
-| **S12.11** | Backlog grooming — header updated, stale items noted | 0.25h | P2 | [x] |
+| **S12.11** | Backlog grooming — full rewrite: 19KB -> 9KB, archive 32 stale items, prioritize 19 active | 1h | P0 | [x] |
 | **S12.12** | Sprint close-out — update docs, final commit | 0.25h | P2 | [x] |
 
 ---
@@ -67,7 +67,7 @@
 | Buffer | ✅ Autonomous through Jun 11 |
 | Documentation | ✅ All core docs current through Sprint 10 |
 
-**What's next:** Monitor Buffer queue (Jun 11 renewal). BACKLOG.md full rewrite as standalone task. Content updates to K1 as new publications/releases warrant.
+**What's next:** Monitor Buffer queue (Jun 11 renewal). Sprint 13 planning. S9.1 git branch hygiene.
 
 ---
 

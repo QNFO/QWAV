@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-23 | **Session:** Smoke Tests — COMPLETE. test_smoke.py created: 64/64 browser-level smoke tests pass (8 suites: live availability, JS capability, button wiring, canvas rendering, content richness, stale code, K1 hub, response time). Complements test_all_artifacts.py (164/164 structural). Full audit: FINAL_AUDIT_REPORT.md. L28 added to LEARNINGS.md. Branch: feature/audit-export-conversation. | **Next:** BACKLOG.md full rewrite. Buffer renewal Jun 11. S9.1 git branch hygiene. | **GitHub:** QNFO/QWAV (main) | **Changelog:** `CHANGELOG.md` v2.60
+**Last updated:** 2026-05-23 | **Session:** BACKLOG Rewrite — COMPLETE. BACKLOG.md rewritten: 19KB → 9KB (53% reduction). 19 DONE + 9 CANCELLED + 4 SUPERSEDED items archived to Completed section. 7 P0/P1 active items prioritized. 5 P2 items. 7 P3/deferred items. Application tracker preserved. Branch: feature/audit-export-conversation. | **Next:** Buffer renewal Jun 11. S9.1 git branch hygiene. Sprint 13 planning. | **GitHub:** QNFO/QWAV (main) | **Changelog:** `CHANGELOG.md` v2.61
 
 ---
 

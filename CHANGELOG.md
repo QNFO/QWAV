@@ -4,6 +4,28 @@
 
 ---
 
+## v2.61 — 2026-05-23 (BACKLOG Rewrite — Full Triage)
+
+**What Changed:**
+- BACKLOG.md completely rewritten: 19,234 bytes → 8,970 bytes (53% reduction)
+- All 19 DONE items archived to Completed section
+- All 9 CANCELLED items archived with rationale
+- All 4 SUPERSEDED items archived
+- Active items restructured into P0 (2 critical), P1 (5 high), P2 (5 medium), P3 (7 deferred)
+- New items from audit: test suite refactoring, JS error detection, smoke test maintenance, Sprint 13 planning, P-number cleanup
+- Application tracker preserved (6 applications)
+- Spinoff projects section added (P44 Game of Life, P49 Hierarchy)
+- Publication DOI table consolidated
+- Artifact demo URLs table added
+
+**Files Changed:**
+- EDIT: `BACKLOG.md` (complete rewrite)
+- EDIT: `PROJECT STATE.md` (state updated)
+- EDIT: `SPRINT.md` (backlog rewrite task added)
+- EDIT: `CHANGELOG.md` (this entry)
+
+**Git:** `feature/audit-export-conversation`
+
 ## v2.60 — 2026-05-23 (Smoke Tests — Browser-Level Functional Verification)
 
 **What Changed:**

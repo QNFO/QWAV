@@ -1,101 +1,148 @@
 # QWAV PROGRAM BACKLOG
 
-> **Purpose:** Prioritized queue of future work. Updated whenever new ideas emerge or priorities shift. Items are ordered by priority — work top to bottom.
+> **Purpose:** Prioritized queue of future work. Items ordered by priority — work top to bottom. 
+> **Update rule:** When an item is completed, move it to Completed & Archived. When new ideas emerge, add them.
+> **Task markers:** `[ ]` incomplete | `[~]` in-progress | `[!]` blocked | `[x]` complete | `[-]` cancelled
 
-**Last updated:** 2026-05-23 | **Status:** Sprint 10 closed. Repository curated, deployed, verified. (strategy/2.0.md + 3.0.md). Build Gravity posture confirmed by founder. A1 handed off to Projects agent. Domain column added (May 19 audit). Ultrametric_v2 (Tier 0.5) complete — 7 sprints. P17 outreach sent. Credential doc published. **Cross-project sync review complete** — Tree Distance Cophenetic + ultrametric_v2 reviewed for gaps; 14 new backlog items added (P31–P44). **Strategy overhaul (May 22):** 8 integration gaps identified — added as P50-P57. **Template compliance (May 22):** 4 phase docs created (CHARTER, DEFINITION-OF-DONE, RISK-REGISTER, CONTRIBUTING).
-
-**Domain key:** 🟠 QWAV = Core portfolio strategy/tasks | 🟣 SPINOFF = Delegated to Projects agent | 🟡 META = Prompt engineering / agent config (Prompts workspace)
-
-**Key Reprioritization (2026-05-17):** Cross-project review identified CRITICAL gaps: (1) Companion paper exists but not on Zenodo — P31. (2) Best outreach targets are neutral atom labs, not NV centers — P32 supersedes P10. (3) Key results ($q$-ary 48×, correlated noise, hardware spec) not yet in QWAV narrative materials — P33. P26 (Tier 1 paper) is ESSENTIALLY COMPLETE — companion paper written; only needs Zenodo upload. P10 SUPERSEDED by P32. P28 scope updated to leverage ultrametric_v2 codebase.
+**Last updated:** 2026-05-23 | **Status:** Post-Sprint-12. Audit complete (FINAL_AUDIT_REPORT.md). Smoke tests 64/64. 5 artifacts deployed. K1 live. Buffer autonomous through Jun 11. **Branch:** feature/audit-export-conversation
 
 ---
 
-## Priority Queue
+## Priority Queue — Active Items
 
-| Priority | Item | Domain | Description | Estimated Sessions | Dependencies | Status |
-|:---------|:-----|:-------|:------------|:-------------------|:-------------|:-------|
-| **P6** | **Q-PNA / AI side** | 🟣 SPINOFF | v2.0 Research Specification published. 12 experiments validated. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. Archival complete. | 2–3 | None | ✅ DONE — Full completion. |
-| **P7** | **Patent timeline** | 🟠 QWAV | Research and document: filing dates, conversion status, jurisdictions, key claims, expiration timeline. Current docs say "provisional" without specifics. | 1 | Access to patent records | ✅ DONE (2026-05-12) — `strategy/0.2.md` |
-| **P8** | **Competitive landscape** | 🟠 QWAV | ✅ DONE — `strategy/0.5.md`. Zero direct competitors. Mapped adjacent communities: p-adic physics (Dragovich/Khrennikov/Zúñiga-Galindo — allies, not competitors), holographic codes (Pastawski/Yoshida/Harlow/Preskill — closest, but hyperbolic not ultrametric), neutral atom labs (Harvard/Caltech/PASQAL — hardware hosts, not competitors), topological QC (Kitaev — different math), MBQC (different use of trees). Documented structural reasons for null result: siloing between p-adic math and QC communities, assumption that space is continuous, credential barriers. | 1 | None | ✅ DONE (2026-05-18) |
-| **P9** | **SBIR Phase I** | 🟠 QWAV | Federal small business grant. May require US entity formation. | 2–3 | US entity (possibly) | NOT STARTED |
-| **P10** | **Cold outreach to labs** | 🟠 QWAV | ~~Send 10 emails to NV center labs.~~ **SUPERSEDED by P32.** Ultrametric_v2 platform scoping identified NEUTRAL ATOM labs as the primary target, not NV centers. See P32 for specific templates to Harvard/Lukin, Caltech/Endres, PASQAL, Innsbruck. | — | — | SUPERSEDED by P32 |
-| **P16** | **MIT implosion carving — nanoscale 3D fabrication** | 🟠 QWAV | ✅ DONE — `strategy/0.7.md`. MIT Nature Photonics 2026: photopatterning + 2,000× isotropic shrinkage (800 nm → sub-100 nm). Moderate relevance: alternative photonic fabrication pathway for patent Claim 4 (hierarchical lattice). Low near-term feasibility (hydrogel optical quality + cryogenic compatibility unknown). Neutral atom remains primary pathway. | 1 | Read paper + assess | ✅ DONE (2026-05-18) |
-| **P11** | **P11 formal verification collaboration** | 🟠 QWAV | Lean 4 formal verification of ultrametric QEC threshold theorem. | — | — | ❌ CLOSED — D12: no external dependencies. Formal verification cannot be completed in a single LLM thread and requires external collaborators. |
-| **P12** | **IP: Decide on High-Temp filing** | 🟠 QWAV | Decision: file the High-Temperature Topological Chiral provisional ($325) or wait for VSD/FRO/EWOR outcomes? Quantitative EV analysis done in `strategy/0.1.md` and `strategy/ip-strategic-plan.md`. Expected net value negative in all scenarios (-$453 to +$59). File only if $325 is disposable AND priority-date hedge is needed. | 0.5 | None | ✅ DECIDED: DO NOT FILE (2026-05-19). No funding, no conversion plan, no active filings. Historical: 18 provisionals, 0 conversions, $6K wasted. Reconsider if funding arrives. |
-| **P13** | **IP: Draft ultrametric encoding provisional** | 🟠 QWAV | ⚠️ SUPERSEDED — `strategy/0.1.md` (17 claims) and `strategy/0.2.md` (25 claims) already cover this. | — | — | SUPERSEDED |
-| **P14** | **IP: Quarterly review** | 🟠 QWAV | ⚠️ SUPERSEDED — absorbed into standing audit cycle. | — | — | SUPERSEDED |
-| **P15** | **IP: Pre-filing verification** | 🟠 QWAV | ⚠️ SUPERSEDED — `strategy/0.2.md` covers this. | — | — | SUPERSEDED |
-| **P16** | **MIT implosion carving — nanoscale 3D fabrication** | 🟠 QWAV | ✅ DONE — `strategy/0.7.md`. | 1 | Read paper + assess | ✅ DONE (2026-05-18) |
-| **P17** | **Outreach — Zúñiga-Galindo email** | 🟠 QWAV | ❌ CANCELLED — email outreach not aligned with QWAV strategy. Pipeline: Zenodo → ResearchGate → QNFO.org → social distribution. Inbound-only. | — | — | CANCELLED (2026-05-18) |
-| **P18** | **Outreach — Conference abstract prep** | 🟠 QWAV | ❌ CANCELLED — contingent on P17. | — | — | CANCELLED (2026-05-18) |
-| **P19** | **Outreach — Dragovich email** | 🟠 QWAV | ❌ CANCELLED — email outreach not aligned with QWAV strategy. | — | — | CANCELLED (2026-05-18) |
-| **P20** | **Outreach — Khrennikov email** | 🟠 QWAV | ❌ CANCELLED — email outreach not aligned with QWAV strategy. | — | — | CANCELLED (2026-05-18) |
-| **P21** | **Outreach — David Wales email** | 🟠 QWAV | ❌ CANCELLED — email outreach not aligned with QWAV strategy. | — | — | CANCELLED (2026-05-18) |
-| **P22** | **Outreach — Michel Planat email** | 🟠 QWAV | ❌ CANCELLED — email outreach not aligned with QWAV strategy. | — | — | CANCELLED (2026-05-18) |
-| **P23** | **ArXiv submission** | 🟠 QWAV | ❌ CANCELLED — arXiv requires endorsement (gatekeeping). Zenodo is primary. See P35. | — | — | CANCELLED |
-| **P24** | **"Why Ultrametricity" explainer** | 🟠 QWAV | Accessible 2,000-word document: what ultrametricity is, why the continuous manifold assumption matters, what changes if you switch to trees. No equations. This is the calling-card document people share. | ✅ PUBLISHED — `Ultrametric Quantum Computing Foundations.md` (DOI: 10.5281/zenodo.20154557) | 2026-05-15 |
-| **P25** | **Pre-register falsifiable prediction** | 🟠 QWAV | Publicly state a specific, testable prediction: "If Bruhat-Tits tree encoding enables passive fault tolerance, then X should be observed under Y conditions." This is the nuclear credibility option — make a bet on reality that anyone can verify. | ✅ PUBLISHED — 5 predictions integrated into Section 6 of credential document (DOI: 10.5281/zenodo.20154557). | 2026-05-15 |
-| **P26** | **Tier 1 computational paper** | 🟠 QWAV | ✅ DONE — Published on Zenodo: "Symmetric Extension of Ultrametric Error Confinement" (DOI: 10.5281/zenodo.20208437). 36K words. Covers: ternary ($p=3$) architecture, depths d=2-8, correlated noise, classical baseline, $q$-ary generalization, concatenation redundancy, hardware specs (40-atom neutral atom). | — | — | ✅ DONE (2026-05-16) |
-| **P27** | **Cross-domain synthesis paper** | 🟠 QWAV | ✅ DONE — Published as "Cross-Domain Synthesis: Ultrametric Geometry as Common Mathematical Structure Across Quantum Error Correction, Spin Glasses, Protein Folding, Cosmology, and Cognition" on Zenodo (DOI: [10.5281/zenodo.20265907](https://doi.org/10.5281/zenodo.20265907), 2026-05-17, 6,366 words). Demonstrates ultrametricity as the unifying mathematical structure across six domains. | 2–3 | All outreach complete | ✅ DONE (2026-05-17) |
-| **P28** | **Open-source simulation code** | 🟠 QWAV | ✅ DONE (2026-05-16) — GitHub repo enhanced: comprehensive README, MIT license, CITATION.cff, GitHub Pages config, v2 architecture guide. Internal QWAV docs removed. Ready for push + v2 code drop. | — | — | ✅ DONE |
-| **P29** | **FQXi Essay Contest** | 🟠 QWAV | Check for open FQXi essay contest on foundational physics. "Continuous manifold is the wrong assumption" is exactly their kind of provocative thesis. | 0.5 + writing | Contest open | NOT STARTED |
-| **P30** | **Entity formation assessment** | 🟠 QWAV | ⚠️ DEFERRED — requires exogenous information about existing corporate entities (Empowering Change 501c3, Data For Good LLC, planned Netherlands incorporation). Cannot execute autonomously. Must verify assumptions with founder first. | 0.5 | Founder input | DEFERRED |
-| **P31** | **Publish ultrametric_v2 companion paper to Zenodo** | 🟠 QWAV | Published — DOI: [10.5281/zenodo.20208437](https://doi.org/10.5281/zenodo.20208437). **UNBLOCKS P32 (lab outreach) and P33 (credential doc refresh).** Verify: original paper [1] cross-referenced? | — | — | DONE (2026-05-16) |
-| **P32** 🔴 | **Neutral atom lab outreach campaign** | 🟠 QWAV | ❌ CANCELLED — email outreach not aligned with QWAV strategy. Templates preserved on disk (untracked, PII-protected) for reference. Pipeline: Zenodo → ResearchGate → QNFO.org → social distribution. Inbound-only. | — | — | CANCELLED (2026-05-18) |
-| **P33** 🔴 | **Refresh credential doc + narrative library with v2 findings** | 🟠 QWAV | ✅ P33a+P33b DONE — `Ultrametric Quantum Computing Foundations.md` updated with v2 section (ternary, 48× scatter, concatenation redundancy, 40-atom hardware pathway) + companion paper DOI. `QA - Narrative Modules` extended with M13-M16. Remaining strategy docs (P41) deferred. | 1-2 (remaining: P41) | P31 ✓ | ✅ P33a+P33b done (2026-05-16) |
-| **P34** 🟠 | **$q$-ary scatter as standalone talking point** | 🟠 QWAV | ✅ DONE — `strategy/0.4.md`, ~500 words. "48× LER reduction at zero qubit cost via existing hyperfine levels." Most accessible "wow" for non-specialists. | 0.5 | None | ✅ DONE (2026-05-18) |
-| **P35** | **arXiv submission** | 🟠 QWAV | ❌ CANCELLED — requires endorsement, which is gatekeeping incompatible with QWAV's substance-first strategy. Zenodo (DOI) → ResearchGate + QNFO.org provides complete pipeline. arXiv adds only category-browsing visibility, not worth the dependency on an endorser. | — | — | CANCELLED (2026-05-18) |
-| **P36** 🟡 | **Cophenetic distance as philosophical bridge** | 🟠 QWAV | The Tree Distance Cophenetic paper establishes triadic rigidity theorem + resolution-dependence bridge. Integrated into cross-domain synthesis paper (P27). Once DOI is registered, add bidirectional references. | 0.25 | DOI registration | ✅ INTEGRATED into P27 (2026-05-17) |
-| **P37** 🟡 | **Update competitive landscape with benchmarking methodology** | 🟠 QWAV | ✅ DONE — `strategy/0.5.1.md`. Documents ultrametric_v2 honest classical baseline comparison (tree loses at i.i.d., wins under correlation) as credibility differentiator. Maps who else benchmarks honestly (ETH Zürich, JQI, IBM, Google). Provides action items for integration. | 0.5 | None | ✅ DONE (2026-05-18) |
-| **P38** 🟡 | **Open-source ultrametric_v2 codebase** | 🟠 QWAV | Same as P28 — polish 26-file codebase from 7 sprints. Includes general-$p$, $q$-ary, correlated noise, classical baseline. | 1 | None | Same as P28 |
-| **P39** 🟢 | **Cross-reference Tree Distance Cophenetic publication** | 🟠 QWAV | ✅ DONE — DOI 10.5281/zenodo.20213043 cross-referenced into QWAV credential doc (ref [14]) and competitive landscape (0.5.md Ultrametric Energy Landscapes section). | 0.25 | P31 + Tree Distance Cophenetic upload | ✅ DONE (2026-05-18) |
-| **P40** 🟢 | **Cross-domain synthesis paper — updated scope (P27)** | 🟠 QWAV | ⚠️ SUPERSEDED by P27. The published "Cross-Domain Synthesis: Ultrametric Geometry as Common Structure" (DOI: 10.5281/zenodo.20265907, May 17) already incorporates Tree Distance Cophenetic framework and ultrametric_v2 findings. | — | — | SUPERSEDED (2026-05-17) |
-| **P41** 🟡 | **Assumption-to-physical-realizability mapping** | 🟠 QWAV | ✅ DONE — `strategy/0.6.md` Section 2. All 12 assumptions (7 architectural + 5 mathematical) mapped to verification status, refutation experiments, and risk assessments. | 1–2 | Symmetric Extension paper | ✅ DONE (2026-05-18) |
-| **P42** 🟡 | **Investigate Heydeman et al. (2018) holographic QEC** | 🟠 QWAV | ✅ DONE — `strategy/0.5.2.md` + `0.6.md` Section 3. Supporting prior art: Bruhat-Tits QEC codes exist. Positioned with generalized framing. | 1 | Access to arXiv | ✅ ANALYZED (2026-05-18) |
-| **P43** 🟡 | **Investigate Boettcher (2020) quantum ultra-walk** | 🟠 QWAV | ✅ DONE — `strategy/0.5.2.md` + `0.6.md` Section 3. 5 reconciliation hypotheses. Generalized framing adds escape: Bruhat-Tits is one tree; ultrametric class may behave differently. | 1 | Access to PRR | ✅ ANALYZED (2026-05-18) |
-| **P44** | **Ultrametric Game of Life** | 🟣 SPINOFF | Computational simulation: Conway's Game of Life on Bruhat-Tits tree topology. Ternary ($p=3$) grid. Determine whether ultrametric geometry produces qualitatively different emergent behavior than Euclidean grids. 9 tasks. | 1-2 | None | 🔄 Handoff ready — `G:\My Drive\projects\ultrametric-game-of-life\` |
-| **P49** 🟣 | **Hierarchy as Ultrametricity** | 🟣 SPINOFF | Research synthesis: hierarchy IS ultrametricity — they are the same mathematical structure. Formal proof + cross-field catalog (6+ disciplines) + cophenetic integration (triadic rigidity). Standalone publication. 10 tasks. | 2-3 | None | 🔄 Handoff ready — `G:\My Drive\projects\Hierarchy as Ultrametricity\` |
-| **P50** 🔴 | **D13 compliance: Interactive artifacts for existing publications** | 🟠 QWAV | Build GitHub Pages interactive demos for the 5 core publications. **ALL 5 SPUN OFF — scaffolded at projects/:** A1 (`briefings/A1-handoff-error-confinement-demo.md`, 2 sessions), A2 (`briefings/A2-handoff-qpna-playground.md`, 2 sessions), A3 (`briefings/A3-handoff-convergence-explorer.md`, 1.5 sessions), A4 (`briefings/A4-handoff-tree-distance-sandbox.md`, 1 session), A5 (`briefings/A5-handoff-hardware-visualizer.md`, 1 session). Total: 7.5 sessions. Ready for Projects agent execution. | 7.5 | None | 🔴 SPUN OFF — awaiting deploy
-| **P51** 🟡 | **qwav.tech public-facing site** | 🟠 QWAV | Build GitHub Pages site: thesis, evidence summary, publication links (DOIs), interactive artifact directory, prior work catalog. Clean geometric aesthetic. This is QWAV's public face — currently missing. | 1-2 | None | 📋 PLANNED — strategy/2.0.md S1 |
-| **P52** 🟡 | **QNFO GitHub org README** | 🟠 QWAV | Brief QWAV program overview + links to all repos. Where developers/researchers land when they discover the code. | 0.5 | None | 📋 PLANNED — strategy/2.0.md S3 |
-| **P53** 🟡 | **Curate Prior Work catalog (20-30 publications)** | 🟠 QWAV | Select 20-30 most QWAV-relevant publications from 673-release corpus. One-line relevance statements. Host on qwav.tech as "Intellectual Genealogy" page. | 1 | S1 (qwav.tech live) | 📋 PLANNED — strategy/2.0.md S2 |
-| **P54** 🟡 | **Verify ResearchGate cross-posting** | 🟠 QWAV | ✅ DOCUMENTED — `briefings/zenodo-crosslink-audit.md`. ResearchGate blocks automated access — must be verified manually by founder. | 0.25 | Founder login | 📋 Founder action |
-| **P55** 🟢 | **Domain redirects (qwav.org, QNFO.org)** | 🟠 QWAV | ✅ qwav.org confirmed registered and resolving. QNFO.org: founder action to verify/redirect. | 0.25 | Founder DNS access | 📋 Founder action |
-| **P56** 🟢 | **LinkedIn profile QWAV alignment** | 🟠 QWAV | ✅ DOCUMENTED — bio text in `briefings/zenodo-crosslink-audit.md`. Update LinkedIn About section + add Zenodo link. | 0.5 | Founder login | 📋 Founder action |
-| **P57** 🟢 | **Social bio Zenodo links** | 🟠 QWAV | ✅ DOCUMENTED — copy-paste text in `briefings/zenodo-crosslink-audit.md`. Mastodon, Bluesky, Twitter bios. | 0.1 | Founder login | 📋 Founder action |
-| **P58** 🔴 | **QNFO GitHub org README** | 🟠 QWAV | ✅ DONE — Content at `briefings/QNFO-org-README.md`. Deploy to `QNFO/.github` repo as `profile/README.md`. | 0.1 | None | ✅ DONE — awaiting deploy |
-| **P59** 🔴 | **Email response template for inbound contacts** | 🟠 QWAV | ✅ DONE — `briefings/inbound-email-template.md`. Standard template + 3 variations. | 0.1 | None | ✅ DONE |
-| **P60** 🟡 | **Zenodo cross-link audit** | 🟠 QWAV | ✅ DONE — `briefings/zenodo-crosslink-audit.md`. 7/10 venues missing Zenodo links. All fix actions + bio text documented. | 0.1 | None | ✅ DONE |
+### P0 — Critical / Blocking
 
-**Recommended execution order:** P50 → P51 → P52 → P54 → P53 → P56 → P57 → P55
+| # | Item | Description | Effort | Depends On |
+|:--|:-----|:------------|:-------|:-----------|
+| [~] | **S9.1 Git branch hygiene** | Switch all 5 artifact repos + QWAV to feature/ branches. GitHub Pages requires main/master for deployment — reconcile. | 0.5h | — |
+| [!] | **S8.3 Buffer campaign** | Complete A4, A5, K1 social posts. Buffer session expired — needs reconnection. | 0.5h | Buffer re-auth |
 
-**Source projects referenced:**
-- `ultrametric_v2`: `G:\My Drive\projects\ultrametric_v2\` — 7 sprints complete, 28 tasks, 26 files, 260K+ MC trials
-- `Tree Distance Cophenetic`: `G:\My Drive\projects\Tree Distance Cophenetic\` — Sprint 3 nearly complete, 0.8.md publication-ready, DOI assigned
-- `Can Math Prove Physics`: `G:\My Drive\projects\Can Math Prove Physics\` — CLOSED 2026-05-18. Essay published (DOI: 10.5281/zenodo.20266032). Residual items transferred here (P41-P44).
+### P1 — High Priority
+
+| # | Item | Description | Effort | Depends On |
+|:--|:-----|:------------|:-------|:-----------|
+| [ ] | **Sprint 13 planning** | Plan next sprint: backlog triage, remaining audit recommendations, test suite refactoring. | 0.5h | — |
+| [ ] | **QNFO org README deploy** | Content written (`briefings/QNFO-org-README.md`). Push to `QNFO/.github` repo as `profile/README.md`. | 0.25h | GitHub push |
+| [ ] | **qwav.tech domain site** | K1 hub is live but at `qnfo.github.io/QWAV/`. Build or redirect `qwav.tech` → K1. | 0.5h | Domain DNS |
+| [ ] | **Test suite refactoring** | Convert `test_all_artifacts.py` to pytest-style with individual `def test_*` functions. From audit recommendation #2. | 2-3h | — |
+| [ ] | **JS error detection in tests** | Add browser-console error capture to smoke tests. From audit recommendation #3. | 1-2h | YoBrowser/CDP |
+
+### P2 — Medium Priority
+
+| # | Item | Description | Effort | Depends On |
+|:--|:-----|:------------|:-------|:-----------|
+| [ ] | **SBIR Phase I** | Federal small business grant. May require US entity formation. Research eligibility and requirements. | 2-3h | Entity status |
+| [ ] | **FQXi Essay Contest** | Check for open FQXi essay contest. "Continuous manifold is the wrong assumption" is their kind of thesis. | 0.5h + writing | Contest open |
+| [ ] | **Curate Prior Work catalog** | Select 20-30 most QWAV-relevant publications from 673-release corpus. One-line relevance statements for qwav.tech. | 1-2h | qwav.tech live |
+| [ ] | **Smoke test maintenance** | Schedule periodic smoke test runs (weekly). Monitor for regressions as artifacts evolve. | 0.25h/run | — |
+| [ ] | **BACKLOG.md P-number cleanup** | Renumber items sequentially. Remove gaps/duplicates from legacy P1-P60 era. | 0.25h | — |
+
+### P3 — Nice to Have / Deferred
+
+| # | Item | Description | Effort | Depends On |
+|:--|:-----|:------------|:-------|:-----------|
+| [ ] | **Entity formation assessment** | Requires exogenous info: existing corporate entities (Empowering Change 501c3, Data For Good LLC, planned Netherlands incorporation). Cannot execute autonomously. | 0.5h | Founder input |
+| [ ] | **ResearchGate cross-posting verify** | Documented in `briefings/zenodo-crosslink-audit.md`. ResearchGate blocks automated access — founder must verify manually. | 0.25h | Founder login |
+| [ ] | **Domain redirects** | qwav.org confirmed registered. QNFO.org needs founder DNS verification. | 0.25h | Founder DNS |
+| [ ] | **LinkedIn profile alignment** | Bio text ready. Update LinkedIn About + add Zenodo link. | 0.5h | Founder login |
+| [ ] | **Social bio Zenodo links** | Copy-paste text ready for Mastodon, Bluesky, Twitter bios. | 0.1h | Founder login |
+| [ ] | **IP: High-Temp filing decision** | Already DECIDED (DO NOT FILE, 2026-05-19). Revisit if funding arrives. | 0.5h | Funding event |
+| [ ] | **P11 Formal verification** | CLOSED — no external dependencies. Lean 4 verification of ultrametric QEC threshold requires collaborators. Revisit if collaborator found. | — | Collaborator |
+
+---
+
+## Spinoff Projects (Delegated to Projects Agent)
+
+Projects scaffolded with handoff briefings. Ready for execution when capacity allows.
+
+| # | Project | Directory | Status |
+|:--|:--------|:----------|:-------|
+| P44 | Ultrametric Game of Life | `projects/ultrametric-game-of-life/` | Handoff ready — 9 tasks |
+| P49 | Hierarchy as Ultrametricity | `projects/Hierarchy as Ultrametricity/` | Handoff ready — 10 tasks |
 
 ---
 
 ## Application Tracker
 
-| # | Application | Organization | Type | Status | Submitted | Decision Expected | Notes |
-|:--|:------------|:-------------|:-----|:-------|:----------|:------------------|:------|
-| 1 | VSD | Deep Science Ventures College | Venture-creation PhD | ❌ REJECTED | May 2026 | — | Bans LLM use, prohibits existing IP. |
-| 2 | FRO Abstract | Convergent Research | Focused Research Org ($20–50M) | ⏳ Pending | May 2026 | Unknown | Abstract stage only |
-| 3 | EWOR Fellowship | EWOR | Fellowship for outlier founders | ⏳ Pending | May 2026 | Unknown | Written application |
-| 4 | Emergent Ventures | Mercatus Center | Moonshot grant | ⏳ Pending | May 2026 | Unknown | Tyler Cowen's program |
-| 5 | Harmonic.ai | Harmonic | Startup database | ⏳ Pending | May 2026 | Rolling | VC discovery platform |
-| 6 | LinkedIn Co-Founder & Head of AI | Stealth Startup (LinkedIn Jobs) | Co-founder position | ⏳ Pending | May 2026 | Rolling | Physics-informed AI SaaS for semiconductors. On-site San Jose. Equity-only until funding. ⚠️ Conflicts with D4 (solo founder) + D6 (written-only) if accepted. |
+| # | Application | Organization | Type | Status | Submitted | Notes |
+|:--|:------------|:-------------|:-----|:-------|:----------|:------|
+| 1 | VSD | Deep Science Ventures College | Venture-creation PhD | Rejected | May 2026 | Bans LLM use, prohibits existing IP |
+| 2 | FRO Abstract | Convergent Research | Focused Research Org ($20-50M) | Pending | May 2026 | Abstract stage only |
+| 3 | EWOR Fellowship | EWOR | Fellowship for outlier founders | Pending | May 2026 | Written application |
+| 4 | Emergent Ventures | Mercatus Center | Moonshot grant | Pending | May 2026 | Tyler Cowen's program |
+| 5 | Harmonic.ai | Harmonic | Startup database | Pending | May 2026 | VC discovery platform |
+| 6 | LinkedIn Co-Founder | Stealth Startup | Co-founder position | Pending | May 2026 | Physics-informed AI SaaS. San Jose. Conflicts with D4+D6. |
 
 ---
 
 ## Completed & Archived
 
-| Priority | Item | Outcome | Date |
-|:---------|:-----|:--------|:-----|
-| P1 | Tier 0 Simulation | btree.py, encoding.py, noise.py, metrics.py, experiments 0A+0B, plots | 2026-05-11 |
-| P2 | Emergent Ventures application | Submitted | 2026-05-11 |
-| P3 | Foresight Institute application | Submitted | 2026-05-11 |
-| P4 | arXiv/Zenodo paper | Published on Zenodo — "Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits." DOI: 10.5281/zenodo.20134944. Repo: github.com/QNFO/ultrametric-error-confinement. | 2026-05-12 |
-| P5 | Mathematical foundations | Formal definitions, 4 theorems, lemma chain, Lean formalization priority table | 2026-05-11 |
-| P7 | Patent timeline | `strategy/0.2.md` — Full timeline + comprehensive provisional design (25 claims, 3 domains). Filing held per D7. | 2026-05-12 |
+### Program Milestones (Sprint 1-12)
+
+| Sprint | Date | Description |
+|:-------|:-----|:------------|
+| S1-S7 | May 11-15 | ultrametric_v2: 7 sprints, 28 tasks, 26 files, 260K+ MC trials |
+| S8 | May 16 | Buffer campaign setup, K1 verification |
+| S9 | May 17-18 | Strategic harmonization, cross-project sync, VENUE-REGISTRY |
+| S10 | May 19 | Repository curation, domain column, credential doc v2 |
+| S11 | May 20-22 | Artifact spinoff (A1-A5), Three.js bundling, error counter fix |
+| S12 | May 23 | Test suite (164/164), interactive enhancements, close-out |
+
+### Publications
+
+| P# | Title | DOI | Date |
+|:---|:------|:----|:-----|
+| P4 | Computational Validation of Ultrametric Error Confinement | 10.5281/zenodo.20134944 | 2026-05-12 |
+| P24 | Ultrametric Quantum Computing Foundations | 10.5281/zenodo.20154557 | 2026-05-15 |
+| P26 | Symmetric Extension of Ultrametric Error Confinement | 10.5281/zenodo.20208437 | 2026-05-16 |
+| P27 | Cross-Domain Synthesis: Ultrametric Geometry as Common Structure | 10.5281/zenodo.20265907 | 2026-05-17 |
+| P31 | ultrametric_v2 Companion Paper | 10.5281/zenodo.20208437 | 2026-05-16 |
+| P6 | Q-PNA v2.0 Research Specification | 10.5281/zenodo.20287742 | 2026-05-17 |
+
+### Artifact Demos
+
+| Artifact | URL | Status |
+|:---------|:----|:-------|
+| A1 Error Confinement | https://qnfo.github.io/ultrametric-error-confinement/ | Deployed |
+| A2 Q-PNA Architecture | https://qnfo.github.io/Q-PNA/ | Deployed |
+| A3 Convergence Explorer | https://qnfo.github.io/ultrametric-convergence/ | Deployed |
+| A4 Tree Distance | https://qnfo.github.io/tree-distance/ | Deployed |
+| A5 Hardware Pathway | https://qnfo.github.io/hardware-pathway/ | Deployed |
+| K1 Hub | https://qnfo.github.io/QWAV/ | Deployed |
+
+### Strategy Documents (Completed)
+
+| P# | Document | File |
+|:---|:---------|:-----|
+| P7 | Patent timeline | `strategy/0.2.md` |
+| P8 | Competitive landscape | `strategy/0.5.md` |
+| P16 | MIT implosion carving | `strategy/0.7.md` |
+| P33 | Credential doc refresh | `Ultrametric Quantum Computing Foundations.md` |
+| P34 | $q$-ary scatter talking point | `strategy/0.4.md` |
+| P37 | Benchmarking methodology | `strategy/0.5.1.md` |
+| P39 | Tree Distance cross-reference | Various |
+| P41 | Assumption-to-physical mapping | `strategy/0.6.md` |
+| P42 | Heydeman et al. analysis | `strategy/0.5.2.md` |
+| P43 | Boettcher analysis | `strategy/0.5.2.md` |
+| P58 | QNFO org README | `briefings/QNFO-org-README.md` |
+| P59 | Inbound email template | `briefings/inbound-email-template.md` |
+| P60 | Zenodo cross-link audit | `briefings/zenodo-crosslink-audit.md` |
+
+### Cancelled / Superseded
+
+| P# | Item | Reason |
+|:---|:-----|:-------|
+| P10 | Cold outreach to labs | Superseded by P32 |
+| P11 | Formal verification | Closed — requires external collaborators |
+| P12 | High-Temp filing | Decided: DO NOT FILE (2026-05-19) |
+| P13,P14,P15 | IP drafting/review/verification | Superseded by strategy/0.1.md and 0.2.md |
+| P17-P22 | All email outreaches | Cancelled — email not aligned with QWAV strategy |
+| P23,P35 | arXiv submission | Cancelled — requires endorsement. Zenodo is primary |
+| P32 | Neutral atom lab outreach | Cancelled — same rationale as P17-P22 |
+| P36 | Cophenetic distance bridge | Integrated into P27 |
+| P38 | Open-source codebase | Same as P28 (completed) |
+| P40 | Cross-domain synthesis | Superseded by P27 |
+
+---
+
+*End of backlog. Items are prioritized top-to-bottom within each tier. Work from P0 → P1 → P2 → P3.*
