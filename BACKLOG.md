@@ -4,7 +4,7 @@
 > **Update rule:** When an item is completed, move it to Completed & Archived. When new ideas emerge, add them.
 > **Task markers:** `[ ]` incomplete | `[~]` in-progress | `[!]` blocked | `[x]` complete | `[-]` cancelled
 
-**Last updated:** 2026-05-23 | **Status:** Post-Sprint-12. Audit complete (FINAL_AUDIT_REPORT.md). Smoke tests 64/64. 5 artifacts deployed. K1 live. Buffer autonomous through Jun 11. **Branch:** feature/audit-export-conversation
+**Last updated:** 2026-05-23 | **Status:** Sprint 13 active. Audit complete. Smoke tests 64/64. BACKLOG triaged (19KB→9KB). S9.1 resolved (done in S10.1). 5 artifacts deployed. K1 live. Buffer autonomous through Jun 11. **Branch:** feature/audit-export-conversation
 
 ---
 
@@ -14,7 +14,7 @@
 
 | # | Item | Description | Effort | Depends On |
 |:--|:-----|:------------|:-------|:-----------|
-| [~] | **S9.1 Git branch hygiene** | Switch all 5 artifact repos + QWAV to feature/ branches. GitHub Pages requires main/master for deployment — reconcile. | 0.5h | — |
+| [x] | **S9.1 Git branch hygiene** | Completed in S10.1. All 5 artifact repos use feature/ branches where work happens; main for Pages deployment. QWAV on feature/audit-export-conversation. | 0.5h | — |
 | [!] | **S8.3 Buffer campaign** | Complete A4, A5, K1 social posts. Buffer session expired — needs reconnection. | 0.5h | Buffer re-auth |
 
 ### P1 — High Priority

@@ -49,9 +49,9 @@
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|
 | **S13.1** | Merge feature/audit-export-conversation to main | 0.25h | P0 | [~] |
-| **S13.2** | QNFO org README deploy — push briefings/QNFO-org-README.md to QNFO/.github | 0.25h | P1 | [ ] |
-| **S13.3** | CHANGELOG version format cleanup — normalize square-bracket vs non-bracket versions | 0.25h | P2 | [ ] |
-| **S13.4** | BACKLOG.md — mark S9.1 done, remove P-number cleanup (done), update status | 0.25h | P2 | [ ] |
+| **S13.2** | QNFO org README deploy — push briefings/QNFO-org-README.md to QNFO/.github | 0.25h | P1 | [!] Repo not created |
+| **S13.3** | CHANGELOG version format cleanup — normalize square-bracket vs non-bracket versions | 0.25h | P2 | [x] 38 fixed |
+| **S13.4** | BACKLOG.md — mark S9.1 done, remove P-number cleanup (done), update status | 0.25h | P2 | [x] |
 | **S13.5** | Sprint close-out — update all docs, final commit | 0.25h | P2 | [ ] |
 
 ### 🔵 SPRINT 11: Deep Audit Remediation

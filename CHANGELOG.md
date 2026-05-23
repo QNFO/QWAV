@@ -4,6 +4,24 @@
 
 ---
 
+## v2.62 — 2026-05-23 (Sprint 13 — Audit Closeout & Cleanup)
+
+**What Changed:**
+- Sprint 13 created — 5 tasks: merge to main, QNFO README deploy (blocked), CHANGELOG cleanup, BACKLOG update, close-out
+- S9.1 resolved — marked complete (work done in S10.1)
+- CHANGELOG version format normalized — 38 bracket-format headers (`[v2.XX]` → `v2.XX`)
+- BACKLOG.md updated — S9.1 marked [x], status updated to Sprint 13
+- PROJECT STATE.md updated to reflect Sprint 13
+- S13.2 blocked: QNFO/.github repo not yet created (founder action)
+
+**Files Changed:**
+- EDIT: `SPRINT.md` (Sprint 13 added, S9.1 marked done)
+- EDIT: `CHANGELOG.md` (38 format fixes + v2.62 entry)
+- EDIT: `BACKLOG.md` (S9.1 updated, status updated)
+- EDIT: `PROJECT STATE.md` (Sprint 13 state)
+
+**Git:** `feature/audit-export-conversation`
+
 ## v2.61 — 2026-05-23 (BACKLOG Rewrite — Full Triage)
 
 **What Changed:**
@@ -254,7 +272,7 @@
 
 ---
 
-## [v2.51] — 2026-05-22 — BUILD COMPLETE: 6 Artifacts Built + Spun Off
+## v2.51 — 2026-05-22 — BUILD COMPLETE: 6 Artifacts Built + Spun Off
 
 **What Changed:** 5 interactive artifacts (A1-A5) + technical site hub (T1-T4,T7) all built from scratch, scaffolded as independent projects, git-initialized, committed. 30+ KB of deployable HTML/CSS/JS. 20+ commits this session.
 
@@ -264,7 +282,7 @@
 
 **Git:** `feature/qwav-strategy-overhaul-2026-05-22`
 
-## [v2.49] — 2026-05-22 — Session Close-Out: All QWAV Scope Complete
+## v2.49 — 2026-05-22 — Session Close-Out: All QWAV Scope Complete
 
 **What Changed:** Remaining backlog items (P54-P57) status updated to DOCUMENTED with founder actions specified. SPRINT.md updated for session close-out. All QWAV-scope tasks complete — 18.5 sessions of build work queued for Projects agent.
 
@@ -339,7 +357,7 @@
 
 **Git:** `feature/qwav-strategy-overhaul-2026-05-22`
 
-## [v2.46] — 2026-05-22 — BUILD PHASE ACTIVE: Strategy Confirmed, A1 Handed Off
+## v2.46 — 2026-05-22 — BUILD PHASE ACTIVE: Strategy Confirmed, A1 Handed Off
 
 **What Changed:** Founder confirmed the shift from passive "monitor and wait" to active "build and grow." The Build Gravity posture (strategy/3.0.md) is now the active strategy. First asset handed off to Projects agent.
 
@@ -366,7 +384,7 @@
 
 **Git:** `feature/qwav-strategy-overhaul-2026-05-22`
 
-## [v2.45] — 2026-05-22 — Template Compliance: 4 Phase Documents Created
+## v2.45 — 2026-05-22 — Template Compliance: 4 Phase Documents Created
 
 **What Changed:** QWAV now has all 11 project management files — the 7 core docs required by §0.7 plus the 4 phase documents required by the Project Initiation Protocol (CHARTER, DEFINITION-OF-DONE, RISK-REGISTER, CONTRIBUTING). All 4 use the latest templates from the prompts workspace.
 
@@ -388,7 +406,7 @@
 
 **Git:** `feature/qwav-strategy-overhaul-2026-05-22`
 
-## [v2.44] — 2026-05-22 — Strategy Reframe: Build Gravity, Don't Wait for Permission
+## v2.44 — 2026-05-22 — Strategy Reframe: Build Gravity, Don't Wait for Permission
 
 **What Changed:** strategy/3.0.md (22 KB, ~3,500 words, 8 sections) published — replaces the passive "monitoring phase" posture of 2.0 with an active "build gravity" posture. The 2.0 strategy was correct defensively but strategically inert: it defined a program waiting for exogenous events. 3.0 defines a program that builds endogenous momentum.
 
@@ -412,7 +430,7 @@
 
 **Git:** `feature/qwav-strategy-overhaul-2026-05-22`
 
-## [v2.43] — 2026-05-22 — Comprehensive Strategy Overhaul: From Piecemeal to Program
+## v2.43 — 2026-05-22 — Comprehensive Strategy Overhaul: From Piecemeal to Program
 
 **What Changed:** strategy/2.0.md (42 KB, ~6,000 words, 10 sections) published — synthesizes all prior strategy, the 673-release corpus, all 23 learnings, all 13 decisions, and the Archive project history into a single coherent architecture.
 
@@ -427,7 +445,7 @@
 
 **Git:** `feature/qwav-strategy-overhaul-2026-05-22`
 
-## [v2.42] — 2026-05-20 — Strategic Evolution: Multi-Channel Distribution with Interactive-First Posture
+## v2.42 — 2026-05-20 — Strategic Evolution: Multi-Channel Distribution with Interactive-First Posture
 
 **What Changed:** Analytics confirm paper-first distribution model has failed (near-zero Zenodo readership). Program shifts to interactive-first, multi-channel distribution per new D13 constraint.
 
@@ -449,7 +467,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 **Git:** `main`
 
-## [v2.35] — 2026-05-19 — P12 Decided: High-Temp Filing — DO NOT FILE
+## v2.35 — 2026-05-19 — P12 Decided: High-Temp Filing — DO NOT FILE
 
 **What Changed:** Reviewed existing cost-benefit analysis for High-Temperature Topological Chiral provisional patent ($325). Decision confirmed from prior analysis.
 
@@ -462,7 +480,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 **Git:** `feature/action-plan-execution`
 
-## [v2.34] — 2026-05-19 — Q-PNA Handoff Received; Full Completion
+## v2.34 — 2026-05-19 — Q-PNA Handoff Received; Full Completion
 
 **What Changed:** Projects agent returned comprehensive handoff for Q-PNA / AI specification. All deliverables verified. Documentation updated.
 
@@ -480,7 +498,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 **Git:** `feature/action-plan-execution`
 
-## [v2.33] — 2026-05-19 — SBIR Deferred by User; FQXi Search Complete (No Contest Open)
+## v2.33 — 2026-05-19 — SBIR Deferred by User; FQXi Search Complete (No Contest Open)
 
 **What Changed:** User provided entity information and FQXi external search results.
 
@@ -496,7 +514,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 **Git:** `feature/action-plan-execution`
 
-## [v2.32] — 2026-05-19 — Buffer Monitoring: Queue Healthy; FQXi Manifest Generated
+## v2.32 — 2026-05-19 — Buffer Monitoring: Queue Healthy; FQXi Manifest Generated
 
 **What Changed:** Buffer queue monitored across all 3 platforms. FQXi essay contest assessed — requires external search.
 
@@ -517,7 +535,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 ---
 
-## [v2.31] — 2026-05-19 — Portfolio Boundary Audit: Domain Column, Spinoff Registry, Site Docs
+## v2.31 — 2026-05-19 — Portfolio Boundary Audit: Domain Column, Spinoff Registry, Site Docs
 
 **What Changed:** 3 commits on `feature/action-plan-execution`. Full portfolio boundary audit executed per user request. Six recommended actions completed.
 
@@ -540,7 +558,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 ---
 
-## [v2.24] — 2026-05-18 — Session Close-Out: ACTION PLAN #2, #4, #5 Done; L20 Boundary Lesson; P6 Handoff & Return
+## v2.24 — 2026-05-18 — Session Close-Out: ACTION PLAN #2, #4, #5 Done; L20 Boundary Lesson; P6 Handoff & Return
 
 **What Changed:** 11 commits on `feature/action-plan-execution`. Three ACTION PLAN items completed:
 - **#2: LinkedIn + Substack posted** — Drafts reviewed, curly quotes fixed, footer tagline updated to "independent research alliance". Copy-paste delivered to user.
@@ -557,7 +575,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 ---
 
-## [v2.23] — 2026-05-18 — P34 Complete ($q$-Ary Scatter Talking Point)
+## v2.23 — 2026-05-18 — P34 Complete ($q$-Ary Scatter Talking Point)
 
 **What Changed:** P34 complete — $q$-ary scatter talking point written as `strategy/0.4.md` (5.5 KB, ~500 words). Accessible "wow" result for non-specialists: 48× LER reduction at zero qubit cost using existing hyperfine levels.
 
@@ -571,7 +589,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 ---
 
-## [v2.22] — 2026-05-18 — P30 Rolled Back (L19) + P34 Started
+## v2.22 — 2026-05-18 — P30 Rolled Back (L19) + P34 Started
 
 **What Changed:** Rolled back P30 entity assessment — `strategy/0.4.md` deleted, P30 marked DEFERRED in BACKLOG (requires exogenous entity information). L19 captured: legal/financial/jurisdictional tasks must verify assumptions with founder before autonomous execution. P34 ($q$-ary scatter talking point) now active.
 
@@ -586,7 +604,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 ---
 
-## [v2.21] — 2026-05-18 — Entity Formation Assessment (P30) + PII Audit & Repo Cleanup
+## v2.21 — 2026-05-18 — Entity Formation Assessment (P30) + PII Audit & Repo Cleanup
 
 **What Changed:** Completed P30 entity formation assessment. Also completed full PII audit and repo reorganization (unscheduled but critical).
 
@@ -608,7 +626,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 ---
 
-## [v2.20] — 2026-05-18 — Public Disclosure & Patent Strategy (0.3.md)
+## v2.20 — 2026-05-18 — Public Disclosure & Patent Strategy (0.3.md)
 
 **What Changed:** Strategic analysis of public GitHub/Zenodo disclosure implications for patent strategy. Created `strategy/0.3.md`.
 
@@ -627,7 +645,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 ---
 
-## [v2.19] — 2026-05-17 — P36 Complete + Cophenetic Project Seeded
+## v2.19 — 2026-05-17 — P36 Complete + Cophenetic Project Seeded
 
 **What Changed:** P36 bridge document completed, then extracted to independent project. Richard Goodman thread archived.
 
@@ -645,7 +663,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 ---
 
-## [v2.18] — 2026-05-16 — P32 Neutral Atom Lab Outreach Drafted
+## v2.18 — 2026-05-16 — P32 Neutral Atom Lab Outreach Drafted
 
 **What Changed:** Created comprehensive outreach package for neutral atom quantum computing labs.
 **Files Changed:**
@@ -657,7 +675,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 
 ---
 
-## [v2.17] — 2026-05-17 — P31 Complete: Companion Paper on Zenodo
+## v2.17 — 2026-05-17 — P31 Complete: Companion Paper on Zenodo
 
 ### Completed
 
@@ -689,7 +707,7 @@ The spinoff at `G:\My Drive\projects\Hierarchy as Ultrametricity\` has produced 
 - **P32** — Neutral atom lab outreach (now has DOI for email)
 
 ---
-## [v2.16] — 2026-05-17 — Cross-Project Sync Review: Tree Distance Cophenetic & Ultrametric_v2
+## v2.16 — 2026-05-17 — Cross-Project Sync Review: Tree Distance Cophenetic & Ultrametric_v2
 
 ### Completed
 
@@ -740,7 +758,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 ---
 
 
-## [v2.17] — 2026-05-16 — P33a+P33b — Strategy Docs Refreshed with v2 Findings
+## v2.17 — 2026-05-16 — P33a+P33b — Strategy Docs Refreshed with v2 Findings
 
 ### Completed
 
@@ -766,7 +784,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.16] — 2026-05-16 — P26+P31 Complete — Tier 1 Companion Paper Published
+## v2.16 — 2026-05-16 — P26+P31 Complete — Tier 1 Companion Paper Published
 
 ### Completed
 
@@ -791,7 +809,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.15] — 2026-05-16 — Cross-Project Sync & Ultrametric_v2 Integration
+## v2.15 — 2026-05-16 — Cross-Project Sync & Ultrametric_v2 Integration
 
 ### Completed
 
@@ -823,7 +841,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.14] — 2026-05-14 — Collaboration Vetting & Competitive Dynamics (L10)
+## v2.14 — 2026-05-14 — Collaboration Vetting & Competitive Dynamics (L10)
 
 ### Completed
 
@@ -850,7 +868,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.13] — 2026-05-12 — Comprehensive Patent Design & Timeline (P7)
+## v2.13 — 2026-05-12 — Comprehensive Patent Design & Timeline (P7)
 
 ### Completed
 
@@ -879,7 +897,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.12] — 2026-05-12 — Paper Published on Zenodo
+## v2.12 — 2026-05-12 — Paper Published on Zenodo
 
 ### Completed
 
@@ -904,7 +922,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.11] — 2026-05-12 — Paper & Simulations Moved to Standalone Project
+## v2.11 — 2026-05-12 — Paper & Simulations Moved to Standalone Project
 
 ### Completed
 
@@ -930,7 +948,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.10] — 2026-05-12 — Root Cleanup & Agenda Review
+## v2.10 — 2026-05-12 — Root Cleanup & Agenda Review
 
 ### Completed
 
@@ -964,7 +982,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.9] — 2026-05-11 — IP Portfolio Audit & Reorganization
+## v2.9 — 2026-05-11 — IP Portfolio Audit & Reorganization
 
 ### Completed
 
@@ -997,7 +1015,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.8] — 2026-05-11 — Mathematical Foundations (P5)
+## v2.8 — 2026-05-11 — Mathematical Foundations (P5)
 
 ### Completed
 
@@ -1013,7 +1031,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.7] — 2026-05-11 — arXiv Paper: Ultrametric Error Confinement
+## v2.7 — 2026-05-11 — arXiv Paper: Ultrametric Error Confinement
 
 ### Completed
 
@@ -1029,7 +1047,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.6] — 2026-05-11 — Foresight Institute Application Drafted
+## v2.6 — 2026-05-11 — Foresight Institute Application Drafted
 
 ### Completed
 
@@ -1045,7 +1063,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.5] — 2026-05-11 — Emergent Ventures Application Drafted + README v7.0
+## v2.5 — 2026-05-11 — Emergent Ventures Application Drafted + README v7.0
 
 ### Completed
 
@@ -1063,7 +1081,7 @@ Full execution order: P31 → P33 → P32 → P36 → P38 → P34 → P37 → P3
 
 ---
 
-## [v2.3] — 2026-05-11 — P11 collaborator Collaboration Prep
+## v2.3 — 2026-05-11 — P11 collaborator Collaboration Prep
 
 ### What Happened
 Identified a formal verification collaboration opportunity with P11 collaborator. P11 runs HeytingLean — a Lean 4 formal verification stack with 4,649 files, 876,000+ lines, zero `sorry` in core. They have offered "formalization transport" — taking specific QWAV claims and proving them as theorems in Lean 4 using their existing infrastructure.
@@ -1088,7 +1106,7 @@ The core QWAV theorem to formalize: a threshold theorem for ultrametric QEC, ana
 
 ---
 
-## [v2.2] — 2026-05-11 — Independent Git Repo Initialized
+## v2.2 — 2026-05-11 — Independent Git Repo Initialized
 
 ### Why
 QWAV previously existed as a directory within the DeepChat workspace, where multiple LLM agents operate on different projects simultaneously. This created risk of cross-project git contamination. QWAV is being published to GitHub and requires its own clean, independent repository.
@@ -1124,7 +1142,7 @@ git push -u origin main
 
 ---
 
-## [v2.1] — 2026-05-11 — Tier 0 Computational Validation Built
+## v2.1 — 2026-05-11 — Tier 0 Computational Validation Built
 
 ### Completed
 
@@ -1157,7 +1175,7 @@ git push -u origin main
 
 ---
 
-## [v2.0] — 2026-05-11 — Strategy Recalibration
+## v2.0 — 2026-05-11 — Strategy Recalibration
 
 ### Strategic Context
 
