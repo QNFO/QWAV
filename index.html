@@ -46,7 +46,7 @@ section h2{font-size:1.5rem;margin-bottom:2rem;background:linear-gradient(135deg
 .artifact-card{padding:1.5rem;border-radius:12px;border:1px solid rgba(129,140,248,0.12);background:rgba(129,140,248,0.04);text-decoration:none;color:inherit;transition:all .2s;display:block}
 .artifact-card:hover{border-color:#818CF8;background:rgba(129,140,248,0.08);transform:translateY(-2px)}
 .artifact-card .status{font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.75rem}
-.artifact-card .status.live{color:#34D399}
+.artifact-card .status.live{color:#34D399}.artifact-card .status.new{color:#FBBF24}
 .artifact-card h3{font-size:.9rem;margin-bottom:.5rem;color:#E5E5E5}
 .artifact-card p{font-size:.75rem;color:#9CA3AF;line-height:1.5}
 #publications{background:rgba(129,140,248,0.02)}
@@ -82,12 +82,13 @@ footer .copyright{font-size:.7rem;color:#6B7280;margin-top:1rem}
 <a href="#evidence-deck">Charts</a>
 <a href="#roadmap">Roadmap</a>
 <a href="#genealogy">Genealogy</a>
+<a href="#prior-work">Prior Work</a>
 <a href="https://qwav.tech">Marquee</a>
 </div>
 </nav>
 
 <section id="hero">
-<div class="badge">5 Interactive Demos · 5 Published Papers · 145+ Zenodo Records</div>
+<div class="badge">6 Interactive Demos &middot; 5 Published Papers &middot; 145+ Zenodo Records</div>
 <h1>Ultrametric Quantum Computing &amp; AI</h1>
 <p>Passive fault tolerance at 4K. Glass-box AI. One mathematical correction — replacing continuous geometry with ultrametric tree geometry — addresses two multi-billion-dollar problems. All evidence is open-access. All demos are interactive. All code is MIT-licensed.</p>
 <div class="hero-links">
@@ -266,8 +267,13 @@ x.fillStyle="#818CF8";x.fillRect(W-90,8,12,12);x.fillText("Transformer",W-74,18)
 <h3>Hardware Visualizer</h3>
 <p>Rotate and zoom a 40-atom neutral atom tree. See how Rydberg gates map to tree vertices.</p>
 </a>
+<a href="https://QNFO.github.io/ultrametric-tree-universality/" class="artifact-card">
+<div class="status new">New</div>
+<h3>Tree Universality Explorer</h3>
+<p>One geometry, six domains. Explore how the same tree structure emerges independently in QEC, spin glasses, proteins, cosmology, cognition, and language.</p>
+</a>
 </div>
-<p style="color:#818CF8;font-size:0.75rem;text-align:center;margin-top:2rem">All artifacts cross-linked: <a href="https://qnfo.github.io/ultrametric-error-confinement/" style="color:#818CF8">Error Confinement</a> &middot; <a href="https://qnfo.github.io/Q-PNA/" style="color:#818CF8">Q-PNA</a> &middot; <a href="https://qnfo.github.io/ultrametric-convergence/" style="color:#818CF8">Convergence</a> &middot; <a href="https://qnfo.github.io/tree-distance/" style="color:#818CF8">Tree Distance</a> &middot; <a href="https://qnfo.github.io/hardware-pathway/" style="color:#818CF8">Hardware</a> &middot; <a href="https://qnfo.github.io/ultrametric-game-of-life/" style="color:#818CF8">Virtual Qubit Showdown</a></p>
+<p style="color:#818CF8;font-size:0.75rem;text-align:center;margin-top:2rem">All artifacts cross-linked: <a href="https://qnfo.github.io/ultrametric-error-confinement/" style="color:#818CF8">Error Confinement</a> &middot; <a href="https://qnfo.github.io/Q-PNA/" style="color:#818CF8">Q-PNA</a> &middot; <a href="https://qnfo.github.io/ultrametric-convergence/" style="color:#818CF8">Convergence</a> &middot; <a href="https://qnfo.github.io/tree-distance/" style="color:#818CF8">Tree Distance</a> &middot; <a href="https://qnfo.github.io/hardware-pathway/" style="color:#818CF8">Hardware</a> &middot; <a href="https://qnfo.github.io/ultrametric-tree-universality/" style="color:#818CF8">Tree Universality</a> &middot; <a href="https://qnfo.github.io/ultrametric-game-of-life/" style="color:#818CF8">Virtual Qubit Showdown</a></p>
 </section>
 
 <section id="publications">
@@ -295,7 +301,7 @@ x.fillStyle="#818CF8";x.fillRect(W-90,8,12,12);x.fillText("Transformer",W-74,18)
 <div class="timeline-item complete">
 <div class="phase">Q2 2026 — Complete</div>
 <h3>Tier 0-1: Computational Validation</h3>
-<p><strong>Delivered:</strong> Zero logical errors at depth 7 (2,187 leaves). 48&times; error reduction at q=128. 40-atom hardware specification for neutral atom platforms. 5 interactive demos deployed. 8+ publications with registered DOIs on Zenodo. <a href="https://doi.org/10.5281/zenodo.20208437">Symmetric Extension</a> | <a href="https://doi.org/10.5281/zenodo.20134944">Error Confinement Validation</a> | <a href="https://doi.org/10.5281/zenodo.20325850">The Tree Is Real</a></p>
+<p><strong>Delivered:</strong> Zero logical errors at depth 7 (2,187 leaves). 48&times; error reduction at q=128. 40-atom hardware specification for neutral atom platforms. 6 interactive demos deployed (including Tree Universality Explorer). 30-publication prior work catalog curated. 8+ publications with registered DOIs on Zenodo. <a href="https://doi.org/10.5281/zenodo.20208437">Symmetric Extension</a> | <a href="https://doi.org/10.5281/zenodo.20134944">Error Confinement Validation</a> | <a href="https://doi.org/10.5281/zenodo.20325850">The Tree Is Real</a> | <a href="https://qnfo.github.io/ultrametric-tree-universality/">Tree Universality Explorer</a></p>
 </div>
 <div class="timeline-item">
 <div class="phase">Q3 2026 — In Progress</div>
@@ -374,6 +380,27 @@ x.fillStyle="#818CF8";x.fillRect(W-90,8,12,12);x.fillText("Transformer",W-74,18)
 <tr><td>30</td><td>Ultrametric Paradigm</td><td class="date">2026-05</td><td>Programmatic overview of ultrametric geometry as paradigm shift.</td></tr>
 </tbody>
 </table>
+</section>
+
+<section id="prior-work" style="background:rgba(129,140,248,0.02)">
+<h2>Prior Work Catalog</h2>
+<p style="color:#9CA3AF;margin-bottom:2rem">30 key publications curated from the QWAV corpus. Each maps to the ultrametric tree framework. Full catalog with DOIs and relevance statements: <a href="https://github.com/QNFO/ultrametric-tree-universality/blob/main/0.3.md" style="color:#818CF8">0.3.md</a></p>
+<table class="pub-table">
+<thead><tr><th>#</th><th>Publication</th><th>Domain</th><th>Key Finding</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Computational Validation of Ultrametric Error Confinement</td><td><span style="color:#34D399">QEC L2</span></td><td>Zero errors at depth 7 via Bruhat-Tits tree encoding</td></tr>
+<tr><td>2</td><td>Symmetric Extension of Ultrametric Error Confinement</td><td><span style="color:#34D399">QEC L2</span></td><td>Ternary architecture, 48x scatter reduction, 40-atom pathway</td></tr>
+<tr><td>3</td><td>Parisi — Infinite Number of Order Parameters (1979)</td><td><span style="color:#FBBF24">Spin Glass L3</span></td><td>Nobel 2021: independently discovered ultrametric tree of pure states</td></tr>
+<tr><td>4</td><td>Frauenfelder/Wolynes — Energy Landscapes (1991)</td><td><span style="color:#FBBF24">Protein L4</span></td><td>Protein folding as diffusion on hierarchical energy tree</td></tr>
+<tr><td>5</td><td>Springel et al. — Millennium Simulation (2005)</td><td><span style="color:#818CF8">Cosmology L5</span></td><td>Cosmic merger trees: cophenetic correlation > 0.85</td></tr>
+<tr><td>6</td><td>Cross-Domain Synthesis: Ultrametric Geometry as Common Structure</td><td><span style="color:#A78BFA">Synthesis L5</span></td><td>5 integration points mapping tree geometry across 5 domains</td></tr>
+<tr><td>7</td><td>The Tree Is Real — Computational Validation of Ultrametric Convergence</td><td><span style="color:#34D399">Meta L2</span></td><td>Computational meta-analysis: hierarchy produces ultrametric signatures</td></tr>
+<tr><td>8</td><td>The Tree at the Bottom of Thought</td><td><span style="color:#818CF8">Cognition L5</span></td><td>Semantic memory as cophenetic tree with triadic rigidity</td></tr>
+<tr><td>9</td><td>Few Become One — Polysynthetic Communication</td><td><span style="color:#818CF8">Language L5</span></td><td>Morpheme scope relations form ultrametric branching architecture</td></tr>
+<tr><td>10</td><td>The Tree and Its Shadow — Unified Phase Diagram</td><td><span style="color:#A78BFA">Synthesis L1</span></td><td>Phase diagram of ultrametric organization vs. noise</td></tr>
+</tbody>
+</table>
+<p style="color:#818CF8;font-size:0.75rem;text-align:center;margin-top:1.5rem">Full 30-publication catalog with DOIs at <a href="https://github.com/QNFO/ultrametric-tree-universality/blob/main/0.3.md" style="color:#818CF8">ultrametric-tree-universality/0.3.md</a></p>
 </section>
 
 <footer>
