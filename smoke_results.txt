@@ -88,17 +88,46 @@ SUITE 7: K1 HUB SPECIFIC CHECKS
 ============================================================
 SUITE 8: RESPONSE TIME (Performance)
 ============================================================
-  [PASS] A1: Loads in <5s (0.07s, 10,412 bytes)
-  [PASS] A2: Loads in <5s (0.07s, 15,791 bytes)
-  [PASS] A3: Loads in <5s (0.06s, 7,488 bytes)
-  [PASS] A4: Loads in <5s (0.06s, 9,832 bytes)
-  [PASS] A5: Loads in <5s (0.08s, 11,328 bytes)
-  [PASS] K1: Loads in <5s (0.08s, 35,361 bytes)
+  [PASS] A1: Loads in <5s (0.08s, 10,412 bytes)
+  [PASS] A2: Loads in <5s (0.05s, 15,791 bytes)
+  [PASS] A3: Loads in <5s (0.08s, 7,488 bytes)
+  [PASS] A4: Loads in <5s (0.07s, 9,832 bytes)
+  [PASS] A5: Loads in <5s (0.05s, 11,328 bytes)
+  [PASS] K1: Loads in <5s (0.06s, 35,361 bytes)
+
+============================================================
+SUITE 9: JAVASCRIPT ERROR-PATTERN DETECTION
+============================================================
+  [PASS] A1: No console.error() calls (Known-error logging in production code)
+  [PASS] A1: No eval() calls (eval() usage (security/stability risk))
+  [PASS] A1: No document.write() calls (document.write() (blocks rendering))
+  [PASS] A1: No empty catch blocks (silent error swallowing)
+  [PASS] A1: innerHTML usage within limits (3/3)
+  [PASS] A2: No console.error() calls (Known-error logging in production code)
+  [PASS] A2: No eval() calls (eval() usage (security/stability risk))
+  [PASS] A2: No document.write() calls (document.write() (blocks rendering))
+  [PASS] A2: No empty catch blocks (silent error swallowing)
+  [PASS] A2: innerHTML usage within limits (2/3)
+  [PASS] A3: No console.error() calls (Known-error logging in production code)
+  [PASS] A3: No eval() calls (eval() usage (security/stability risk))
+  [PASS] A3: No document.write() calls (document.write() (blocks rendering))
+  [PASS] A3: No empty catch blocks (silent error swallowing)
+  [PASS] A3: innerHTML usage within limits (0/3)
+  [PASS] A4: No console.error() calls (Known-error logging in production code)
+  [PASS] A4: No eval() calls (eval() usage (security/stability risk))
+  [PASS] A4: No document.write() calls (document.write() (blocks rendering))
+  [PASS] A4: No empty catch blocks (silent error swallowing)
+  [PASS] A4: innerHTML usage within limits (0/3)
+  [PASS] A5: No console.error() calls (Known-error logging in production code)
+  [PASS] A5: No eval() calls (eval() usage (security/stability risk))
+  [PASS] A5: No document.write() calls (document.write() (blocks rendering))
+  [PASS] A5: No empty catch blocks (silent error swallowing)
+  [PASS] A5: innerHTML usage within limits (0/3)
 
 ============================================================
 RESULTS
 ============================================================
-SMOKE PASSED: 64 / 64
-SMOKE FAILED: 0 / 64
+SMOKE PASSED: 89 / 89
+SMOKE FAILED: 0 / 89
 SMOKE RATE:   100%
 ============================================================

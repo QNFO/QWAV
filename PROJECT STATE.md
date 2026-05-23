@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-23 | **Session:** Sprint 14 — S14.1 COMPLETE. test_all_artifacts.py refactored to unittest (42 test methods, 7 TestCase classes, subTest parametrization). All 42/42 pass. pytest not installed — used stdlib unittest. Branch: feature/sprint-14-planning. | **Next:** S14.2 (JS error detection in smoke tests). S14.3 (close-out). | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.63
+**Last updated:** 2026-05-23 | **Session:** Sprint 14 CLOSED — 3/3 tasks complete. test_all_artifacts.py refactored to unittest (42/42 pass). JS error detection added to smoke tests (SUITE 9, 89/89 pass). test_browser_errors.py created. Branch: feature/sprint-14-planning. | **Next:** Merge to main. Buffer renewal Jun 11. Sprint 15 planning. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.64
 
 ---
 

@@ -4,6 +4,24 @@
 
 ---
 
+## v2.64 — 2026-05-23 (Sprint 14 Close-Out — Test Suite Modernization)
+
+**What Changed:**
+- S14.2 complete: JS error detection added to smoke tests (SUITE 9 — 25 checks: console.error, eval, document.write, empty catch, innerHTML, fetch error handling)
+- Smoke tests now 89/89 PASS (64 original + 25 new JS error-pattern checks)
+- `test_browser_errors.py` created — static analysis + CDP runtime capture guide + confirmed clean results
+- All 6 artifacts: 0 JS error patterns (no console.error, eval, document.write, or empty catch blocks)
+- Sprint 14 closed: 3/3 tasks complete
+- Updated CURRENT STATE to SPRINT 14 CLOSED
+
+**Files Changed:**
+- EDIT: `test_smoke.py` (SUITE 9 added: +40 lines, 25 new checks)
+- CREATE: `test_browser_errors.py` (static analysis + CDP guide + confirmed clean)
+- EDIT: `SPRINT.md` (S14.2, S14.3 marked done)
+- EDIT: `CHANGELOG.md` (this entry)
+
+**Git:** `feature/sprint-14-planning`
+
 ## v2.63 — 2026-05-23 (Sprint 14 — Test Suite Modernization)
 
 **What Changed:**

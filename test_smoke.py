@@ -326,6 +326,51 @@ for key, art in artifacts.items():
         check(False, f"{key}: Failed to load in {elapsed:.2f}s (HTTP {status})")
 
 # ============================================================
+section("SUITE 9: JAVASCRIPT ERROR-PATTERN DETECTION")
+# ============================================================
+error_patterns = {
+    'console.error': (r'console\.error\(', 'Known-error logging in production code'),
+    'eval': (r'\beval\(', 'eval() usage (security/stability risk)'),
+    'document.write': (r'document\.write\(', 'document.write() (blocks rendering)'),
+}
+
+for key, art in artifacts.items():
+    if key == 'K1':
+        continue
+    html, status = fetch(art['live'])
+    if not html:
+        check(False, f"{key}: Cannot fetch for error-pattern audit")
+        continue
+    
+    scripts = re.findall(r'<script[^>]*>(.*?)</script>', html, re.DOTALL | re.IGNORECASE)
+    all_js = '\n'.join(scripts)
+    
+    # Check for console.error (indicates known bugs logged to console)
+    for pat_name, (pattern, desc) in error_patterns.items():
+        count = len(re.findall(pattern, all_js, re.IGNORECASE))
+        check(count == 0, f"{key}: No {pat_name}() calls ({desc})" + 
+              (f" — found {count}" if count > 0 else ""))
+    
+    # Check for empty catch blocks (silent error swallowing)
+    empty_catches = len(re.findall(r'catch\s*\([^)]*\)\s*\{\s*\}', all_js))
+    check(empty_catches == 0, f"{key}: No empty catch blocks (silent error swallowing)" +
+          (f" — found {empty_catches}" if empty_catches > 0 else ""))
+    
+    # Check innerHTML usage (risky for XSS, should prefer textContent)
+    inner_html_count = len(re.findall(r'\.innerHTML\s*=', all_js))
+    check(inner_html_count <= 3, f"{key}: innerHTML usage within limits ({inner_html_count}/3)" +
+          ("" if inner_html_count <= 3 else f" — EXCESSIVE: {inner_html_count} uses"))
+    
+    # Check async operations have error handling
+    fetch_calls = len(re.findall(r'fetch\(', all_js))
+    catch_handlers = len(re.findall(r'\.catch\(', all_js))
+    try_catch_blocks = len(re.findall(r'try\s*\{', all_js))
+    
+    if fetch_calls > 0:
+        has_error_handling = catch_handlers > 0 or try_catch_blocks > 0
+        check(has_error_handling, f"{key}: fetch() calls ({fetch_calls}) have error handling (catches: {catch_handlers}, try-blocks: {try_catch_blocks})")
+
+# ============================================================
 section("RESULTS")
 # ============================================================
 total = PASS + FAIL
