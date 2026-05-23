@@ -4,6 +4,27 @@
 
 ---
 
+## v2.60 — 2026-05-23 (Smoke Tests — Browser-Level Functional Verification)
+
+**What Changed:**
+- Created `test_smoke.py` — 64/64 browser-level smoke tests (100% pass) across 8 test suites
+- Suites cover: live availability, JS execution capability, button-function wiring, canvas rendering detection, content richness, stale/dead code patterns, K1 hub integrity, response time
+- Complements `test_all_artifacts.py` (164/164 structural tests) with functional checks structural tests cannot detect
+- A5 dynamic canvas (Three.js) correctly handled — not counted as missing when JS creates it at runtime
+- L28 added to LEARNINGS.md — "Structural Tests != Working Demos — Test-Audit Gap"
+- Comprehensive audit of export conversation completed — `FINAL_AUDIT_REPORT.md` (10 sections, 340 lines)
+- All 6 live sites confirmed HTTP 200, no placeholder images, Three.js loads correctly
+
+**Files Changed:**
+- CREATE: `test_smoke.py` (463 lines, 8 test suites)
+- CREATE: `smoke_results.txt` (64/64 results)
+- EDIT: `LEARNINGS.md` (L28 added)
+- EDIT: `PROJECT STATE.md` (state updated)
+- EDIT: `SPRINT.md` (smoke test task added)
+- CREATE: `FINAL_AUDIT_REPORT.md`, `compile_audit.py` (audit deliverables)
+
+**Git:** `feature/audit-export-conversation` → `2f7caad`
+
 ## v2.59 — 2026-05-23 (Sprint 12 Close-Out — Final Verification)
 
 **What Changed:**

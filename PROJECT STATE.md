@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-23 | **Session:** Export Audit — AUDIT COMPLETE. Key finding: 164/164 structural tests pass but do NOT verify interactive functionality (L28). Full report: FINAL_AUDIT_REPORT.md. Live sites all HTTP 200. Three.js loads correctly on A5. No placeholder images. Documentation complete. Branch: feature/audit-export-conversation. Interactive demos enhanced (auto-init, batch classification, no placeholder values). K1 Pages verified (deployed == source). Buffer autonomous through Jun 11. | **Next:** Browser-based UI/UX testing. BACKLOG.md full rewrite. Buffer renewal Jun 11. | **GitHub:** QNFO/QWAV (main) | **Changelog:** `CHANGELOG.md` v2.59
+**Last updated:** 2026-05-23 | **Session:** Smoke Tests — COMPLETE. test_smoke.py created: 64/64 browser-level smoke tests pass (8 suites: live availability, JS capability, button wiring, canvas rendering, content richness, stale code, K1 hub, response time). Complements test_all_artifacts.py (164/164 structural). Full audit: FINAL_AUDIT_REPORT.md. L28 added to LEARNINGS.md. Branch: feature/audit-export-conversation. | **Next:** BACKLOG.md full rewrite. Buffer renewal Jun 11. S9.1 git branch hygiene. | **GitHub:** QNFO/QWAV (main) | **Changelog:** `CHANGELOG.md` v2.60
 
 ---
 
