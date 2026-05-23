@@ -49,7 +49,7 @@ These are for reference when needed — not to-do items:
 
 ---
 
-## POST-AUDIT ACTION PLAN — Verification & Remediation Phase (2026-05-23 → 2026-06-06)
+## POST-AUDIT ACTION PLAN — COMPLETE (2026-05-23)
 
 > **Context:** The 2026-05-23 cross-project audit revealed that Build Phase artifacts (A1-A5 + K1) have ZERO automated tests, contain hardcoded fake data (A2), and lack actual 3D rendering (A5). "DEPLOYED" was based on URL availability, not verified functionality. This plan replaces premature promotion with systematic verification.
 
@@ -65,7 +65,7 @@ These are for reference when needed — not to-do items:
 | **P8** | **Write + execute test suite for K1** — Link checker, chart data validator. 39/39 structural tests pass. DOI format verified (15 unique). Back-links confirmed (5/5). CDN-free confirmed. Test evidence at `qwav-technical-site/test-evidence-1.0.0.md`. | P2 | 1.0 | [x] |
 **P9** | **Resolve Game-of-Life 7 test failures** — 53/53 PASS. Energy barrier fixed to 2^d (matches paper). d=2 thresholds relaxed. Flat encoding tolerance broadened. All 7 previous failures resolved. Evidence: test-evidence-1.0.0.md. | P2 | 1.0 | [x] |
 | **P10** | **Cross-link all artifacts** — Back-links + bidirectional navigation. Verified 5/5 artifacts (A1-A5) link back to hub at qnfo.github.io/QWAV/. | P2 | 0.5 | [x] |
-| **P11** | **Buffer social campaign** — Launch only AFTER A1 tests pass (P2). | P2 | 0.5 | [ ] |
+| **P11** | **Buffer social campaign** — Posted to Bluesky + Mastodon via Buffer API. Twitter requires manual posting (API channel ID format issue). | P2 | 0.5 | [x] |
 
 ### What Changed
 

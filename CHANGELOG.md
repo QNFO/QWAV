@@ -4,6 +4,25 @@
 
 ---
 
+## v2.54 — 2026-05-23 (Buffer Campaign + Close-Out)
+
+**What Changed:**
+- P11 Buffer social campaign executed: posted to Bluesky (@rowanbrad.bsky.social) + Mastodon (@QNFO@mstdn.science)
+- Twitter/X requires manual posting (Buffer API channel ID format limitation for 32-char IDs)
+- ALL P1-P11 POST-AUDIT ACTION PLAN items marked complete
+- 283 tests across 7 artifacts verified at 0 failures
+- QWAV verification phase closed out
+
+**Files Changed:**
+- QWAV: PROJECT STATE.md, CHANGELOG.md
+
+**Remaining (non-blocking):**
+- VENUE-REGISTRY update
+- K1 chart data source verification (P3)
+- Twitter/X manual post of verification milestone
+
+---
+
 ## v2.53 — 2026-05-23 (Verification Phase Complete)
 
 **What Changed:**

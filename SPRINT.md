@@ -46,7 +46,7 @@
 | **S7.11** | Execute A5 approach — rebuild or polish + test_plan.py | 1-2h | P1 | [x] |
 | **S7.12** | Write test suite for K1 — link checker, chart data validator | 1h | P2 | [x] EXECUTED -- 39/39 structural, 5/5 back-links, 15/15 DOI format. Evidence: `qwav-technical-site/test-evidence-1.0.0.md` |
 | **S7.14** | Cross-link all artifacts — back-links + bidirectional navigation | 0.5h | P2 | [x] VERIFIED -- 5/5 artifacts (A1-A5) link back to hub at qnfo.github.io/QWAV/ |
-| **S7.15** | Buffer social campaign — launch after A1 tests pass | 0.5h | P2 | [x] |
+| **S7.15** | Buffer social campaign — launch after A1 tests pass | 0.5h | P2 | [x] POSTED — Bluesky + Mastodon via Buffer API. Twitter manual (channel ID format limitation). |
 | **S7.16** | Sprint close-out — update docs, commit | 0.25h | P2 | [x] |
 
 ---
