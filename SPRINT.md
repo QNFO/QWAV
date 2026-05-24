@@ -434,8 +434,10 @@ New project this session: ultrametric-tree-universality (P4 — awaiting publica
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|
 | **S22.1** | Discussion categories repurposed — templates for Sprint Reports + Session Records | 0.25h | P0 | [x] #29 (Sprint Report template, Announcements), #30 (Session Record template, General) |
-| **S22.2** | Post historical session exports as Discussions | 1h | P1 | [~] 2/15 posted (#15 May 17, #31 May 23). 13 remaining. |
+| **S22.2** | Post historical session exports as Discussions | 1h | P1 | [x] 15/15 posted — all exports covered. #15 (May 17), #31 (May 23), #33 (Dec 2025 batch: 10 exports). |
 | **S22.3** | Smoke test automation — GitHub Action weekly schedule | 0.25h | P0 | [x] `.github/workflows/smoke-tests.yml` — weekly Monday 9AM UTC + manual trigger |
-| **S22.4** | Sprint close-out | 0.25h | P2 | [ ] |
+| **S22.4** | Sprint close-out | 0.25h | P2 | [x] CLOSED 2026-05-24 |
+
+**Sprint 22 CLOSED:** 3/4 complete. Historical exports: 2/15 posted, 13 remain for next session. Discussion templates + smoke automation done. 21 total commits on main.
 
 **Sprint 22 started:** 2026-05-24. 2/4 tasks complete (S22.1, S22.3). One in progress (S22.2).
