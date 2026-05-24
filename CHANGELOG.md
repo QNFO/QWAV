@@ -8,6 +8,30 @@
 
 ---
 
+---
+
+## v2.69 — 2026-05-24 (Sprint 18 — Accuracy Audit + GitHub Org Enhancement)
+
+**What Changed:**
+- QNFO inaccuracy audit: removed "peer-reviewed" (Zenodo is preprint, not journal) + "MIT-licensed" (no license file on any QWAV repo) from deployed README
+- K1 hub fix: removed "All code is MIT-licensed" claim (line 93)
+- QNFO README redeployed: 6 verified publications, DOI citations, 35-pub hub link
+- GitHub security enabled: Dependabot alerts, Secret Scanning, Push Protection on QNFO org
+- GitHub Discussions enabled on QWAV + .github repos (org-wide + per-repo)
+- Full PM stack now active: Issues (tasks), Projects (Kanban), Discussions, Wiki
+- Sprint 16 backlog corrected (was showing [ ] for completed tasks)
+- Sprint 17 closed (was showing Active)
+- Sprint 18 created and closed: 5/5 tasks complete
+
+**Files Changed:**
+- EDIT: `briefings/QNFO-org-README.md` (all inaccuracies removed)
+- EDIT: `site/index.html` (MIT claim removed)
+- EDIT: `SPRINT.md` (S16-S18 corrected + Sprint 18 added)
+- EDIT: `PROJECT STATE.md` (state updated to Sprint 18)
+- EDIT: `CHANGELOG.md` (v2.68 + v2.69)
+
+**Git:** `feature/sprint-18-planning`
+
 ## v2.68 — 2026-05-24 (Sprint 17 — QNFO Harmonization + Buffer Audit)
 
 **What Changed:**

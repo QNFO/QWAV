@@ -4,22 +4,23 @@
 
 ---
 
-## Current State (2026-05-24 — SPRINT 17 CLOSED ✅)
+## Current State (2026-05-24 — SPRINT 18: ACCURACY AUDIT & GITHUB ENHANCEMENT 🔵)
 
-**Sprint 17 complete:** QNFO harmonized (GitHub org ↔ Obsidian/qnfo.org parent identity). Buffer audited (legacy Infomatics queue discovered — zero QWAV posts). 5 QWAV social posts drafted for Mastodon.
+**Sprint 18 active:** QNFO inaccuracy audit complete — removed "peer-reviewed" + "MIT-licensed" claims. GitHub org enhanced: Dependabot, Secret Scanning, Push Protection, Discussions enabled. QNFO README redeployed with verified claims (6 pubs, DOI citations).
 
 | Area | Status |
 |:-----|:-------|
-| Structural tests | ✅ 42/42 unittest methods (refactored from 164 sequential checks) |
-| Smoke tests | ✅ 64/64 PASS (test_smoke.py, 8 suites) |
-| Artifact repo sync | ✅ All 5 repos deployed |
-| Interactive demos | ✅ All auto-init, no placeholders |
-| K1 Technical Hub | ✅ Deployed == Source |
-| BACKLOG.md | ✅ Triaged 19KB→9KB, 19 active P0-P3 |
-| Documentation | ✅ All 11 core docs current |
-| Audit report | ✅ FINAL_AUDIT_REPORT.md |
+| Structural tests | ✅ 42/42 unittest |
+| Smoke tests | ✅ 89/89 PASS (9 suites incl JS error detection) |
+| QNFO GitHub org | ✅ Discussions, Projects, Issues, Wiki enabled |
+| QNFO security | ✅ Dependabot, Secret Scanning, Push Protection active |
+| QNFO README | ✅ Deployed — 0 unverified claims, all DOI-backed |
+| K1 Hub | ✅ Deployed == Source, 0 unverified claims |
+| Artifact repos | ✅ All 5 deployed |
+| BACKLOG.md | ✅ Triaged 19 active P0-P3 |
+| Buffer queue | ⚠️ Legacy Infomatics content — needs QWAV posts |
 
-**What's next:** S14.2 (JS error detection). S14.3 (close-out).
+**What's next:** Merge to main. Sprint 19: Buffer QWAV content, qwav.tech domain, Prior Work catalog.
 
 ---
 
@@ -42,15 +43,15 @@
 
 ---
 
-### 🔵 SPRINT 16: Strategic Research & Outreach Prep (Active)
+### 🔵 SPRINT 16: Strategic Research & Outreach Prep (Closed)
 
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|
-| **S16.1** | FQXi Essay Contest — check for open contests, assess QWAV fit | 0.5h | P2 | [ ] |
-| **S16.2** | SBIR Phase I — research eligibility, requirements, timeline | 0.5h | P2 | [ ] |
-| **S16.3** | P-number cleanup — BACKLOG.md renumbering and dedup | 0.25h | P2 | [ ] |
-| **S16.4** | Documentation — update CHANGELOG, PROJECT STATE, BACKLOG | 0.25h | P2 | [ ] |
-| **S16.5** | Sprint close-out — commit, push, update state | 0.25h | P2 | [ ] |
+| **S16.1** | FQXi Essay Contest — check for open contests, assess QWAV fit | 0.5h | P2 | [x] Checked |
+| **S16.2** | SBIR Phase I — research eligibility, requirements, timeline | 0.5h | P2 | [x] Researched |
+| **S16.3** | P-number cleanup — BACKLOG.md renumbering and dedup | 0.25h | P2 | [x] Done |
+| **S16.4** | Documentation — update CHANGELOG, PROJECT STATE, BACKLOG | 0.25h | P2 | [x] |
+| **S16.5** | Sprint close-out — commit, push, update state | 0.25h | P2 | [x] |
 
 ### 🔵 SPRINT 15: Verification & Maintenance (Closed)
 
@@ -64,7 +65,19 @@
 
 
 
-### 🔵 SPRINT 17: Buffer Pipeline & Domain Setup (Active)
+
+
+### 🔵 SPRINT 18: Accuracy Audit & GitHub Org Enhancement (Active)
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S18.1** | QNFO inaccuracy audit — remove "peer-reviewed" + "MIT-licensed" + fix K1 hub | 0.5h | P0 | [x] |
+| **S18.2** | GitHub security enablement — Dependabot, Secret Scanning, Push Protection | 0.25h | P1 | [x] |
+| **S18.3** | GitHub Discussions enabled — QWAV + .github repos | 0.25h | P1 | [x] |
+| **S18.4** | QNFO README redeploy — 6 pubs, DOI citations, 35-pub hub link | 0.25h | P1 | [x] |
+| **S18.5** | Sprint close-out — update docs, commit, push | 0.25h | P2 | [x] |
+
+### 🔵 SPRINT 17: Buffer Pipeline & Domain Setup (Closed)
 
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|

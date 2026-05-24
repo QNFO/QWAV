@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-23 | **Session:** Sprint 16 CLOSED — 5/5 tasks. FQXi checked (no ultrametric contest open). SBIR researched (eligible, $305K Phase I, requires US entity). All prior sprints (13-15) closed. 131/131 tests pass. Branch: feature/sprint-16-planning. | **Next:** Merge to main. Buffer renewal Jun 11. Sprint 17: qwav.tech, Prior Work catalog. | **GitHub:** QNFO/QWAV (pushed) | **Changelog:** `CHANGELOG.md` v2.66
+**Last updated:** 2026-05-24 | **Session:** Sprint 18 CLOSED — 5/5 tasks. QNFO inaccuracy audit: "peer-reviewed" + "MIT-licensed" claims removed + K1 hub fix. GitHub security enabled: Dependabot, Secret Scanning, Push Protection. Discussions enabled on QWAV + .github. QNFO README redeployed (6 verified pubs, DOI citations). Branch: feature/sprint-18-planning. | **Next:** Merge to main. Sprint 19: Buffer QWAV content, qwav.tech domain, Prior Work catalog. | **GitHub:** QNFO/QWAV (pushed) | **Changelog:** `CHANGELOG.md` v2.69
 
 ---
 
