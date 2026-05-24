@@ -4,6 +4,14 @@ on:
   schedule:
     - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
   workflow_dispatch:       # Manual trigger via gh workflow run
+  push:
+    branches: [main]
+    paths:
+      - 'test_smoke.py'
+      - 'test_all_artifacts.py'
+      - 'test_all_artifacts_pytest.py'
+      - 'index.html'
+      - '.github/workflows/smoke-tests.yml'
 
 jobs:
   structural:
@@ -25,3 +33,21 @@ jobs:
         with:
           python-version: '3.12'
       - run: python test_smoke.py
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Smoke tests failed. Creating issue..."
+          gh issue create \
+            --repo ${{ github.repository }} \
+            --title "Smoke test failure — $(date -u +'%Y-%m-%d')" \
+            --label "bug,testing,P2" \
+            --body "Automated smoke tests failed on $(date -u +'%Y-%m-%d %H:%M UTC').
+          
+          **Triggered by:** ${{ github.event_name }}
+          **Run:** [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          
+          Review the [Actions log](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details.
+          
+          Run `python test_smoke.py` locally to reproduce."
