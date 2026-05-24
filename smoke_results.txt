@@ -7,7 +7,7 @@ SUITE 1: LIVE AVAILABILITY (All Artifacts)
   [PASS] A3 (Convergence Explorer): Live (HTTP 200, 7,488 bytes)
   [PASS] A4 (Tree Distance Sandbox): Live (HTTP 200, 9,832 bytes)
   [PASS] A5 (Hardware Pathway): Live (HTTP 200, 11,328 bytes)
-  [PASS] K1 (K1 Hub): Live (HTTP 200, 35,361 bytes)
+  [PASS] K1 (K1 Hub): Live (HTTP 200, 35,416 bytes)
 
 ============================================================
 SUITE 2: JAVASCRIPT EXECUTION CAPABILITY
@@ -89,11 +89,11 @@ SUITE 7: K1 HUB SPECIFIC CHECKS
 SUITE 8: RESPONSE TIME (Performance)
 ============================================================
   [PASS] A1: Loads in <5s (0.08s, 10,412 bytes)
-  [PASS] A2: Loads in <5s (0.10s, 15,791 bytes)
+  [PASS] A2: Loads in <5s (0.08s, 15,791 bytes)
   [PASS] A3: Loads in <5s (0.06s, 7,488 bytes)
-  [PASS] A4: Loads in <5s (0.11s, 9,832 bytes)
-  [PASS] A5: Loads in <5s (0.07s, 11,328 bytes)
-  [PASS] K1: Loads in <5s (0.11s, 35,361 bytes)
+  [PASS] A4: Loads in <5s (0.09s, 9,832 bytes)
+  [PASS] A5: Loads in <5s (0.13s, 11,328 bytes)
+  [PASS] K1: Loads in <5s (0.12s, 35,416 bytes)
 
 ============================================================
 SUITE 9: JAVASCRIPT ERROR-PATTERN DETECTION
