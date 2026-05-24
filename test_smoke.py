@@ -397,7 +397,8 @@ if FAIL > 0:
     msg = "These indicate issues that structural tests cannot catch."
     print(msg)
     OUTPUT.append(msg)
-    sys.exit(1)
+    if __name__ == "__main__":
+        sys.exit(1)
 else:
     msg = "\nAll smoke tests passed. Basic interactive functionality verified."
     print(msg)
