@@ -425,4 +425,17 @@ New project this session: ultrametric-tree-universality (P4 — awaiting publica
 | **S21.6** | P2 cleanup — smoke test maintenance + P-number cleanup | 0.5h | P2 | [x] 102/102 tests pass. BACKLOG clean: P1=0, P2=2. |
 | **S21.7** | Sprint close-out | 0.25h | P2 | [x] CLOSED 2026-05-24 |
 
-**Sprint 21 CLOSED:** 5/7 complete, 2 blocked (Wiki + Categories — hard API limitation, workarounds documented). Key deliverables: 19 labels, 3 milestones, Kanban board (11 issues, Priority/Sprint/Status fields), 3 Discussions, sessions/ pipeline, full provenance chain. All work merged to main. CHANGELOG v2.72.
+**Sprint 21 CLOSED:** 6/7 complete. Wiki initialized (10 pages). Categories: API-limited (workaround: repurposed 6 defaults via `updateDiscussion`). Key deliverables: 19 labels, 3 milestones, Kanban board (11 issues), 5 Discussions, sessions/ pipeline, full provenance chain. All 18 commits merged to main. CHANGELOG v2.73.
+
+---
+
+### 🔵 SPRINT 22: Historical Exports & Automation (Active)
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S22.1** | Discussion categories repurposed — templates for Sprint Reports + Session Records | 0.25h | P0 | [x] #29 (Sprint Report template, Announcements), #30 (Session Record template, General) |
+| **S22.2** | Post historical session exports as Discussions | 1h | P1 | [~] 2/15 posted (#15 May 17, #31 May 23). 13 remaining. |
+| **S22.3** | Smoke test automation — GitHub Action weekly schedule | 0.25h | P0 | [x] `.github/workflows/smoke-tests.yml` — weekly Monday 9AM UTC + manual trigger |
+| **S22.4** | Sprint close-out | 0.25h | P2 | [ ] |
+
+**Sprint 22 started:** 2026-05-24. 2/4 tasks complete (S22.1, S22.3). One in progress (S22.2).
