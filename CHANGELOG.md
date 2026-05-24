@@ -6,6 +6,25 @@
 
 ---
 
+## v2.67 — 2026-05-24 (QNFO README Deploy — Blocker Resolved)
+
+**What Changed:**
+- S13.2 UNBLOCKED — QNFO org README deployed to `QNFO/.github`
+- Repurposed `qnfo.org` repo: unarchived via API, renamed to `.github`, old personal content replaced
+- `profile/README.md` + root `README.md` updated with QWAV program content
+- Key results, repositories, publications table, and links now visible on QNFO org profile
+- BACKLOG.md updated — QNFO README deploy marked [x]
+- SPRINT.md S13.2 marked [x] Deployed
+
+**Files Changed:**
+- CREATE: `QNFO/.github/profile/README.md` (via GitHub API)
+- EDIT: `QNFO/.github/README.md` (via GitHub API, replacing legacy Infomatics content)
+- EDIT: `SPRINT.md` (S13.2 unblocked)
+- EDIT: `BACKLOG.md` (QNFO README marked done)
+- EDIT: `CHANGELOG.md` (this entry)
+
+**Git:** `feature/sprint-16-planning`
+
 ## v2.66 — 2026-05-23 (Sprint 16 — Strategic Research)
 
 **What Changed:**

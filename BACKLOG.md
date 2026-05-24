@@ -22,7 +22,7 @@
 | # | Item | Description | Effort | Depends On |
 |:--|:-----|:------------|:-------|:-----------|
 | [ ] | **Sprint 13 planning** | Plan next sprint: backlog triage, remaining audit recommendations, test suite refactoring. | 0.5h | — |
-| [ ] | **QNFO org README deploy** | Content written (`briefings/QNFO-org-README.md`). Push to `QNFO/.github` repo as `profile/README.md`. | 0.25h | GitHub push |
+| [x] | **QNFO org README deploy** | Deployed via GitHub API. Repo: `QNFO/.github` (repurposed from `qnfo.org`). `profile/README.md` + root `README.md`. Unarchived + renamed via API. | 0.25h | — |
 | [ ] | **qwav.tech domain site** | K1 hub is live but at `qnfo.github.io/QWAV/`. Build or redirect `qwav.tech` → K1. | 0.5h | Domain DNS |
 | [ ] | **Test suite refactoring** | Convert `test_all_artifacts.py` to pytest-style with individual `def test_*` functions. From audit recommendation #2. | 2-3h | — |
 | [ ] | **JS error detection in tests** | Add browser-console error capture to smoke tests. From audit recommendation #3. | 1-2h | YoBrowser/CDP |
