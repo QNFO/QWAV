@@ -421,7 +421,7 @@ New project this session: ultrametric-tree-universality (P4 — awaiting publica
 | **S21.2** | GitHub Discussions — session records pipeline | 0.5h | P0 | [x] 3 Discussions posted (#12-#14). Template in #13. sessions/ dir created. Full provenance: chat→discussion→issue→commit. |
 | **S21.3** | Post historical session exports as Discussions | 0.5h | P1 | [~] #14 posted (May 23). 14 remaining exports in Downloads/. |
 | **S21.4** | Wiki — initialize with program documentation | 0.5h | P1 | [!] Blocked — needs web UI. Home.md ready in wiki-init/. |
-| **S21.5** | Project board — create Kanban (blocked by token scope) | 0.5h | P1 | [!] Blocked — needs `gh auth refresh -s project` |
+| **S21.5** | Project board — create Kanban (blocked by token scope) | 0.5h | P1 | [x] Created. 11 issues, Priority/Sprint fields. https://github.com/orgs/QNFO/projects/1 |
 | **S21.6** | P2 cleanup — smoke test maintenance + P-number cleanup | 0.5h | P2 | [ ] Issues #8 + #9 created |
 | **S21.7** | Sprint close-out | 0.25h | P2 | [ ] |
 
