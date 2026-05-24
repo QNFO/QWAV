@@ -2,32 +2,32 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-24 | **Sessions:** (1) COMPREHENSIVE AUDIT & REFACTOR -- QNFO org (20 repos) + rwnq8 (26 repos) fully audited and standardized. LICENSE migrated from MIT to QNFO Content License Agreement v1.1 across all 36 active repos. CODE_OF_CONDUCT, CONTRIBUTING.md, and README.md deployed to every repo. Name updated globally (Quni → Quni-Gudzinas). GitHub notifications disabled org-wide. 4 audit issues closed (#35, #38, #39, #40). (2) QNFO/QWAV AUDIT & REFACTOR -- QNFO .github/README.md and profile/README.md updated from Obsidian ABOUT.md, Obsidian README.md, and CODE_OF_CONDUCT.md. Added full mission statement, research methodology, founder biography. Obsidian README.md fixed (author typo, expanded content). briefings/QNFO-org-README.md deprecated. 2 commits pushed to QNFO/.github. | **Open:** #37 (pytest fix -- code), #8 (smoke maintenance -- code), #3 (qwav.tech -- blocked), #42 (GitBook integration). Test suite: 44/44 passing. Wiki: 10 pages verified. Discussions: 13 posts reorganized. | **GitHub:** [Issues](https://github.com/QNFO/QWAV/issues) (4 open), [Projects](https://github.com/orgs/QNFO/projects) (2 boards), [Wiki](https://github.com/QNFO/QWAV/wiki) (10 pages), [Discussions](https://github.com/QNFO/QWAV/discussions) (13 posts), [Release v2.74](https://github.com/QNFO/QWAV/releases).
+**Last updated:** 2026-05-24 | **Sessions:** (1) COMPREHENSIVE AUDIT & REFACTOR -- QNFO org (20 repos) + rwnq8 (26 repos) fully audited and standardized. LICENSE migrated from MIT to QNFO Content License Agreement v1.1 across all 36 active repos. CODE_OF_CONDUCT, CONTRIBUTING.md, and README.md deployed to every repo. Name updated globally (Quni â†’ Quni-Gudzinas). GitHub notifications disabled org-wide. 4 audit issues closed (#35, #38, #39, #40). (2) QNFO/QWAV AUDIT & REFACTOR -- QNFO .github/README.md and profile/README.md updated from Obsidian ABOUT.md, Obsidian README.md, and CODE_OF_CONDUCT.md. Added full mission statement, research methodology, founder biography. Obsidian README.md fixed (author typo, expanded content). briefings/QNFO-org-README.md deprecated. 2 commits pushed to QNFO/.github. | **Open:** #3 (qwav.tech -- blocked), #8 (smoke maintenance), #42 (GitBook integration). #37 CLOSED (INTERNALERROR resolved). Test suite: 104/104 passing, 137 subtests, 6.0s. Wiki: 10 pages verified. Discussions: 13 posts reorganized. | **GitHub:** [Issues](https://github.com/QNFO/QWAV/issues) (3 open), [Projects](https://github.com/orgs/QNFO/projects) (2 boards), [Wiki](https://github.com/QNFO/QWAV/wiki) (10 pages), [Discussions](https://github.com/QNFO/QWAV/discussions) (13 posts), [Release v2.74](https://github.com/QNFO/QWAV/releases).
 
 ---
 
-## ✅ BUILD PHASE COMPLETE -- All Artifacts Deployed (May 22 - May 23, 2026)
+## âœ… BUILD PHASE COMPLETE -- All Artifacts Deployed (May 22 - May 23, 2026)
 
 | # | Action | Week | Sessions | Status |
 |:--|:-------|:-----|:---------|:-------|
-| **A1** | **Error Confinement Live Demo** -- `projects/ultrametric-error-confinement-demo/` | 1 | 2 | ✅ DEPLOYED → `qnfo.github.io/ultrametric-error-confinement/` |
-| **A2** | **Q-PNA Classifier Playground** -- `projects/qpna-classifier-playground/` | 2 | 2 | ✅ DEPLOYED → `qnfo.github.io/Q-PNA/` |
-| **A3** | **Ultrametric Convergence Explorer** -- `projects/ultrametric-convergence-explorer/` | 3 | 1.5 | ✅ DEPLOYED → `qnfo.github.io/ultrametric-convergence/` |
-| **A4** | **Tree Distance Sandbox** -- `projects/tree-distance-sandbox/` | 3 | 1 | ✅ DEPLOYED → `qnfo.github.io/tree-distance/` |
-| **A5** | **Hardware Pathway Visualizer** -- `projects/hardware-pathway-visualizer/` | 4 | 1 | ✅ DEPLOYED → `qnfo.github.io/hardware-pathway/` |
-| **T1-T12** | **Technical Site Hub** -- `QWAV/site/index.html` | 1-4 | 11 | ✅ COMPLETE -- All T1-T12 deployed → `qnfo.github.io/QWAV/` |
-| **K5** | **QNFO Org README** -- QWAV overview on github.com/QNFO | 1 | 0.25 | ✅ DONE -- `briefings/QNFO-org-README.md` |
-| **K1** | **qwav.tech marquee update** -- 3 pubs + cross-link + demos teaser | 1 | -- | ✅ APPLIED via AI Studio |
-| **P59** | **Email response template** | -- | -- | ✅ DONE -- `briefings/inbound-email-template.md` |
-| **P60** | **Zenodo cross-link audit** | -- | -- | ✅ DONE -- `briefings/zenodo-crosslink-audit.md` |
+| **A1** | **Error Confinement Live Demo** -- `projects/ultrametric-error-confinement-demo/` | 1 | 2 | âœ… DEPLOYED â†’ `qnfo.github.io/ultrametric-error-confinement/` |
+| **A2** | **Q-PNA Classifier Playground** -- `projects/qpna-classifier-playground/` | 2 | 2 | âœ… DEPLOYED â†’ `qnfo.github.io/Q-PNA/` |
+| **A3** | **Ultrametric Convergence Explorer** -- `projects/ultrametric-convergence-explorer/` | 3 | 1.5 | âœ… DEPLOYED â†’ `qnfo.github.io/ultrametric-convergence/` |
+| **A4** | **Tree Distance Sandbox** -- `projects/tree-distance-sandbox/` | 3 | 1 | âœ… DEPLOYED â†’ `qnfo.github.io/tree-distance/` |
+| **A5** | **Hardware Pathway Visualizer** -- `projects/hardware-pathway-visualizer/` | 4 | 1 | âœ… DEPLOYED â†’ `qnfo.github.io/hardware-pathway/` |
+| **T1-T12** | **Technical Site Hub** -- `QWAV/site/index.html` | 1-4 | 11 | âœ… COMPLETE -- All T1-T12 deployed â†’ `qnfo.github.io/QWAV/` |
+| **K5** | **QNFO Org README** -- QWAV overview on github.com/QNFO | 1 | 0.25 | âœ… DONE -- `briefings/QNFO-org-README.md` |
+| **K1** | **qwav.tech marquee update** -- 3 pubs + cross-link + demos teaser | 1 | -- | âœ… APPLIED via AI Studio |
+| **P59** | **Email response template** | -- | -- | âœ… DONE -- `briefings/inbound-email-template.md` |
+| **P60** | **Zenodo cross-link audit** | -- | -- | âœ… DONE -- `briefings/zenodo-crosslink-audit.md` |
 
 **Background processes (not blocking build phase):**
 | # | Action | Cadence | Status |
 |:--|:-------|:--------|:-------|
-| **Monitor applications** | Weekly inbox check -- 6 pending | ⏳ |
-| **Monitor Buffer** | Weekly -- queue autonomous through Jun 11 | 🟢 |
-| **Monitor spinoffs** | Weekly -- all 6 deployed, verified live | 🟢 |
-| **SBIR** | Deferred -- US legal/tax not current priority | ⚠️ |
+| **Monitor applications** | Weekly inbox check -- 6 pending | â³ |
+| **Monitor Buffer** | Weekly -- queue autonomous through Jun 11 | ðŸŸ¢ |
+| **Monitor spinoffs** | Weekly -- all 6 deployed, verified live | ðŸŸ¢ |
+| **SBIR** | Deferred -- US legal/tax not current priority | âš ï¸ |
 
 ### Reference Library (Not Action Items)
 
@@ -97,9 +97,9 @@ These are for reference when needed -- not to-do items:
 
 | Project | Directory | Status | Phase | Last Deliverable | Next Milestone |
 |:--------|:----------|:-------|:------|:-----------------|:---------------|
-| **Q-PNA** | `G:\My Drive\projects\q-pna\` | 🟣 Done | P5 -- Close-Out | v2.0 Research Specification (52 KB) published. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. Archived. | Complete |
-| **Error Confinement Demo** | `G:\My Drive\projects\ultrametric-error-confinement-demo\` | ✅ Deployed | P5 -- Complete | Interactive Bruhat-Tits tree (10 KB). Single HTML + vanilla JS. | ✅ Live → `qnfo.github.io/ultrametric-error-confinement/` |
-| **Q-PNA Playground** | `G:\My Drive\projects\qpna-classifier-playground\` | ✅ Deployed | P5 -- Complete | Glass-box AI demo (9 KB). Decision tree explorer. STC verification. | ✅ Live → `qnfo.github.io/Q-PNA/` |
+| **Q-PNA** | `G:\My Drive\projects\q-pna\` | ðŸŸ£ Done | P5 -- Close-Out | v2.0 Research Specification (52 KB) published. DOI: `10.5281/zenodo.20287742`. GitHub: `QNFO/Q-PNA`. Archived. | Complete |
+| **Error Confinement Demo** | `G:\My Drive\projects\ultrametric-error-confinement-demo\` | âœ… Deployed | P5 -- Complete | Interactive Bruhat-Tits tree (10 KB). Single HTML + vanilla JS. | âœ… Live â†’ `qnfo.github.io/ultrametric-error-confinement/` |
+| **Q-PNA Playground** | `G:\My Drive\projects\qpna-classifier-playground\` | âœ… Deployed | P5 -- Complete | Glass-box AI demo (9 KB). Decision tree explorer. STC verification. | âœ… Live â†’ `qnfo.github.io/Q-PNA/` |
 
 ### Archived Projects (2026-05-23)
 
@@ -111,17 +111,17 @@ These were moved to `G:\My Drive\Archive\projects\2026\05\` during the post-audi
 | **Ultrametric Game of Life** | COMPLETE. 46/53 tests pass. Deployed. Bonus asset, not in formal Build Phase. | C |
 | **Hierarchy as Ultrametricity** | Never scaffolded. Lower priority than Build Phase. | W |
 
-| **Convergence Explorer** | `G:\My Drive\projects\ultrametric-convergence-explorer\` | ✅ Deployed | P5 -- Complete | Side-by-side particle simulation (7 KB). | ✅ Live → `qnfo.github.io/ultrametric-convergence/` |
-| **Tree Distance Sandbox** | `G:\My Drive\projects\tree-distance-sandbox\` | ✅ Deployed | P5 -- Complete | Distance comparison + triadic rigidity (8 KB). | ✅ Live → `qnfo.github.io/tree-distance/` |
-| **Hardware Visualizer** | `G:\My Drive\projects\hardware-pathway-visualizer\` | ✅ Deployed | P5 -- Complete | 3D 40-atom tree (5 KB). | ✅ Live → `qnfo.github.io/hardware-pathway/` |
-| **Technical Site Hub** | `QWAV/site/index.html` | ✅ Complete | P5 -- Verified | Landing page (34.7 KB). All T1-T12. | ✅ Live → `qnfo.github.io/QWAV/` |
+| **Convergence Explorer** | `G:\My Drive\projects\ultrametric-convergence-explorer\` | âœ… Deployed | P5 -- Complete | Side-by-side particle simulation (7 KB). | âœ… Live â†’ `qnfo.github.io/ultrametric-convergence/` |
+| **Tree Distance Sandbox** | `G:\My Drive\projects\tree-distance-sandbox\` | âœ… Deployed | P5 -- Complete | Distance comparison + triadic rigidity (8 KB). | âœ… Live â†’ `qnfo.github.io/tree-distance/` |
+| **Hardware Visualizer** | `G:\My Drive\projects\hardware-pathway-visualizer\` | âœ… Deployed | P5 -- Complete | 3D 40-atom tree (5 KB). | âœ… Live â†’ `qnfo.github.io/hardware-pathway/` |
+| **Technical Site Hub** | `QWAV/site/index.html` | âœ… Complete | P5 -- Verified | Landing page (34.7 KB). All T1-T12. | âœ… Live â†’ `qnfo.github.io/QWAV/` |
 
 **Spinoff lifecycle:**
-1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol
-2. QWAV scaffolds project directory → `G:\My Drive\projects\<name>\` with 7 mandatory docs + initial GitHub Issues
-3. Projects agent executes → independent `.git/`, own feature branches
+1. QWAV writes handoff document â†’ `strategy/0.N.md` with research trail, expected output, return protocol
+2. QWAV scaffolds project directory â†’ `G:\My Drive\projects\<name>\` with 7 mandatory docs + initial GitHub Issues
+3. Projects agent executes â†’ independent `.git/`, own feature branches
 4. Deliverables land in `Obsidian/releases/` (read-only shared space)
-5. QWAV monitors → updates PROJECT STATE.md, GitHub Issues, Project boards when deliverables appear
+5. QWAV monitors â†’ updates PROJECT STATE.md, GitHub Issues, Project boards when deliverables appear
 6. On completion: QWAV marks spinoff DONE in GitHub Issues; project may continue independently or archive
 
 ---
@@ -146,7 +146,7 @@ These were moved to `G:\My Drive\Archive\projects\2026\05\` during the post-audi
 | **Revenue** | $0 |
 | **Team** | Solo founder |
 | **Experimental validation** | None (no lab access, no collaborator) |
-| **Computational validation** | **Tier 0 paper:** Published -- "Computational Validation of Ultrametric Error Confinement in Bruhat-Tits Tree Quantum Circuits" on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). **Tier 1 paper:** Published -- "Symmetric Extension of Ultrametric Error Confinement" on Zenodo (DOI: 10.5281/zenodo.20208437, 2026-05-16). Ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7, 48× LER reduction via scatter, concatenation redundancy, 40-atom neutral atom hardware design. 7 sprints of expanded validation (ultrametric_v2). |
+| **Computational validation** | **Tier 0 paper:** Published -- "Computational Validation of Ultrametric Error Confinement in Bruhat-Tits Tree Quantum Circuits" on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). **Tier 1 paper:** Published -- "Symmetric Extension of Ultrametric Error Confinement" on Zenodo (DOI: 10.5281/zenodo.20208437, 2026-05-16). Ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7, 48Ã— LER reduction via scatter, concatenation redundancy, 40-atom neutral atom hardware design. 7 sprints of expanded validation (ultrametric_v2). |
 | **Credential document** | Published -- "Ultrametric Quantum Computing Foundations" on Zenodo (DOI: 10.5281/zenodo.20154557, 2026-05-15). 3,700 words, 12 references, 5 pre-registered falsifiable predictions. |
 | **Patent portfolio** | Provisional patents exist; timeline unspecified; conversion to PCT not yet done |
 | **Publications** | 300+ open-access on Zenodo, ResearchGate, SSRN |
@@ -193,7 +193,7 @@ These are NOT gaps to be closed -- they are the path. Do not suggest pivoting aw
 
 | Target | Role | Status | Notes |
 |:-------|:-----|:-------|:------|
-| **W.A. Zuniga-Galindo** (CINVESTAV) | Conference organizer; bridges p-adic math with physics, biology, ML | ✅ SENT 2026-05-15 -- Version A. Awaiting response. | Door-opener: conference date + unaffiliated researcher policy. |
+| **W.A. Zuniga-Galindo** (CINVESTAV) | Conference organizer; bridges p-adic math with physics, biology, ML | âœ… SENT 2026-05-15 -- Version A. Awaiting response. | Door-opener: conference date + unaffiliated researcher policy. |
 | **Branko Dragovich** (Steklov Institute) | p-adic quantum cosmology, genetics | Queued (P19). Send after P17 response. | Same low-friction format. |
 | **Andrei Khrennikov** (Linnaeus University) | p-adic probability, cognitive modeling | Queued (P20). Send after P17 response. | Same format. |
 | **First Int'l Conf. on Models of Complex Hierarchic Systems** | Mexico City, 2026 (date TBD) | Monitoring. Target for abstract submission as "back door" into community. | Zuniga-Galindo chairs LOC. |
@@ -225,15 +225,15 @@ These are NOT gaps to be closed -- they are the path. Do not suggest pivoting aw
 
 ## 7. CURRENT PRIORITIES (Prioritized)
 
-### Priority 1: ✅ COMPLETE -- Tier 0 + Tier 0.5 Computational Validation
+### Priority 1: âœ… COMPLETE -- Tier 0 + Tier 0.5 Computational Validation
 **What:** Python simulation demonstrating ultrametric error confinement in Bruhat-Tits tree circuits.
-**Status:** **PUBLISHED + EXPANDED.** Tier 0 paper on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). Ultrametric_v2 project COMPLETE (7 sprints, 2026-05-16): ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate), 48× LER reduction via scatter, concatenation proven redundant, hardware spec (40-atom neutral atom, $d=3$). Companion paper finalized. Repo: `G:\My Drive\projects\ultrametric_v2\`.
+**Status:** **PUBLISHED + EXPANDED.** Tier 0 paper on Zenodo (DOI: 10.5281/zenodo.20134944, 2026-05-12). Ultrametric_v2 project COMPLETE (7 sprints, 2026-05-16): ternary ($p=3$) symmetric architecture, ZERO logical errors at depth 7 (2,187 leaves, 36,000 trials, up to 40% physical error rate), 48Ã— LER reduction via scatter, concatenation proven redundant, hardware spec (40-atom neutral atom, $d=3$). Companion paper finalized. Repo: `G:\My Drive\projects\ultrametric_v2\`.
 **Next:** Publish ultrametric_v2 companion paper. Open-source repo (P28).
 
-### Priority 2: ✅ COMPLETE -- Emergent Ventures Application
+### Priority 2: âœ… COMPLETE -- Emergent Ventures Application
 **Status:** Submitted May 2026. Pending.
 
-### Priority 3: ✅ COMPLETE -- Foresight Institute Application
+### Priority 3: âœ… COMPLETE -- Foresight Institute Application
 **Status:** Submitted May 2026. Pending.
 
 ### Priority 4: IP Portfolio -- Maintained, Not Expanded
@@ -285,12 +285,12 @@ These are NOT gaps to be closed -- they are the path. Do not suggest pivoting aw
 
 ### Priority 5: Active Written Outreach -- IN PROGRESS
 **What:** Send written proposals to individuals/programs that evaluate on substance.
-**Status:** **STARTED.** P17 (Zúñiga-Galindo) sent 2026-05-15 -- awaiting response. P18-P22 queued (Dragovich, Khrennikov, Wales, Planat). Credential document published as calling card.
-**Next:** Await P17 response (window closes May 29). If positive → P18 (conference abstract). If no response → P19 (Dragovich).
+**Status:** **STARTED.** P17 (ZÃºÃ±iga-Galindo) sent 2026-05-15 -- awaiting response. P18-P22 queued (Dragovich, Khrennikov, Wales, Planat). Credential document published as calling card.
+**Next:** Await P17 response (window closes May 29). If positive â†’ P18 (conference abstract). If no response â†’ P19 (Dragovich).
 
 ---
 
-### Priority 6: 🔴 CRITICAL -- Companion Paper Publication + Lab Outreach (Added 2026-05-17)
+### Priority 6: ðŸ”´ CRITICAL -- Companion Paper Publication + Lab Outreach (Added 2026-05-17)
 **Status:** NOT STARTED -- companion paper written, needs Zenodo upload
 **Details:** Cross-project sync review identified the highest-leverage gaps: (1) Publish ultrametric_v2 companion paper to Zenodo (P31 -- 0.5 session, unblocks everything). (2) Refresh credential doc + narrative library with v2 findings (P33 -- 1-2 sessions). (3) Neutral atom lab outreach to 4 specific labs (P32 -- 1 session). Full details in BACKLOG.md P31-P40.
 **Next action:** P31 -- Zenodo upload of companion paper (highest-leverage single action in QWAV backlog).
@@ -298,14 +298,14 @@ These are NOT gaps to be closed -- they are the path. Do not suggest pivoting aw
 ## 8. LONGER-TERM PATH
 
 ```
-NOW ──────► Tier 0 Simulation ──────► Emergent Ventures ──────► More applications
+NOW â”€â”€â”€â”€â”€â”€â–º Tier 0 Simulation â”€â”€â”€â”€â”€â”€â–º Emergent Ventures â”€â”€â”€â”€â”€â”€â–º More applications
                (3-6 weeks)              (rolling submission)        (Foresight, SBIR, etc.)
-                                             │
-                                             ▼
+                                             â”‚
+                                             â–¼
                                       If funded: PCT patents +
                                       more computational validation
-                                             │
-                                             ▼
+                                             â”‚
+                                             â–¼
                                       Written outreach to licensees
                                       (Strategy B: IP-Only)
 ```
@@ -341,10 +341,10 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 | `GitHub Projects` | Sprint board + Program board (replaces BACKLOG.md) | Active -- 2 boards |
 | `LEARNINGS.md` | Project-specific lessons (kaizen) | Created 2026-05-12 |
 | `DECISIONS.md` | Architecture/design decisions with rationale | Created 2026-05-12 |
-| `CHARTER.md` | Project charter -- scope, success criteria, constraints, deliverables | ✅ NEW 2026-05-22 -- PROJECT-CHARTER-TEMPLATE |
-| `DEFINITION-OF-DONE.md` | Task completion criteria -- CODE, DOC, PUBLICATION, ANALYSIS, WEB APP | ✅ NEW 2026-05-22 -- DEFINITION-OF-DONE-TEMPLATE |
-| `RISK-REGISTER.md` | Active risks + CPL pre-populated risks + resolved risks | ✅ NEW 2026-05-22 -- RISK-REGISTER-TEMPLATE |
-| `CONTRIBUTING.md` | Agent workflow rules, domain rules, escalation protocol | ✅ NEW 2026-05-22 -- CONTRIBUTING-TEMPLATE |
+| `CHARTER.md` | Project charter -- scope, success criteria, constraints, deliverables | âœ… NEW 2026-05-22 -- PROJECT-CHARTER-TEMPLATE |
+| `DEFINITION-OF-DONE.md` | Task completion criteria -- CODE, DOC, PUBLICATION, ANALYSIS, WEB APP | âœ… NEW 2026-05-22 -- DEFINITION-OF-DONE-TEMPLATE |
+| `RISK-REGISTER.md` | Active risks + CPL pre-populated risks + resolved risks | âœ… NEW 2026-05-22 -- RISK-REGISTER-TEMPLATE |
+| `CONTRIBUTING.md` | Agent workflow rules, domain rules, escalation protocol | âœ… NEW 2026-05-22 -- CONTRIBUTING-TEMPLATE |
 
 **strategy/ (15 files):**
 
