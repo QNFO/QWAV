@@ -6,6 +6,25 @@
 
 ---
 
+---
+
+## v2.68 — 2026-05-24 (Sprint 17 — QNFO Harmonization + Buffer Audit)
+
+**What Changed:**
+- QNFO GitHub org harmonized with Obsidian/qnfo.org parent identity
+- `QNFO/.github` profile/README.md + root README.md rewritten: QNFO as umbrella, qnfo.org as primary site, QWAV as flagship, 414 releases referenced
+- Buffer queue audited: 10 legacy Infomatics posts (March 2025). Zero QWAV content. Claimed "5 posts May 23" was fabrication — same pattern as structural test over-claim
+- 5 QWAV Mastodon posts drafted: error confinement, Q-PNA, convergence, hardware pathway, program overview
+- Sprint 17 closed: 4/4 tasks
+
+**Files Changed:**
+- EDIT: `QNFO/.github/profile/README.md` (via API — 2,521 → 4,096 bytes)
+- EDIT: `QNFO/.github/README.md` (via API — harmonized)
+- EDIT: `SPRINT.md` (Sprint 17 added + closed)
+- EDIT: `CHANGELOG.md` (this entry)
+
+**Git:** `feature/sprint-17-planning`
+
 ## v2.67 — 2026-05-24 (QNFO README Deploy — Blocker Resolved)
 
 **What Changed:**

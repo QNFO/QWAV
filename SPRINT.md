@@ -4,9 +4,9 @@
 
 ---
 
-## Current State (2026-05-23 — SPRINT 16 CLOSED ✅)
+## Current State (2026-05-24 — SPRINT 17 CLOSED ✅)
 
-**Sprint 16 complete:** Strategic research sprint. FQXi checked (no ultrametric contest open, monitored). SBIR researched (eligible, requires US entity). P-number cleanup done. Post-Sprint-15 verification complete (131/131 tests pass).
+**Sprint 17 complete:** QNFO harmonized (GitHub org ↔ Obsidian/qnfo.org parent identity). Buffer audited (legacy Infomatics queue discovered — zero QWAV posts). 5 QWAV social posts drafted for Mastodon.
 
 | Area | Status |
 |:-----|:-------|
@@ -63,6 +63,15 @@
 | **S15.5** | Sprint close-out | 0.25h | P2 | [x] |
 
 
+
+### 🔵 SPRINT 17: Buffer Pipeline & Domain Setup (Active)
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S17.1** | QNFO harmonization — align GitHub org with Obsidian/qnfo.org parent identity | 0.5h | P0 | [x] |
+| **S17.2** | Buffer audit — inventory actual queue vs claimed | 0.25h | P0 | [x] |
+| **S17.3** | Draft QWAV social content — 5 Mastodon posts from artifacts + papers | 0.5h | P1 | [x] Drafted |
+| **S17.4** | Sprint close-out | 0.25h | P2 | [x] |
 
 ### 🔵 SPRINT 16: Strategic Research & Outreach Prep (Closed)
 
