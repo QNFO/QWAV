@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-24 | **Session:** Sprint 18 CLOSED — 5/5 tasks. QNFO inaccuracy audit: "peer-reviewed" + "MIT-licensed" claims removed + K1 hub fix. GitHub security enabled: Dependabot, Secret Scanning, Push Protection. Discussions enabled on QWAV + .github. QNFO README redeployed (6 verified pubs, DOI citations). Branch: feature/sprint-19-planning. | **Active Sprint:** Sprint 19 (Prior Work Catalog & Backlog Execution) — 2/8 tasks complete. | **Next:** Complete Prior Work catalog (v1.0), qwav.tech domain deploy. | **GitHub Issues:** 5 open (created 2026-05-24). | **GitHub:** QNFO/QWAV (pushed) | **Changelog:** `CHANGELOG.md` v2.69
+**Last updated:** 2026-05-24 | **Session:** Sprint 19 CLOSED — 6/8 complete, 2 blocked. Key deliverables: Prior Work catalog (30 pubs, 28 verified), 5 GitHub Issues (#3-#7), SBIR Phase I briefing, FQXi briefing, L29 meta-fix (stated-but-not-executed anti-pattern — 5 enforcement rules). 8 commits. Branch: feature/sprint-19-planning. | **Next:** Sprint 20 — Unblock: qwav.tech DNS (needs user), pytest install + test migration. Plus BACKLOG triage. | **GitHub Issues:** 5 open (created 2026-05-24). | **GitHub:** QNFO/QWAV (pushed) | **Changelog:** `CHANGELOG.md` v2.69
 
 ---
 

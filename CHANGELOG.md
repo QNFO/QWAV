@@ -12,6 +12,22 @@
 
 ---
 
+## v2.71 — 2026-05-24 (Sprint 19 — Prior Work Catalog & Backlog Execution)
+
+**What Changed:**
+- Prior Work catalog v0.1 created: 30 publications, 7 categories, 28 verified, 2 UNVERIFIED-LLM (DOIs provided)
+- 5 GitHub Issues created from BACKLOG (#3-#7, verified OPEN)
+- SBIR Phase I briefing: eligibility researched, entity formation identified as single blocker. NIST/DOE/NSF open
+- FQXi briefing: 2025 contest closed, monitoring for June 2026 announcement
+- L29 added to LEARNINGS.md: THE STATED-BUT-NOT-EXECUTED ANTI-PATTERN (BLOCKING, 5 enforcement rules)
+- 8 commits on feature/sprint-19-planning
+
+**Sprint Result:** 6/8 complete, 2 blocked (qwav.tech DNS needs user, test refactoring needs pytest install)
+
+**Files Changed:** briefings/prior-work-catalog.md, briefings/sbir-phase1-briefing.md, briefings/fqxi-briefing.md, LEARNINGS.md, SPRINT.md, PROJECT STATE.md
+
+---
+
 ## v2.70 — 2026-05-24 (Sprint 18 — GitHub Audit + Integration Plan)
 
 **What Changed:**

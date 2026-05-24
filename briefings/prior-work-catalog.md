@@ -2,7 +2,7 @@
 
 > **Purpose:** Curated catalog of external publications relevant to QWAV's ultrametric quantum computing paradigm. Use for: literature review sections, citation mapping, competitive landscape analysis, and identifying collaboration targets.
 >
-> **Status:** IN PROGRESS — target 20-30 pubs
+> **Status:** v0.1 COMPLETE — 30 pubs catalogued: 28 verified, 2 unverified (DOIs provided for verification)
 > **Last updated:** 2026-05-24
 
 ---
@@ -46,8 +46,8 @@
 | # | Citation | Relevance | Status |
 |:--|:---------|:----------|:-------|
 | 11 | **Shi, Y.-Y., Duan, L.-M., Vidal, G.** (2006). "Classical simulation of quantum many-body systems with a tree tensor network." *Physical Review A*, 74(2), 022320. | Tree tensor network (TTN) formalism for quantum simulation. Hierarchical structure mirrors ultrametric organization. | `[VERIFIED]` |
-| 12 | **Ferris, A.J.** (2013). "Tensor network simulation on tree lattices." *Physical Review B*, 87(12), 125139. | Extends TTN methods to tree lattice geometries. Direct relevance to Bruhat-Tits tree physics. | `[TO-LOCATE]` |
-| 13 | **Gerster, M., Silvi, P., Rizzi, M., Fazio, R., Calarco, T., Montangero, S.** (2014). "Unconstrained tree tensor network: An adaptive gauge picture for enhanced performance." *Physical Review B*, 90(12), 125154. | Advanced TTN methods with adaptive gauging. | `[TO-LOCATE]` |
+| 12 | **Ferris, A.J.** (2013). "Tensor network simulation on tree lattices." *Physical Review B*, 87(12), 125139. | Extends TTN methods to tree lattice geometries. Direct relevance to Bruhat-Tits tree physics. | `[UNVERIFIED-LLM]` — citation from training data; DOI 10.1103/PhysRevB.87.125139 needs verification |
+| 13 | **Gerster, M., Silvi, P., Rizzi, M., Fazio, R., Calarco, T., Montangero, S.** (2014). "Unconstrained tree tensor network: An adaptive gauge picture for enhanced performance." *Physical Review B*, 90(12), 125154. | Advanced TTN methods with adaptive gauging. | `[UNVERIFIED-LLM]` — citation from training data; DOI 10.1103/PhysRevB.90.125154 needs verification |
 | 14 | **Silvi, P., Tschirsich, F., Gerster, M., Jünemann, J., Jaschke, D., Rizzi, M., Montangero, S.** (2019). "The Tensor Networks Anthology: Simulation techniques for many-body quantum lattice systems." *SciPost Physics Lecture Notes*, 8. | Comprehensive survey of tensor network methods including tree networks. | `[VERIFIED]` |
 | 15 | **Hackett, D.C., Greitemann, J., Chandran, A., Chen, J.Y.** (2025). "Tensor networks for quantum computing." *Nature Reviews Physics*, 7, 387-399. | 2025 review covering TTN applications in quantum error correction and simulation. | `[VERIFIED]` |
 

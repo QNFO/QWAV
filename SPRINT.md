@@ -385,13 +385,13 @@ New project this session: ultrametric-tree-universality (P4 — awaiting publica
 
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|
-| **S19.1** | Prior Work catalog — curate 30+ publications across 7 categories | 1.5h | P0 | [~] v0.1: 30 pubs, 27 verified, 3 pending |
+| **S19.1** | Prior Work catalog — curate 30+ publications across 7 categories | 1.5h | P0 | [x] v0.1: 30 pubs, 28 verified, 2 UNVERIFIED-LLM (DOIs provided) |
 | **S19.2** | GitHub Issues — import BACKLOG items as real Issues | 0.25h | P0 | [x] Issues #3-#7 created 2026-05-24 |
-| **S19.3** | qwav.tech domain site — deploy landing page from site/index.html | 0.5h | P1 | [ ] |
+| **S19.3** | qwav.tech domain site — deploy landing page from site/index.html | 0.5h | P1 | [!] Blocked — needs user to configure DNS CNAME at domain registrar. Pages live at qnfo.github.io/QWAV |
 | **S19.4** | L29 meta-fix — document stated-but-not-executed anti-pattern | 0.25h | P0 | [x] Added to LEARNINGS.md; 5 enforcement rules |
-| **S19.5** | Test suite refactoring — migrate to pytest-style | 2-3h | P1 | [ ] |
+| **S19.5** | Test suite refactoring — migrate to pytest-style | 2-3h | P1 | [!] Blocked — pytest not installed. 42 existing unittest tests functional. Migration needs tooling install |
 | **S19.6** | SBIR Phase I — eligibility research | 2-3h | P2 | [x] Briefing written. Entity formation is single blocker. |
 | **S19.7** | FQXi Essay Contest — check for open calls | 0.5h | P2 | [x] Briefing written. Monitoring for June 2026 announcement. |
-| **S19.8** | Sprint close-out — update docs, merge to main | 0.25h | P2 | [ ] |
+| **S19.8** | Sprint close-out — update docs, merge to main | 0.25h | P0 | [x] CLOSED 2026-05-24 |
 
-**Sprint 19 started:** 2026-05-24. Two tasks completed (S19.2, S19.4). One in progress (S19.1).
+**Sprint 19 CLOSED:** 6/8 complete, 2 blocked. 8 commits on feature/sprint-19-planning. Key deliverables: Prior Work catalog (30 pubs, 28 verified), 5 GitHub Issues, SBIR + FQXi briefings, L29 meta-fix (BLOCKING lesson).
