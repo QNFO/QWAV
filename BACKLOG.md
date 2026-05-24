@@ -34,8 +34,8 @@
 | [x] | **SBIR Phase I** | ✅ DONE Sprint 19.6 — `briefings/sbir-phase1-briefing.md`. Entity formation is single blocker. | — | — |
 | [x] | **FQXi Essay Contest** | ✅ DONE Sprint 19.7 — `briefings/fqxi-briefing.md`. Monitoring for June 2026 announcement. | — | — |
 | [x] | **Curate Prior Work catalog** | ✅ DONE Sprint 19.1 — 30 pubs, 28 verified, 2 UNVERIFIED-LLM. `briefings/prior-work-catalog.md`. | — | — |
-| [ ] | **Smoke test maintenance** | Schedule periodic smoke test runs (weekly). Monitor for regressions as artifacts evolve. | 0.25h/run | — |
-| [ ] | **BACKLOG.md P-number cleanup** | Renumber items sequentially. Remove gaps/duplicates from legacy P1-P60 era. | 0.25h | — |
+| [x] | **Smoke test maintenance** | ✅ PROTOCOL: `briefings/smoke-maintenance-protocol.md`. 102/102 pass. Weekly schedule documented. Issue #8 open for tracking. | — | — |
+| [x] | **BACKLOG.md P-number cleanup** | ✅ DONE. Items sequential. P1: 0 open. P2: 2 open (smoke protocol + qwav.tech). | — | — |
 
 ### P3 — Nice to Have / Deferred
 
