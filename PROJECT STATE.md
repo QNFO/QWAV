@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-23 | **Session:** Sprint 14 CLOSED — 3/3 tasks complete. test_all_artifacts.py refactored to unittest (42/42 pass). JS error detection added to smoke tests (SUITE 9, 89/89 pass). test_browser_errors.py created. Branch: feature/sprint-14-planning. | **Next:** Merge to main. Buffer renewal Jun 11. Sprint 15 planning. | **GitHub:** QNFO/QWAV | **Changelog:** `CHANGELOG.md` v2.64
+**Last updated:** 2026-05-23 | **Session:** Sprint 16 CLOSED — 5/5 tasks. FQXi checked (no ultrametric contest open). SBIR researched (eligible, $305K Phase I, requires US entity). All prior sprints (13-15) closed. 131/131 tests pass. Branch: feature/sprint-16-planning. | **Next:** Merge to main. Buffer renewal Jun 11. Sprint 17: qwav.tech, Prior Work catalog. | **GitHub:** QNFO/QWAV (pushed) | **Changelog:** `CHANGELOG.md` v2.66
 
 ---
 

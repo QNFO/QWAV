@@ -4,6 +4,37 @@
 
 ---
 
+---
+
+## v2.66 — 2026-05-23 (Sprint 16 — Strategic Research)
+
+**What Changed:**
+- FQXi Essay Contest checked — "Worlds or Relations" missed (closed Apr 30). "Block Universe" open (Jun 26) but tangential to QWAV core thesis. No ultrametric-relevant contest active. Monitored for next cycle.
+- SBIR Phase I researched — QWAV eligible ($305K Phase I). Requires US entity formation + SAM.gov registration. Aligned with NSF quantum topics.
+- P-number cleanup done — BACKLOG reorganized post-rewrite
+- Sprint 16 closed: 5/5 tasks complete
+
+**Files Changed:**
+- EDIT: `SPRINT.md` (Sprint 16 added + closed)
+- EDIT: `CHANGELOG.md` (v2.65 + v2.66)
+- EDIT: `PROJECT STATE.md` (state updated)
+
+**Git:** `feature/sprint-16-planning`
+
+## v2.65 — 2026-05-23 (Sprint 15 — Verification & Maintenance)
+
+**What Changed:**
+- Post-Sprint-14 verification: main merge confirmed, 131/131 tests pass (42 unittest + 89 smoke)
+- Buffer campaign status checked — autonomous through Jun 11, 7 posts scheduled
+- Smoke test maintenance schedule documented
+- Sprint 15 closed: 5/5 tasks complete
+
+**Files Changed:**
+- EDIT: `SPRINT.md` (Sprint 15 created + closed)
+- EDIT: `smoke_results.txt` (verification run)
+
+**Git:** `feature/sprint-15-verification`
+
 ## v2.64 — 2026-05-23 (Sprint 14 Close-Out — Test Suite Modernization)
 
 **What Changed:**

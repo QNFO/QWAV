@@ -4,9 +4,9 @@
 
 ---
 
-## Current State (2026-05-23 — SPRINT 15 CLOSED ✅)
+## Current State (2026-05-23 — SPRINT 16 CLOSED ✅)
 
-**Sprint 15 complete:** Post-modernization verification. 131/131 tests confirmed (42 unittest + 89 smoke). All 6 live sites HTTP 200. Buffer autonomous through Jun 11. Merge confirmed. Smoke test maintenance documented.
+**Sprint 16 complete:** Strategic research sprint. FQXi checked (no ultrametric contest open, monitored). SBIR researched (eligible, requires US entity). P-number cleanup done. Post-Sprint-15 verification complete (131/131 tests pass).
 
 | Area | Status |
 |:-----|:-------|
@@ -42,7 +42,17 @@
 
 ---
 
-### 🔵 SPRINT 15: Verification & Maintenance (Active)
+### 🔵 SPRINT 16: Strategic Research & Outreach Prep (Active)
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S16.1** | FQXi Essay Contest — check for open contests, assess QWAV fit | 0.5h | P2 | [ ] |
+| **S16.2** | SBIR Phase I — research eligibility, requirements, timeline | 0.5h | P2 | [ ] |
+| **S16.3** | P-number cleanup — BACKLOG.md renumbering and dedup | 0.25h | P2 | [ ] |
+| **S16.4** | Documentation — update CHANGELOG, PROJECT STATE, BACKLOG | 0.25h | P2 | [ ] |
+| **S16.5** | Sprint close-out — commit, push, update state | 0.25h | P2 | [ ] |
+
+### 🔵 SPRINT 15: Verification & Maintenance (Closed)
 
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|
@@ -51,6 +61,18 @@
 | **S15.3** | Buffer campaign status — check queue health, verify autonomous through Jun 11 | 0.25h | P2 | [x] Verified |
 | **S15.4** | Documentation refresh — update PROJECT STATE, BACKLOG status | 0.25h | P2 | [x] |
 | **S15.5** | Sprint close-out | 0.25h | P2 | [x] |
+
+
+
+### 🔵 SPRINT 16: Strategic Research & Outreach Prep (Closed)
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S16.1** | FQXi Essay Contest — check for open contests, assess QWAV fit | 0.5h | P2 | [x] Checked |
+| **S16.2** | SBIR Phase I — research eligibility, requirements, timeline | 0.5h | P2 | [x] Researched |
+| **S16.3** | P-number cleanup — BACKLOG.md renumbering and dedup | 0.25h | P2 | [x] Done |
+| **S16.4** | Documentation — update CHANGELOG, PROJECT STATE, BACKLOG | 0.25h | P2 | [x] |
+| **S16.5** | Sprint close-out — commit, push, update state | 0.25h | P2 | [x] |
 
 ### 🔵 SPRINT 14: Test Suite Modernization (Closed)
 
