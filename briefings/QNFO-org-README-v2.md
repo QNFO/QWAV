@@ -58,7 +58,7 @@ Our work is guided by principles articulated in the [Code of Conduct](CODE_OF_CO
 ## Organization
 
 QNFO is a solo deep-tech research program founded and directed by
-**Rowan Brad Quni** (ORCID: [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)).
+**Rowan Brad Quni-Gudzinas** (ORCID: [0009-0002-4317-5604](https://orcid.org/0009-0002-4317-5604)).
 Rowan operates at the intersection of physics, information science, data science,
 and AI, with a career spanning national-scale data initiatives (AARP Livability Index,
 $10M US DOT National Household Travel Survey), patented quantum computing technology,
