@@ -90,7 +90,7 @@
 
 | # | Citation | Relevance | Status |
 |:--|:---------|:----------|:-------|
-| 28 | **Zúñiga-Galindo, W.A.** (2023). "p-Adic quantum mechanics and deep learning." *p-Adic Numbers, Ultrametric Analysis and Applications*, 15(2). | Connects p-adic quantum mechanics to deep learning architectures. Direct relevance to QWAV's ultrametric AI claims. | `[TO-LOCATE]` |
+| 28 | **Zúñiga-Galindo, W.A., He, C., Zambrano-Luna, B.A.** (2023). "p-Adic statistical field theory and convolutional deep Boltzmann machines." *Progress of Theoretical and Experimental Physics*, 2023(6), 063A01. DOI: 10.1093/ptep/ptad061. | Establishes correspondence between p-adic statistical field theories and neural networks. Direct relevance to QWAV's ultrametric AI claims. | `[VERIFIED]` |
 | 29 | **Bradley, T.-D., Stoudenmire, E.M., Terilla, J.** (2020). "Modeling sequences with quantum states: A look under the hood." *Machine Learning: Science and Technology*, 1(3), 035008. | Tree tensor networks for sequence modeling — connects TTN math to ML. | `[VERIFIED]` |
 
 ---
