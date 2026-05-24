@@ -21,19 +21,19 @@
 
 | # | Item | Description | Effort | Depends On |
 |:--|:-----|:------------|:-------|:-----------|
-| [ ] | **Sprint 13 planning** | Plan next sprint: backlog triage, remaining audit recommendations, test suite refactoring. | 0.5h | — |
+| [x] | **Sprint 13 planning** | REMOVED — 7 sprints stale. Current is Sprint 20. | — | — |
 | [x] | **QNFO org README deploy** | Deployed via GitHub API. Repo: `QNFO/.github` (repurposed from `qnfo.org`). `profile/README.md` + root `README.md`. Unarchived + renamed via API. | 0.25h | — |
-| [ ] | **qwav.tech domain site** | K1 hub is live but at `qnfo.github.io/QWAV/`. Build or redirect `qwav.tech` → K1. | 0.5h | Domain DNS |
-| [ ] | **Test suite refactoring** | Convert `test_all_artifacts.py` to pytest-style with individual `def test_*` functions. From audit recommendation #2. | 2-3h | — |
-| [ ] | **JS error detection in tests** | Add browser-console error capture to smoke tests. From audit recommendation #3. | 1-2h | YoBrowser/CDP |
+| [!] | **qwav.tech domain site** | K1 hub is live at `qnfo.github.io/QWAV/`. BLOCKED — needs user DNS CNAME configuration. | 0.5h | Domain DNS |
+| [x] | **Test suite refactoring** | ✅ DONE Sprint 20.2 — conftest.py + test_all_artifacts_pytest.py (60/60 pass). Originals preserved. | — | — |
+| [x] | **JS error detection in tests** | ✅ DONE — test_browser_errors.py covers CDP console capture. From audit recommendation #3. | — | — |
 
 ### P2 — Medium Priority
 
 | # | Item | Description | Effort | Depends On |
 |:--|:-----|:------------|:-------|:-----------|
-| [ ] | **SBIR Phase I** | Federal small business grant. May require US entity formation. Research eligibility and requirements. | 2-3h | Entity status |
-| [ ] | **FQXi Essay Contest** | Check for open FQXi essay contest. "Continuous manifold is the wrong assumption" is their kind of thesis. | 0.5h + writing | Contest open |
-| [ ] | **Curate Prior Work catalog** | Select 20-30 most QWAV-relevant publications from 673-release corpus. One-line relevance statements for qwav.tech. | 1-2h | qwav.tech live |
+| [x] | **SBIR Phase I** | ✅ DONE Sprint 19.6 — `briefings/sbir-phase1-briefing.md`. Entity formation is single blocker. | — | — |
+| [x] | **FQXi Essay Contest** | ✅ DONE Sprint 19.7 — `briefings/fqxi-briefing.md`. Monitoring for June 2026 announcement. | — | — |
+| [x] | **Curate Prior Work catalog** | ✅ DONE Sprint 19.1 — 30 pubs, 28 verified, 2 UNVERIFIED-LLM. `briefings/prior-work-catalog.md`. | — | — |
 | [ ] | **Smoke test maintenance** | Schedule periodic smoke test runs (weekly). Monitor for regressions as artifacts evolve. | 0.25h/run | — |
 | [ ] | **BACKLOG.md P-number cleanup** | Renumber items sequentially. Remove gaps/duplicates from legacy P1-P60 era. | 0.25h | — |
 

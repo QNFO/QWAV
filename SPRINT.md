@@ -403,10 +403,10 @@ New project this session: ultrametric-tree-universality (P4 — awaiting publica
 | ID | Task | Est. | Priority | Status |
 |:---|:-----|:-----|:---------|:-------|
 | **S20.1** | Install pytest + verify test discovery | 0.25h | P0 | [x] pytest 9.0.3 installed; 42 tests discovered |
-| **S20.2** | Refactor test_all_artifacts.py to pytest-style (conftest + fixtures + parametrize) | 2h | P0 | [~] Converting setUpClass→fixtures, subTest→parametrize |
+| **S20.2** | Refactor test_all_artifacts.py to pytest-style (conftest + fixtures + parametrize) | 2h | P0 | [x] conftest.py + test_all_artifacts_pytest.py — 60/60 pass. Originals preserved (42/42). |
 | **S20.3** | qwav.tech DNS — configure CNAME at domain registrar | 0.25h | P1 | [!] Blocked — needs user DNS access |
 | **S20.4** | Prior Work catalog — verify 2 remaining UNVERIFIED-LLM pubs | 0.5h | P2 | [ ] |
-| **S20.5** | BACKLOG triage — promote actionable items, remove stale | 0.25h | P2 | [ ] |
+| **S20.5** | BACKLOG triage — promote actionable items, remove stale | 0.25h | P2 | [x] P1: 0 open (4→0: 1 stale removed, 2 marked done, 1 blocked). P2: 5→2 open. P3: unchanged (all founder-dependent). |
 | **S20.6** | Sprint close-out | 0.25h | P2 | [ ] |
 
 **Sprint 20 started:** 2026-05-24. S20.1 complete. S20.2 in progress.
