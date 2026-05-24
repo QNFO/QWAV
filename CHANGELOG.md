@@ -12,6 +12,22 @@
 
 ---
 
+## v2.72 — 2026-05-24 (Sprint 20 — Unblock & Refactor)
+
+**What Changed:**
+- pytest 9.0.3 installed; 42 original tests discovered + 60 new parametrized tests created (60/60 pass)
+- conftest.py: session-scoped fixtures replacing setUpClass pattern
+- test_all_artifacts_pytest.py: 18 parametrized test functions, detects dynamic JS frameworks (THREE.js, addEventListener)
+- BACKLOG triaged: P1 4→0 open (1 stale removed, 2 done, 1 blocked). P2 5→2 open
+- Prior Work catalog: Ferris 2013 DOI confirmed, title CORRECTED (was LLM-hallucinated). Gerster 2014 confirmed. 29/30 verified
+- 2 commits on feature/sprint-19-planning
+
+**Sprint Result:** 5/6 complete, 1 blocked (qwav.tech DNS)
+
+**Files Changed:** conftest.py (new), test_all_artifacts_pytest.py (new), BACKLOG.md, SPRINT.md, PROJECT STATE.md
+
+---
+
 ## v2.71 — 2026-05-24 (Sprint 19 — Prior Work Catalog & Backlog Execution)
 
 **What Changed:**
