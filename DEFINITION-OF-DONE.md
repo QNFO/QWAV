@@ -3,7 +3,7 @@ template: DEFINITION-OF-DONE
 version: "1.0"
 ---
 
-# Definition of Done — QWAV
+# Definition of Done -- QWAV
 
 A task is NOT complete until ALL applicable criteria are met. DoD is verified by the human orchestrator per the Force-Multiplier Protocol, not self-assessed by the agent.
 
@@ -18,16 +18,16 @@ A task is NOT complete until ALL applicable criteria are met. DoD is verified by
 
 ## CODE TEST TASK
 
-- [ ] ALL test files for this module executed — verified by re-execution (NOT by checking file existence)
+- [ ] ALL test files for this module executed -- verified by re-execution (NOT by checking file existence)
 - [ ] Test suite output: [N] passed, [0] failed, [K] skipped
 - [ ] Edge cases covered: empty input, boundary values, error conditions
 - [ ] Test evidence saved via `fill_prompt_template("TEST-EVIDENCE-TEMPLATE")`
 - [ ] If any tests failed: root cause documented, fix applied, re-executed to zero failures
-- [ ] Regression check: re-ran ALL related test files after fix — no new failures
+- [ ] Regression check: re-ran ALL related test files after fix -- no new failures
 
 ## DOCUMENT TASK
 
-- [ ] Document passes Publication Language Gate (§11.7) — zero internal project language
+- [ ] Document passes Publication Language Gate (§11.7) -- zero internal project language
 - [ ] Curly quotes throughout body text (Python scan confirmation)
 - [ ] YAML frontmatter present and valid
 - [ ] Reader testing: minimum 1 round (2 rounds for publication documents per §11.5)
@@ -56,7 +56,7 @@ A task is NOT complete until ALL applicable criteria are met. DoD is verified by
 
 ## ANALYSIS TEST TASK
 
-- [ ] ALL analysis scripts re-executed — verified output matches claimed results
+- [ ] ALL analysis scripts re-executed -- verified output matches claimed results
 - [ ] Reproducibility confirmed: same input $\to$ same output (seed-controlled)
 - [ ] Limit/boundary checks performed and documented
 - [ ] Test evidence saved via `fill_prompt_template("TEST-EVIDENCE-TEMPLATE")`
@@ -64,16 +64,16 @@ A task is NOT complete until ALL applicable criteria are met. DoD is verified by
 
 ## WEB APP TASK
 
-- [ ] All interactive features verified working — click every button, test every input, confirm every mode
+- [ ] All interactive features verified working -- click every button, test every input, confirm every mode
 - [ ] Error states handled: empty config, broken JSON, missing DOM elements show user-facing messages (not console errors)
 - [ ] Cross-browser screenshots captured: Chrome + Firefox (minimum)
 - [ ] Console audit: zero unexpected errors on page load and during ALL interaction paths
 - [ ] Mobile responsiveness check OR explicit "desktop-only" declaration visible in UI
 - [ ] Accessibility baseline: color contrast ratios pass WCAG AA, keyboard-navigable, alt text on key visuals
-- [ ] All assets load from live URL (zero 404s on JS/CSS/images — verify with browser network tab)
+- [ ] All assets load from live URL (zero 404s on JS/CSS/images -- verify with browser network tab)
 - [ ] `<title>`, `<meta description>`, and Open Graph tags present in `<head>`
 - [ ] `.nojekyll` file present at root (GitHub Pages requirement)
-- [ ] Test suite executed with zero failures — verified by re-execution, NOT by checking file existence
+- [ ] Test suite executed with zero failures -- verified by re-execution, NOT by checking file existence
 - [ ] LEARNINGS.md updated with any issues found during testing
 - [ ] BACKLOG.md: all P1 items triaged (complete, migrate to next sprint, or explicitly defer with rationale)
 - [ ] File committed with format: `ACTION:[CREATE|EDIT] FILE: path RATIONALE:reason`

@@ -1,4 +1,4 @@
-## v2.74 — Org-Wide License, Governance & Identity Standardization
+## v2.74 -- Org-Wide License, Governance & Identity Standardization
 
 **Date:** 2026-05-24 | **Scope:** 36 repos (16 QNFO + 20 rwnq8)
 
@@ -11,9 +11,9 @@
 
 ### Governance Files (Every Repo)
 
-- **CODE_OF_CONDUCT.md** — 6 core values: collective benefit, open science, ethical integrity, intellectual rigor, interdisciplinary respect, non-commercial foundation
-- **CONTRIBUTING.md** — Bug reports, feature requests, code/docs contributions, research proposals, licensing terms
-- **README.md** — Created for 6 repos that were missing them
+- **CODE_OF_CONDUCT.md** -- 6 core values: collective benefit, open science, ethical integrity, intellectual rigor, interdisciplinary respect, non-commercial foundation
+- **CONTRIBUTING.md** -- Bug reports, feature requests, code/docs contributions, research proposals, licensing terms
+- **README.md** -- Created for 6 repos that were missing them
 
 ### Identity & Branding
 

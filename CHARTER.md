@@ -3,7 +3,7 @@ template: PROJECT-CHARTER
 version: "1.0"
 ---
 
-# QWAV — Project Charter
+# QWAV -- Project Charter
 
 **Date:** 2026-05-22
 **Status:** Active
@@ -26,12 +26,12 @@ version: "1.0"
 
 ### Out of Scope
 
-- Physical laboratory experiments (no hardware access — D1)
-- Peer-reviewed journal submissions (D2 — open-access only)
-- Live pitching, networking, or conference attendance (D3 — written-only)
-- Team-building or co-founder recruitment (D4 — solo founder)
-- Credential-based evaluation pathways (D5 — substance-first)
-- External collaborator dependencies (D12 — single LLM thread completable)
+- Physical laboratory experiments (no hardware access -- D1)
+- Peer-reviewed journal submissions (D2 -- open-access only)
+- Live pitching, networking, or conference attendance (D3 -- written-only)
+- Team-building or co-founder recruitment (D4 -- solo founder)
+- Credential-based evaluation pathways (D5 -- substance-first)
+- External collaborator dependencies (D12 -- single LLM thread completable)
 - Paper-only publications without interactive companion (D13)
 - Cold outreach emails (inbound-only engagement)
 - Patent filings without funded conversion plan
@@ -54,9 +54,9 @@ version: "1.0"
 
 | Constraint | Value | Why |
 |:-----------|:------|:----|
-| Human attention budget | Solo founder — all decisions flow through one person | Force-Multiplier model: human time is the scarce resource |
+| Human attention budget | Solo founder -- all decisions flow through one person | Force-Multiplier model: human time is the scarce resource |
 | Session limit | 1-2 sessions/day, ~30 sessions/month max | Sustainable pace for solo founder with LLM augmentation |
-| Deliverable deadline | None — cadence-based, not deadline-based | Quality and sustainability over artificial urgency |
+| Deliverable deadline | None -- cadence-based, not deadline-based | Quality and sustainability over artificial urgency |
 | Domain boundaries | No wet lab work, no experimental physics, no hardware fabrication | Computational physics and AI specification only |
 | Publication model | Open-access Zenodo with DOIs only | No paywalls, no peer review gatekeeping |
 | Distribution model | Interactive artifacts > papers. Inbound-only engagement. | Evidence shows papers aren't read; artifacts engage |
@@ -66,12 +66,12 @@ version: "1.0"
 
 | Depends On | Type | Status |
 |:-----------|:-----|:-------|
-| Projects agent (DeepChat) | Resource — executes spinoff computational work | Active |
-| Buffer API | Resource — social media distribution | Active |
-| Zenodo API / manual upload | Resource — DOI registration and publication | Active |
-| GitHub (QNFO org) | Resource — code hosting, artifact deployment | Active |
-| DeepSeek/DeepChat LLM | Resource — strategy, writing, analysis | Active |
-| Domain registrar (qwav.tech, qwav.org) | Decision — DNS configuration for live site | Requires founder action |
+| Projects agent (DeepChat) | Resource -- executes spinoff computational work | Active |
+| Buffer API | Resource -- social media distribution | Active |
+| Zenodo API / manual upload | Resource -- DOI registration and publication | Active |
+| GitHub (QNFO org) | Resource -- code hosting, artifact deployment | Active |
+| DeepSeek/DeepChat LLM | Resource -- strategy, writing, analysis | Active |
+| Domain registrar (qwav.tech, qwav.org) | Decision -- DNS configuration for live site | Requires founder action |
 
 ## Deliverables
 
@@ -92,12 +92,12 @@ version: "1.0"
 
 | Source | Relevance | Action |
 |:-------|:----------|:-------|
-| 673 releases in Obsidian/releases/ (2024-2026) | Intellectual genealogy — the raw material from which QWAV thesis was refined | Curate top 30 as K2 |
-| ultrametric_v2 project (7 sprints, 260K+ MC trials) | Computational validation engine — all Tier 0/1 evidence | Cite DOIs, deploy code as interactive artifact |
+| 673 releases in Obsidian/releases/ (2024-2026) | Intellectual genealogy -- the raw material from which QWAV thesis was refined | Curate top 30 as K2 |
+| ultrametric_v2 project (7 sprints, 260K+ MC trials) | Computational validation engine -- all Tier 0/1 evidence | Cite DOIs, deploy code as interactive artifact |
 | Tree Distance Cophenetic (DOI: 10.5281/zenodo.20213043) | Triadic rigidity theorem, resolution-dependence bridge | Deploy as A4 interactive sandbox |
 | Can Math Prove Physics (DOI: 10.5281/zenodo.20266032) | Epistemological foundation for assumptions audit | Cite in evidence deck |
 | CROSS-PROJECT-LEARNINGS.md (L1-L40) | 40 lessons from 11 archived projects | Read at session start; apply relevant lessons |
-| 18 expired provisional patents | Cautionary tale — $6K spent, 0 conversions | Lesson captured in D12, L4 |
+| 18 expired provisional patents | Cautionary tale -- $6K spent, 0 conversions | Lesson captured in D12, L4 |
 
 ## Human Sign-Off
 

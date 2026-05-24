@@ -1,9 +1,9 @@
-# HANDOFF — A1: Error Confinement Live Demo
+# HANDOFF -- A1: Error Confinement Live Demo
 
 **From:** QWAV Strategy Program Manager
 **To:** Projects Agent
 **Date:** 2026-05-22
-**Type:** Program→Project — Interactive Artifact Build (D13)
+**Type:** Program→Project -- Interactive Artifact Build (D13)
 
 ---
 
@@ -27,11 +27,11 @@ An interactive Bruhat-Tits tree error simulation deployed on GitHub Pages. A vis
 - Controls how many levels of Bruhat-Tits tree
 - Default: d=4
 - d=2: 9 leaves (ternary) or 4 (binary)
-- d=7: 2,187 leaves (ternary) — the depth where zero logical errors were demonstrated
+- d=7: 2,187 leaves (ternary) -- the depth where zero logical errors were demonstrated
 
 ### Selector 2: Prime (p = 2, 3, 5)
-- p=2: binary tree (asymmetric — bit 0 protected, bit 1 not)
-- p=3: ternary tree (symmetric — goldilocks)
+- p=2: binary tree (asymmetric -- bit 0 protected, bit 1 not)
+- p=3: ternary tree (symmetric -- goldilocks)
 - p=5: larger tree (validated but grows faster)
 - Default: p=3
 
@@ -39,13 +39,13 @@ An interactive Bruhat-Tits tree error simulation deployed on GitHub Pages. A vis
 - The Bruhat-Tits tree drawn on screen
 - Leaves color-coded: green = correct logical state, red = error
 - Error propagation visibly climbs the tree or gets geometrically suppressed
-- When p=3, depth=7, error rate <40%: observe ZERO logical errors — the marquee result
+- When p=3, depth=7, error rate <40%: observe ZERO logical errors -- the marquee result
 
 ### Metrics Display
 - Logical Error Rate (LER): updated in real time
 - Physical Error Rate: mirroring the slider
 - Comparison: "Archimedean equivalent would have LER of X%" (calculated)
-- Note: "At p=2, bit 0 is protected but bit 1 isn't — this is the asymmetry that p=3 fixes"
+- Note: "At p=2, bit 0 is protected but bit 1 isn't -- this is the asymmetry that p=3 fixes"
 
 ---
 
@@ -54,12 +54,12 @@ An interactive Bruhat-Tits tree error simulation deployed on GitHub Pages. A vis
 ### Aesthetic
 - Dark background, geometric tree in ultrametric-inspired colors
 - Clean, no clutter. The tree is the hero.
-- QWAV branding minimal — small "QWAV" text link in corner
+- QWAV branding minimal -- small "QWAV" text link in corner
 - "This is what ultrametric geometry does. Watch."
 
 ### Technical
 - Single HTML file + CSS + vanilla JS (no framework needed)
-- All simulation happens client-side — no backend
+- All simulation happens client-side -- no backend
 - GitHub Pages deployment
 - `.nojekyll` file at root
 - Mobile: works but shows "best viewed on desktop" note
@@ -68,8 +68,8 @@ An interactive Bruhat-Tits tree error simulation deployed on GitHub Pages. A vis
 ### DO NOT
 - No login, no accounts, no data collection
 - No external API calls
-- No framework dependencies (React, Vue, etc.) — keep it deployable by dropping one folder into GitHub Pages
-- No paper download required — the demo IS the experience
+- No framework dependencies (React, Vue, etc.) -- keep it deployable by dropping one folder into GitHub Pages
+- No paper download required -- the demo IS the experience
 
 ---
 
@@ -79,23 +79,23 @@ An interactive Bruhat-Tits tree error simulation deployed on GitHub Pages. A vis
 The Bruhat-Tits tree for prime $p$ is a $(p+1)$-regular infinite tree. Vertices represent $p$-adic balls. For computation:
 - **Encoding:** Each logical bit is represented by a path from root to leaf. For $q$-ary scatter, one logical bit maps to $q$ leaves.
 - **Error model:** Each physical qubit (leaf or edge) flips with probability $p_{\text{phys}}$.
-- **Decoding:** Majority vote across the $q$ leaves determines the logical bit. The strong triangle inequality $d(x,z) \leq \max\{d(x,y), d(y,z)\}$ geometrically suppresses errors — errors on nearby leaves are correlated in a way that majority vote exploits.
+- **Decoding:** Majority vote across the $q$ leaves determines the logical bit. The strong triangle inequality $d(x,z) \leq \max\{d(x,y), d(y,z)\}$ geometrically suppresses errors -- errors on nearby leaves are correlated in a way that majority vote exploits.
 
 ### Prior Code
-- `G:\My Drive\projects\ultrametric_v2\` — 7 sprints of Python simulation. Key files contain the error model, tree construction, and LER calculation logic. Read these for the math before coding.
-- `github.com/QNFO/ultrametric-error-confinement` — the Tier 0 paper repo. Contains Python code for the binary case.
+- `G:\My Drive\projects\ultrametric_v2\` -- 7 sprints of Python simulation. Key files contain the error model, tree construction, and LER calculation logic. Read these for the math before coding.
+- `github.com/QNFO/ultrametric-error-confinement` -- the Tier 0 paper repo. Contains Python code for the binary case.
 
 ### Published Papers (for reference values)
-- Tier 0: DOI `10.5281/zenodo.20134944` — binary tree results
-- Tier 1: DOI `10.5281/zenodo.20208437` — ternary tree, 48× scatter, concatenation redundancy
+- Tier 0: DOI `10.5281/zenodo.20134944` -- binary tree results
+- Tier 1: DOI `10.5281/zenodo.20208437` -- ternary tree, 48× scatter, concatenation redundancy
 
 ### Design References
 - Bruhat-Tits tree visualizations: search the 673-release corpus for tree diagrams
-- Geometric aesthetic: think clean, mathematical, evidence-driven — not corporate, not academic
+- Geometric aesthetic: think clean, mathematical, evidence-driven -- not corporate, not academic
 
 ---
 
-## Success Criteria (DoD — WEB APP TASK)
+## Success Criteria (DoD -- WEB APP TASK)
 
 - [ ] All interactive features verified working
 - [ ] Error states handled (empty config, broken JSON, missing DOM elements)
@@ -128,7 +128,7 @@ When complete:
 
 ---
 
-## Constraints (D1-D13 — All Apply)
+## Constraints (D1-D13 -- All Apply)
 
 - All code completable in single LLM thread (D12)
 - No external APIs, no backends, no databases
@@ -137,4 +137,4 @@ When complete:
 
 ---
 
-*QWAV Handoff — A1 Error Confinement Live Demo. 2026-05-22.*
+*QWAV Handoff -- A1 Error Confinement Live Demo. 2026-05-22.*

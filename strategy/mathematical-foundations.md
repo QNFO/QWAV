@@ -2,7 +2,7 @@
 
 **Purpose:** Formal mathematical definitions, theorem statements, and proof sketches for the core claims of ultrametric quantum error correction. Designed as a bridge between the Tier 0 computational validation (simulations) and Tier 1+ formal verification (Lean 4). Every theorem is stated precisely enough to serve as a formalization target.
 
-**Status:** Working document. Theorems 1–4 are computationally validated (Tier 0). Formal proofs in Lean 4 are the next step (P11 formal verification collaboration, P11).
+**Status:** Working document. Theorems 1-4 are computationally validated (Tier 0). Formal proofs in Lean 4 are the next step (P11 formal verification collaboration, P11).
 
 ---
 
@@ -10,7 +10,7 @@
 
 ### 1.1 Bruhat-Tits Tree (Rooted, Finite)
 
-Let $p \geq 2$ be prime. The **rooted Bruhat–Tits tree** $\mathcal{T}_p^d$ of depth $d \geq 1$ is a rooted tree where:
+Let $p \geq 2$ be prime. The **rooted Bruhat-Tits tree** $\mathcal{T}_p^d$ of depth $d \geq 1$ is a rooted tree where:
 
 - The root $r$ has $\deg(r) = p + 1$ children
 - Every non-root, non-leaf vertex $v$ has $\deg(v) = p + 1$ (one parent, $p$ children)
@@ -25,7 +25,7 @@ Let $p \geq 2$ be prime. The **rooted Bruhat–Tits tree** $\mathcal{T}_p^d$ of 
 
 ### 1.2 Ultrametric Distance on Trees
 
-For any two vertices $u, v \in V(\mathcal{T}_p^d)$, let $\operatorname{LCA}(u, v)$ denote their **lowest common ancestor** — the vertex of maximum depth that is an ancestor of both $u$ and $v$.
+For any two vertices $u, v \in V(\mathcal{T}_p^d)$, let $\operatorname{LCA}(u, v)$ denote their **lowest common ancestor** -- the vertex of maximum depth that is an ancestor of both $u$ and $v$.
 
 The **ultrametric distance** is:
 
@@ -101,17 +101,17 @@ for constants $C_d$ (depending on $d$ and the encoding) and $k$ (determined by t
 
 $$p_L^{\text{flat}}(N_{\text{leaves}}, p_{\text{err}}) \approx \sum_{j = \lceil N_{\text{leaves}}/2 \rceil}^{N_{\text{leaves}}} \binom{N_{\text{leaves}}}{j} p_{\text{err}}^j (1-p_{\text{err}})^{N_{\text{leaves}}-j}$$
 
-**Theorem 2 (Precise statement for $p = 2$, tie-breaker $\tau = 0$).** For the rooted Bruhat–Tits tree $\mathcal{T}_2^d$ with repetition encoding and hierarchical majority decoder (tie-breaker $\tau = 0$):
+**Theorem 2 (Precise statement for $p = 2$, tie-breaker $\tau = 0$).** For the rooted Bruhat-Tits tree $\mathcal{T}_2^d$ with repetition encoding and hierarchical majority decoder (tie-breaker $\tau = 0$):
 
 $$p_L^{\text{tree}}(d, p_{\text{err}}) \leq \binom{p+1}{\lceil (p+1)/2 \rceil} \cdot \left[p_{\text{err}}^{2^{d-1}}\right]^{\lceil (p+1)/2 \rceil}$$
 
-where the first term accounts for the root's majority vote over its $p+1$ children, and the second term captures the probability that a single child subtree is corrupted — which requires $2^{d-1}$ leaf flips (all leaves in the minimum subtree set), each with probability $p_{\text{err}}$.
+where the first term accounts for the root's majority vote over its $p+1$ children, and the second term captures the probability that a single child subtree is corrupted -- which requires $2^{d-1}$ leaf flips (all leaves in the minimum subtree set), each with probability $p_{\text{err}}$.
 
 For $p = 2$, this simplifies to:
 
 $$p_L^{\text{tree}}(d, p_{\text{err}}) \leq 3 \cdot p_{\text{err}}^{2^{d}}$$
 
-**Proof sketch.** A logical error occurs if and only if the root value flips. The root has $p+1$ children. For the root to flip (with tie-breaker $0$), at least $\lceil (p+1)/2 \rceil$ children must be corrupted. A non-root internal vertex flips (with tie-breaker $0$) only if all $p$ of its children are corrupted. By induction on depth, corrupting a vertex at depth $d - k$ requires flipping all leaves in the minimal subtree — a set of size $p^k$. Therefore, corrupting $\lceil (p+1)/2 \rceil$ children of the root requires flipping at least $\lceil (p+1)/2 \rceil \cdot p^{d-1}$ leaves. Applying a union bound over the choice of which children are corrupted yields the stated inequality.
+**Proof sketch.** A logical error occurs if and only if the root value flips. The root has $p+1$ children. For the root to flip (with tie-breaker $0$), at least $\lceil (p+1)/2 \rceil$ children must be corrupted. A non-root internal vertex flips (with tie-breaker $0$) only if all $p$ of its children are corrupted. By induction on depth, corrupting a vertex at depth $d - k$ requires flipping all leaves in the minimal subtree -- a set of size $p^k$. Therefore, corrupting $\lceil (p+1)/2 \rceil$ children of the root requires flipping at least $\lceil (p+1)/2 \rceil \cdot p^{d-1}$ leaves. Applying a union bound over the choice of which children are corrupted yields the stated inequality.
 
 **Lemma 2.1 (Subtree corruption probability).** For a vertex $v$ at depth $d - k$ (i.e., its subtree has depth $k$), the probability that $v$ is corrupted given i.i.d. leaf noise at rate $p_{\text{err}}$ is at most $p_{\text{err}}^{p^k}$ (for $p$ even, with tie-breaker $0$).
 
@@ -133,15 +133,15 @@ $$\lim_{d \to \infty} p_L^{\text{tree}}(d, p_{\text{err}}) = 0$$
 
 Moreover, the overhead (ratio of physical to logical qubits) grows as $O(p^d)$, which corresponds to polynomial overhead in the target logical error rate (since $d = O(\log_{1/p_{\text{err}}}(1/p_L))$).
 
-**Theorem 3 (Precise statement).** For the rooted Bruhat–Tits tree $\mathcal{T}_p^d$ with repetition encoding and hierarchical majority decoder:
+**Theorem 3 (Precise statement).** For the rooted Bruhat-Tits tree $\mathcal{T}_p^d$ with repetition encoding and hierarchical majority decoder:
 
 $$p_L^{\text{tree}}(d, p_{\text{err}}) \leq A \cdot (B \cdot p_{\text{err}})^{C \cdot d}$$
 
 for constants $A, B, C > 0$ depending on $p$ and the encoding scheme. Consequently, for any $p_{\text{err}} < 1/B$, $\lim_{d \to \infty} p_L^{\text{tree}}(d, p_{\text{err}}) = 0$.
 
-For $p = 2$ with tie-breaker $\tau = 0$: $A = 3$, $B = 1$, $C = 2$. The threshold is $p_{\text{th}} = 1$ (i.e., any error rate below $1$ can be suppressed — this is the geometric advantage over active QEC, which typically has $p_{\text{th}} \ll 1$).
+For $p = 2$ with tie-breaker $\tau = 0$: $A = 3$, $B = 1$, $C = 2$. The threshold is $p_{\text{th}} = 1$ (i.e., any error rate below $1$ can be suppressed -- this is the geometric advantage over active QEC, which typically has $p_{\text{th}} \ll 1$).
 
-**Comparison with surface code threshold theorem.** The surface code threshold theorem [Aharonov & Ben-Or, 1997; Kitaev, 1997] states the existence of $p_{\text{th}} \approx 0.01$–$0.1$ for active QEC on a 2D lattice. The ultrametric threshold theorem differs in two key respects:
+**Comparison with surface code threshold theorem.** The surface code threshold theorem [Aharonov & Ben-Or, 1997; Kitaev, 1997] states the existence of $p_{\text{th}} \approx 0.01$-$0.1$ for active QEC on a 2D lattice. The ultrametric threshold theorem differs in two key respects:
 
 1. **Mechanism:** The threshold is geometric (strong triangle inequality) rather than measurement-based (syndrome extraction). No active measurement cycles are required.
 2. **Threshold value:** The threshold $p_{\text{th}} = 1$ for the classical repetition encoding suggests that geometric protection is inherently more robust than measurement-based protection. For quantum encodings (superpositions + entanglement), the threshold will be lower but the geometric advantage may persist.
@@ -158,7 +158,7 @@ For $p = 2$ with tie-breaker $\tau = 0$: $A = 3$, $B = 1$, $C = 2$. The threshol
 
 ## 5. Theorem 4: Energy Barrier Scaling (Verified)
 
-**Statement.** For the rooted Bruhat–Tits tree $\mathcal{T}_p^d$ with repetition encoding and hierarchical majority decoder (tie-breaker $\tau = 0$):
+**Statement.** For the rooted Bruhat-Tits tree $\mathcal{T}_p^d$ with repetition encoding and hierarchical majority decoder (tie-breaker $\tau = 0$):
 
 $$E_{\text{barrier}}(d) = \lceil (p+1)/2 \rceil \cdot p^{d-1} \quad \text{for } p \text{ even}$$
 
@@ -206,11 +206,11 @@ Each step is a formalization target. The chain can be proved in Lean 4 as a sequ
 
 The classical repetition encoding described above is the simplest case. The full UQC architecture generalizes to quantum states:
 
-**Quantum encoding.** A logical qubit $|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$ is encoded across the Bruhat–Tits tree using quantum error-correcting codes at each vertex. The tree structure provides the geometric protection; the quantum code at each level provides the Hilbert space structure.
+**Quantum encoding.** A logical qubit $|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$ is encoded across the Bruhat-Tits tree using quantum error-correcting codes at each vertex. The tree structure provides the geometric protection; the quantum code at each level provides the Hilbert space structure.
 
 **Open question.** What is the quantum threshold $p_{\text{th}}^Q$ for ultrametric encoding? The classical threshold is $p_{\text{th}} = 1$ (perfect protection for any error rate), but the quantum threshold will be lower due to the additional error channels (phase flips, continuous rotations) and the requirements of quantum error correction (Knill-Laflamme conditions).
 
-**Conjecture 5.** There exists a quantum CSS code on the Bruhat–Tits tree such that $p_{\text{th}}^Q > 0$ and the cooling requirement at $4\ \text{K}$ is satisfied. The $\Gamma \approx 80$ thermal stability margin predicted for the Bi-2212 implementation suggests $p_{\text{th}}^Q$ is within reach of current fabrication capabilities.
+**Conjecture 5.** There exists a quantum CSS code on the Bruhat-Tits tree such that $p_{\text{th}}^Q > 0$ and the cooling requirement at $4\ \text{K}$ is satisfied. The $\Gamma \approx 80$ thermal stability margin predicted for the Bi-2212 implementation suggests $p_{\text{th}}^Q$ is within reach of current fabrication capabilities.
 
 ---
 
@@ -218,7 +218,7 @@ The classical repetition encoding described above is the simplest case. The full
 
 | Priority | Target | Effort | Depends On |
 |:---------|:-------|:-------|:-----------|
-| 1 | Formal definition of $\mathcal{T}_p^d$ (inductive tree type) | Low | — |
+| 1 | Formal definition of $\mathcal{T}_p^d$ (inductive tree type) | Low | -- |
 | 2 | Theorem 1: Strong triangle inequality | Low | (1) |
 | 3 | Lemma 2.1: Subtree corruption bound | Medium | (1), (2) |
 | 4 | Theorem 2: Error confinement bound | Medium | (3) |
@@ -226,7 +226,7 @@ The classical repetition encoding described above is the simplest case. The full
 | 6 | Theorem 3: Threshold theorem | High | (4) |
 | 7 | Generalization to quantum CSS codes | High | (6) |
 
-**Recommended first formalization target:** Theorem 1 (strong triangle inequality). It is the mathematical foundation of everything else, it uses only the tree structure (no probability), and it is directly verifiable — the proof type-checks or it doesn't. This aligns with P11 collaborator's preference for starting with "formalization transport" — taking specific claims and proving them as theorems.
+**Recommended first formalization target:** Theorem 1 (strong triangle inequality). It is the mathematical foundation of everything else, it uses only the tree structure (no probability), and it is directly verifiable -- the proof type-checks or it doesn't. This aligns with P11 collaborator's preference for starting with "formalization transport" -- taking specific claims and proving them as theorems.
 
 ---
 
@@ -234,30 +234,30 @@ The classical repetition encoding described above is the simplest case. The full
 
 ### 9.1 Surface Code Threshold Theorem
 
-The surface code threshold theorem [Kitaev, 1997; Aharonov & Ben-Or, 1997] proves that if the physical error rate per gate is below a threshold $p_{\text{th}} \approx 10^{-2}$–$10^{-4}$ (depending on the error model), then arbitrarily long quantum computations are possible with polylogarithmic overhead. The proof uses:
+The surface code threshold theorem [Kitaev, 1997; Aharonov & Ben-Or, 1997] proves that if the physical error rate per gate is below a threshold $p_{\text{th}} \approx 10^{-2}$-$10^{-4}$ (depending on the error model), then arbitrarily long quantum computations are possible with polylogarithmic overhead. The proof uses:
 - A 2D lattice of physical qubits
 - Syndrome measurements at each plaquette and vertex
 - Active correction based on measurement outcomes
 - Percolation theory arguments for the threshold
 
 The ultrametric threshold theorem (Theorem 3) differs in using:
-- A tree (Bruhat–Tits) rather than a lattice
+- A tree (Bruhat-Tits) rather than a lattice
 - Geometric confinement (strong triangle inequality) rather than active measurement
 - Combinatorial bounds rather than percolation theory
 - A threshold of $p_{\text{th}} = 1$ (classical) or to-be-determined (quantum)
 
 ### 9.2 Topological Quantum Computing
 
-Topological quantum computing [Kitaev, 2003; Freedman et al., 2002] also uses geometry for error protection — braiding anyons in 2D creates topologically protected qubits. The similarity to UQC is that both achieve passive protection. The difference is:
+Topological quantum computing [Kitaev, 2003; Freedman et al., 2002] also uses geometry for error protection -- braiding anyons in 2D creates topologically protected qubits. The similarity to UQC is that both achieve passive protection. The difference is:
 - TQC uses topological invariants (global properties of 2D manifolds)
 - UQC uses ultrametric structure (local hierarchical properties of $p$-adic spaces)
 - TQC typically requires lower temperatures (mK) for anyon stability
 - UQC is designed for 4 K operation
-- UQC does not require exotic anyon statistics — it uses standard qubits in a tree geometry
+- UQC does not require exotic anyon statistics -- it uses standard qubits in a tree geometry
 
 ### 9.3 Bosonic and GKP Codes
 
-Bosonic codes (cat codes, Gottesman-Kitaev-Preskill codes) encode information in harmonic oscillator states, achieving hardware-efficient error correction. These are active codes operating within continuous (Archimedean) Hilbert spaces. UQC's differentiator is the non-Archimedean foundation — a different geometry, not a different encoding within the same geometry.
+Bosonic codes (cat codes, Gottesman-Kitaev-Preskill codes) encode information in harmonic oscillator states, achieving hardware-efficient error correction. These are active codes operating within continuous (Archimedean) Hilbert spaces. UQC's differentiator is the non-Archimedean foundation -- a different geometry, not a different encoding within the same geometry.
 
 ---
 
@@ -272,7 +272,7 @@ Bosonic codes (cat codes, Gottesman-Kitaev-Preskill codes) encode information in
 7. Koblitz, N. (1984). *$p$-adic Numbers, $p$-adic Analysis, and Zeta-Functions*. Springer.
 8. Schikhof, W. H. (1984). *Ultrametric Calculus*. Cambridge University Press.
 9. Quni-Gudzinas, R. B. (2025). *Ultrametric Quantum Computation: An MVP Program for Passive Geometric Fault Tolerance*. Self-published.
-10. Quni-Gudzinas, R. B. (2026). Computational Validation of Ultrametric Error Confinement in Bruhat–Tits Tree Quantum Circuits. QWAV repository — paper moved to `G:\My Drive\projects\Validation of Ultrametric Error Confinement\` for independent refinement.
+10. Quni-Gudzinas, R. B. (2026). Computational Validation of Ultrametric Error Confinement in Bruhat-Tits Tree Quantum Circuits. QWAV repository -- paper moved to `G:\My Drive\projects\Validation of Ultrametric Error Confinement\` for independent refinement.
 
 ---
 

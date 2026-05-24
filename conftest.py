@@ -1,5 +1,5 @@
 """
-QWAV Pytest Fixtures — Shared test infrastructure for pytest-style test suite.
+QWAV Pytest Fixtures -- Shared test infrastructure for pytest-style test suite.
 
 Replaces the repetitive setUpClass pattern in test_all_artifacts.py
 with reusable fixtures that pytest auto-discovers via conftest.py.

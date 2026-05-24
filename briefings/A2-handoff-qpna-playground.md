@@ -1,6 +1,6 @@
-# HANDOFF — A2: Q-PNA Classifier Playground
+# HANDOFF -- A2: Q-PNA Classifier Playground
 
-**Type:** Program→Project — Interactive Artifact Build (D13)
+**Type:** Program→Project -- Interactive Artifact Build (D13)
 **Sessions:** 2 | **Deploy:** QNFO.github.io/q-pna/ | **Reference:** Q-PNA v2.0 DOI: 10.5281/zenodo.20287742
 
 ## What to Build
@@ -19,7 +19,7 @@ Interactive web app where visitors explore glass-box AI. User selects a hierarch
 ## Technical
 - Single HTML + CSS + vanilla JS
 - Pre-compute model weights (use the existing Q-PNA Python code to generate JSON weight files)
-- Client-side inference only (no backend training — pre-computed weights loaded from JSON)
+- Client-side inference only (no backend training -- pre-computed weights loaded from JSON)
 - Decision tree rendered as interactive SVG
 
 ## Design

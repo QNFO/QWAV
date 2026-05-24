@@ -1,5 +1,5 @@
 """
-QWAV Pytest-Style Test Suite — Refactored from test_all_artifacts.py
+QWAV Pytest-Style Test Suite -- Refactored from test_all_artifacts.py
 
 Sprint 20: Converts unittest.TestCase classes to pytest functions with:
   - session-scoped fixtures (conftest.py) replacing setUpClass
@@ -16,7 +16,7 @@ import os
 
 
 # ============================================================================
-# S20.2.1: TestInteractiveElements — refactored from unittest
+# S20.2.1: TestInteractiveElements -- refactored from unittest
 # ============================================================================
 
 @pytest.mark.parametrize("artifact_name", ["A1", "A2", "A3", "A4", "A5"])
@@ -61,7 +61,7 @@ def test_interactive_elements_exist(artifact_name, artifact_html):
 
 
 # ============================================================================
-# S20.2.2: TestHTMLStructure — refactored from unittest (structural checks)
+# S20.2.2: TestHTMLStructure -- refactored from unittest (structural checks)
 # ============================================================================
 
 @pytest.mark.parametrize("artifact_name", ["A1", "A2", "A3", "A4", "A5"])
@@ -145,7 +145,7 @@ def test_no_cdn_dependencies(artifact_name, artifact_html):
     ]
     for pattern in cdn_patterns:
         assert not re.search(pattern, html), (
-            f"{artifact_name}: depends on CDN ({pattern}) — must be self-contained"
+            f"{artifact_name}: depends on CDN ({pattern}) -- must be self-contained"
         )
 
 

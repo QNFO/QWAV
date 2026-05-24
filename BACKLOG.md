@@ -1,6 +1,6 @@
 # QWAV PROGRAM BACKLOG
 
-> **Purpose:** Prioritized queue of future work. Items ordered by priority — work top to bottom. 
+> **Purpose:** Prioritized queue of future work. Items ordered by priority -- work top to bottom. 
 > **Update rule:** When an item is completed, move it to Completed & Archived. When new ideas emerge, add them.
 > **Task markers:** `[ ]` incomplete | `[~]` in-progress | `[!]` blocked | `[x]` complete | `[-]` cancelled
 
@@ -8,46 +8,46 @@
 
 ---
 
-## Priority Queue — Active Items
+## Priority Queue -- Active Items
 
-### P0 — Critical / Blocking
-
-| # | Item | Description | Effort | Depends On |
-|:--|:-----|:------------|:-------|:-----------|
-| [x] | **S9.1 Git branch hygiene** | Completed in S10.1. All 5 artifact repos use feature/ branches where work happens; main for Pages deployment. QWAV on feature/audit-export-conversation. | 0.5h | — |
-| [!] | **S8.3 Buffer campaign** | Complete A4, A5, K1 social posts. Buffer session expired — needs reconnection. | 0.5h | Buffer re-auth |
-
-### P1 — High Priority
+### P0 -- Critical / Blocking
 
 | # | Item | Description | Effort | Depends On |
 |:--|:-----|:------------|:-------|:-----------|
-| [x] | **Sprint 13 planning** | REMOVED — 7 sprints stale. Current is Sprint 20. | — | — |
-| [x] | **QNFO org README deploy** | Deployed via GitHub API. Repo: `QNFO/.github` (repurposed from `qnfo.org`). `profile/README.md` + root `README.md`. Unarchived + renamed via API. | 0.25h | — |
-| [!] | **qwav.tech domain site** | K1 hub is live at `qnfo.github.io/QWAV/`. BLOCKED — needs user DNS CNAME configuration. | 0.5h | Domain DNS |
-| [x] | **Test suite refactoring** | ✅ DONE Sprint 20.2 — conftest.py + test_all_artifacts_pytest.py (60/60 pass). Originals preserved. | — | — |
-| [x] | **JS error detection in tests** | ✅ DONE — test_browser_errors.py covers CDP console capture. From audit recommendation #3. | — | — |
+| [x] | **S9.1 Git branch hygiene** | Completed in S10.1. All 5 artifact repos use feature/ branches where work happens; main for Pages deployment. QWAV on feature/audit-export-conversation. | 0.5h | -- |
+| [!] | **S8.3 Buffer campaign** | Complete A4, A5, K1 social posts. Buffer session expired -- needs reconnection. | 0.5h | Buffer re-auth |
 
-### P2 — Medium Priority
+### P1 -- High Priority
 
 | # | Item | Description | Effort | Depends On |
 |:--|:-----|:------------|:-------|:-----------|
-| [x] | **SBIR Phase I** | ✅ DONE Sprint 19.6 — `briefings/sbir-phase1-briefing.md`. Entity formation is single blocker. | — | — |
-| [x] | **FQXi Essay Contest** | ✅ DONE Sprint 19.7 — `briefings/fqxi-briefing.md`. Monitoring for June 2026 announcement. | — | — |
-| [x] | **Curate Prior Work catalog** | ✅ DONE Sprint 19.1 — 30 pubs, 28 verified, 2 UNVERIFIED-LLM. `briefings/prior-work-catalog.md`. | — | — |
-| [x] | **Smoke test maintenance** | ✅ PROTOCOL: `briefings/smoke-maintenance-protocol.md`. 102/102 pass. Weekly schedule documented. Issue #8 open for tracking. | — | — |
-| [x] | **BACKLOG.md P-number cleanup** | ✅ DONE. Items sequential. P1: 0 open. P2: 2 open (smoke protocol + qwav.tech). | — | — |
+| [x] | **Sprint 13 planning** | REMOVED -- 7 sprints stale. Current is Sprint 20. | -- | -- |
+| [x] | **QNFO org README deploy** | Deployed via GitHub API. Repo: `QNFO/.github` (repurposed from `qnfo.org`). `profile/README.md` + root `README.md`. Unarchived + renamed via API. | 0.25h | -- |
+| [!] | **qwav.tech domain site** | K1 hub is live at `qnfo.github.io/QWAV/`. BLOCKED -- needs user DNS CNAME configuration. | 0.5h | Domain DNS |
+| [x] | **Test suite refactoring** | ✅ DONE Sprint 20.2 -- conftest.py + test_all_artifacts_pytest.py (60/60 pass). Originals preserved. | -- | -- |
+| [x] | **JS error detection in tests** | ✅ DONE -- test_browser_errors.py covers CDP console capture. From audit recommendation #3. | -- | -- |
 
-### P3 — Nice to Have / Deferred
+### P2 -- Medium Priority
+
+| # | Item | Description | Effort | Depends On |
+|:--|:-----|:------------|:-------|:-----------|
+| [x] | **SBIR Phase I** | ✅ DONE Sprint 19.6 -- `briefings/sbir-phase1-briefing.md`. Entity formation is single blocker. | -- | -- |
+| [x] | **FQXi Essay Contest** | ✅ DONE Sprint 19.7 -- `briefings/fqxi-briefing.md`. Monitoring for June 2026 announcement. | -- | -- |
+| [x] | **Curate Prior Work catalog** | ✅ DONE Sprint 19.1 -- 30 pubs, 28 verified, 2 UNVERIFIED-LLM. `briefings/prior-work-catalog.md`. | -- | -- |
+| [x] | **Smoke test maintenance** | ✅ PROTOCOL: `briefings/smoke-maintenance-protocol.md`. 102/102 pass. Weekly schedule documented. Issue #8 open for tracking. | -- | -- |
+| [x] | **BACKLOG.md P-number cleanup** | ✅ DONE. Items sequential. P1: 0 open. P2: 2 open (smoke protocol + qwav.tech). | -- | -- |
+
+### P3 -- Nice to Have / Deferred
 
 | # | Item | Description | Effort | Depends On |
 |:--|:-----|:------------|:-------|:-----------|
 | [ ] | **Entity formation assessment** | Requires exogenous info: existing corporate entities (Empowering Change 501c3, Data For Good LLC, planned Netherlands incorporation). Cannot execute autonomously. | 0.5h | Founder input |
-| [ ] | **ResearchGate cross-posting verify** | Documented in `briefings/zenodo-crosslink-audit.md`. ResearchGate blocks automated access — founder must verify manually. | 0.25h | Founder login |
+| [ ] | **ResearchGate cross-posting verify** | Documented in `briefings/zenodo-crosslink-audit.md`. ResearchGate blocks automated access -- founder must verify manually. | 0.25h | Founder login |
 | [ ] | **Domain redirects** | qwav.org confirmed registered. QNFO.org needs founder DNS verification. | 0.25h | Founder DNS |
 | [ ] | **LinkedIn profile alignment** | Bio text ready. Update LinkedIn About + add Zenodo link. | 0.5h | Founder login |
 | [ ] | **Social bio Zenodo links** | Copy-paste text ready for Mastodon, Bluesky, Twitter bios. | 0.1h | Founder login |
 | [ ] | **IP: High-Temp filing decision** | Already DECIDED (DO NOT FILE, 2026-05-19). Revisit if funding arrives. | 0.5h | Funding event |
-| [ ] | **P11 Formal verification** | CLOSED — no external dependencies. Lean 4 verification of ultrametric QEC threshold requires collaborators. Revisit if collaborator found. | — | Collaborator |
+| [ ] | **P11 Formal verification** | CLOSED -- no external dependencies. Lean 4 verification of ultrametric QEC threshold requires collaborators. Revisit if collaborator found. | -- | Collaborator |
 
 ---
 
@@ -57,8 +57,8 @@ Projects scaffolded with handoff briefings. Ready for execution when capacity al
 
 | # | Project | Directory | Status |
 |:--|:--------|:----------|:-------|
-| P44 | Ultrametric Game of Life | `projects/ultrametric-game-of-life/` | Handoff ready — 9 tasks |
-| P49 | Hierarchy as Ultrametricity | `projects/Hierarchy as Ultrametricity/` | Handoff ready — 10 tasks |
+| P44 | Ultrametric Game of Life | `projects/ultrametric-game-of-life/` | Handoff ready -- 9 tasks |
+| P49 | Hierarchy as Ultrametricity | `projects/Hierarchy as Ultrametricity/` | Handoff ready -- 10 tasks |
 
 ---
 
@@ -133,12 +133,12 @@ Projects scaffolded with handoff briefings. Ready for execution when capacity al
 | P# | Item | Reason |
 |:---|:-----|:-------|
 | P10 | Cold outreach to labs | Superseded by P32 |
-| P11 | Formal verification | Closed — requires external collaborators |
+| P11 | Formal verification | Closed -- requires external collaborators |
 | P12 | High-Temp filing | Decided: DO NOT FILE (2026-05-19) |
 | P13,P14,P15 | IP drafting/review/verification | Superseded by strategy/0.1.md and 0.2.md |
-| P17-P22 | All email outreaches | Cancelled — email not aligned with QWAV strategy |
-| P23,P35 | arXiv submission | Cancelled — requires endorsement. Zenodo is primary |
-| P32 | Neutral atom lab outreach | Cancelled — same rationale as P17-P22 |
+| P17-P22 | All email outreaches | Cancelled -- email not aligned with QWAV strategy |
+| P23,P35 | arXiv submission | Cancelled -- requires endorsement. Zenodo is primary |
+| P32 | Neutral atom lab outreach | Cancelled -- same rationale as P17-P22 |
 | P36 | Cophenetic distance bridge | Integrated into P27 |
 | P38 | Open-source codebase | Same as P28 (completed) |
 | P40 | Cross-domain synthesis | Superseded by P27 |

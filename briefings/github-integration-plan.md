@@ -1,4 +1,4 @@
-# QWAV — GITHUB INTEGRATION PLAN
+# QWAV -- GITHUB INTEGRATION PLAN
 
 **Status:** Comprehensive audit complete 2026-05-24. All org + repo settings documented.  
 **Branch:** `feature/sprint-19-planning`  
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. QNFO ORG AUDIT — Full Settings (2026-05-24)
+## 1. QNFO ORG AUDIT -- Full Settings (2026-05-24)
 
 | Setting | Value | Notes |
 |:--------|:------|:------|
@@ -33,7 +33,7 @@
 
 ---
 
-## 2. QWAV REPO AUDIT — `QNFO/QWAV`
+## 2. QWAV REPO AUDIT -- `QNFO/QWAV`
 
 | Setting | Value | URL |
 |:--------|:------|:----|
@@ -48,11 +48,11 @@
 | Branch Protection | ✅ Active on `main` | 1 approving review required |
 | Merge Options | Squash + Rebase | No merge commits |
 | Automated Deletions | ❌ Off | Head branches preserved |
-| License | ❌ Not set | Previously claimed "MIT" — WRONG |
-| Description | QWAV Program — Ultrametric Quantum Computing & AI | Added 2026-05-24 |
+| License | ❌ Not set | Previously claimed "MIT" -- WRONG |
+| Description | QWAV Program -- Ultrametric Quantum Computing & AI | Added 2026-05-24 |
 | Tags | ultrametric, quantum-computing, ai | Active |
 | Social Preview | Not configured | Optional |
-| CITATION.cff | Added | Placeholder — needs DOI |
+| CITATION.cff | Added | Placeholder -- needs DOI |
 
 
 ## 3. ARTIFACT REPO AUDIT (A1-A5)
@@ -61,13 +61,13 @@
 |:-----|:------------|:----------------:|
 | ultrametric-error-confinement | Tier 0: Bruhat-Tits tree error simulation | Not configured |
 | Q-PNA | Quantum-Native p-Adic Neural Architecture v2.0 | Not configured |
-| tree-distance | Tree Distance Sandbox — interactive comparison | Not configured |
-| ultrametric-convergence | Convergence Explorer — ultrametric clustering | Not configured |
-| hardware-pathway | Error suppression demo — Three.js visualization | Not configured |
+| tree-distance | Tree Distance Sandbox -- interactive comparison | Not configured |
+| ultrametric-convergence | Convergence Explorer -- ultrametric clustering | Not configured |
+| hardware-pathway | Error suppression demo -- Three.js visualization | Not configured |
 
 ---
 
-## 4. DEEPCHAT INTEGRATION PLAN — Agent Workflow Mapping
+## 4. DEEPCHAT INTEGRATION PLAN -- Agent Workflow Mapping
 
 ### 4.1 Current State (File-Based)
 
@@ -91,7 +91,7 @@ LEARNINGS.md ─────────► Wiki "Learnings" page
 DECISIONS.md ─────────► Wiki "Decisions" page
 CHANGELOG.md ─────────► GitHub Releases (tag-based)
 Sprint board ─────────► GitHub Projects (Kanban view)
-Buffer queue ─────────► External — not GitHub-managed
+Buffer queue ─────────► External -- not GitHub-managed
 Test evidence ────────► GitHub Actions workflow output
 ```
 
@@ -130,9 +130,9 @@ gh api graphql -f query='{repository(owner:"QNFO",name:"QWAV"){...}}'
 | **§9 Git Protocol** | Add `gh issue` commands for sprint task opening/closing |
 | **§11 Publication** | Add GitHub Release creation for CHANGELOG entries |
 | **§11.5 Reader Testing** | Add Discussion creation for community feedback |
-| **New section** | "GitHub Integration — Issues/Projects/Wiki/Discussions" mapping |
+| **New section** | "GitHub Integration -- Issues/Projects/Wiki/Discussions" mapping |
 
-### 4.5 Integration Depth — Phased Approach
+### 4.5 Integration Depth -- Phased Approach
 
 **Phase 1 (NOW): Dual Tracking**
 - Keep SPRINT.md + BACKLOG.md as authoritative
@@ -152,28 +152,28 @@ gh api graphql -f query='{repository(owner:"QNFO",name:"QWAV"){...}}'
 
 ---
 
-## 5. IMMEDIATE FIXES — Sprint 19 Tasks
+## 5. IMMEDIATE FIXES -- Sprint 19 Tasks
 
 | ID | Task | Est. | Priority |
 |:---|:-----|:-----|:---------|
 | S19.1 | Import 19 active BACKLOG items as GitHub Issues | 0.5h | P0 |
 | S19.2 | Create "QWAV Sprint Board" Project with columns: Backlog → To Do → In Progress → Done | 0.5h | P0 |
-| S19.3 | Initialize Wiki — create Home page with program overview + links | 0.25h | P1 |
+| S19.3 | Initialize Wiki -- create Home page with program overview + links | 0.25h | P1 |
 | S19.4 | Add Issue labels: `sprint`, `backlog`, `P0`, `P1`, `P2`, `P3`, `bug`, `enhancement`, `documentation` | 0.25h | P1 |
 | S19.5 | Add Issue templates: Sprint Task, Bug Report, Feature Request | 0.5h | P2 |
 | S19.6 | Enable Dependabot security updates on all 7 repos | 0.25h | P2 |
 | S19.7 | Add real CITATION.cff with DOI to all repos | 0.5h | P2 |
-| S19.8 | Write `docs/github-agent-workflow.md` — the agent's reference for GitHub ops | 0.5h | P1 |
+| S19.8 | Write `docs/github-agent-workflow.md` -- the agent's reference for GitHub ops | 0.5h | P1 |
 | S19.9 | Sprint close-out | 0.25h | P2 |
 
 ---
 
-## 6. GITHUB REPOS — COMPLETE INVENTORY
+## 6. GITHUB REPOS -- COMPLETE INVENTORY
 
 | # | Repo | Description | Pages | Branch Protection |
 |:--|:-----|:------------|:-----:|:-----------------:|
 | 1 | QWAV | Program overview | ✅ | ✅ Active |
-| 2 | .github | Org profile README | — | — |
+| 2 | .github | Org profile README | -- | -- |
 | 3 | ultrametric-error-confinement | Error simulation | ✅ | ❌ |
 | 4 | Q-PNA | Neural architecture | ✅ | ❌ |
 | 5 | tree-distance | Comparison sandbox | ✅ | ❌ |
@@ -187,7 +187,7 @@ gh api graphql -f query='{repository(owner:"QNFO",name:"QWAV"){...}}'
 The system prompt lives at `G:\My Drive\prompts\ARCHITECTURE.md` (or equivalent). Add this section after §9 (Git Workspace):
 
 ```markdown
-### 9.9 GITHUB PROJECT MANAGEMENT — Issues, Projects, Wiki, Discussions
+### 9.9 GITHUB PROJECT MANAGEMENT -- Issues, Projects, Wiki, Discussions
 
 #### Issues → Sprint Tasks
 - Read SPRINT.md → for each `[ ]` task, create GitHub Issue with `gh issue create`
@@ -222,4 +222,4 @@ mutation { createDiscussion(input: {repositoryId:"REPO_ID", title:"TITLE", body:
 
 ---
 
-*Integration Plan v1.0 — 2026-05-24. Sprint 19 will execute Phase 1 of this plan.*
+*Integration Plan v1.0 -- 2026-05-24. Sprint 19 will execute Phase 1 of this plan.*

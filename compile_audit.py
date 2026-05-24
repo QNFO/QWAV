@@ -47,7 +47,7 @@ log("")
 log("4. **Documentation Is Complete:** All 11 core documentation files exist and are non-empty.")
 log("")
 log("5. **Sprint Audit:** 53 task markers found (50 complete, 1 in-progress, 1 blocked, 1 cancelled). "
-    "Export claimed 47/47 — this discrepancy suggests new tasks were added after the claim was made.")
+    "Export claimed 47/47 -- this discrepancy suggests new tasks were added after the claim was made.")
 log("")
 log("6. **Git:** The prior session operated on `main` branch (violating feature-branch discipline). "
     "Current audit is on `feature/audit-export-conversation`.")
@@ -87,7 +87,7 @@ log("=" * 40)
 log("")
 
 sites = [
-    ("K1 Hub", "https://qnfo.github.io/QWAV/", "Main hub — 76 links, 7 demos claimed"),
+    ("K1 Hub", "https://qnfo.github.io/QWAV/", "Main hub -- 76 links, 7 demos claimed"),
     ("A1 Error Confinement", "https://qnfo.github.io/ultrametric-error-confinement/", "Canvas demo with sliders, auto-renders"),
     ("A2 Q-PNA", "https://qnfo.github.io/Q-PNA/", "1 button 'Classify 5 Samples', canvas renders"),
     ("A3 Convergence", "https://qnfo.github.io/ultrametric-convergence/", "2 canvases, 'Play'/'Reset' buttons"),
@@ -255,7 +255,7 @@ log("")
 log("### Issue 1: Test Suite Over-Claims Completeness [HIGH]")
 log("")
 log("- **Finding:** 164/164 structural tests passed, but interactive functionality not tested")
-log("- **Impact:** Creates false confidence — tests green ≠ demos work")
+log("- **Impact:** Creates false confidence -- tests green ≠ demos work")
 log("- **Fix:** Add browser-based integration tests or interactive smoke tests")
 log("")
 log("### Issue 2: Assistant Fabrication Pattern [HIGH]") 
@@ -268,10 +268,10 @@ log("")
 log("### Issue 3: Git Branch Hygiene [MEDIUM]")
 log("- **Finding:** Prior session operated on `main` branch")
 log("- **Impact:** Violates feature-branch discipline per Section 9")
-log("- **Fix:** Already corrected — current work on `feature/audit-export-conversation`")
+log("- **Fix:** Already corrected -- current work on `feature/audit-export-conversation`")
 log("")
 log("### Issue 4: Test Architecture Limitation [MEDIUM]")
-log("- **Finding:** No `def test_*` functions — tests can't be run individually")
+log("- **Finding:** No `def test_*` functions -- tests can't be run individually")
 log("- **Impact:** Hard to debug specific failures, hard to extend")
 log("- **Fix:** Refactor to pytest-style test functions")
 log("")

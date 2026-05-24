@@ -2,7 +2,7 @@ Dear Dr. [Name],
 
 I am writing to share research that may be relevant to your lab's work with neutral atom quantum computing platforms.
 
-My work demonstrates that Bruhat-Tits trees — the geometric structure underlying p-adic ultrametric spaces — can suppress quantum errors geometrically, without active error correction. Computational validation shows 48x logical error reduction and zero errors at circuit depth 7, at 4 K operating temperature.
+My work demonstrates that Bruhat-Tits trees -- the geometric structure underlying p-adic ultrametric spaces -- can suppress quantum errors geometrically, without active error correction. Computational validation shows 48x logical error reduction and zero errors at circuit depth 7, at 4 K operating temperature.
 
 The approach maps directly to neutral atom hardware: the 40-atom ternary tree layout uses Rydberg blockade gates, compatible with existing platforms. I have built an interactive Three.js 3D visualization:
 

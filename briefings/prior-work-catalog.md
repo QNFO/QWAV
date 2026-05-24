@@ -1,8 +1,8 @@
-# Prior Work Catalog — Ultrametric Quantum Computing and AI
+# Prior Work Catalog -- Ultrametric Quantum Computing and AI
 
 > **Purpose:** Curated catalog of external publications relevant to QWAV's ultrametric quantum computing paradigm. Use for: literature review sections, citation mapping, competitive landscape analysis, and identifying collaboration targets.
 >
-> **Status:** v0.1 COMPLETE — 30 pubs catalogued: 28 verified, 2 unverified (DOIs provided for verification)
+> **Status:** v0.1 COMPLETE -- 30 pubs catalogued: 28 verified, 2 unverified (DOIs provided for verification)
 > **Last updated:** 2026-05-24
 
 ---
@@ -46,27 +46,27 @@
 | # | Citation | Relevance | Status |
 |:--|:---------|:----------|:-------|
 | 11 | **Shi, Y.-Y., Duan, L.-M., Vidal, G.** (2006). "Classical simulation of quantum many-body systems with a tree tensor network." *Physical Review A*, 74(2), 022320. | Tree tensor network (TTN) formalism for quantum simulation. Hierarchical structure mirrors ultrametric organization. | `[VERIFIED]` |
-| 12 | **Ferris, A.J.** (2013). "Area law and real-space renormalization." *Physical Review B*, 87(12), 125139. DOI: 10.1103/PhysRevB.87.125139. | Real-space RG techniques for quantum systems with area-law vs. non-area-law scaling. Relevant to QWAV's hierarchical renormalization on tree geometries. | `[VERIFIED]` — DOI confirmed; title corrected from LLM-hallucinated version |
-| 13 | **Gerster, M., Silvi, P., Rizzi, M., Fazio, R., Calarco, T., Montangero, S.** (2014). "Unconstrained tree tensor network: An adaptive gauge picture for enhanced performance." *Physical Review B*, 90(12), 125154. DOI: 10.1103/PhysRevB.90.125154. | Advanced TTN methods with adaptive gauging. Title confirmed via ResearchGate citation. | `[VERIFIED]` — title confirmed; DOI needs verification |
+| 12 | **Ferris, A.J.** (2013). "Area law and real-space renormalization." *Physical Review B*, 87(12), 125139. DOI: 10.1103/PhysRevB.87.125139. | Real-space RG techniques for quantum systems with area-law vs. non-area-law scaling. Relevant to QWAV's hierarchical renormalization on tree geometries. | `[VERIFIED]` -- DOI confirmed; title corrected from LLM-hallucinated version |
+| 13 | **Gerster, M., Silvi, P., Rizzi, M., Fazio, R., Calarco, T., Montangero, S.** (2014). "Unconstrained tree tensor network: An adaptive gauge picture for enhanced performance." *Physical Review B*, 90(12), 125154. DOI: 10.1103/PhysRevB.90.125154. | Advanced TTN methods with adaptive gauging. Title confirmed via ResearchGate citation. | `[VERIFIED]` -- title confirmed; DOI needs verification |
 | 14 | **Silvi, P., Tschirsich, F., Gerster, M., Jünemann, J., Jaschke, D., Rizzi, M., Montangero, S.** (2019). "The Tensor Networks Anthology: Simulation techniques for many-body quantum lattice systems." *SciPost Physics Lecture Notes*, 8. | Comprehensive survey of tensor network methods including tree networks. | `[VERIFIED]` |
 | 15 | **Hackett, D.C., Greitemann, J., Chandran, A., Chen, J.Y.** (2025). "Tensor networks for quantum computing." *Nature Reviews Physics*, 7, 387-399. | 2025 review covering TTN applications in quantum error correction and simulation. | `[VERIFIED]` |
 
 ---
 
-## 3. Quantum Error Correction — Code Concatenation & Hierarchical Codes
+## 3. Quantum Error Correction -- Code Concatenation & Hierarchical Codes
 
 | # | Citation | Relevance | Status |
 |:--|:---------|:----------|:-------|
 | 16 | **Aharonov, D., Ben-Or, M.** (1997). "Fault-tolerant quantum computation with constant error." *Proceedings of STOC 1997*. | Foundational threshold theorem showing that concatenated codes achieve fault tolerance below constant error threshold. Direct ancestor of QWAV's hierarchical error confinement. | `[VERIFIED]` |
 | 17 | **Knill, E., Laflamme, R., Zurek, W.H.** (1998). "Resilient quantum computation." *Science*, 279(5349), 342-345. | Concatenated quantum error correction with proven accuracy threshold. | `[VERIFIED]` |
-| 18 | **Raussendorf, R., Harrington, J.** (2007). "Fault-tolerant quantum computation with high threshold in two dimensions." *Physical Review Letters*, 98(19), 190504. | Topological QEC with high threshold — surface codes. Contrast with QWAV's tree-code approach. | `[VERIFIED]` |
+| 18 | **Raussendorf, R., Harrington, J.** (2007). "Fault-tolerant quantum computation with high threshold in two dimensions." *Physical Review Letters*, 98(19), 190504. | Topological QEC with high threshold -- surface codes. Contrast with QWAV's tree-code approach. | `[VERIFIED]` |
 | 19 | **Fowler, A.G., Mariantoni, M., Martinis, J.M., Cleland, A.N.** (2012). "Surface codes: Towards practical large-scale quantum computation." *Physical Review A*, 86(3), 032324. | Standard reference for surface code QEC. Represents the flat-geometry alternative to QWAV's hierarchical approach. | `[VERIFIED]` |
 | 20 | **Sommers, G.M., Huse, D.A., Gullans, M.J.** (2023). "Dynamically generated concatenated codes and their phase diagrams." *Physical Review Letters*, 131, 230601. | Code concatenation on expanding tree geometry. Exponential code distance growth with depth. Directly relevant to QWAV's tree-code error confinement. | `[VERIFIED]` |
 | 21 | **Bravyi, S., Cross, A.W., Gambetta, J.M., Maslov, D., Rall, P., Yoder, T.J.** (2024). "High-threshold and low-overhead fault-tolerant quantum memory." *Nature*, 627, 778-782. | IBM's qLDPC codes (bivariate bicycle). Industry's shift toward non-surface-code architectures validates QWAV's exploration of alternative code geometries. | `[VERIFIED]` |
 
 ---
 
-## 4. Quantum Computing — Architecture & Fault Tolerance
+## 4. Quantum Computing -- Architecture & Fault Tolerance
 
 | # | Citation | Relevance | Status |
 |:--|:---------|:----------|:-------|
@@ -91,7 +91,7 @@
 | # | Citation | Relevance | Status |
 |:--|:---------|:----------|:-------|
 | 28 | **Zúñiga-Galindo, W.A., He, C., Zambrano-Luna, B.A.** (2023). "p-Adic statistical field theory and convolutional deep Boltzmann machines." *Progress of Theoretical and Experimental Physics*, 2023(6), 063A01. DOI: 10.1093/ptep/ptad061. | Establishes correspondence between p-adic statistical field theories and neural networks. Direct relevance to QWAV's ultrametric AI claims. | `[VERIFIED]` |
-| 29 | **Bradley, T.-D., Stoudenmire, E.M., Terilla, J.** (2020). "Modeling sequences with quantum states: A look under the hood." *Machine Learning: Science and Technology*, 1(3), 035008. | Tree tensor networks for sequence modeling — connects TTN math to ML. | `[VERIFIED]` |
+| 29 | **Bradley, T.-D., Stoudenmire, E.M., Terilla, J.** (2020). "Modeling sequences with quantum states: A look under the hood." *Machine Learning: Science and Technology*, 1(3), 035008. | Tree tensor networks for sequence modeling -- connects TTN math to ML. | `[VERIFIED]` |
 
 ---
 
@@ -113,4 +113,4 @@
 
 ---
 
-*Prior Work Catalog v0.1 — 30 publications catalogued, 3 pending verification. Created 2026-05-24.*
+*Prior Work Catalog v0.1 -- 30 publications catalogued, 3 pending verification. Created 2026-05-24.*

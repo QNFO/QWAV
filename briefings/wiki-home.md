@@ -1,6 +1,6 @@
-# QWAV — Ultrametric Quantum Computing & AI
+# QWAV -- Ultrametric Quantum Computing & AI
 
-Welcome to the QWAV program wiki. QWAV develops ultrametric (tree-based) architectures for quantum error correction, computation, and artificial intelligence — exploiting the intrinsic fault tolerance of hierarchical geometries.
+Welcome to the QWAV program wiki. QWAV develops ultrametric (tree-based) architectures for quantum error correction, computation, and artificial intelligence -- exploiting the intrinsic fault tolerance of hierarchical geometries.
 
 ## 🚀 Quick Start
 
@@ -14,13 +14,13 @@ Welcome to the QWAV program wiki. QWAV develops ultrametric (tree-based) archite
 
 | Area | Status |
 |:------|:------|
-| **Active Sprint** | 21 — GitHub Integration & Provenance |
+| **Active Sprint** | 21 -- GitHub Integration & Provenance |
 | **Published Papers** | 40+ on [Zenodo](https://zenodo.org/search?q=qwav) |
 | **Live Demos** | 5 interactive artifacts + K1 hub |
 | **Test Suite** | 102 tests (42 unittest + 60 pytest), all passing |
 | **GitHub Issues** | [9 open](https://github.com/QNFO/QWAV/issues), all labeled + milestoned |
-| **Kanban Board** | [QWAV Program Management](https://github.com/orgs/QNFO/projects/1) — 11 issues, Priority/Sprint/Status fields |
-| **Discussions** | [3 posts](https://github.com/QNFO/QWAV/discussions) — session records + pipeline docs |
+| **Kanban Board** | [QWAV Program Management](https://github.com/orgs/QNFO/projects/1) -- 11 issues, Priority/Sprint/Status fields |
+| **Discussions** | [3 posts](https://github.com/QNFO/QWAV/discussions) -- session records + pipeline docs |
 
 ## 📁 Key Documents
 
@@ -31,7 +31,7 @@ Welcome to the QWAV program wiki. QWAV develops ultrametric (tree-based) archite
 | **CHANGELOG.md** | Full chronological change log (v2.72) | [View](https://github.com/QNFO/QWAV/blob/main/CHANGELOG.md) |
 | **CHARTER.md** | Program scope, constraints, success criteria | [View](https://github.com/QNFO/QWAV/blob/main/CHARTER.md) |
 | **BACKLOG.md** | Prioritized future work (P0-P3) | [View](https://github.com/QNFO/QWAV/blob/main/BACKLOG.md) |
-| **LEARNINGS.md** | Kaizen engine — 29 lessons, including 1 BLOCKING | [View](https://github.com/QNFO/QWAV/blob/main/LEARNINGS.md) |
+| **LEARNINGS.md** | Kaizen engine -- 29 lessons, including 1 BLOCKING | [View](https://github.com/QNFO/QWAV/blob/main/LEARNINGS.md) |
 
 ## 🏗️ Artifacts
 
@@ -46,11 +46,11 @@ Welcome to the QWAV program wiki. QWAV develops ultrametric (tree-based) archite
 
 ## 📚 Recent Publications
 
-- [Ultrametric Quantum Computing Foundations](https://doi.org/10.5281/zenodo.15107688) — Core theoretical framework
-- [Validation of Ultrametric Error Confinement](https://doi.org/10.5281/zenodo.15113616) — Computational validation
-- [Symmetric Extension of Ultrametric Error Confinement](https://doi.org/10.5281/zenodo.15129661) — Extended analysis
-- [The Tree Is Real](https://doi.org/10.5281/zenodo.15241485) — Computational validation of ultrametric convergence
-- [Tree at the Bottom of Everything](https://doi.org/10.5281/zenodo.15276773) — Synthesis
+- [Ultrametric Quantum Computing Foundations](https://doi.org/10.5281/zenodo.15107688) -- Core theoretical framework
+- [Validation of Ultrametric Error Confinement](https://doi.org/10.5281/zenodo.15113616) -- Computational validation
+- [Symmetric Extension of Ultrametric Error Confinement](https://doi.org/10.5281/zenodo.15129661) -- Extended analysis
+- [The Tree Is Real](https://doi.org/10.5281/zenodo.15241485) -- Computational validation of ultrametric convergence
+- [Tree at the Bottom of Everything](https://doi.org/10.5281/zenodo.15276773) -- Synthesis
 
 ## 🔗 Links
 
@@ -66,4 +66,4 @@ Welcome to the QWAV program wiki. QWAV develops ultrametric (tree-based) archite
 
 ---
 
-*QWAV Wiki — Part of the QNFO public audit trail. Everything public. Everything tracked.*
+*QWAV Wiki -- Part of the QNFO public audit trail. Everything public. Everything tracked.*

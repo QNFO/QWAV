@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="canonical" href="https://qnfo.github.io/ultrametric-error-confinement/">
 
-<title>Error Confinement Live Demo — QWAV</title>
+<title>Error Confinement Live Demo -- QWAV</title>
 <meta name="description" content="Interactive Bruhat-Tits tree simulation. Watch ultrametric geometry suppress errors in real time. Adjust error rates and tree depth. Zero logical errors at depth 7.">
-<meta property="og:title" content="Error Confinement Live Demo — QWAV">
+<meta property="og:title" content="Error Confinement Live Demo -- QWAV">
 <meta property="og:description" content="Watch ultrametric geometry suppress errors. Zero logical errors at depth 7.">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -182,9 +182,9 @@ function updateAll(){
   s.innerHTML='<strong style="color:#34D399">Zero logical errors.</strong> The strong triangle inequality geometrically prevents error accumulation. At depth '+depth+' with p='+prime+', the tree provides complete protection. No active QEC required.';
  }else if(simResult.ler<perr){
   const red=((perr-simResult.ler)/perr*100).toFixed(0);
-  s.innerHTML='<strong>LER '+lerPct+'%</strong> — <strong>'+red+'% lower</strong> than physical error rate ('+(perr*100).toFixed(0)+'%). The tree geometry is suppressing errors. <em>Increase depth to strengthen this effect.</em>';
+  s.innerHTML='<strong>LER '+lerPct+'%</strong> -- <strong>'+red+'% lower</strong> than physical error rate ('+(perr*100).toFixed(0)+'%). The tree geometry is suppressing errors. <em>Increase depth to strengthen this effect.</em>';
  }else{
-  s.innerHTML='<strong>LER '+lerPct+'%</strong> — at this depth and error rate, the tree is not suppressing errors significantly. Try depth 5+ or lower error rate.';
+  s.innerHTML='<strong>LER '+lerPct+'%</strong> -- at this depth and error rate, the tree is not suppressing errors significantly. Try depth 5+ or lower error rate.';
  }
  drawTree(treeData,simResult);
 }

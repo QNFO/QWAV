@@ -5,7 +5,7 @@
 <link rel="canonical" href="https://qnfo.github.io/hardware-pathway/">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hardware Pathway — Error Suppression Demo — QWAV</title>
+<title>Hardware Pathway -- Error Suppression Demo -- QWAV</title>
 <meta name="description" content="Click atoms to trigger errors. Watch the tree geometry suppress them.">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -28,7 +28,7 @@ footer .sep{color:#4B5563}
 </head>
 <body>
 <header>
-<h1>Hardware Pathway — Error Suppression Demo</h1>
+<h1>Hardware Pathway -- Error Suppression Demo</h1>
 <a href="https://qnfo.github.io/QWAV/">← Technical Site</a>
 </header>
 <div id="viz">
@@ -40,8 +40,8 @@ footer .sep{color:#4B5563}
 <div><span class="legend-dot" style="background:#818CF8"></span>Atom (stable)</div>
 <div><span class="legend-dot" style="background:#EF4444"></span>Error (active)</div>
 <div><span class="legend-dot" style="background:#34D399"></span>Suppressed (by sibling majority)</div>
-<div style="color:#FBBF24">— Rydberg blockade gate</div>
-<div style="color:#4B5563">— Tree edge</div>
+<div style="color:#FBBF24">-- Rydberg blockade gate</div>
+<div style="color:#4B5563">-- Tree edge</div>
 </div>
 <div class="note">Click any atom to trigger an error. Watch it get suppressed by sibling votes.</div>
 </div>
@@ -212,7 +212,7 @@ function propagateToParent(atom) {
   // majority outvotes it.
   
   if (siblingErrors + 1 < majorityThreshold) {
-    // Error is SUPPRESSED — not enough siblings in error
+    // Error is SUPPRESSED -- not enough siblings in error
     atom.errorState = 2; // suppressed
     activeErrors--;
     suppressedCount++;
@@ -228,7 +228,7 @@ function propagateToParent(atom) {
       errorTimers.delete(atom.id);
     }, 2000);
   } else {
-    // Error propagates to parent — but with 4 children and majority=3,
+    // Error propagates to parent -- but with 4 children and majority=3,
     // this only happens if 3+ siblings are also in error
     parent.errorState = 1;
     activeErrors++;

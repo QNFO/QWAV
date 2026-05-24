@@ -24,7 +24,7 @@
 
 ## Why This Matters
 
-Search engines discover pages through links. Zenodo pages for QWAV publications have ZERO inbound links from any external site — nothing on the web points to them. Search engines have no reason to index or rank them.
+Search engines discover pages through links. Zenodo pages for QWAV publications have ZERO inbound links from any external site -- nothing on the web points to them. Search engines have no reason to index or rank them.
 
 When indexed QWAV sites (qwav.tech, GitHub, social profiles) link to the Zenodo community and individual DOIs, search crawlers follow those links, discover the Zenodo pages, and begin indexing them. Over weeks/months, this builds the link graph that makes "Computational Validation of Ultrametric Error Confinement" findable via search.
 
@@ -34,9 +34,9 @@ When indexed QWAV sites (qwav.tech, GitHub, social profiles) link to the Zenodo 
 
 | Priority | Action | Effort |
 |:---------|:-------|:-------|
-| 🔴 **NOW** | Social bios (Mastodon, Bluesky, Twitter, LinkedIn) — add zenodo.org/communities/qwav/ | 10 min |
-| 🔴 **NOW** | Deploy QNFO org README (P58) — includes Zenodo link | 5 min |
-| 🟡 **T1** | Technical site footer — add Zenodo community link | Part of T1 |
+| 🔴 **NOW** | Social bios (Mastodon, Bluesky, Twitter, LinkedIn) -- add zenodo.org/communities/qwav/ | 10 min |
+| 🔴 **NOW** | Deploy QNFO org README (P58) -- includes Zenodo link | 5 min |
+| 🟡 **T1** | Technical site footer -- add Zenodo community link | Part of T1 |
 | 🟢 **Later** | ResearchGate cross-posting (P54) | 0.25 session |
 | 🟢 **Later** | Substack About page | 2 min |
 
@@ -52,4 +52,4 @@ Ultrametric quantum computing & AI. Publications: zenodo.org/communities/qwav/
 For LinkedIn, add it to the "About" section or as a featured link.
 
 ---
-*QWAV Zenodo Cross-Link Audit v1.0 — 2026-05-22*
+*QWAV Zenodo Cross-Link Audit v1.0 -- 2026-05-22*

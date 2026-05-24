@@ -1,4 +1,4 @@
-# QWAV — Ultrametric Quantum Computing & AI
+# QWAV -- Ultrametric Quantum Computing & AI
 
 **Passive fault tolerance. Glass-box AI. One mathematical correction.**
 
@@ -12,14 +12,14 @@
 
 ## What QWAV Is
 
-QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) geometry for quantum computing and artificial intelligence. The Bruhat-Tits tree — a structure from $p$-adic number theory — provides passive error suppression through the strong triangle inequality, operating at 4 K with no active error correction.
+QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) geometry for quantum computing and artificial intelligence. The Bruhat-Tits tree -- a structure from $p$-adic number theory -- provides passive error suppression through the strong triangle inequality, operating at 4 K with no active error correction.
 
 ## Key Results
 
-- **Zero logical errors at depth 7** — ternary Bruhat-Tits tree encoding, validated at physical error rates up to 40%
-- **Hierarchical error confinement** — errors propagate only within their tree branch, never cross branches
-- **Glass-box AI** — neural architectures on tree topologies where decisions are auditable by construction
-- **40-atom neutral atom specification** — within demonstrated experimental capabilities
+- **Zero logical errors at depth 7** -- ternary Bruhat-Tits tree encoding, validated at physical error rates up to 40%
+- **Hierarchical error confinement** -- errors propagate only within their tree branch, never cross branches
+- **Glass-box AI** -- neural architectures on tree topologies where decisions are auditable by construction
+- **40-atom neutral atom specification** -- within demonstrated experimental capabilities
 
 ## Interactive Demos
 
@@ -36,13 +36,13 @@ QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) ge
 
 | Feature | Link |
 |:--------|:-----|
-| **Wiki** | [6 pages — architecture, modules, publications](https://github.com/QNFO/QWAV/wiki) |
+| **Wiki** | [6 pages -- architecture, modules, publications](https://github.com/QNFO/QWAV/wiki) |
 | **Discussions** | [Session records, sprint reports](https://github.com/QNFO/QWAV/discussions) |
-| **Kanban Board** | [11 issues — Priority, Sprint, Status](https://github.com/orgs/QNFO/projects/1) |
+| **Kanban Board** | [11 issues -- Priority, Sprint, Status](https://github.com/orgs/QNFO/projects/1) |
 | **Issues** | [3 open, 22 closed](https://github.com/QNFO/QWAV/issues) |
-| **Releases** | [v2.73 — Sprints 19-21](https://github.com/QNFO/QWAV/releases) |
+| **Releases** | [v2.73 -- Sprints 19-21](https://github.com/QNFO/QWAV/releases) |
 | **Milestones** | [S19 (closed), S20 (closed), S21 (open)](https://github.com/QNFO/QWAV/milestones) |
-| **Labels** | [19 — P0-P3, blocked, research, testing](https://github.com/QNFO/QWAV/labels) |
+| **Labels** | [19 -- P0-P3, blocked, research, testing](https://github.com/QNFO/QWAV/labels) |
 
 ## Documentation
 
@@ -73,7 +73,7 @@ QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) ge
 
 ## License
 
-**QNFO Content License Agreement v1.1** — see [LICENSE](LICENSE) for full terms.
+**QNFO Content License Agreement v1.1** -- see [LICENSE](LICENSE) for full terms.
 
 Non-commercial use only. Attribution required. Patent prior-art citation mandatory.
 All QNFO org and rwnq8 personal repositories carry this license.
@@ -85,4 +85,4 @@ Swiss governing law, ICC Geneva arbitration.
 
 ---
 
-*QNFO — the open-source home of QWAV. Everything public. Everything tracked.*
+*QNFO -- the open-source home of QWAV. Everything public. Everything tracked.*

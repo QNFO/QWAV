@@ -1,4 +1,4 @@
-# FQXi Essay Contest — External Search Results
+# FQXi Essay Contest -- External Search Results
 
 **Date searched:** 2026-05-19
 **Status:** No contest currently open for 2026 submissions.
@@ -9,7 +9,7 @@
 
 | Field | Detail |
 |:------|:-------|
-| **Theme** | "How Quantum is Life?" — intersection of quantum mechanics and biology |
+| **Theme** | "How Quantum is Life?" -- intersection of quantum mechanics and biology |
 | **Total Prize Pool** | $53,000 (first prize winners share $30,000) |
 | **Contest Announced** | June 10, 2025 |
 | **Open for Submissions** | June 23, 2025 |
@@ -27,8 +27,8 @@
 
 ## Pattern Analysis
 
-Contests appear to be announced in June and open through ~October. The 2026-2027 contest has NOT yet been announced as of May 19, 2026. Monitor fqxi.org/news and fqxi.org/community/essay for the next announcement — likely imminent (June 2026).
+Contests appear to be announced in June and open through ~October. The 2026-2027 contest has NOT yet been announced as of May 19, 2026. Monitor fqxi.org/news and fqxi.org/community/essay for the next announcement -- likely imminent (June 2026).
 
 ## Relevance to QWAV
 
-FQxI (Foundational Questions Institute) funds research on foundational physics and cosmology. QWAV's thesis — "continuous manifold is the wrong assumption for quantum computing" — aligns with FQxI's appetite for provocative foundational questions. The essay format (no peer review, open evaluation) is compatible with QWAV's substance-first, open-access strategy.
+FQxI (Foundational Questions Institute) funds research on foundational physics and cosmology. QWAV's thesis -- "continuous manifold is the wrong assumption for quantum computing" -- aligns with FQxI's appetite for provocative foundational questions. The essay format (no peer review, open evaluation) is compatible with QWAV's substance-first, open-access strategy.

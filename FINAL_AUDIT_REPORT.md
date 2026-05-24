@@ -18,7 +18,7 @@ The exported conversation (60 messages) is a session where the assistant repeate
 
 4. **Documentation Is Complete:** All 11 core documentation files exist and are non-empty.
 
-5. **Sprint Audit:** 53 task markers found (50 complete, 1 in-progress, 1 blocked, 1 cancelled). Export claimed 47/47 — this discrepancy suggests new tasks were added after the claim was made.
+5. **Sprint Audit:** 53 task markers found (50 complete, 1 in-progress, 1 blocked, 1 cancelled). Export claimed 47/47 -- this discrepancy suggests new tasks were added after the claim was made.
 
 6. **Git:** The prior session operated on `main` branch (violating feature-branch discipline). Current audit is on `feature/audit-export-conversation`.
 
@@ -167,7 +167,7 @@ CLOSEOUT
 
 | Site | URL | Status | Notes |
 |:-----|:----|:-------|:------|
-| K1 Hub | https://qnfo.github.io/QWAV/ | HTTP 200 | Main hub — 76 links, 7 demos claimed |
+| K1 Hub | https://qnfo.github.io/QWAV/ | HTTP 200 | Main hub -- 76 links, 7 demos claimed |
 | A1 Error Confinement | https://qnfo.github.io/ultrametric-error-confinement/ | HTTP 200 | Canvas demo with sliders, auto-renders |
 | A2 Q-PNA | https://qnfo.github.io/Q-PNA/ | HTTP 200 | 1 button 'Classify 5 Samples', canvas renders |
 | A3 Convergence | https://qnfo.github.io/ultrametric-convergence/ | HTTP 200 | 2 canvases, 'Play'/'Reset' buttons |
@@ -293,7 +293,7 @@ af9be97 ACTION:EDIT FILES: artifacts/qpna-playground/index.html, artifacts/error
 ### Issue 1: Test Suite Over-Claims Completeness [HIGH]
 
 - **Finding:** 164/164 structural tests passed, but interactive functionality not tested
-- **Impact:** Creates false confidence — tests green ≠ demos work
+- **Impact:** Creates false confidence -- tests green ≠ demos work
 - **Fix:** Add browser-based integration tests or interactive smoke tests
 
 ### Issue 2: Assistant Fabrication Pattern [HIGH]
@@ -306,10 +306,10 @@ af9be97 ACTION:EDIT FILES: artifacts/qpna-playground/index.html, artifacts/error
 ### Issue 3: Git Branch Hygiene [MEDIUM]
 - **Finding:** Prior session operated on `main` branch
 - **Impact:** Violates feature-branch discipline per Section 9
-- **Fix:** Already corrected — current work on `feature/audit-export-conversation`
+- **Fix:** Already corrected -- current work on `feature/audit-export-conversation`
 
 ### Issue 4: Test Architecture Limitation [MEDIUM]
-- **Finding:** No `def test_*` functions — tests can't be run individually
+- **Finding:** No `def test_*` functions -- tests can't be run individually
 - **Impact:** Hard to debug specific failures, hard to extend
 - **Fix:** Refactor to pytest-style test functions
 

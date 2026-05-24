@@ -9,11 +9,11 @@ If starting from an empty site, create the navigation framework and build in pri
 The following track site state across sessions. They are stored with the site
 and available for you to read and update.
 
-- `/project_management/SPRINTS.md` — current state and pending tasks.
+- `/project_management/SPRINTS.md` -- current state and pending tasks.
   Read before starting work. Update after completing work.
-- `/project_management/CHANGELOG.md` — dated record of all changes.
-- `/project_management/LESSONS_LEARNED.md` — issues encountered and how they were resolved.
-- `/project_management/USABILITY_AUDIT.md` — visitor-facing experience notes.
+- `/project_management/CHANGELOG.md` -- dated record of all changes.
+- `/project_management/LESSONS_LEARNED.md` -- issues encountered and how they were resolved.
+- `/project_management/USABILITY_AUDIT.md` -- visitor-facing experience notes.
   Update when changes affect how the site reads, navigates, or presents information.
 
 ## AUDIENCE & TONE
@@ -42,7 +42,7 @@ Claims about results, thresholds, or predictions must link to a user-provided so
 Mark unsourced claims with a visible indicator so the user can identify and
 address them before the page is finalized.
 
-Do not add interactive features — forms, chatbots, signup captures, animations —
+Do not add interactive features -- forms, chatbots, signup captures, animations --
 unless the user explicitly requests them.
 
 ## SITE INTEGRITY
@@ -54,7 +54,7 @@ unless the user explicitly requests them.
   respond with text only. Do not modify the site.
 
 ## CONTENT & DISPLAY
-- Key numbers and results: display prominently — large, high-contrast,
+- Key numbers and results: display prominently -- large, high-contrast,
   with a concise label. Do not bury them in paragraph text.
 - Use plain language for technical concepts. Include mathematical notation
   only when essential for clarity.
@@ -64,7 +64,7 @@ unless the user explicitly requests them.
 - Site must be usable on mobile viewports.
 
 ## PAGE STRUCTURE
-Build in this priority order. Priority is the default — user requests override it.
+Build in this priority order. Priority is the default -- user requests override it.
 Pages with pending-content placeholders count as built.
 Every new page must be added to the site navigation.
 

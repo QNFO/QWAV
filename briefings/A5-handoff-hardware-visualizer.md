@@ -1,6 +1,6 @@
-# HANDOFF — A5: Hardware Pathway Visualizer
+# HANDOFF -- A5: Hardware Pathway Visualizer
 
-**Type:** Program→Project — Interactive Artifact Build (D13)
+**Type:** Program→Project -- Interactive Artifact Build (D13)
 **Sessions:** 1 | **Deploy:** QNFO.github.io/hardware-pathway/ | **Reference:** Symmetric Extension DOI: 10.5281/zenodo.20208437 §Hardware Specification
 
 ## What to Build
@@ -19,14 +19,14 @@ Interactive 3D (or 2.5D isometric) visualization of the 40-atom neutral atom lay
 ## Technical
 - Single HTML + CSS + vanilla JS + Three.js (or Canvas-based isometric)
 - Fixed layout (40 positions are pre-computed from the tree geometry)
-- Interactive rotation and zoom only — no simulation, just visualization
+- Interactive rotation and zoom only -- no simulation, just visualization
 - Three.js can be loaded from CDN for 3D; Canvas 2D isometric is simpler and faster
 
 ## Design
 - Dark background. Atoms as glowing spheres at tree vertices
 - Wireframe or translucent edges showing the tree structure
 - "40 atoms" prominent
-- Minimal UI — just the tree and a few toggles
+- Minimal UI -- just the tree and a few toggles
 
 ## DoD
 WEB APP TASK gates per DEFINITION-OF-DONE.md

@@ -1,5 +1,5 @@
 """
-QWAV Artifact Test Suite — unittest (Refactored from sequential script)
+QWAV Artifact Test Suite -- unittest (Refactored from sequential script)
 ======================================================================
 Refactored per Sprint 14 / Audit Recommendation #2.
 Converts the sequential check() script into individual test methods
@@ -22,7 +22,7 @@ import urllib.request
 import hashlib
 
 # ============================================================
-# Constants — artifact paths and deployed URLs
+# Constants -- artifact paths and deployed URLs
 # ============================================================
 
 ARTIFACT_PATHS = {
@@ -375,7 +375,7 @@ class TestDeployedLocalSync(unittest.TestCase):
                 deployed_size = len(self.deployed[name])
                 diff_pct = abs(local_size - deployed_size) / max(local_size, 1) * 100
                 self.assertLess(diff_pct, 10,
-                                f"{name}: Size mismatch — local: {local_size:,}, deployed: {deployed_size:,} ({diff_pct:.1f}% diff)")
+                                f"{name}: Size mismatch -- local: {local_size:,}, deployed: {deployed_size:,} ({diff_pct:.1f}% diff)")
 
 
 # ============================================================
@@ -439,7 +439,7 @@ class TestK1Structural(unittest.TestCase):
         deployed_size = len(self.k1_deployed)
         diff_pct = abs(local_size - deployed_size) / max(local_size, 1) * 100
         self.assertLess(diff_pct, 5,
-                        f"K1: Deployed != Source — local: {local_size:,}, deployed: {deployed_size:,} ({diff_pct:.1f}% diff)")
+                        f"K1: Deployed != Source -- local: {local_size:,}, deployed: {deployed_size:,} ({diff_pct:.1f}% diff)")
 
     def test_suite6_k1_has_navigation(self):
         """K1 hub has at least 20 navigation links."""
@@ -524,7 +524,7 @@ class TestCrossReferenceIntegrity(unittest.TestCase):
 
 
 # ============================================================
-# Main — run all suites
+# Main -- run all suites
 # ============================================================
 
 if __name__ == '__main__':

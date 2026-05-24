@@ -6,17 +6,17 @@
 
 I investigate the fundamentals of reality at the intersection of physics,
 information theory, philosophy of science, and artificial intelligence.
-My work is organized under two umbrellas — an institutional home for
+My work is organized under two umbrellas -- an institutional home for
 non-commercial research, and a personal portfolio for exploratory work.
 
 ---
 
-## QNFO — Scientific Research Incubator
+## QNFO -- Scientific Research Incubator
 
 **[github.com/QNFO](https://github.com/QNFO)** is my institutional research
 identity under [Empowering Change](https://empoweringchange.org) (501c3).
 All QNFO work is governed by the
-[QNFO Content License Agreement v1.1](https://github.com/QNFO/license) —
+[QNFO Content License Agreement v1.1](https://github.com/QNFO/license) --
 non-commercial use only, attribution required.
 
 ### Flagship Initiative
@@ -27,15 +27,15 @@ non-commercial use only, attribution required.
 
 ### Other QNFO Initiatives
 
-- **[Q-PNA](https://github.com/QNFO/Q-PNA)** — Quantum-Native p-Adic Neural Architecture
-- **Amsa** — Global Knowledge Utility Platform (in development)
-- **Foundational Theory** — Informational universe frameworks
+- **[Q-PNA](https://github.com/QNFO/Q-PNA)** -- Quantum-Native p-Adic Neural Architecture
+- **Amsa** -- Global Knowledge Utility Platform (in development)
+- **Foundational Theory** -- Informational universe frameworks
 
 ---
 
-## rwnq8 — Personal Research Portfolio
+## rwnq8 -- Personal Research Portfolio
 
-This account hosts my personal research explorations — earlier works, conceptual
+This account hosts my personal research explorations -- earlier works, conceptual
 drafts, and experimental projects that inform but are distinct from the QNFO
 institutional portfolio. All repositories here carry the same
 [QNFO License](https://github.com/QNFO/license) and

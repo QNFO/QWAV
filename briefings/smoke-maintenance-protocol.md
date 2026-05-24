@@ -1,7 +1,7 @@
 # Smoke Test Maintenance Protocol
 
 > **Purpose:** Scheduled verification that all QWAV artifacts remain functional.
-> **Last verified:** 2026-05-24 — 102/102 PASS
+> **Last verified:** 2026-05-24 -- 102/102 PASS
 > **Sprint:** 22 (automation)
 
 ---
@@ -35,10 +35,10 @@ python test_smoke.py
 
 ## What to Check
 
-1. **All 102 tests pass** — no regressions
-2. **No JavaScript errors** — browser console clean
-3. **All artifact URLs resolve** — GitHub Pages healthy
-4. **No CDN dependencies** — all artifacts self-contained
+1. **All 102 tests pass** -- no regressions
+2. **No JavaScript errors** -- browser console clean
+3. **All artifact URLs resolve** -- GitHub Pages healthy
+4. **No CDN dependencies** -- all artifacts self-contained
 
 ## Failure Response
 
@@ -52,4 +52,4 @@ python test_smoke.py
 
 | Date | Result | Notes |
 |:-----|:-------|:------|
-| 2026-05-24 | 102/102 PASS | Sprint 22 — automation implemented |
+| 2026-05-24 | 102/102 PASS | Sprint 22 -- automation implemented |

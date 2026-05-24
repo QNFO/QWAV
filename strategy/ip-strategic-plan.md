@@ -1,12 +1,12 @@
-# IP Strategic Plan — QWAV Intellectual Property & Patent Portfolio
+# IP Strategic Plan -- QWAV Intellectual Property & Patent Portfolio
 
 **Version:** 1.0
 **Date:** 2026-05-11
-**Purpose:** Complete strategic plan for inventorying, organizing, assessing, and filing intellectual property related to QWAV. Self-contained document — hand this to a fresh chat thread and say "execute the plan."
+**Purpose:** Complete strategic plan for inventorying, organizing, assessing, and filing intellectual property related to QWAV. Self-contained document -- hand this to a fresh chat thread and say "execute the plan."
 
 ---
 
-## 0. For the Next LLM Agent — Read This First
+## 0. For the Next LLM Agent -- Read This First
 
 **Your task:** Execute the step-by-step plan in Section 4 to inventory, organize, and assess the patent portfolio at `G:\My Drive\Patents\`.
 
@@ -14,7 +14,7 @@
 
 1. **NEVER use `Move-Item` with `-Force -ErrorAction SilentlyContinue`.** This combination lost concept directories in the previous session. Use `Copy-Item` to a safe location first, verify the copy, then `Remove-Item` the original. Or just reorganize in-place by renaming directories.
 
-2. **NEVER assume filing dates or jurisdictions from directory names.** Read the actual documents. The previous agent incorrectly assumed 2024 filing dates and Canadian filings — the founder confirms no 2024 filings and all were US.
+2. **NEVER assume filing dates or jurisdictions from directory names.** Read the actual documents. The previous agent incorrectly assumed 2024 filing dates and Canadian filings -- the founder confirms no 2024 filings and all were US.
 
 3. **NEVER recommend filing a mathematical framework as a provisional patent.** Mathematical formulas, abstract ideas, and laws of nature are not patentable under 35 U.S.C. § 101. Only recommend filing for concepts with specific, novel technical implementations that solve concrete technical problems.
 
@@ -82,10 +82,10 @@ During the 2026-05-11 reorganization attempt, the following concept directories 
 | ~10 other concept directories | ⭐ | Low priority |
 
 **Recovery priority order:**
-1. Geometric Attention Networks (most commercially viable — Q-PNA mechanism)
-2. Bruhat-Tits Quantum Processor (UQC hardware — QWAV quantum pillar)
+1. Geometric Attention Networks (most commercially viable -- Q-PNA mechanism)
+2. Bruhat-Tits Quantum Processor (UQC hardware -- QWAV quantum pillar)
 3. Spin and Magnetization (topological QC connection with experimental data)
-4. QBT (quantum Bayesian formalism — merge into Geometric Attention as dependent claims)
+4. QBT (quantum Bayesian formalism -- merge into Geometric Attention as dependent claims)
 
 **Search locations:** `G:\My Drive\Obsidian\releases\`, ResearchGate, Zenodo, SSRN, `_ARCHIVE` directory.
 
@@ -97,15 +97,15 @@ Based on the documents found and the founder's confirmation:
 |:-------|:-----|:-----|:-------|:------|
 | **ALL non-provisional filings** | Non-provisional | Various | ❌ Rejected or Abandoned | Founder confirms |
 | **Past provisionals** | US Provisional | Pre-2025 | ⏰ Expired | $325 each, 12-month window expired |
-| **Current active filings** | — | — | **None** | Nothing currently active at USPTO |
+| **Current active filings** | -- | -- | **None** | Nothing currently active at USPTO |
 
-**Key finding:** The "FILED APPLICATION MATERIALS ONLY" directory contains draft packages — not confirmed USPTO filings. Most packages lack formal Specification, Claims, and Abstract documents. The "Cover Letters" found are Obsidian-generated PDF coversheets, not USPTO filing receipts. No office actions, examiner correspondence, or serial number confirmations were found.
+**Key finding:** The "FILED APPLICATION MATERIALS ONLY" directory contains draft packages -- not confirmed USPTO filings. Most packages lack formal Specification, Claims, and Abstract documents. The "Cover Letters" found are Obsidian-generated PDF coversheets, not USPTO filing receipts. No office actions, examiner correspondence, or serial number confirmations were found.
 
 **The most likely interpretation:** These are well-organized draft packages prepared for potential filing. Some may have been filed and the filing receipts are stored elsewhere. The founder should verify whether any of these packages were actually submitted to the USPTO Patent Center.
 
 ---
 
-## 2. The 25 Draft Packages — Quick Inventory
+## 2. The 25 Draft Packages -- Quick Inventory
 
 ### 2.1 Package Inventory (from FILED APPLICATION MATERIALS ONLY/2025/)
 
@@ -121,7 +121,7 @@ Based on the documents found and the founder's confirmation:
 | 8 | Systems and Methods for Topolgical Computing | 38 | None | "Topolgical" (typo). Subdirs: Computation, TOPOLOGICAL QUANTUM |
 | 9 | Topological Quantum Computation (Number-Theoretic) | 24 | None | **p-adic / number theory connection to QWAV.** Versioned drafts (0.0.1→0.3.2) |
 | 10 | 20250719-2 | 23 | None | July 2025 draft |
-| 11 | 2025-11 HIGH-TEMPERATURE TOPOLOGICAL QUANTUM PROCESSING | 20 | ADS | **4K operation, chiral symmetry — QWAV-relevant** |
+| 11 | 2025-11 HIGH-TEMPERATURE TOPOLOGICAL QUANTUM PROCESSING | 20 | ADS | **4K operation, chiral symmetry -- QWAV-relevant** |
 | 12 | 20250719-1 | 17 | None | July 2025 draft |
 | 13 | Analog Quantum Observation (Non-Collapsing Probabilistic States) | 16 | 2 ADS | Non-collapsing measurement |
 | 14 | QUANTUM RESONANCE COMPUTING SYSTEMS | 14 | None | QRC concept |
@@ -135,7 +135,7 @@ Based on the documents found and the founder's confirmation:
 | 22 | Resonant Field Computing | 4 | None | Tiny |
 | 23 | Liquid-Shielded Quantum Device | 4 | ADS | Tiny |
 | 24 | Controlled Decoherence | 2 | None | Tiny |
-| 25 | [26 loose files at 2025/ root] | 26 | N/A | Loose files — need sorting |
+| 25 | [26 loose files at 2025/ root] | 26 | N/A | Loose files -- need sorting |
 
 ### 2.2 Formal Document Status
 
@@ -155,29 +155,29 @@ Based on the documents found and the founder's confirmation:
 
 ### 3.1 How Patents Strengthen QWAV
 
-QWAV has two pillars — quantum (passive fault tolerance via UQC) and AI (glass-box explainability via Q-PNA). Patents on specific implementations of these pillars provide:
+QWAV has two pillars -- quantum (passive fault tolerance via UQC) and AI (glass-box explainability via Q-PNA). Patents on specific implementations of these pillars provide:
 
 1. **Defensibility:** If QWAV's thesis is correct, patents prevent others from implementing ultrametric architectures without licensing
 2. **Licensing revenue:** The IP-Only Licensing Strategy (Strategy B) depends on a defensible patent portfolio
 3. **Credibility:** Filed patents signal seriousness to investors, collaborators, and fellowship reviewers
-4. **Priority date:** Filing a provisional establishes a priority date — critical if the ultrametric paradigm gains traction
+4. **Priority date:** Filing a provisional establishes a priority date -- critical if the ultrametric paradigm gains traction
 
 ### 3.2 Which Draft Packages Align with QWAV
 
 | Draft Package | QWAV Connection | Strength |
 |:--------------|:----------------|:---------|
-| Topological Quantum Computation (Number-Theoretic) | p-adic / number theory methods — directly QWAV-relevant | ⭐⭐⭐ |
-| 2025-11 HIGH-TEMPERATURE TOPOLOGICAL QUANTUM PROCESSING | 4K operation — QWAV's thermodynamic wall solution | ⭐⭐⭐ |
+| Topological Quantum Computation (Number-Theoretic) | p-adic / number theory methods -- directly QWAV-relevant | ⭐⭐⭐ |
+| 2025-11 HIGH-TEMPERATURE TOPOLOGICAL QUANTUM PROCESSING | 4K operation -- QWAV's thermodynamic wall solution | ⭐⭐⭐ |
 | QUANTUM RESONANCE COMPUTING SYSTEMS | QRC is QWAV's alternative quantum paradigm | ⭐⭐⭐ |
 | 63940352 QUANTUM COMPUTING SYSTEMS | Includes Twistronic Gap Engineering (quantum) + Liquid Helium (cooling) | ⭐⭐⭐ |
 | TOPOLOGICAL COMPUTING SYSTEMS | Topological QC is adjacent to ultrametric QC | ⭐⭐ |
-| Wave-Based Computational Systems | Only package with specification — most developed | ⭐⭐ |
+| Wave-Based Computational Systems | Only package with specification -- most developed | ⭐⭐ |
 
 ### 3.3 Lost Concepts That Directly Strengthen QWAV
 
 | Lost Concept | QWAV Pillar | Recovery Priority |
 |:-------------|:------------|:------------------|
-| Geometric Attention Networks | AI (Q-PNA mechanism) | **URGENT — highest commercial value** |
+| Geometric Attention Networks | AI (Q-PNA mechanism) | **URGENT -- highest commercial value** |
 | Bruhat-Tits Quantum Processor | Quantum (UQC hardware) | **URGENT** |
 | Spin and Magnetization | Quantum (topological QC connection) | High |
 | QBT (Quantum Bayesian Theory) | Cross-cutting (math foundation) | Medium |
@@ -198,7 +198,7 @@ Get-ChildItem "G:\My Drive\Patents" -Recurse -File | Measure-Object | Select-Obj
 # 1b. Directory-by-directory file count
 Get-ChildItem "G:\My Drive\Patents\FILED APPLICATION MATERIALS ONLY\2025" -Directory | ForEach-Object {
     $count = (Get-ChildItem $_.FullName -Recurse -File | Measure-Object).Count
-    Write-Output "$count files — $($_.Name)"
+    Write-Output "$count files -- $($_.Name)"
 }
 
 # 1c. Find all formal patent documents
@@ -210,7 +210,7 @@ Get-ChildItem "G:\My Drive\Patents" -Recurse -File | Where-Object {
 Get-ChildItem "G:\My Drive\Patents" -Recurse -File | Select-Object FullName, @{N='KB';E={[math]::Round($_.Length/1KB,1)}}, @{N='Date';E={$_.LastWriteTime.ToString('yyyy-MM-dd')}} | Sort-Object FullName | Export-Csv "G:\My Drive\Patents\_INVENTORY.csv" -NoTypeInformation
 ```
 
-**Output:** `_INVENTORY.csv` — complete file listing with sizes and dates.
+**Output:** `_INVENTORY.csv` -- complete file listing with sizes and dates.
 
 ### STEP 2: Read and Assess Each Package (3-4 hours)
 
@@ -234,7 +234,7 @@ Get-Content "G:\My Drive\Patents\FILED APPLICATION MATERIALS ONLY\2025\[PACKAGE_
 **Priority read order** (largest/most developed first):
 1. 63940352 QUANTUM COMPUTING SYSTEMS (190 files)
 2. SYSTEMS AND METHODS FOR PHOTONIC COMPUTING (142 files)
-3. Various Computing Systems 2025-10-05 (114 files — most formal)
+3. Various Computing Systems 2025-10-05 (114 files -- most formal)
 4. 2025-12-02 Quantum Info Processing & Photonics (99 files)
 5. Systems and Methods for Computing 2025-10-25 (93 files)
 6. Then all others in descending file count order
@@ -338,11 +338,11 @@ Get-ChildItem "G:\My Drive" -Directory -Filter "*Geometric Attention*" -Recurse 
 
 **For each recommendation, document:**
 1. **Concept name** and which draft package it comes from
-2. **Specific technical implementation** (the patentable subject matter — not the math)
+2. **Specific technical implementation** (the patentable subject matter -- not the math)
 3. **Why it passes §101** (what specific hardware/process/method makes it patentable)
 4. **Commercial application** (who would license this and why)
 5. **QWAV connection** (how it strengthens QWAV's position)
-6. **Filing readiness** (what needs to be done before filing — estimated hours)
+6. **Filing readiness** (what needs to be done before filing -- estimated hours)
 7. **12-month conversion plan** (how will you convert this to non-provisional or PCT within 12 months?)
 8. **Estimated filing cost:** $325 per provisional
 
@@ -351,7 +351,7 @@ Get-ChildItem "G:\My Drive" -Directory -Filter "*Geometric Attention*" -Recurse 
 ### STEP 8: Maintain and Iterate
 
 **Quarterly actions:**
-1. Review DEVELOP concepts — promote to FILING-READY if they've matured
+1. Review DEVELOP concepts -- promote to FILING-READY if they've matured
 2. Check 12-month deadlines for any filed provisionals
 3. Update inventory with any new concepts developed
 4. Cross-reference with QWAV strategy updates
@@ -395,9 +395,9 @@ Is there a specific, novel TECHNICAL IMPLEMENTATION? (not just math)
 |:------|:-------|:---------|:---------|
 | Phase 1 | Inventory + Assessment (Steps 1-3) | $0 | 1-2 weeks |
 | Phase 2 | Reorganization + Recovery (Steps 4-5) | $0 | 1 week |
-| Phase 3 | File 1-2 US provisionals | $325–$650 | Month 1-2 |
+| Phase 3 | File 1-2 US provisionals | $325-$650 | Month 1-2 |
 | Phase 4 | Develop remaining concepts | $0 | Months 3-12 |
-| Phase 5 | Convert provisionals (if validated) | Attorney fees ($1K–$10K each) | Month 12 |
+| Phase 5 | Convert provisionals (if validated) | Attorney fees ($1K-$10K each) | Month 12 |
 
 **Total recommended spend in Year 1: $650 (2 provisionals). No non-provisional conversion without external funding.**
 
@@ -417,10 +417,10 @@ Before filing any provisional, answer:
 
 | If you file a patent on... | Update this QWAV document |
 |:---------------------------|:--------------------------|
-| Any quantum computing concept | `strategy/ip-strategic-plan.md` — add to active filings table |
-| Geometric Attention / AI architecture | `strategy/ip-only-licensing-strategy.md` — add to IP assets |
-| Ultrametric / p-adic methods | `strategy/external-sources.md` — add as primary source |
-| Any new filing | `SPRINT.md` — add to completed items; `CHANGELOG.md` — add entry |
+| Any quantum computing concept | `strategy/ip-strategic-plan.md` -- add to active filings table |
+| Geometric Attention / AI architecture | `strategy/ip-only-licensing-strategy.md` -- add to IP assets |
+| Ultrametric / p-adic methods | `strategy/external-sources.md` -- add as primary source |
+| Any new filing | `SPRINT.md` -- add to completed items; `CHANGELOG.md` -- add entry |
 | Any abandoned concept | Update inventory; remove from active tracking |
 
 ### 7.2 QWAV Documents → Patent Concepts
@@ -447,7 +447,7 @@ A: Probably not. They were rejected for a reason. If the underlying concept is s
 A: NOT until you have external funding or a clear licensing pathway. PCT filings cost thousands in filing fees + translations + national phase entry. US provisionals ($325) are the only cost-effective option for now.
 
 **Q: How do I know if a concept is "developed enough" to file?**
-A: Can you answer: (1) What specific thing does it do? (2) How does it do it? (3) What problem does it solve? (4) Who would pay for it? If you can answer all four with specificity, it's developed enough. If any answer is "it's a framework for..." — it's not.
+A: Can you answer: (1) What specific thing does it do? (2) How does it do it? (3) What problem does it solve? (4) Who would pay for it? If you can answer all four with specificity, it's developed enough. If any answer is "it's a framework for..." -- it's not.
 
 **Q: What if Geometric Attention Networks is lost forever?**
 A: Recreate it from QWAV's published materials. The Q-PNA architecture is described in the Technical Deep-Dive and QA modules. The Tier 0 simulation demonstrates the core mechanism. A new draft incorporating the computational validation data would be stronger than the original.
@@ -460,9 +460,9 @@ A: Recreate it from QWAV's published materials. The Q-PNA architecture is descri
 
 | Priority | File | Why |
 |:---------|:-----|:----|
-| 1 | `63940352 QUANTUM COMPUTING SYSTEMS 2025-12-14/` — all 4 sub-concepts | Largest package, most developed |
-| 2 | `Various Computing Systems and Methods 2025-10-05/` — cover letter + subdirs | Most formal package |
-| 3 | `WAVE-BASED COMPUTATIONAL SYSTEMS/` — specification | Only package with actual specification |
+| 1 | `63940352 QUANTUM COMPUTING SYSTEMS 2025-12-14/` -- all 4 sub-concepts | Largest package, most developed |
+| 2 | `Various Computing Systems and Methods 2025-10-05/` -- cover letter + subdirs | Most formal package |
+| 3 | `WAVE-BASED COMPUTATIONAL SYSTEMS/` -- specification | Only package with actual specification |
 | 4 | `2025-11 HIGH-TEMPERATURE TOPOLOGICAL QUANTUM PROCESSING/` | QWAV-relevant (4K operation) |
 | 5 | `Topological Quantum Computation Using Number-Theoretic/` | QWAV-relevant (p-adic/number theory) |
 
@@ -476,4 +476,4 @@ A: Recreate it from QWAV's published materials. The Q-PNA architecture is descri
 
 ---
 
-*Plan v1.0 — 2026-05-11. Hand this document to a fresh LLM chat thread with the instruction "Execute the IP Strategic Plan at G:\My Drive\Patents." The plan is self-contained — no additional context needed.*
+*Plan v1.0 -- 2026-05-11. Hand this document to a fresh LLM chat thread with the instruction "Execute the IP Strategic Plan at G:\My Drive\Patents." The plan is self-contained -- no additional context needed.*

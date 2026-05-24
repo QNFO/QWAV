@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <link rel="canonical" href="https://qnfo.github.io/Q-PNA/">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Q-PNA Architecture Explorer — QWAV</title>
+<title>Q-PNA Architecture Explorer -- QWAV</title>
 <meta name="description" content="Explore the Q-PNA architecture: how Bruhat-Tits tree geometry enables glass-box AI with traceable decision paths. Click leaves to trace classification decisions.">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -45,7 +45,7 @@ footer a{color:#818CF8;text-decoration:none;font-size:.75rem;margin:0 .75rem}
 <main>
 <div class="panel">
 <h2>How Q-PNA Works</h2>
-<p class="explainer"><strong>Q-PNA replaces continuous embedding spaces (&reals;ⁿ) with Bruhat-Tits tree geometry.</strong> Features are mapped to tree leaves via a learned linear transformation. Classification happens by walking the tree — every decision is traceable by construction.</p>
+<p class="explainer"><strong>Q-PNA replaces continuous embedding spaces (&reals;ⁿ) with Bruhat-Tits tree geometry.</strong> Features are mapped to tree leaves via a learned linear transformation. Classification happens by walking the tree -- every decision is traceable by construction.</p>
 <p class="explainer">This explorer demonstrates the <strong>architecture</strong>: a 4-ary tree with 4 class regions. Click <strong>Classify</strong> to simulate a feature vector being mapped to a leaf, then trace the decision path from root to leaf. Green = correct class. Yellow = wrong class but traceable.</p>
 <h2>Controls</h2>
 <button class="classify-btn" id="classifyBtn">Classify 5 Samples</button>
@@ -319,7 +319,7 @@ function handleLeafClick(e){
     html+=`<div class="step">→ <span class="node">node ${n.id}</span>: ${layerLabel} layer</div>`;
    }
   }
-  html+=`<div class="step" style="color:#6B7280;font-style:italic;padding-top:.5rem">This is a <strong>manually selected leaf</strong>. Every point on the tree has a fully traceable path to root — the definition of glass-box AI.</div>`;
+  html+=`<div class="step" style="color:#6B7280;font-style:italic;padding-top:.5rem">This is a <strong>manually selected leaf</strong>. Every point on the tree has a fully traceable path to root -- the definition of glass-box AI.</div>`;
   document.getElementById('decisionLog').innerHTML=html;
   drawTree(data, closest);
  }else{

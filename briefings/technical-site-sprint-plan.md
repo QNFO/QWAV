@@ -1,9 +1,9 @@
-# Technical Site Sprint Plan — qnfo.github.io/QWAV/
+# Technical Site Sprint Plan -- qnfo.github.io/QWAV/
 
 **Date:** 2026-05-22
 **From:** QWAV Strategy Program Manager
 **To:** Projects Agent
-**Priority:** 🔴 HIGH — qwav.tech marquee now links here. Site must deliver on the promise.
+**Priority:** 🔴 HIGH -- qwav.tech marquee now links here. Site must deliver on the promise.
 
 ---
 
@@ -12,12 +12,12 @@
 The qwav.tech marquee page now prominently links to `qnfo.github.io/QWAV/` as "Technical Site & Interactive Demos." Visitors who click through are looking for depth. Currently the site is:
 
 - ✅ Clean thesis and publication list (from README)
-- ❌ Bare GitHub README rendering — no design, no visual hierarchy
+- ❌ Bare GitHub README rendering -- no design, no visual hierarchy
 - ❌ No interactive artifact directory (A1-A5 don't exist yet, but there's no placeholder structure)
 - ❌ No evidence deck (computational results are text-only, buried in paragraphs)
 - ❌ No research roadmap
 - ❌ No prior work catalog
-- ❌ No SEO metadata (title tag is generic "QWAV — Ultrametric Quantum Computing & AI | QWAV")
+- ❌ No SEO metadata (title tag is generic "QWAV -- Ultrametric Quantum Computing & AI | QWAV")
 - ❌ No cross-links to sibling artifacts
 
 **This sprint plan turns the README into a real technical hub.**
@@ -26,25 +26,25 @@ The qwav.tech marquee page now prominently links to `qnfo.github.io/QWAV/` as "T
 
 ## 1. PHASED BUILD PLAN
 
-### Phase 1: Foundation (Week 1 — ~5 sessions)
+### Phase 1: Foundation (Week 1 -- ~5 sessions)
 
 | Task | ID | What | Sessions | Depends On |
 |:-----|:--|:-----|:---------|:-----------|
-| **Polished landing page** | T1 | Replace bare README rendering with a proper HTML/CSS landing page. Single page, clean design. Geometric aesthetic matching the marquee but lighter-weight. Static HTML + CSS — no React, no framework. Everything in the QNFO/QWAV repo. | 2 | None |
+| **Polished landing page** | T1 | Replace bare README rendering with a proper HTML/CSS landing page. Single page, clean design. Geometric aesthetic matching the marquee but lighter-weight. Static HTML + CSS -- no React, no framework. Everything in the QNFO/QWAV repo. | 2 | None |
 | **Interactive artifact directory** | T2 | A section with cards for A1-A5. Each card: title, one-line description, status indicator (🔴 Coming Soon / 🟢 Live). Links to GitHub Pages URLs as artifacts deploy. Cards that aren't live yet are grayed out with "Coming June 2026." | 0.5 | T1 (needs the page structure) |
 | **SEO metadata + analytics** | T3 | `<title>`, `<meta description>`, Open Graph tags, Schema.org `ScholarlyArticle` for each publication, sitemap.xml, robots.txt. Google Analytics or Plausible tag (founder decision). | 0.5 | T1 |
 | **Evidence highlights section** | T4 | A visually distinct section pulling the key computational results out of paragraph text and into highlight cards: "Zero logical errors at depth 7," "48× error reduction at zero qubit cost," "40-atom neutral atom spec," "Q-PNA beats transformer 6.6×." Each card has a one-liner and links to the full paper DOI. | 1 | T1 |
 
-### Phase 2: Depth (Week 2-3 — ~5 sessions)
+### Phase 2: Depth (Week 2-3 -- ~5 sessions)
 
 | Task | ID | What | Sessions | Depends On |
 |:-----|:--|:-----|:---------|:-----------|
 | **Evidence Deck (K3)** | T5 | Scrollable, visual summary of ALL computational results. LER vs. depth charts. Scatter reduction plots. Concatenation redundancy data. Q-PNA benchmarks. STC verification results. Each chart has a caption, source paper DOI, and "how to reproduce" link. | 2 | T1, ultrametric_v2 data |
-| **Research Roadmap (K4)** | T6 | Public-facing forward agenda. What's being built now. What's next. Tier 2 computational validation (larger trees, more benchmarks). Q-PNA v3.0. New spinoffs. Timeline: NOW → Q3 2026 → Q4 2026 → 2027. Not a strategy document — a "here's where we're going" page that builds anticipation. | 1 | T1 |
+| **Research Roadmap (K4)** | T6 | Public-facing forward agenda. What's being built now. What's next. Tier 2 computational validation (larger trees, more benchmarks). Q-PNA v3.0. New spinoffs. Timeline: NOW → Q3 2026 → Q4 2026 → 2027. Not a strategy document -- a "here's where we're going" page that builds anticipation. | 1 | T1 |
 | **Link A1 live** | T7 | When A1 (Error Confinement Demo) deploys, update the artifact directory card from "Coming Soon" to "Live." Add the live URL. Update the evidence highlights if A1 produces new data. | 0.25 | A1 deployed |
 | **Intellectual Genealogy (K2)** | T8 | Curated timeline of 30 key publications from the 673-release corpus. Each entry: title, date, DOI, one-line relevance to QWAV's thesis. Organized chronologically. Shows the intellectual evolution. Added as a dedicated page or a long scroll section. | 1.5 | T1, Obsidian corpus access |
 
-### Phase 3: Integration (Week 4 — ~3 sessions)
+### Phase 3: Integration (Week 4 -- ~3 sessions)
 
 | Task | ID | What | Sessions | Depends On |
 |:-----|:--|:-----|:---------|:-----------|
@@ -98,27 +98,27 @@ T1 (landing page) ─┬─ T2 (artifact directory)
 - **Color palette:** Match the qwav.tech marquee (dark indigo `#0A1128`, light text `#E5E5E5`, indigo accent `#818CF8`). The technical site should feel like it belongs to the same program.
 - **Typography:** System font stack. No custom fonts (keeps it fast).
 - **Layout:** Single-page scroll with clear sections. Sticky nav. Section anchors.
-- **Hero element:** A Bruhat-Tits tree visualization (static SVG or canvas) — simpler than the marquee's hero but visually connected.
+- **Hero element:** A Bruhat-Tits tree visualization (static SVG or canvas) -- simpler than the marquee's hero but visually connected.
 
 ### Technical Constraints
 - **Static HTML + CSS + vanilla JS.** No React, no frameworks, no build step.
-- **Deployed from `QNFO/QWAV` repo** — the README.md becomes `index.html` (or the GitHub Pages config points to `docs/` or root).
-- **All assets local** — no CDN dependencies except maybe a Google Font or analytics tag.
-- **`.nojekyll` file at root** — GitHub Pages requirement.
-- **Mobile responsive** — must work on phones.
+- **Deployed from `QNFO/QWAV` repo** -- the README.md becomes `index.html` (or the GitHub Pages config points to `docs/` or root).
+- **All assets local** -- no CDN dependencies except maybe a Google Font or analytics tag.
+- **`.nojekyll` file at root** -- GitHub Pages requirement.
+- **Mobile responsive** -- must work on phones.
 - **Loads in under 2 seconds.**
 - **All links are absolute URLs** (DOIs, GitHub repos, artifact URLs).
 
 ### Content Rules
-- **No investor language.** This is the technical site — it's for researchers, developers, and people who clicked through from the marquee.
+- **No investor language.** This is the technical site -- it's for researchers, developers, and people who clicked through from the marquee.
 - **Every claim links to a DOI or GitHub repo.** No unsourced statements.
-- **"Solo deep-tech research program"** — correct framing. No "institute" cosplay.
+- **"Solo deep-tech research program"** -- correct framing. No "institute" cosplay.
 - **All 5 current publications listed** with DOI links, one-line key results, and GitHub links where available.
-- **"Coming Soon" cards are honest** — grayed out, clear status indicator. Don't promise what isn't built.
+- **"Coming Soon" cards are honest** -- grayed out, clear status indicator. Don't promise what isn't built.
 
 ---
 
-## 5. HANDOFF SPECIFICATIONS — Task-by-Task
+## 5. HANDOFF SPECIFICATIONS -- Task-by-Task
 
 ### T1: Polished Landing Page
 
@@ -128,17 +128,17 @@ T1 (landing page) ─┬─ T2 (artifact directory)
 **What to build:**
 1. Replace the bare Markdown rendering with a designed HTML page.
 2. Sections (in order):
-   - **Hero:** "QWAV — Ultrametric Quantum Computing & AI." One-paragraph thesis. Clean. Geometric SVG tree visual.
+   - **Hero:** "QWAV -- Ultrametric Quantum Computing & AI." One-paragraph thesis. Clean. Geometric SVG tree visual.
    - **Evidence Highlights:** 4 cards with key results (from T4 spec below).
    - **Publications:** Table/list with all 5 DOIs, dates, one-line key results, GitHub links.
-   - **Interactive Artifacts:** Card grid — 5 cards (A1-A5), grayed out with "Coming June 2026."
+   - **Interactive Artifacts:** Card grid -- 5 cards (A1-A5), grayed out with "Coming June 2026."
    - **Research Roadmap:** Forward-looking timeline (placeholder until T6).
    - **About:** Brief program description. Link to qwav.tech for full story.
    - **Footer:** GitHub, Zenodo, ORCID, contact, link back to qwav.tech.
 
 3. **Design reference:** The qwav.tech marquee page. The technical site should feel like it belongs to the same program but be lighter-weight and more text/content-focused.
 
-**Deliverable:** Single `index.html` file (with inline CSS — no external stylesheets needed for a single page). Push to `QNFO/QWAV` repo. GitHub Pages auto-deploys.
+**Deliverable:** Single `index.html` file (with inline CSS -- no external stylesheets needed for a single page). Push to `QNFO/QWAV` repo. GitHub Pages auto-deploys.
 
 ### T2: Interactive Artifact Directory
 
@@ -165,15 +165,15 @@ Five cards:
 4. Tree Distance Sandbox → `https://QNFO.github.io/tree-distance/`
 5. Hardware Pathway Visualizer → `https://QNFO.github.io/hardware-pathway/`
 
-When an artifact deploys, update the card: 🔴→🟢, "Coming Soon"→"Live — Try It →", make the card clickable.
+When an artifact deploys, update the card: 🔴→🟢, "Coming Soon"→"Live -- Try It →", make the card clickable.
 
 ### T3: SEO Metadata
 
 Add to `<head>`:
 ```html
-<title>QWAV — Ultrametric Quantum Computing & AI | Technical Site</title>
+<title>QWAV -- Ultrametric Quantum Computing & AI | Technical Site</title>
 <meta name="description" content="Technical site for QWAV: computational evidence, interactive demos, and open-access publications on ultrametric quantum computing and glass-box AI. Zero logical errors at depth 7. 48× error reduction.">
-<meta property="og:title" content="QWAV — Ultrametric Quantum Computing & AI">
+<meta property="og:title" content="QWAV -- Ultrametric Quantum Computing & AI">
 <meta property="og:description" content="Computational evidence, interactive demos, open-access publications.">
 <meta property="og:url" content="https://qnfo.github.io/QWAV/">
 <meta property="og:type" content="website">
@@ -190,18 +190,18 @@ Four cards in a visually distinct section:
 | Card | Text | Links To |
 |:-----|:-----|:---------|
 | Zero Logical Errors | "At depth 7 (2,187 leaves), ternary Bruhat-Tits tree encoding produces zero logical errors at physical error rates up to 40%." | DOI: `10.5281/zenodo.20208437` |
-| 48× Error Reduction | "Encoding one logical bit across q=128 leaves reduces logical error rate by 48× — zero additional qubit cost. Achieved by exploiting existing hyperfine levels." | DOI: `10.5281/zenodo.20208437` |
+| 48× Error Reduction | "Encoding one logical bit across q=128 leaves reduces logical error rate by 48× -- zero additional qubit cost. Achieved by exploiting existing hyperfine levels." | DOI: `10.5281/zenodo.20208437` |
 | 40-Atom Hardware Spec | "Complete neutral atom hardware specification: ternary tree depth 3, Rydberg blockade gates, 4K operation. Within demonstrated experimental capabilities." | DOI: `10.5281/zenodo.20208437` |
 | Glass-Box AI | "Q-PNA linear mapping + cophenetic loss beats transformer 6.6× on hierarchical classification. STC verification: 100% detection, 0 false positives." | DOI: `10.5281/zenodo.20287742`, GitHub: `QNFO/Q-PNA` |
 
 ### T5: Evidence Deck (K3)
 
 A scrollable section with:
-1. **LER vs. Depth chart** — p=2,3,5 across depths d=2-7. Physical error rate 10%, 20%, 40%. Interactive or static image with caption.
-2. **Scatter Reduction chart** — LER vs. q (scatter factor) at fixed depth. Shows 48× drop.
-3. **Concatenation Redundancy chart** — LER with and without surface code / Steane code. Shows zero benefit.
-4. **Q-PNA Benchmark table** — Accuracy comparison: LinMap vs. transformer vs. baselines.
-5. **STC Verification table** — Detection rate, false positive rate.
+1. **LER vs. Depth chart** -- p=2,3,5 across depths d=2-7. Physical error rate 10%, 20%, 40%. Interactive or static image with caption.
+2. **Scatter Reduction chart** -- LER vs. q (scatter factor) at fixed depth. Shows 48× drop.
+3. **Concatenation Redundancy chart** -- LER with and without surface code / Steane code. Shows zero benefit.
+4. **Q-PNA Benchmark table** -- Accuracy comparison: LinMap vs. transformer vs. baselines.
+5. **STC Verification table** -- Detection rate, false positive rate.
 
 Each chart/figure: caption, source paper DOI link, "how to reproduce" (link to GitHub code).
 
@@ -240,19 +240,19 @@ Each item links to relevant DOI or GitHub repo. Honest about what's planned vs. 
 A curated timeline of 30 key publications from the 673-release corpus. Each entry:
 
 ```
-2024 — Adelic Constraints on Quantum Field Theory (Phase 1-3)
+2024 -- Adelic Constraints on Quantum Field Theory (Phase 1-3)
   DOI: [doi]
   Relevance: First systematic application of p-adic mathematics to QFT. 
   Established the pattern: number-theoretic constraints on physical theory.
 
-2025 — Bruhat-Tits Quantum Processor
+2025 -- Bruhat-Tits Quantum Processor
   DOI: 10.5281/zenodo.20109835
   Relevance: First explicit proposal for Bruhat-Tits tree as quantum 
   computing substrate. Precursor to Tier 0 validation.
 
 [... 28 more entries ...]
 
-2026 — Symmetric Extension of Ultrametric Error Confinement
+2026 -- Symmetric Extension of Ultrametric Error Confinement
   DOI: 10.5281/zenodo.20208437
   Relevance: Tier 1 computational validation. Zero logical errors at 
   depth 7. Current state of the art for QWAV quantum computing.

@@ -1,8 +1,8 @@
-# P11 collaborator — Meet-and-Greet Agenda
+# P11 collaborator -- Meet-and-Greet Agenda
 
 **Date:** May 2026
-**Primary Contact:** P11 collaborator — [redacted]
-**Website:** https://www.[redacted].io — “Paper → Proof → Code”
+**Primary Contact:** P11 collaborator -- [redacted]
+**Website:** https://www.[redacted].io -- “Paper → Proof → Code”
 
 ---
 
@@ -11,10 +11,10 @@
 Explore formal verification of core QWAV claims in Lean 4:
 
 1. **The strong triangle inequality produces passive error confinement** in Bruhat-Tits tree encodings
-2. **A threshold theorem for ultrametric quantum error correction** — analogous to the surface code threshold theorem, but geometric rather than measurement-based
-3. **Energy barrier scaling** — exponential growth with tree depth
+2. **A threshold theorem for ultrametric quantum error correction** -- analogous to the surface code threshold theorem, but geometric rather than measurement-based
+3. **Energy barrier scaling** -- exponential growth with tree depth
 
-A Lean proof that type-checks is unassailable — no reviewer, no gatekeeper.
+A Lean proof that type-checks is unassailable -- no reviewer, no gatekeeper.
 
 ---
 
@@ -28,7 +28,7 @@ Based on your email proposal, three shapes on the table:
 | **2** | **Ultrametric triangulation** | Three-way program: QWAV p-adic + Veselov subspace lattices + HeytingLean topos |
 | **3** | **Position paper** | Substrate computation: LoF-to-physics bridge |
 
-Shape #1 seems like the natural starting point — concrete, scoped, produces a verifiable artifact.
+Shape #1 seems like the natural starting point -- concrete, scoped, produces a verifiable artifact.
 
 ---
 
@@ -70,7 +70,7 @@ This is formally verifiable (trees and probability bounds are definable in Lean)
 
 **Output:** Co-authored paper + Lean repository (arXiv/Zenodo).
 
-**Timeline:** 2–3 months for first theorem. Each additional claim is a new module.
+**Timeline:** 2-3 months for first theorem. Each additional claim is a new module.
 
 **Roles:**
 - **Rowan:** Provide mathematical claims, tree structure definitions, error model specifications, experimental parameter references

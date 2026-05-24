@@ -1,5 +1,5 @@
 """
-QWAV SMOKE TESTS — Browser-Level Functionality Checks
+QWAV SMOKE TESTS -- Browser-Level Functionality Checks
 ======================================================
 Complements test_all_artifacts.py (structural tests) with
 interactive functionality checks via HTTP + content heuristics.
@@ -102,7 +102,7 @@ for key, art in artifacts.items():
     if status == 200 and html:
         check(True, f"{key} ({art['name']}): Live (HTTP 200, {len(html):,} bytes)")
     else:
-        check(False, f"{key} ({art['name']}): HTTP {status} — OFFLINE")
+        check(False, f"{key} ({art['name']}): HTTP {status} -- OFFLINE")
 
 # ============================================================
 section("SUITE 2: JAVASCRIPT EXECUTION CAPABILITY")
@@ -286,7 +286,7 @@ for key, art in artifacts.items():
     
     check(len(found_stale) == 0,
           f"{key}: No stale/dead code patterns" + 
-          (f" — FOUND: {', '.join(found_stale)}" if found_stale else ""))
+          (f" -- FOUND: {', '.join(found_stale)}" if found_stale else ""))
 
 # ============================================================
 section("SUITE 7: K1 HUB SPECIFIC CHECKS")
@@ -310,7 +310,7 @@ if html:
     check('demo' in html.lower() or 'interactive' in html.lower(), 
           "K1: Has demo/interactive section")
 else:
-    check(False, "K1: Cannot fetch — critical failure")
+    check(False, "K1: Cannot fetch -- critical failure")
 
 # ============================================================
 section("SUITE 8: RESPONSE TIME (Performance)")
@@ -349,17 +349,17 @@ for key, art in artifacts.items():
     for pat_name, (pattern, desc) in error_patterns.items():
         count = len(re.findall(pattern, all_js, re.IGNORECASE))
         check(count == 0, f"{key}: No {pat_name}() calls ({desc})" + 
-              (f" — found {count}" if count > 0 else ""))
+              (f" -- found {count}" if count > 0 else ""))
     
     # Check for empty catch blocks (silent error swallowing)
     empty_catches = len(re.findall(r'catch\s*\([^)]*\)\s*\{\s*\}', all_js))
     check(empty_catches == 0, f"{key}: No empty catch blocks (silent error swallowing)" +
-          (f" — found {empty_catches}" if empty_catches > 0 else ""))
+          (f" -- found {empty_catches}" if empty_catches > 0 else ""))
     
     # Check innerHTML usage (risky for XSS, should prefer textContent)
     inner_html_count = len(re.findall(r'\.innerHTML\s*=', all_js))
     check(inner_html_count <= 3, f"{key}: innerHTML usage within limits ({inner_html_count}/3)" +
-          ("" if inner_html_count <= 3 else f" — EXCESSIVE: {inner_html_count} uses"))
+          ("" if inner_html_count <= 3 else f" -- EXCESSIVE: {inner_html_count} uses"))
     
     # Check async operations have error handling
     fetch_calls = len(re.findall(r'fetch\(', all_js))

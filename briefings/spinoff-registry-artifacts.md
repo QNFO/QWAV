@@ -1,7 +1,7 @@
-# QWAV Spinoff Registry — Interactive Artifacts (A1-A5)
+# QWAV Spinoff Registry -- Interactive Artifacts (A1-A5)
 
 **Date:** 2026-05-22
-**Type:** Program→Project — 5 interactive artifact deployments
+**Type:** Program→Project -- 5 interactive artifact deployments
 
 ---
 
@@ -17,12 +17,12 @@
 
 ## What's In Each Project
 
-- `index.html` — Complete interactive artifact (single file, vanilla JS)
-- `.nojekyll` — GitHub Pages requirement
-- `README.md` — Project overview and deploy instructions
-- `PROJECT STATE.md` — Current status
-- `SPRINT.md` — Task tracker
-- `.gitignore` — Standard ignores
+- `index.html` -- Complete interactive artifact (single file, vanilla JS)
+- `.nojekyll` -- GitHub Pages requirement
+- `README.md` -- Project overview and deploy instructions
+- `PROJECT STATE.md` -- Current status
+- `SPRINT.md` -- Task tracker
+- `.gitignore` -- Standard ignores
 - Initial git commit on `master`
 
 ## Next Action (Projects Agent)

@@ -1,4 +1,4 @@
-# ⚠️ DEPRECATED — See QNFO/.github README
+# ⚠️ DEPRECATED -- See QNFO/.github README
 
 **This file is superseded by the comprehensive QNFO README at:**
 - https://github.com/QNFO/.github/blob/master/README.md

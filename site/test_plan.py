@@ -1,5 +1,5 @@
 """
-Automated test suite for K1 — QWAV Technical Site Hub.
+Automated test suite for K1 -- QWAV Technical Site Hub.
 
 Validates:
   TEST 1: Core sections present
@@ -69,7 +69,7 @@ for label, (slug, desc) in artifact_urls.items():
 
 # ============================================================
 print(f"\n{'=' * 60}")
-print("TEST 3: DOI Links — Verified Format")
+print("TEST 3: DOI Links -- Verified Format")
 print("=" * 60)
 
 dois = re.findall(r'10\.5281/zenodo\.\d{8}', source)
@@ -123,7 +123,7 @@ own_domains = ['doi.org', 'qnfo.github.io', 'qwav.tech', 'zenodo.org', 'github.c
 all_own = all(any(domain in link.lower() for domain in own_domains) for link in external_links)
 check(all_own, "All external links go to own domains (doi, qnfo, qwav, zenodo, github, orcid)")
 
-# No CDN dependencies — everything is inline/self-contained
+# No CDN dependencies -- everything is inline/self-contained
 cdn_domains = ['cdn.jsdelivr.net', 'unpkg.com', 'cdnjs.cloudflare.com', 'fonts.googleapis.com',
                'fonts.gstatic.com', 'cdn.jsdelivr.net', 'use.fontawesome.com']
 no_cdn = not any(any(cdn in link for cdn in cdn_domains) for link in external_links)

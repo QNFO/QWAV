@@ -35,7 +35,7 @@ boundaries, messaging, and relationship between them.
 
 ---
 
-## 1. QNFO — The Institution
+## 1. QNFO -- The Institution
 
 ### Identity
 **Scientific research incubator.** The organizational home for all non-commercial
@@ -67,13 +67,13 @@ Emphasizes structure, governance, and long-term vision.
 | License | [github.com/QNFO/license](https://github.com/QNFO/license) | Legal governance |
 
 ### What NOT to Say
-- ❌ "QNFO is QWAV" — QWAV is one initiative, not the whole org
-- ❌ "We are a startup" — QNFO is a non-profit research incubator
-- ❌ Booster language ("revolutionary," "breakthrough") — let evidence speak
+- ❌ "QNFO is QWAV" -- QWAV is one initiative, not the whole org
+- ❌ "We are a startup" -- QNFO is a non-profit research incubator
+- ❌ Booster language ("revolutionary," "breakthrough") -- let evidence speak
 
 ---
 
-## 2. QWAV — The Flagship
+## 2. QWAV -- The Flagship
 
 ### Identity
 **Ultrametric quantum computing & glass-box AI research program.** The most
@@ -93,7 +93,7 @@ happens. It is a subsidiary of QNFO, not synonymous with it.
 
 ### Tone
 Technical, evidence-driven, specific. Cites DOIs. Shows interactive demos.
-Welcomes scrutiny. Avoids marketing language — the math speaks.
+Welcomes scrutiny. Avoids marketing language -- the math speaks.
 
 ### Primary Touchpoints
 | Touchpoint | URL | Purpose |
@@ -104,13 +104,13 @@ Welcomes scrutiny. Avoids marketing language — the math speaks.
 | Publications | Zenodo community | Papers with DOIs |
 
 ### What NOT to Say
-- ❌ "QWAV is QNFO" — QWAV is the flagship, not the institution
-- ❌ "We've proven..." — We've demonstrated computational validation; proof requires replication
-- ❌ "The only solution..." — Open to alternative approaches
+- ❌ "QWAV is QNFO" -- QWAV is the flagship, not the institution
+- ❌ "We've proven..." -- We've demonstrated computational validation; proof requires replication
+- ❌ "The only solution..." -- Open to alternative approaches
 
 ---
 
-## 3. Rowan Brad Quni-Gudzinas — The Person
+## 3. Rowan Brad Quni-Gudzinas -- The Person
 
 ### Identity
 **Solo deep-tech researcher and PI.** The human behind all QNFO initiatives.
@@ -121,7 +121,7 @@ and commitment to open science for the collective good.
 - Solo researcher operating at the intersection of physics, information, AI, philosophy
 - Founded QNFO as the research identity of Empowering Change (501c3)
 - Career spans national-scale data initiatives, patents, consulting
-- All work publicly available — no paywalls, no credentials required
+- All work publicly available -- no paywalls, no credentials required
 
 ### Audiences
 - **Professional:** LinkedIn network, potential collaborators
@@ -141,9 +141,9 @@ No self-aggrandizement. Let the body of work speak.
 | Mastodon | [@QNFO@mstdn.science](https://mstdn.science/@QNFO) | Public discourse |
 
 ### What NOT to Say
-- ❌ "I am QNFO" — Rowan is the founder; QNFO is the institution
-- ❌ Credential-dropping — substance first, credentials support
-- ❌ Self-promotional claims — let the work and its citations speak
+- ❌ "I am QNFO" -- Rowan is the founder; QNFO is the institution
+- ❌ Credential-dropping -- substance first, credentials support
+- ❌ Self-promotional claims -- let the work and its citations speak
 
 ---
 

@@ -1,5 +1,5 @@
 """
-QWAV Browser Error Detection — CDP Console Capture
+QWAV Browser Error Detection -- CDP Console Capture
 ====================================================
 Captures runtime JavaScript errors from live artifact pages
 using Chrome DevTools Protocol (CDP) via YoBrowser.
@@ -7,7 +7,7 @@ using Chrome DevTools Protocol (CDP) via YoBrowser.
 Requires: YoBrowser active in DeepChat session.
 Tests: console.error calls, unhandled exceptions, script load failures.
 
-Run manually — not part of CI smoke tests (requires browser).
+Run manually -- not part of CI smoke tests (requires browser).
 """
 
 import urllib.request
@@ -26,7 +26,7 @@ ARTIFACTS = {
 }
 
 def test_static():
-    """Quick static analysis — can run without browser."""
+    """Quick static analysis -- can run without browser."""
     print("=" * 60)
     print("STATIC JS ERROR ANALYSIS (No browser required)")
     print("=" * 60)
@@ -75,7 +75,7 @@ def test_static():
                 print(f"\n[CLEAN] {key} ({art['name']}): No static JS error patterns found")
                 
         except Exception as e:
-            print(f"\n[ERROR] {key}: Cannot fetch — {e}")
+            print(f"\n[ERROR] {key}: Cannot fetch -- {e}")
 
 def test_cdp_guide():
     """Print CDP-based runtime error detection guide."""
