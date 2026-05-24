@@ -49,11 +49,10 @@ QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) ge
 | Document | Purpose |
 |:---------|:--------|
 | [PROJECT STATE.md](PROJECT%20STATE.md) | Current program state for LLM handoff |
-| [SPRINT.md](SPRINT.md) | Active sprint tracker |
-| [CHANGELOG.md](CHANGELOG.md) | Chronological change log (v2.73) |
+| [CHANGELOG.md](CHANGELOG.md) | Chronological change log (v2.74) |
 | [CHARTER.md](CHARTER.md) | Program scope, constraints |
-| [BACKLOG.md](BACKLOG.md) | Prioritized future work |
 | [LEARNINGS.md](LEARNINGS.md) | 29 lessons, including 1 BLOCKING |
+| [BRAND-STRATEGY.md](briefings/BRAND-STRATEGY.md) | QNFO/QWAV/Rowan brand identities |
 | [Prior Work Catalog](briefings/prior-work-catalog.md) | 30 external publications, 7 categories |
 
 ## Test Suite

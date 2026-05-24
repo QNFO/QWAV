@@ -118,11 +118,11 @@ These were moved to `G:\My Drive\Archive\projects\2026\05\` during the post-audi
 
 **Spinoff lifecycle:**
 1. QWAV writes handoff document → `strategy/0.N.md` with research trail, expected output, return protocol
-2. QWAV scaffolds project directory → `G:\My Drive\projects\<name>\` with 7 mandatory docs + initial SPRINT.md
+2. QWAV scaffolds project directory → `G:\My Drive\projects\<name>\` with 7 mandatory docs + initial GitHub Issues
 3. Projects agent executes → independent `.git/`, own feature branches
 4. Deliverables land in `Obsidian/releases/` (read-only shared space)
-5. QWAV monitors → updates PROJECT STATE.md, SPRINT.md, BACKLOG.md when deliverables appear
-6. On completion: QWAV marks spinoff DONE in BACKLOG; project may continue independently or archive
+5. QWAV monitors → updates PROJECT STATE.md, GitHub Issues, Project boards when deliverables appear
+6. On completion: QWAV marks spinoff DONE in GitHub Issues; project may continue independently or archive
 
 ---
 
@@ -281,7 +281,7 @@ These are NOT gaps to be closed — they are the path. Do not suggest pivoting a
 1. [ ] Decide: file High-Temp provisional ($325) or wait for VSD/FRO/EWOR outcomes?
 2. [ ] Draft the ultrametric encoding provisional (outline exists at `strategy/0.1.md`) but DO NOT FILE until conversion path exists
 3. [ ] If VSD/FRO/EWOR accepts: immediately file High-Temp to establish pre-acceptance priority date
-4. [ ] Quarterly IP review: add to SPRINT.md calendar
+4. [ ] Quarterly IP review: create GitHub Issue with P3 label
 
 ### Priority 5: Active Written Outreach — IN PROGRESS
 **What:** Send written proposals to individuals/programs that evaluate on substance.
@@ -336,9 +336,9 @@ NOW ──────► Tier 0 Simulation ──────► Emergent Ventu
 |:-----|:--------|:-------|
 | `README.md` | Quick reference index | Updated 2026-05-12 |
 | `PROJECT STATE.md` | **THIS FILE** — state for future LLM sessions | Updated 2026-05-12 |
-| `SPRINT.md` | Sprint tracker and handoff document | Updated 2026-05-12 |
+| `GitHub Issues` | Sprint tracker and task queue (replaces SPRINT.md) | Active — 4 open |
 | `CHANGELOG.md` | Track all changes to the library | Updated 2026-05-12 |
-| `BACKLOG.md` | Prioritized future work queue | Created 2026-05-12 |
+| `GitHub Projects` | Sprint board + Program board (replaces BACKLOG.md) | Active — 2 boards |
 | `LEARNINGS.md` | Project-specific lessons (kaizen) | Created 2026-05-12 |
 | `DECISIONS.md` | Architecture/design decisions with rationale | Created 2026-05-12 |
 | `CHARTER.md` | Project charter — scope, success criteria, constraints, deliverables | ✅ NEW 2026-05-22 — PROJECT-CHARTER-TEMPLATE |
