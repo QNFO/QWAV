@@ -1,4 +1,4 @@
-# Contributing to QNFO Projects
+﻿# Contributing to QNFO Projects
 
 **QNFO's ultimate aim is to advance scientific understanding and catalyze positive,
 systemic global change for the collective benefit of all.**
@@ -92,8 +92,7 @@ By submitting a contribution to any QNFO repository, you affirm that:
 
 ## Questions?
 
-For questions about contributing, contact the Principal Investigator at
-rowan.quni@qnfo.org (backup: rowan.quni@outlook.com).
+For questions about contributing, contact the rowan.quni@qnfo.org (backup: rowan.quni@outlook.com).
 
 
 ---

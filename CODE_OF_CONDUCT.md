@@ -1,9 +1,9 @@
-# QNFO Code of Conduct
+﻿# QNFO Code of Conduct
 
 **QNFO's ultimate aim is to advance scientific understanding and catalyze positive,
 systemic global change for the collective benefit of all.**
 
-This Code of Conduct defines the values and standards that govern all QNFO spaces —
+This Code of Conduct defines the values and standards that govern all QNFO spaces â€”
 repositories, discussions, publications, collaborations, and communications. By
 participating in any QNFO space, you agree to uphold these standards. This Code
 complements and reinforces the [QNFO Content License Agreement](LICENSE).
@@ -22,12 +22,12 @@ interests, deepens inequity, or concentrates power is incompatible with this sta
 We are committed to **transparency, reproducibility, and shared access**. Research
 methods, data, and findings should be openly available whenever possible. Closed,
 proprietary, or intentionally obscured work undermines the scientific enterprise and
-the mission of collective benefit. Attribution is mandatory — credit those whose work
+the mission of collective benefit. Attribution is mandatory â€” credit those whose work
 you build upon.
 
 ### 1.3 Ethical Integrity
 All contributions and interactions must respect human dignity and the broader
-ecosystem. Prohibited uses include — but are not limited to — work that:
+ecosystem. Prohibited uses include â€” but are not limited to â€” work that:
 - Violates applicable laws or infringes on the rights of others
 - Promotes discrimination, violence, or harassment
 - Involves exploitative practices or harms ecosystems
@@ -51,7 +51,7 @@ this standard.
 
 ### 1.6 Constructive Collaboration
 We assume **good faith** in all interactions. Focus on ideas, not identities.
-Critique should be specific, evidence-based, and aimed at improving the work —
+Critique should be specific, evidence-based, and aimed at improving the work â€”
 not the person. Harassment, personal attacks, and ad hominem argumentation have
 no place in QNFO spaces.
 
@@ -61,7 +61,7 @@ no place in QNFO spaces.
 
 ### 2.1 Attribution
 Cite sources. Credit prior art. Acknowledge collaborators. The LICENSE requires
-attribution for content use — this Code extends that principle to all interactions.
+attribution for content use â€” this Code extends that principle to all interactions.
 Plagiarism and uncredited appropriation of others' work are violations.
 
 ### 2.2 Non-Commercial Foundation
@@ -98,8 +98,7 @@ This Code applies to all QNFO spaces including but not limited to:
 ## 4. Enforcement
 
 ### 4.1 Reporting
-Violations of this Code should be reported to the Principal Investigator at
-**rowan.quni@qnfo.org**. Reports will be treated confidentially to the extent
+Violations of this Code should be reported to the **rowan.quni@qnfo.org**. Reports will be treated confidentially to the extent
 permitted by law.
 
 ### 4.2 Consequences
@@ -136,5 +135,5 @@ and from the mission of Empowering Change (501c3).
 
 ---
 
-*QNFO — advancing scientific understanding for the collective benefit of all.
+*QNFO â€” advancing scientific understanding for the collective benefit of all.
 Everything open. Everything accountable. Everything for the good.*
