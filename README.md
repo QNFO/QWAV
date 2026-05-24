@@ -68,7 +68,15 @@ QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) ge
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+**QNFO Content License Agreement v1.1** — see [LICENSE](LICENSE) for full terms.
+
+Non-commercial use only. Attribution required. Patent prior-art citation mandatory.
+All QNFO org and rwnq8 personal repositories carry this license.
+Effective retroactively across all repos (2026-05-24).
+
+*Key terms:* Non-exclusive, non-transferable, revocable. Commercial use requires
+separate agreement. 85% liquidated damages for unauthorized commercial use.
+Swiss governing law, ICC Geneva arbitration.
 
 ---
 
