@@ -410,3 +410,19 @@ New project this session: ultrametric-tree-universality (P4 — awaiting publica
 | **S20.6** | Sprint close-out | 0.25h | P2 | [x] CLOSED 2026-05-24 |
 
 **Sprint 20 CLOSED:** 5/6 complete, 1 blocked. Key deliverables: pytest installed + 60/60 refactored tests, BACKLOG triaged (P1: 0 open), Prior Work catalog verified (29/30, 1 LLM-hallucinated title corrected), qwav.tech blocked (needs user DNS).
+
+---
+
+### 🔵 SPRINT 21: GitHub Integration — Discussions, Issues & Provenance (Active)
+
+| ID | Task | Est. | Priority | Status |
+|:---|:-----|:-----|:---------|:-------|
+| **S21.1** | GitHub Issues — labels (19), milestones (3), organize all issues | 0.5h | P0 | [x] 10 custom labels + 3 milestones created. 9 issues labeled and organized. |
+| **S21.2** | GitHub Discussions — session records pipeline | 0.5h | P0 | [x] 3 Discussions posted (#12-#14). Template in #13. sessions/ dir created. Full provenance: chat→discussion→issue→commit. |
+| **S21.3** | Post historical session exports as Discussions | 0.5h | P1 | [~] #14 posted (May 23). 14 remaining exports in Downloads/. |
+| **S21.4** | Wiki — initialize with program documentation | 0.5h | P1 | [!] Blocked — needs web UI. Home.md ready in wiki-init/. |
+| **S21.5** | Project board — create Kanban (blocked by token scope) | 0.5h | P1 | [!] Blocked — needs `gh auth refresh -s project` |
+| **S21.6** | P2 cleanup — smoke test maintenance + P-number cleanup | 0.5h | P2 | [ ] Issues #8 + #9 created |
+| **S21.7** | Sprint close-out | 0.25h | P2 | [ ] |
+
+**Sprint 21 started:** 2026-05-24. Two tasks complete (S21.1, S21.2). One in progress (S21.3).
