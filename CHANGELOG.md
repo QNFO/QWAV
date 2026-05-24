@@ -12,6 +12,26 @@
 
 ---
 
+## v2.73 — 2026-05-24 (Sprint 21 — GitHub Program Management Integration)
+
+**What Changed:**
+- GitHub Labels: 10 custom labels created (P0-P3, blocked, research, testing, documentation, sprint-19/20). 19 total.
+- GitHub Milestones: 3 created (S19 closed, S20 closed, S21 open).
+- GitHub Issues: 9 open, 7 closed — all labeled, milestoned, and on Kanban board.
+- GitHub Projects (Kanban): Created QWAV Program Management board (11 issues, Priority/Sprint/Status fields).
+- GitHub Discussions: 3 posts (#12 session, #13 pipeline, #14 historical). `updateDiscussion` mutation works for category moves.
+- Provenance chain: chat→discussion→issue→commit fully operational.
+- Wiki: `briefings/wiki-home.md` ready — blocked by GitHub API limitation (no first-page creation endpoint).
+- Discussion Categories: `createDiscussionCategory` doesn't exist in public GraphQL API — workaround: repurpose 6 default categories.
+- qwav.tech DNS: Deferred per founder.
+- All 16 commits merged to main.
+
+**Sprint Result:** 5/7 complete, 2 blocked (hard API limitations, workarounds documented).
+
+**Files Changed:** SPRINT.md, PROJECT STATE.md, sessions/README.md (new), briefings/wiki-home.md (new)
+
+---
+
 ## v2.72 — 2026-05-24 (Sprint 20 — Unblock & Refactor)
 
 **What Changed:**

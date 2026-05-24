@@ -2,7 +2,7 @@
 
 **For LLM Agents & Future Sessions:** Read this first. It contains everything you need to understand where the program stands, what's been tried, what worked, what didn't, key constraints, and immediate next steps. No context from prior sessions required.
 
-**Last updated:** 2026-05-24 | **Session:** Sprint 20 CLOSED — 5/6 complete, 1 blocked. Key deliverables: pytest 9.0.3 + 60/60 refactored test suite (conftest.py + test_all_artifacts_pytest.py), BACKLOG triaged (P1: 0 open, P2: 2 open), Prior Work catalog verified (29/30 with 1 LLM-hallucinated title corrected). qwav.tech blocked (needs user DNS). 10 commits on feature/sprint-19-planning. Branch: feature/sprint-19-planning. | **Next:** Sprint 21 — remaining P2 items (smoke maintenance, P-number cleanup) + user-unblocked tasks. | **GitHub Issues:** 5 open. | **GitHub:** QNFO/QWAV (pushed) | **Changelog:** `CHANGELOG.md` v2.69
+**Last updated:** 2026-05-24 | **Session:** Sprint 21 CLOSED — 5/7 complete, 2 blocked (hard API limitation). GitHub fully integrated: 19 labels, 3 milestones, Kanban board (11 issues), 3 Discussions, full provenance chain. All 16 commits merged to main. qwav.tech deferred. Branch: main. | **Next:** Sprint 22 — Historical session exports, Wiki init (web UI workaround — wiki-home.md ready), discussion category repurposing (Announcements=Sprint Reports, General=Session Records). | **GitHub:** [QWAV Issues](https://github.com/QNFO/QWAV/issues) (9 open), [Kanban](https://github.com/orgs/QNFO/projects/1), [Discussions](https://github.com/QNFO/QWAV/discussions) (3 posts). | **GitHub:** QNFO/QWAV (pushed) | **Changelog:** `CHANGELOG.md` v2.69
 
 ---
 

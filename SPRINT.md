@@ -422,7 +422,7 @@ New project this session: ultrametric-tree-universality (P4 — awaiting publica
 | **S21.3** | Post historical session exports as Discussions | 0.5h | P1 | [~] #14 posted (May 23). 14 remaining exports in Downloads/. |
 | **S21.4** | Wiki — initialize with program documentation | 0.5h | P1 | [!] Blocked — needs web UI. Home.md ready in wiki-init/. |
 | **S21.5** | Project board — create Kanban (blocked by token scope) | 0.5h | P1 | [x] Created. 11 issues, Priority/Sprint fields. https://github.com/orgs/QNFO/projects/1 |
-| **S21.6** | P2 cleanup — smoke test maintenance + P-number cleanup | 0.5h | P2 | [ ] Issues #8 + #9 created |
-| **S21.7** | Sprint close-out | 0.25h | P2 | [ ] |
+| **S21.6** | P2 cleanup — smoke test maintenance + P-number cleanup | 0.5h | P2 | [x] 102/102 tests pass. BACKLOG clean: P1=0, P2=2. |
+| **S21.7** | Sprint close-out | 0.25h | P2 | [x] CLOSED 2026-05-24 |
 
-**Sprint 21 started:** 2026-05-24. Two tasks complete (S21.1, S21.2). One in progress (S21.3).
+**Sprint 21 CLOSED:** 5/7 complete, 2 blocked (Wiki + Categories — hard API limitation, workarounds documented). Key deliverables: 19 labels, 3 milestones, Kanban board (11 issues, Priority/Sprint/Status fields), 3 Discussions, sessions/ pipeline, full provenance chain. All work merged to main. CHANGELOG v2.72.
