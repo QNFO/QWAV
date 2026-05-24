@@ -10,6 +10,30 @@
 
 ---
 
+---
+
+## v2.70 — 2026-05-24 (Sprint 18 — GitHub Audit + Integration Plan)
+
+**What Changed:**
+- Full QNFO org audit — all settings documented (plan, projects, copilot, security, 14 installed apps)
+- Full QWAV repo audit — Issues/Projects/Discussions/Wiki/Pages/Branch Protection/CodeQL
+- All 5 artifact repos audited — descriptions added, Dependabot enabled
+- GitHub integration plan written — 225 lines: Issues→Sprint tasks, Projects→Kanban, Wiki→Documentation, 47 system prompt additions
+- Phased migration plan: Dual Tracking → Issues Primary → Full GitHub-Native
+- Branch protection enabled on QWAV main (1 review, force pushes blocked)
+- Delete-branch-on-merge enabled
+- Repo topics updated (9 tags)
+- QNFO README remain harmonized (parent identity — qnfo.org + QWAV flagship)
+- Internal projects enabled on QWAV
+- 2 pending user actions: Projects token scope + Wiki first page
+
+**Files Changed:**
+- CREATE: `briefings/github-integration-plan.md` (225 lines)
+- EDIT: `SPRINT.md` (Sprint 19 created)
+- EDIT: `CHANGELOG.md` (this entry)
+
+**Git:** `feature/sprint-18-planning` → merged to main → `feature/sprint-19-planning`
+
 ## v2.69 — 2026-05-24 (Sprint 18 — Accuracy Audit + GitHub Org Enhancement)
 
 **What Changed:**
