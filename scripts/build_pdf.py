@@ -72,7 +72,10 @@ MATHJAX_CDN = '<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex
 # ---------------------------------------------------------------------------
 
 def find_browser():
-    """Locate an installed Edge or Chrome browser for headless PDF rendering."""
+    """Locate an installed Edge, Chrome, or Chromium browser for headless PDF rendering."""
+    import shutil
+
+    # 1. Try Windows paths (Edge, Chrome)
     for p in [
         r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
         r"C:\Program Files\Microsoft\Edge\Application\msedge.exe",
@@ -80,6 +83,21 @@ def find_browser():
     ]:
         if os.path.exists(p):
             return p
+
+    # 2. Try Linux paths (Chromium, Google Chrome) via shutil.which
+    for cmd in ["google-chrome-stable", "google-chrome", "chromium-browser", "chromium"]:
+        path = shutil.which(cmd)
+        if path and os.path.exists(path):
+            return path
+
+    # 3. Try macOS paths
+    for p in [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge",
+    ]:
+        if os.path.exists(p):
+            return p
+
     return None
 
 
