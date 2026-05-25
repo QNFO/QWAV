@@ -57,16 +57,13 @@
 ### 2.4 Convergence Explorer
 - **URL:** `https://qnfo.github.io/ultrametric-convergence/`
 - **Repo:** `QNFO/ultrametric-convergence`
-- **Status:** 🔴 BROKEN — JavaScript ReferenceError
+- **Status:** 🟡 PARTIALLY FUNCTIONAL (was 🔴 BROKEN — two bugs found, both fixed)
 - **Claim:** "Watch particles cluster into ultrametric vs Euclidean space."
-- **Reality:** Inline script exists (4044 bytes) with real particle simulation code, but crashes at runtime:
-  ```
-  ReferenceError: leaves is not defined
-      at commonAncestorDepth (line 80)
-  ```
-  The variable `treeLeaves` is defined but the function `commonAncestorDepth` references `leaves` (missing `tree` prefix) — a variable naming bug. This crashes the entire simulation loop.
-- **Fix difficulty:** TRIVIAL — one variable rename
-- **Severity:** HIGH — completely broken despite having real code
+- **Reality:** Inline script exists (4044 bytes) with real particle simulation code.
+  **Bug 1 (FIXED `8b5ac74`):** `ReferenceError: leaves is not defined` at `commonAncestorDepth()` — variable naming mismatch (`treeLeaves` vs `leaves`). Crashed entire simulation.
+  **Bug 2 (FIXED `8f5a5a6`):** `updateDisplays()` was never called in the animation loop. Simulation ran internally but step counter and cluster counts showed frozen initial values in the UI.
+- **Fix difficulty:** TRIVIAL — two one-line edits
+- **Severity:** Now MEDIUM — simulation runs but needs UX verification (cluster convergence over time, mobile performance)
 
 ### 2.5 Tree Distance Sandbox
 - **URL:** `https://qnfo.github.io/tree-distance/`
