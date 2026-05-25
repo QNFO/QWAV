@@ -1,0 +1,77 @@
+name: Build PDFs from Papers
+
+on:
+  push:
+    paths:
+      - 'papers/**.md'
+  workflow_dispatch:
+    inputs:
+      paper:
+        description: 'Specific paper to build (filename in papers/, or "all")'
+        required: false
+        default: 'all'
+
+jobs:
+  build-pdfs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install markdown
+          # build_pdf.py uses headless Chrome/Chromium (already on ubuntu-latest)
+
+      - name: Determine changed papers
+        id: changed
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${{ github.event.inputs.paper }}" = "all" ]; then
+              echo "files=$(ls papers/*.md | grep -v index.md | jq -R -s -c 'split(\"\n\")[:-1]')" >> $GITHUB_OUTPUT
+            else
+              echo "files=[\"papers/${{ github.event.inputs.paper }}\"]" >> $GITHUB_OUTPUT
+            fi
+          else
+            # Get changed .md files from push
+            git diff --name-only ${{ github.event.before }} ${{ github.event.after }} -- 'papers/**.md' | grep -v index.md > /tmp/changed.txt
+            echo "files=$(cat /tmp/changed.txt | jq -R -s -c 'split(\"\n\")[:-1]')" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build PDFs
+        run: |
+          mkdir -p papers/pdf
+          echo '${{ steps.changed.outputs.files }}' | jq -r '.[]' | while read paper; do
+            if [ -f "$paper" ]; then
+              echo "Building PDF for: $paper"
+              python scripts/build_pdf.py --input "$paper" --output "papers/pdf/$(basename "$paper" .md).pdf" --style academic
+            fi
+          done
+
+      - name: Upload PDF artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-pdfs
+          path: papers/pdf/*.pdf
+          retention-days: 90
+
+      - name: Commit PDFs to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add papers/pdf/
+          if git diff --cached --quiet; then
+            echo "No PDF changes to commit"
+          else
+            git commit -m "auto: Build PDFs from papers [skip ci]"
+            git push
+          fi
