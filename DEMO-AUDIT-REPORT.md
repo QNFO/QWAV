@@ -16,11 +16,11 @@
 | **Partially functional** | 1 (Q-PNA — works, but linked via wrong URL) |
 | **Broken (JS errors)** | 1 (Convergence Explorer — `ReferenceError`) |
 | **Completely nonfunctional (zero code)** | 2 (Hardware Visualizer, Error Confinement) |
-| **Dead link / redirect** | 1 (Virtual Qubit Showdown → dead Obsidian page) |
+| **Untested (YoBrowser artifact)** | 1 (Virtual Qubit Showdown — works in Chrome) |
 | **Not a demo (content page only)** | 1 (Tree Universality — Obsidian Publish) |
 | **Strategy-misaligned utility** | 1 (Zenodo Automation — not core QWAV) |
 
-**Overall health: 1/8 (12.5%) demos work correctly.** 5/8 are broken or nonfunctional.
+**Overall health: 1/8 (12.5%) demos confirmed working; 1 untested (works in Chrome).** 4/8 are broken or nonfunctional.
 
 ---
 
@@ -77,11 +77,10 @@
 ### 2.6 Virtual Qubit Showdown
 - **URL:** `https://qnfo.github.io/ultrametric-game-of-life/`
 - **Repo:** `QNFO/ultrametric-game-of-life`
-- **Status:** 🔴 BROKEN — Dead redirect
+- **Status:** 🟡 UNTESTED (YoBrowser artifact — confirmed working in Chrome)
 - **Claim:** Conway's Game of Life on tree topologies
-- **Reality:** GitHub Pages redirects to `qnfo.org/ultrametric-game-of-life/` which shows only "QNFO — Powered by Obsidian Publish" with no interactive content. The repo *does* contain JS files (`js/`, `css/`, `extract_data.py`) suggesting real code exists but isn't deployed.
-- **Root cause:** Custom domain (`qnfo.org`) redirect intercepts GitHub Pages URL and points to Obsidian Publish, which doesn't serve the repo's HTML.
-- **Severity:** HIGH — completely inaccessible
+- **Reality:** HTTP 200 — page loads correctly in real Chrome with full HTML (7,879 bytes), JS files (`js/`, `css/`, `extract_data.py`) present in repo. The YoBrowser used during audit redirected to `qnfo.org` but this was a **YoBrowser-specific DNS artifact**, not a server redirect (no CNAME, no custom domain, no JS redirect found). Confirmed working by user in actual Chrome.
+- **Recommendation:** Re-test interactive features (Play/Pause/Step, tree topology behavior) in real browser and update status.
 
 ### 2.7 Tree Universality Explorer
 - **URL:** `https://qnfo.github.io/ultrametric-tree-universality/`
@@ -189,14 +188,18 @@
 | TD-07 | Canvas scales on window resize | Responsive |
 | TD-08 | Units explained in UI | Legend/tooltip for distance units |
 
-### 4.7 Virtual Qubit Showdown
+### 4.7 Virtual Qubit Showdown (UNTESTED — verify in real Chrome)
 
 | Test ID | Description | Expected |
 |:--------|:------------|:---------|
-| VQ-01 | URL resolves to interactive page | Not redirected to blank Obsidian page |
+| VQ-01 | URL resolves to interactive page (NOT redirected to Obsidian) | Page loads with full HTML |
 | VQ-02 | Game of Life grid renders on tree topology | Visible grid with tree structure |
 | VQ-03 | Play/pause/step controls work | Simulation advances |
 | VQ-04 | Tree topology affects game dynamics | Different from standard grid Conway |
+| VQ-05 | Mode tabs switch between Interact/Auto/Benchmark | Content updates per mode |
+| VQ-06 | Error counters update during simulation | Live statistics change |
+
+**Note:** The `qnfo.org` redirect observed during YoBrowser audit was a YoBrowser-specific artifact. The page returns HTTP 200 with full HTML content and is confirmed working in real Chrome.
 
 ### 4.8 Tree Universality Explorer
 
@@ -224,7 +227,7 @@
 
 | # | Fix | Effort |
 |:--|:----|:-------|
-| 5 | **Virtual Qubit Showdown** — Investigate custom domain redirect; deploy JS files to GitHub Pages directly or fix CNAME | Medium |
+| 5 | N/A (was Virtual Qubit Showdown — redirect was YoBrowser artifact, page works in Chrome) | N/A |
 | 6 | **Tree Universality** — Either add real interactivity or recategorize as "Reference" not "Live Demo" | Low |
 | 7 | **Zenodo Automation** — Move to developer tools section or remove from QWAV Technical Site | Low |
 
@@ -261,7 +264,7 @@ The `QNFO/zenodo-automation` repo and its GitHub Pages site are:
 | Q-PNA | `QWAV/artifacts/qpna-playground/` | `QNFO/Q-PNA` | ✓ (inline, 1 script) | ✓ (1 canvas) | ⚠ partial |
 | Convergence Explorer | `QWAV/artifacts/convergence-explorer/` | `QNFO/ultrametric-convergence` | ✓ (inline, 1 script) | ✓ (2 canvases) | ✗ (bug) |
 | Tree Distance | `QWAV/artifacts/tree-distance/` | `QNFO/tree-distance` | ✓ (inline, 1 script) | ✓ (1 canvas) | ✓ |
-| Game of Life | N/A | `QNFO/ultrametric-game-of-life` | ✓ (js/ dir) | Unknown | ✗ (redirect) |
+| Game of Life | N/A | `QNFO/ultrametric-game-of-life` | ✓ (js/ dir) | Unknown | 🟡 Untested (works in Chrome, YoBrowser artifact) |
 | Tree Universality | N/A | `QNFO/ultrametric-tree-universality` | Unknown | ✓ | ⚠ static |
 | Zenodo Automation | N/A | `QNFO/zenodo-automation` | ✗ (doc page) | ✗ | N/A (tool) |
 
