@@ -32,6 +32,28 @@ QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) ge
 | A5 | Hardware Visualizer | [Demo](https://qnfo.github.io/hardware-pathway/) | 3D neutral atom tree visualization |
 | K1 | Technical Hub | [Hub](https://qnfo.github.io/QWAV/) | Program overview with live demos |
 
+## Project Repositories
+
+All QWAV projects are self-contained GitHub repos under [QNFO](https://github.com/QNFO):
+
+| Repo | Description | Live Demo |
+|:-----|:------------|:----------|
+| [QWAV](https://github.com/QNFO/QWAV) | Program hub — papers, site, wiki, discussions | [Site](https://qnfo.github.io/QWAV/) |
+| [ultrametric-error-confinement](https://github.com/QNFO/ultrametric-error-confinement) | Tier 0: Bruhat-Tits tree error simulation | [Demo](https://qnfo.github.io/ultrametric-error-confinement/) |
+| [Q-PNA](https://github.com/QNFO/Q-PNA) | Quantum-Native p-Adic Neural Architecture | [Demo](https://qnfo.github.io/Q-PNA/) |
+| [ultrametric-convergence](https://github.com/QNFO/ultrametric-convergence) | Ultrametric vs Euclidean particle simulation | [Demo](https://qnfo.github.io/ultrametric-convergence/) |
+| [tree-distance](https://github.com/QNFO/tree-distance) | Cophenetic/ultrametric/Euclidean distance comparison | [Demo](https://qnfo.github.io/tree-distance/) |
+| [hardware-pathway](https://github.com/QNFO/hardware-pathway) | 3D rotatable neutral atom tree visualization | [Demo](https://qnfo.github.io/hardware-pathway/) |
+| [ultrametric-tree-universality](https://github.com/QNFO/ultrametric-tree-universality) | Cross-domain tree universality explorer | [Demo](https://qnfo.github.io/ultrametric-tree-universality/) |
+| [tree-and-shadow-viz](https://github.com/QNFO/tree-and-shadow-viz) | Tree and Shadow phase diagram visualization | [Demo](https://qnfo.github.io/tree-and-shadow-viz/) |
+| [ultrametric-game-of-life](https://github.com/QNFO/ultrametric-game-of-life) | Conway's Game of Life on tree topologies | [Demo](https://qnfo.github.io/ultrametric-game-of-life/) |
+| [Physics-of-Rationalization](https://github.com/QNFO/Physics-of-Rationalization) | Superdeterminism and the Illusion of Choice | — |
+| [Beyond-Belief](https://github.com/QNFO/Beyond-Belief) | Functional Anatomy of Human Ultimate Concern | — |
+| [zenodo-automation](https://github.com/QNFO/zenodo-automation) | One-command Zenodo DOI registration pipeline | — |
+| [nested-semantic-graph](https://github.com/QNFO/nested-semantic-graph) | Language-neutral IR on Nested Semantic Trees | — |
+| [license](https://github.com/QNFO/license) | QNFO Content License Agreement | — |
+| [.github](https://github.com/QNFO/.github) | Organization profile and defaults | — |
+
 ## Program Management (All Public)
 
 | Feature | Link |
@@ -63,7 +85,7 @@ QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) ge
 
 ## Publications
 
-40+ open-access publications on Zenodo. See the [full catalog](https://qnfo.github.io/ultrametric-tree-universality/pub-hub.html). Key publications:
+45 open-access publications on GitHub and Zenodo. See the [full catalog](https://github.com/QNFO/QWAV/blob/main/papers/index.md). Key publications:
 
 - [Ultrametric Quantum Computing Foundations](https://doi.org/10.5281/zenodo.15107688)
 - [Validation of Ultrametric Error Confinement](https://doi.org/10.5281/zenodo.15113616)
