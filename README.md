@@ -85,7 +85,7 @@ All QWAV projects are self-contained GitHub repos under [QNFO](https://github.co
 
 ## Publications
 
-45 open-access publications on GitHub and Zenodo. See the [full catalog](https://github.com/QNFO/QWAV/blob/main/papers/index.md). Key publications:
+45 legacy publications archived in [QNFO/.github](https://github.com/QNFO/.github/blob/master/releases/papers/index.md). New publications are stored in their native project repos. Key publications:
 
 - [Ultrametric Quantum Computing Foundations](https://doi.org/10.5281/zenodo.15107688)
 - [Validation of Ultrametric Error Confinement](https://doi.org/10.5281/zenodo.15113616)
