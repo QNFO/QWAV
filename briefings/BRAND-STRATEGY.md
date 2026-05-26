@@ -44,7 +44,7 @@ stable reference point for the public, collaborators, and funders.
 
 ### Key Messages
 - "Advancing scientific understanding for the collective benefit of all"
-- Under Empowering Change
+- Research incubator — advancing scientific understanding
 - All research open-access, all code open-source, all governance public
 - Multiple initiatives, one mission
 
@@ -123,7 +123,7 @@ and commitment to open science for the collective good.
 
 ### Key Messages
 - Solo researcher operating at the intersection of physics, information, AI, philosophy
-- Founded QNFO as the research identity of Empowering Change
+- Founded QNFO
 - Career spans national-scale data initiatives, patents, consulting
 - All work publicly available -- no paywalls, no credentials required
 
