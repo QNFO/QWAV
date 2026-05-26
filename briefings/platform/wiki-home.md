@@ -15,7 +15,7 @@ Welcome to the QWAV program wiki. QWAV develops ultrametric (tree-based) archite
 | Area | Status |
 |:------|:------|
 | **Active Phase** | Q2 2026 — Computational Validation complete; Q3 in progress |
-| **Published Papers** | 8 with registered DOIs on [Zenodo](https://zenodo.org/communities/qwav/) (145+ records total) |
+| **Published Papers** | 8 with registered DOIs on [Zenodo](https://zenodo.org/communities/qwav/) (85 records total) |
 | **Live Demos** | 7 interactive artifacts + K1 technical hub |
 | **Test Suite** | 102 tests (42 unittest + 60 pytest), all passing |
 | **GitHub Issues** | [3 open, 22 closed](https://github.com/QNFO/QWAV/issues) |

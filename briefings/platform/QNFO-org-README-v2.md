@@ -71,7 +71,7 @@ and leadership at Deloitte and Publicis.
 All papers are open-access on Zenodo with registered DOIs. See the
 [full publication catalog](https://qnfo.github.io/ultrametric-tree-universality/pub-hub.html)
 (35+ publications, filterable by domain). Community archive:
-[zenodo.org/communities/qwav/](https://zenodo.org/communities/qwav/) (145+ records).
+[zenodo.org/communities/qwav/](https://zenodo.org/communities/qwav/) (85 records).
 
 ---
 

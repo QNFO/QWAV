@@ -88,7 +88,7 @@ All QWAV projects are self-contained GitHub repos under [QNFO](https://github.co
 **Core publications:** 8 papers with registered Zenodo DOIs (see table below).
 
 **Legacy archive:** 45 publications in the [QNFO/.github archive](https://github.com/QNFO/.github/blob/master/releases/papers/index.md) (historical, pre-QWAV).  
-**Full Zenodo community:** [145+ records](https://zenodo.org/communities/qwav/) across all QWAV publications.  
+**Full Zenodo community:** [85 records](https://zenodo.org/communities/qwav/) across all QWAV publications.  
 **GitHub-native archive:** [564 markdown papers](https://github.com/QNFO/.github) in QNFO/.github (browsable, with auto-PDF generation).
 
 Key QWAV publications:
