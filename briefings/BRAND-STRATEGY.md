@@ -13,9 +13,9 @@ boundaries, messaging, and relationship between them.
 ```
 ┌──────────────────────────────────────────────────────┐
 │                    QNFO (Incubator)                   │
-│  Scientific research incubator under Empowering       │
-│  Change. Institutional home for all                  │
-│  non-commercial open-science research.               │
+│  Scientific research incubator advancing knowledge   │
+│  for the collective benefit of all. Institutional    │
+│  home for non-commercial open-science research.      │
 │                                                      │
 │  ┌─────────────────────────────────────────────┐     │
 │  │              QWAV (Flagship)                 │     │

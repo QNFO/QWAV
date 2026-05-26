@@ -5,8 +5,8 @@ systemic global change for the collective benefit of all.**
 
 ---
 
-QNFO is a **scientific research incubator** -- the research identity of
-[Empowering Change](https://empoweringchange.org), a U.S. 501(c)(3) non-profit.
+QNFO is a **scientific research incubator** advancing knowledge for the
+**collective benefit of all**.
 We investigate the fundamentals of reality at the intersection of physics,
 information theory, philosophy of science, and artificial intelligence, leveraging
 AI-accelerated exploration to drive discovery.
@@ -63,9 +63,6 @@ Rowan operates at the intersection of physics, information science, data science
 and AI, with a career spanning national-scale data initiatives (AARP Livability Index,
 $10M US DOT National Household Travel Survey), patented quantum computing technology,
 and leadership at Deloitte and Publicis.
-
-The non-profit structure (Empowering Change 501c3) ensures our motivation remains
-scientific advancement and societal benefit.
 
 ---
 

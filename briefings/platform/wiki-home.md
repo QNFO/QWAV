@@ -14,24 +14,24 @@ Welcome to the QWAV program wiki. QWAV develops ultrametric (tree-based) archite
 
 | Area | Status |
 |:------|:------|
-| **Active Sprint** | 21 -- GitHub Integration & Provenance |
-| **Published Papers** | 40+ on [Zenodo](https://zenodo.org/search?q=qwav) |
-| **Live Demos** | 5 interactive artifacts + K1 hub |
+| **Active Phase** | Q2 2026 — Computational Validation complete; Q3 in progress |
+| **Published Papers** | 8 with registered DOIs on [Zenodo](https://zenodo.org/communities/qwav/) (145+ records total) |
+| **Live Demos** | 7 interactive artifacts + K1 technical hub |
 | **Test Suite** | 102 tests (42 unittest + 60 pytest), all passing |
-| **GitHub Issues** | [9 open](https://github.com/QNFO/QWAV/issues), all labeled + milestoned |
-| **Kanban Board** | [QWAV Program Management](https://github.com/orgs/QNFO/projects/1) -- 11 issues, Priority/Sprint/Status fields |
-| **Discussions** | [3 posts](https://github.com/QNFO/QWAV/discussions) -- session records + pipeline docs |
+| **GitHub Issues** | [3 open, 22 closed](https://github.com/QNFO/QWAV/issues) |
+| **Kanban Board** | [QWAV Program Management](https://github.com/orgs/QNFO/projects/1) -- 11 issues |
+| **Discussions** | [Active](https://github.com/QNFO/QWAV/discussions) -- session records + program decisions |
 
 ## 📁 Key Documents
 
 | Document | Purpose | Link |
 |:---------|:--------|:-----|
-| **PROJECT STATE.md** | Current program state for LLM handoff | [View](https://github.com/QNFO/QWAV/blob/main/PROJECT%20STATE.md) |
-| **SPRINT.md** | Active sprint tracker with task statuses | [View](https://github.com/QNFO/QWAV/blob/main/SPRINT.md) |
-| **CHANGELOG.md** | Full chronological change log (v2.72) | [View](https://github.com/QNFO/QWAV/blob/main/CHANGELOG.md) |
-| **CHARTER.md** | Program scope, constraints, success criteria | [View](https://github.com/QNFO/QWAV/blob/main/CHARTER.md) |
-| **BACKLOG.md** | Prioritized future work (P0-P3) | [View](https://github.com/QNFO/QWAV/blob/main/BACKLOG.md) |
-| **LEARNINGS.md** | Kaizen engine -- 29 lessons, including 1 BLOCKING | [View](https://github.com/QNFO/QWAV/blob/main/LEARNINGS.md) |
+| **README.md** | Program overview, key results, interactive demos | [View](https://github.com/QNFO/QWAV/blob/main/README.md) |
+| **Program Wiki** | Architecture, modules, publications, lessons | [View](https://github.com/QNFO/QWAV/wiki) |
+| **GitHub Releases** | Chronological change log and publications | [View](https://github.com/QNFO/QWAV/releases) |
+| **GitHub Issues** | Task tracking, sprints, handoffs (3 open, 22 closed) | [View](https://github.com/QNFO/QWAV/issues) |
+| **Kanban Board** | 11 issues — Priority, Sprint, Status fields | [View](https://github.com/orgs/QNFO/projects/1) |
+| **Discussions** | Session records, program-level decisions | [View](https://github.com/QNFO/QWAV/discussions) |
 
 ## 🏗️ Artifacts
 
