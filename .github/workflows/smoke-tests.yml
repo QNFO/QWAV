@@ -7,9 +7,10 @@ on:
   push:
     branches: [main]
     paths:
-      - 'test_smoke.py'
-      - 'test_all_artifacts.py'
-      - 'test_all_artifacts_pytest.py'
+      - 'tests/test_smoke.py'
+      - 'tests/test_all_artifacts.py'
+      - 'tests/test_all_artifacts_pytest.py'
+      - 'tests/conftest.py'
       - 'index.html'
       - '.github/workflows/smoke-tests.yml'
 
@@ -22,8 +23,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install pytest
-      - run: python -m pytest test_all_artifacts.py -q
-      - run: python -m pytest test_all_artifacts_pytest.py -q
+      - run: python -m pytest tests/test_all_artifacts.py -q
+      - run: python -m pytest tests/test_all_artifacts_pytest.py -q
 
   smoke:
     runs-on: ubuntu-latest
@@ -32,7 +33,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python test_smoke.py
+      - run: python tests/test_smoke.py
       - name: Report failure
         if: failure()
         env:
@@ -50,4 +51,4 @@ jobs:
           
           Review the [Actions log](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details.
           
-          Run `python test_smoke.py` locally to reproduce."
+          Run `python tests/test_smoke.py` locally to reproduce."
