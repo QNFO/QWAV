@@ -65,7 +65,7 @@ attribution for content use — this Code extends that principle to all interact
 Plagiarism and uncredited appropriation of others' work are violations.
 
 ### 2.2 Non-Commercial Foundation
-QNFO is the research identity of **Empowering Change**, a U.S. 501(c)(3) non-profit.
+QNFO is a non-commercial, open-science research incubator.
 Research is conducted for public good, not private profit. All content is governed
 by the QNFO Content License Agreement, which permits non-commercial use only.
 Commercial exploitation of QNFO work without a separate agreement is both a license
@@ -131,7 +131,7 @@ and this Code prevails on matters of community conduct.
 
 This Code draws from the values articulated in the [QNFO README](README.md) and
 [About QNFO](ABOUT.md) documents, from established open-source community standards,
-and from the mission of Empowering Change (501c3).
+and from QNFO's commitment to open science for the collective good.
 
 ---
 
