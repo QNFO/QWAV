@@ -31,23 +31,25 @@
 | Best for | Hardware-specific implementations | Mathematical foundations, algorithms |
 
 ## Current Recommendation
-**Phase 0 (NOW — May 2026):** Publish mathematical foundations openly (Strategy B). Establish prior art and academic credibility. Publish GDSII mask specifications as defensive prior art.  
-**Phase 1 (post-E2 validation):** File provisional patents on specific hardware implementations (Strategy A transition).  
-**Phase 2 (post-E3 validation):** Convert provisionals to full patents. Execute licensing.  
-**Phase 3 (commercial):** License portfolio to quantum hardware companies (ARM model — see `MANUFACTURING-BLUEPRINT.md`).
+**Phase 0 (NOW — May 2026):** Publish all mathematical foundations and reference architectures openly (Strategy B — CERN/Open). Establish prior art via defensive publication with DOIs. Zero patents on the architecture itself.  
+**Phase 1 (post-E2 validation):** Publish formal Tree Topology Architecture Standard v1.0 as open standard (RAND-Z, zero royalty). Establish "QWAV Tree-Topology Compliant" certification mark (trademark, not patent).  
+**Phase 2 (post-E3 validation):** Expand certification program. Members self-certify against the open standard. QWAV validates and grants certification marks.  
+**Phase 3 (initiative):** Contributors adopt the open standard. Revenue from grants, sponsored research, events. No membership dues yet.
 
-## Specific Patentable Manufacturing Assets (from MANUFACTURING-BLUEPRINT.md §6.4)
+## Specific Defensive Publications (Open Standards, Not Patents)
 
-| # | Asset | Type | Platform |
-|:--|:------|:-----|:---------|
-| 1 | Tree-topology qubit connectivity layout (mask design) | Utility patent | Per platform (neutral atom, superconducting, spin, photonic, trapped ion) |
-| 2 | Holographic tree code encoding method | Algorithm patent | Platform-agnostic |
-| 3 | O(s log s) tree decoding method for quantum error correction | Algorithm patent | Platform-agnostic |
-| 4 | 4K-operation quantum error suppression method using passive geometric fault tolerance | Method patent | Platform-agnostic |
-| 5 | Bruhat-Tits tree topology as quantum computing architecture | Architecture patent | Platform-agnostic |
+| # | Publication | Type | Platform |
+|:--|:------------|:-----|:---------|
+| 1 | Tree-topology qubit connectivity standard | Open reference specification (DOI-registered) | Per platform |
+| 2 | Holographic tree code encoding standard | Open algorithm specification (Apache 2.0) | Platform-agnostic |
+| 3 | O(s log s) tree decoding standard | Open algorithm specification | Platform-agnostic |
+| 4 | 4K-operation passive geometric fault tolerance architecture standard | Open architecture specification | Platform-agnostic |
+| 5 | Bruhat-Tits tree topology as quantum computing architecture standard | Open architecture specification (RAND-Z) | Platform-agnostic |
+
+**IP policy:** RAND-Z (Reasonable And Non-Discriminatory — Zero royalty). All reference architectures free to implement. This maximizes adoption — the goal of an open standards initiative.
 
 ## See Also
-- **NEW:** `MANUFACTURING-BLUEPRINT.md` — Fabless IP model, piggyback pathways, ARM analogy (§5-6)
+- **NEW:** [Manufacturing Blueprint (Wiki)](https://github.com/QNFO/QWAV/wiki/Manufacturing-Blueprint) + [Tree Topology Specs (Wiki)](https://github.com/QNFO/QWAV/wiki/Tree-Topology-Specifications) — Open architecture initiative, open standards, syndicated research
 - Full originals: `sessions/2026/05/strategy-archive/ip-strategic-plan.md` (26KB)
 - Full originals: `sessions/2026/05/strategy-archive/IP-Only Licensing Strategy - Strategy B CERN Model.md` (16KB)
 - Related: `briefings/research/fqxi-briefing.md` (grant context)

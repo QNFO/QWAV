@@ -14,7 +14,7 @@ boundaries, messaging, and relationship between them.
 ┌──────────────────────────────────────────────────────┐
 │                    QNFO (Incubator)                   │
 │  Scientific research incubator under Empowering       │
-│  Change 501(c)(3). Institutional home for all         │
+│  Change. Institutional home for all                  │
 │  non-commercial open-science research.               │
 │                                                      │
 │  ┌─────────────────────────────────────────────┐     │
@@ -44,7 +44,7 @@ stable reference point for the public, collaborators, and funders.
 
 ### Key Messages
 - "Advancing scientific understanding for the collective benefit of all"
-- Non-profit 501(c)(3) under Empowering Change
+- Under Empowering Change
 - All research open-access, all code open-source, all governance public
 - Multiple initiatives, one mission
 
@@ -68,7 +68,7 @@ Emphasizes structure, governance, and long-term vision.
 
 ### What NOT to Say
 - ❌ "QNFO is QWAV" -- QWAV is one initiative, not the whole org
-- ❌ "We are a startup" -- QNFO is a non-profit research incubator
+- ❌ "We are a startup" -- QNFO is an open-science research incubator
 - ❌ Booster language ("revolutionary," "breakthrough") -- let evidence speak
 
 ---
@@ -85,7 +85,7 @@ happens. It is a subsidiary of QNFO, not synonymous with it.
 - Bruhat-Tits tree geometry replaces Archimedean geometry
 - Zero logical errors at depth 7; 48× error reduction
 - All findings published open-access with registered DOIs
-- **"QWAV is the ARM of quantum computing"** — we design architectures; manufacturers build. (See `strategy/MANUFACTURING-BLUEPRINT.md`)
+- **"QWAV is the first-mover in ultrametric quantum computing architecture"** — 5 DOI-registered publications. Open standards. Open validation. Solo researcher. ([Wiki: Manufacturing Blueprint](https://github.com/QNFO/QWAV/wiki/Manufacturing-Blueprint))
 - **4K operation, not mK** — 400× warmer, commodity cooling, 20,000× more thermal headroom
 - **Tree topology works on ALL platforms** — software reconfiguration or mask change, not new physics
 
@@ -93,7 +93,7 @@ happens. It is a subsidiary of QNFO, not synonymous with it.
 - **Technical:** Quantum computing researchers, physicists, AI/ML engineers
 - **Industry:** Neutral-atom hardware companies (PASQAL, QuEra, Atom, Infleqtion); superconducting (IBM, Google); trapped ion (IonQ, Quantinuum); silicon spin (Intel, Diraq); foundries (TSMC, GlobalFoundries)
 - **Fellowship:** Emergent Ventures, Foresight Institute, etc.
-- **Investors:** Fabless deep-tech IP licensing model (ARM precedent)
+- **Funding/Grants:** First-mover in ultrametric quantum architecture — 5 DOI-registered publications establishing priority. Solo researcher. Open architecture initiative. Not a startup seeking exit.
 
 ### Tone
 Technical, evidence-driven, specific. Cites DOIs. Shows interactive demos.
@@ -123,7 +123,7 @@ and commitment to open science for the collective good.
 
 ### Key Messages
 - Solo researcher operating at the intersection of physics, information, AI, philosophy
-- Founded QNFO as the research identity of Empowering Change (501c3)
+- Founded QNFO as the research identity of Empowering Change
 - Career spans national-scale data initiatives, patents, consulting
 - All work publicly available -- no paywalls, no credentials required
 

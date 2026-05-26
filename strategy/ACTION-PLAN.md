@@ -3,7 +3,7 @@
 > **Consolidates:** `NEXT STEPS - From Library to Reality.md` + `Experimental Validation Roadmap - Ultrametric Quantum Computing.md` + `MANUFACTURING-BLUEPRINT.md` (May 2026)
 > **Archived:** 2026-05-26 → `sessions/2026/05/strategy-archive/`
 > **Note:** `An Introvert's Deep-Tech Startup Path.md` remains standalone (personal narrative, distinct genre)
-> **Status:** Canonical action plan | **Updated:** 2026-05-26 (manufacturing blueprint integration)
+> **Status:** Canonical action plan | **Updated:** 2026-05-26 (positioning reframe)
 
 ---
 
@@ -13,7 +13,7 @@
 - [ ] Release open-source tree code transpiler v0.1 (Python, Qiskit-compatible)
 - [ ] Publish decoding ASIC specification (RTL reference)
 - [ ] Create "Tree Topology Implementation Guide" per platform (neutral atom, superconducting, spin, photonic, trapped ion)
-- [ ] Publish `MANUFACTURING-BLUEPRINT.md` with Zenodo DOI (this document)
+- [x] Publish Manufacturing Blueprint → [Wiki](https://github.com/QNFO/QWAV/wiki/Manufacturing-Blueprint) + Zenodo DOI pending
 - [ ] Update `IP-STRATEGY.md` with specific patentable manufacturing assets
 
 ## Phase 1: Validation (Current)
@@ -35,25 +35,28 @@
 - [ ] Pathway B (prep): Tree code transpiler pass for IBM Qiskit superconducting backends
 - [ ] Publish multi-platform benchmark: tree code vs. unencoded baseline
 
-## Phase 3: Commercialization (Fabless IP Model)
+## Phase 3: Build Awareness — Standards Publication & Industry Interest
+*"QWAV = first-mover in ultrametric quantum architecture. Solo researcher. 5 DOIs. Open standards."*
 - [ ] Tier 3 — hardware collaboration with neutral atom lab
-- [ ] IP strategy executed (see IP-STRATEGY.md)
+- [ ] Publish Association Charter as Zenodo paper + DOI
+- [ ] Create QWAV initiative presence on qnfo.github.io/QWAV
+- [ ] Draft membership agreement templates (Academic, Startup, Enterprise, Foundry) — for future use
 - [ ] Grant applications: SBIR Phase I, FQXi, national quantum programs
-- [ ] Industry partnerships for hardware access
 
-## Phase 3.5: Foundry Engagement (Piggyback — Fab)
-*"Submit tree-topology mask designs to EXISTING foundries."*
-- [ ] Submit tree-topology GDSII masks for silicon spin MPW run (TSMC/GF/IMEC) — ~$50-500K
-- [ ] Submit tree-topology waveguide masks for photonic MPW run (AIM Photonics/LioniX) — ~$20-100K
-- [ ] File provisional patents on tree topology implementations per platform
-- [ ] Engage neutral atom hardware companies for native tree-topology chip development
+## Phase 3.5: Standards Publication & Adoption Outreach
+*"Publish open standards. Build awareness. Attract interest — not members yet."*
+- [ ] Publish v0.1 Tree Topology Architecture Standard (analogous to IEEE standard)
+- [ ] Submit tree-topology GDSII reference masks as open standard (TSMC/GF/IMEC compatible)
+- [ ] Publish waveguide routing standard for photonic (AIM Photonics/LioniX compatible)
+- [ ] Identify 5-10 founding member targets (academic + industry)
+- [ ] Engage neutral atom hardware companies for standards adoption
 
-## Phase 4: Commercial Licensing (2028+)
-*"QWAV = ARM Holdings for quantum computing."*
+## Phase 4: Establish Recognition (2028+)
+*"QWAV = established as the reference architecture for ultrametric quantum computing."*
+- [ ] Adopted as ultrametric architecture reference by 3-5 hardware teams
 - [ ] First tree-topology logical qubit demonstration (on any platform)
-- [ ] Execute IP licensing agreements with hardware partners (royalty-bearing or flat-fee)
-- [ ] Enterprise support offering for tree code transpiler
-- [ ] Revenue target: $1-10M by 2030
+- [ ] First annual Ultrametric Quantum Architecture Summit (UQAS) — convening interested parties
+- [ ] Revenue target: $500K-5M by 2030 from grants, sponsored research, events
 
 ## Validation Roadmap Detail (from Experimental Validation Roadmap)
 

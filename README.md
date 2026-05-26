@@ -4,7 +4,7 @@
 
 > QWAV is the flagship research initiative of [QNFO](https://github.com/QNFO/.github),
 > a scientific research incubator advancing knowledge for the **collective benefit
-> of all**. QNFO is the research identity of Empowering Change (501c3). All work
+> of all**. QNFO is the research identity of Empowering Change. All work
 > is governed by the [QNFO Content License Agreement](LICENSE) and
 > [Code of Conduct](CODE_OF_CONDUCT.md).
 
