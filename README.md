@@ -70,10 +70,10 @@ All QWAV projects are self-contained GitHub repos under [QNFO](https://github.co
 
 | Document | Purpose |
 |:---------|:--------|
-| [PROJECT STATE.md](PROJECT%20STATE.md) | Current program state for LLM handoff |
-| [CHANGELOG.md](CHANGELOG.md) | Chronological change log (v2.74) |
-| [CHARTER.md](CHARTER.md) | Program scope, constraints |
-| [LEARNINGS.md](LEARNINGS.md) | 29 lessons, including 1 BLOCKING |
+| [Program Wiki](https://github.com/QNFO/QWAV/wiki) | Program state, learnings, decisions (GitHub-native) |
+| [GitHub Releases](https://github.com/QNFO/QWAV/releases) | Chronological change log and publications |
+| [GitHub Issues](https://github.com/QNFO/QWAV/issues) | Task tracking, sprints, handoffs |
+| [Roadmap (#43)](https://github.com/QNFO/QWAV/issues/43) | Program roadmap and QEC tiers |
 | [BRAND-STRATEGY.md](briefings/BRAND-STRATEGY.md) | QNFO/QWAV/Rowan brand identities |
 | [Prior Work Catalog](briefings/prior-work-catalog.md) | 30 external publications, 7 categories |
 

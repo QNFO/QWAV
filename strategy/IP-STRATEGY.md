@@ -31,11 +31,23 @@
 | Best for | Hardware-specific implementations | Mathematical foundations, algorithms |
 
 ## Current Recommendation
-**Phase 1 (now):** Publish mathematical foundations openly (Strategy B). Establish prior art and academic credibility.  
-**Phase 2 (post-validation):** File provisional patents on specific hardware implementations (Strategy A transition).  
-**Phase 3 (commercial):** License portfolio to quantum hardware companies.
+**Phase 0 (NOW — May 2026):** Publish mathematical foundations openly (Strategy B). Establish prior art and academic credibility. Publish GDSII mask specifications as defensive prior art.  
+**Phase 1 (post-E2 validation):** File provisional patents on specific hardware implementations (Strategy A transition).  
+**Phase 2 (post-E3 validation):** Convert provisionals to full patents. Execute licensing.  
+**Phase 3 (commercial):** License portfolio to quantum hardware companies (ARM model — see `MANUFACTURING-BLUEPRINT.md`).
+
+## Specific Patentable Manufacturing Assets (from MANUFACTURING-BLUEPRINT.md §6.4)
+
+| # | Asset | Type | Platform |
+|:--|:------|:-----|:---------|
+| 1 | Tree-topology qubit connectivity layout (mask design) | Utility patent | Per platform (neutral atom, superconducting, spin, photonic, trapped ion) |
+| 2 | Holographic tree code encoding method | Algorithm patent | Platform-agnostic |
+| 3 | O(s log s) tree decoding method for quantum error correction | Algorithm patent | Platform-agnostic |
+| 4 | 4K-operation quantum error suppression method using passive geometric fault tolerance | Method patent | Platform-agnostic |
+| 5 | Bruhat-Tits tree topology as quantum computing architecture | Architecture patent | Platform-agnostic |
 
 ## See Also
+- **NEW:** `MANUFACTURING-BLUEPRINT.md` — Fabless IP model, piggyback pathways, ARM analogy (§5-6)
 - Full originals: `sessions/2026/05/strategy-archive/ip-strategic-plan.md` (26KB)
 - Full originals: `sessions/2026/05/strategy-archive/IP-Only Licensing Strategy - Strategy B CERN Model.md` (16KB)
 - Related: `briefings/research/fqxi-briefing.md` (grant context)

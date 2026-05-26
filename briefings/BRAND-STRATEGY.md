@@ -85,11 +85,15 @@ happens. It is a subsidiary of QNFO, not synonymous with it.
 - Bruhat-Tits tree geometry replaces Archimedean geometry
 - Zero logical errors at depth 7; 48× error reduction
 - All findings published open-access with registered DOIs
+- **"QWAV is the ARM of quantum computing"** — we design architectures; manufacturers build. (See `strategy/MANUFACTURING-BLUEPRINT.md`)
+- **4K operation, not mK** — 400× warmer, commodity cooling, 20,000× more thermal headroom
+- **Tree topology works on ALL platforms** — software reconfiguration or mask change, not new physics
 
 ### Audiences
 - **Technical:** Quantum computing researchers, physicists, AI/ML engineers
-- **Industry:** Neutral-atom hardware companies (PASQAL, QuEra, Atom, Infleqtion)
+- **Industry:** Neutral-atom hardware companies (PASQAL, QuEra, Atom, Infleqtion); superconducting (IBM, Google); trapped ion (IonQ, Quantinuum); silicon spin (Intel, Diraq); foundries (TSMC, GlobalFoundries)
 - **Fellowship:** Emergent Ventures, Foresight Institute, etc.
+- **Investors:** Fabless deep-tech IP licensing model (ARM precedent)
 
 ### Tone
 Technical, evidence-driven, specific. Cites DOIs. Shows interactive demos.
