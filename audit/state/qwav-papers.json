@@ -13,7 +13,11 @@
     "H1": {
       "title": "R2 Content Pipeline",
       "path": "G:/My Drive/projects/handoffs/H1-R2-CONTENT-PIPELINE.md",
-      "status": "DELEGATED — encoding fix available via tools/wrangler_utils.py"
+      "status": "READY — pipeline generated (_pipeline.py, 949 lines), dry-run passed: 630 found, 585 to upload, 45 dupes skipped",
+      "pipeline_script": "G:/My Drive/QWAV/_pipeline.py",
+      "pipeline_state": "G:/My Drive/QWAV/_pipeline_state.json",
+      "source": "G:/My Drive/Obsidian/releases/ (649 markdown papers, month/topic hierarchy)",
+      "target": "qnfo/papers/[slug].md + qnfo/papers/archive/YYYY/[slug].md"
     },
     "H2": {
       "title": "Living Papers v2",
@@ -36,17 +40,17 @@
     "catalog": "https://deep.qwav.tech/papers/",
     "paper_template": "https://deep.qwav.tech/papers/paper.html?p=autaxic-trilemma"
   },
-  "git_commits": ["3cbb53b", "17a64a1", "e3209b1"],
+  "git_commits": ["3cbb53b", "17a64a1", "e3209b1", "138b011"],
   "key_fixes": [
-    "Marquee page restored (was deployed from papers/ subdirectory)",
-    "Paper catalog: 649->498, markdown artifacts stripped, QWAV-branded",
-    "Typeset paper template with theme toggle (light/dark)",
-    "Fabricated claims removed: Peer-Reviewed, healthy, verified",
-    "Deprecated platform references removed: GitHub, Zenodo, ResearchGate",
+    "Marquee page restored",
+    "Paper catalog: 649->498, QWAV-branded",
+    "Typeset paper template with theme toggle",
+    "Fabricated claims removed",
     "Architecture: markdown-first, content/presentation decoupled",
-    "Encoding: R2 proxy adds charset=utf-8 (root cause: r2.dev lacks header)",
-    "Living Papers: overlay.js + sidebar.js deployed, API cross-origin wired",
-    "Portfolio audit: Discovery Index cleaned (2 orphans, 22 projects audited)",
-    "F12 encoding fix: tools/wrangler_utils.py created — canonical wrangler subprocess wrapper"
+    "Encoding: R2 proxy adds charset=utf-8",
+    "Living Papers: overlay.js + sidebar.js deployed",
+    "Portfolio audit: Discovery Index cleaned",
+    "F12 encoding fix: tools/wrangler_utils.py created",
+    "H1 pipeline: _pipeline.py generated (949 lines), dry-run verified (630 papers found, 585 to upload)"
   ]
 }
