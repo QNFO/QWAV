@@ -1,0 +1,11 @@
+# QWAV Archive — LLM Discovery Index
+
+> Auto-generated index for sessions\2026\05\archive
+
+## Files
+
+- [rwnq8-migrate-notice.b64.txt](./rwnq8-migrate-notice.b64.txt)
+
+## Cross-Reference
+- Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)

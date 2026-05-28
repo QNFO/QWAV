@@ -1,0 +1,40 @@
+# QWAV 05 — LLM Discovery Index
+
+> Auto-generated index for sessions\2026\05
+
+## Files
+
+- [AUDIT-REPORT-2026-05-28.md](./AUDIT-REPORT-2026-05-28.md)
+- [cleanup-audit-2026-05-26.md](./cleanup-audit-2026-05-26.md)
+- [cloudflare-blue-sky-blueprint-2026-05-27.md](./cloudflare-blue-sky-blueprint-2026-05-27.md)
+- [cloudflare-closeout-2026-05-27.md](./cloudflare-closeout-2026-05-27.md)
+- [cloudflare-comprehensive-audit-2026-05-28.md](./cloudflare-comprehensive-audit-2026-05-28.md)
+- [cloudflare-master-strategy-2026-05-27.md](./cloudflare-master-strategy-2026-05-27.md)
+- [cloudflare-poc-full-session-2026-05-27.md](./cloudflare-poc-full-session-2026-05-27.md)
+- [cloudflare-poc-session-2026-05-27.md](./cloudflare-poc-session-2026-05-27.md)
+- [DEMO-AUDIT-REPORT.md](./DEMO-AUDIT-REPORT.md)
+- [drafts-2026-05-26.md](./drafts-2026-05-26.md)
+- [FINAL_AUDIT_REPORT.md](./FINAL_AUDIT_REPORT.md)
+- [outreach-atom-computing.md](./outreach-atom-computing.md)
+- [outreach-email-david-wales.md](./outreach-email-david-wales.md)
+- [outreach-email-neutral-atom-labs.md](./outreach-email-neutral-atom-labs.md)
+- [outreach-email-zuniga-galindo.md](./outreach-email-zuniga-galindo.md)
+- [outreach-infleqtion.md](./outreach-infleqtion.md)
+- [outreach-pasqal.md](./outreach-pasqal.md)
+- [outreach-planqc.md](./outreach-planqc.md)
+- [outreach-quera.md](./outreach-quera.md)
+- [QNFO-org-README.md](./QNFO-org-README.md)
+- [release-v2.74-notes.md](./release-v2.74-notes.md)
+- [rwnq8-profile-README.md](./rwnq8-profile-README.md)
+- [SESSION-CLOSEOUT-2026-05-28.md](./SESSION-CLOSEOUT-2026-05-28.md)
+- [SESSION-HANDOFF-2026-05-27.md](./SESSION-HANDOFF-2026-05-27.md)
+- [SESSION-HANDOFF-2026-05-28.md](./SESSION-HANDOFF-2026-05-28.md)
+- [zenodo-crosslink-audit.md](./zenodo-crosslink-audit.md)
+
+## Subdirectories
+
+- [Archive/](./archive/)
+
+## Cross-Reference
+- Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)

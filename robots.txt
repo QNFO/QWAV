@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Sitemap: https://deep.qwav.tech/sitemap.xml
+
+# AI Crawlers - allow all for discoverability
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Disallow nothing - all research is open access

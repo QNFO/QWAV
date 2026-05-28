@@ -1,0 +1,23 @@
+{
+  "project": "qwav",
+  "status": "active",
+  "last_audit": "2026-05-28",
+  "audit_findings": {
+    "blocking_issues_fixed": 4,
+    "skills_created": 7,
+    "orphans_cleaned": 4,
+    "wrangler_refs_fixed": 7,
+    "d1_refs_removed": 10,
+    "task_worker_refs_removed": 7
+  },
+  "branch": "feature/audit-remediation-2026-05-28",
+  "papers_count": 539,
+  "pages_projects": 16,
+  "infrastructure": {
+    "wrangler_version": "4.95.0",
+    "r2_bucket": "qnfo",
+    "pages_projects": 16,
+    "buffer_channels": 3
+  },
+  "last_modified": "2026-05-28T10:16:57.415871"
+}
