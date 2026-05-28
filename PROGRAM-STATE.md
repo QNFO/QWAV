@@ -99,11 +99,11 @@
 
 ## Directory Cleanup — 2026-05-28
 
-✅ **QWAV directory audited and cleaned.** 16 loose files rehomed, duplicate handoffs consolidated, non-program files evicted, cache deleted.
+✅ **QWAV directory fully audited, cleaned, and reorganized.** All 16 handoffs extracted to `projects/` as standalone project directories.
 
 | Action | Result |
 |:-------|:-------|
-| Legacy handoffs (#82-#90) consolidated | → `briefings/handoffs/archive/phase-4-5-concept/` |
+| 16 handoffs extracted to `projects/` | Each has `README.md` + `SPEC.md`. No handoffs remain in `briefings/`. |
 | 11 loose Python/PS scripts rehomed | → `scripts/` |
 | `archive-template.html` rehomed | → `scripts/templates/` |
 | 3 session files rehomed | → `sessions/2026/05/` |
@@ -111,6 +111,7 @@
 | `applications/` evicted | → `G:\My Drive\projects\applications\` |
 | `Bridging the Gap.md` (empty) deleted | — |
 | `.pytest_cache/` deleted + gitignored | — |
+| `briefings/handoffs/` directory eliminated | Handoffs live in `projects/`; `HANDOFF-TRACKER.md` at `briefings/` |
 | `DIRECTORY-STRUCTURE.md` created | Reference doc for agents/humans |
 | `AUDIT-REPORT-2026-05-28.md` created | Full audit with cross-reference matrix |
 

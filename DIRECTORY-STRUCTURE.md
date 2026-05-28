@@ -45,30 +45,11 @@ G:\My Drive\QWAV\
 
 ## Directory Details
 
-### `briefings/` — All Briefings & Handoffs
+### `briefings/` — Program Briefings & Documentation
 
 ```
 briefings/
-├── handoffs/                     ACTIVE handoffs (#93-#99, Phase 3 infrastructure)
-│   ├── HANDOFF-TRACKER.md        Tracker for all 7 current handoffs
-│   ├── ask-qwav-rag-synthesis-2026-05-28.md
-│   ├── sandbox-pdf-builder-2026-05-28.md
-│   ├── d1-citation-graph-2026-05-28.md
-│   ├── queues-browser-run-prototype-2026-05-28.md
-│   ├── email-service-2026-05-28.md
-│   ├── ai-gateway-endpoint-2026-05-28.md
-│   ├── secrets-store-2026-05-28.md
-│   └── archive/
-│       └── phase-4-5-concept/    Legacy handoffs (#82-#90, Phase 4/5 concepts)
-│           ├── 82-living-paper.md
-│           ├── 83-qwav-scan.md
-│           ├── 84-consistency-engine.md
-│           ├── 85-ultrametric-playground.md
-│           ├── 86-concept-graph.md
-│           ├── 87-reproducibility-as-code.md
-│           ├── 88-automated-peer-review.md
-│           ├── 89-qwav-compute-cloud.md
-│           └── 90-agent-swarm.md
+├── HANDOFF-TRACKER.md            Program-level index of all 16 project handoffs
 ├── platform/                     Platform documentation
 │   ├── cloudflare-comprehensive-audit-2026-05-28.md
 │   ├── github-integration-plan.md
