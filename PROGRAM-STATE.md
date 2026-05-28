@@ -97,28 +97,34 @@
 - Jekyll full builds (7 sites) — mirror-deployed HTML renders fine
 - Buffer social posts — now automatable via Workers → Buffer API + Queues (P3)
 
-## Directory Cleanup — 2026-05-28
+## Directory Cleanup — 2026-05-28 ✅ SESSION CLOSED
 
-✅ **QWAV directory fully audited, cleaned, and reorganized into LLM-discoverable architecture.**
+✅ **QWAV directory fully audited, cleaned, reorganized, and self-enforcing. 6 commits pushed.**
 
 | Action | Result |
 |:-------|:-------|
-| **539 paper files evicted** | → [rwnq8/qwav-papers](https://github.com/rwnq8/qwav-papers) repo, served at [deep.qwav.tech/papers/](https://deep.qwav.tech/papers/) |
-| **5 interactive demos evicted** | → individual repos: convergence-explorer, error-confinement-demo, hardware-visualizer, qpna-playground, tree-distance |
-| **Test suite evicted** | → migrated with artifact repos |
-| **6 paper scripts evicted** | → migrated to rwnq8/qwav-papers |
-| **2 one-off scripts deleted** | test-r2-dl.py, test-vectorize.py |
-| **16 handoffs extracted** | → `projects/<name>/` with README.md + SPEC.md each |
-| **archive/ consolidated** | → sessions/2026/05/ (5 Cloudflare migration files, 740KB) |
-| **strategy-archive relocated** | → strategy/archive/ (17 early strategy drafts) |
-| **Misfiled docs relocated** | BRAND-STRATEGY → strategy/, cloudflare-audit → sessions/, zenodo-audit → sessions/ |
-| **llms.txt hierarchy created** | 5 files: root, strategy/, briefings/, projects/, sessions/ |
-| **README.md updated** | New LLM-discoverable architecture documented |
-| **FILE-MANAGEMENT-STRATEGY.md** | Every file justified — 116-page comprehensive audit |
+| **539 paper files evicted** | → [rwnq8/qwav-papers](https://github.com/rwnq8/qwav-papers) |
+| **5 interactive demos evicted** | → individual rwnq8/artifact-* repos |
+| **16 handoffs extracted** | → `projects/<name>/` with README + SPEC each |
+| **archive/ consolidated** | → sessions/2026/05/ |
+| **strategy-archive relocated** | → strategy/archive/ |
+| **llms.txt hierarchy** | 39 auto-generated files — every directory indexed |
+| **Self-enforcing system** | Pre-commit hook + enforce-structure.py (7 rules) |
+| **GitHub Actions** | 0 (deleted — Cloudflare-native only) |
+| **Result** | 700+ files → 170 files (76% reduction). 0 enforcement errors. |
 
-**Result:** 700+ files → 139 files. 81% reduction. Every remaining file has a defined purpose.
+### Enforcement System (Cloudflare-Native)
 
-See [`llms.txt`](llms.txt) for LLM agent discovery entry point. See [`briefings/FILE-MANAGEMENT-STRATEGY.md`](briefings/FILE-MANAGEMENT-STRATEGY.md) for full rationale.
+| Layer | Mechanism |
+|:------|:---------|
+| Pre-commit hook | `.githooks/pre-commit.ps1` → runs on every commit |
+| Enforcement script | `scripts/enforce-structure.py` — 7 validation rules |
+| Auto-fix | `python scripts/enforce-structure.py --fix` |
+| .gitignore | Blocks .pdf, .zip, .docx patterns |
+| llms.txt mandate | Every content dir must have discovery index |
+| Orphan detection | Every file must be traceable via llms.txt hierarchy |
+
+See [`llms.txt`](llms.txt) for LLM agent discovery. See [`briefings/FILE-MANAGEMENT-STRATEGY.md`](briefings/FILE-MANAGEMENT-STRATEGY.md) for full audit.
 
 ---
 
