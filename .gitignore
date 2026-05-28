@@ -38,3 +38,6 @@ _temp_*.txt
 *.zip
 *.tar.gz
 *.7z
+
+# Local markdown cache (canonical content is in R2)
+md/

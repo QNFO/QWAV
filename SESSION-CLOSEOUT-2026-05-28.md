@@ -14,10 +14,10 @@ Complete overhaul of `deep.qwav.tech` — restored marquee landing page, fixed p
 | 4 | `_redirects` routing | ✅ Deployed | `/papers` → catalog, `/papers/` → catalog |
 | 5 | R2 proxy function | ✅ Deployed | `functions/api/paper/[slug].js` |
 | 6 | Living Papers overlay/sidebar | ✅ Deployed | `overlay.js`, `sidebar.js` |
-| 7 | H1: R2 Content Pipeline | ✅ Written | `projects/handoffs/H1-R2-CONTENT-PIPELINE.md` |
-| 8 | H2: Living Papers v2 | ✅ Written | `projects/handoffs/H2-LIVING-PAPERS-V2.md` |
-| 9 | H3: Catalog & Discovery | ✅ Written | `projects/handoffs/H3-CATALOG-DISCOVERY.md` |
-| 10 | H4: AI Paper Review | ✅ Written | `projects/handoffs/H4-AI-PAPER-REVIEW.md` |
+| 7 | H1: R2 Content Pipeline | ✅ Written | `G:\My Drive\projects\handoffs\H1-...` |
+| 8 | H2: Living Papers v2 | ✅ Written | `G:\My Drive\projects\handoffs\H2-...` |
+| 9 | H3: Catalog & Discovery | ✅ Written | `G:\My Drive\projects\handoffs\H3-...` |
+| 10 | H4: AI Paper Review | ✅ Written | `G:\My Drive\projects\handoffs\H4-...` |
 | 11 | Session closeout doc | ✅ Written | `SESSION-CLOSEOUT-2026-05-28.md` |
 | 12 | Living Papers dev roadmap | ✅ Written | `LIVING-PAPERS-DEV.md` |
 | 13 | Lessons learned | ✅ Written | `LESSONS-LEARNED.md` |
