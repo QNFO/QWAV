@@ -23,14 +23,22 @@ QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) ge
 
 ## Interactive Demos
 
-| # | Artifact | Live Demo | Description |
-|:--|:---------|:----------|:------------|
-| A1 | Error Confinement | [Demo](https://qnfo.github.io/ultrametric-error-confinement/) | Bruhat-Tits tree error simulation |
-| A2 | Q-PNA Playground | [Demo](https://qnfo.github.io/Q-PNA/) | Quantum-Native p-Adic Neural Architecture explorer |
-| A3 | Convergence Explorer | [Demo](https://qnfo.github.io/ultrametric-convergence/) | Ultrametric vs Euclidean clustering |
-| A4 | Tree Distance | [Demo](https://qnfo.github.io/tree-distance/) | Interactive cophenetic distance comparison |
-| A5 | Hardware Visualizer | [Demo](https://qnfo.github.io/hardware-pathway/) | 3D neutral atom tree visualization |
-| K1 | Technical Hub | [Hub](https://qnfo.github.io/QWAV/) | Program overview with live demos |
+| # | Artifact | Live Demo (Cloudflare) | GitHub Mirror | Description |
+|:--|:---------|:-----------------------|:--------------|:------------|
+| A1 | Error Confinement | — | [Demo](https://qnfo.github.io/ultrametric-error-confinement/) | Bruhat-Tits tree error simulation |
+| A2 | Q-PNA Playground | — | [Demo](https://qnfo.github.io/Q-PNA/) | Quantum-Native p-Adic Neural Architecture explorer |
+| A3 | Convergence Explorer | — | [Demo](https://qnfo.github.io/ultrametric-convergence/) | Ultrametric vs Euclidean clustering |
+| A4 | Tree Distance | — | [Demo](https://qnfo.github.io/tree-distance/) | Interactive cophenetic distance comparison |
+| A5 | Hardware Visualizer | — | [Demo](https://qnfo.github.io/hardware-pathway/) | 3D neutral atom tree visualization |
+| A6 | Tree Universality | — | [Demo](https://qnfo.github.io/ultrametric-tree-universality/) | Cross-domain tree universality explorer |
+| A7 | Tree & Shadow Viz | — | [Demo](https://qnfo.github.io/tree-and-shadow-viz/) | Phase diagram visualization |
+| A8 | Game of Life | — | [Demo](https://qnfo.github.io/ultrametric-game-of-life/) | Conway's Game of Life on tree topologies |
+| K1 | Technical Hub | [deep.qwav.tech](https://deep.qwav.tech) | [Hub](https://qnfo.github.io/QWAV/) | Program overview with live demos |
+| K2 | QLOP Primer | [primer.qwav.tech](https://primer.qwav.tech) | — | Laws of Form introduction |
+| K3 | Research Archive | [archive.qnfo.org](https://archive.qnfo.org) | — | QNFO research archive (15 sites) |
+| — | **Ask QWAV** | [ask-qwav.q08.workers.dev](https://ask-qwav.q08.workers.dev) | — | AI research oracle (949 vectors indexed) |
+
+> Cloudflare Pages hosts 16 sites on custom domains (qnfo.org, qwav.tech). GitHub Pages mirrors preserved as redundancy.
 
 ## Project Repositories
 
@@ -54,28 +62,51 @@ All QWAV projects are self-contained GitHub repos under [QNFO](https://github.co
 | [license](https://github.com/QNFO/license) | QNFO Content License Agreement | — |
 | [.github](https://github.com/QNFO/.github) | Organization profile and defaults | — |
 
-## Program Management (All Public)
+## Infrastructure (Cloudflare-Native)
+
+> QWAV's entire infrastructure runs on Cloudflare's free tier — $0/month. Zero servers to manage. All edge-native.
+
+| Layer | Technology | What It Powers |
+|:------|:-----------|:---------------|
+| **Hosting** | Cloudflare Pages (16 sites) | All QWAV research sites, interactive demos, living papers |
+| **Compute** | Workers + Sandboxes | API endpoints, AI inference, PDF builds, reproducibility verification |
+| **Storage** | R2 (zero egress) | Publication PDFs, research data, model weights |
+| **Database** | D1 (SQLite) + Vectorize (vectors) | Citation graph, experiment tracking, semantic search across all papers |
+| **AI** | Workers AI + AI Gateway | "Ask QWAV" RAG oracle, paper chat, research synthesis |
+| **DNS** | 10 zones | qnfo.org, qwav.tech, bulk redirects from 6 legacy domains |
+| **Email** | Email Routing + Email Service | papers@qnfo.org, collab@qnfo.org, programmatic email processing |
+| **Agents** | Agents SDK + Workflows + Agent Memory | Autonomous research pipeline, Agent Swarm (planned) |
+| **Security** | Turnstile + WAF + Secrets Store | Protection, rate limiting, API key management |
+
+**Full audit:** [`briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md`](briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md)
+
+## Program Management
 
 | Feature | Link |
 |:--------|:-----|
-| **Wiki** | [6 pages -- architecture, modules, publications](https://github.com/QNFO/QWAV/wiki) |
-| **Discussions** | [Session records, sprint reports](https://github.com/QNFO/QWAV/discussions) |
-| **Kanban Board** | [11 issues -- Priority, Sprint, Status](https://github.com/orgs/QNFO/projects/1) |
-| **Issues** | [3 open, 22 closed](https://github.com/QNFO/QWAV/issues) |
-| **Releases** | [v2.73 -- Sprints 19-21](https://github.com/QNFO/QWAV/releases) |
-| **Milestones** | [S19 (closed), S20 (closed), S21 (open)](https://github.com/QNFO/QWAV/milestones) |
-| **Labels** | [19 -- P0-P3, blocked, research, testing](https://github.com/QNFO/QWAV/labels) |
+| **Program State** | [`PROGRAM-STATE.md`](PROGRAM-STATE.md) — canonical, updated per session |
+| **Comprehensive Audit** | [`briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md`](briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md) — full Cloudflare product × QWAV mapping |
+| **Cloudflare Master Strategy** | [`archive/cloudflare-master-strategy-2026-05-27.md`](archive/cloudflare-master-strategy-2026-05-27.md) |
+| **Strategy v3.0** | [`strategy/3.0.md`](strategy/3.0.md) — Build Gravity, Don't Wait for Permission |
+| **GitHub (source control only)** | [QNFO/QWAV](https://github.com/QNFO/QWAV) — Issues, PRs, git remote |
+| **Live Archive** | [archive.qnfo.org](https://archive.qnfo.org) — QNFO research archive |
+| **Deep QWAV** | [deep.qwav.tech](https://deep.qwav.tech) — Knowledge base |
+| **Roadmap** | Phase 1-6 plan in [`PROGRAM-STATE.md`](PROGRAM-STATE.md) |
 
 ## Documentation
 
 | Document | Purpose |
 |:---------|:--------|
-| [Program Wiki](https://github.com/QNFO/QWAV/wiki) | Program state, learnings, decisions (GitHub-native) |
-| [GitHub Releases](https://github.com/QNFO/QWAV/releases) | Chronological change log and publications |
-| [GitHub Issues](https://github.com/QNFO/QWAV/issues) | Task tracking, sprints, handoffs |
-| [Roadmap (#43)](https://github.com/QNFO/QWAV/issues/43) | Program roadmap and QEC tiers |
+| [PROGRAM-STATE.md](PROGRAM-STATE.md) | Canonical program state — phase status, infrastructure, next actions |
+| [Cloudflare Audit](briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md) | Every Cloudflare product × QWAV mission, strategy, roadmap |
+| [Strategy v3.0](strategy/3.0.md) | Build Gravity, Don't Wait for Permission |
+| [Action Plan](strategy/ACTION-PLAN.md) | From Library to Reality — phased execution plan |
+| [IP Strategy](strategy/IP-STRATEGY.md) | Intellectual property and patent portfolio |
+| [Fundraising](strategy/FUNDRAISING.md) | Fundraising strategy and pitch materials |
 | [BRAND-STRATEGY.md](briefings/BRAND-STRATEGY.md) | QNFO/QWAV/Rowan brand identities |
 | [Prior Work Catalog](briefings/prior-work-catalog.md) | 30 external publications, 7 categories |
+| [Session Archive](sessions/) | Historical session records and closeout reports |
+| [GitHub (source control)](https://github.com/QNFO/QWAV) | Issues, PRs, git remote |
 
 ## Test Suite
 
