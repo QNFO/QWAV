@@ -1,0 +1,28 @@
+# QWAV Strategy — LLM Discovery Index
+
+> All portfolio-level strategy documents. For LLM agents doing due diligence.
+
+## Current Strategy
+- [3.0.md](./3.0.md) — Strategy v3.0 (includes §9 Cloudflare-Native Operations) — **CANONICAL**
+- [2.0.md](./2.0.md) — Strategy v2.0
+- [1.0.md](./1.0.md) — Strategy v1.0
+
+## Action & Planning
+- [ACTION-PLAN.md](./ACTION-PLAN.md) — Program-level action plan
+- [FUNDRAISING.md](./FUNDRAISING.md) — Fundraising strategy
+- [IP-STRATEGY.md](./IP-STRATEGY.md) — IP strategy
+- [BRAND-STRATEGY.md](./BRAND-STRATEGY.md) — Brand strategy
+
+## Supporting Documents
+- [VENUE-REGISTRY.md](./VENUE-REGISTRY.md) — Publication venue tracking
+- [MANUFACTURING-BLUEPRINT.md](./MANUFACTURING-BLUEPRINT.md) — Manufacturing blueprint
+- [QA - Narrative Modules and Intellectual Defense.md](./QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — Strategic Q&A
+- [An Introvert's Deep-Tech Startup Path.md](./An%20Introvert's%20Deep-Tech%20Startup%20Path.md) — Personal strategy essay
+
+## Strategy Archive (v0.1-v0.9 + supporting)
+- [archive/](./archive/) — Historical strategy drafts and supporting documents
+
+## Cross-Reference
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)
+- Handoff Tracker: [../briefings/HANDOFF-TRACKER.md](../briefings/HANDOFF-TRACKER.md)
+- Root index: [../llms.txt](../llms.txt)

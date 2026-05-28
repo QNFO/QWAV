@@ -80,39 +80,28 @@ All QWAV projects are self-contained GitHub repos under [QNFO](https://github.co
 
 **Full audit:** [`briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md`](briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md)
 
-## Program Management
+## Program Management — LLM-Discoverable Architecture
 
-| Feature | Link |
-|:--------|:-----|
-| **Program State** | [`PROGRAM-STATE.md`](PROGRAM-STATE.md) — canonical, updated per session |
-| **Comprehensive Audit** | [`briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md`](briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md) — full Cloudflare product × QWAV mapping |
-| **Cloudflare Master Strategy** | [`archive/cloudflare-master-strategy-2026-05-27.md`](archive/cloudflare-master-strategy-2026-05-27.md) |
-| **Strategy v3.0** | [`strategy/3.0.md`](strategy/3.0.md) — Build Gravity, Don't Wait for Permission |
-| **GitHub (source control only)** | [QNFO/QWAV](https://github.com/QNFO/QWAV) — Issues, PRs, git remote |
-| **Live Archive** | [archive.qnfo.org](https://archive.qnfo.org) — QNFO research archive |
-| **Deep QWAV** | [deep.qwav.tech](https://deep.qwav.tech) — Knowledge base |
-| **Roadmap** | Phase 1-6 plan in [`PROGRAM-STATE.md`](PROGRAM-STATE.md) |
+QWAV uses a unified `llms.txt` hierarchy for LLM agent discovery. Start at [`llms.txt`](llms.txt).
 
-## Documentation
+| Layer | Index | Contents |
+|:------|:------|:---------|
+| **Root** | [`llms.txt`](llms.txt) | Everything — program, strategy, briefings, projects, sessions |
+| **Strategy** | [`strategy/llms.txt`](strategy/llms.txt) | v1.0-v3.0, action plan, IP, fundraising, brand |
+| **Briefings** | [`briefings/llms.txt`](briefings/llms.txt) | Platform docs, research, templates, handoff tracker |
+| **Projects** | [`projects/llms.txt`](projects/llms.txt) | 16 handoffs (7 active Phase 3, 9 legacy Phase 4/5) |
+| **Sessions** | [`sessions/llms.txt`](sessions/llms.txt) | Session records, audits, outreach records |
 
-| Document | Purpose |
-|:---------|:--------|
+| Key Document | Purpose |
+|:-------------|:--------|
 | [PROGRAM-STATE.md](PROGRAM-STATE.md) | Canonical program state — phase status, infrastructure, next actions |
-| [Cloudflare Audit](briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md) | Every Cloudflare product × QWAV mission, strategy, roadmap |
-| [Strategy v3.0](strategy/3.0.md) | Build Gravity, Don't Wait for Permission |
-| [Action Plan](strategy/ACTION-PLAN.md) | From Library to Reality — phased execution plan |
-| [IP Strategy](strategy/IP-STRATEGY.md) | Intellectual property and patent portfolio |
-| [Fundraising](strategy/FUNDRAISING.md) | Fundraising strategy and pitch materials |
-| [BRAND-STRATEGY.md](briefings/BRAND-STRATEGY.md) | QNFO/QWAV/Rowan brand identities |
-| [Prior Work Catalog](briefings/prior-work-catalog.md) | 30 external publications, 7 categories |
-| [Session Archive](sessions/) | Historical session records and closeout reports |
-| [GitHub (source control)](https://github.com/QNFO/QWAV) | Issues, PRs, git remote |
+| [briefings/HANDOFF-TRACKER.md](briefings/HANDOFF-TRACKER.md) | All 16 project handoffs with status, dependencies, repos |
+| [strategy/3.0.md](strategy/3.0.md) | Current strategy — Build Gravity, Don't Wait for Permission |
+| [briefings/FILE-MANAGEMENT-STRATEGY.md](briefings/FILE-MANAGEMENT-STRATEGY.md) | Why each file belongs — comprehensive audit |
+| [sessions/2026/05/](sessions/2026/05/) | Current session records |
+| [GitHub (source control only)](https://github.com/QNFO/QWAV) | Issues, PRs, git remote |
 
-## Test Suite
-
-- **102 tests**: 42 structural (unittest) + 60 parametrized (pytest)
-- Browser smoke tests with CDP console capture
-- All 102/102 passing
+**Migrated content:** Papers (539 files → [rwnq8/qwav-papers](https://github.com/rwnq8/qwav-papers), served at [deep.qwav.tech/papers/](https://deep.qwav.tech/papers/)). Interactive demos (5 repos → [rwnq8/convergence-explorer](https://github.com/rwnq8/convergence-explorer), etc.). Test suite migrated with demos.
 
 ## Publications
 

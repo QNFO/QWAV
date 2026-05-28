@@ -1,0 +1,38 @@
+# QWAV Briefings — LLM Discovery Index
+
+> Research briefings, platform documentation, operational templates.
+
+## Program Coordination
+- [HANDOFF-TRACKER.md](./HANDOFF-TRACKER.md) — All 16 project handoffs (status, dependencies, repos)
+- [DIRECTORY-STRUCTURE.md](./DIRECTORY-STRUCTURE.md) — File layout reference
+- [FILE-MANAGEMENT-STRATEGY.md](./FILE-MANAGEMENT-STRATEGY.md) — Why each file belongs (or doesn't)
+- [technical-site-sprint-plan.md](./technical-site-sprint-plan.md) — Sprint planning
+- [smoke-maintenance-protocol.md](./smoke-maintenance-protocol.md) — Maintenance protocol
+
+## Platform Documentation
+- [platform/github-integration-plan.md](./platform/github-integration-plan.md) — GitHub integration
+- [platform/spinoff-registry-artifacts.md](./platform/spinoff-registry-artifacts.md) — Spinoff registry
+- [platform/QNFO-org-README-v2.md](./platform/QNFO-org-README-v2.md) — QNFO organization docs
+- [platform/wiki-home.md](./platform/wiki-home.md) — Wiki content
+- [platform/QWAV System Instructions.txt](./platform/QWAV%20System%20Instructions.txt) — System instructions
+
+## Research Briefings
+- [research/fqxi-briefing.md](./research/fqxi-briefing.md) — FQXi proposal briefing
+- [research/ewor-assessment.md](./research/ewor-assessment.md) — EWOR assessment
+- [research/sbir-phase1-briefing.md](./research/sbir-phase1-briefing.md) — SBIR Phase 1 briefing
+- [research/src_fqxi_2026.md](./research/src_fqxi_2026.md) — FQXi source document
+- [research/P11 Formal Verification Collaboration Briefing.md](./research/P11%20Formal%20Verification%20Collaboration%20Briefing.md) — Collaboration briefing
+
+## Templates
+- [templates/business-docs-template.tex](./templates/business-docs-template.tex) — Business docs template
+- [templates/inbound-email-template.md](./templates/inbound-email-template.md) — Email template
+- [templates/lab-outreach-template.md](./templates/lab-outreach-template.md) — Outreach template
+
+## Reference
+- [prior-work-catalog.md](./prior-work-catalog.md) — Prior work catalog
+- [google-ai-studio-prompts-qwav-marquee.md](./google-ai-studio-prompts-qwav-marquee.md) — AI prompts
+
+## Cross-Reference
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)
+- Strategy: [../strategy/llms.txt](../strategy/llms.txt)
+- Root index: [../llms.txt](../llms.txt)

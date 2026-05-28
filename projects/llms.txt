@@ -1,0 +1,39 @@
+# QWAV Project Handoffs — LLM Discovery Index
+
+> 16 project handoffs. 7 active (Phase 3 Cloudflare infrastructure), 9 legacy (Phase 4/5 concepts).
+> Each project: README.md (quick ref) + SPEC.md (full handoff spec).
+
+## 🔴 ACTIVE — Phase 3 Cloudflare Infrastructure (7)
+
+| # | Project | Priority | Sessions | Repo |
+|:--|:--------|:---------|:---------|:-----|
+| 93 | [ask-qwav-rag/](./ask-qwav-rag/SPEC.md) — RAG Synthesis | P0 | 2 | — (modifies Worker) |
+| 94 | [sandbox-pdf-builder/](./sandbox-pdf-builder/SPEC.md) — Sandbox PDF | P0 | 1 | [rwnq8/sandbox-pdf-builder](https://github.com/rwnq8/sandbox-pdf-builder) |
+| 95 | [d1-citation-graph/](./d1-citation-graph/SPEC.md) — D1 Citation Graph | P0 | 1 | [rwnq8/qwav-db](https://github.com/rwnq8/qwav-db) |
+| 96 | [queues-browser-run/](./queues-browser-run/SPEC.md) — Queues+Browser | P1 | 2 | [rwnq8/qwav-research-pipeline](https://github.com/rwnq8/qwav-research-pipeline) |
+| 97 | [email-service/](./email-service/SPEC.md) — Email Service | P1 | 1 | [rwnq8/qwav-email](https://github.com/rwnq8/qwav-email) |
+| 98 | [ai-gateway/](./ai-gateway/SPEC.md) — AI Gateway | P1 | 0.5 | — (config only) |
+| 99 | [secrets-store/](./secrets-store/SPEC.md) — Secrets Store | P1 | 0.5 | — (config only) |
+
+## ⬜ LEGACY — Phase 4/5 Concepts (9)
+
+| # | Project | Phase | Depends On |
+|:--|:--------|:------|:-----------|
+| 82 | [living-paper/](./living-paper/SPEC.md) — Dynamic Paper | P4 | #94, #95, #96 |
+| 83 | [qwav-scan/](./qwav-scan/SPEC.md) — arXiv Discovery | P4 | #96 |
+| 84 | [consistency-engine/](./consistency-engine/SPEC.md) — Consistency Engine | P5 | #95 |
+| 85 | [ultrametric-playground/](./ultrametric-playground/SPEC.md) — Tree Geometry | P4 | — |
+| 86 | [concept-graph/](./concept-graph/SPEC.md) — Concept Graph | P4 | #95 |
+| 87 | [reproducibility-as-code/](./reproducibility-as-code/SPEC.md) — Repro | P5 | #94 |
+| 88 | [automated-peer-review/](./automated-peer-review/SPEC.md) — AI Review | P5 | #93 |
+| 89 | [qwav-compute-cloud/](./qwav-compute-cloud/SPEC.md) — Compute Cloud | P4 | #94 |
+| 90 | [agent-swarm/](./agent-swarm/SPEC.md) — Agent Swarm | P5 | #93, #95, #96, #98 |
+
+## Execution Order
+1. **P0 (blocking):** #93 Ask QWAV RAG → #94 Sandbox PDF → #95 D1 Citation Graph
+2. **P1 (after):** #96 Queues+Browser → #97 Email → #98 AI Gateway → #99 Secrets
+
+## Cross-Reference
+- Full tracker: [../briefings/HANDOFF-TRACKER.md](../briefings/HANDOFF-TRACKER.md)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)
+- Root index: [../llms.txt](../llms.txt)

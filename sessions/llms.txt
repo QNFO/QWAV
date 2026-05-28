@@ -1,0 +1,42 @@
+# QWAV Session Records — LLM Discovery Index
+
+> Program agent session records. Organized by year/month.
+
+## 2026-05 (Current)
+- [2026/05/SESSION-HANDOFF-2026-05-27.md](./2026/05/SESSION-HANDOFF-2026-05-27.md) — Cloudflare migration program handoff
+- [2026/05/SESSION-HANDOFF-2026-05-28.md](./2026/05/SESSION-HANDOFF-2026-05-28.md) — Cloudflare deep-dive audit handoff
+- [2026/05/SESSION-CLOSEOUT-2026-05-28.md](./2026/05/SESSION-CLOSEOUT-2026-05-28.md) — Session closeout (7-layer verification)
+- [2026/05/AUDIT-REPORT-2026-05-28.md](./2026/05/AUDIT-REPORT-2026-05-28.md) — Full directory audit
+- [2026/05/FINAL_AUDIT_REPORT.md](./2026/05/FINAL_AUDIT_REPORT.md) — Final audit report
+- [2026/05/DEMO-AUDIT-REPORT.md](./2026/05/DEMO-AUDIT-REPORT.md) — Demo audit report
+- [2026/05/cleanup-audit-2026-05-26.md](./2026/05/cleanup-audit-2026-05-26.md) — Cleanup audit
+- [2026/05/drafts-2026-05-26.md](./2026/05/drafts-2026-05-26.md) — Session drafts
+- [2026/05/release-v2.74-notes.md](./2026/05/release-v2.74-notes.md) — Release notes
+
+## Cloudflare Migration Archives (2026-05)
+- [2026/05/cloudflare-blue-sky-blueprint-2026-05-27.md](./2026/05/cloudflare-blue-sky-blueprint-2026-05-27.md)
+- [2026/05/cloudflare-closeout-2026-05-27.md](./2026/05/cloudflare-closeout-2026-05-27.md)
+- [2026/05/cloudflare-master-strategy-2026-05-27.md](./2026/05/cloudflare-master-strategy-2026-05-27.md)
+- [2026/05/cloudflare-poc-full-session-2026-05-27.md](./2026/05/cloudflare-poc-full-session-2026-05-27.md) (659KB)
+- [2026/05/cloudflare-poc-session-2026-05-27.md](./2026/05/cloudflare-poc-session-2026-05-27.md)
+- [2026/05/cloudflare-comprehensive-audit-2026-05-28.md](./2026/05/cloudflare-comprehensive-audit-2026-05-28.md)
+- [2026/05/zenodo-crosslink-audit.md](./2026/05/zenodo-crosslink-audit.md)
+
+## Outreach Records (2026-05)
+- [2026/05/outreach-atom-computing.md](./2026/05/outreach-atom-computing.md)
+- [2026/05/outreach-email-david-wales.md](./2026/05/outreach-email-david-wales.md)
+- [2026/05/outreach-email-neutral-atom-labs.md](./2026/05/outreach-email-neutral-atom-labs.md)
+- [2026/05/outreach-email-zuniga-galindo.md](./2026/05/outreach-email-zuniga-galindo.md)
+- [2026/05/outreach-infleqtion.md](./2026/05/outreach-infleqtion.md)
+- [2026/05/outreach-pasqal.md](./2026/05/outreach-pasqal.md)
+- [2026/05/outreach-planqc.md](./2026/05/outreach-planqc.md)
+- [2026/05/outreach-quera.md](./2026/05/outreach-quera.md)
+
+## Misc
+- [2026/05/QNFO-org-README.md](./2026/05/QNFO-org-README.md) — QNFO org README
+- [2026/05/rwnq8-profile-README.md](./2026/05/rwnq8-profile-README.md) — rwnq8 profile
+- [2026/05/archive/](./2026/05/archive/) — Migration artifacts
+
+## Cross-Reference
+- Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)

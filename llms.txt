@@ -1,52 +1,64 @@
-# deep.qwav.tech — QWAV Research Publications
+# QWAV Program Management — LLM Discovery Index
 
-> QWAV Technical Site: Ultrametric Quantum Computing & AI research. All papers are open-access with registered DOIs and computational evidence.
+> Root discovery file for LLM agents. All QWAV program content is indexed here.
+> Update this file whenever new content directories or repos are added.
 
-## Quick Links
+## Program Core (this repo — rwnq8/QWAV)
+- [PROGRAM-STATE.md](./PROGRAM-STATE.md) — Canonical program state, phase status, infrastructure inventory
+- [README.md](./README.md) — Portfolio identity, thesis, Cloudflare infrastructure
+- [LICENSE](./LICENSE) — License
+- [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) — Community standards
+- [CONTRIBUTING.md](./CONTRIBUTING.md) — Contribution guidelines
 
-- [QWAV Home](https://deep.qwav.tech/)
-- [Paper Catalog](https://deep.qwav.tech/papers/)
-- [Interactive Demos](https://deep.qwav.tech/#demos)
-- [Evidence Deck](https://deep.qwav.tech/#evidence)
+## Strategy Documents
+- [strategy/llms.txt](./strategy/llms.txt) — Full strategy index (v1.0-v3.0, action plan, IP, fundraising)
+- [strategy/3.0.md](./strategy/3.0.md) — Current strategy (includes §9 Cloudflare-Native Operations)
+- [strategy/archive/](./strategy/archive/) — Strategy drafts v0.1-v0.9 + supporting docs
 
-## Recent Publications
+## Briefings & Platform Docs
+- [briefings/llms.txt](./briefings/llms.txt) — Full briefings index
+- [briefings/HANDOFF-TRACKER.md](./briefings/HANDOFF-TRACKER.md) — All 16 project handoffs (status, dependencies)
+- [briefings/DIRECTORY-STRUCTURE.md](./briefings/DIRECTORY-STRUCTURE.md) — File layout reference
+- [briefings/FILE-MANAGEMENT-STRATEGY.md](./briefings/FILE-MANAGEMENT-STRATEGY.md) — Why each file belongs (or doesn't)
+- [briefings/platform/](./briefings/platform/) — Cloudflare, GitHub, Zenodo platform docs
+- [briefings/research/](./briefings/research/) — Research assessments (FQXi, SBIR, EWOR)
 
-- [index](https://deep.qwav.tech/papers/index.html) (2026-05-27)
-- [724026e3](https://deep.qwav.tech/papers/724026e3.html) (2026-05-27)
-- [180801a3](https://deep.qwav.tech/papers/180801a3.html) (2026-05-27)
-- [6e7287ec](https://deep.qwav.tech/papers/6e7287ec.html) (2026-05-27)
-- [fd1342b9](https://deep.qwav.tech/papers/fd1342b9.html) (2026-05-27)
-- [9eaace3e](https://deep.qwav.tech/papers/9eaace3e.html) (2026-05-27)
-- [5aec9237](https://deep.qwav.tech/papers/5aec9237.html) (2026-05-27)
-- [64245473](https://deep.qwav.tech/papers/64245473.html) (2026-05-27)
-- [5f83dcd8](https://deep.qwav.tech/papers/5f83dcd8.html) (2026-05-27)
-- [91ff7b9c](https://deep.qwav.tech/papers/91ff7b9c.html) (2026-05-27)
-- [9dd77da2](https://deep.qwav.tech/papers/9dd77da2.html) (2026-05-27)
-- [56fe0f0e](https://deep.qwav.tech/papers/56fe0f0e.html) (2026-05-27)
-- [712c1266](https://deep.qwav.tech/papers/712c1266.html) (2026-05-27)
-- [b76d48f3](https://deep.qwav.tech/papers/b76d48f3.html) (2026-05-27)
-- [0a39982a](https://deep.qwav.tech/papers/0a39982a.html) (2026-05-27)
-- [11db72f1](https://deep.qwav.tech/papers/11db72f1.html) (2026-05-27)
-- [092577de](https://deep.qwav.tech/papers/092577de.html) (2026-05-27)
-- [4f67a461](https://deep.qwav.tech/papers/4f67a461.html) (2026-05-27)
-- [9864d237](https://deep.qwav.tech/papers/9864d237.html) (2026-05-27)
-- [ac214aab](https://deep.qwav.tech/papers/ac214aab.html) (2026-05-27)
+## Project Handoffs (16 projects)
+- [projects/llms.txt](./projects/llms.txt) — Full project index with status
+- Each project has README.md + SPEC.md with full specifications
+- Active (Phase 3): ask-qwav-rag, sandbox-pdf-builder, d1-citation-graph, queues-browser-run, email-service, ai-gateway, secrets-store
+- Legacy (Phase 4/5): living-paper, qwav-scan, consistency-engine, ultrametric-playground, concept-graph, reproducibility-as-code, automated-peer-review, qwav-compute-cloud, agent-swarm
 
-## About This Site
+## Session Records
+- [sessions/llms.txt](./sessions/llms.txt) — Session records index
+- [sessions/2026/05/](./sessions/2026/05/) — Current session records
 
-This site hosts peer-reviewed and pre-print research on ultrametric quantum computing, 
-geometric physics, topological quantum computation, and related fields. All publications 
-include registered DOIs, computational evidence, and full source traceability.
+## Scripts
+- [scripts/](./scripts/) — Program-level utilities (PDF builder, audit compiler, Cloudflare tools)
 
-| Stat | Value |
-|:-----|:------|
-| Total Papers | 823 |
-| Zenodo DOIs | 85+ |
-| Interactive Demos | 7 |
-| Semantic Search | Vectorize-powered (qwav-research, 768d) |
+## External Content (migrated from QWAV)
 
-## Optional
+### Papers (539 papers → rwnq8/qwav-papers)
+- **Repo:** [github.com/rwnq8/qwav-papers](https://github.com/rwnq8/qwav-papers)
+- **Served at:** [deep.qwav.tech/papers/](https://deep.qwav.tech/papers/)
+- **Site index:** [deep.qwav.tech/llms.txt](https://deep.qwav.tech/llms.txt)
 
-- [Sitemap](https://deep.qwav.tech/sitemap.xml)
-- [Robots.txt](https://deep.qwav.tech/robots.txt)
-- [QNFO GitHub](https://github.com/qnfo)
+### Interactive Demos (5 demos → individual repos)
+- Convergence Explorer: [rwnq8/convergence-explorer](https://github.com/rwnq8/convergence-explorer)
+- Error Confinement: [rwnq8/error-confinement-demo](https://github.com/rwnq8/error-confinement-demo)
+- Hardware Visualizer: [rwnq8/hardware-visualizer](https://github.com/rwnq8/hardware-visualizer)
+- QPNA Playground: [rwnq8/qpna-playground](https://github.com/rwnq8/qpna-playground)
+- Tree Distance: [rwnq8/tree-distance](https://github.com/rwnq8/tree-distance)
+
+## Cloudflare Infrastructure
+- **Root domain:** [qwav.tech](https://qwav.tech) — Marquee site
+- **Technical site:** [deep.qwav.tech](https://deep.qwav.tech) — Papers + demos
+- **14 paper sites:** *.qnfo.org — Individual research paper sites
+- **Ask QWAV:** Vectorize-powered semantic search (949 vectors, 768d)
+
+## Discovery Paths for LLM Agents
+1. Start here (llms.txt in rwnq8/QWAV) for program management
+2. Follow sub-directory llms.txt files for detailed indexes
+3. Check HANDOFF-TRACKER.md for project status
+4. Search deep.qwav.tech/llms.txt for paper content
+5. Query Ask QWAV (Vectorize) for semantic search across all papers
