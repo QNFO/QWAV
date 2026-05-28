@@ -1,0 +1,12 @@
+# QWAV D1 Citation Graph — LLM Discovery Index
+
+> Auto-generated index for projects\d1-citation-graph
+
+## Files
+
+- [README.md](./README.md)
+- [SPEC.md](./SPEC.md)
+
+## Cross-Reference
+- Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)

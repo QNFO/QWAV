@@ -1,0 +1,12 @@
+# QWAV Ultrametric Playground — LLM Discovery Index
+
+> Auto-generated index for projects\ultrametric-playground
+
+## Files
+
+- [README.md](./README.md)
+- [SPEC.md](./SPEC.md)
+
+## Cross-Reference
+- Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)

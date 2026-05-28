@@ -1,0 +1,12 @@
+# QWAV Sandbox Pdf Builder — LLM Discovery Index
+
+> Auto-generated index for projects\sandbox-pdf-builder
+
+## Files
+
+- [README.md](./README.md)
+- [SPEC.md](./SPEC.md)
+
+## Cross-Reference
+- Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)

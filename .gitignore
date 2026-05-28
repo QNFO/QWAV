@@ -1,3 +1,7 @@
+# ============================
+# QWAV .gitignore — Enforced by scripts/enforce-structure.py
+# ============================
+
 # Generated outputs
 output/
 
@@ -12,10 +16,25 @@ simulations/__pycache__/
 .DS_Store
 Thumbs.db
 
-# Outreach emails -- contain third-party PII (recipient names, emails, institutions). NEVER push to GitHub.
+# Outreach emails — contain third-party PII. NEVER push to GitHub.
 outreach-email-*
 
 # Temp files
 _file_listing.txt
 *.tmp
 _temp_*.txt
+
+# ============================
+# ENFORCEMENT RULES — These patterns MUST NOT be committed to QWAV
+# ============================
+
+# PDFs belong in R2 qnfo/releases/, not in git
+*.pdf
+
+# DOCX files belong in dedicated project repos (exception: briefings/research/ for collaboration docs)
+# To commit a .docx, add it specifically with git add -f
+
+# Archives belong in R2
+*.zip
+*.tar.gz
+*.7z

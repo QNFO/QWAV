@@ -1,0 +1,29 @@
+# QWAV Archive — LLM Discovery Index
+
+> Auto-generated index for strategy\archive
+
+## Files
+
+- [0.1.md](./0.1.md)
+- [0.2.md](./0.2.md)
+- [0.3.md](./0.3.md)
+- [0.4.md](./0.4.md)
+- [0.4_linkedin.md](./0.4_linkedin.md)
+- [0.4_substack.md](./0.4_substack.md)
+- [0.5.1.md](./0.5.1.md)
+- [0.5.2.md](./0.5.2.md)
+- [0.5.md](./0.5.md)
+- [0.6.md](./0.6.md)
+- [0.7.md](./0.7.md)
+- [0.8.md](./0.8.md)
+- [0.9.md](./0.9.md)
+- [Experimental Validation Roadmap - Ultrametric Quantum Computing.md](./Experimental Validation Roadmap - Ultrametric Quantum Computing.md)
+- [Honest Investment Assessment - The 100K Question.md](./Honest Investment Assessment - The 100K Question.md)
+- [IP-Only Licensing Strategy - Strategy B CERN Model.md](./IP-Only Licensing Strategy - Strategy B CERN Model.md)
+- [ip-strategic-plan.md](./ip-strategic-plan.md)
+- [NEXT STEPS - From Library to Reality.md](./NEXT STEPS - From Library to Reality.md)
+- [Pitch Deck - QWAV Ultrametric Computing.md](./Pitch Deck - QWAV Ultrametric Computing.md)
+
+## Cross-Reference
+- Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)

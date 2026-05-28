@@ -1,0 +1,15 @@
+# QWAV Platform — LLM Discovery Index
+
+> Auto-generated index for briefings\platform
+
+## Files
+
+- [github-integration-plan.md](./github-integration-plan.md)
+- [QNFO-org-README-v2.md](./QNFO-org-README-v2.md)
+- [QWAV System Instructions.txt](./QWAV System Instructions.txt)
+- [spinoff-registry-artifacts.md](./spinoff-registry-artifacts.md)
+- [wiki-home.md](./wiki-home.md)
+
+## Cross-Reference
+- Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)

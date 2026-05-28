@@ -1,28 +1,29 @@
 # QWAV Strategy — LLM Discovery Index
 
-> All portfolio-level strategy documents. For LLM agents doing due diligence.
+> Auto-generated index for strategy
 
-## Current Strategy
-- [3.0.md](./3.0.md) — Strategy v3.0 (includes §9 Cloudflare-Native Operations) — **CANONICAL**
-- [2.0.md](./2.0.md) — Strategy v2.0
-- [1.0.md](./1.0.md) — Strategy v1.0
+## Files
 
-## Action & Planning
-- [ACTION-PLAN.md](./ACTION-PLAN.md) — Program-level action plan
-- [FUNDRAISING.md](./FUNDRAISING.md) — Fundraising strategy
-- [IP-STRATEGY.md](./IP-STRATEGY.md) — IP strategy
-- [BRAND-STRATEGY.md](./BRAND-STRATEGY.md) — Brand strategy
+- [1.0.md](./1.0.md)
+- [2.0.md](./2.0.md)
+- [3.0.md](./3.0.md)
+- [ACTION-PLAN.md](./ACTION-PLAN.md)
+- [An Introvert's Deep-Tech Startup Path.md](./An Introvert's Deep-Tech Startup Path.md)
+- [BRAND-STRATEGY.md](./BRAND-STRATEGY.md)
+- [External Sources and Citation Map.md](./External Sources and Citation Map.md)
+- [FUNDRAISING.md](./FUNDRAISING.md)
+- [IP-STRATEGY.md](./IP-STRATEGY.md)
+- [MANUFACTURING-BLUEPRINT.md](./MANUFACTURING-BLUEPRINT.md)
+- [mathematical-foundations.md](./mathematical-foundations.md)
+- [QA - Narrative Modules and Intellectual Defense.md](./QA - Narrative Modules and Intellectual Defense.md)
+- [Technical Deep-Dive - Ultrametric Quantum Computing and AI.md](./Technical Deep-Dive - Ultrametric Quantum Computing and AI.md)
+- [VENUE-REGISTRY.md](./VENUE-REGISTRY.md)
 
-## Supporting Documents
-- [VENUE-REGISTRY.md](./VENUE-REGISTRY.md) — Publication venue tracking
-- [MANUFACTURING-BLUEPRINT.md](./MANUFACTURING-BLUEPRINT.md) — Manufacturing blueprint
-- [QA - Narrative Modules and Intellectual Defense.md](./QA%20-%20Narrative%20Modules%20and%20Intellectual%20Defense.md) — Strategic Q&A
-- [An Introvert's Deep-Tech Startup Path.md](./An%20Introvert's%20Deep-Tech%20Startup%20Path.md) — Personal strategy essay
+## Subdirectories
 
-## Strategy Archive (v0.1-v0.9 + supporting)
-- [archive/](./archive/) — Historical strategy drafts and supporting documents
+- [Archive/](./archive/)
+  - [llms.txt](./archive/llms.txt)
 
 ## Cross-Reference
-- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)
-- Handoff Tracker: [../briefings/HANDOFF-TRACKER.md](../briefings/HANDOFF-TRACKER.md)
 - Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)

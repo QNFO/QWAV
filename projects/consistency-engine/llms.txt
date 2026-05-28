@@ -1,0 +1,12 @@
+# QWAV Consistency Engine — LLM Discovery Index
+
+> Auto-generated index for projects\consistency-engine
+
+## Files
+
+- [README.md](./README.md)
+- [SPEC.md](./SPEC.md)
+
+## Cross-Reference
+- Root index: [../llms.txt](../llms.txt)
+- Program State: [../PROGRAM-STATE.md](../PROGRAM-STATE.md)
