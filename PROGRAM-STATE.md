@@ -109,16 +109,16 @@
 | — | Update IP-STRATEGY.md — Cloudflare patent pipeline | P2 | ✅ Cloudflare-Native Patent Pipeline section added |
 | — | Update ACTION-PLAN.md — Sandbox prep added | P2 | ✅ Phase 2.5 Sandbox prep bullet added |
 
-### 🔴 READY FOR PROJECTS AGENT (Handoff Created)
+### 🔴 READY FOR PROJECTS AGENT (Handoffs Created)
 | # | Action | Phase | Handoff |
 |:--|:-------|:------|:--------|
 | 3 | **Enable Workers AI for "Ask QWAV" RAG** | P3 | `briefings/handoffs/ask-qwav-rag-synthesis-2026-05-28.md` — 2 sessions, P0 |
+| 1 | **Deploy Sandbox PDF builder** | P3 | `briefings/handoffs/sandbox-pdf-builder-2026-05-28.md` — 1 session, P0 |
+| 2 | **Create D1 citation graph database** | P3 | `briefings/handoffs/d1-citation-graph-2026-05-28.md` — 1 session, P0 |
 
 ### ⬜ PENDING HANDOFFS
 | # | Action | Phase | Sessions |
 |:--|:-------|:------|:---------|
-| 1 | Deploy Sandbox PDF builder | P3 | 1 |
-| 2 | Create D1 citation graph database | P3 | 1 |
 | 4 | Create Queues + Browser Run prototype | P3 | 2 |
 | 5 | Deploy Email Service (replace Outlook COM) | P3 | 1 |
 | 6 | Create AI Gateway endpoint | P3 | 0.5 |
