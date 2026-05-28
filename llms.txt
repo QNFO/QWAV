@@ -1,0 +1,52 @@
+# deep.qwav.tech — QWAV Research Publications
+
+> QWAV Technical Site: Ultrametric Quantum Computing & AI research. All papers are open-access with registered DOIs and computational evidence.
+
+## Quick Links
+
+- [QWAV Home](https://deep.qwav.tech/)
+- [Paper Catalog](https://deep.qwav.tech/papers/)
+- [Interactive Demos](https://deep.qwav.tech/#demos)
+- [Evidence Deck](https://deep.qwav.tech/#evidence)
+
+## Recent Publications
+
+- [index](https://deep.qwav.tech/papers/index.html) (2026-05-27)
+- [724026e3](https://deep.qwav.tech/papers/724026e3.html) (2026-05-27)
+- [180801a3](https://deep.qwav.tech/papers/180801a3.html) (2026-05-27)
+- [6e7287ec](https://deep.qwav.tech/papers/6e7287ec.html) (2026-05-27)
+- [fd1342b9](https://deep.qwav.tech/papers/fd1342b9.html) (2026-05-27)
+- [9eaace3e](https://deep.qwav.tech/papers/9eaace3e.html) (2026-05-27)
+- [5aec9237](https://deep.qwav.tech/papers/5aec9237.html) (2026-05-27)
+- [64245473](https://deep.qwav.tech/papers/64245473.html) (2026-05-27)
+- [5f83dcd8](https://deep.qwav.tech/papers/5f83dcd8.html) (2026-05-27)
+- [91ff7b9c](https://deep.qwav.tech/papers/91ff7b9c.html) (2026-05-27)
+- [9dd77da2](https://deep.qwav.tech/papers/9dd77da2.html) (2026-05-27)
+- [56fe0f0e](https://deep.qwav.tech/papers/56fe0f0e.html) (2026-05-27)
+- [712c1266](https://deep.qwav.tech/papers/712c1266.html) (2026-05-27)
+- [b76d48f3](https://deep.qwav.tech/papers/b76d48f3.html) (2026-05-27)
+- [0a39982a](https://deep.qwav.tech/papers/0a39982a.html) (2026-05-27)
+- [11db72f1](https://deep.qwav.tech/papers/11db72f1.html) (2026-05-27)
+- [092577de](https://deep.qwav.tech/papers/092577de.html) (2026-05-27)
+- [4f67a461](https://deep.qwav.tech/papers/4f67a461.html) (2026-05-27)
+- [9864d237](https://deep.qwav.tech/papers/9864d237.html) (2026-05-27)
+- [ac214aab](https://deep.qwav.tech/papers/ac214aab.html) (2026-05-27)
+
+## About This Site
+
+This site hosts peer-reviewed and pre-print research on ultrametric quantum computing, 
+geometric physics, topological quantum computation, and related fields. All publications 
+include registered DOIs, computational evidence, and full source traceability.
+
+| Stat | Value |
+|:-----|:------|
+| Total Papers | 823 |
+| Zenodo DOIs | 85+ |
+| Interactive Demos | 7 |
+| Semantic Search | Vectorize-powered (qwav-research, 768d) |
+
+## Optional
+
+- [Sitemap](https://deep.qwav.tech/sitemap.xml)
+- [Robots.txt](https://deep.qwav.tech/robots.txt)
+- [QNFO GitHub](https://github.com/qnfo)

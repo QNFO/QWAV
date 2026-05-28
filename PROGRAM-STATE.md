@@ -97,6 +97,27 @@
 - Jekyll full builds (7 sites) — mirror-deployed HTML renders fine
 - Buffer social posts — now automatable via Workers → Buffer API + Queues (P3)
 
+## Directory Cleanup — 2026-05-28
+
+✅ **QWAV directory audited and cleaned.** 16 loose files rehomed, duplicate handoffs consolidated, non-program files evicted, cache deleted.
+
+| Action | Result |
+|:-------|:-------|
+| Legacy handoffs (#82-#90) consolidated | → `briefings/handoffs/archive/phase-4-5-concept/` |
+| 11 loose Python/PS scripts rehomed | → `scripts/` |
+| `archive-template.html` rehomed | → `scripts/templates/` |
+| 3 session files rehomed | → `sessions/2026/05/` |
+| `people/` (resumes) evicted | → `G:\My Drive\personal\` |
+| `applications/` evicted | → `G:\My Drive\projects\applications\` |
+| `Bridging the Gap.md` (empty) deleted | — |
+| `.pytest_cache/` deleted + gitignored | — |
+| `DIRECTORY-STRUCTURE.md` created | Reference doc for agents/humans |
+| `AUDIT-REPORT-2026-05-28.md` created | Full audit with cross-reference matrix |
+
+See `DIRECTORY-STRUCTURE.md` for current layout. 573 untracked papers/ files flagged for future migration to dedicated repo.
+
+---
+
 ## Immediate Next Actions — Updated 2026-05-28
 
 ### ✅ COMPLETED THIS SESSION

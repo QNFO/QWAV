@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QNFO/QWAV Program Archive</title>
+<style>
+:root { --bg: #0a0a0f; --card: #141420; --text: #e0e0e0; --accent: #F6821F; --muted: #888; --green: #2ea44f; --red: #cf222e; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; padding: 2rem; max-width: 900px; margin: 0 auto; }
+header { text-align: center; padding: 2rem 0; border-bottom: 1px solid #222; margin-bottom: 2rem; }
+header h1 { font-size: 2rem; color: var(--accent); }
+header p { color: var(--muted); margin-top: 0.5rem; }
+.alert { background: #2a1a0a; border-left: 4px solid var(--accent); padding: 1rem; margin: 1rem 0; border-radius: 4px; }
+.issue { background: var(--card); border-radius: 8px; padding: 1.2rem; margin: 1rem 0; border-left: 3px solid #333; }
+.issue.open { border-left-color: var(--green); }
+.issue.closed { border-left-color: var(--red); }
+.issue h3 { font-size: 1rem; margin-bottom: 0.5rem; }
+.issue h3 a { color: var(--text); text-decoration: none; }
+.issue h3 a:hover { color: var(--accent); }
+.issue .meta { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.5rem; }
+.issue .meta .state { font-weight: 600; }
+.issue .state.open { color: var(--green); }
+.issue .state.closed { color: var(--red); }
+.issue .body { font-size: 0.9rem; color: #aaa; max-height: 200px; overflow-y: auto; background: rgba(0,0,0,0.2); padding: 0.8rem; border-radius: 4px; margin-top: 0.5rem; white-space: pre-wrap; font-family: monospace; font-size: 0.8rem; }
+.stats { display: flex; gap: 2rem; justify-content: center; padding: 1rem; }
+.stats .stat { text-align: center; }
+.stats .stat .num { font-size: 2rem; font-weight: 700; color: var(--accent); }
+.stats .stat .label { color: var(--muted); font-size: 0.8rem; }
+footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.8rem; border-top: 1px solid #222; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<header>
+<h1>QNFO/QWAV Program Archive</h1>
+<p>Cloudflare-hosted mirror of the QNFO/QWAV issue tracker on GitHub</p>
+</header>
+
+<div class="alert">
+<strong>⚠️ Context:</strong> The QNFO GitHub organization was flagged on 2026-05-27, removing all 24 repos from public view. This archive preserves the program's issue tracker to ensure continuity. Live at <a href="https://archive.qnfo.org" style="color: var(--accent);">archive.qnfo.org</a>.
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div id="issues"></div>
+
+<footer>
+<p>Built 2026-05-28 | Cloudflare Pages | Source: github.com/QNFO/QWAV</p>
+<p>Domains: <a href="https://laws.qnfo.org">laws</a> · <a href="https://paradigm.qnfo.org">paradigm</a> · <a href="https://hierarchy.qnfo.org">hierarchy</a> · <a href="https://different.qnfo.org">different</a> · <a href="https://measure.qnfo.org">measure</a> · <a href="https://unity.qnfo.org">unity</a> · <a href="https://quantum.qnfo.org">quantum</a> · <a href="https://ai-poc.qnfo.org">ai-poc</a> · <a href="https://adelic.qnfo.org">adelic</a> · <a href="https://cocyle.qnfo.org">cocyle</a> · <a href="https://knowing.qnfo.org">knowing</a> · <a href="https://solo.qnfo.org">solo</a> · <a href="https://lexicon.qnfo.org">lexicon</a></p>
+</footer>
+
+<script>
+// Issues will be injected here by the build script
+const ISSUES = __ISSUES_PLACEHOLDER__;
+
+document.getElementById('stats').innerHTML = `
+  <div class="stat"><div class="num">${ISSUES.length}</div><div class="label">Issues Archived</div></div>
+  <div class="stat"><div class="num">${ISSUES.filter(i => i.state === 'OPEN').length}</div><div class="label">Open</div></div>
+  <div class="stat"><div class="num">${ISSUES.filter(i => i.state === 'CLOSED').length}</div><div class="label">Closed</div></div>
+`;
+
+const html = ISSUES.map(i => `
+  <div class="issue ${i.state.toLowerCase()}">
+    <h3><a href="https://github.com/QNFO/QWAV/issues/${i.number}" target="_blank">#${i.number}: ${i.title}</a></h3>
+    <div class="meta">
+      <span class="state ${i.state.toLowerCase()}">${i.state}</span> · Created ${new Date(i.createdAt).toLocaleDateString()}
+    </div>
+    <div class="body">${(i.body || '').substring(0, 500)}${(i.body || '').length > 500 ? '...' : ''}</div>
+  </div>
+`).join('');
+
+document.getElementById('issues').innerHTML = html;
+</script>
+</body>
+</html>
