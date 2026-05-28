@@ -109,20 +109,19 @@
 | — | Update IP-STRATEGY.md — Cloudflare patent pipeline | P2 | ✅ Cloudflare-Native Patent Pipeline section added |
 | — | Update ACTION-PLAN.md — Sandbox prep added | P2 | ✅ Phase 2.5 Sandbox prep bullet added |
 
-### 🔴 READY FOR PROJECTS AGENT (Handoffs Created)
-| # | Action | Phase | Handoff |
-|:--|:-------|:------|:--------|
-| 3 | **Enable Workers AI for "Ask QWAV" RAG** | P3 | `briefings/handoffs/ask-qwav-rag-synthesis-2026-05-28.md` — 2 sessions, P0 |
-| 1 | **Deploy Sandbox PDF builder** | P3 | `briefings/handoffs/sandbox-pdf-builder-2026-05-28.md` — 1 session, P0 |
-| 2 | **Create D1 citation graph database** | P3 | `briefings/handoffs/d1-citation-graph-2026-05-28.md` — 1 session, P0 |
+### 🔴 READY FOR PROJECTS AGENT (ALL 7 Handoffs Created)
 
-### ⬜ PENDING HANDOFFS
-| # | Action | Phase | Sessions |
-|:--|:-------|:------|:---------|
-| 4 | Create Queues + Browser Run prototype | P3 | 2 |
-| 5 | Deploy Email Service (replace Outlook COM) | P3 | 1 |
-| 6 | Create AI Gateway endpoint | P3 | 0.5 |
-| 7 | Store API keys in Secrets Store | P3 | 0.5 |
+| # | Action | Phase | Handoff | Sessions |
+|:--|:-------|:------|:--------|:---------|
+| 3 | **Enable Workers AI for "Ask QWAV" RAG** | P3 | `briefings/handoffs/ask-qwav-rag-synthesis-2026-05-28.md` | 2 |
+| 1 | **Deploy Sandbox PDF builder** | P3 | `briefings/handoffs/sandbox-pdf-builder-2026-05-28.md` | 1 |
+| 2 | **Create D1 citation graph database** | P3 | `briefings/handoffs/d1-citation-graph-2026-05-28.md` | 1 |
+| 4 | **Create Queues + Browser Run prototype** | P3 | `briefings/handoffs/queues-browser-run-prototype-2026-05-28.md` | 2 |
+| 5 | **Deploy Email Service** | P3 | `briefings/handoffs/email-service-2026-05-28.md` | 1 |
+| 6 | **Create AI Gateway endpoint** | P3 | `briefings/handoffs/ai-gateway-endpoint-2026-05-28.md` | 0.5 |
+| 7 | **Store API keys in Secrets Store** | P3 | `briefings/handoffs/secrets-store-2026-05-28.md` | 0.5 |
+
+**Total: ~8 sessions across 7 handoffs. All P0/P1. All Cloudflare-native.**
 
 ## Cross-Reference
 - **Comprehensive Audit:** `briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md`
