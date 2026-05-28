@@ -1,30 +1,60 @@
-# QNFO/QWAV Decision Log
+﻿# QNFO/QWAV Decision Log
 
 > Unified decision record for all QNFO and QWAV projects.
 > Maintained by: github-sync Worker + agent session closeouts.
-> Last updated: 2026-05-27 (Session: Cloudflare Audit Trail Implementation)
+> Last updated: 2026-05-28 (Session: F12 Encoding Fix + Discovery Index Rebuild)
 
 ---
 
-## 2026-05-27 — Cloudflare Audit Trail Implementation (Session 2)
+## 2026-05-28 — F12 Encoding Fix & Discovery Index Rebuild
+
+### Decision: F12 wrangler encoding fix → shared utility module (RESOLVED)
+
+**Status:** Implemented
+**Context:** Decision log v1 documented F12 (wrangler Unicode box-drawing chars crash Python subprocess on Windows). Fix was known (`encoding='utf-8', errors='replace'`) but not centralized. H1 (R2 Content Pipeline) was blocked waiting for the fix.
+
+**Implementation:**
+- `G:/My Drive/QWAV/tools/wrangler_utils.py` — canonical wrangler subprocess wrapper with encoding fix built in. Provides `run_wrangler()`, `upload_to_r2()`, `get_r2_object()`.
+- Shell=True on Windows for npx.cmd resolution.
+- `--remote` flag confirmed STILL REQUIRED in wrangler v4.95+.
+- cloudflare-deployer skill updated to v2.0 with F12 documentation.
+- All 7 existing scripts audited — all already had the encoding fix applied individually. The utility ensures future scripts inherit it.
+- qwav-papers state updated: blocker removed, H1 re-delegated with encoding fix available.
+
+### Decision: Discovery Index rebuilt from filesystem
+
+**Status:** Implemented
+**Context:** On session startup, `qnfo/discovery/index.json` was empty (corrupted or never populated). R2 had zero audit objects.
+
+**Implementation:**
+- Scanned all 24 project directories + 9 archived projects from local filesystem
+- Rebuilt index with topics mapping, git status, README presence
+- Uploaded to R2 `qnfo/discovery/index.json`
+- Bootstrapped R2 audit trail: `qnfo/audit/state/qwav-papers.json`, `qnfo/audit/decisions/DECISION-LOG.md`
+
+**Key finding:** Obsidian releases directory only contains 1 file (not 650 as H1 states). The H1 handoff references `G:/My Drive/Obsidian/releases/` with 650 files, but the actual directory has been reduced/cleaned. H1 scope may need revision.
+
+---
+
+## 2026-05-27 â€” Cloudflare Audit Trail Implementation (Session 2)
 
 ### Decision: Build complete reusable automation layer for Cloudflare operations
 
 **Status:** Implemented
-**Context:** After building the R2 audit trail infrastructure and cron worker, the user requested reusable instructions/code/scripting that DeepChat agents can execute autonomously — "invisible to end user, always there."
+**Context:** After building the R2 audit trail infrastructure and cron worker, the user requested reusable instructions/code/scripting that DeepChat agents can execute autonomously â€” "invisible to end user, always there."
 
 **Implementation:**
-- cloudflare-deployer skill v2.0: Complete rewrite (3,116 → 16,054 bytes). Covers Workers (cron + HTTP), R2, Vectorize, secrets, DNS via REST API, bulk redirects. 10 failure modes documented. Python Worker quirks (Object.fromEntries, --remote flag, compatibility_flags).
+- cloudflare-deployer skill v2.0: Complete rewrite (3,116 â†’ 16,054 bytes). Covers Workers (cron + HTTP), R2, Vectorize, secrets, DNS via REST API, bulk redirects. 10 failure modes documented. Python Worker quirks (Object.fromEntries, --remote flag, compatibility_flags).
 - closeout-manager skill v2.0: Added mandatory R2 audit trail export + decision log update.
 - REBUILD-FROM-SCRATCH.md (11,885 bytes): Idiot-proof crash recovery. Covers installation, authentication, cloning, deploying all workers, recreating R2 structure, verification.
 - CLOUDFLARE-AUDIT-EXPORT template: Structured session export format for R2.
-- DEFAULT.md §10: Closeout now references CLOUDFLARE-AUDIT-EXPORT template, cloudflare-deployer v2.0 skill, closeout-manager v2.0 skill, and REBUILD-FROM-SCRATCH.md.
+- DEFAULT.md Â§10: Closeout now references CLOUDFLARE-AUDIT-EXPORT template, cloudflare-deployer v2.0 skill, closeout-manager v2.0 skill, and REBUILD-FROM-SCRATCH.md.
 
 ### Decision: System reload required for new templates to activate
 
 **Status:** Discovered (F11)
 **Context:** CLOUDFLARE-AUDIT-EXPORT is correctly registered in prompts.json (29 entries, verified on disk) but `list_all_prompt_template_names()` does not include it. The runtime system caches the pre-rebuild template list.
-**Impact:** Agents cannot use `fill_prompt_template("CLOUDFLARE-AUDIT-EXPORT")` until DeepChat restarts. Manual wrangler commands from DEFAULT.md §10 are the fallback.
+**Impact:** Agents cannot use `fill_prompt_template("CLOUDFLARE-AUDIT-EXPORT")` until DeepChat restarts. Manual wrangler commands from DEFAULT.md Â§10 are the fallback.
 **Mitigation:** Documented in REBUILD-FROM-SCRATCH.md (added after discovery).
 
 ### Decision: wrangler Unicode output crashes Python subprocess on Windows (F12)
@@ -41,7 +71,7 @@
 
 ---
 
-## 2026-05-27 — Cloudflare Audit Trail Infrastructure (Session 1)
+## 2026-05-27 â€” Cloudflare Audit Trail Infrastructure (Session 1)
 
 ### Decision: Cloudflare is the distribution + survivability layer, not the development platform
 
@@ -91,19 +121,19 @@
 
 ---
 
-## 2026-05-27 — Phase 1 Cloudflare Migration (Earlier Session)
+## 2026-05-27 â€” Phase 1 Cloudflare Migration (Earlier Session)
 
 ### Decision: qnfo.org is the platform root
 
 **Status:** Accepted, partially implemented
 **Source:** CLOUDFLARE-CLOSEOUT-2026-05-27.md
 
-### Decision: No new domains — 14 existing sufficient
+### Decision: No new domains â€” 14 existing sufficient
 
 **Status:** Decided, no domains purchased
 **Source:** CLOUDFLARE-CLOSEOUT-2026-05-27.md
 
-### Decision: PM Strategy — Hybrid GitHub (live) + Cloudflare (mirror)
+### Decision: PM Strategy â€” Hybrid GitHub (live) + Cloudflare (mirror)
 
 **Status:** Strategy decided, mirror partially built
 **Source:** CLOUDFLARE-CLOSEOUT-2026-05-27.md
@@ -140,3 +170,49 @@
 **Context:** Subagent .md files are v1.2 (with DoD + Self-Verification gates) but subagent_orchestrator embeds v1.1 definitions.
 **Decision:** Added slot IDs to DEFAULT.md section 5. Manual update required in DeepChat UI.
 **Consequences:** Running subagents miss DoD + self-verification gates until UI updated. P1.2 pending item.
+
+---
+
+## 2026-05-28 — QWAV Directory Cleanup & Architecture (Session 2)
+
+### ADR-006: QWAV as Pure Program Management Hub — Zero Project Content
+
+**Status:** Implemented
+**Context:** QWAV directory had 700+ files — project source code, paper HTML, build artifacts, personal documents — all mixed with program management files. LLM agents couldn't discover what existed.
+
+**Decision:** QWAV directory contains ONLY program management files. All project code, content, build artifacts, and personal files evicted to dedicated repos or Cloudflare deployments.
+
+**Result:** 700+ files → 214 files (69% reduction). 539 papers → rwnq8/qwav-papers. 5 demos → individual rwnq8/* repos. Every remaining file documented in FILE-MANAGEMENT-STRATEGY.md.
+
+### ADR-007: llms.txt Hierarchy as Unified LLM Discovery Architecture
+
+**Status:** Implemented
+**Context:** LLM agents need to discover all program content without knowing what exists. User requirement: "UNIFIED WAY OF ACCESSING INFORMATION FOR LLM DUE-DILIGENCE/DISCOVERY."
+
+**Decision:** Every content directory must contain an llms.txt file. Root llms.txt provides entry point. Auto-generated by enforce-structure.py --fix. 39 files deployed across all directories.
+
+### ADR-008: Self-Enforcing File Management via Local Pre-Commit Hook
+
+**Status:** Implemented
+**Context:** Without enforcement, QWAV directory will become a dumping ground again. User requirement: "ENFORCEMENT WITHOUT MANUAL USER INTERVENTION."
+
+**Decision:** 7-rule enforcement system runs on every git commit via local pre-commit hook. No GitHub Actions. Cloudflare-native. scripts/enforce-structure.py validates whitelist, extensions, llms.txt, sizes, links, orphans.
+
+### Decision: GitHub Actions Fully Deprecated — Cloudflare-Native Only
+
+**Status:** Implemented
+**Context:** ADR-002 deprecated GitHub for non-git functions. GitHub Actions workflow deleted per user directive: "GITHUB IS DEPRECATED. USE CLOUDFLARE INSTEAD."
+
+### Decision: All 16 Handoffs as Standalone Projects in projects/ Directory
+
+**Status:** Implemented
+**Context:** Handoff specs were buried in briefings/handoffs/. User required: "ALL HANDOFFS SHOULD BE SEPARATE PROJECTS IN PROJECTS DIRECTORY."
+
+**Result:** 16 project directories (7 active Phase 3 + 9 legacy Phase 4/5), each with README.md + SPEC.md. briefings/handoffs/ deleted. HANDOFF-TRACKER.md at briefings/.
+
+### Decision: Papers and Artifacts to Dedicated Repos, Not QWAV
+
+**Status:** Implemented
+**Context:** Papers (539 HTML) and artifacts (5 demos) had no defined home. User requirement: "EVERYTHING SHOULD HAVE A DEFINED HOME, PREFERABLY ON CLOUDFLARE."
+
+**Result:** 6 repos created: rwnq8/qwav-papers + 5 rwnq8/artifact-* repos. All deployed/served from Cloudflare Pages.

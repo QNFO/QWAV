@@ -2,28 +2,41 @@
   "project": "qwav-papers",
   "status": "active",
   "last_session": "2026-05-28",
-  "architecture": "markdown-first \u2014 single paper.html template + R2 content + Function proxy",
+  "architecture": "markdown-first — single paper.html template + R2 content + Function proxy",
   "papers_rendered": 498,
   "papers_in_r2": 1,
-  "blockers": [
-    "H1: 497 papers need R2 upload \u2014 subprocess encoding fix required"
+  "blockers": [],
+  "infra_fixes": [
+    "F12 (wrangler Unicode encoding): RESOLVED — shared utility at tools/wrangler_utils.py with encoding='utf-8', errors='replace'"
   ],
   "handoffs": {
-    "H1": "R2 Content Pipeline \u2014 G:/My Drive/projects/handoffs/H1-R2-CONTENT-PIPELINE.md",
-    "H2": "Living Papers v2 \u2014 G:/My Drive/projects/handoffs/H2-LIVING-PAPERS-V2.md",
-    "H3": "Catalog & Discovery \u2014 G:/My Drive/projects/handoffs/H3-CATALOG-DISCOVERY.md",
-    "H4": "AI Paper Review \u2014 G:/My Drive/projects/handoffs/H4-AI-PAPER-REVIEW.md"
+    "H1": {
+      "title": "R2 Content Pipeline",
+      "path": "G:/My Drive/projects/handoffs/H1-R2-CONTENT-PIPELINE.md",
+      "status": "DELEGATED — encoding fix available via tools/wrangler_utils.py"
+    },
+    "H2": {
+      "title": "Living Papers v2",
+      "path": "G:/My Drive/projects/handoffs/H2-LIVING-PAPERS-V2.md",
+      "status": "DELEGATED"
+    },
+    "H3": {
+      "title": "Catalog & Discovery",
+      "path": "G:/My Drive/projects/handoffs/H3-CATALOG-DISCOVERY.md",
+      "status": "DELEGATED"
+    },
+    "H4": {
+      "title": "AI Paper Review",
+      "path": "G:/My Drive/projects/handoffs/H4-AI-PAPER-REVIEW.md",
+      "status": "DELEGATED"
+    }
   },
   "deployed_urls": {
     "marquee": "https://deep.qwav.tech/",
     "catalog": "https://deep.qwav.tech/papers/",
     "paper_template": "https://deep.qwav.tech/papers/paper.html?p=autaxic-trilemma"
   },
-  "git_commits": [
-    "3cbb53b",
-    "17a64a1",
-    "e3209b1"
-  ],
+  "git_commits": ["3cbb53b", "17a64a1", "e3209b1"],
   "key_fixes": [
     "Marquee page restored (was deployed from papers/ subdirectory)",
     "Paper catalog: 649->498, markdown artifacts stripped, QWAV-branded",
@@ -33,6 +46,7 @@
     "Architecture: markdown-first, content/presentation decoupled",
     "Encoding: R2 proxy adds charset=utf-8 (root cause: r2.dev lacks header)",
     "Living Papers: overlay.js + sidebar.js deployed, API cross-origin wired",
-    "Portfolio audit: Discovery Index cleaned (2 orphans, 22 projects audited)"
+    "Portfolio audit: Discovery Index cleaned (2 orphans, 22 projects audited)",
+    "F12 encoding fix: tools/wrangler_utils.py created — canonical wrangler subprocess wrapper"
   ]
 }
