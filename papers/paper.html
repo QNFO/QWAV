@@ -21,6 +21,20 @@
     --link:#818cf8; --accent:#34d399;
     --border:rgba(129,140,248,0.12); --code-bg:rgba(0,0,0,0.25);
   }
+  /* Light theme */
+  [data-theme="light"] {
+    --bg:#ffffff; --fg:#1f2937; --muted:#6b7280;
+    --link:#4f46e5; --accent:#059669;
+    --border:rgba(79,70,229,0.12); --code-bg:rgba(0,0,0,0.04);
+  }
+  /* System preference */
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg:#ffffff; --fg:#1f2937; --muted:#6b7280;
+      --link:#4f46e5; --accent:#059669;
+      --border:rgba(79,70,229,0.12); --code-bg:rgba(0,0,0,0.04);
+    }
+  }
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   html{font-size:18px}
   body{
@@ -119,6 +133,7 @@
   <div>
     <a href="/">Home</a>
     <a href="/papers/" style="margin-left:1.5rem">Papers</a>
+    <button id="theme-toggle" onclick="toggleTheme()" style="margin-left:1.5rem;background:none;border:1px solid var(--border);color:var(--fg);padding:.25rem .6rem;border-radius:4px;cursor:pointer;font-size:.8rem" title="Toggle light/dark theme">☀</button>
   </div>
 </nav>
 <article>
@@ -192,6 +207,20 @@
     document.getElementById('error').innerHTML += '<br><small>'+e.message+'</small>';
   }
 })();
+// Theme toggle
+(function(){
+  var t=localStorage.getItem('theme');
+  if(!t) t=window.matchMedia('(prefers-color-scheme:light)').matches?'light':'dark';
+  document.documentElement.setAttribute('data-theme',t);
+  document.getElementById('theme-toggle').textContent=t==='light'?'☽':'☀';
+})();
+function toggleTheme(){
+  var c=document.documentElement.getAttribute('data-theme');
+  var n=c==='light'?'dark':'light';
+  document.documentElement.setAttribute('data-theme',n);
+  localStorage.setItem('theme',n);
+  document.getElementById('theme-toggle').textContent=n==='light'?'☽':'☀';
+}
 </script>
 </body>
 </html>
