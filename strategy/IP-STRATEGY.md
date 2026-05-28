@@ -48,8 +48,24 @@
 
 **IP policy:** RAND-Z (Reasonable And Non-Discriminatory — Zero royalty). All reference architectures free to implement. This maximizes adoption — the goal of an open standards initiative.
 
+## Cloudflare-Native Patent Pipeline
+
+The patent strategy benefits from Cloudflare's platform for automated prior art monitoring and novelty assessment:
+
+| Capability | Cloudflare Product | How It's Used |
+|:-----------|:-------------------|:--------------|
+| **Prior Art Scraping** | Browser Run + Queues | Continuous arXiv/USPTO scraping. Queue → scrape → classify → store. 24/7 monitoring for relevant filings. |
+| **Novelty Assessment** | Workers AI + Vectorize | Compare draft claims against QWAV corpus + external patent databases. Flag potential conflicts or novelty issues. |
+| **Application Storage** | R2 (zero egress) | Store patent drafts, prior art archives, filing records. Zero cost to access or distribute. |
+| **Prior Art Database** | D1 (SQLite) | Structured database of known art. Queryable by claim element. Portable (SQLite = standard). |
+| **Trademark Monitoring** | Workers + Browser Run | Periodic checks of "QWAV", "QNFO", "Tree-Topology" marks across USPTO/WIPO. |
+| **API Key Security** | Secrets Store | USPTO API keys, legal research platform credentials. Never in code. |
+
+**Integration point:** When QWAV transitions from Strategy B (CERN/Open) to Strategy A (selective patents), the Cloudflare pipeline makes prior art search continuous rather than point-in-time. This reduces patent prosecution risk and strengthens defensive publication positioning.
+
 ## See Also
 - **NEW:** [Manufacturing Blueprint (Wiki)](https://github.com/QNFO/QWAV/wiki/Manufacturing-Blueprint) + [Tree Topology Specs (Wiki)](https://github.com/QNFO/QWAV/wiki/Tree-Topology-Specifications) — Open architecture initiative, open standards, syndicated research
 - Full originals: `sessions/2026/05/strategy-archive/ip-strategic-plan.md` (26KB)
 - Full originals: `sessions/2026/05/strategy-archive/IP-Only Licensing Strategy - Strategy B CERN Model.md` (16KB)
 - Related: `briefings/research/fqxi-briefing.md` (grant context)
+- Related: `briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md` (full infrastructure audit)

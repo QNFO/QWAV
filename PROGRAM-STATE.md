@@ -97,23 +97,38 @@
 - Jekyll full builds (7 sites) — mirror-deployed HTML renders fine
 - Buffer social posts — now automatable via Workers → Buffer API + Queues (P3)
 
-## Immediate Next Actions (Prioritized — from Cloudflare Audit §7)
-| # | Action | Phase | Products | Sessions |
-|:--|:-------|:------|:---------|:---------|
-| 1 | Deploy Sandbox PDF builder | P3 | Sandboxes + R2 | 1 |
-| 2 | Create D1 citation graph database | P3 | D1 | 1 |
-| 3 | Enable Workers AI for "Ask QWAV" RAG | P3 | Workers AI + Vectorize | 2 |
-| 4 | Create Queues + Browser Run prototype | P3 | Queues + Browser Run + Workers AI + D1 | 2 |
-| 5 | Deploy Email Service (replace Outlook COM) | P3 | Email Service + Workers AI | 1 |
-| 6 | Create AI Gateway endpoint | P3 | AI Gateway | 0.5 |
-| 7 | Store API keys in Secrets Store | P3 | Secrets Store | 0.5 |
-| 8 | Update README.md — Cloudflare section | P2 | — | 0.5 |
-| 9 | Update Strategy 3.0 — Cloudflare recipes | P2 | — | 0.5 |
+## Immediate Next Actions — Updated 2026-05-28
+
+### ✅ COMPLETED THIS SESSION
+| # | Action | Phase | Evidence |
+|:--|:-------|:------|:---------|
+| — | Cloudflare Comprehensive Audit (12K words) | All | `briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md` |
+| 8 | Update README.md — Cloudflare section | P2 | ✅ Infrastructure section added, Program Management rewritten, Demos expanded |
+| 9 | Update Strategy 3.0 — Cloudflare recipes | P2 | ✅ §9 Cloudflare-Native Operations appendix added |
+| — | Update FUNDRAISING.md — $0 infrastructure cost | P2 | ✅ Infrastructure Cost Advantage section added |
+| — | Update IP-STRATEGY.md — Cloudflare patent pipeline | P2 | ✅ Cloudflare-Native Patent Pipeline section added |
+| — | Update ACTION-PLAN.md — Sandbox prep added | P2 | ✅ Phase 2.5 Sandbox prep bullet added |
+
+### 🔴 READY FOR PROJECTS AGENT (Handoff Created)
+| # | Action | Phase | Handoff |
+|:--|:-------|:------|:--------|
+| 3 | **Enable Workers AI for "Ask QWAV" RAG** | P3 | `briefings/handoffs/ask-qwav-rag-synthesis-2026-05-28.md` — 2 sessions, P0 |
+
+### ⬜ PENDING HANDOFFS
+| # | Action | Phase | Sessions |
+|:--|:-------|:------|:---------|
+| 1 | Deploy Sandbox PDF builder | P3 | 1 |
+| 2 | Create D1 citation graph database | P3 | 1 |
+| 4 | Create Queues + Browser Run prototype | P3 | 2 |
+| 5 | Deploy Email Service (replace Outlook COM) | P3 | 1 |
+| 6 | Create AI Gateway endpoint | P3 | 0.5 |
+| 7 | Store API keys in Secrets Store | P3 | 0.5 |
 
 ## Cross-Reference
 - **Comprehensive Audit:** `briefings/platform/cloudflare-comprehensive-audit-2026-05-28.md`
 - **Master Strategy (Cloudflare):** `archive/cloudflare-master-strategy-2026-05-27.md`
 - **Blue-Sky Blueprint:** `archive/cloudflare-blue-sky-blueprint-2026-05-27.md`
-- **Strategy v3.0:** `strategy/3.0.md`
-- **Handoff:** `G:\My Drive\QWAV\SESSION-HANDOFF-2026-05-28.md`
+- **Strategy v3.0:** `strategy/3.0.md` (now includes §9 Cloudflare-Native Operations)
+- **Ask QWAV Handoff:** `briefings/handoffs/ask-qwav-rag-synthesis-2026-05-28.md`
+- **Session Closeout:** `SESSION-HANDOFF-2026-05-28.md`
 

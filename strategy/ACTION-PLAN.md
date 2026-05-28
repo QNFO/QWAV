@@ -34,6 +34,7 @@
 - [ ] Pathway E: Tree-encoded circuits on IonQ/Quantinuum trapped ion hardware — ~$10-50K
 - [ ] Pathway B (prep): Tree code transpiler pass for IBM Qiskit superconducting backends
 - [ ] Publish multi-platform benchmark: tree code vs. unencoded baseline
+- [ ] **Cloudflare Sandbox prep:** Deploy circuit simulation environments on Cloudflare Sandboxes (Linux VMs, $0.002/min, GA Apr 2026). Run tree code transpiler + simulator in Sandbox → verify outputs match local → publish verification report. This validates the transpiler on cloud hardware with a SOFTWARE change, at near-zero cost, before committing to $10-50K AWS Braket runs.
 
 ## Phase 3: Build Awareness — Standards Publication & Industry Interest
 *"QWAV = first-mover in ultrametric quantum architecture. Solo researcher. 5 DOIs. Open standards."*
