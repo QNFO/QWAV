@@ -1,0 +1,875 @@
+{
+    "version": "1.1",
+    "updated": "2026-05-28T12:00:00Z",
+    "updated_by": "system-prompt-generator v4.6 / GitHub-DEPRECATED -> Cloudflare-Native",
+    "projects": {
+        "agent-swarm": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/agent-swarm.json",
+            "r2_backlog": "qnfo/audit/backlog/agent-swarm.json",
+            "r2_releases": "qnfo/releases/agent-swarm/",
+            "r2_code": "qnfo/code/agent-swarm.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/agent-swarm/",
+            "archive_path": null,
+            "topics": [
+                "agents",
+                "swarm",
+                "multi-agent"
+            ],
+            "summary": "Active project: agent-swarm",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "3 items"
+        },
+        "applications": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/applications.json",
+            "r2_backlog": "qnfo/audit/backlog/applications.json",
+            "r2_releases": "qnfo/releases/applications/",
+            "r2_code": "qnfo/code/applications.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/applications/",
+            "archive_path": null,
+            "topics": [],
+            "summary": "Active project: applications",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "3 items"
+        },
+        "ask-qwav": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/ask-qwav.json",
+            "r2_backlog": "qnfo/audit/backlog/ask-qwav.json",
+            "r2_releases": "qnfo/releases/ask-qwav/",
+            "r2_code": "qnfo/code/ask-qwav.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/ask-qwav/",
+            "archive_path": null,
+            "topics": [
+                "qwav",
+                "ai",
+                "vectorize",
+                "search"
+            ],
+            "summary": "Active project: ask-qwav",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "6 items"
+        },
+        "automated-peer-review": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/automated-peer-review.json",
+            "r2_backlog": "qnfo/audit/backlog/automated-peer-review.json",
+            "r2_releases": "qnfo/releases/automated-peer-review/",
+            "r2_code": "qnfo/code/automated-peer-review.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/automated-peer-review/",
+            "archive_path": null,
+            "topics": [],
+            "summary": "Active project: automated-peer-review",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "3 items"
+        },
+        "cf-dns-validator": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/cf-dns-validator.json",
+            "r2_backlog": "qnfo/audit/backlog/cf-dns-validator.json",
+            "r2_releases": "qnfo/releases/cf-dns-validator/",
+            "r2_code": "qnfo/code/cf-dns-validator.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/cf-dns-validator/",
+            "archive_path": null,
+            "topics": [
+                "cloudflare",
+                "dns",
+                "validation"
+            ],
+            "summary": "Active project: cf-dns-validator",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "2 items"
+        },
+        "cloudflare-pages-migration": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/cloudflare-pages-migration.json",
+            "r2_backlog": "qnfo/audit/backlog/cloudflare-pages-migration.json",
+            "r2_releases": "qnfo/releases/cloudflare-pages-migration/",
+            "r2_code": "qnfo/code/cloudflare-pages-migration.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/cloudflare-pages-migration/",
+            "archive_path": null,
+            "topics": [
+                "cloudflare",
+                "migration",
+                "pages"
+            ],
+            "summary": "Active project: cloudflare-pages-migration",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "2 items"
+        },
+        "cloudflare-pm-infrastructure": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/cloudflare-pm-infrastructure.json",
+            "r2_backlog": "qnfo/audit/backlog/cloudflare-pm-infrastructure.json",
+            "r2_releases": "qnfo/releases/cloudflare-pm-infrastructure/",
+            "r2_code": "qnfo/code/cloudflare-pm-infrastructure.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/cloudflare-pm-infrastructure/",
+            "archive_path": null,
+            "topics": [
+                "cloudflare",
+                "pm",
+                "infrastructure"
+            ],
+            "summary": "Active project: cloudflare-pm-infrastructure",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "16 items"
+        },
+        "concept-graph": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/concept-graph.json",
+            "r2_backlog": "qnfo/audit/backlog/concept-graph.json",
+            "r2_releases": "qnfo/releases/concept-graph/",
+            "r2_code": "qnfo/code/concept-graph.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/concept-graph/",
+            "archive_path": null,
+            "topics": [
+                "knowledge-graph",
+                "concepts"
+            ],
+            "summary": "Active project: concept-graph",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "3 items"
+        },
+        "consistency-engine": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/consistency-engine.json",
+            "r2_backlog": "qnfo/audit/backlog/consistency-engine.json",
+            "r2_releases": "qnfo/releases/consistency-engine/",
+            "r2_code": "qnfo/code/consistency-engine.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/consistency-engine/",
+            "archive_path": null,
+            "topics": [
+                "consistency",
+                "validation"
+            ],
+            "summary": "Active project: consistency-engine",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "3 items"
+        },
+        "email-agent": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/email-agent.json",
+            "r2_backlog": "qnfo/audit/backlog/email-agent.json",
+            "r2_releases": "qnfo/releases/email-agent/",
+            "r2_code": "qnfo/code/email-agent.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/email-agent/",
+            "archive_path": null,
+            "topics": [
+                "email",
+                "agent",
+                "outlook"
+            ],
+            "summary": "Active project: email-agent",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "11 items"
+        },
+        "github-sync-worker": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/github-sync-worker.json",
+            "r2_backlog": "qnfo/audit/backlog/github-sync-worker.json",
+            "r2_releases": "qnfo/releases/github-sync-worker/",
+            "r2_code": "qnfo/code/github-sync-worker.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/github-sync-worker/",
+            "archive_path": null,
+            "topics": [
+                "cloudflare-workers",
+                "sync",
+                "deprecated"
+            ],
+            "summary": "Active project: github-sync-worker",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "9 items"
+        },
+        "git-on-cloudflare-deployment": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/git-on-cloudflare-deployment.json",
+            "r2_backlog": "qnfo/audit/backlog/git-on-cloudflare-deployment.json",
+            "r2_releases": "qnfo/releases/git-on-cloudflare-deployment/",
+            "r2_code": "qnfo/code/git-on-cloudflare-deployment.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/git-on-cloudflare-deployment/",
+            "archive_path": null,
+            "topics": [
+                "git",
+                "cloudflare",
+                "deployment",
+                "r2"
+            ],
+            "summary": "Active project: git-on-cloudflare-deployment",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "30 items"
+        },
+        "git-on-cloudflare-research": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/git-on-cloudflare-research.json",
+            "r2_backlog": "qnfo/audit/backlog/git-on-cloudflare-research.json",
+            "r2_releases": "qnfo/releases/git-on-cloudflare-research/",
+            "r2_code": "qnfo/code/git-on-cloudflare-research.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/git-on-cloudflare-research/",
+            "archive_path": null,
+            "topics": [
+                "git",
+                "cloudflare",
+                "research",
+                "r2"
+            ],
+            "summary": "Active project: git-on-cloudflare-research",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "4 items"
+        },
+        "google-site-auditor": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/google-site-auditor.json",
+            "r2_backlog": "qnfo/audit/backlog/google-site-auditor.json",
+            "r2_releases": "qnfo/releases/google-site-auditor/",
+            "r2_code": "qnfo/code/google-site-auditor.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/google-site-auditor/",
+            "archive_path": null,
+            "topics": [],
+            "summary": "Active project: google-site-auditor",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "2 items"
+        },
+        "living-paper": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/living-paper.json",
+            "r2_backlog": "qnfo/audit/backlog/living-paper.json",
+            "r2_releases": "qnfo/releases/living-paper/",
+            "r2_code": "qnfo/code/living-paper.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/living-paper/",
+            "archive_path": null,
+            "topics": [],
+            "summary": "Active project: living-paper",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "8 items"
+        },
+        "pdf-builder": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/pdf-builder.json",
+            "r2_backlog": "qnfo/audit/backlog/pdf-builder.json",
+            "r2_releases": "qnfo/releases/pdf-builder/",
+            "r2_code": "qnfo/code/pdf-builder.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/pdf-builder/",
+            "archive_path": null,
+            "topics": [
+                "pdf",
+                "generation",
+                "cloudflare-sandbox"
+            ],
+            "summary": "Active project: pdf-builder",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "7 items"
+        },
+        "pm-mirror-builder": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/pm-mirror-builder.json",
+            "r2_backlog": "qnfo/audit/backlog/pm-mirror-builder.json",
+            "r2_releases": "qnfo/releases/pm-mirror-builder/",
+            "r2_code": "qnfo/code/pm-mirror-builder.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/pm-mirror-builder/",
+            "archive_path": null,
+            "topics": [],
+            "summary": "Active project: pm-mirror-builder",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "2 items"
+        },
+        "qwav-compute-cloud": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/qwav-compute-cloud.json",
+            "r2_backlog": "qnfo/audit/backlog/qwav-compute-cloud.json",
+            "r2_releases": "qnfo/releases/qwav-compute-cloud/",
+            "r2_code": "qnfo/code/qwav-compute-cloud.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/qwav-compute-cloud/",
+            "archive_path": null,
+            "topics": [
+                "cloud",
+                "compute"
+            ],
+            "summary": "Active project: qwav-compute-cloud",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "3 items"
+        },
+        "qwav-scan": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/qwav-scan.json",
+            "r2_backlog": "qnfo/audit/backlog/qwav-scan.json",
+            "r2_releases": "qnfo/releases/qwav-scan/",
+            "r2_code": "qnfo/code/qwav-scan.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/qwav-scan/",
+            "archive_path": null,
+            "topics": [
+                "scanning",
+                "qwav"
+            ],
+            "summary": "Active project: qwav-scan",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "3 items"
+        },
+        "reproducibility-as-code": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/reproducibility-as-code.json",
+            "r2_backlog": "qnfo/audit/backlog/reproducibility-as-code.json",
+            "r2_releases": "qnfo/releases/reproducibility-as-code/",
+            "r2_code": "qnfo/code/reproducibility-as-code.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/reproducibility-as-code/",
+            "archive_path": null,
+            "topics": [
+                "reproducibility",
+                "infrastructure"
+            ],
+            "summary": "Active project: reproducibility-as-code",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "3 items"
+        },
+        "research-pipeline": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/research-pipeline.json",
+            "r2_backlog": "qnfo/audit/backlog/research-pipeline.json",
+            "r2_releases": "qnfo/releases/research-pipeline/",
+            "r2_code": "qnfo/code/research-pipeline.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/research-pipeline/",
+            "archive_path": null,
+            "topics": [
+                "research",
+                "pipeline",
+                "arxiv"
+            ],
+            "summary": "Active project: research-pipeline",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "11 items"
+        },
+        "ultrametric-playground": {
+            "status": "active",
+            "r2_state": "qnfo/audit/state/ultrametric-playground.json",
+            "r2_backlog": "qnfo/audit/backlog/ultrametric-playground.json",
+            "r2_releases": "qnfo/releases/ultrametric-playground/",
+            "r2_code": "qnfo/code/ultrametric-playground.bundle",
+            "pages_url": null,
+            "local_path": "G:/My Drive/projects/ultrametric-playground/",
+            "archive_path": null,
+            "topics": [
+                "ultrametric",
+                "playground",
+                "interactive"
+            ],
+            "summary": "Active project: ultrametric-playground",
+            "last_active": "2026-05-28",
+            "last_audit": "2026-05-28",
+            "audit_notes": "3 items"
+        }
+    },
+    "decisions": {
+        "r2_path": "qnfo/audit/decisions/DECISION-LOG.md",
+        "last_updated": "2026-05-28",
+        "key_topics": [
+            "github-deprecated",
+            "cloudflare-native",
+            "r2-audit-trail",
+            "discovery-index"
+        ]
+    },
+    "publications": {
+        "ultrametric-ai-poc": {
+            "r2_releases": "qnfo/releases/ultrametric-ai-poc/",
+            "r2_code": "qnfo/code/ultrametric-ai-poc.bundle",
+            "pages_url": "deep.qwav.tech/ultrametric-ai-poc/",
+            "zenodo_doi": null,
+            "topics": [
+                "ultrametric",
+                "ai",
+                "attention",
+                "p-adic"
+            ],
+            "summary": "Ultrametric AI PoC: Token-level explainable attention via p-adic valuation trees",
+            "published": null
+        },
+        "quantum-laws-of-form": {
+            "r2_releases": "qnfo/releases/quantum-laws-of-form/",
+            "r2_code": "qnfo/code/quantum-laws-of-form.bundle",
+            "pages_url": "deep.qwav.tech/quantum-laws-of-form/",
+            "zenodo_doi": null,
+            "topics": [
+                "quantum",
+                "laws-of-form",
+                "physics"
+            ],
+            "summary": "Quantum Laws of Form: A Syntactic Foundation for Physics",
+            "published": null
+        },
+        "qlof-primer": {
+            "r2_releases": "qnfo/releases/qlof-primer/",
+            "r2_code": "qnfo/code/qlof-primer.bundle",
+            "pages_url": "deep.qwav.tech/qlof-primer/",
+            "zenodo_doi": null,
+            "topics": [
+                "quantum",
+                "laws-of-form",
+                "primer"
+            ],
+            "summary": "Quantum Laws of Form Primer",
+            "published": null
+        },
+        "primordial-mark": {
+            "r2_releases": "qnfo/releases/primordial-mark/",
+            "r2_code": "qnfo/code/primordial-mark.bundle",
+            "pages_url": "deep.qwav.tech/primordial-mark/",
+            "zenodo_doi": null,
+            "topics": [
+                "spencer-brown",
+                "laws-of-form",
+                "mathematics"
+            ],
+            "summary": "The Primordial Mark: Spencer-Browns act of distinction",
+            "published": null
+        },
+        "ultrametric-quantum": {
+            "r2_releases": "qnfo/releases/ultrametric-quantum/",
+            "r2_code": "qnfo/code/ultrametric-quantum.bundle",
+            "pages_url": "deep.qwav.tech/ultrametric-quantum/",
+            "zenodo_doi": null,
+            "topics": [
+                "ultrametric",
+                "quantum-computation",
+                "fault-tolerance"
+            ],
+            "summary": "Ultrametric Quantum Computation: MVP for Passive Geometric Fault Tolerance",
+            "published": null
+        },
+        "hierarchical-universe": {
+            "r2_releases": "qnfo/releases/hierarchical-universe/",
+            "r2_code": "qnfo/code/hierarchical-universe.bundle",
+            "pages_url": "deep.qwav.tech/hierarchical-universe/",
+            "zenodo_doi": null,
+            "topics": [
+                "ultrametric",
+                "computation",
+                "physics"
+            ],
+            "summary": "The Hierarchical Universe",
+            "published": null
+        },
+        "unity-of-ultrametric-physics": {
+            "r2_releases": "qnfo/releases/unity-of-ultrametric-physics/",
+            "r2_code": "qnfo/code/unity-of-ultrametric-physics.bundle",
+            "pages_url": "deep.qwav.tech/unity-of-ultrametric-physics/",
+            "zenodo_doi": null,
+            "topics": [
+                "ultrametric",
+                "physics",
+                "unification"
+            ],
+            "summary": "Unity of Ultrametric Physics",
+            "published": null
+        },
+        "two-ways-of-measuring": {
+            "r2_releases": "qnfo/releases/two-ways-of-measuring/",
+            "r2_code": "qnfo/code/two-ways-of-measuring.bundle",
+            "pages_url": "deep.qwav.tech/two-ways-of-measuring/",
+            "zenodo_doi": null,
+            "topics": [
+                "distance",
+                "memory",
+                "fault-tolerance"
+            ],
+            "summary": "Two Ways of Measuring",
+            "published": null
+        },
+        "ultrametric-paradigm": {
+            "r2_releases": "qnfo/releases/ultrametric-paradigm/",
+            "r2_code": "qnfo/code/ultrametric-paradigm.bundle",
+            "pages_url": "deep.qwav.tech/ultrametric-paradigm/",
+            "zenodo_doi": null,
+            "topics": [
+                "ultrametric",
+                "geometry"
+            ],
+            "summary": "The Ultrametric Paradigm",
+            "published": null
+        },
+        "different-physics": {
+            "r2_releases": "qnfo/releases/different-physics/",
+            "r2_code": "qnfo/code/different-physics.bundle",
+            "pages_url": "deep.qwav.tech/different-physics/",
+            "zenodo_doi": null,
+            "topics": [
+                "physics",
+                "alternative-foundations"
+            ],
+            "summary": "A Different Kind of Physics",
+            "published": null
+        },
+        "verb-lexicon": {
+            "r2_releases": "qnfo/releases/verb-lexicon/",
+            "r2_code": "qnfo/code/verb-lexicon.bundle",
+            "pages_url": "deep.qwav.tech/verb-lexicon/",
+            "zenodo_doi": null,
+            "topics": [
+                "patterns",
+                "language",
+                "identity"
+            ],
+            "summary": "The Verb Lexicon",
+            "published": null
+        },
+        "knowing-patterns": {
+            "r2_releases": "qnfo/releases/knowing-patterns/",
+            "r2_code": "qnfo/code/knowing-patterns.bundle",
+            "pages_url": "deep.qwav.tech/knowing-patterns/",
+            "zenodo_doi": null,
+            "topics": [
+                "epistemology",
+                "patterns"
+            ],
+            "summary": "Knowing Patterns",
+            "published": null
+        },
+        "PANN": {
+            "r2_releases": "qnfo/releases/PANN/",
+            "r2_code": "qnfo/code/PANN.bundle",
+            "pages_url": "deep.qwav.tech/PANN/",
+            "zenodo_doi": null,
+            "topics": [
+                "prime-attentive",
+                "neural-network"
+            ],
+            "summary": "Prime-Attentive Neural Network",
+            "published": null
+        },
+        "ipatent": {
+            "r2_releases": "qnfo/releases/ipatent/",
+            "r2_code": "qnfo/code/ipatent.bundle",
+            "pages_url": "deep.qwav.tech/ipatent/",
+            "zenodo_doi": null,
+            "topics": [
+                "patent",
+                "ai",
+                "legal"
+            ],
+            "summary": "AI patent application tool",
+            "published": null
+        },
+        "cocyle": {
+            "r2_releases": "qnfo/releases/cocyle/",
+            "r2_code": "qnfo/code/cocyle.bundle",
+            "pages_url": "deep.qwav.tech/cocyle/",
+            "zenodo_doi": null,
+            "topics": [
+                "fiction"
+            ],
+            "summary": "The Branch and the Shadow",
+            "published": null
+        },
+        "qwav-email": {
+            "r2_releases": "qnfo/releases/qwav-email/",
+            "r2_code": "qnfo/code/qwav-email.bundle",
+            "pages_url": "deep.qwav.tech/qwav-email/",
+            "zenodo_doi": null,
+            "topics": [
+                "email",
+                "cloudflare-workers"
+            ],
+            "summary": "Cloudflare Email Workers for QWAV",
+            "published": null
+        },
+        "qwav-research-pipeline": {
+            "r2_releases": "qnfo/releases/qwav-research-pipeline/",
+            "r2_code": "qnfo/code/qwav-research-pipeline.bundle",
+            "pages_url": "deep.qwav.tech/qwav-research-pipeline/",
+            "zenodo_doi": null,
+            "topics": [
+                "research",
+                "arxiv",
+                "cloudflare-queues"
+            ],
+            "summary": "QWAV Autonomous Research Pipeline",
+            "published": null
+        },
+        "qwav-db": {
+            "r2_releases": "qnfo/releases/qwav-db/",
+            "r2_code": "qnfo/code/qwav-db.bundle",
+            "pages_url": "deep.qwav.tech/qwav-db/",
+            "zenodo_doi": null,
+            "topics": [
+                "d1",
+                "citation-graph",
+                "database"
+            ],
+            "summary": "D1 Citation Graph Database for QWAV",
+            "published": null
+        },
+        "sandbox-pdf-builder": {
+            "r2_releases": "qnfo/releases/sandbox-pdf-builder/",
+            "r2_code": "qnfo/code/sandbox-pdf-builder.bundle",
+            "pages_url": "deep.qwav.tech/sandbox-pdf-builder/",
+            "zenodo_doi": null,
+            "topics": [
+                "pdf",
+                "cloudflare-sandbox"
+            ],
+            "summary": "Cloudflare Sandbox PDF Builder",
+            "published": null
+        },
+        "tree-distance": {
+            "r2_releases": "qnfo/releases/tree-distance/",
+            "r2_code": "qnfo/code/tree-distance.bundle",
+            "pages_url": "deep.qwav.tech/tree-distance/",
+            "zenodo_doi": null,
+            "topics": [
+                "tree-distance",
+                "interactive",
+                "visualization"
+            ],
+            "summary": "Tree Distance Interactive Demo",
+            "published": null
+        },
+        "qpna-playground": {
+            "r2_releases": "qnfo/releases/qpna-playground/",
+            "r2_code": "qnfo/code/qpna-playground.bundle",
+            "pages_url": "deep.qwav.tech/qpna-playground/",
+            "zenodo_doi": null,
+            "topics": [
+                "qpna",
+                "playground"
+            ],
+            "summary": "QPNA Interactive Playground",
+            "published": null
+        },
+        "hardware-visualizer": {
+            "r2_releases": "qnfo/releases/hardware-visualizer/",
+            "r2_code": "qnfo/code/hardware-visualizer.bundle",
+            "pages_url": "deep.qwav.tech/hardware-visualizer/",
+            "zenodo_doi": null,
+            "topics": [
+                "hardware",
+                "threejs",
+                "visualization"
+            ],
+            "summary": "Hardware Visualizer",
+            "published": null
+        },
+        "error-confinement-demo": {
+            "r2_releases": "qnfo/releases/error-confinement-demo/",
+            "r2_code": "qnfo/code/error-confinement-demo.bundle",
+            "pages_url": "deep.qwav.tech/error-confinement-demo/",
+            "zenodo_doi": null,
+            "topics": [
+                "error-confinement",
+                "quantum",
+                "visualization"
+            ],
+            "summary": "Error Confinement Visualization Demo",
+            "published": null
+        },
+        "convergence-explorer": {
+            "r2_releases": "qnfo/releases/convergence-explorer/",
+            "r2_code": "qnfo/code/convergence-explorer.bundle",
+            "pages_url": "deep.qwav.tech/convergence-explorer/",
+            "zenodo_doi": null,
+            "topics": [
+                "convergence",
+                "interactive"
+            ],
+            "summary": "Interactive Convergence Explorer",
+            "published": null
+        },
+        "qwav-papers": {
+            "r2_releases": "qnfo/releases/qwav-papers/",
+            "r2_code": "qnfo/code/qwav-papers.bundle",
+            "pages_url": "deep.qwav.tech/qwav-papers/",
+            "zenodo_doi": null,
+            "topics": [
+                "research-papers",
+                "publication"
+            ],
+            "summary": "QWAV Research Papers (deep.qwav.tech/papers/)",
+            "published": null
+        },
+        "qwav-program": {
+            "r2_releases": "qnfo/releases/qwav-program/",
+            "r2_code": "qnfo/code/qwav-program.bundle",
+            "pages_url": "deep.qwav.tech/qwav-program/",
+            "zenodo_doi": null,
+            "topics": [
+                "program-management",
+                "coordination"
+            ],
+            "summary": "QWAV Program Management",
+            "published": null
+        },
+        "outlook-mcp-server": {
+            "r2_releases": "qnfo/releases/outlook-mcp-server/",
+            "r2_code": "qnfo/code/outlook-mcp-server.bundle",
+            "pages_url": "deep.qwav.tech/outlook-mcp-server/",
+            "zenodo_doi": null,
+            "topics": [
+                "email",
+                "outlook",
+                "mcp"
+            ],
+            "summary": "Outlook MCP Server for DeepChat",
+            "published": null
+        }
+    },
+    "archive": {
+        "notes": {
+            "local_path": "G:/My Drive/Archive/notes/",
+            "r2_path": "qnfo/archive/notes/",
+            "summary": "Archived: notes",
+            "archived": null
+        },
+        "obsidian-releases": {
+            "local_path": "G:/My Drive/Archive/obsidian-releases/",
+            "r2_path": "qnfo/archive/obsidian-releases/",
+            "summary": "Archived: obsidian-releases",
+            "archived": null
+        },
+        "OMI": {
+            "local_path": "G:/My Drive/Archive/OMI/",
+            "r2_path": "qnfo/archive/OMI/",
+            "summary": "Archived: OMI",
+            "archived": null
+        },
+        "Patents": {
+            "local_path": "G:/My Drive/Archive/Patents/",
+            "r2_path": "qnfo/archive/Patents/",
+            "summary": "Archived: Patents",
+            "archived": null
+        },
+        "projects": {
+            "local_path": "G:/My Drive/Archive/projects/",
+            "r2_path": "qnfo/archive/projects/",
+            "summary": "Archived: projects",
+            "archived": null
+        },
+        "prompts": {
+            "local_path": "G:/My Drive/Archive/prompts/",
+            "r2_path": "qnfo/archive/prompts/",
+            "summary": "Archived: prompts",
+            "archived": null
+        },
+        "q08.org": {
+            "local_path": "G:/My Drive/Archive/q08.org/",
+            "r2_path": "qnfo/archive/q08.org/",
+            "summary": "Archived: q08.org",
+            "archived": null
+        },
+        "releases": {
+            "local_path": "G:/My Drive/Archive/releases/",
+            "r2_path": "qnfo/archive/releases/",
+            "summary": "Archived: releases",
+            "archived": null
+        },
+        "templates": {
+            "local_path": "G:/My Drive/Archive/templates/",
+            "r2_path": "qnfo/archive/templates/",
+            "summary": "Archived: templates",
+            "archived": null
+        }
+    },
+    "templates": {
+        "local_source": "G:/My Drive/prompts/templates/",
+        "r2_backup": "qnfo/templates/",
+        "count": 14,
+        "names": [
+            "CLOSEOUT-CHECKLIST",
+            "CLOUDFLARE-AUDIT-EXPORT",
+            "CLOUDFLARE-DEPLOYMENT",
+            "DEFINITION-OF-DONE",
+            "DISCOVERY-PROTOCOL",
+            "HANDOFF",
+            "PDF-BUILDER",
+            "PDF-BUILDER-TEMPLATE",
+            "PROJECT-CHARTER",
+            "PROJECT-INITIATION",
+            "RESEARCH-LAUNCH",
+            "SOCIAL-ORCHESTRATOR-TEMPLATE",
+            "ZENODO-PUBLISH",
+            "EMAIL-AGENT-TEMPLATE"
+        ]
+    },
+    "skills": {
+        "local_source": "G:/My Drive/prompts/skills/",
+        "r2_backup": "qnfo/skills/",
+        "count": 7,
+        "names": [
+            "closeout-manager",
+            "cloudflare-deployer",
+            "email-composer",
+            "github-manager",
+            "git-hygiene",
+            "publication-publisher",
+            "template-catalog"
+        ]
+    },
+    "system_prompts": {
+        "r2_path": "qnfo/prompts/",
+        "local_source": "G:/My Drive/prompts/",
+        "files": [
+            "DEFAULT.md",
+            "QWAV-DEFAULT.md",
+            "META-PROMPT-DEEPSEEK.md"
+        ]
+    },
+    "infrastructure": {
+        "workers": [
+            "ask-qwav",
+            "github-sync",
+            "qwav-email"
+        ],
+        "pages_sites": [
+            "deep.qwav.tech"
+        ],
+        "vectorize_indexes": [
+            "qwav-research"
+        ],
+        "d1_databases": [
+            "qwav-db"
+        ],
+        "r2_buckets": [
+            "qnfo"
+        ],
+        "git_remote": "R2 (qnfo/code/<project>.bundle) -- Git is version control ONLY. No GitHub."
+    }
+}

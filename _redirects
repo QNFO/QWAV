@@ -1,0 +1,4 @@
+# deep.qwav.tech routing — catalog at /papers/
+/papers             /papers/index.html   200
+/papers/            /papers/index.html   200
+/papers/index.html  /papers/index.html   200
