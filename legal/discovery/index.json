@@ -1,0 +1,401 @@
+{
+  "version": "1.1.0",
+  "generated_at": "2026-05-29T06:28:03.207894+00:00",
+  "generated_by": "Program Agent \u2014 session close-out 2026-05-29",
+  "note": "Full ecosystem catalog \u2014 local projects, Pages, Archive, infrastructure",
+  "infrastructure": {
+    "workers": {
+      "audit-worker": "https://audit-worker.q08.workers.dev",
+      "task-worker": "https://task-worker.q08.workers.dev",
+      "search-worker": "https://search-worker.q08.workers.dev"
+    },
+    "d1": {
+      "qnfo-audit": {
+        "database_id": "35e2e573-92f3-46ac-83c6-22f6429fc5e5",
+        "tables": [
+          "events",
+          "tasks",
+          "wiki_pages"
+        ],
+        "fts5": true
+      }
+    },
+    "r2": {
+      "bucket": "qnfo",
+      "paths": {
+        "discovery": "qnfo/discovery/index.json",
+        "backlog": "qnfo/audit/backlog/",
+        "state": "qnfo/audit/state/",
+        "decisions": "qnfo/audit/decisions/DECISION-LOG.md",
+        "releases": "qnfo/releases/"
+      }
+    },
+    "vectorize": {
+      "qwav-research": {
+        "dimensions": 768,
+        "metric": "cosine"
+      }
+    }
+  },
+  "pages_projects": [
+    {
+      "name": "qwav",
+      "domain": "deep.qwav.tech",
+      "type": "application"
+    },
+    {
+      "name": "living-paper",
+      "domain": "living-paper.pages.dev",
+      "type": "application"
+    },
+    {
+      "name": "ask-qwav",
+      "domain": "ask.qwav.tech",
+      "type": "application"
+    },
+    {
+      "name": "prompts-wiki",
+      "domain": "prompts-wiki.pages.dev",
+      "type": "wiki"
+    },
+    {
+      "name": "qnfo-archive",
+      "domain": "archive.qnfo.org",
+      "type": "archive"
+    },
+    {
+      "name": "solo-scientist",
+      "domain": "solo.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "unity-of-ultrametric-physics",
+      "domain": "unity.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "adelic-qft",
+      "domain": "adelic.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "two-ways-of-measuring",
+      "domain": "measure.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "ultrametric-quantum",
+      "domain": "quantum.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "different-physics",
+      "domain": "different.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "ultrametric-paradigm",
+      "domain": "paradigm.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "verb-lexicon",
+      "domain": "lexicon.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "knowing-patterns",
+      "domain": "knowing.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "cocyle",
+      "domain": "cocyle.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "ultrametric-ai-poc",
+      "domain": "ai-poc.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "hierarchical-universe",
+      "domain": "hierarchy.qnfo.org",
+      "type": "publication"
+    },
+    {
+      "name": "discovery-momentum",
+      "domain": "discovery-momentum.pages.dev",
+      "type": "publication"
+    }
+  ],
+  "local_projects": [
+    {
+      "name": "agent-swarm",
+      "title": "agent-swarm",
+      "path": "G:\\My Drive\\projects\\agent-swarm",
+      "file_count": 3,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "applications",
+      "title": "applications",
+      "path": "G:\\My Drive\\projects\\applications",
+      "file_count": 3,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "ask-qwav",
+      "title": "ask-qwav",
+      "path": "G:\\My Drive\\projects\\ask-qwav",
+      "file_count": 6,
+      "has_git": true,
+      "pages_domain": "ask.qwav.tech",
+      "pages_type": "application"
+    },
+    {
+      "name": "audit",
+      "title": "audit",
+      "path": "G:\\My Drive\\projects\\audit",
+      "file_count": 1,
+      "has_git": false,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "automated-peer-review",
+      "title": "automated-peer-review",
+      "path": "G:\\My Drive\\projects\\automated-peer-review",
+      "file_count": 3,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "cf-dns-validator",
+      "title": "cf-dns-validator",
+      "path": "G:\\My Drive\\projects\\cf-dns-validator",
+      "file_count": 2,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "cloudflare-pages-migration",
+      "title": "cloudflare-pages-migration",
+      "path": "G:\\My Drive\\projects\\cloudflare-pages-migration",
+      "file_count": 2,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "cloudflare-pm-infrastructure",
+      "title": "Cloudflare PM Infrastructure",
+      "path": "G:\\My Drive\\projects\\cloudflare-pm-infrastructure",
+      "file_count": 18,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "concept-graph",
+      "title": "concept-graph",
+      "path": "G:\\My Drive\\projects\\concept-graph",
+      "file_count": 3,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "consistency-engine",
+      "title": "consistency-engine",
+      "path": "G:\\My Drive\\projects\\consistency-engine",
+      "file_count": 3,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "email-agent",
+      "title": "email-agent",
+      "path": "G:\\My Drive\\projects\\email-agent",
+      "file_count": 11,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "git-on-cloudflare-deployment",
+      "title": "git-on-cloudflare",
+      "path": "G:\\My Drive\\projects\\git-on-cloudflare-deployment",
+      "file_count": 30,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "git-on-cloudflare-research",
+      "title": "git-on-cloudflare-research",
+      "path": "G:\\My Drive\\projects\\git-on-cloudflare-research",
+      "file_count": 4,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "github-sync-worker",
+      "title": "github-sync Worker",
+      "path": "G:\\My Drive\\projects\\github-sync-worker",
+      "file_count": 9,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "google-site-auditor",
+      "title": "google-site-auditor",
+      "path": "G:\\My Drive\\projects\\google-site-auditor",
+      "file_count": 2,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "handoffs",
+      "title": "handoffs",
+      "path": "G:\\My Drive\\projects\\handoffs",
+      "file_count": 4,
+      "has_git": false,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "living-paper",
+      "title": "Living Paper (#82)",
+      "path": "G:\\My Drive\\projects\\living-paper",
+      "file_count": 9,
+      "has_git": true,
+      "pages_domain": "living-paper.pages.dev",
+      "pages_type": "application"
+    },
+    {
+      "name": "pdf-builder",
+      "title": "PDF Builder -- Markdown-to-PDF Pipeline",
+      "path": "G:\\My Drive\\projects\\pdf-builder",
+      "file_count": 7,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "pm-mirror-builder",
+      "title": "pm-mirror-builder",
+      "path": "G:\\My Drive\\projects\\pm-mirror-builder",
+      "file_count": 2,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "qwav-compute-cloud",
+      "title": "qwav-compute-cloud",
+      "path": "G:\\My Drive\\projects\\qwav-compute-cloud",
+      "file_count": 3,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "qwav-scan",
+      "title": "qwav-scan",
+      "path": "G:\\My Drive\\projects\\qwav-scan",
+      "file_count": 3,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "reproducibility-as-code",
+      "title": "reproducibility-as-code",
+      "path": "G:\\My Drive\\projects\\reproducibility-as-code",
+      "file_count": 3,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "research-pipeline",
+      "title": "research-pipeline",
+      "path": "G:\\My Drive\\projects\\research-pipeline",
+      "file_count": 11,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "ultrametric-playground",
+      "title": "ultrametric-playground",
+      "path": "G:\\My Drive\\projects\\ultrametric-playground",
+      "file_count": 3,
+      "has_git": true,
+      "pages_domain": null,
+      "pages_type": null
+    },
+    {
+      "name": "qnfo-site-migration",
+      "title": "QNFO Site Migration",
+      "path": "G:/My Drive/projects/qnfo-site-migration",
+      "file_count": 2,
+      "has_git": true
+    },
+    {
+      "name": "qwav-app-branding",
+      "title": "QWAV App Branding",
+      "path": "G:/My Drive/projects/qwav-app-branding",
+      "file_count": 2,
+      "has_git": true
+    },
+    {
+      "name": "knowing-patterns-css",
+      "title": "knowing-patterns CSS Migration",
+      "path": "G:/My Drive/projects/knowing-patterns-css",
+      "file_count": 2,
+      "has_git": true
+    },
+    {
+      "name": "discovery-momentum-assets",
+      "title": "Discovery Momentum Assets",
+      "path": "G:/My Drive/projects/discovery-momentum-assets",
+      "file_count": 2,
+      "has_git": true
+    },
+    {
+      "name": "portfolio-license-audit",
+      "title": "Portfolio License Audit",
+      "path": "G:/My Drive/projects/portfolio-license-audit",
+      "file_count": 2,
+      "has_git": true
+    }
+  ],
+  "system_prompts": [
+    "DEFAULT.md",
+    "QWAV-DEFAULT.md",
+    "META-PROMPT-DEEPSEEK.md"
+  ],
+  "templates_path": "templates/",
+  "skills_path": "skills/",
+  "research": [
+    {
+      "name": "discovery-momentum",
+      "title": "Discovery Momentum \u2014 The Graph-Visible Knowledge Platform",
+      "path": "G:\\My Drive\\QWAV\\research\\discovery-momentum",
+      "published": true,
+      "url": "https://discovery-momentum.pages.dev"
+    }
+  ]
+}

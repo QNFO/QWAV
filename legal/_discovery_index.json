@@ -1,0 +1,50 @@
+{
+  "ecosystem": "QNFO/QWAV",
+  "updated": "2026-05-29T08:48:00Z",
+  "license": {
+    "name": "QNFO Unified License Agreement v2.0",
+    "spdx": "LicenseRef-QNFO-ULA-2.0",
+    "base": "CC BY-NC-SA 4.0",
+    "url": "https://qnfo.org/legal/license",
+    "r2_path": "qnfo/releases/licenses/QNFO-ULA-v2.0.md",
+    "local_path": "G:\\My Drive\\QWAV\\legal\\QNFO-ULA-v2.0.md",
+    "effective_date": "2026-05-29",
+    "supersedes": [
+      "QNFO Content License Agreement v1.1",
+      "AI System License Agreement (ASLA)",
+      "CC BY-NC-SA 4.0 (various)",
+      "CC BY-NC 4.0 (various)",
+      "MIT License (project-specific)",
+      "Unlicense (q08.org archive)"
+    ],
+    "key_provisions": [
+      "CC BY-NC-SA 4.0 base with ShareAlike copyleft",
+      "85% liquidated damages on unauthorized commercial use",
+      "Mandatory patent prior art citation",
+      "AI/ML training prohibition for commercial models",
+      "RAIL-inspired behavioral restrictions",
+      "Search & Discovery Exception (6 carve-outs)",
+      "Publication Exception for CC BY 4.0 content",
+      "7 edge case clarifications",
+      "7 platform enforcement channels",
+      "Structured commercial license pathway (§10.7)",
+      "Swiss governing law + ICC Geneva arbitration",
+      "New York Convention + 5 treaty references",
+      "EU sui generis database rights coverage",
+      "SPDX identifier: LicenseRef-QNFO-ULA-2.0",
+      "Binding on Access clause",
+      "Anti-circumvention provisions (§2.5)",
+      "Liquidated damages fallback provision"
+    ]
+  },
+  "projects": {},
+  "publications": {},
+  "archive": {},
+  "legal_documents": {
+    "canonical_license": "G:\\My Drive\\QWAV\\legal\\QNFO-ULA-v2.0.md",
+    "licensing_policy": "G:\\My Drive\\QWAV\\legal\\LICENSING-POLICY.md",
+    "research_memo": "G:\\My Drive\\QWAV\\legal\\LICENSING-RESEARCH-MEMO.md",
+    "legal_supplement": "G:\\My Drive\\QWAV\\legal\\LEGAL-RESEARCH-SUPPLEMENT.md",
+    "strategic_framework": "G:\\My Drive\\QWAV\\legal\\STRATEGIC-FRAMEWORK.md"
+  }
+}
