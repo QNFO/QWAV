@@ -4,40 +4,56 @@
   "last_session": "2026-05-29",
   "architecture": "markdown-first — single paper.html template + R2 content + Function proxy",
   "papers_rendered": 498,
-  "papers_in_r2": 139,
-  "papers_pending": 491,
-  "blockers": [],
+  "papers_in_r2": 170,
+  "papers_pending": 460,
+  "blockers": [
+    "H2 deploy: Cloudflare Dashboard → Pages → qwav → Disable SPA routing",
+    "Living-paper deploy: Cloudflare Dashboard → Pages → living-paper → Check Functions logs (405 on all new deploys)"
+  ],
   "infra_fixes": [
-    "F12 (wrangler Unicode encoding): RESOLVED — tools/wrangler_utils.py v3 (no shell=True)",
-    "H1 pipeline: bulk_upload.py + bulk_upload_v2.py + bulk_upload_v3.py (resumable, state-tracked)"
+    "F12 (wrangler Unicode encoding): RESOLVED — tools/wrangler_utils.py v3 (no shell=True, direct npx.cmd)",
+    "CLOUDFLARE_API_TOKEN: Set permanently via setx for all DeepChat sessions"
   ],
   "handoffs": {
     "H1": {
       "title": "R2 Content Pipeline",
-      "status": "COMPLETE (139/630 = 22%). Remaining 491: follow-up batch task. Pipeline proven, resumable.",
-      "pipeline_script": "G:/My Drive/QWAV/bulk_upload_v3.py",
-      "state_file": "G:/My Drive/QWAV/_bulk_upload_state.json",
-      "next_action": "Resume from index 139 with fresh Python process to upload remaining 491"
+      "status": "IN-PROGRESS — 170/630 uploaded (27%), resumable via bulk_upload_v3.py + _bulk_upload_state.json",
+      "resume": "python G:/My Drive/QWAV/bulk_upload_v3.py"
     },
     "H2": {
-      "title": "Living Papers v2",
-      "status": "READY — H1 complete enough (139 papers in R2). Can start now.",
-      "path": "G:/My Drive/projects/handoffs/H2-LIVING-PAPERS-V2.md"
+      "title": "Living Papers v2 — AI overlays, Q&A, related papers",
+      "status": "CODE DONE — G:/My Drive/QWAV/papers/js/* + papers/css/* + papers/paper.html — committed (2cde391)",
+      "blocker": "SPA mode on qwav Pages project. Dashboard → Build config → Disable 'Single Page Application' routing. Then: npx wrangler pages deploy G:/My Drive/QWAV/papers --project-name qwav --branch main"
     },
     "H3": {
-      "title": "Catalog & Discovery",
-      "status": "WAITING — depends on H2",
+      "title": "Catalog & Discovery — auto-update, search, metadata",
+      "status": "DEPENDS ON H2",
       "path": "G:/My Drive/projects/handoffs/H3-CATALOG-DISCOVERY.md"
     },
     "H4": {
-      "title": "AI Paper Review",
-      "status": "READY — H1 complete enough (139 papers in R2). Can start now.",
+      "title": "AI-Assisted Paper Review & Grading",
+      "status": "READY — needs papers in R2 (170 available)",
       "path": "G:/My Drive/projects/handoffs/H4-AI-PAPER-REVIEW.md"
+    },
+    "LP-FIX": {
+      "title": "Living Papers Related Concepts fix",
+      "status": "CODE DONE — 3 fixes in functions/api/related.js — committed (6000df8)",
+      "blocker": "405 on all new living-paper deployments. Dashboard → Pages → living-paper → check Functions build logs"
     }
   },
   "deployed_urls": {
     "marquee": "https://deep.qwav.tech/",
     "catalog": "https://deep.qwav.tech/papers/",
-    "paper_template": "https://deep.qwav.tech/papers/paper.html?p=autaxic-trilemma"
-  }
+    "paper_template": "https://deep.qwav.tech/papers/paper.html?p=autaxic-trilemma",
+    "latest_deploy": "https://1ce22a87.qwav.pages.dev"
+  },
+  "git_commits": ["138b011", "2cde391", "5682b78", "d64416b"],
+  "key_fixes": [
+    "F12: wrangler_utils.py v3 — no shell=True, direct npx.cmd path",
+    "Discovery Index: rebuilt (24 projects, 9 archived) → R2 qnfo/discovery/index.json",
+    "H2: 3 JS modules (explanations/qa/related) + CSS + updated paper.html",
+    "Living Papers: extractTitle hex fix, buildUrl fallback, equation filter",
+    "CLOUDFLARE_API_TOKEN: permanent via setx",
+    "H1: resumable pipeline with state tracking"
+  ]
 }
