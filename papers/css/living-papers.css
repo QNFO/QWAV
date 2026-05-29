@@ -1,0 +1,106 @@
+/* ── Equation Overlay ─────────────────────────────────────────── */
+.eq-overlay {
+  position: fixed; z-index: 1000; display: none;
+  max-width: 420px; background: var(--bg);
+  border: 1px solid var(--border); border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4); padding: 1rem 1.2rem;
+  font-size: 0.88rem; line-height: 1.6; color: var(--fg);
+}
+.eq-overlay.visible { display: block; }
+.eq-overlay-tex {
+  font-family: 'SF Mono', 'Cascadia Code', monospace;
+  font-size: 0.82em; color: var(--accent); margin-bottom: 0.5rem;
+  padding: 0.3rem 0.5rem; background: var(--code-bg); border-radius: 4px;
+  overflow-x: auto; white-space: nowrap;
+}
+.eq-overlay-explanation { color: var(--fg); }
+.eq-overlay-loading { color: var(--muted); font-style: italic; }
+.eq-overlay-close {
+  position: absolute; top: 4px; right: 8px;
+  background: none; border: none; color: var(--muted);
+  font-size: 1.2rem; cursor: pointer; line-height: 1;
+}
+.eq-overlay-close:hover { color: var(--fg); }
+
+.spinner {
+  display: inline-block; width: 12px; height: 12px;
+  border: 2px solid var(--border); border-top-color: var(--link);
+  border-radius: 50%; animation: spin 0.6s linear infinite; margin-right: 6px; vertical-align: middle;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Q&A Panel ────────────────────────────────────────────────── */
+.qa-fab {
+  position: fixed; bottom: 2rem; right: 2rem; z-index: 999;
+  width: 52px; height: 52px; border-radius: 50%;
+  background: linear-gradient(135deg, #818cf8, #6366f1);
+  border: none; color: #fff; font-size: 1.2rem; cursor: pointer;
+  box-shadow: 0 4px 16px rgba(129,140,248,0.3);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.qa-fab:hover { transform: scale(1.08); box-shadow: 0 6px 24px rgba(129,140,248,0.5); }
+
+.qa-panel {
+  position: fixed; bottom: 5rem; right: 2rem; z-index: 1001;
+  width: 380px; max-height: 520px; background: var(--bg);
+  border: 1px solid var(--border); border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  display: none; flex-direction: column; overflow: hidden;
+}
+.qa-panel.open { display: flex; }
+
+.qa-header {
+  padding: 0.75rem 1rem; border-bottom: 1px solid var(--border);
+  font-weight: 600; font-size: 0.9rem; display: flex;
+  justify-content: space-between; align-items: center;
+}
+.qa-close { background: none; border: none; color: var(--muted); font-size: 1.3rem; cursor: pointer; }
+.qa-close:hover { color: var(--fg); }
+
+.qa-messages {
+  flex: 1; overflow-y: auto; padding: 0.75rem;
+  display: flex; flex-direction: column; gap: 0.5rem; max-height: 350px;
+}
+.qa-msg { padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.85rem; line-height: 1.5; max-width: 85%; }
+.qa-msg-user { background: rgba(129,140,248,0.15); align-self: flex-end; color: var(--fg); }
+.qa-msg-assistant { background: var(--code-bg); align-self: flex-start; color: var(--fg); }
+
+.qa-input-row { display: flex; border-top: 1px solid var(--border); padding: 0.5rem; }
+.qa-input {
+  flex: 1; background: var(--code-bg); border: 1px solid var(--border);
+  border-radius: 6px; padding: 0.5rem; color: var(--fg); font-size: 0.85rem;
+  resize: none; font-family: inherit; line-height: 1.4;
+}
+.qa-input:focus { outline: none; border-color: var(--link); }
+.qa-send {
+  background: var(--link); border: none; color: #fff; border-radius: 6px;
+  padding: 0.5rem 0.8rem; margin-left: 0.4rem; cursor: pointer; font-size: 1rem;
+  transition: opacity 0.15s;
+}
+.qa-send:hover { opacity: 0.85; }
+.qa-send:disabled { opacity: 0.4; cursor: default; }
+
+/* ── Related Papers ───────────────────────────────────────────── */
+.related-papers {
+  margin-top: 3rem; padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+.related-heading {
+  font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem;
+  color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em;
+}
+.related-loading { color: var(--muted); font-size: 0.85rem; font-style: italic; }
+
+.related-card {
+  display: block; padding: 0.6rem 0.8rem; border-radius: 6px;
+  text-decoration: none; color: var(--fg); margin-bottom: 0.3rem;
+  border: 1px solid transparent; transition: border-color 0.15s, background 0.15s;
+}
+.related-card:hover { border-color: var(--border); background: rgba(129,140,248,0.04); }
+.related-card-title { font-size: 0.88rem; font-weight: 500; }
+.related-card-date { font-size: 0.72rem; color: var(--muted); margin-top: 0.15rem; }
+
+@media (max-width: 768px) {
+  .eq-overlay { max-width: 90vw; left: 5vw !important; }
+  .qa-panel { width: 90vw; right: 5vw; }
+}
