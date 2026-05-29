@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QNFO — Research Infrastructure Hub</title>
+<meta name="description" content="Complete directory of QWAV/QNFO research sites, papers, tools, and infrastructure. 11 Cloudflare Pages projects, 497 papers, AI Q&A, and more.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://qnfo.org/">
+<meta property="og:title" content="QNFO — Research Infrastructure Hub">
+<meta property="og:description" content="Directory of all QWAV/QNFO research sites and infrastructure.">
+<meta property="og:url" content="https://qnfo.org/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="QNFO — Research Infrastructure Hub">
+<style>
+  :root {
+    --bg: #0A1128; --fg: #E5E5E5; --link: #818CF8;
+    --border: rgba(129,140,248,0.15); --card-bg: rgba(129,140,248,0.04);
+    --accent: #34D399; --muted: #9CA3AF; --brand: #818CF8;
+    --critical: #F87171; --warning: #FBBF24; --ok: #34D399;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6;min-height:100vh}
+  .container{max-width:1200px;margin:0 auto;padding:2rem 1.5rem}
+  
+  /* Header */
+  header{text-align:center;padding:3rem 0 2rem;border-bottom:1px solid var(--border);margin-bottom:2rem}
+  header h1{font-size:2.5rem;background:linear-gradient(135deg,var(--brand),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+  header p{color:var(--muted);font-size:1.1rem;margin-top:0.5rem;max-width:700px;margin-left:auto;margin-right:auto}
+  .header-meta{display:flex;gap:1.5rem;justify-content:center;margin-top:1rem;flex-wrap:wrap}
+  .header-meta span{background:var(--card-bg);border:1px solid var(--border);border-radius:6px;padding:0.3rem 0.8rem;font-size:0.85rem;color:var(--muted)}
+
+  /* Section titles */
+  h2{font-size:1.5rem;margin:2.5rem 0 1rem;color:var(--fg);border-bottom:1px solid var(--border);padding-bottom:0.5rem}
+  h2 .emoji{margin-right:0.5rem}
+  
+  /* Grid */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1rem;margin-bottom:2rem}
+  .card{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:1.25rem;transition:all 0.2s}
+  .card:hover{border-color:var(--link);transform:translateY(-1px)}
+  .card-header{display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem}
+  .card-header h3{font-size:1.05rem;flex:1}
+  .card-header h3 a{color:var(--fg);text-decoration:none}
+  .card-header h3 a:hover{color:var(--link)}
+  .card p{color:var(--muted);font-size:0.9rem;line-height:1.5}
+  .card .domain{font-size:0.78rem;color:var(--brand);font-family:'Cascadia Code','Fira Code',monospace;margin-top:0.5rem;word-break:break-all}
+  
+  /* Status badges */
+  .status{display:inline-block;width:8px;height:8px;border-radius:50%;flex-shrink:0}
+  .status.live{background:var(--ok);box-shadow:0 0 6px var(--ok)}
+  .status.issue{background:var(--warning);box-shadow:0 0 6px var(--warning)}
+  .status.down{background:var(--critical);box-shadow:0 0 6px var(--critical)}
+  
+  .tag{display:inline-block;font-size:0.7rem;padding:0.15rem 0.5rem;border-radius:4px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em}
+  .tag.marketing{background:rgba(129,140,248,0.15);color:var(--brand)}
+  .tag.research{background:rgba(52,211,153,0.15);color:var(--accent)}
+  .tag.tool{background:rgba(251,191,36,0.15);color:var(--warning)}
+  .tag.infra{background:rgba(156,163,175,0.15);color:var(--muted)}
+  .tag.paper{background:rgba(248,113,113,0.15);color:var(--critical)}
+  
+  /* Architecture diagram */
+  .arch{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:2rem;margin:1rem 0 2rem;overflow-x:auto}
+  .arch pre{font-family:'Cascadia Code','Fira Code',monospace;font-size:0.8rem;line-height:1.8;color:var(--fg);white-space:pre}
+  .arch .hl{color:var(--accent)}
+  .arch .dim{color:var(--muted)}
+  .arch .qwav{color:var(--brand)}
+  
+  /* Quick Links Bar */
+  .quicklinks{display:flex;gap:0.75rem;flex-wrap:wrap;margin:1.5rem 0}
+  .quicklinks a{background:var(--brand);color:#fff;padding:0.6rem 1.2rem;border-radius:6px;text-decoration:none;font-size:0.9rem;font-weight:500;transition:opacity 0.2s}
+  .quicklinks a:hover{opacity:0.85}
+  .quicklinks a.secondary{background:var(--card-bg);border:1px solid var(--border);color:var(--fg)}
+  
+  /* Footer */
+  footer{text-align:center;padding:2rem 0;border-top:1px solid var(--border);margin-top:3rem;color:var(--muted);font-size:0.85rem}
+  footer a{color:var(--link);text-decoration:none}
+  
+  @media(max-width:768px){
+    header h1{font-size:1.8rem}
+    .grid{grid-template-columns:1fr}
+    .arch pre{font-size:0.65rem}
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>QNFO — Research Infrastructure Hub</h1>
+  <p>Complete directory of QWAV/QNFO research sites, papers, tools, and infrastructure. Everything in one place.</p>
+  <div class="header-meta">
+    <span>🏗️ 11 Cloudflare Pages Projects</span>
+    <span>📄 497 Open-Access Papers</span>
+    <span>🌐 6 Custom Domains</span>
+    <span>📡 2+ AI Services</span>
+  </div>
+</header>
+
+<!-- Quick Links -->
+<div class="quicklinks">
+  <a href="https://deep.qwav.tech/papers/">📚 Papers Catalog (497)</a>
+  <a href="https://ask.qwav.tech/" class="secondary">🤖 Ask QWAV — AI Oracle</a>
+  <a href="https://qwav.tech/" class="secondary">📢 QWAV Marketing</a>
+  <a href="https://primer.qwav.tech/" class="secondary">📖 QLOF Primer</a>
+</div>
+
+<!-- ============================================ -->
+<!-- QWAV PUBLIC SITES -->
+<!-- ============================================ -->
+<h2><span class="emoji">🌐</span> QWAV Public-Facing Sites</h2>
+<div class="grid">
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://qwav.tech/">QWAV Marketing Marquee</a></h3>
+      <span class="tag marketing">Marketing</span>
+    </div>
+    <p>Public landing page. Ultrametric quantum thesis, investor pitch, cooling gap infographic, and links to evidence.</p>
+    <div class="domain">qwav.tech · qwav.org · qwav.net</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://deep.qwav.tech/papers/">QWAV Research Papers Hub</a></h3>
+      <span class="tag research">Research</span>
+    </div>
+    <p>497 open-access research papers on ultrametric quantum computing, geometric physics, and glass-box AI. Searchable catalog with Schema.org indexing.</p>
+    <div class="domain">deep.qwav.tech</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://ask.qwav.tech/">Ask QWAV — Research Oracle</a></h3>
+      <span class="tag tool">AI Tool</span>
+    </div>
+    <p>AI-powered research Q&A. Query the full corpus of QWAV papers and get evidence-backed answers.</p>
+    <div class="domain">ask.qwav.tech</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://primer.qwav.tech/">QLOF Primer / Discovery Momentum</a></h3>
+      <span class="tag research">Education</span>
+    </div>
+    <p>Interactive knowledge graph and guided tour through QLOF (Quantum Laws of Form) concepts. Obsidian Publish.</p>
+    <div class="domain">primer.qwav.tech</div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- QNFO PAPER SITES -->
+<!-- ============================================ -->
+<h2><span class="emoji">📄</span> QNFO Individual Paper Sites</h2>
+<div class="grid">
+  <div class="card">
+    <div class="card-header">
+      <span class="status issue"></span>
+      <h3><a href="https://quantum.qnfo.org/">Ultrametric Quantum Computing</a></h3>
+      <span class="tag paper">Paper</span>
+    </div>
+    <p>Core paper on ultrametric quantum computing architecture. Neutral atom hardware specification, ternary tree circuits, 48× error reduction.</p>
+    <div class="domain">quantum.qnfo.org</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://laws.qnfo.org/">Quantum Laws of Form</a></h3>
+      <span class="tag paper">Paper</span>
+    </div>
+    <p>Syntactic foundation for physics. Derives quantum mechanics from formal language constraints using Spencer-Brown's calculus.</p>
+    <div class="domain">laws.qnfo.org</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://knowing.qnfo.org/">Knowing Patterns</a></h3>
+      <span class="tag paper">Paper</span>
+    </div>
+    <p>Epistemology for people tired of being fixed. Pattern-based theory of knowledge that bridges human and machine knowing.</p>
+    <div class="domain">knowing.qnfo.org</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://solo.qnfo.org/">The Force-Multiplier Playbook</a></h3>
+      <span class="tag paper">Paper</span>
+    </div>
+    <p>How one scientist + one LLM can match a research team. Structured protocol turns the LLM from chatbot into force multiplier. DOI: 10.5281/zenodo.20154578.</p>
+    <div class="domain">solo.qnfo.org</div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- RESEARCH TOOLS & INFRASTRUCTURE -->
+<!-- ============================================ -->
+<h2><span class="emoji">🔧</span> Research Tools & Infrastructure</h2>
+<div class="grid">
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://living-paper.pages.dev/">Living Paper Framework</a></h3>
+      <span class="tag tool">Tool</span>
+    </div>
+    <p>Interactive paper framework with AI equation overlays, Q&A chat, and related papers sidebar. Powers the next generation of QNFO papers.</p>
+    <div class="domain">living-paper.pages.dev</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://archive.qnfo.org/">QNFO/QWAV Program Archive</a></h3>
+      <span class="tag infra">Archive</span>
+    </div>
+    <p>Historical program documentation, past papers, and archived project records.</p>
+    <div class="domain">archive.qnfo.org</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3><a href="https://discovery-momentum.pages.dev/">Discovery Momentum</a></h3>
+      <span class="tag infra">Knowledge Graph</span>
+    </div>
+    <p>Obsidian Publish knowledge graph. Visual exploration of QWAV concepts and their relationships.</p>
+    <div class="domain">discovery-momentum.pages.dev</div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <span class="status live"></span>
+      <h3>Cloudflare R2 Storage</h3>
+      <span class="tag infra">Infrastructure</span>
+    </div>
+    <p>Object storage for papers, code bundles, audit trails, releases, and program state. Zero egress fees.</p>
+    <div class="domain">qnfo (R2 bucket) · git-repos · mail · 0pus</div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<!-- ARCHITECTURE OVERVIEW -->
+<!-- ============================================ -->
+<h2><span class="emoji">🏗️</span> Architecture Overview</h2>
+<div class="arch">
+<pre>
+<span class="dim">                      ┌─────────────────────────────┐</span>
+<span class="dim">                      │     </span><span class="hl">qnfo.org (HUB)</span><span class="dim">           │</span>
+<span class="dim">                      │  Directory of ALL sites     │</span>
+<span class="dim">                      │  Architecture docs           │</span>
+<span class="dim">                      │  Status dashboard            │</span>
+<span class="dim">                      │  Changelog → /changelog      │</span>
+<span class="dim">                      └──────────┬──────────────────┘</span>
+<span class="dim">                                 │</span>
+<span class="dim">          ┌──────────────────────┼──────────────────────┐</span>
+<span class="dim">          │                      │                      │</span>
+<span class="dim">    ┌─────┴─────┐          ┌────┴────┐          ┌──────┴──────┐</span>
+<span class="dim">    │ </span><span class="qwav">QWAV Sites</span><span class="dim">  │          │ </span><span class="hl">QNFO Papers</span><span class="dim"> │          │ </span><span class="dim">Infrastructure</span><span class="dim"> │</span>
+<span class="dim">    └─────┬─────┘          └────┬────┘          └──────┬──────┘</span>
+<span class="dim">          │                    │                       │</span>
+<span class="dim">    </span><span class="qwav">qwav.tech</span><span class="dim"> (MKTG)      </span><span class="hl">quantum.qnfo.org</span><span class="dim">      </span><span class="dim">R2: qnfo/*</span><span class="dim"></span>
+<span class="dim">    </span><span class="qwav">deep.qwav.tech</span><span class="dim"> (497 📄) </span><span class="hl">laws.qnfo.org</span><span class="dim">         </span><span class="dim">Workers</span><span class="dim"></span>
+<span class="dim">    </span><span class="qwav">ask.qwav.tech</span><span class="dim"> (🤖 AI)   </span><span class="hl">knowing.qnfo.org</span><span class="dim">     </span><span class="dim">D1 Database</span><span class="dim"></span>
+<span class="dim">    </span><span class="qwav">primer.qwav.tech</span><span class="dim"> (📖)   </span><span class="hl">solo.qnfo.org</span><span class="dim">        </span><span class="dim">Email Routing</span><span class="dim"></span>
+<span class="dim">                              </span><span class="hl">archive.qnfo.org</span><span class="dim">     </span><span class="dim">Vectorize</span><span class="dim"></span>
+<span class="dim">                              </span><span class="hl">living-paper</span><span class="dim">          </span><span class="dim">AI Gateway</span><span class="dim"></span>
+<span class="dim">                              </span><span class="hl">discovery-momentum</span><span class="dim"></span>
+</pre>
+</div>
+
+<!-- ============================================ -->
+<!-- STATUS -->
+<!-- ============================================ -->
+<h2><span class="emoji">📊</span> Deployment Status</h2>
+<div class="grid">
+  <div class="card"><div class="card-header"><span class="status live"></span><h3>deep.qwav.tech</h3></div><p>✅ Live — 497 papers, all SEO features, Schema.org, RSS, sitemap</p></div>
+  <div class="card"><div class="card-header"><span class="status live"></span><h3>qwav.tech</h3></div><p>✅ Live — Google Sites marquee page, correct marketing content</p></div>
+  <div class="card"><div class="card-header"><span class="status live"></span><h3>ask.qwav.tech</h3></div><p>✅ Live — AI Research Oracle operational</p></div>
+  <div class="card"><div class="card-header"><span class="status live"></span><h3>primer.qwav.tech</h3></div><p>✅ Live — QLOF Primer / Obsidian Publish</p></div>
+  <div class="card"><div class="card-header"><span class="status live"></span><h3>laws.qnfo.org</h3></div><p>✅ Live — Quantum Laws of Form paper</p></div>
+  <div class="card"><div class="card-header"><span class="status live"></span><h3>knowing.qnfo.org</h3></div><p>✅ Live — Knowing Patterns paper</p></div>
+  <div class="card"><div class="card-header"><span class="status live"></span><h3>solo.qnfo.org</h3></div><p>✅ Live — Force-Multiplier Playbook</p></div>
+  <div class="card"><div class="card-header"><span class="status live"></span><h3>archive.qnfo.org</h3></div><p>✅ Live — Program archive</p></div>
+  <div class="card"><div class="card-header"><span class="status issue"></span><h3>quantum.qnfo.org</h3></div><p>⚠️ Navigation error — needs redeployment</p></div>
+  <div class="card"><div class="card-header"><span class="status issue"></span><h3>qnfo.org (hub)</h3></div><p>⚠️ Currently shows changelog — needs hub content</p></div>
+  <div class="card"><div class="card-header"><span class="status live"></span><h3>living-paper.pages.dev</h3></div><p>✅ Live — Test page operational</p></div>
+</div>
+
+<footer>
+  <p>QNFO Research Infrastructure · <a href="https://github.com/QNFO">GitHub</a> · <a href="https://deep.qwav.tech/rss.xml">RSS</a> · <a href="https://deep.qwav.tech/sitemap.xml">Sitemap</a></p>
+  <p style="margin-top:0.5rem">Last updated: 2026-05-29 · Powered by Cloudflare Pages · All research CC BY 4.0</p>
+</footer>
+
+</div>
+</body>
+</html>

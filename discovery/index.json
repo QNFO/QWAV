@@ -1,252 +1,50 @@
 {
-  "updated": "2026-05-28T16:48:36Z",
-  "projects": {
-    "google-site-auditor": {
-      "path": "G:/My Drive/projects/google-site-auditor",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "cf-dns-validator": {
-      "path": "G:/My Drive/projects/cf-dns-validator",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "cloudflare-pages-migration": {
-      "path": "G:/My Drive/projects/cloudflare-pages-migration",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "pm-mirror-builder": {
-      "path": "G:/My Drive/projects/pm-mirror-builder",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "github-sync-worker": {
-      "path": "G:/My Drive/projects/github-sync-worker",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": true
-    },
-    "cloudflare-pm-infrastructure": {
-      "path": "G:/My Drive/projects/cloudflare-pm-infrastructure",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": true
-    },
-    "ask-qwav": {
-      "path": "G:/My Drive/projects/ask-qwav",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "git-on-cloudflare-research": {
-      "path": "G:/My Drive/projects/git-on-cloudflare-research",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "git-on-cloudflare-deployment": {
-      "path": "G:/My Drive/projects/git-on-cloudflare-deployment",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": true
-    },
-    "pdf-builder": {
-      "path": "G:/My Drive/projects/pdf-builder",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": true
-    },
-    "email-agent": {
-      "path": "G:/My Drive/projects/email-agent",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "applications": {
-      "path": "G:/My Drive/projects/applications",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "living-paper": {
-      "path": "G:/My Drive/projects/living-paper",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": true
-    },
-    "qwav-scan": {
-      "path": "G:/My Drive/projects/qwav-scan",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "consistency-engine": {
-      "path": "G:/My Drive/projects/consistency-engine",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "ultrametric-playground": {
-      "path": "G:/My Drive/projects/ultrametric-playground",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "concept-graph": {
-      "path": "G:/My Drive/projects/concept-graph",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "reproducibility-as-code": {
-      "path": "G:/My Drive/projects/reproducibility-as-code",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "automated-peer-review": {
-      "path": "G:/My Drive/projects/automated-peer-review",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "qwav-compute-cloud": {
-      "path": "G:/My Drive/projects/qwav-compute-cloud",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "agent-swarm": {
-      "path": "G:/My Drive/projects/agent-swarm",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "research-pipeline": {
-      "path": "G:/My Drive/projects/research-pipeline",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": true,
-      "has_readme": false
-    },
-    "handoffs": {
-      "path": "G:/My Drive/projects/handoffs",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": false,
-      "has_readme": false
-    },
-    "audit": {
-      "path": "G:/My Drive/projects/audit",
-      "status": "active",
-      "last_modified": "2026-05-28",
-      "has_git": false,
-      "has_readme": false
-    }
-  },
-  "archive": {
-    "OMI": {
-      "path": "G:/My Drive/Archive/OMI",
-      "last_modified": "2025-03-06"
-    },
-    "q08.org": {
-      "path": "G:/My Drive/Archive/q08.org",
-      "last_modified": "2026-03-02"
-    },
-    "notes": {
-      "path": "G:/My Drive/Archive/notes",
-      "last_modified": "2026-03-02"
-    },
-    "releases": {
-      "path": "G:/My Drive/Archive/releases",
-      "last_modified": "2025-12-20"
-    },
-    "templates": {
-      "path": "G:/My Drive/Archive/templates",
-      "last_modified": "2025-09-21"
-    },
-    "projects": {
-      "path": "G:/My Drive/Archive/projects",
-      "last_modified": "2026-05-20"
-    },
-    "prompts": {
-      "path": "G:/My Drive/Archive/prompts",
-      "last_modified": "2026-05-27"
-    },
-    "Patents": {
-      "path": "G:/My Drive/Archive/Patents",
-      "last_modified": "2026-05-11"
-    },
-    "obsidian-releases": {
-      "path": "G:/My Drive/Archive/obsidian-releases",
-      "last_modified": "2026-05-25"
-    }
-  },
-  "publications": {},
-  "topics": {
-    "cloudflare": [
-      "cf-dns-validator",
-      "cloudflare-pages-migration",
-      "cloudflare-pm-infrastructure",
-      "github-sync-worker"
+  "ecosystem": "QNFO/QWAV",
+  "updated": "2026-05-29T08:48:00Z",
+  "license": {
+    "name": "QNFO Unified License Agreement v2.0",
+    "spdx": "LicenseRef-QNFO-ULA-2.0",
+    "base": "CC BY-NC-SA 4.0",
+    "url": "https://qnfo.org/legal/license",
+    "r2_path": "qnfo/releases/licenses/QNFO-ULA-v2.0.md",
+    "local_path": "G:\\My Drive\\QWAV\\legal\\QNFO-ULA-v2.0.md",
+    "effective_date": "2026-05-29",
+    "supersedes": [
+      "QNFO Content License Agreement v1.1",
+      "AI System License Agreement (ASLA)",
+      "CC BY-NC-SA 4.0 (various)",
+      "CC BY-NC 4.0 (various)",
+      "MIT License (project-specific)",
+      "Unlicense (q08.org archive)"
     ],
-    "publishing": [
-      "qwav-papers",
-      "living-paper",
-      "pdf-builder"
-    ],
-    "ai-ml": [
-      "ask-qwav",
-      "concept-graph",
-      "ultrametric-playground",
-      "agent-swarm"
-    ],
-    "infrastructure": [
-      "qwav-compute-cloud",
-      "research-pipeline",
-      "git-on-cloudflare-deployment",
-      "git-on-cloudflare-research"
-    ],
-    "research": [
-      "reproducibility-as-code",
-      "automated-peer-review",
-      "consistency-engine",
-      "qwav-scan"
-    ],
-    "tools": [
-      "email-agent",
-      "pm-mirror-builder",
-      "google-site-auditor"
-    ],
-    "meta": [
-      "handoffs",
-      "applications"
+    "key_provisions": [
+      "CC BY-NC-SA 4.0 base with ShareAlike copyleft",
+      "85% liquidated damages on unauthorized commercial use",
+      "Mandatory patent prior art citation",
+      "AI/ML training prohibition for commercial models",
+      "RAIL-inspired behavioral restrictions",
+      "Search & Discovery Exception (6 carve-outs)",
+      "Publication Exception for CC BY 4.0 content",
+      "7 edge case clarifications",
+      "7 platform enforcement channels",
+      "Structured commercial license pathway (§10.7)",
+      "Swiss governing law + ICC Geneva arbitration",
+      "New York Convention + 5 treaty references",
+      "EU sui generis database rights coverage",
+      "SPDX identifier: LicenseRef-QNFO-ULA-2.0",
+      "Binding on Access clause",
+      "Anti-circumvention provisions (§2.5)",
+      "Liquidated damages fallback provision"
     ]
+  },
+  "projects": {},
+  "publications": {},
+  "archive": {},
+  "legal_documents": {
+    "canonical_license": "G:\\My Drive\\QWAV\\legal\\QNFO-ULA-v2.0.md",
+    "licensing_policy": "G:\\My Drive\\QWAV\\legal\\LICENSING-POLICY.md",
+    "research_memo": "G:\\My Drive\\QWAV\\legal\\LICENSING-RESEARCH-MEMO.md",
+    "legal_supplement": "G:\\My Drive\\QWAV\\legal\\LEGAL-RESEARCH-SUPPLEMENT.md",
+    "strategic_framework": "G:\\My Drive\\QWAV\\legal\\STRATEGIC-FRAMEWORK.md"
   }
 }
