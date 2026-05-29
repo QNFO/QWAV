@@ -1,4 +1,2 @@
-# deep.qwav.tech routing â€” catalog at /papers/
-/papers             /papers/index.html   200
-/papers/            /papers/index.html   200
-/papers/index.html  /papers/index.html   200
+# deep.qwav.tech routing — root redirect to papers
+/  /papers/  301
