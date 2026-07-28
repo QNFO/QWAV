@@ -1,4 +1,4 @@
-# QWAV -- Ultrametric Quantum Computing & AI
+﻿# QWAV -- Ultrametric Quantum Computing & AI
 
 **Passive fault tolerance. Glass-box AI. One mathematical correction.**
 
@@ -15,21 +15,10 @@
 > **Strategy Document:** The current QWAV platform strategy is defined by the
 > [QWAV Commercial Platform: Strategic Architecture Whitepaper](https://doi.org/10.5281/zenodo.21641107)
 > (DOI: [10.5281/zenodo.21641107](https://doi.org/10.5281/zenodo.21641107),
-> latest version: [10.5281/zenodo.21641516](https://doi.org/10.5281/zenodo.21641516)).
+> latest version: [10.5281/zenodo.21651530](https://doi.org/10.5281/zenodo.21651530)).
 > Earlier strategy documents including the QWAV Venture Prospectus
 > ([10.5281/zenodo.17761691](https://doi.org/10.5281/zenodo.17761691)) are superseded.
-> See also: [External-Facing Strategy v2.1](strategy/EXTERNAL-STRATEGY-v2.1.md) (in this repo).
-
----
-
-## Strategy Document
-
-> **Strategy Document:** The current QWAV platform strategy is defined by the
-> [QWAV Commercial Platform: Strategic Architecture Whitepaper](https://doi.org/10.5281/zenodo.21641107)
-> (DOI: [10.5281/zenodo.21641107](https://doi.org/10.5281/zenodo.21641107),
-> latest version: [10.5281/zenodo.21641516](https://doi.org/10.5281/zenodo.21641516)).
-> Earlier strategy documents including the QWAV Venture Prospectus
-> ([10.5281/zenodo.17761691](https://doi.org/10.5281/zenodo.17761691)) are superseded.
+> See also: [External-Facing Strategy v2.2](strategy/EXTERNAL-STRATEGY-v2.2.md) (in this repo).
 
 ---
 
