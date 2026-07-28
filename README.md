@@ -10,6 +10,17 @@
 
 ---
 
+## Strategy Document
+
+> **Strategy Document:** The current QWAV platform strategy is defined by the
+> [QWAV Commercial Platform: Strategic Architecture Whitepaper](https://doi.org/10.5281/zenodo.21641107)
+> (DOI: [10.5281/zenodo.21641107](https://doi.org/10.5281/zenodo.21641107),
+> latest version: [10.5281/zenodo.21641516](https://doi.org/10.5281/zenodo.21641516)).
+> Earlier strategy documents including the QWAV Venture Prospectus
+> ([10.5281/zenodo.17761691](https://doi.org/10.5281/zenodo.17761691)) are superseded.
+
+---
+
 ## What QWAV Is
 
 QWAV replaces Archimedean (continuous) geometry with ultrametric (tree-based) geometry for quantum computing and artificial intelligence. The Bruhat-Tits tree -- a structure from $p$-adic number theory -- provides passive error suppression through the strong triangle inequality, operating at 4 K with no active error correction.
