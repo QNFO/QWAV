@@ -4,6 +4,7 @@
 **Version:** 2.2
 **Date:** 2026-07-28
 **Status:** Published — Canonical external-facing strategy
+**DOI:** [10.5281/zenodo.21651530](https://doi.org/10.5281/zenodo.21651530)
 **Supersedes:** EXTERNAL-STRATEGY-v2.1 (DOI: [10.5281/zenodo.21647111](https://doi.org/10.5281/zenodo.21647111))
 **Prior Chain:** QWAV Venture Prospectus v1.0 (DOI: [10.5281/zenodo.17761691](https://doi.org/10.5281/zenodo.17761691)) → Strategic Architecture Whitepaper v2.0 (DOI: [10.5281/zenodo.21641108](https://doi.org/10.5281/zenodo.21641108)) → v2.1 (DOI: [10.5281/zenodo.21647111](https://doi.org/10.5281/zenodo.21647111)) → **v2.2 (this document)**
 **Concept DOI:** [10.5281/zenodo.21641107](https://doi.org/10.5281/zenodo.21641107)
@@ -444,7 +445,7 @@ A: QWAV is a mathematical/IP play, not a hardware play. Unlike hardware companie
 | v1.0 | 2025-11-29 | QWAV Venture Prospectus (DOI: 10.5281/zenodo.17761691) — initial IP licensing model for heterogeneous photonic stack |
 | v2.0 | 2026-07-28 | Strategic Architecture Whitepaper (DOI: 10.5281/zenodo.21641108) — full platform strategy, 5-axis QNFO↔QWAV boundary, JPCUB, competitive landscape, 18-month roadmap |
 | v2.1 | 2026-07-28 | Refined for external audiences (DOI: 10.5281/zenodo.21647111) — removed internal architecture/infrastructure details, added investment thesis, engagement section, document history |
-| v2.2 | 2026-07-28 | **This version** — added risk factors (§8), use cases and application domains (§5), expanded JPCUB methodology (§4.1), team & founder (§9), FAQ (§13), competitive comparison axes (§6.1), investment scenarios (§11), and technical appendix (Appendix B). Streamlined for comprehensive investor/partner due diligence. |
+| v2.2 | 2026-07-28 | **This version** — DOI: [10.5281/zenodo.21651530](https://doi.org/10.5281/zenodo.21651530). Added risk factors (§8), use cases and application domains (§5), expanded JPCUB methodology (§4.1), team & founder (§9), FAQ (§13), competitive comparison axes (§6.1), investment scenarios (§11), and technical appendix (Appendix B). Streamlined for comprehensive investor/partner due diligence. |
 
 > **Earlier strategy documents are superseded.** See the QWAV Venture Prospectus (DOI: 10.5281/zenodo.17761691) for the original IP licensing thesis. This v2.2 document is the current, authoritative statement of QWAV platform strategy.
 
