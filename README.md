@@ -1,6 +1,7 @@
 ﻿# QWAV -- Ultrametric Quantum Computing & AI
 
-**Passive fault tolerance. Glass-box AI. One mathematical correction.**
+**Passive fault tolerance. Glass-box AI. One mathematical correction.**  
+*Ultrametric quantum computing — p-adic · Bruhat-Tits · non-Archimedean · JPCUB joules-per-solution*
 
 > QWAV is the flagship research initiative of [QNFO](https://github.com/QNFO/.github),
 > a scientific research incubator advancing knowledge for the **collective benefit
@@ -120,7 +121,7 @@ QWAV uses a unified `llms.txt` hierarchy for LLM agent discovery. Start at [`llm
 **Core publications:** 8 papers with registered Zenodo DOIs (see table below).
 
 **Legacy archive:** 45 publications in the [QNFO/.github archive](https://github.com/QNFO/.github/blob/master/releases/papers/index.md) (historical, pre-QWAV).  
-**Full Zenodo community:** [85 records](https://zenodo.org/communities/qwav/) across all QWAV publications.  
+**Full Zenodo community:** [89 records](https://zenodo.org/communities/qwav/) across all QWAV publications.  
 **GitHub-native archive:** [564 markdown papers](https://github.com/QNFO/.github) in QNFO/.github (browsable, with auto-PDF generation).
 
 Key QWAV publications:
@@ -130,6 +131,32 @@ Key QWAV publications:
 - [Symmetric Extension of Ultrametric Error Confinement](https://doi.org/10.5281/zenodo.15129661)
 - [The Tree Is Real](https://doi.org/10.5281/zenodo.15241485)
 - [Tree at the Bottom of Everything](https://doi.org/10.5281/zenodo.15276773)
+
+
+## QNFO Program Taxonomy (WBS)
+
+QWAV is the **PLT** (Platform) program in the QNFO research portfolio. The full
+program taxonomy (canonical per [WBS.TAXONOMY.md](https://github.com/QNFO/qnfo-ops/blob/main/WBS/WBS.TAXONOMY.md))
+guides research focus and search discoverability:
+
+| WBS | Program | Repo | Focus |
+|:----|:--------|:-----|:------|
+| **UMP** | Ultrametric Physics | [ultrametric-physics](https://github.com/QNFO/ultrametric-physics) | p-adic/adelic physics, Ostrowski, Bruhat-Tits geometry |
+| **SLB** | Laws of Form | [laws-of-form](https://github.com/QNFO/laws-of-form) | Spencer-Brown calculus of indications |
+| **INM** | Infomatics | [infomatics](https://github.com/QNFO/infomatics) | Information as fundamental; Landauer-Bekenstein bounds |
+| **CFE** | CFPE / Paradigm Engineering | [cfpe](https://github.com/QNFO/cfpe) | Technology forecasting, post-silicon computing |
+| **RES** | QNFO Research | [qnfo-research](https://github.com/QNFO/qnfo-research) | Cross-domain consilience, measurement stratigraphy |
+| **PLT** | QWAV Platform | [QWAV](https://github.com/QNFO/QWAV) ← this repo | Ultrametric quantum computing & glass-box AI |
+| **DEM** | QWAV Demos | [qwav-demos](https://github.com/QNFO/qwav-demos) | Interactive Bruhat-Tits / p-adic visualizations |
+
+**Keyword taxonomy v1.0** (canonical — drives arXiv/OpenAlex monitoring, SEO, and
+GitHub star classification): `ultrametric`, `p-adic`, `adelic`, `ostrowski`,
+`bruhat-tits`, `non-archimedean`, `ultrametric-quantum-computing`,
+`passive-fault-tolerance`, `glass-box-ai`, `q-pna`, `error-confinement`,
+`joules-per-solution`, `jpcub`, `thermodynamic-efficiency`, `neutral-atom`,
+`qudit`, `tree-topology`, `consilience`, `paradigm-engineering`.
+
+---
 
 ## License
 
