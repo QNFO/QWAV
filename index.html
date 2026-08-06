@@ -1,1612 +1,1614 @@
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-<title>QWAV — Ultrametric Computing Platform | Joules-per-Solution (JPCUB) | p-adic Architecture</title>
-
-<meta name="description" content="QWAV is a pre-commercial computing platform exploring p-adic ultrametric architectures. Benchmarked with Joules-per-Solution (JPCUB) — an open, falsifiable metric for computational efficiency. Built on QNFO research.">
-<meta name="keywords" content="QWAV, QNFO, p-adic, ultrametric computing, JPCUB, joules-per-solution, thermodynamic efficiency, Ostrowski theorem, Bruhat-Tits tree, adelic QEC, pre-commercial computing, Cloudflare Workers, non-Archimedean physics, ultrametric physics, place-democracy, adelic physics, quantum error correction, thermodynamics of computation, quantum foundations, consilience, paradigm engineering">
-
-<meta property="og:title" content="QWAV — Thermodynamically Optimised Computing">
-
-<meta property="og:description" content="Measured in joules-per-solution, not qubit counts. p-adic ultrametric architecture with intrinsic error correction derived from Ostrowski's theorem.">
-
-<meta property="og:type" content="website">
-
-<meta property="og:url" content="https://qwav.org">
-
-<meta name="twitter:card" content="summary_large_image">
-
-<link rel="canonical" href="https://qwav.org">
-<link rel="alternate" hreflang="en" href="https://qwav.org/">
-<link rel="alternate" hreflang="x-default" href="https://qwav.org/">
-
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'&gt;&lt;rect width='32' height='32' rx='6' fill='%231a56db'/&gt;&lt;text x='16' y='23' text-anchor='middle' font-size='20' fill='white' font-family='system-ui'&gt;⚡&lt;/text&gt;&lt;/svg&gt;">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap" rel="stylesheet">
-
-<style>
-
-:root {
-
-  --blue: #1a56db;
-
-  --blue-dark: #1040a8;
-
-  --blue-light: #dbeafe;
-
-  --blue-subtle: #eff6ff;
-
-  --blue-mid: #6094e8;
-
-  --text: #1a1a2e;
-
-  --muted: #6b7280;
-
-  --bg: #fff;
-
-  --surface: #f9fafb;
-
-  --border: #e5e7eb;
-
-  --radius: 8px;
-
-  --radius-lg: 12px;
-
-  --max-w: 1080px;
-
-  --shadow: 0 4px 24px rgba(0,0,0,.08);
-
-  --serif: 'Source Serif 4', Georgia, serif;
-
-  --sans: 'Inter', system-ui, -apple-system, sans-serif;
-
-}
-
-
-
-*,*::before,*::after{box-sizing:border-box}
-
-
-
-body {
-
-  font-family: var(--sans);
-
-  margin: 0;
-
-  padding: 0;
-
-  color: var(--text);
-
-  background: var(--bg);
-
-  line-height: 1.65;
-
-  -webkit-font-smoothing: antialiased;
-
-}
-
-
-
-/* Skip navigation for accessibility */
-
-.skip-link{position:absolute;top:-100px;left:1rem;background:var(--blue);color:#fff;padding:.5rem 1rem;border-radius:0 0 6px 6px;z-index:200;font-size:.9rem;text-decoration:none;transition:top .2s}
-
-.skip-link:focus{top:0}
-
-
-
-/* Navigation */
-
-.nav {
-
-  display: flex;
-
-  align-items: center;
-
-  gap: 1.25rem;
-
-  padding: .85rem 1.5rem;
-
-  background: rgba(255,255,255,.92);
-
-  backdrop-filter: blur(12px);
-
-  -webkit-backdrop-filter: blur(12px);
-
-  border-bottom: 1px solid var(--border);
-
-  position: sticky;
-
-  top: 0;
-
-  z-index: 100;
-
-}
-
-.nav-brand {
-
-  font-family: var(--sans);
-
-  font-weight: 800;
-
-  font-size: 1.05rem;
-
-  color: var(--text);
-
-  text-decoration: none;
-
-  margin-right: auto;
-
-  display: flex;
-
-  align-items: center;
-
-  gap: .4rem;
-
-}
-
-.nav-brand .qwav-mark {
-
-  background: linear-gradient(135deg, var(--blue), var(--blue-dark));
-
-  color: #fff;
-
-  padding: .15rem .55rem;
-
-  border-radius: 4px;
-
-  font-size: .75rem;
-
-  font-weight: 700;
-
-}
-
-.nav-links {
-
-  display: flex;
-
-  gap: .25rem;
-
-  align-items: center;
-
-}
-
-.nav-links a {
-
-  color: var(--muted);
-
-  text-decoration: none;
-
-  font-weight: 500;
-
-  font-size: .85rem;
-
-  padding: .35rem .7rem;
-
-  border-radius: 6px;
-
-  transition: all .15s;
-
-}
-
-.nav-links a:hover {
-
-  color: var(--blue);
-
-  background: var(--blue-subtle);
-
-}
-
-
-
-/* Hero — light gradient, not dark */
-
-.hero {
-
-  background: linear-gradient(135deg, #f0f4ff 0%, #e8f0fe 30%, #f5f3ff 70%, #eff6ff 100%);
-
-  padding: 4.5rem 1.5rem 4rem;
-
-  text-align: center;
-
-}
-
-.hero-inner {
-
-  max-width: 800px;
-
-  margin: 0 auto;
-
-}
-
-.hero .overline {
-
-  text-transform: uppercase;
-
-  letter-spacing: .15em;
-
-  font-size: .72rem;
-
-  font-weight: 700;
-
-  color: var(--blue-mid);
-
-  margin-bottom: 1.25rem;
-
-  font-family: var(--sans);
-
-}
-
-.hero h1 {
-
-  font-family: var(--sans);
-
-  font-size: clamp(2rem, 4.5vw, 3rem);
-
-  font-weight: 800;
-
-  margin: 0 0 1.25rem;
-
-  letter-spacing: -.025em;
-
-  line-height: 1.15;
-
-  color: var(--text);
-
-}
-
-.hero h1 .jpcub {
-
-  color: var(--blue);
-
-}
-
-.hero p {
-
-  font-family: var(--serif);
-
-  font-size: 1.1rem;
-
-  color: #4b5563;
-
-  max-width: 620px;
-
-  margin: 0 auto 2rem;
-
-  line-height: 1.7;
-
-}
-
-.hero-cta {
-
-  display: flex;
-
-  gap: 1rem;
-
-  justify-content: center;
-
-  flex-wrap: wrap;
-
-}
-
-
-
-/* Buttons */
-
-.btn {
-
-  padding: .75rem 1.75rem;
-
-  border-radius: 8px;
-
-  font-weight: 600;
-
-  font-size: .95rem;
-
-  text-decoration: none;
-
-  transition: all .2s;
-
-  display: inline-flex;
-
-  align-items: center;
-
-  gap: .5rem;
-
-  font-family: var(--sans);
-
-}
-
-.btn-primary {
-
-  background: var(--blue);
-
-  color: #fff;
-
-  box-shadow: 0 2px 12px rgba(26,86,219,.35);
-
-}
-
-.btn-primary:hover {
-
-  background: #1d4ed8;
-
-  transform: translateY(-1px);
-
-}
-
-.btn-outline {
-
-  background: transparent;
-
-  color: var(--blue-dark);
-
-  border: 2px solid var(--blue-mid);
-
-}
-
-.btn-outline:hover {
-
-  background: var(--blue-subtle);
-
-  border-color: var(--blue);
-
-}
-
-.btn-research {
-
-  background: transparent;
-
-  color: var(--muted);
-
-  border: 1px solid var(--border);
-
-}
-
-.btn-research:hover {
-
-  color: var(--blue);
-
-  border-color: var(--blue);
-
-  background: var(--blue-subtle);
-
-}
-
-
-
-/* Sections */
-
-.section {
-
-  max-width: var(--max-w);
-
-  margin: 0 auto;
-
-  padding: 4rem 1.5rem;
-
-}
-
-.section-header {
-
-  text-align: center;
-
-  margin-bottom: 3rem;
-
-}
-
-.section-header h2 {
-
-  font-family: var(--sans);
-
-  font-size: 1.65rem;
-
-  font-weight: 700;
-
-  margin: 0 0 .5rem;
-
-  color: var(--text);
-
-}
-
-.section-header p {
-
-  font-family: var(--serif);
-
-  color: var(--muted);
-
-  max-width: 560px;
-
-  margin: 0 auto;
-
-  font-size: .95rem;
-
-}
-
-
-
-/* Metric spotlight */
-
-.metric-spotlight {
-
-  display: grid;
-
-  grid-template-columns: 1fr 1fr;
-
-  gap: 2rem;
-
-  align-items: center;
-
-  background: var(--surface);
-
-  border: 1px solid var(--border);
-
-  border-radius: var(--radius-lg);
-
-  padding: 2.5rem;
-
-  margin-bottom: 3rem;
-
-}
-
-.metric-spotlight .big-number {
-
-  font-family: var(--sans);
-
-  font-size: 3.5rem;
-
-  font-weight: 800;
-
-  color: var(--blue);
-
-  line-height: 1;
-
-  margin-bottom: .5rem;
-
-}
-
-.metric-spotlight .big-label {
-
-  font-family: var(--sans);
-
-  font-size: 1.1rem;
-
-  color: var(--text);
-
-  font-weight: 600;
-
-  margin-bottom: .25rem;
-
-}
-
-.metric-spotlight .big-sub {
-
-  font-size: .85rem;
-
-  color: var(--muted);
-
-}
-
-.metric-spotlight .comparison {
-
-  font-size: .9rem;
-
-  color: var(--muted);
-
-  line-height: 1.6;
-
-}
-
-
-
-/* Separation table (QNFO vs QWAV) */
-
-.separation-table {
-
-  width: 100%;
-
-  border-collapse: collapse;
-
-  font-size: .9rem;
-
-}
-
-.separation-table th {
-
-  text-align: left;
-
-  padding: .75rem 1rem;
-
-  background: var(--surface);
-
-  border-bottom: 1px solid var(--border);
-
-  font-family: var(--sans);
-
-  font-size: .78rem;
-
-  text-transform: uppercase;
-
-  letter-spacing: .06em;
-
-  color: var(--muted);
-
-}
-
-.separation-table td {
-
-  padding: .75rem 1rem;
-
-  border-bottom: 1px solid var(--border);
-
-}
-
-.separation-table tr:last-child td {
-
-  border-bottom: none;
-
-}
-
-.separation-table .qwav {
-
-  background: var(--blue-subtle);
-
-  font-weight: 600;
-
-}
-
-
-
-/* Platform stack */
-
-.platform-stack {
-
-  background: var(--surface);
-
-  border: 1px solid var(--border);
-
-  border-radius: var(--radius-lg);
-
-  overflow: hidden;
-
-  font-family: 'JetBrains Mono', Consolas, monospace;
-
-  font-size: .82rem;
-
-}
-
-.stack-layer {
-
-  padding: .85rem 1.25rem;
-
-  border-bottom: 1px solid var(--border);
-
-  display: flex;
-
-  align-items: center;
-
-  gap: 1rem;
-
-}
-
-.stack-layer:last-child {
-
-  border-bottom: none;
-
-}
-
-.stack-label {
-
-  font-weight: 700;
-
-  color: var(--blue);
-
-  min-width: 140px;
-
-  font-size: .75rem;
-
-  text-transform: uppercase;
-
-  letter-spacing: .05em;
-
-}
-
-.stack-content {
-
-  color: var(--text);
-
-  line-height: 1.5;
-
-}
-
-.stack-layer:nth-child(1) { background: #f0f4ff; }
-
-.stack-layer:nth-child(2) { background: #f5f7ff; }
-
-.stack-layer:nth-child(3) { background: #fafbff; }
-
-.stack-layer:nth-child(4) { background: #fdfdff; }
-
-
-
-/* Competitive grid */
-
-.competitive-grid {
-
-  display: grid;
-
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
-  gap: 1.25rem;
-
-}
-
-.comp-card {
-
-  background: var(--surface);
-
-  border: 1px solid var(--border);
-
-  border-radius: var(--radius-lg);
-
-  padding: 1.5rem;
-
-  transition: all .2s;
-
-}
-
-.comp-card:hover {
-
-  border-color: var(--blue);
-
-  box-shadow: var(--shadow);
-
-}
-
-.comp-card.qwav-card {
-
-  border-color: var(--blue);
-
-  border-width: 2px;
-
-  background: linear-gradient(135deg, var(--blue-subtle), #fff);
-
-}
-
-.comp-card h4 {
-
-  font-family: var(--sans);
-
-  font-size: 1rem;
-
-  margin: 0 0 .25rem;
-
-  font-weight: 700;
-
-}
-
-.comp-card .arch {
-
-  font-size: .8rem;
-
-  color: var(--muted);
-
-  margin-bottom: .75rem;
-
-}
-
-.comp-card .specs {
-
-  display: flex;
-
-  flex-direction: column;
-
-  gap: .3rem;
-
-  font-size: .82rem;
-
-}
-
-.comp-card .specs .spec {
-
-  display: flex;
-
-  justify-content: space-between;
-
-}
-
-.comp-card .specs .spec .val {
-
-  font-weight: 600;
-
-}
-
-.comp-card .jpcub-badge {
-
-  display: inline-block;
-
-  margin-top: .75rem;
-
-  padding: .2rem .6rem;
-
-  border-radius: 999px;
-
-  font-size: .72rem;
-
-  font-weight: 700;
-
-  background: var(--blue-subtle);
-
-  color: var(--blue);
-
-}
-
-
-
-/* Research paper cards */
-
-.research-grid {
-
-  display: grid;
-
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-
-  gap: 1rem;
-
-  max-width: var(--max-w);
-
-  margin: 0 auto;
-
-}
-
-.paper-link-card {
-
-  background: var(--surface);
-
-  border: 1px solid var(--border);
-
-  border-radius: var(--radius);
-
-  padding: 1.25rem;
-
-  text-decoration: none;
-
-  color: var(--text);
-
-  transition: all .2s;
-
-  display: block;
-
-}
-
-.paper-link-card:hover {
-
-  border-color: var(--blue);
-
-  box-shadow: var(--shadow);
-
-}
-
-.paper-link-card .paper-title {
-
-  font-family: var(--sans);
-
-  font-weight: 700;
-
-  font-size: .9rem;
-
-  margin-bottom: .35rem;
-
-  color: var(--blue);
-
-}
-
-.paper-link-card .paper-desc {
-
-  font-size: .8rem;
-
-  color: var(--muted);
-
-  line-height: 1.45;
-
-}
-
-.paper-link-card .paper-doi {
-
-  font-family: var(--sans);
-
-  font-size: .75rem;
-
-  color: var(--blue);
-
-  margin-top: .5rem;
-
-  font-weight: 500;
-
-}
-
-
-
-/* CTA section */
-
-.cta-section {
-
-  text-align: center;
-
-  padding: 4rem 1.5rem;
-
-  background: linear-gradient(135deg, var(--blue-subtle), var(--blue-light));
-
-}
-
-.cta-section h2 {
-
-  font-family: var(--sans);
-
-  font-size: 1.5rem;
-
-  font-weight: 700;
-
-  margin: 0 0 .75rem;
-
-}
-
-.cta-section p {
-
-  font-family: var(--serif);
-
-  color: var(--muted);
-
-  max-width: 500px;
-
-  margin: 0 auto 1.5rem;
-
-}
-
-
-
-/* Footer */
-
-.site-footer {
-
-  background: var(--surface);
-
-  border-top: 1px solid var(--border);
-
-  padding: 3rem 1.5rem 2rem;
-
-}
-
-.footer-grid {
-
-  max-width: var(--max-w);
-
-  margin: 0 auto 2rem;
-
-  display: grid;
-
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-
-  gap: 2rem;
-
-}
-
-.footer-col h5 {
-
-  font-family: var(--sans);
-
-  font-size: .78rem;
-
-  font-weight: 700;
-
-  color: var(--text);
-
-  margin: 0 0 .5rem;
-
-  text-transform: uppercase;
-
-  letter-spacing: .06em;
-
-}
-
-.footer-col a {
-
-  display: block;
-
-  color: var(--muted);
-
-  text-decoration: none;
-
-  padding: .2rem 0;
-
-  font-size: .8rem;
-
-  transition: color .15s;
-
-}
-
-.footer-col a:hover {
-
-  color: var(--blue);
-
-}
-
-.footer-bottom {
-
-  text-align: center;
-
-  font-size: .8rem;
-
-  color: var(--muted);
-
-  max-width: 700px;
-
-  margin: 0 auto;
-
-}
-
-.footer-bottom a {
-
-  color: var(--blue);
-
-  text-decoration: none;
-
-  font-weight: 500;
-
-}
-
-
-
-/* Integrity disclaimer */
-
-.integrity-note {
-
-  background: #fffbeb;
-
-  border: 1px solid #fcd34d;
-
-  border-radius: var(--radius);
-
-  padding: .75rem 1rem;
-
-  margin: 1.5rem 0;
-
-  font-size: .8rem;
-
-  color: #92400e;
-
-  line-height: 1.5;
-
-}
-
-.integrity-note strong {
-
-  color: #78350f;
-
-}
-
-
-
-/* Distinction section note */
-
-.distinction-note {
-
-  background: var(--blue-subtle);
-
-  border-left: 3px solid var(--blue-mid);
-
-  padding: .75rem 1rem;
-
-  margin-top: 1rem;
-
-  font-size: .82rem;
-
-  color: var(--text);
-
-  border-radius: 0 var(--radius) var(--radius) 0;
-
-  line-height: 1.5;
-
-}
-
-
-
-/* Responsive */
-
-@media(max-width:768px) {
-
-  .nav-links { display: none; }
-
-  .hero { padding: 3rem 1.25rem 2.5rem; }
-
-  .hero h1 { font-size: 1.7rem; }
-
-  .metric-spotlight { grid-template-columns: 1fr; gap: 1.5rem; }
-
-  .competitive-grid { grid-template-columns: 1fr; }
-
-  .research-grid { grid-template-columns: 1fr; }
-
-  .footer-grid { grid-template-columns: repeat(2, 1fr); }
-
-  .separation-table { font-size: .78rem; }
-
-  .separation-table td, .separation-table th { padding: .5rem .6rem; }
-
-}
-
-@media(max-width:480px) {
-
-  .hero-cta { flex-direction: column; align-items: center; }
-
-  .btn { width: 100%; justify-content: center; }
-
-  .footer-grid { grid-template-columns: 1fr; }
-
-}
-
-</style>
-
-<!-- Google tag (gtag.js) -->
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LV7RHRVW6R"></script>
-
-<script>
-
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
-
-  gtag('config', 'G-LV7RHRVW6R');
-
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://qwav.org/#org",
-      "name": "QWAV",
-      "alternateName": ["QWAV Platform", "QNFO"],
-      "url": "https://qwav.org/",
-      "description": "Pre-commercial computing platform built on QNFO research, exploring p-adic ultrametric architectures benchmarked with Joules-per-Solution (JPCUB).",
-      "sameAs": [
-        "https://qnfo.org",
-        "https://papers.qnfo.org/papers",
-        "https://github.com/QNFO",
-        "https://zenodo.org/search?q=QNFO"
-      ]
-    },
-    {
-      "@type": "Product",
-      "@id": "https://qwav.org/#product",
-      "name": "QWAV Computing Platform",
-      "description": "Pre-commercial computing platform using p-adic ultrametric architectures with intrinsic error protection derived from Ostrowski's theorem. Benchmarked with the open JPCUB (Joules-per-Solution) protocol.",
-      "brand": {"@id": "https://qwav.org/#org"},
-      "url": "https://qwav.org/",
-      "additionalProperty": [
-        {"@type": "PropertyValue", "name": "JPCUB design target", "value": "<10^-3 joules per solution"},
-        {"@type": "PropertyValue", "name": "Error correction", "value": "Intrinsic (Ostrowski theorem)"},
-        {"@type": "PropertyValue", "name": "Operating temperature", "value": "Room-temperature design target"}
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://qwav.org/#website",
-      "url": "https://qwav.org/",
-      "name": "QWAV — Ultrametric Computing Platform",
-      "publisher": {"@id": "https://qwav.org/#org"},
-      "about": "p-adic ultrametric computing, JPCUB joules-per-solution benchmark, thermodynamic efficiency"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://qwav.org/#breadcrumbs",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://qwav.org/"},
-        {"@type": "ListItem", "position": 2, "name": "JPCUB Benchmark", "item": "https://qwav.org/#jpcub"},
-        {"@type": "ListItem", "position": 3, "name": "Platform Architecture", "item": "https://qwav.org/#platform"}
-      ]
-    }
-  ]
-}
-</script>
-</head>
-
-<body>
-
-
-
-<a href="#main-content" class="skip-link">Skip to main content</a>
-
-
-
-<nav class="nav" role="navigation" aria-label="Main navigation">
-
-  <a class="nav-brand" href="/" aria-label="QWAV Platform home">⚡ QWAV<span class="qwav-mark">Platform</span></a>
-
-  <div class="nav-links">
-
-    <a href="#platform">Platform</a>
-
-    <a href="#jpcub">JPCUB</a>
-
-    <a href="#competitive">Competitive</a>
-
-    <a href="#research">Research</a>
-
-    <a href="https://qnfo.org">QNFO</a>
-
-    <a href="https://papers.qnfo.org/papers">Papers</a>
-
-  </div>
-
-</nav>
-
-
-
-<main id="main-content">
-
-  <header class="hero" role="banner">
-
-    <div class="hero-inner">
-
-      <div class="overline">Pre-Commercial Computing Platform</div>
-
-      <h1>Benchmarked in<br><span class="jpcub">joules-per-solution</span>,<br>not qubit counts</h1>
-
-      <p>QWAV is a pre-commercial computing platform exploring p-adic ultrametric architectures as an alternative to the qubit-gate-circuit model. The approach draws on Ostrowski's theorem for intrinsic error protection and targets room-temperature operation. All performance claims are benchmarked transparently with JPCUB — an open, falsifiable metric for computational thermodynamic efficiency.</p>
-
-      <div class="hero-cta">
-
-        <a href="#jpcub" class="btn btn-primary" aria-label="JPCUB Benchmark">⚡ JPCUB Benchmark</a>
-
-        <a href="https://doi.org/10.5281/zenodo.21641108" class="btn btn-outline" target="_blank" rel="noopener" aria-label="Strategy Whitepaper">📄 Strategy Whitepaper</a>
-
-        <a href="https://papers.qnfo.org/rss.xml" class="btn btn-research" target="_blank" rel="noopener" aria-label="Research RSS">📡 Research RSS</a>
-
-      </div>
-
-    </div>
-
-  </header>
-
-
-
-  <div class="section" id="platform">
-
-    <div class="section-header">
-
-      <h2>The QNFO → QWAV Distinction</h2>
-
-      <p>QNFO is a research collective that publishes critical analyses of the quantum computing industry. QWAV is a platform built from that physics — still pre-commercial, with all claims documented and independently falsifiable.</p>
-
-    </div>
-
-    <table class="separation-table" role="table">
-
-      <thead>
-
-        <tr><th scope="col">Axis</th><th scope="col">QNFO</th><th scope="col">QWAV</th></tr>
-
-      </thead>
-
-      <tbody>
-
-        <tr><td><strong>What it is</strong></td><td>Open-science research collective</td><td class="qwav">Pre-commercial computing platform</td></tr>
-
-        <tr><td><strong>Mission</strong></td><td>Publish, critique, forecast, govern</td><td class="qwav">Build, benchmark, commercialise, deploy</td></tr>
-
-        <tr><td><strong>Core metric</strong></td><td>Citation impact, paradigm influence</td><td class="qwav">Joules-per-Solution (thermodynamic efficiency)</td></tr>
-
-        <tr><td><strong>Audience</strong></td><td>Physics, mathematics, and CS researchers</td><td class="qwav">Enterprise CTOs, HPC architects, investors</td></tr>
-
-        <tr><td><strong>Posture</strong></td><td>Critical analysis of existing quantum computing approaches</td><td class="qwav">Evidence-based platform development with open benchmarks</td></tr>
-
-        <tr><td><strong>Licensing</strong></td><td>QNFO-ULA / CC-BY-4.0 / AGPL</td><td class="qwav">Commercial license (to be determined)</td></tr>
-
-      </tbody>
-
-    </table>
-
-    <div class="distinction-note">
-
-      <strong>Research Integrity Note:</strong> QWAV's architecture claims are published with Zenodo DOIs for independent verification. The platform is pre-commercial — no deployed production system yet exists. The JPCUB benchmark protocol is published and open; any party may measure any platform, including QWAV, using the same procedure. All competitive comparisons below are based on publicly reported data where available, with JPCUB values computed from published protocols.
-
-    </div>
-
-  </div>
-
-
-
-  <section class="section" id="jpcub" aria-labelledby="jpcub-heading">
-
-    <div class="section-header">
-
-      <h2 id="jpcub-heading">Joules-per-Solution — The Falsifiable Benchmark</h2>
-
-      <p>JPCUB measures thermodynamic efficiency: total energy consumed per correct answer. Not qubit counts. Not "quantum advantage" claims. Actual joules per actual solution — a measurement protocol anyone can replicate.</p>
-
-    </div>
-
-    <div class="metric-spotlight">
-
-      <div>
-
-        <div style="font-family:var(--sans);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:.5rem">JPCUB P0 — Published Protocol</div>
-
-        <div class="big-number">&lt;10⁻³</div>
-
-        <div class="big-label">Joules per Solution</div>
-
-        <div class="big-sub" style="margin-bottom:1rem">QWAV design target — orders of magnitude below measured NISQ-era quantum processors (see IBM worked example at 0.89 J/solution in JPCUB P0)</div>
-
-        <a href="https://doi.org/10.5281/zenodo.21637028" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;text-decoration:none;font-size:.85rem">Read JPCUB P0 Protocol →</a>
-
-      </div>
-
-      <div class="comparison">
-
-        <div style="font-family:var(--sans);font-weight:600;color:var(--text);margin-bottom:.5rem">How the comparison works:</div>
-
-        <p><strong>Traditional quantum processors:</strong> Gate-model architectures (superconducting, trapped-ion) require cryogenic cooling, active error correction, and report metrics (qubit count, gate fidelity) that do not directly measure computational utility.</p>
-
-        <p><strong>QWAV approach:</strong> Targets &lt;10⁻³ joules per solution through p-adic ultrametric encoding with intrinsic error protection derived from Ostrowski's theorem. Room-temperature operation is a design target.</p>
-
-        <div class="integrity-note">
-
-          <strong>🔬 Research Integrity:</strong> The JPCUB protocol is published and open. Do not trust our numbers — measure any platform yourself in joules per correct answer. The IBM Eagle worked example (0.89 J/solution for factoring) is documented in the JPCUB P0 paper with full methodology. Other platforms listed as "Pending" have not yet been benchmarked with JPCUB.
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-
-  <section class="section" style="padding-top:0" aria-labelledby="arch-heading">
-
-    <div class="section-header">
-
-      <h2 id="arch-heading">Platform Architecture</h2>
-
-      <p>The QWAV computing stack — from p-adic mathematics to commercial applications. These architectural layers are published as research papers; hardware implementation remains pre-commercial.</p>
-
-    </div>
-
-    <div class="platform-stack">
-
-      <div class="stack-layer">
-
-        <div class="stack-label">Application</div>
-
-        <div class="stack-content">QWAV SDK (Python) · QWAV Cloud API (REST) · JPCUB Benchmark Dashboard</div>
-
-      </div>
-
-      <div class="stack-layer">
-
-        <div class="stack-label">Compilation</div>
-
-        <div class="stack-content">Fontaine-Stack Compiler — Problem → p-adic encoding → Bruhat-Tits building → ZBW observable → Readout</div>
-
-      </div>
-
-      <div class="stack-layer">
-
-        <div class="stack-label">Runtime</div>
-
-        <div class="stack-content">Adelic QEC (Ostrowski intrinsic protection) · ZBW Engine · Bruhat-Tits Readout Protocol</div>
-
-      </div>
-
-      <div class="stack-layer">
-
-        <div class="stack-label">Physical</div>
-
-        <div class="stack-content">Trapped-Ion Dirac Simulator · Room-Temperature Adelic Nuclear-Spin Qubit v2.0 · 343-qubit Tree Topology</div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-
-  <section class="section" id="competitive" aria-labelledby="competitive-heading">
-
-    <div class="section-header">
-
-      <h2 id="competitive-heading">Competitive Landscape</h2>
-
-      <p>QWAV does not compete on qubit counts — these are metrics of a paradigm QNFO research has analysed critically. QWAV compares on thermodynamic efficiency and architectural clarity, using the open JPCUB protocol. Where JPCUB numbers are shown, they are computed from published data.</p>
-
-    </div>
-
-    <div class="competitive-grid">
-
-      <div class="comp-card">
-
-        <h4>IBM</h4>
-
-        <div class="arch">Superconducting transmon · 1,121 qubits · ~15 mK</div>
-
-        <div class="specs">
-
-          <div class="spec"><span>Error Correction</span><span class="val">Active (surface code)</span></div>
-
-          <div class="spec"><span>Commercial Status</span><span class="val">Cloud ($1.60/sec)</span></div>
-
-        </div>
-
-        <div class="jpcub-badge">JPCUB P0: 0.89 J/solution (published)</div>
-
-      </div>
-
-      <div class="comp-card">
-
-        <h4>Google</h4>
-
-        <div class="arch">Superconducting · 105 qubits · ~15 mK</div>
-
-        <div class="specs">
-
-          <div class="spec"><span>Error Correction</span><span class="val">Active (surface code)</span></div>
-
-          <div class="spec"><span>Notable</span><span class="val">"Supremacy" claim (2019) [debated]</span></div>
-
-        </div>
-
-        <div class="jpcub-badge">JPCUB: ~0.05 J/solution (estimated — v2.3, DOI 10.5281/zenodo.21821767)</div>
-
-      </div>
-
-      <div class="comp-card">
-
-        <h4>IonQ</h4>
-
-        <div class="arch">Trapped ions · 36 algorithmic qubits · Room temp</div>
-
-        <div class="specs">
-
-          <div class="spec"><span>Error Correction</span><span class="val">Active</span></div>
-
-          <div class="spec"><span>Commercial Status</span><span class="val">Cloud access</span></div>
-
-        </div>
-
-        <div class="jpcub-badge">JPCUB: ~16.3 J/solution (estimated — v2.3)</div>
-
-      </div>
-
-      <div class="comp-card qwav-card">
-
-        <h4>⚡ QWAV</h4>
-
-        <div class="arch">p-adic ultrametric · Qudits · Room temp target</div>
-
-        <div class="specs">
-
-          <div class="spec"><span>Error Correction</span><span class="val">Intrinsic (Ostrowski theorem)</span></div>
-
-          <div class="spec"><span>Stage</span><span class="val">Pre-commercial research</span></div>
-
-        </div>
-
-        <div class="jpcub-badge">JPCUB Target: &lt;10⁻³ J/solution</div>
-
-      </div>
-
-      <div class="comp-card">
-
-        <h4>Rigetti</h4>
-
-        <div class="arch">Superconducting · 84 qubits · ~15 mK</div>
-
-        <div class="specs">
-
-          <div class="spec"><span>Error Correction</span><span class="val">Active</span></div>
-
-          <div class="spec"><span>Commercial Status</span><span class="val">Cloud access</span></div>
-
-        </div>
-
-        <div class="jpcub-badge">JPCUB: ~0.61 J/solution (estimated — v2.3)</div>
-
-      </div>
-
-      <div class="comp-card">
-
-        <h4>D-Wave</h4>
-
-        <div class="arch">Quantum annealing · 5,000+ qubits · ~15 mK</div>
-
-        <div class="specs">
-
-          <div class="spec"><span>Error Correction</span><span class="val">Native (none)</span></div>
-
-          <div class="spec"><span>Commercial Status</span><span class="val">Cloud + on-premise</span></div>
-
-        </div>
-
-        <div class="jpcub-badge">JPCUB: ~50–200 J/optimisation (estimated — v2.3, annealing paradigm)</div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-
-  <section class="section" id="research" aria-labelledby="research-heading">
-
-    <div class="section-header">
-
-      <h2 id="research-heading">Built on QNFO Research</h2>
-
-      <p>QWAV's architecture is grounded in published research from the QNFO Research Collective — all with Zenodo DOIs, independently verifiable, and citable.</p>
-
-    </div>
-
-    <div class="research-grid">
-
-      <a href="https://doi.org/10.5281/zenodo.21255013" target="_blank" rel="noopener" class="paper-link-card">
-
-        <div class="paper-title">The Physics of Computation</div>
-
-        <div class="paper-desc">Landauer, Margolus-Levitin, Bremermann limits. Proposes joules-per-solution as the falsifiable criterion for physical computational advantage.</div>
-
-        <div class="paper-doi">DOI: 10.5281/zenodo.21255013 →</div>
-
-      </a>
-
-      <a href="https://doi.org/10.5281/zenodo.21254143" target="_blank" rel="noopener" class="paper-link-card">
-
-        <div class="paper-title">The Qubit Delusion</div>
-
-        <div class="paper-desc">Analysis of $35B+ invested in quantum computing with zero commercially viable fault-tolerant machines. How particle ontology shaped the industry's direction.</div>
-
-        <div class="paper-doi">DOI: 10.5281/zenodo.21254143 →</div>
-
-      </a>
-
-      <a href="https://doi.org/10.5281/zenodo.21255346" target="_blank" rel="noopener" class="paper-link-card">
-
-        <div class="paper-title">Problem-Substrate Mapping</div>
-
-        <div class="paper-desc">Framework for honest computational investment. 40% thermodynamic, 25% photonic, only 5% fault-tolerant quantum.</div>
-
-        <div class="paper-doi">DOI: 10.5281/zenodo.21255346 →</div>
-
-      </a>
-
-      <a href="https://doi.org/10.5281/zenodo.21637028" target="_blank" rel="noopener" class="paper-link-card">
-
-        <div class="paper-title">JPCUB P0 — The Metric</div>
-
-        <div class="paper-desc">Definition, measurement protocol, and anti-gaming provisions. Worked example: IBM Eagle at 0.89 J/solution.</div>
-
-        <div class="paper-doi">DOI: 10.5281/zenodo.21637028 →</div>
-
-      </a>
-
-    </div>
-
-  </section>
-
-
-
-  <section class="cta-section" aria-labelledby="cta-heading">
-
-    <h2 id="cta-heading">Ready to benchmark with thermodynamic honesty?</h2>
-
-    <p>The JPCUB protocol is published and open. Measure any platform — including QWAV — and compare transparently.</p>
-
-    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
-
-      <a href="https://doi.org/10.5281/zenodo.21641108" class="btn btn-primary" target="_blank" rel="noopener" aria-label="Read the Strategy Whitepaper">📄 Read the Strategy Whitepaper</a>
-
-      <a href="https://papers.qnfo.org/papers" class="btn btn-outline" aria-label="Browse Research Papers">📚 Browse Research Papers</a>
-
-    </div>
-
-  </section>
-
-</main>
-
-
-
-<footer class="site-footer" role="contentinfo">
-
-  <div class="footer-grid">
-
-    <div class="footer-col">
-
-      <h5>QWAV Platform</h5>
-
-      <a href="#jpcub">JPCUB Benchmark</a>
-
-      <a href="#platform">Platform Architecture</a>
-
-      <a href="#competitive">Competitive Analysis</a>
-
-      <a href="#research">Research Foundation</a>
-
-    </div>
-
-    <div class="footer-col">
-
-      <h5>QNFO Research</h5>
-
-      <a href="https://qnfo.org">QNFO Hub</a>
-
-      <a href="https://papers.qnfo.org/papers">All Papers</a>
-
-      <a href="https://archive.qnfo.org">Research Archive</a>
-
-      <a href="https://papers.qnfo.org/rss.xml">RSS Feed</a>
-
-    </div>
-
-    <div class="footer-col">
-
-      <h5>Legal</h5>
-
-      <a href="https://legal.qnfo.org">License (QNFO-ULA v2.0)</a>
-
-      <a href="https://legal.qnfo.org/privacy">Privacy Policy</a>
-
-    </div>
-
-    <div class="footer-col">
-
-      <h5>Documentation</h5>
-
-      <a href="https://doi.org/10.5281/zenodo.21641108" target="_blank" rel="noopener">Strategy Whitepaper (Zenodo)</a>
-
-      <a href="https://doi.org/10.5281/zenodo.21637028" target="_blank" rel="noopener">JPCUB P0 Protocol (Zenodo)</a>
-
-      <a href="https://papers.qnfo.org/sitemap.xml">Sitemap</a>
-
-    </div>
-
-  </div>
-
-  <p style="color:var(--muted);font-size:.78rem;margin:1rem 0 .25rem">QNFO Research Programs (WBS): <a href="https://qnfo.org">UMP</a> Ultrametric Physics &middot; <a href="https://qnfo.org">SLB</a> Laws of Form &middot; <a href="https://qnfo.org">INM</a> Infomatics &middot; <a href="https://qnfo.org">CFE</a> CFPE &middot; <a href="https://qnfo.org">RES</a> Consilience &middot; <a href="https://qnfo.org">PLT</a> QWAV Platform &middot; <a href="https://qnfo.org">DEM</a> Demos</p>
-<div class="footer-bottom">
-
-    <p>QWAV is a pre-commercial computing platform built on the research of the <a href="https://qnfo.org">QNFO Research Foundation</a>. All research content is licensed under <a href="https://legal.qnfo.org">QNFO-ULA v2.0</a> (CC BY-NC-SA 4.0 + Supplemental Terms). Commercial platform licensing is separate. The JPCUB benchmark protocol is published for independent verification.</p>
-
-    <p style="margin-top:.5rem">Strategy Architecture: <a href="https://doi.org/10.5281/zenodo.21641108" target="_blank" rel="noopener">DOI: 10.5281/zenodo.21641108</a> · © 2025–2026 QWAV Platform</p>
-
-  </div>
-
-</footer>
-
-
-
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>QWAV — Ultrametric Computing Platform | Joules-per-Solution (JPCUB) | p-adic Architecture</title>
+
+<meta name="description" content="QWAV is a pre-commercial computing platform exploring p-adic ultrametric architectures. Benchmarked with Joules-per-Solution (JPCUB) — an open, falsifiable metric for computational efficiency. Built on QNFO research.">
+<meta name="keywords" content="QWAV, QNFO, p-adic, ultrametric computing, JPCUB, joules-per-solution, thermodynamic efficiency, Ostrowski theorem, Bruhat-Tits tree, adelic QEC, pre-commercial computing, Cloudflare Workers, non-Archimedean physics, ultrametric physics, place-democracy, adelic physics, quantum error correction, thermodynamics of computation, quantum foundations, consilience, paradigm engineering">
+
+<meta property="og:title" content="QWAV — Thermodynamically Optimised Computing">
+
+<meta property="og:description" content="Measured in joules-per-solution, not qubit counts. p-adic ultrametric architecture with intrinsic error correction derived from Ostrowski's theorem.">
+
+<meta property="og:type" content="website">
+
+<meta property="og:url" content="https://qwav.org">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="canonical" href="https://qwav.org">
+<link rel="alternate" hreflang="en" href="https://qwav.org/">
+<link rel="alternate" hreflang="x-default" href="https://qwav.org/">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'&gt;&lt;rect width='32' height='32' rx='6' fill='%231a56db'/&gt;&lt;text x='16' y='23' text-anchor='middle' font-size='20' fill='white' font-family='system-ui'&gt;⚡&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+
+  --blue: #1a56db;
+
+  --blue-dark: #1040a8;
+
+  --blue-light: #dbeafe;
+
+  --blue-subtle: #eff6ff;
+
+  --blue-mid: #6094e8;
+
+  --text: #1a1a2e;
+
+  --muted: #6b7280;
+
+  --bg: #fff;
+
+  --surface: #f9fafb;
+
+  --border: #e5e7eb;
+
+  --radius: 8px;
+
+  --radius-lg: 12px;
+
+  --max-w: 1080px;
+
+  --shadow: 0 4px 24px rgba(0,0,0,.08);
+
+  --serif: 'Source Serif 4', Georgia, serif;
+
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+}
+
+
+
+*,*::before,*::after{box-sizing:border-box}
+
+
+
+body {
+
+  font-family: var(--sans);
+
+  margin: 0;
+
+  padding: 0;
+
+  color: var(--text);
+
+  background: var(--bg);
+
+  line-height: 1.65;
+
+  -webkit-font-smoothing: antialiased;
+
+}
+
+
+
+/* Skip navigation for accessibility */
+
+.skip-link{position:absolute;top:-100px;left:1rem;background:var(--blue);color:#fff;padding:.5rem 1rem;border-radius:0 0 6px 6px;z-index:200;font-size:.9rem;text-decoration:none;transition:top .2s}
+
+.skip-link:focus{top:0}
+
+
+
+/* Navigation */
+
+.nav {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 1.25rem;
+
+  padding: .85rem 1.5rem;
+
+  background: rgba(255,255,255,.92);
+
+  backdrop-filter: blur(12px);
+
+  -webkit-backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid var(--border);
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 100;
+
+}
+
+.nav-brand {
+
+  font-family: var(--sans);
+
+  font-weight: 800;
+
+  font-size: 1.05rem;
+
+  color: var(--text);
+
+  text-decoration: none;
+
+  margin-right: auto;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: .4rem;
+
+}
+
+.nav-brand .qwav-mark {
+
+  background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+
+  color: #fff;
+
+  padding: .15rem .55rem;
+
+  border-radius: 4px;
+
+  font-size: .75rem;
+
+  font-weight: 700;
+
+}
+
+.nav-links {
+
+  display: flex;
+
+  gap: .25rem;
+
+  align-items: center;
+
+}
+
+.nav-links a {
+
+  color: var(--muted);
+
+  text-decoration: none;
+
+  font-weight: 500;
+
+  font-size: .85rem;
+
+  padding: .35rem .7rem;
+
+  border-radius: 6px;
+
+  transition: all .15s;
+
+}
+
+.nav-links a:hover {
+
+  color: var(--blue);
+
+  background: var(--blue-subtle);
+
+}
+
+
+
+/* Hero — light gradient, not dark */
+
+.hero {
+
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8f0fe 30%, #f5f3ff 70%, #eff6ff 100%);
+
+  padding: 4.5rem 1.5rem 4rem;
+
+  text-align: center;
+
+}
+
+.hero-inner {
+
+  max-width: 800px;
+
+  margin: 0 auto;
+
+}
+
+.hero .overline {
+
+  text-transform: uppercase;
+
+  letter-spacing: .15em;
+
+  font-size: .72rem;
+
+  font-weight: 700;
+
+  color: var(--blue-mid);
+
+  margin-bottom: 1.25rem;
+
+  font-family: var(--sans);
+
+}
+
+.hero h1 {
+
+  font-family: var(--sans);
+
+  font-size: clamp(2rem, 4.5vw, 3rem);
+
+  font-weight: 800;
+
+  margin: 0 0 1.25rem;
+
+  letter-spacing: -.025em;
+
+  line-height: 1.15;
+
+  color: var(--text);
+
+}
+
+.hero h1 .jpcub {
+
+  color: var(--blue);
+
+}
+
+.hero p {
+
+  font-family: var(--serif);
+
+  font-size: 1.1rem;
+
+  color: #4b5563;
+
+  max-width: 620px;
+
+  margin: 0 auto 2rem;
+
+  line-height: 1.7;
+
+}
+
+.hero-cta {
+
+  display: flex;
+
+  gap: 1rem;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+}
+
+
+
+/* Buttons */
+
+.btn {
+
+  padding: .75rem 1.75rem;
+
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  font-size: .95rem;
+
+  text-decoration: none;
+
+  transition: all .2s;
+
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: .5rem;
+
+  font-family: var(--sans);
+
+}
+
+.btn-primary {
+
+  background: var(--blue);
+
+  color: #fff;
+
+  box-shadow: 0 2px 12px rgba(26,86,219,.35);
+
+}
+
+.btn-primary:hover {
+
+  background: #1d4ed8;
+
+  transform: translateY(-1px);
+
+}
+
+.btn-outline {
+
+  background: transparent;
+
+  color: var(--blue-dark);
+
+  border: 2px solid var(--blue-mid);
+
+}
+
+.btn-outline:hover {
+
+  background: var(--blue-subtle);
+
+  border-color: var(--blue);
+
+}
+
+.btn-research {
+
+  background: transparent;
+
+  color: var(--muted);
+
+  border: 1px solid var(--border);
+
+}
+
+.btn-research:hover {
+
+  color: var(--blue);
+
+  border-color: var(--blue);
+
+  background: var(--blue-subtle);
+
+}
+
+
+
+/* Sections */
+
+.section {
+
+  max-width: var(--max-w);
+
+  margin: 0 auto;
+
+  padding: 4rem 1.5rem;
+
+}
+
+.section-header {
+
+  text-align: center;
+
+  margin-bottom: 3rem;
+
+}
+
+.section-header h2 {
+
+  font-family: var(--sans);
+
+  font-size: 1.65rem;
+
+  font-weight: 700;
+
+  margin: 0 0 .5rem;
+
+  color: var(--text);
+
+}
+
+.section-header p {
+
+  font-family: var(--serif);
+
+  color: var(--muted);
+
+  max-width: 560px;
+
+  margin: 0 auto;
+
+  font-size: .95rem;
+
+}
+
+
+
+/* Metric spotlight */
+
+.metric-spotlight {
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 2rem;
+
+  align-items: center;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius-lg);
+
+  padding: 2.5rem;
+
+  margin-bottom: 3rem;
+
+}
+
+.metric-spotlight .big-number {
+
+  font-family: var(--sans);
+
+  font-size: 3.5rem;
+
+  font-weight: 800;
+
+  color: var(--blue);
+
+  line-height: 1;
+
+  margin-bottom: .5rem;
+
+}
+
+.metric-spotlight .big-label {
+
+  font-family: var(--sans);
+
+  font-size: 1.1rem;
+
+  color: var(--text);
+
+  font-weight: 600;
+
+  margin-bottom: .25rem;
+
+}
+
+.metric-spotlight .big-sub {
+
+  font-size: .85rem;
+
+  color: var(--muted);
+
+}
+
+.metric-spotlight .comparison {
+
+  font-size: .9rem;
+
+  color: var(--muted);
+
+  line-height: 1.6;
+
+}
+
+
+
+/* Separation table (QNFO vs QWAV) */
+
+.separation-table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  font-size: .9rem;
+
+}
+
+.separation-table th {
+
+  text-align: left;
+
+  padding: .75rem 1rem;
+
+  background: var(--surface);
+
+  border-bottom: 1px solid var(--border);
+
+  font-family: var(--sans);
+
+  font-size: .78rem;
+
+  text-transform: uppercase;
+
+  letter-spacing: .06em;
+
+  color: var(--muted);
+
+}
+
+.separation-table td {
+
+  padding: .75rem 1rem;
+
+  border-bottom: 1px solid var(--border);
+
+}
+
+.separation-table tr:last-child td {
+
+  border-bottom: none;
+
+}
+
+.separation-table .qwav {
+
+  background: var(--blue-subtle);
+
+  font-weight: 600;
+
+}
+
+
+
+/* Platform stack */
+
+.platform-stack {
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius-lg);
+
+  overflow: hidden;
+
+  font-family: 'JetBrains Mono', Consolas, monospace;
+
+  font-size: .82rem;
+
+}
+
+.stack-layer {
+
+  padding: .85rem 1.25rem;
+
+  border-bottom: 1px solid var(--border);
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 1rem;
+
+}
+
+.stack-layer:last-child {
+
+  border-bottom: none;
+
+}
+
+.stack-label {
+
+  font-weight: 700;
+
+  color: var(--blue);
+
+  min-width: 140px;
+
+  font-size: .75rem;
+
+  text-transform: uppercase;
+
+  letter-spacing: .05em;
+
+}
+
+.stack-content {
+
+  color: var(--text);
+
+  line-height: 1.5;
+
+}
+
+.stack-layer:nth-child(1) { background: #f0f4ff; }
+
+.stack-layer:nth-child(2) { background: #f5f7ff; }
+
+.stack-layer:nth-child(3) { background: #fafbff; }
+
+.stack-layer:nth-child(4) { background: #fdfdff; }
+
+
+
+/* Competitive grid */
+
+.competitive-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 1.25rem;
+
+}
+
+.comp-card {
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius-lg);
+
+  padding: 1.5rem;
+
+  transition: all .2s;
+
+}
+
+.comp-card:hover {
+
+  border-color: var(--blue);
+
+  box-shadow: var(--shadow);
+
+}
+
+.comp-card.qwav-card {
+
+  border-color: var(--blue);
+
+  border-width: 2px;
+
+  background: linear-gradient(135deg, var(--blue-subtle), #fff);
+
+}
+
+.comp-card h4 {
+
+  font-family: var(--sans);
+
+  font-size: 1rem;
+
+  margin: 0 0 .25rem;
+
+  font-weight: 700;
+
+}
+
+.comp-card .arch {
+
+  font-size: .8rem;
+
+  color: var(--muted);
+
+  margin-bottom: .75rem;
+
+}
+
+.comp-card .specs {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: .3rem;
+
+  font-size: .82rem;
+
+}
+
+.comp-card .specs .spec {
+
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+.comp-card .specs .spec .val {
+
+  font-weight: 600;
+
+}
+
+.comp-card .jpcub-badge {
+
+  display: inline-block;
+
+  margin-top: .75rem;
+
+  padding: .2rem .6rem;
+
+  border-radius: 999px;
+
+  font-size: .72rem;
+
+  font-weight: 700;
+
+  background: var(--blue-subtle);
+
+  color: var(--blue);
+
+}
+
+
+
+/* Research paper cards */
+
+.research-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+  gap: 1rem;
+
+  max-width: var(--max-w);
+
+  margin: 0 auto;
+
+}
+
+.paper-link-card {
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius);
+
+  padding: 1.25rem;
+
+  text-decoration: none;
+
+  color: var(--text);
+
+  transition: all .2s;
+
+  display: block;
+
+}
+
+.paper-link-card:hover {
+
+  border-color: var(--blue);
+
+  box-shadow: var(--shadow);
+
+}
+
+.paper-link-card .paper-title {
+
+  font-family: var(--sans);
+
+  font-weight: 700;
+
+  font-size: .9rem;
+
+  margin-bottom: .35rem;
+
+  color: var(--blue);
+
+}
+
+.paper-link-card .paper-desc {
+
+  font-size: .8rem;
+
+  color: var(--muted);
+
+  line-height: 1.45;
+
+}
+
+.paper-link-card .paper-doi {
+
+  font-family: var(--sans);
+
+  font-size: .75rem;
+
+  color: var(--blue);
+
+  margin-top: .5rem;
+
+  font-weight: 500;
+
+}
+
+
+
+/* CTA section */
+
+.cta-section {
+
+  text-align: center;
+
+  padding: 4rem 1.5rem;
+
+  background: linear-gradient(135deg, var(--blue-subtle), var(--blue-light));
+
+}
+
+.cta-section h2 {
+
+  font-family: var(--sans);
+
+  font-size: 1.5rem;
+
+  font-weight: 700;
+
+  margin: 0 0 .75rem;
+
+}
+
+.cta-section p {
+
+  font-family: var(--serif);
+
+  color: var(--muted);
+
+  max-width: 500px;
+
+  margin: 0 auto 1.5rem;
+
+}
+
+
+
+/* Footer */
+
+.site-footer {
+
+  background: var(--surface);
+
+  border-top: 1px solid var(--border);
+
+  padding: 3rem 1.5rem 2rem;
+
+}
+
+.footer-grid {
+
+  max-width: var(--max-w);
+
+  margin: 0 auto 2rem;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+
+  gap: 2rem;
+
+}
+
+.footer-col h5 {
+
+  font-family: var(--sans);
+
+  font-size: .78rem;
+
+  font-weight: 700;
+
+  color: var(--text);
+
+  margin: 0 0 .5rem;
+
+  text-transform: uppercase;
+
+  letter-spacing: .06em;
+
+}
+
+.footer-col a {
+
+  display: block;
+
+  color: var(--muted);
+
+  text-decoration: none;
+
+  padding: .2rem 0;
+
+  font-size: .8rem;
+
+  transition: color .15s;
+
+}
+
+.footer-col a:hover {
+
+  color: var(--blue);
+
+}
+
+.footer-bottom {
+
+  text-align: center;
+
+  font-size: .8rem;
+
+  color: var(--muted);
+
+  max-width: 700px;
+
+  margin: 0 auto;
+
+}
+
+.footer-bottom a {
+
+  color: var(--blue);
+
+  text-decoration: none;
+
+  font-weight: 500;
+
+}
+
+
+
+/* Integrity disclaimer */
+
+.integrity-note {
+
+  background: #fffbeb;
+
+  border: 1px solid #fcd34d;
+
+  border-radius: var(--radius);
+
+  padding: .75rem 1rem;
+
+  margin: 1.5rem 0;
+
+  font-size: .8rem;
+
+  color: #92400e;
+
+  line-height: 1.5;
+
+}
+
+.integrity-note strong {
+
+  color: #78350f;
+
+}
+
+
+
+/* Distinction section note */
+
+.distinction-note {
+
+  background: var(--blue-subtle);
+
+  border-left: 3px solid var(--blue-mid);
+
+  padding: .75rem 1rem;
+
+  margin-top: 1rem;
+
+  font-size: .82rem;
+
+  color: var(--text);
+
+  border-radius: 0 var(--radius) var(--radius) 0;
+
+  line-height: 1.5;
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:768px) {
+
+  .nav-links { display: none; }
+
+  .hero { padding: 3rem 1.25rem 2.5rem; }
+
+  .hero h1 { font-size: 1.7rem; }
+
+  .metric-spotlight { grid-template-columns: 1fr; gap: 1.5rem; }
+
+  .competitive-grid { grid-template-columns: 1fr; }
+
+  .research-grid { grid-template-columns: 1fr; }
+
+  .footer-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .separation-table { font-size: .78rem; }
+
+  .separation-table td, .separation-table th { padding: .5rem .6rem; }
+
+}
+
+@media(max-width:480px) {
+
+  .hero-cta { flex-direction: column; align-items: center; }
+
+  .btn { width: 100%; justify-content: center; }
+
+  .footer-grid { grid-template-columns: 1fr; }
+
+}
+
+</style>
+
+<!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LV7RHRVW6R"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-LV7RHRVW6R');
+
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://qwav.org/#org",
+      "name": "QWAV",
+      "alternateName": ["QWAV Platform", "QNFO"],
+      "url": "https://qwav.org/",
+      "description": "Pre-commercial computing platform built on QNFO research, exploring p-adic ultrametric architectures benchmarked with Joules-per-Solution (JPCUB).",
+      "sameAs": [
+        "https://qnfo.org",
+        "https://papers.qnfo.org/papers",
+        "https://github.com/QNFO",
+        "https://zenodo.org/search?q=QNFO"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://qwav.org/#product",
+      "name": "QWAV Computing Platform",
+      "description": "Pre-commercial computing platform using p-adic ultrametric architectures with intrinsic error protection derived from Ostrowski's theorem. Benchmarked with the open JPCUB (Joules-per-Solution) protocol.",
+      "brand": {"@id": "https://qwav.org/#org"},
+      "url": "https://qwav.org/",
+      "additionalProperty": [
+        {"@type": "PropertyValue", "name": "JPCUB design target", "value": "<10^-3 joules per solution"},
+        {"@type": "PropertyValue", "name": "Error correction", "value": "Intrinsic (Ostrowski theorem)"},
+        {"@type": "PropertyValue", "name": "Operating temperature", "value": "Room-temperature design target"}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://qwav.org/#website",
+      "url": "https://qwav.org/",
+      "name": "QWAV — Ultrametric Computing Platform",
+      "publisher": {"@id": "https://qwav.org/#org"},
+      "about": "p-adic ultrametric computing, JPCUB joules-per-solution benchmark, thermodynamic efficiency"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://qwav.org/#breadcrumbs",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://qwav.org/"},
+        {"@type": "ListItem", "position": 2, "name": "JPCUB Benchmark", "item": "https://qwav.org/#jpcub"},
+        {"@type": "ListItem", "position": 3, "name": "Platform Architecture", "item": "https://qwav.org/#platform"}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+
+
+<nav class="nav" role="navigation" aria-label="Main navigation">
+
+  <a class="nav-brand" href="/" aria-label="QWAV Platform home">⚡ QWAV<span class="qwav-mark">Platform</span></a>
+
+  <div class="nav-links">
+
+    <a href="#platform">Platform</a>
+
+    <a href="#jpcub">JPCUB</a>
+
+    <a href="#competitive">Competitive</a>
+
+    <a href="#research">Research</a>
+
+    <a href="https://qnfo.org">QNFO</a>
+
+    <a href="https://papers.qnfo.org/papers">Papers</a>
+
+  </div>
+
+</nav>
+
+
+
+<main id="main-content">
+
+  <header class="hero" role="banner">
+
+    <div class="hero-inner">
+
+      <div class="overline">Pre-Commercial Computing Platform</div>
+
+      <h1>Benchmarked in<br><span class="jpcub">joules-per-solution</span>,<br>not qubit counts</h1>
+
+      <p>QWAV is a pre-commercial computing platform exploring p-adic ultrametric architectures as an alternative to the qubit-gate-circuit model. The approach draws on Ostrowski's theorem for intrinsic error protection and targets room-temperature operation. All performance claims are benchmarked transparently with JPCUB — an open, falsifiable metric for computational thermodynamic efficiency.</p>
+
+      <div class="hero-cta">
+
+        <a href="#jpcub" class="btn btn-primary" aria-label="JPCUB Benchmark">⚡ JPCUB Benchmark</a>
+
+        <a href="https://doi.org/10.5281/zenodo.21641108" class="btn btn-outline" target="_blank" rel="noopener" aria-label="Strategy Whitepaper">📄 Strategy Whitepaper</a>
+
+        <a href="https://papers.qnfo.org/rss.xml" class="btn btn-research" target="_blank" rel="noopener" aria-label="Research RSS">📡 Research RSS</a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+  <div class="section" id="platform">
+
+    <div class="section-header">
+
+      <h2>The QNFO → QWAV Distinction</h2>
+
+      <p>QNFO is a research collective that publishes critical analyses of the quantum computing industry. QWAV is a platform built from that physics — still pre-commercial, with all claims documented and independently falsifiable.</p>
+
+    </div>
+
+    <table class="separation-table" role="table">
+
+      <thead>
+
+        <tr><th scope="col">Axis</th><th scope="col">QNFO</th><th scope="col">QWAV</th></tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr><td><strong>What it is</strong></td><td>Open-science research collective</td><td class="qwav">Pre-commercial computing platform</td></tr>
+
+        <tr><td><strong>Mission</strong></td><td>Publish, critique, forecast, govern</td><td class="qwav">Build, benchmark, commercialise, deploy</td></tr>
+
+        <tr><td><strong>Core metric</strong></td><td>Citation impact, paradigm influence</td><td class="qwav">Joules-per-Solution (thermodynamic efficiency)</td></tr>
+
+        <tr><td><strong>Audience</strong></td><td>Physics, mathematics, and CS researchers</td><td class="qwav">Enterprise CTOs, HPC architects, investors</td></tr>
+
+        <tr><td><strong>Posture</strong></td><td>Critical analysis of existing quantum computing approaches</td><td class="qwav">Evidence-based platform development with open benchmarks</td></tr>
+
+        <tr><td><strong>Licensing</strong></td><td>QNFO-ULA / CC-BY-4.0 / AGPL</td><td class="qwav">Commercial license (to be determined)</td></tr>
+
+      </tbody>
+
+    </table>
+
+    <div class="distinction-note">
+
+      <strong>Research Integrity Note:</strong> QWAV's architecture claims are published with Zenodo DOIs for independent verification. The platform is pre-commercial — no deployed production system yet exists. The JPCUB benchmark protocol is published and open; any party may measure any platform, including QWAV, using the same procedure. All competitive comparisons below are based on publicly reported data where available, with JPCUB values computed from published protocols.
+
+    </div>
+
+  </div>
+
+
+
+  <section class="section" id="jpcub" aria-labelledby="jpcub-heading">
+
+    <div class="section-header">
+
+      <h2 id="jpcub-heading">Joules-per-Solution — The Falsifiable Benchmark</h2>
+
+      <p>JPCUB measures thermodynamic efficiency: total energy consumed per correct answer. Not qubit counts. Not "quantum advantage" claims. Actual joules per actual solution — a measurement protocol anyone can replicate.</p>
+
+    </div>
+
+    <div class="metric-spotlight">
+
+      <div>
+
+        <div style="font-family:var(--sans);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:.5rem">JPCUB P0 — Published Protocol</div>
+
+        <div class="big-number">&lt;10⁻³</div>
+
+        <div class="big-label">Joules per Solution</div>
+
+        <div class="big-sub" style="margin-bottom:1rem">QWAV design target — orders of magnitude below measured NISQ-era quantum processors (see IBM worked example at 0.89 J/solution in JPCUB P0)</div>
+
+        <a href="https://doi.org/10.5281/zenodo.21637028" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;text-decoration:none;font-size:.85rem">Read JPCUB P0 Protocol →</a>
+
+      </div>
+
+      <div class="comparison">
+
+        <div style="font-family:var(--sans);font-weight:600;color:var(--text);margin-bottom:.5rem">How the comparison works:</div>
+
+        <p><strong>Traditional quantum processors:</strong> Gate-model architectures (superconducting, trapped-ion) require cryogenic cooling, active error correction, and report metrics (qubit count, gate fidelity) that do not directly measure computational utility.</p>
+
+        <p><strong>QWAV approach:</strong> Targets &lt;10⁻³ joules per solution through p-adic ultrametric encoding with intrinsic error protection derived from Ostrowski's theorem. Room-temperature operation is a design target.</p>
+
+        <div class="integrity-note">
+
+          <strong>🔬 Research Integrity:</strong> The JPCUB protocol is published and open. Do not trust our numbers — measure any platform yourself in joules per correct answer. The IBM Eagle worked example (0.89 J/solution for factoring) is documented in the JPCUB P0 paper with full methodology. The IBM Eagle worked example (0.89 J/solution for factoring) is documented in the JPCUB P0 paper with full methodology. Google (~0.05 J/sol), IonQ (~16.3 J/sol), Rigetti (~0.61 J/sol), and D-Wave (~50&ndash;200 J/optimisation) estimates are conservative system-level upper bounds from the JPCUB Competitive Landscape companion paper (DOI 10.5281/zenodo.21821767); only IBM carries a published P0-protocol measurement.
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="section" style="padding-top:0" aria-labelledby="arch-heading">
+
+    <div class="section-header">
+
+      <h2 id="arch-heading">Platform Architecture</h2>
+
+      <p>The QWAV computing stack — from p-adic mathematics to commercial applications. These architectural layers are published as research papers; hardware implementation remains pre-commercial.</p>
+
+    </div>
+
+    <div class="platform-stack">
+
+      <div class="stack-layer">
+
+        <div class="stack-label">Application</div>
+
+        <div class="stack-content">QWAV SDK (Python) · QWAV Cloud API (REST) · JPCUB Benchmark Dashboard</div>
+
+      </div>
+
+      <div class="stack-layer">
+
+        <div class="stack-label">Compilation</div>
+
+        <div class="stack-content">Fontaine-Stack Compiler — Problem → p-adic encoding → Bruhat-Tits building → ZBW observable → Readout</div>
+
+      </div>
+
+      <div class="stack-layer">
+
+        <div class="stack-label">Runtime</div>
+
+        <div class="stack-content">Adelic QEC (Ostrowski intrinsic protection) · ZBW Engine · Bruhat-Tits Readout Protocol</div>
+
+      </div>
+
+      <div class="stack-layer">
+
+        <div class="stack-label">Physical</div>
+
+        <div class="stack-content">Trapped-Ion Dirac Simulator · Room-Temperature Adelic Nuclear-Spin Qubit v2.0 · 343-qubit Tree Topology</div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="section" id="competitive" aria-labelledby="competitive-heading">
+
+    <div class="section-header">
+
+      <h2 id="competitive-heading">Competitive Landscape</h2>
+
+      <p>QWAV does not compete on qubit counts — these are metrics of a paradigm QNFO research has analysed critically. QWAV compares on thermodynamic efficiency and architectural clarity, using the open JPCUB protocol. Where JPCUB numbers are shown, they are computed from published data.</p>
+
+    </div>
+
+    <div class="competitive-grid">
+
+      <div class="comp-card">
+
+        <h4>IBM</h4>
+
+        <div class="arch">Superconducting transmon · 1,121 qubits · ~15 mK</div>
+
+        <div class="specs">
+
+          <div class="spec"><span>Error Correction</span><span class="val">Active (surface code)</span></div>
+
+          <div class="spec"><span>Commercial Status</span><span class="val">Cloud ($1.60/sec)</span></div>
+
+        </div>
+
+        <div class="jpcub-badge">JPCUB P0: 0.89 J/solution (published)</div>
+
+      </div>
+
+      <div class="comp-card">
+
+        <h4>Google</h4>
+
+        <div class="arch">Superconducting · 105 qubits · ~15 mK</div>
+
+        <div class="specs">
+
+          <div class="spec"><span>Error Correction</span><span class="val">Active (surface code)</span></div>
+
+          <div class="spec"><span>Notable</span><span class="val">"Supremacy" claim (2019) [debated]</span></div>
+
+        </div>
+
+        <div class="jpcub-badge">JPCUB: ~0.05 J/solution (estimated — v2.3, DOI 10.5281/zenodo.21821767)</div>
+
+      </div>
+
+      <div class="comp-card">
+
+        <h4>IonQ</h4>
+
+        <div class="arch">Trapped ions · 36 algorithmic qubits · Room temp</div>
+
+        <div class="specs">
+
+          <div class="spec"><span>Error Correction</span><span class="val">Active</span></div>
+
+          <div class="spec"><span>Commercial Status</span><span class="val">Cloud access</span></div>
+
+        </div>
+
+        <div class="jpcub-badge">JPCUB: ~16.3 J/solution (estimated — v2.3)</div>
+
+      </div>
+
+      <div class="comp-card qwav-card">
+
+        <h4>⚡ QWAV</h4>
+
+        <div class="arch">p-adic ultrametric · Qudits · Room temp target</div>
+
+        <div class="specs">
+
+          <div class="spec"><span>Error Correction</span><span class="val">Intrinsic (Ostrowski theorem)</span></div>
+
+          <div class="spec"><span>Stage</span><span class="val">Pre-commercial research</span></div>
+
+        </div>
+
+        <div class="jpcub-badge">JPCUB Target: &lt;10⁻³ J/solution</div>
+
+      </div>
+
+      <div class="comp-card">
+
+        <h4>Rigetti</h4>
+
+        <div class="arch">Superconducting · 84 qubits · ~15 mK</div>
+
+        <div class="specs">
+
+          <div class="spec"><span>Error Correction</span><span class="val">Active</span></div>
+
+          <div class="spec"><span>Commercial Status</span><span class="val">Cloud access</span></div>
+
+        </div>
+
+        <div class="jpcub-badge">JPCUB: ~0.61 J/solution (estimated — v2.3)</div>
+
+      </div>
+
+      <div class="comp-card">
+
+        <h4>D-Wave</h4>
+
+        <div class="arch">Quantum annealing · 5,000+ qubits · ~15 mK</div>
+
+        <div class="specs">
+
+          <div class="spec"><span>Error Correction</span><span class="val">Native (none)</span></div>
+
+          <div class="spec"><span>Commercial Status</span><span class="val">Cloud + on-premise</span></div>
+
+        </div>
+
+        <div class="jpcub-badge">JPCUB: ~50–200 J/optimisation (estimated — v2.3, annealing paradigm)</div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="section" id="research" aria-labelledby="research-heading">
+
+    <div class="section-header">
+
+      <h2 id="research-heading">Built on QNFO Research</h2>
+
+      <p>QWAV's architecture is grounded in published research from the QNFO Research Collective — all with Zenodo DOIs, independently verifiable, and citable.</p>
+
+    </div>
+
+    <div class="research-grid">
+
+      <a href="https://doi.org/10.5281/zenodo.21255013" target="_blank" rel="noopener" class="paper-link-card">
+
+        <div class="paper-title">The Physics of Computation</div>
+
+        <div class="paper-desc">Landauer, Margolus-Levitin, Bremermann limits. Proposes joules-per-solution as the falsifiable criterion for physical computational advantage.</div>
+
+        <div class="paper-doi">DOI: 10.5281/zenodo.21255013 →</div>
+
+      </a>
+
+      <a href="https://doi.org/10.5281/zenodo.21254143" target="_blank" rel="noopener" class="paper-link-card">
+
+        <div class="paper-title">The Qubit Delusion</div>
+
+        <div class="paper-desc">Analysis of $35B+ invested in quantum computing with zero commercially viable fault-tolerant machines. How particle ontology shaped the industry's direction.</div>
+
+        <div class="paper-doi">DOI: 10.5281/zenodo.21254143 →</div>
+
+      </a>
+
+      <a href="https://doi.org/10.5281/zenodo.21255346" target="_blank" rel="noopener" class="paper-link-card">
+
+        <div class="paper-title">Problem-Substrate Mapping</div>
+
+        <div class="paper-desc">Framework for honest computational investment. 40% thermodynamic, 25% photonic, only 5% fault-tolerant quantum.</div>
+
+        <div class="paper-doi">DOI: 10.5281/zenodo.21255346 →</div>
+
+      </a>
+
+      <a href="https://doi.org/10.5281/zenodo.21637028" target="_blank" rel="noopener" class="paper-link-card">
+
+        <div class="paper-title">JPCUB P0 — The Metric</div>
+
+        <div class="paper-desc">Definition, measurement protocol, and anti-gaming provisions. Worked example: IBM Eagle at 0.89 J/solution.</div>
+
+        <div class="paper-doi">DOI: 10.5281/zenodo.21637028 →</div>
+
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+  <section class="cta-section" aria-labelledby="cta-heading">
+
+    <h2 id="cta-heading">Ready to benchmark with thermodynamic honesty?</h2>
+
+    <p>The JPCUB protocol is published and open. Measure any platform — including QWAV — and compare transparently.</p>
+
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+
+      <a href="https://doi.org/10.5281/zenodo.21641108" class="btn btn-primary" target="_blank" rel="noopener" aria-label="Read the Strategy Whitepaper">📄 Read the Strategy Whitepaper</a>
+
+      <a href="https://papers.qnfo.org/papers" class="btn btn-outline" aria-label="Browse Research Papers">📚 Browse Research Papers</a>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+
+<footer class="site-footer" role="contentinfo">
+
+  <div class="footer-grid">
+
+    <div class="footer-col">
+
+      <h5>QWAV Platform</h5>
+
+      <a href="#jpcub">JPCUB Benchmark</a>
+
+      <a href="#platform">Platform Architecture</a>
+
+      <a href="#competitive">Competitive Analysis</a>
+
+      <a href="#research">Research Foundation</a>
+
+    </div>
+
+    <div class="footer-col">
+
+      <h5>QNFO Research</h5>
+
+      <a href="https://qnfo.org">QNFO Hub</a>
+
+      <a href="https://papers.qnfo.org/papers">All Papers</a>
+
+      <a href="https://archive.qnfo.org">Research Archive</a>
+
+      <a href="https://papers.qnfo.org/rss.xml">RSS Feed</a>
+
+    </div>
+
+    <div class="footer-col">
+
+      <h5>Legal</h5>
+
+      <a href="https://legal.qnfo.org">License (QNFO-ULA v2.0)</a>
+
+      <a href="https://legal.qnfo.org/privacy">Privacy Policy</a>
+
+    </div>
+
+    <div class="footer-col">
+
+      <h5>Documentation</h5>
+
+      <a href="https://doi.org/10.5281/zenodo.21641108" target="_blank" rel="noopener">Strategy Whitepaper (Zenodo)</a>
+
+      <a href="https://doi.org/10.5281/zenodo.21637028" target="_blank" rel="noopener">JPCUB P0 Protocol (Zenodo)</a>
+
+      <a href="https://papers.qnfo.org/sitemap.xml">Sitemap</a>
+
+    </div>
+
+  </div>
+
+  <p style="color:var(--muted);font-size:.78rem;margin:1rem 0 .25rem">QNFO Research Programs (WBS): <a href="https://qnfo.org">UMP</a> Ultrametric Physics &middot; <a href="https://qnfo.org">SLB</a> Laws of Form &middot; <a href="https://qnfo.org">INM</a> Infomatics &middot; <a href="https://qnfo.org">CFE</a> CFPE &middot; <a href="https://qnfo.org">RES</a> Consilience &middot; <a href="https://qnfo.org">PLT</a> QWAV Platform &middot; <a href="https://qnfo.org">DEM</a> Demos</p>
+<div class="footer-bottom">
+
+    <p>QWAV is a pre-commercial computing platform built on the research of the <a href="https://qnfo.org">QNFO Research Foundation</a>. All research content is licensed under <a href="https://legal.qnfo.org">QNFO-ULA v2.0</a> (CC BY-NC-SA 4.0 + Supplemental Terms). Commercial platform licensing is separate. The JPCUB benchmark protocol is published for independent verification.</p>
+
+    <p style="margin-top:.5rem">Strategy Architecture: <a href="https://doi.org/10.5281/zenodo.21641108" target="_blank" rel="noopener">DOI: 10.5281/zenodo.21641108</a> · © 2025–2026 QWAV Platform</p>
+
+  </div>
+
+</footer>
+
+
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"5fcc088f05e74038b01e1a2a9727e987","r":1}' crossorigin="anonymous"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"5fcc088f05e74038b01e1a2a9727e987","r":1}' crossorigin="anonymous"></script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"5fcc088f05e74038b01e1a2a9727e987","r":1}' crossorigin="anonymous"></script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"5fcc088f05e74038b01e1a2a9727e987","r":1}' crossorigin="anonymous"></script>
-</body>
-
+</body>
+
 </html>
