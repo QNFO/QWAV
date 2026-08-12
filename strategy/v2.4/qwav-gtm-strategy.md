@@ -3,12 +3,12 @@ title: 'QWAV Strategy v2.4: The Energy-Standard Playbook — Consortium Governan
 author: 'Rowan Brad Quni-Gudzinas'
 date: '2026-08-12'
 license: 'QNFO Unified License Agreement (QNFO-ULA)'
-doi: 'TBD'
-status: 'draft'
+doi: '10.5281/zenodo.21905166'
+status: 'published'
 genre: 'B — Commercial/Strategy'
 ---
 
-**Author:** Rowan Brad Quni-Gudzinas | **ORCID:** 0009-0002-4317-5604 | **Date:** 2026-08-12 | **License:** QNFO-ULA | **Status:** Draft v2.4
+**Author:** Rowan Brad Quni-Gudzinas | **ORCID:** 0009-0002-4317-5604 | **Date:** 2026-08-12 | **License:** QNFO-ULA | **Status:** Published v2.4.1
 
 **Forward-Looking Statements:** This document contains forward-looking statements based on verified public evidence as of 2026-08-12 and calibrated subjective judgment. Every external claim is cited with a DOI or arXiv identifier verified live in this publication session. Market figures are labeled as estimates. Actual results may differ materially.
 
@@ -92,6 +92,28 @@ MLCommons is an open engineering consortium (founded 2018) whose MLPerf benchmar
 | Speed to standard | 10+ yrs | ~5 yrs | ~3 yrs | Target: 3–5 years |
 
 **The synthesis:** JPCUB combines SERT's energy-benchmark rigor with PUE's metric-simplicity adoption path and MLPerf's modern speed. No existing quantum benchmark does this — the quantum industry's needs assessments identify this exact gap (10.1109/te.2022.3153841).
+
+---
+
+---
+
+## 2.5 Mandatory Symmetry: What External Literature Supports and Constrains
+
+### Where External Literature Supports [The Consortium-Governed JPCUB Standard]
+
+1. **Energy benchmarks become standards through neutral consortia, not vendor products.** The SPEC SERT design paper (10.1145/1958746.1958769) documents a consortium-governed server energy benchmark adopted by an industry of competing vendors. The Green Grid PUE metric (10.1109/intlec.2011.6099718) became the de facto data-center energy standard within five years under consortium ownership. MLPerf Tiny (arXiv:2106.07597) shows the modern pattern — more than 50 organizations collaborating on a benchmark that measures accuracy, latency, AND energy.
+2. **Quantum computation has provable energy advantages worth benchmarking.** Meier and Yamasaki rigorously prove an exponential energy-consumption advantage of quantum over classical computation for Simon's problem (arXiv:2305.11212). Fellous-Asiani et al. introduce the Metric-Noise-Resource (MNR) methodology and identify quantum energy advantage in parameter regimes distinct from computational advantage (10.1103/prxquantum.4.040319).
+3. **The quantum industry itself identifies benchmarking standards as an unmet need.** QED-C's industry assessment (10.1109/te.2022.3153841) and applications review (10.1140/epjqt/s40507-021-00114-x) document that the quantum industry needs shared metrics and benchmarks.
+4. **A standard energy metric spawns an ecosystem.** The PUE family has grown (AxPUE, arXiv:1310.6502; xPUE, arXiv:2503.07124), validating the "define the metric first" strategy.
+
+### Where External Literature Constrains or Contradicts [The Consortium-Governed JPCUB Standard]
+
+1. **The proven quantum energy advantage is problem-specific, not universal.** Meier and Yamasaki prove the exponential advantage for Simon's problem — a query-complexity model — not for all computational tasks (arXiv:2305.11212). JPCUB's claim to be a general-purpose energy benchmark must be workload-conditional: a JPCUB ranking is meaningful only for the benchmark workloads defined, not as a universal platform ordering.
+2. **Quantum energy advantage is regime-dependent.** Fellous-Asiani et al. find the quantum energy advantage holds "in regimes of parameters distinct from the commonly considered quantum computational advantage" (10.1103/prxquantum.4.040319). This constrains the strategic assumption that energy advantage and computational advantage coincide; JPCUB must measure energy advantage as an independent axis, not assume it tracks speedup.
+3. **PUE's success owed partly to simplicity.** PUE is a single dimensionless ratio computed from two power measurements (10.1109/intlec.2011.6099718). JPCUB requires workload definition, correct-answer verification, and energy measurement — a higher adoption barrier than PUE. The strategy must price this complexity cost into the adoption timeline.
+4. **No constraining evidence found against consortium governance itself.** The SPEC, Green Grid, and MLCommons records show no case where a neutral consortium failed to establish an energy benchmark; the constraining evidence above concerns JPCUB's measurement semantics and adoption complexity, not the governance model.
+
+[NO FURTHER CONSTRAINING EVIDENCE FOUND]
 
 ---
 
