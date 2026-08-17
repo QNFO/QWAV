@@ -837,6 +837,132 @@ body {
 
 }
 
+.demo-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+  gap: 1rem;
+
+  max-width: var(--max-w);
+
+  margin: 0 auto;
+
+}
+
+.demo-card {
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius);
+
+  padding: 1.25rem;
+
+  text-decoration: none;
+
+  color: var(--text);
+
+  transition: all .2s;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: .4rem;
+
+}
+
+.demo-card:hover {
+
+  border-color: var(--blue);
+
+  box-shadow: var(--shadow);
+
+}
+
+.demo-card .demo-title {
+
+  font-family: var(--sans);
+
+  font-weight: 700;
+
+  font-size: .9rem;
+
+  color: var(--blue);
+
+  display: flex;
+
+  align-items: center;
+
+  gap: .5rem;
+
+}
+
+.demo-card .demo-badge {
+
+  font-size: .62rem;
+
+  padding: .12rem .45rem;
+
+  border-radius: 999px;
+
+  background: var(--blue-light);
+
+  color: var(--blue-dark);
+
+  font-weight: 700;
+
+  letter-spacing: .04em;
+
+  text-transform: uppercase;
+
+  white-space: nowrap;
+
+}
+
+.demo-card .demo-desc {
+
+  font-size: .8rem;
+
+  color: var(--muted);
+
+  line-height: 1.45;
+
+  flex: 1;
+
+}
+
+.demo-card .demo-links {
+
+  display: flex;
+
+  gap: .6rem;
+
+  flex-wrap: wrap;
+
+  font-size: .78rem;
+
+}
+
+.demo-card .demo-links a {
+
+  color: var(--blue);
+
+  font-weight: 600;
+
+  text-decoration: none;
+
+}
+
+.demo-card .demo-links a:hover {
+
+  text-decoration: underline;
+
+}
+
 
 
 /* CTA section */
@@ -1149,6 +1275,8 @@ body {
     <a href="#competitive">Competitive</a>
 
     <a href="#research">Research</a>
+
+    <a href="#demos">Demos</a>
 
     <a href="https://qnfo.org">QNFO</a>
 
@@ -1514,6 +1642,123 @@ body {
 
   </section>
 
+
+
+  <section class="section" id="demos" aria-labelledby="demos-heading">
+
+    <div class="section-header">
+
+      <h2 id="demos-heading">Interactive Demos — Live Executable Research</h2>
+
+      <p>Don't read about it. Watch it happen. Every control is wired to real computation — these demos pass automated Chrome click-through suites against their deployed URLs.</p>
+
+    </div>
+
+    <div class="demo-grid">
+
+      <a href="https://qnfo.github.io/qwav-demo-error-confinement/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">Error Confinement <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">Watch ultrametric geometry suppress errors in real time. Adjust error rates and tree depth with sliders.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/qwav-demo-error-confinement</span></div>
+
+      </a>
+
+      <a href="https://qnfo.github.io/qwav-demo-qpna-classifier/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">Q-PNA Playground <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">Explore glass-box AI decision trees. Train on sample data. See WHY each classification was made.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/qwav-demo-qpna-classifier</span></div>
+
+      </a>
+
+      <a href="https://qnfo.github.io/qwav-demo-ultrametric-convergence/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">Convergence Explorer <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">Watch particles cluster inevitably in ultrametric space — and random-walk forever in Euclidean.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/qwav-demo-ultrametric-convergence</span></div>
+
+      </a>
+
+      <a href="https://qnfo.github.io/qwav-demo-tree-distance/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">Tree Distance Sandbox <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">Compare cophenetic, ultrametric, and Euclidean distances. Discover triadic rigidity by clicking leaves.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/qwav-demo-tree-distance</span></div>
+
+      </a>
+
+      <a href="https://qnfo.github.io/qwav-demo-hardware-visualizer/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">Hardware Visualizer <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">Rotate and zoom a 40-atom neutral atom tree. See how Rydberg gates map to tree vertices.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/qwav-demo-hardware-visualizer</span></div>
+
+      </a>
+
+      <a href="https://qnfo.github.io/qwav-demo-bt-qec/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">Bruhat–Tits QEC <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">Staircase redundancy vs Archimedean codes: watch QEC error suppression grow in discrete steps on the Bruhat–Tits tree.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/qwav-demo-bt-qec</span></div>
+
+      </a>
+
+      <a href="https://qnfo.github.io/qwav-demo-monna-map-perspective/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">Monna Map Perspective <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">Explore the Monna map perspective renderer (UMP.010 C5) — see ultrametric geometry in a new light.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/qwav-demo-monna-map-perspective</span></div>
+
+      </a>
+
+      <a href="https://qnfo.github.io/ultrametric-tree-universality/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">Tree Universality Explorer <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">One geometry, six domains. Explore how the same tree structure emerges independently in QEC, spin glasses, proteins, cosmology, cognition, and language.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/ultrametric-tree-universality</span></div>
+
+      </a>
+
+      <a href="https://qnfo.github.io/ultrametric-game-of-life/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">Virtual Qubit Showdown <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">Ultrametric tree vs surface code: watch the virtual qubit comparison play out interactively.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/ultrametric-game-of-life</span></div>
+
+      </a>
+
+      <a href="https://qnfo.github.io/tree-and-shadow-viz/" target="_blank" rel="noopener" class="demo-card">
+
+        <div class="demo-title">The Tree and Its Shadow <span class="demo-badge">Live</span></div>
+
+        <div class="demo-desc">Ultrametric phase diagram visualization — see the tree structure and its shadow side by side.</div>
+
+        <div class="demo-links"><span>qnfo.github.io/tree-and-shadow-viz</span></div>
+
+      </a>
+
+    </div>
+
+  </section>
 
 
   <section class="cta-section" aria-labelledby="cta-heading">
