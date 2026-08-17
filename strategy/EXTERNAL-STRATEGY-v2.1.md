@@ -6,7 +6,7 @@
 **Status:** Published — Canonical external-facing strategy
 **Supersedes:** QWAV Venture Prospectus (DOI: [10.5281/zenodo.17761691](https://doi.org/10.5281/zenodo.17761691))
 **Concept DOI:** [10.5281/zenodo.21641107](https://doi.org/10.5281/zenodo.21641107)
-**Author:** QNFO Research Collective (Platform Strategy Division)
+**Author:** QNFO (Platform Strategy Division)
 **License:** CC-BY-4.0 / GPL-3.0
 
 ---

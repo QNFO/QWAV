@@ -8,7 +8,7 @@
 **Supersedes:** EXTERNAL-STRATEGY-v2.1 (DOI: [10.5281/zenodo.21647111](https://doi.org/10.5281/zenodo.21647111))
 **Prior Chain:** QWAV Venture Prospectus v1.0 (DOI: [10.5281/zenodo.17761691](https://doi.org/10.5281/zenodo.17761691)) → Strategic Architecture Whitepaper v2.0 (DOI: [10.5281/zenodo.21641108](https://doi.org/10.5281/zenodo.21641108)) → v2.1 (DOI: [10.5281/zenodo.21647111](https://doi.org/10.5281/zenodo.21647111)) → **v2.2 (this document)**
 **Concept DOI:** [10.5281/zenodo.21641107](https://doi.org/10.5281/zenodo.21641107)
-**Author:** QNFO Research Collective (Platform Strategy Division)
+**Author:** QNFO (Platform Strategy Division)
 **License:** CC-BY-4.0 / GPL-3.0
 
 ---
