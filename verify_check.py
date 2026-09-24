@@ -1,6 +1,6 @@
 import requests
 
-token = 'sJYUcifLTwaukCJEDAyTXRPnfNjWjE11XGLBelQAUNQ.P4u1eO-gMGG3IZiFv92fvfzKHdZ8M1H_lb_hyDxXeGo'
+token = __import__('os').environ.get('CLOUDFLARE_API_TOKEN', '')
 account_id = 'edb167b78c9fb901ea5bca3ce58ccc4b'
 headers = {'Authorization': f'Bearer {token}', 'Content-Type': 'application/json'}
 
