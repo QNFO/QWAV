@@ -3163,21 +3163,21 @@
 </footer>
 
 <script>
-function filterPapers() {{
+function filterPapers() {
   const q = document.getElementById('search').value.toLowerCase().trim();
   const cards = document.querySelectorAll('.paper-card');
   let visible = 0;
-  cards.forEach(card => {{
+  cards.forEach(card => {
     const text = card.textContent.toLowerCase();
     const match = !q || text.includes(q);
     card.style.display = match ? '' : 'none';
     if (match) visible++;
-  }});
+  });
   document.getElementById('no-results').style.display = visible ? 'none' : 'block';
   document.getElementById('search').placeholder = visible
     ? 'Search 497 papers by title, topic, or keyword...'
     : 'No matches â€” try different keywords';
-}}
+}
 </script>
 </body>
 </html>
