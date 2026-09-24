@@ -2877,9 +2877,9 @@ Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----                                                                 
 -a----         5/27/2026   2:53 PM            750 default.toml                                                         
 ---
-oauth_token = "tbVzQ0WiJOnKs_JSVm_t7jOuIdfsXOCwdUMNqtIpMqo.m4D0WIa6H4LfIcqfRw_6o1LaRJWVGSAQpRDAYW0iU_M"
+oauth_token = "[REDACTED-OAUTH-TOKEN]"
 expiration_time = "2026-05-27T13:53:04.642Z"
-refresh_token = "nSkG3O4Goa_8mspFBvbD4xvqs7r4X9cAZIk4b3EeVk0.wjiBk9NbaoqT7FPD9BZYiciLZSz4CkYPpIVOA8plnDk"
+refresh_token = "[REDACTED-REFRESH-TOKEN]"
 scopes = [ "account:read", "user:read", "workers:write", "workers_kv:write", "workers_routes:write", "workers_scripts:write", "workers_tail:read", "d1:write", "pages:write", "zone:read", "ssl_certs:write", "ai:write", "ai-search:write", "ai-search:run", "queues:write", "pipelines:write", "secrets_store:write", "artifacts:write", "flagship:write", "containers:write", "cloudchamber:write", "connectivity:admin", "email_routing:write", "email_sending:write", "browser:write", "offline_access" ]
 Exit Code: 0
 ```
