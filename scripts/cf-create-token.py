@@ -1,6 +1,6 @@
 import urllib.request, json, os
 
-oauth_token = "65agVR_zNs2NIvxLFchCWomDahbVANGGC93Zh8iuEEs.zF74zQnKHBAF4TUbqfjVFWmI6dWhvmeTC-TS_oUxpMU"
+oauth_token = os.environ.get("CLOUDFLARE_OAUTH_TOKEN", "")
 ACCOUNT_ID = "edb167b78c9fb901ea5bca3ce58ccc4b"
 
 def api(method, path, body=None):
