@@ -1,6 +1,6 @@
 import requests, json
 
-token = 'sJYUcifLTwaukCJEDAyTXRPnfNjWjE11XGLBelQAUNQ.P4u1eO-gMGG3IZiFv92fvfzKHdZ8M1H_lb_hyDxXeGo'
+token = __import__('os').environ.get('CLOUDFLARE_API_TOKEN', '')
 account_id = 'edb167b78c9fb901ea5bca3ce58ccc4b'
 zone_qnfo = '84e9dc1d7fb72629ccdbe3174ed24420'
 zone_qwav = '331e4363fd05e8e4fc123ea7d2775411'
