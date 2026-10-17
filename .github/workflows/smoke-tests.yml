@@ -28,6 +28,13 @@ jobs:
 
   smoke:
     runs-on: ubuntu-latest
+    # WORKFLOW-PERMS-1 (2026-10-17): this job files an issue on failure with the run-scoped
+    # GITHUB_TOKEN. The org default for that token is now read-only, so the grant is explicit;
+    # without it the failure notifier dies instead of reporting.
+    permissions:
+      contents: read
+      issues: write
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
