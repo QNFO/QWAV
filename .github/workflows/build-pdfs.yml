@@ -15,7 +15,7 @@ on:
 # same branch supersedes the first instead of paying for both. Previously absent.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build-pdfs:
