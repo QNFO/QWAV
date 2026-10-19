@@ -1,15 +1,26 @@
 name: Build PDFs from Papers
 
+# GHA-AUDIT-QWAV-1 (2026-10-19, pillar security; qnfo-workers agent_issues 2508): every ${{ }} value reaches bash through env:, so a
+# dispatch input or a file name can no longer run as code; the dispatch input must be a plain file name in papers/; a push builds
+# only the .md files the push changed (a new branch, whose "before" is all zeros, falls back to the head commit); a run that builds
+# nothing says so and passes, and a failed build fails the job; the push trigger is limited to main and matches papers/*.md and
+# nested folders (papers/**.md matched neither); the actions are the commit pins qnfo-workers CI runs (Node 24 runtime).
+
 on:
   push:
+    branches: [main]
     paths:
-      - 'papers/**.md'
+      - 'papers/*.md'
+      - 'papers/**/*.md'
   workflow_dispatch:
     inputs:
       paper:
         description: 'Specific paper to build (filename in papers/, or "all")'
         required: false
         default: 'all'
+
+permissions:
+  contents: read
 
 # WORKFLOW-CONCURRENCY-1 (2026-10-17): a second run of the same workflow on the
 # same branch supersedes the first instead of paying for both. Previously absent.
@@ -26,12 +37,12 @@ jobs:
       contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
 
@@ -42,35 +53,71 @@ jobs:
 
       - name: Determine changed papers
         id: changed
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PAPER_INPUT: ${{ github.event.inputs.paper }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.event.after }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            if [ "${{ github.event.inputs.paper }}" = "all" ]; then
-              echo "files=$(ls papers/*.md | grep -v index.md | jq -R -s -c 'split(\"\n\")[:-1]')" >> $GITHUB_OUTPUT
+          set -euo pipefail
+          shopt -s nullglob
+          list=()
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            if [ -z "$PAPER_INPUT" ] || [ "$PAPER_INPUT" = "all" ]; then
+              for f in papers/*.md; do
+                [ "$(basename "$f")" = "index.md" ] || list+=("$f")
+              done
             else
-              echo "files=[\"papers/${{ github.event.inputs.paper }}\"]" >> $GITHUB_OUTPUT
+              case "$PAPER_INPUT" in
+                */*|*..*|*[!A-Za-z0-9._-]*)
+                  echo "::error::paper must be a plain file name in papers/ (letters, digits, dot, dash, underscore)"
+                  exit 1 ;;
+              esac
+              if [ ! -f "papers/$PAPER_INPUT" ]; then
+                echo "::error::papers/$PAPER_INPUT does not exist"
+                exit 1
+              fi
+              list+=("papers/$PAPER_INPUT")
             fi
           else
-            # Get changed .md files from push
-            git diff --name-only ${{ github.event.before }} ${{ github.event.after }} -- 'papers/**.md' | grep -v index.md > /tmp/changed.txt
-            echo "files=$(cat /tmp/changed.txt | jq -R -s -c 'split(\"\n\")[:-1]')" >> $GITHUB_OUTPUT
+            changed=()
+            if [ -z "$BEFORE_SHA" ] || [ "$BEFORE_SHA" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
+              # A new branch or a rewritten history has no usable "before": judge the head commit on its own.
+              mapfile -t changed < <(git diff-tree --root --no-commit-id --name-only -r "$AFTER_SHA" -- 'papers/*.md')
+            else
+              mapfile -t changed < <(git diff --name-only "$BEFORE_SHA" "$AFTER_SHA" -- 'papers/*.md')
+            fi
+            for f in "${changed[@]}"; do
+              [ "$(basename "$f")" = "index.md" ] && continue
+              [ -f "$f" ] && list+=("$f")
+            done
           fi
+          echo "Papers to build: ${#list[@]}"
+          files="$(jq -n -c '$ARGS.positional' --args "${list[@]}")"
+          echo "files=$files" >> "$GITHUB_OUTPUT"
 
       - name: Build PDFs
+        env:
+          FILES: ${{ steps.changed.outputs.files }}
         run: |
+          set -euo pipefail
           mkdir -p papers/pdf
-          echo '${{ steps.changed.outputs.files }}' | jq -r '.[]' | while read paper; do
-            if [ -f "$paper" ]; then
-              echo "Building PDF for: $paper"
-              python scripts/build_pdf.py --input "$paper" --output "papers/pdf/$(basename "$paper" .md).pdf" --style academic
-            fi
-          done
+          count=0
+          while IFS= read -r paper; do
+            [ -n "$paper" ] || continue
+            echo "Building PDF for: $paper"
+            python scripts/build_pdf.py --input "$paper" --output "papers/pdf/$(basename "$paper" .md).pdf" --style academic
+            count=$((count + 1))
+          done < <(printf '%s' "$FILES" | jq -r '.[]')
+          echo "Built $count PDF(s)"
 
       - name: Upload PDF artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: paper-pdfs
           path: papers/pdf/*.pdf
           retention-days: 90
+          if-no-files-found: ignore
 
       - name: Commit PDFs to repo
         run: |
