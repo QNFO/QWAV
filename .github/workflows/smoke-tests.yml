@@ -1,5 +1,9 @@
 name: Weekly Smoke Tests
 
+# GHA-AUDIT-QWAV-1 (2026-10-19, pillar security; qnfo-workers agent_issues 2508): both jobs have a timeout and read-only
+# permissions (the reporter job adds issues: write), the actions are the commit pins qnfo-workers CI runs (Node 24 runtime), and the
+# failure reporter files its issue without labels when a label is missing instead of dying on it.
+
 on:
   schedule:
     - cron: '0 9 * * 1'  # Every Monday at 9 AM UTC
@@ -14,6 +18,9 @@ on:
       - 'index.html'
       - '.github/workflows/smoke-tests.yml'
 
+permissions:
+  contents: read
+
 # WORKFLOW-CONCURRENCY-1 (2026-10-17): a second run of the same workflow on the
 # same branch supersedes the first instead of paying for both. Previously absent.
 concurrency:
@@ -23,9 +30,12 @@ concurrency:
 jobs:
   structural:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
       - run: pip install pytest
@@ -42,8 +52,8 @@ jobs:
       issues: write
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: '3.12'
       - run: python tests/test_smoke.py
@@ -51,17 +61,15 @@ jobs:
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          EVENT_NAME: ${{ github.event_name }}
+          RUN_ID: ${{ github.run_id }}
+          SERVER_URL: ${{ github.server_url }}
         run: |
           echo "Smoke tests failed. Creating issue..."
-          gh issue create \
-            --repo ${{ github.repository }} \
-            --title "Smoke test failure — $(date -u +'%Y-%m-%d')" \
-            --label "bug,testing,P2" \
-            --body "Automated smoke tests failed on $(date -u +'%Y-%m-%d %H:%M UTC').
-          
-          **Triggered by:** ${{ github.event_name }}
-          **Run:** [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
-          
-          Review the [Actions log](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for details.
-          
-          Run `python tests/test_smoke.py` locally to reproduce."
+          run_url="$SERVER_URL/$REPO/actions/runs/$RUN_ID"
+          title="Smoke test failure — $(date -u +'%Y-%m-%d')"
+          body="$(printf 'Automated smoke tests failed on %s.\n\n**Triggered by:** %s\n**Run:** [%s](%s)\n\nReview the [Actions log](%s) for details.\n\nRun `python tests/test_smoke.py` locally to reproduce.' "$(date -u +'%Y-%m-%d %H:%M UTC')" "$EVENT_NAME" "$RUN_ID" "$run_url" "$run_url")"
+          # A missing label makes gh refuse the whole issue; retry without labels so the failure is still reported.
+          gh issue create --repo "$REPO" --title "$title" --label "bug,testing,P2" --body "$body" \
+            || gh issue create --repo "$REPO" --title "$title" --body "$body"
