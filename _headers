@@ -1,0 +1,10 @@
+# EDGE-HEADERS-1 (BP26-EDGE-SECURITY-1, QNFO/qnfo-workers issue 4452): security headers on every page of qwav.org (Cloudflare Pages project "qwav").
+# Pages already adds X-Content-Type-Options: nosniff and Referrer-Policy: strict-origin-when-cross-origin; this file adds HSTS, frame protection and a Permissions-Policy.
+# Source: OWASP Secure Headers Project (https://owasp.org/www-project-secure-headers/), Cloudflare Pages headers (https://developers.cloudflare.com/pages/configuration/headers/).
+# Deploy: the qwav-pages-deploy workflow in QNFO/qnfo-workers (the project is not git-connected). Rollback: delete this file and deploy again.
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
