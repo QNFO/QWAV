@@ -1,2 +1,6 @@
-# deep.qwav.tech routing — root redirect to papers
-/  /papers/  301
+# Root serves index.html (QWAV ultrametric computing platform / JPCUB).
+# Papers index lives at /papers/; deep.qwav.tech root -> /papers/ is handled
+# by a zone-level redirect rule on the qwav.tech zone (see www-redirect ruleset).
+# Do NOT re-add a bare "/  /papers/  301" here: Pages _redirects rules are
+# project-wide and would hijack qwav.org, qwav.net, www.qwav.uk and every
+# other custom domain on this deployment (that was the stale-page bug).
