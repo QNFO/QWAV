@@ -1,0 +1,14 @@
+# ACTIONS-PIN-1 (QNFO/qnfo-workers GHA-AUDIT-1, 2026-10-13): actions are pinned to commit SHAs with a "# vN" comment;
+# Dependabot moves the SHA and the comment together, once a month, in one grouped pull request.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: "ci(actions)"
+    open-pull-requests-limit: 2
