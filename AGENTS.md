@@ -59,4 +59,11 @@ Each repo keeps a roadmap issue ("Roadmap: next 5 features") with at most 5 item
 - `scripts/audit.py` (run every 6h by `.github/workflows/fleet-audit.yml`) checks all active repos and files issues for gaps. Fix findings labelled `fleet-audit` before starting new work.
 - Never stop at "waiting for the owner". If an action is reversible and in scope, do it; if it is truly blocked, file the blocker as an issue with an owner and a closing probe, then continue with other work.
 
+## 8. Close your own loops (CLOSE-OWN-LOOPS-1, owner directive 2026-11-06)
+- Every item you open or mention (issue, PR, branch, claim, follow-up, blocker, "next step") is a loop with an owner (an agent or loop, never the person), a fix, a closing probe and evidence. Record it as a GitHub issue labelled `loop` the moment you mention it. Prose in a reply is never the only record, and nothing is lost between sessions.
+- Close your own loops without being asked: finish, verify, comment the evidence, close. A permission check that refuses an action is stated plainly; file the issue with the exact blocker and a probe that detects the unblocked state, then take the next loop. Never reword the same action past the same refusal.
+- Close-out checklist before ending any turn: (1) list your open loops: `gh api "repos/<repo>/issues?labels=loop&state=open"`; (2) each is closed with evidence, or has owner, exact blocker and probe; (3) every PR you opened is green or has a filed reason; (4) the handoff file is current. Only then report.
+- A step only the owner can take (a credential, money, a legal or signing act, the owner's own accounts) is an issue with an `IDENTITY-BOUND:` line, its default in effect and a closing probe. It is never an instruction in prose.
+- `scripts/audit.py` closes its own `fleet-audit` issues with evidence once the finding stops reporting, and flags any `loop` issue without a `closing probe:` line.
+
 <!-- fleet-protocol:end -->
