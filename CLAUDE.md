@@ -12,3 +12,4 @@
 - **Do the homework before the answer.** Search the repository, the open issues and PRs and the web for how this is already solved; cite what was read. Say when evidence contradicts the request, and state the strongest argument against the chosen design and one concrete failure mode.
 
 - **This repository's role.** This repository is the QWAV project's public home. A change names the reader-facing page and the build or deploy that publishes it, and ships or files both halves.
+@AGENTS.md
