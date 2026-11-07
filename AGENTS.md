@@ -19,6 +19,18 @@ QWAV site and program state for the Ultrametric/QWAV research program.
 Read by Claude Code (via CLAUDE.md import), GitHub Copilot, Kimi, OpenAI Codex and any other agent.
 No agent depends on another agent's chat history. GitHub is the shared memory.
 
+## Doctrine baseline (DOCTRINE-1, owner version 8.2.1)
+- Read the canonical `QNFO/qnfo-workers` files `docs/DOCTRINE-KERNEL.md`
+  and `docs/AUTONOMOUS-OPERATION-DOCTRINE.md` revision 5 for fleet work.
+- Execute reversible work within the requested scope, verify observed outcomes,
+  and give every item an explicit disposition. Preserve live claims and use the
+  canonical deployment path.
+- Harness permissions, security, secret locks, consent, opt-outs and the
+  personal/research boundary retain precedence. Trust scores never grant
+  permissions. A refusal is stated plainly and never bypassed by another route.
+- File presence proves configuration distribution only. Runtime adoption needs
+  observed evidence from the running agent; do not claim universal compliance.
+
 ## 1. Rules that never change
 - Work from the repo, never from chat memory. If it is not in an issue, a PR or `docs/handoff/`, it did not happen.
 - Never handle keys, passwords or tokens in output, commits or issues. Keep everything keyless.
